@@ -1,0 +1,1 @@
+java -mx300m -classpath libs/stanford-corenlp-3.2.0.jar edu.stanford.nlp.tagger.maxent.MaxentTagger -props "nlpTrain.props" -trainFile "POS 1\jd_1.txt";"POS 1\jd_2.txt";"POS 2\june_1.txt";"POS 2\june_2.txt";"POS 3\sri_1.txt";"POS 3\sri_2.txt";"POS 4\LG_1.txt";"POS 4\LG_2.txt";"POS 5\WL_1.txt";"POS 5\WL_2.txt"  -model "nlpTrain.tagger"
