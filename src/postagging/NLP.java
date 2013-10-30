@@ -181,21 +181,25 @@ public class NLP {
 		            Node textNode = doc.getElementsByTagName("text").item(0).getFirstChild();
 		            String posTagged = textNode.getNodeValue();
 		            String[] tags = posTagged.split(" ");
+		            ArrayList<Word> multiWordBuffer = new ArrayList<Word>();
 		            for (String tag : tags){
 		            	String[] parts=tag.split("/");
 		            	
-		            	if(corpus.wordMap.containsKey(parts[0].toLowerCase())){
-		            		WordInformation wi = corpus.wordMap.get(parts[0].toLowerCase());
-		            		wi.corpusFreqency++;
-		            		if(wi.tagFrequency.containsKey(parts[1])){
-		            			wi.tagFrequency.put(parts[1], wi.tagFrequency.get(parts[1]).intValue()+1);
+		            	if(corpus.words.containsKey(parts[0].toLowerCase())){
+		            		entities.Word w = corpus.words.get(parts[0].toLowerCase());
+		            		//WordInformation wi = corpus.wordMap.get(parts[0].toLowerCase());
+		            		w.wordCount++;
+		            		if(w.tagsCount.containsKey(parts[1])){
+		            			w.tagsCount.put(parts[1], w.tagsCount.get(parts[1]).intValue()+1);
 		            		}else{
-		            			wi.tagFrequency.put(parts[1], 1);
+		            			w.tagsCount.put(parts[1], 1);
 		            		}
 		            	}else{
-		            		WordInformation wi = new WordInformation(parts[0].toLowerCase());
-		            		wi.tagFrequency.put(parts[1], 1);
-		            		corpus.wordMap.put(parts[0].toLowerCase(), wi);
+		            		entities.Word w = new entities.Word(parts[0].toLowerCase());
+		            		w.tagsCount.put(parts[1], 1);
+		            		//WordInformation wi = new WordInformation(parts[0].toLowerCase());
+		            		//wi.tagFrequency.put(parts[1], 1);
+		            		corpus.words.put(parts[0].toLowerCase(), w);
 		            	}
 		            }
 				}catch (Exception e){
