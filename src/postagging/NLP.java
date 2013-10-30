@@ -41,6 +41,7 @@ import edu.stanford.nlp.tagger.maxent.MaxentTagger;
 
 
 
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -74,6 +75,7 @@ import org.xml.sax.SAXException;
 
 import edu.stanford.nlp.ling.*;
 import edu.stanford.nlp.trees.*;
+import entities.CombinedWord;
 import entities.Corpus;
 import entities.WordInformation;
 
@@ -181,7 +183,7 @@ public class NLP {
 		            Node textNode = doc.getElementsByTagName("text").item(0).getFirstChild();
 		            String posTagged = textNode.getNodeValue();
 		            String[] tags = posTagged.split(" ");
-		            ArrayList<Word> multiWordBuffer = new ArrayList<Word>();
+		            ArrayList<entities.Word> multiWordBuffer = new ArrayList<entities.Word>();
 		            for (String tag : tags){
 		            	String[] parts=tag.split("/");
 		            	
@@ -189,17 +191,80 @@ public class NLP {
 		            		entities.Word w = corpus.words.get(parts[0].toLowerCase());
 		            		//WordInformation wi = corpus.wordMap.get(parts[0].toLowerCase());
 		            		w.wordCount++;
-		            		if(w.tagsCount.containsKey(parts[1])){
-		            			w.tagsCount.put(parts[1], w.tagsCount.get(parts[1]).intValue()+1);
+		            		w.addTag(parts[1]);
+		            		w.addDomain(f.getName());
+		            		//Add NN to multiword
+		            		if(parts[1].startsWith("NN")){
+		            			//While the multiword has not ended, add it to list
+		            			multiWordBuffer.add(w);
 		            		}else{
-		            			w.tagsCount.put(parts[1], 1);
+		            			//else assemble the multi word and put it into corpus
+		            			if(multiWordBuffer.size()>1){
+		            				String combinedWord = "";
+		            				//Join the combined words buffer
+		            				for(entities.Word tmpWord:multiWordBuffer)
+		            					combinedWord+=tmpWord.word+ " ";
+		            				//Remove Trailing whitespace
+		            				combinedWord = combinedWord.substring(0, combinedWord.length()-1);
+		            				//if the corpus does not contain the word
+		            				if(!corpus.words.containsKey(combinedWord)){
+		            					//Create a combined word entity and fill it up
+		            					CombinedWord cw = new CombinedWord(combinedWord);
+		            					cw.addTag("NN");
+		            					cw.addDomain(f.getName());
+		            					for(entities.Word tmpWord:multiWordBuffer)
+			            					cw.wordParts.add(tmpWord);
+		            					corpus.words.put(combinedWord, cw);
+		            				}else{
+		            					//update the exisiting combinedword entity if it already exists
+		            					CombinedWord cw = (CombinedWord) corpus.words.get(combinedWord);
+		            					cw.wordCount++;
+		            					cw.addTag("NN");
+		            					cw.addDomain(f.getName());
+		            				}
+		            			}
+		            			//clear buffer in prep for next multi word
+		            			multiWordBuffer.clear();
 		            		}
+		            		
 		            	}else{
 		            		entities.Word w = new entities.Word(parts[0].toLowerCase());
 		            		w.tagsCount.put(parts[1], 1);
-		            		//WordInformation wi = new WordInformation(parts[0].toLowerCase());
-		            		//wi.tagFrequency.put(parts[1], 1);
+		            		w.addTag(parts[1]);
+		            		w.addDomain(f.getName());
 		            		corpus.words.put(parts[0].toLowerCase(), w);
+		            		if(parts[1].startsWith("NN")){
+		            			//While the multiword has not ended, add it to list
+		            			multiWordBuffer.add(w);
+		            		}else{
+		            			//else assemble the multi word and put it into corpus
+		            			if(multiWordBuffer.size()>1){
+		            				String combinedWord = "";
+		            				//Join the combined words buffer
+		            				for(entities.Word tmpWord:multiWordBuffer)
+		            					combinedWord+=tmpWord.word+ " ";
+		            				//Remove Trailing whitespace
+		            				combinedWord = combinedWord.substring(0, combinedWord.length());
+		            				//if the corpus does not contain the word
+		            				if(!corpus.words.containsKey(combinedWord)){
+		            					//Create a combined word entity and fill it up
+		            					CombinedWord cw = new CombinedWord(combinedWord);
+		            					cw.addTag("NN");
+		            					cw.addDomain(f.getName());
+		            					for(entities.Word tmpWord:multiWordBuffer)
+			            					cw.wordParts.add(tmpWord);
+		            					corpus.words.put(combinedWord, cw);
+		            				}else{
+		            					//update the exisiting combinedword entity if it already exists
+		            					CombinedWord cw = (CombinedWord) corpus.words.get(combinedWord);
+		            					cw.wordCount++;
+		            					cw.addTag("NN");
+		            					cw.addDomain(f.getName());
+		            				}
+		            			}
+		            			//clear buffer in prep for next multi word
+		            			multiWordBuffer.clear();
+		            		}
 		            	}
 		            }
 				}catch (Exception e){
@@ -207,34 +272,34 @@ public class NLP {
 				}
 			}
         }
-        System.out.println("Total Number of Unique Words = " + corpus.wordMap.size());
-        ArrayList<WordInformation > alwi = new ArrayList<>(corpus.wordMap.values());
-        Comparator<WordInformation> c = new Comparator<WordInformation>() {
+        System.out.println("Total Number of Unique Words = " + corpus.words.size());
+        ArrayList<entities.Word > alwi = new ArrayList<>(corpus.words.values());
+        Comparator<entities.Word> c = new Comparator<entities.Word>() {
 			
 			@Override
-			public int compare(WordInformation o1, WordInformation o2) {
-				if((o2.tagFrequency.containsKey("NN")||(o2.tagFrequency.containsKey("NNP"))&&(o1.tagFrequency.containsKey("NN")||(o1.tagFrequency.containsKey("NNP"))))){
-					int o2int = (o2.tagFrequency.containsKey("NN")?o2.tagFrequency.get("NN"):0) + (o2.tagFrequency.containsKey("NNP")?o2.tagFrequency.get("NNP"):0);
-					int o1int = (o1.tagFrequency.containsKey("NN")?o1.tagFrequency.get("NN"):0) + (o1.tagFrequency.containsKey("NNP")?o1.tagFrequency.get("NNP"):0);
+			public int compare(entities.Word o1, entities.Word o2) {
+				if((o2.tagsCount.containsKey("NN")||(o2.tagsCount.containsKey("NNP"))&&(o1.tagsCount.containsKey("NN")||(o1.tagsCount.containsKey("NNP"))))){
+					int o2int = (o2.tagsCount.containsKey("NN")?o2.tagsCount.get("NN"):0) + (o2.tagsCount.containsKey("NNP")?o2.tagsCount.get("NNP"):0);
+					int o1int = (o1.tagsCount.containsKey("NN")?o1.tagsCount.get("NN"):0) + (o1.tagsCount.containsKey("NNP")?o1.tagsCount.get("NNP"):0);
 					return o2int - o1int;
 					//return o2.tagFrequency - o1.corpusFreqency ;
-				}else if(o2.tagFrequency.containsKey("NN")||(o2.tagFrequency.containsKey("NNP"))){
+				}else if(o2.tagsCount.containsKey("NN")||(o2.tagsCount.containsKey("NNP"))){
 					return 1;
-				}else if(o1.tagFrequency.containsKey("NN")||(o1.tagFrequency.containsKey("NNP"))){
+				}else if(o1.tagsCount.containsKey("NN")||(o1.tagsCount.containsKey("NNP"))){
 					return -1;
 				}return 0;
 				
 			}
 		};
 		Collections.sort(alwi,c);
-        for(WordInformation wi : alwi){
-        	System.out.println(wi.word + " appeared " + wi.corpusFreqency);
-        	Iterator it = wi.tagFrequency.entrySet().iterator();
-        	while(it.hasNext()){
-        		Map.Entry pairs = (Map.Entry)it.next();
-        		System.out.println((String)pairs.getKey() + " : " + (Integer)pairs.getValue());
-        		it.remove();
-        	}
+        for(entities.Word wi : alwi){
+        	System.out.println(wi.word + " appeared " + wi.tagsCount + "\nIn"+ wi.domainCount.size() + " unique domains " + wi.domainCount);
+//        	Iterator it = wi.tagsCount.entrySet().iterator();
+//        	while(it.hasNext()){
+//        		Map.Entry pairs = (Map.Entry)it.next();
+//        		System.out.println((String)pairs.getKey() + " : " + (Integer)pairs.getValue());
+//        		it.remove();
+//        	}
         	System.out.println();
         }
         System.out.println();

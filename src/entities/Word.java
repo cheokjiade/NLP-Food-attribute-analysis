@@ -18,4 +18,19 @@ public class Word {
 		linksTo = new HashMap<>();
 		linkedFrom = new HashMap<>();
 	}
+	public void addTag(String tag){
+		if(tagsCount.containsKey(tag)){
+			tagsCount.put(tag, tagsCount.get(tag).intValue()+1);
+		}else{
+			tagsCount.put(tag, 1);
+		}
+	}
+	
+	public void addDomain(String domain){
+		if(domainCount.containsKey(domain)){
+			domainCount.put(domain, domainCount.get(domain).intValue()+1);
+		}else{
+			domainCount.put(domain, 1);
+		}
+	}
 }

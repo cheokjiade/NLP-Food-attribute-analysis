@@ -11,4 +11,9 @@ public class Links {
 	public int linkCount;
 	//the number of times it occurs in a domain
 	public HashMap<String, Integer> domainCount;
+	
+	public Links(Word subject, Word object){
+		this.subject = subject;
+		this.object = object;
+	}
 }
