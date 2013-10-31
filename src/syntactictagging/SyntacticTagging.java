@@ -16,6 +16,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 
 import org.w3c.dom.Node;
 
+import postagging.NLP;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.ling.HasWord;
 import edu.stanford.nlp.ling.Label;
@@ -36,13 +37,14 @@ import edu.stanford.nlp.util.Function;
 import edu.stanford.nlp.util.Generics;
 import edu.stanford.nlp.util.Timing;
 import entities.Corpus;
+import entities.Links;
 
 public class SyntacticTagging {
 
 	public static final String TAGGED_XML_FILES_FOLDER = "xmldocstagged";
 	public static void main(String[] args) {
 		//createSyntacticTrees("It/PRP 's/POS late/NN at/IN night/NN and/CC you/PRP are/VBP feeling/VBG a/DT little/JJ hungry/NN for/IN a/DT something/NN seriously/RB lemak/NN -LRB-/IN rich/JJ and/CC savoury/JJ -RRB-/NN because/IN you/PRP have/VBP been/VBN trying/VBG to/TO go/VB on/IN a/DT salad/NN and/CC fruit/NN diet/NN for/IN the/DT whole/JJ day/NN ./.\nWhat/WP do/VBP you/PRP do/VBP ?/.\nWell/RB ,/, you/PRP could/MD turn/VB on/IN the/DT computer/NN ,/, log/VB onto/IN ieatishootipost/NN and/CC check/VB out/IN the/DT After/JJ 10/CD label/NN ./.\nThen/RB a/DT big/JJ smile/NN will/MD come/VB across/IN your/PRP$ face/NN when/WRB you/PRP discover/VB this/DT blog/NN ./.\nCos/NNP salvation/NNP is/VBZ at/IN hand/NN !/.\nThere/EX is/VBZ a/DT Nasi/NNP Lemak/NNP place/NN dishing/VBG out/IN Nasi/NNP Lemak/NNP with/IN a/DT seriously/RB shiok/JJ curry/NN till/NN 2/CD am/VBP !/.\nI/PRP really/RB liked/VBD Hainanese/NNP Style/NNP Curry/NNP Chicken/NNP Wings/NNP ./.\nThe/DT curry/NN gravy/NN is/VBZ darn/JJ shiok/NN and/CC sure/VB to/TO satisfy/VB your/PRP$ umami/NN -LRB-/NN savoury/NN -RRB-/NN craving/NN ./.\nThis/DT place/NN is/VBZ also/RB famous/JJ for/IN its/PRP$ Black/JJ Chicken/NNP Wings/NNP ./.\nThese/DT are/VBP fried/JJ chicken/NN wings/NNS coated/VBN with/IN a/DT sweet/JJ and/CC savoury/JJ ,/, Kecap/NNP Manis/NNS based/VBD sauce/NN ./.\nThe/DT sauce/NN is/VBZ very/RB shiok/JJ but/CC I/PRP found/VBD the/DT chicken/NN wings/NNS a/DT bit/NN overcooked/VBN that/IN night/NN so/IN it/PRP was/VBD a/DT bit/NN too/RB dry/JJ ./.\nThe/DT rice/NN was/VBD fragrant/JJ ,/, but/CC not/RB the/DT best/JJS I/PRP have/VBP tasted/VBN ./.\nSambal/NNP chilli/NN was/VBD the/DT sweeter/NN version/NN which/WRB I/PRP always/RB prefer/VB with/IN my/PRP$ Nasi/NNP Lemak/NNP ./.\nForummers/NNS have/VBP raved/VBN about/IN the/DT Petai/NNP -LRB-/NNP Topmost/NNP pic/NN -RRB-/NN but/CC I/PRP do/VBP n't/RB think/VB I/PRP have/VBP developed/VBN a/DT taste/NN for/IN it/PRP ./.\nI/PRP find/VB it/PRP too/RB bitter/JJ for/IN my/PRP$ palate/NN ./.\nAll/PDT the/DT curry/NN dishes/NNS here/RB are/VBP very/RB very/RB good/JJ ./.\nAside/RB from/IN the/DT curry/NN chicken/NN ,/, the/DT brinjal/NN and/CC the/DT Sayur/NNP Lodeh/NNP -LRB-/NNP Mixed/NNP Veg/NNP Curry/NNP -RRB-/NNP were/VBD excellent/JJ ./.\nMy/PRP$ only/RB other/JJ complaint/NN is/VBZ that/IN they/PRP do/VBP n't/RB use/VB a/DT Bain-Marie/NN to/TO keep/VB the/DT food/NN warm/JJ ,/, so/RB only/RB the/DT rice/NN is/VBZ warm/JJ ./.\nIt/PRP would/MD have/VB been/VBN great/JJ if/IN the/DT curries/NNS were/VBD not/RB cold/JJ ./.\nGood/JJ place/NN to/TO satisfy/VB your/PRP$ Nasi/NNP Lemak/NNP craving/NN with/IN some/DT really/RB excellent/JJ curries/NNS ./.\nWould/MD have/VB been/VBN perfect/JJ if/IN the/DT food/NN was/VBD warm/JJ and/CC the/DT fried/JJ stuff/NN were/VBD not/RB over/RB fried/VBD ./.\n");
-		createSyntacticTreesFromXML();
+		//createSyntacticTreesFromXML();
 	}
 	
 	public static void createAndPrintSyntacticTreesFromXML(){
@@ -111,7 +113,7 @@ public class SyntacticTagging {
 		}
 	}
 	
-	public static void createSyntacticTreesFromXML(){
+	public static void createSyntacticTreesFromXML(Corpus corpus){
 		File[] files = new File(TAGGED_XML_FILES_FOLDER).listFiles();
 		System.out.println("File Count: " + files.length);
 		
@@ -122,16 +124,17 @@ public class SyntacticTagging {
 		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder dBuilder;
         
-//        Corpus corpus;
-//        //List<Word> wordList = db.Db4oHelper.getInstance().db().query(Word.class);
-//        List<Corpus> corpusList = db.Db4oHelper.getInstance().db().query(Corpus.class);
-//        
-//        if(corpusList.size()==0){
-//        	corpus = new Corpus();
-//        }else{
-//        	corpus = corpusList.get(0);
-//        }
         
+        //List<Word> wordList = db.Db4oHelper.getInstance().db().query(Word.class);
+        if(corpus==null){
+	        List<Corpus> corpusList = db.Db4oHelper.getInstance().db().query(Corpus.class);
+	        
+	        if(corpusList.size()==0){
+	        	corpus = new Corpus();
+	        }else{
+	        	corpus = corpusList.get(0);
+	        }
+        }
 		for(File f:files){
 			if(f.getName().endsWith(".xml")){
 				try {
@@ -156,10 +159,9 @@ public class SyntacticTagging {
 		    	    //String outputString = "";
 		    	    for(List<HasWord>a:documentPreprocessor)document.add(a);
 		    	    for(List<? extends HasWord> sentence:document){
-		    	    	System.out.println(sentence.get(0));
 		    	    	//each sentence is 1 tree. Use this tree for everything
 		    	    	Tree tree = lp.parse(sentence);
-		    	    	tree.pennPrint();
+		    	    	//tree.pennPrint();
 		    	    	//ArrayList<Tree> btmBranchList = new ArrayList<Tree>();
 		    	    	//Tree tmpBtmBranch = null;
 		    	    	//outputString+=tree.pennString();
@@ -170,7 +172,8 @@ public class SyntacticTagging {
 
 		    	          for(TypedDependency td:gs.typedDependencies()){
 		    	        	  if(td.reln().toString().equals("advmod")||td.reln().toString().equals("acomp")||td.reln().toString().equals("amod")||td.reln().toString().equals("conj")||td.reln().toString().equals("nsubj")){
-			    	        	  System.out.println(td.reln());
+		    	        		  System.out.println(td.toString());
+		    	        		  //System.out.println(td.reln());
 			    	        	  //There is an existing link from dep to gov
 //			    	        	  if(corpus.words.get(td.dep().nodeString()).linksTo.containsKey(td.gov().nodeString())){
 //			    	        		  corpus.words.get(td.dep().nodeString()).linksTo.get(td.gov().nodeString()).linkCount++;
@@ -183,9 +186,27 @@ public class SyntacticTagging {
 //			    	        		  corpus.words.get(td.gov().nodeString()).linksTo.get(td.dep().nodeString()).addDomain(f.getName());
 //			    	        	  }
 			    	        	  String[] posSplitSentence = posTaggedSentence.split(" ");
-			    	        	  System.out.println(td.gov().nodeString() + " " + td.gov().index() + posSplitSentence[td.gov().index()-1].split("/")[1]);
-			    	        	  System.out.println(td.dep().nodeString() + " " + td.dep().index() + posSplitSentence[td.dep().index()-1].split("/")[1]);
-			    	        	  System.out.println(td.toString());
+			    	        	  
+			    	        		  entities.Word govWord = corpus.words.get(td.gov().nodeString().toLowerCase());
+			    	        		  entities.Word depWord = corpus.words.get(td.dep().nodeString().toLowerCase());
+			    	        		  
+			    	        		  entities.Links linkedFrom = govWord.linkedFrom.get(td.gov().nodeString().toLowerCase());
+			    	        		  if(linkedFrom==null){
+			    	        			  entities.Links newLink = new Links(govWord,posSplitSentence[td.gov().index()-1].split("/")[1], depWord,posSplitSentence[td.dep().index()-1].split("/")[1]);
+			    	        			  newLink.addDomain(f.getName());
+			    	        			  govWord.linkedFrom.put(depWord.word, newLink);
+			    	        			  depWord.linksTo.put(govWord.word, newLink);
+			    	        		  }else{
+			    	        			  linkedFrom.linkCount++;
+			    	        			  linkedFrom.addDomain(f.getName());
+			    	        		  }
+
+			    	        	  //System.out.println(td.gov().nodeString() + " " + td.gov().index() + posSplitSentence[td.gov().index()-1].split("/")[1]);
+			    	        	  //System.out.println(td.dep().nodeString() + " " + td.dep().index() + posSplitSentence[td.dep().index()-1].split("/")[1]);
+			    	        	  
+			    	        	  db.Db4oHelper.getInstance().db().store(linkedFrom);
+			    	        	  db.Db4oHelper.getInstance().db().store(govWord);
+			    	        	  db.Db4oHelper.getInstance().db().store(depWord);
 		    	        	  }
 		    	          }
 		    	          
@@ -206,7 +227,11 @@ public class SyntacticTagging {
 					
 				}
 			}
+			db.Db4oHelper.getInstance().db().commit();
 		}
+		db.Db4oHelper.getInstance().db().store(corpus);
+		db.Db4oHelper.getInstance().db().close();
+		NLP.printCompleteStatistics(corpus);
 	}
 	
 	public static void createSyntacticTrees(String s){

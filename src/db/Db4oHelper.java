@@ -55,14 +55,14 @@ public class Db4oHelper {
 	           EmbeddedConfiguration configuration = Db4oEmbedded.newConfiguration();
 	           
 	           configuration.common().objectClass(Corpus.class).cascadeOnUpdate(true);
-	           configuration.common().objectClass(Corpus.class).updateDepth(15);
+	           configuration.common().objectClass(Corpus.class).updateDepth(25);
 	           configuration.common().objectClass(Domain.class).cascadeOnUpdate(true);
 	           configuration.common().objectClass(CombinedWord.class).cascadeOnUpdate(true);
-	           configuration.common().objectClass(CombinedWord.class).updateDepth(15);
+	           configuration.common().objectClass(CombinedWord.class).updateDepth(25);
 	           configuration.common().objectClass(Word.class).cascadeOnUpdate(true);
-	           configuration.common().objectClass(Word.class).updateDepth(15);
+	           configuration.common().objectClass(Word.class).updateDepth(25);
 	           configuration.common().objectClass(Links.class).cascadeOnUpdate(true);
-	           configuration.common().objectClass(Links.class).updateDepth(15);
+	           configuration.common().objectClass(Links.class).updateDepth(25);
 	           configuration.common().objectClass(HashMap.class).cascadeOnUpdate(true);
 	           
 	           configuration.common().objectClass(Corpus.class).cascadeOnDelete(true);

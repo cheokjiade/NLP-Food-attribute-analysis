@@ -43,6 +43,8 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 
+
+import syntactictagging.SyntacticTagging;
 import edu.stanford.nlp.ling.*;
 import edu.stanford.nlp.trees.*;
 import entities.CombinedWord;
@@ -265,8 +267,13 @@ public class NLP {
         db.Db4oHelper.getInstance().db().commit();
         
         db.Db4oHelper.getInstance().db().close();
+        SyntacticTagging.createSyntacticTreesFromXML(corpus);
         
-        System.out.println("Total Number of Unique Words = " + corpus.words.size());
+		//dp.
+	}
+	
+	public static void printCompleteStatistics(Corpus corpus){
+		System.out.println("Total Number of Unique Words = " + corpus.words.size());
         ArrayList<entities.Word > alwi = new ArrayList<>(corpus.words.values());
         Comparator<entities.Word> c = new Comparator<entities.Word>() {
 			
@@ -288,6 +295,8 @@ public class NLP {
 		Collections.sort(alwi,c);
         for(entities.Word wi : alwi){
         	System.out.println(wi.word + " appeared " + wi.tagsCount + "\nIn"+ wi.domainCount.size() + " unique domains " + wi.domainCount);
+        	System.out.println("Number of links to: " + wi.linksTo.size() + " " + wi.linksTo);
+        	System.out.println("Number of links from: " + wi.linkedFrom.size() + " " + wi.linkedFrom);
 //        	Iterator it = wi.tagsCount.entrySet().iterator();
 //        	while(it.hasNext()){
 //        		Map.Entry pairs = (Map.Entry)it.next();
@@ -298,7 +307,6 @@ public class NLP {
         }
         System.out.println();
         System.out.println();
-		//dp.
 	}
 	
 	public static void tagAllXMLFiles(){

@@ -12,9 +12,13 @@ public class Links {
 	//the number of times it occurs in a domain
 	public HashMap<String, Integer> domainCount;
 	
-	public Links(Word subject, Word object){
+	public Links(Word subject, String subjectTag, Word object, String objectTag){
 		this.subject = subject;
 		this.object = object;
+		this.subjectTag = subjectTag;
+		this.objectTag = objectTag;
+		linkCount =1;
+		domainCount= new HashMap<>();
 	}
 	public void addDomain(String domain){
 		if(domainCount.containsKey(domain)){
