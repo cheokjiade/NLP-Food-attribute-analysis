@@ -35,6 +35,7 @@ import edu.stanford.nlp.trees.TypedDependency;
 import edu.stanford.nlp.util.Function;
 import edu.stanford.nlp.util.Generics;
 import edu.stanford.nlp.util.Timing;
+import entities.Corpus;
 
 public class SyntacticTagging {
 
@@ -44,7 +45,7 @@ public class SyntacticTagging {
 		createSyntacticTreesFromXML();
 	}
 	
-	public static void createSyntacticTreesFromXML(){
+	public static void createAndPrintSyntacticTreesFromXML(){
 		File[] files = new File(TAGGED_XML_FILES_FOLDER).listFiles();
 		System.out.println("File Count: " + files.length);
 		
@@ -101,6 +102,104 @@ public class SyntacticTagging {
 					writer.write(outputString);
 					writer.flush();
 					writer.close();
+		            
+		            
+				}catch(Exception e){
+					
+				}
+			}
+		}
+	}
+	
+	public static void createSyntacticTreesFromXML(){
+		File[] files = new File(TAGGED_XML_FILES_FOLDER).listFiles();
+		System.out.println("File Count: " + files.length);
+		
+		Options o = new Options();
+		//o.setOption(new String[]{"-tokenized","-tagSeparator","/","-outputFormat", "penn"}, 0);
+		LexicalizedParser lp = LexicalizedParser.loadModel(o,"-outputFormat", "penn");
+		
+		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder dBuilder;
+        
+//        Corpus corpus;
+//        //List<Word> wordList = db.Db4oHelper.getInstance().db().query(Word.class);
+//        List<Corpus> corpusList = db.Db4oHelper.getInstance().db().query(Corpus.class);
+//        
+//        if(corpusList.size()==0){
+//        	corpus = new Corpus();
+//        }else{
+//        	corpus = corpusList.get(0);
+//        }
+        
+		for(File f:files){
+			if(f.getName().endsWith(".xml")){
+				try {
+					System.out.println(f.getName());
+					dBuilder = dbFactory.newDocumentBuilder();
+					org.w3c.dom.Document doc = dBuilder.parse(f);
+		            doc.getDocumentElement().normalize();
+		            Node textNode = doc.getElementsByTagName("text").item(0).getFirstChild();
+		            String posTagged = textNode.getNodeValue();
+		            posTagged = posTagged.replaceAll("/. ", "/.\n");
+		            String[] posTaggedSentences = posTagged.split("\n");
+		            for(String posTaggedSentence: posTaggedSentences){
+		            List<List<? extends HasWord>> document;
+		    		TokenizerFactory<? extends HasWord> tokenizerFactory = WhitespaceTokenizer.factory();
+		    		TreebankLanguagePack tlp = o.tlpParams.treebankLanguagePack();
+		    		DocumentPreprocessor documentPreprocessor = new DocumentPreprocessor(new StringReader(posTaggedSentence));
+		    		documentPreprocessor.setTokenizerFactory(tokenizerFactory);
+		    	    documentPreprocessor.setSentenceFinalPuncWords(tlp.sentenceFinalPunctuationWords());
+		    	    documentPreprocessor.setSentenceDelimiter("\n");
+		    	    documentPreprocessor.setTagDelimiter("/");
+		    	    document = Generics.newArrayList();
+		    	    //String outputString = "";
+		    	    for(List<HasWord>a:documentPreprocessor)document.add(a);
+		    	    for(List<? extends HasWord> sentence:document){
+		    	    	System.out.println(sentence.get(0));
+		    	    	//each sentence is 1 tree. Use this tree for everything
+		    	    	Tree tree = lp.parse(sentence);
+		    	    	tree.pennPrint();
+		    	    	//ArrayList<Tree> btmBranchList = new ArrayList<Tree>();
+		    	    	//Tree tmpBtmBranch = null;
+		    	    	//outputString+=tree.pennString();
+		    	    	//outputString+= "\n\n";
+		    	    	GrammaticalStructureFactory gsf = tlp.grammaticalStructureFactory();
+
+		    	          GrammaticalStructure gs = gsf.newGrammaticalStructure(tree);
+
+		    	          for(TypedDependency td:gs.typedDependencies()){
+		    	        	  if(td.reln().toString().equals("advmod")||td.reln().toString().equals("acomp")||td.reln().toString().equals("amod")||td.reln().toString().equals("conj")||td.reln().toString().equals("nsubj")){
+			    	        	  System.out.println(td.reln());
+			    	        	  //There is an existing link from dep to gov
+//			    	        	  if(corpus.words.get(td.dep().nodeString()).linksTo.containsKey(td.gov().nodeString())){
+//			    	        		  corpus.words.get(td.dep().nodeString()).linksTo.get(td.gov().nodeString()).linkCount++;
+//			    	        		  corpus.words.get(td.dep().nodeString()).linksTo.get(td.gov().nodeString()).addDomain(f.getName());
+//			    	        	  }else{
+//			    	        		  
+//			    	        	  }
+//			    	        	  if(corpus.words.get(td.gov().nodeString()).linksTo.containsKey(td.dep().nodeString())){
+//			    	        		  corpus.words.get(td.gov().nodeString()).linksTo.get(td.dep().nodeString()).linkCount++;
+//			    	        		  corpus.words.get(td.gov().nodeString()).linksTo.get(td.dep().nodeString()).addDomain(f.getName());
+//			    	        	  }
+			    	        	  String[] posSplitSentence = posTaggedSentence.split(" ");
+			    	        	  System.out.println(td.gov().nodeString() + " " + td.gov().index() + posSplitSentence[td.gov().index()-1].split("/")[1]);
+			    	        	  System.out.println(td.dep().nodeString() + " " + td.dep().index() + posSplitSentence[td.dep().index()-1].split("/")[1]);
+			    	        	  System.out.println(td.toString());
+		    	        	  }
+		    	          }
+		    	          
+		    	          //outputString+= "\n\n";
+		    	          //System.out.println(gs.typedDependenciesCollapsed());
+		    	          //System.out.println();
+		    	          //tp.printTree(tree);
+		    	          //System.out.println("----------");
+		    	    }
+		            }
+//		    	    BufferedWriter writer = new BufferedWriter(new FileWriter("Dependencies/"+f.getName()+".txt"));
+//					writer.write(outputString);
+//					writer.flush();
+//					writer.close();
 		            
 		            
 				}catch(Exception e){

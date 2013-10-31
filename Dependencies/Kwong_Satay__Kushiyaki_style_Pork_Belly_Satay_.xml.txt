@@ -1,0 +1,246 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD had)
+      (NP (DT a) (NN dream)))
+    (. .)))
+
+
+nsubj(had-2, I-1)
+root(ROOT-0, had-2)
+det(dream-4, a-3)
+dobj(had-2, dream-4)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBP dreamt)
+        (SBAR (IN that)
+          (S
+            (NP (PRP I))
+            (VP (VBD was)
+              (VP (VBG eating)
+                (NP
+                  (NP (NNP Pork) (NNP Belly) (NNP Kushiyaki))
+                  (PRN (-LRB- -LRB-)
+                    (NP (NNP Butabara))
+                    (-RRB- -RRB-)))))))))
+    (CC and)
+    (S
+      (NP (PDT all) (DT the) (JJ wonderful) (NN juice))
+      (VP (VBD was)
+        (VP (VBG bursting)
+          (PRT (RP out))
+          (PP (IN in)
+            (NP (PRP$ my) (NN mouth)))
+          (SBAR (IN as)
+            (S
+              (NP (PRP I))
+              (VP (VBD sank)
+                (NP (PRP$ my) (NNS teeth))
+                (PP (IN into)
+                  (NP (DT the) (JJ springy) (NN flesh)))))))))
+    (. .)))
+
+
+nsubj(dreamt-2, I-1)
+root(ROOT-0, dreamt-2)
+mark(eating-6, that-3)
+nsubj(eating-6, I-4)
+aux(eating-6, was-5)
+ccomp(dreamt-2, eating-6)
+nn(Kushiyaki-9, Pork-7)
+nn(Kushiyaki-9, Belly-8)
+dobj(eating-6, Kushiyaki-9)
+appos(Kushiyaki-9, Butabara-11)
+cc(dreamt-2, and-13)
+predet(juice-17, all-14)
+det(juice-17, the-15)
+amod(juice-17, wonderful-16)
+nsubj(bursting-19, juice-17)
+aux(bursting-19, was-18)
+conj(dreamt-2, bursting-19)
+prt(bursting-19, out-20)
+prep(bursting-19, in-21)
+poss(mouth-23, my-22)
+pobj(in-21, mouth-23)
+mark(sank-26, as-24)
+nsubj(sank-26, I-25)
+advcl(bursting-19, sank-26)
+poss(teeth-28, my-27)
+dobj(sank-26, teeth-28)
+prep(sank-26, into-29)
+det(flesh-32, the-30)
+amod(flesh-32, springy-31)
+pobj(into-29, flesh-32)
+
+
+(ROOT
+  (FRAG (CC But)
+    (PP (IN in)
+      (NP
+        (NP (PRP$ my) (NN dream))
+        (, ,)))))
+
+
+root(ROOT-0, But-1)
+prep(But-1, in-2)
+poss(dream-4, my-3)
+pobj(in-2, dream-4)
+
+
+(ROOT
+  (FRAG
+    (PP (RB instead) (IN of)
+      (NP (DT the) (JJ plain) (NN salt)
+        (CC and)
+        (NN pepper) (NN marinade)))
+    (, ,)))
+
+
+advmod(of-2, instead-1)
+root(ROOT-0, of-2)
+det(salt-5, the-3)
+amod(salt-5, plain-4)
+pobj(of-2, salt-5)
+cc(salt-5, and-6)
+nn(marinade-8, pepper-7)
+conj(salt-5, marinade-8)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NN pork))
+    (VP (VBD was)
+      (VP (VBN marinated)
+        (S
+          (NP
+            (NP (JJ Hainanese) (NN satay) (NN style))
+            (CC and)
+            (NP (PRP I)))
+          (VP (VBG enjoying)
+            (NP
+              (NP (DT the) (JJ sweet) (NN fragrance))
+              (PP (IN of)
+                (NP (DT the) (NN cumin))))))))
+    (, ,)))
+
+
+det(pork-2, the-1)
+nsubjpass(marinated-4, pork-2)
+auxpass(marinated-4, was-3)
+root(ROOT-0, marinated-4)
+amod(style-7, Hainanese-5)
+nn(style-7, satay-6)
+nsubj(enjoying-10, style-7)
+cc(style-7, and-8)
+conj(style-7, I-9)
+dep(marinated-4, enjoying-10)
+det(fragrance-13, the-11)
+amod(fragrance-13, sweet-12)
+dobj(enjoying-10, fragrance-13)
+prep(fragrance-13, of-14)
+det(cumin-16, the-15)
+pobj(of-14, cumin-16)
+
+
+(ROOT
+  (NP (NN coriander) (CD ,)))
+
+
+root(ROOT-0, coriander-1)
+
+
+(ROOT
+  (NP
+    (NP
+      (NP (CD five) (NN spice) (NN powder))
+      (CC and)
+      (NP (NN saffron)))
+    (: ...)))
+
+
+num(powder-3, five-1)
+nn(powder-3, spice-2)
+root(ROOT-0, powder-3)
+cc(powder-3, and-4)
+conj(powder-3, saffron-5)
+
+
+(ROOT
+  (NP (NN yummm) (: ...)))
+
+
+root(ROOT-0, yummm-1)
+
+
+(ROOT
+  (S
+    (VP (VBG Then)
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (VBD woke)
+            (ADVP (RB up) (RB right))
+            (PP (IN at)
+              (NP (DT the) (NN part)))
+            (SBAR
+              (WHADVP (WRB where))
+              (S
+                (NP (PRP$ my) (NN pastor))
+                (VP (VBD said))))))))
+    (: :)))
+
+
+root(ROOT-0, Then-1)
+nsubj(woke-3, I-2)
+ccomp(Then-1, woke-3)
+advmod(right-5, up-4)
+advmod(woke-3, right-5)
+prep(woke-3, at-6)
+det(part-8, the-7)
+pobj(at-6, part-8)
+advmod(said-12, where-9)
+poss(pastor-11, my-10)
+nsubj(said-12, pastor-11)
+advcl(woke-3, said-12)
+
+
+(ROOT
+  (INTJ (UH ``)))
+
+
+
+
+(ROOT
+  (FRAG (CC And)
+    (PP (IN in)
+      (NP (NN conclusion))
+      (: ...))))
+
+
+root(ROOT-0, And-1)
+prep(And-1, in-2)
+pobj(in-2, conclusion-3)
+
+
+(ROOT
+  (INTJ (UH .)))
+
+
+
+
+(ROOT
+  (INTJ (UH .)))
+
+
+
+
+(ROOT
+  (INTJ (UH '')))
+
+
+
+

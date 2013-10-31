@@ -1,0 +1,51 @@
+(ROOT
+  (S
+    (VP (VB Tune)
+      (PP (IN in)
+        (PP (TO to)
+          (NP
+            (NP (CD 938live) (NN today))
+            (PP (IN at)
+              (NP (CD 12.15) (NN pm))))))
+      (SBAR
+        (WHADVP (WRB where))
+        (S
+          (NP (PRP I))
+          (VP (MD will)
+            (VP (VB be)
+              (VP (VBG recommending)
+                (NP
+                  (NP
+                    (NP (CD one))
+                    (PP (IN of)
+                      (NP (PRP$ my) (JJ regular) (NNP Char) (NNP Siew) (NN haunt))))
+                  (: --)
+                  (NP (NNP Fatty)
+                    (NP (NNP Cheong) (POS 's))))))))))))
+
+
+root(ROOT-0, Tune-1)
+prep(Tune-1, in-2)
+pcomp(in-2, to-3)
+num(today-5, 938live-4)
+pobj(to-3, today-5)
+prep(today-5, at-6)
+num(pm-8, 12.15-7)
+pobj(at-6, pm-8)
+advmod(recommending-13, where-9)
+nsubj(recommending-13, I-10)
+aux(recommending-13, will-11)
+aux(recommending-13, be-12)
+advcl(Tune-1, recommending-13)
+dobj(recommending-13, one-14)
+prep(one-14, of-15)
+poss(haunt-20, my-16)
+amod(haunt-20, regular-17)
+nn(haunt-20, Char-18)
+nn(haunt-20, Siew-19)
+pobj(of-15, haunt-20)
+dep(one-14, Fatty-22)
+poss(Fatty-22, Cheong-23)
+possessive(Cheong-23, 's-24)
+
+

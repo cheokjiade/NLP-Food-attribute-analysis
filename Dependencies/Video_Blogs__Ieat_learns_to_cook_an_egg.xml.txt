@@ -1,0 +1,468 @@
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (PRP you))
+        (ADVP (RB first))
+        (VP (VBD started)
+          (S
+            (VP (TO to)
+              (VP (VB learn)
+                (NP (DT the) (JJ English) (NN language))))))))
+    (NP (PRP you))
+    (VP (VBD began)
+      (PP (IN with)
+        (NP (DT the) (NNP ABC))))
+    (. .)))
+
+
+advmod(started-4, When-1)
+nsubj(started-4, you-2)
+advmod(started-4, first-3)
+advcl(began-11, started-4)
+aux(learn-6, to-5)
+xcomp(started-4, learn-6)
+det(language-9, the-7)
+amod(language-9, English-8)
+dobj(learn-6, language-9)
+nsubj(began-11, you-10)
+root(ROOT-0, began-11)
+prep(began-11, with-12)
+det(ABC-14, the-13)
+pobj(with-12, ABC-14)
+
+
+(ROOT
+  (SBAR
+    (WHADVP (WRB When))
+    (S
+      (NP (PRP you))
+      (ADVP (RB first))
+      (VP (VBP start)
+        (S
+          (VP (TO to)
+            (VP (VB learn)
+              (S
+                (VP (TO to)
+                  (VP (VB cook)))
+                (, ,)))))))))
+
+
+advmod(start-4, When-1)
+nsubj(start-4, you-2)
+advmod(start-4, first-3)
+root(ROOT-0, start-4)
+aux(learn-6, to-5)
+xcomp(start-4, learn-6)
+aux(cook-8, to-7)
+xcomp(learn-6, cook-8)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (ADVP (RB probably))
+    (VP (VBD began)
+      (PP (IN by)
+        (S
+          (VP (VBG learning)
+            (S
+              (VP (TO to)
+                (VP (VB cook)
+                  (NP (DT an) (NN egg)))))))))
+    (. .)))
+
+
+nsubj(began-3, you-1)
+advmod(began-3, probably-2)
+root(ROOT-0, began-3)
+prep(began-3, by-4)
+pcomp(by-4, learning-5)
+aux(cook-7, to-6)
+xcomp(learning-5, cook-7)
+det(egg-9, an-8)
+dobj(cook-7, egg-9)
+
+
+(ROOT
+  (S
+    (ADVP (IN At) (JJS least))
+    (NP (PRP I))
+    (VP (VBD did))
+    (. .)))
+
+
+advmod(did-4, At-1)
+pobj(At-1, least-2)
+nsubj(did-4, I-3)
+root(ROOT-0, did-4)
+
+
+(ROOT
+  (S (CC But)
+    (NP (DT those))
+    (VP (VBD were)
+      (NP (DT the) (NNS days))
+      (SBAR (IN before)
+        (S
+          (NP (JJ instant) (NNS noodles))
+          (VP (VBD were)
+            (VP (VBN invented))))))
+    (. .)))
+
+
+cc(days-5, But-1)
+nsubj(days-5, those-2)
+cop(days-5, were-3)
+det(days-5, the-4)
+root(ROOT-0, days-5)
+mark(invented-10, before-6)
+amod(noodles-8, instant-7)
+nsubjpass(invented-10, noodles-8)
+auxpass(invented-10, were-9)
+advcl(days-5, invented-10)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Nowadays))
+    (, ,)))
+
+
+root(ROOT-0, Nowadays-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (SBAR (IN that)
+        (S
+          (NP (EX there))
+          (VP (MD would)
+            (VP (VB be)
+              (ADJP
+                (ADJP (RB many) (JJR more))
+                (SBAR
+                  (WHNP (WP who))
+                  (S
+                    (VP (VBP start)
+                      (PP (IN by)
+                        (S
+                          (VP
+                            (VP (VBG cooking)
+                              (NP (JJ instant) (NNS noodles)))
+                            (CONJP (RB rather) (IN than))
+                            (VP (VBG learning)
+                              (SBAR
+                                (WHADVP (WRB how))
+                                (S
+                                  (VP (TO to)
+                                    (VP (VB cook)
+                                      (NP (DT an) (NN egg)))))))))))))))))))
+    (. .)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+mark(more-8, that-3)
+expl(more-8, there-4)
+aux(more-8, would-5)
+cop(more-8, be-6)
+advmod(more-8, many-7)
+ccomp(think-2, more-8)
+nsubj(start-10, who-9)
+ccomp(more-8, start-10)
+prep(start-10, by-11)
+pcomp(by-11, cooking-12)
+amod(noodles-14, instant-13)
+dobj(cooking-12, noodles-14)
+cc(cooking-12, rather-15)
+mwe(rather-15, than-16)
+conj(cooking-12, learning-17)
+advmod(cook-20, how-18)
+aux(cook-20, to-19)
+ccomp(learning-17, cook-20)
+det(egg-22, an-21)
+dobj(cook-20, egg-22)
+
+
+(ROOT
+  (S
+    (SBAR (IN Unless)
+      (S
+        (PP (IN of)
+          (NP (NN course)))
+        (NP (PRP you))
+        (VP (VBP consider)
+          (S
+            (VP (VBG cracking)
+              (NP (DT an) (NN egg))
+              (PP (IN into)
+                (NP (PRP$ your) (NN instant))))))))
+    (VP (VBZ noodles)
+      (NP
+        (NP (DT a) (JJ specific) (NN form))
+        (PP (IN of)
+          (NP (JJ cooking) (NNS eggs))))
+      (ADVP (RB as) (RB well)))
+    (. .)))
+
+
+mark(consider-5, Unless-1)
+prep(consider-5, of-2)
+pobj(of-2, course-3)
+nsubj(consider-5, you-4)
+csubj(noodles-12, consider-5)
+xcomp(consider-5, cracking-6)
+det(egg-8, an-7)
+dobj(cracking-6, egg-8)
+prep(cracking-6, into-9)
+poss(instant-11, your-10)
+pobj(into-9, instant-11)
+root(ROOT-0, noodles-12)
+det(form-15, a-13)
+amod(form-15, specific-14)
+dobj(noodles-12, form-15)
+prep(form-15, of-16)
+amod(eggs-18, cooking-17)
+pobj(of-16, eggs-18)
+advmod(well-20, as-19)
+advmod(noodles-12, well-20)
+
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (DT this) (NNP Video) (NNP Blog) (NN series)))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+det(series-5, this-2)
+nn(series-5, Video-3)
+nn(series-5, Blog-4)
+pobj(In-1, series-5)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VB embark)
+      (PP (IN on)
+        (NP
+          (NP (PRP$ my) (JJ own) (JJ personal) (NN journey))
+          (PP (IN of)
+            (S
+              (VP (VBG learning)
+                (S
+                  (VP (TO to)
+                    (VP (VB cook)
+                      (NP (DT an) (NN egg)))))))))))
+    (. .)))
+
+
+nsubj(embark-2, I-1)
+root(ROOT-0, embark-2)
+prep(embark-2, on-3)
+poss(journey-7, my-4)
+amod(journey-7, own-5)
+amod(journey-7, personal-6)
+pobj(on-3, journey-7)
+prep(journey-7, of-8)
+pcomp(of-8, learning-9)
+aux(cook-11, to-10)
+xcomp(learning-9, cook-11)
+det(egg-13, an-12)
+dobj(cook-11, egg-13)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ Many))
+      (PP (IN of)
+        (NP (PRP us))))
+    (VP (MD might)
+      (VP (VB assume)
+        (SBAR (IN that)
+          (S
+            (NP (PRP we))
+            (VP (VBP know)
+              (SBAR
+                (WHADVP (WRB how))
+                (S
+                  (VP (TO to)
+                    (VP (VB cook)
+                      (NP (DT an) (NN egg)))))))))))
+    (, ,)))
+
+
+nsubj(assume-5, Many-1)
+prep(Many-1, of-2)
+pobj(of-2, us-3)
+aux(assume-5, might-4)
+root(ROOT-0, assume-5)
+mark(know-8, that-6)
+nsubj(know-8, we-7)
+ccomp(assume-5, know-8)
+advmod(cook-11, how-9)
+aux(cook-11, to-10)
+ccomp(know-8, cook-11)
+det(egg-13, an-12)
+dobj(cook-11, egg-13)
+
+
+(ROOT
+  (PRN (CC but)
+    (SBAR (IN if)
+      (S
+        (NP (PRP I))
+        (VP (VBD were)
+          (S
+            (VP (TO to)
+              (VP (VB ask)
+                (NP (CD 10) (NNS people))
+                (S
+                  (VP (TO to)
+                    (VP (VB cook)
+                      (NP (DT an) (NN omelette)))))))))
+        (, ,)))))
+
+
+cc(were-4, but-1)
+mark(were-4, if-2)
+nsubj(were-4, I-3)
+root(ROOT-0, were-4)
+aux(ask-6, to-5)
+xcomp(were-4, ask-6)
+num(people-8, 10-7)
+dobj(ask-6, people-8)
+aux(cook-10, to-9)
+xcomp(ask-6, cook-10)
+det(omelette-12, an-11)
+dobj(cook-10, omelette-12)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP (PRP you))
+          (VP (MD might)
+            (VP (VB get)
+              (S
+                (NP (CD 10))
+                (ADJP (RB very) (JJ different))
+                (S
+                  (VP (VBG looking)
+                    (NP (NNS omelettes))))))))))
+    (. .)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+nsubj(get-5, you-3)
+aux(get-5, might-4)
+ccomp(think-2, get-5)
+nsubj(looking-9, 10-6)
+advmod(different-8, very-7)
+dep(looking-9, different-8)
+xcomp(get-5, looking-9)
+dobj(looking-9, omelettes-10)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD would)
+      (VP (VB think)
+        (SBAR (IN that)
+          (S
+            (S
+              (VP (VBG boiling)
+                (NP (DT an) (NN egg))))
+            (VP (MD would)
+              (VP (VB be)
+                (NP
+                  (NP (DT the) (JJS easiest) (NN thing))
+                  (PP (IN in)
+                    (NP (DT the) (NN world)
+                      (S
+                        (VP (TO to)
+                          (VP (VB do)))))))))))))
+    (. .)))
+
+
+nsubj(think-3, You-1)
+aux(think-3, would-2)
+root(ROOT-0, think-3)
+mark(thing-12, that-4)
+csubj(thing-12, boiling-5)
+det(egg-7, an-6)
+dobj(boiling-5, egg-7)
+aux(thing-12, would-8)
+cop(thing-12, be-9)
+det(thing-12, the-10)
+amod(thing-12, easiest-11)
+ccomp(think-3, thing-12)
+prep(thing-12, in-13)
+det(world-15, the-14)
+pobj(in-13, world-15)
+aux(do-17, to-16)
+infmod(world-15, do-17)
+
+
+(ROOT
+  (SBARQ (CC But)
+    (WHADVP (WRB how) (RB often))
+    (SQ (VBP do)
+      (NP (PRP we))
+      (VP
+        (ADVP (RB still))
+        (VB see)
+        (NP (DT that)
+          (ADJP (JJ ugly) (JJ gray))
+          (NN ring))
+        (PP (IN around)
+          (NP (DT the) (NNS yolks)))
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (PRP we))
+            (VP (VBP eat)
+              (NP (JJ hard) (JJ boiled) (NNS eggs))
+              (PP (IN at)
+                (NP (DT the) (NN hawker) (NNS stalls))))))))
+    (. ?)))
+
+
+cc(see-7, But-1)
+advmod(often-3, how-2)
+advmod(see-7, often-3)
+aux(see-7, do-4)
+nsubj(see-7, we-5)
+advmod(see-7, still-6)
+root(ROOT-0, see-7)
+det(ring-11, that-8)
+amod(gray-10, ugly-9)
+amod(ring-11, gray-10)
+dobj(see-7, ring-11)
+prep(see-7, around-12)
+det(yolks-14, the-13)
+pobj(around-12, yolks-14)
+advmod(eat-17, when-15)
+nsubj(eat-17, we-16)
+advcl(see-7, eat-17)
+amod(eggs-20, hard-18)
+amod(eggs-20, boiled-19)
+dobj(eat-17, eggs-20)
+prep(eat-17, at-21)
+det(stalls-24, the-22)
+nn(stalls-24, hawker-23)
+pobj(at-21, stalls-24)
+
+

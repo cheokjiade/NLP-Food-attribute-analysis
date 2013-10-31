@@ -1,0 +1,70 @@
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (PRP$ our) (JJS latest) (NNS Poll)))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+poss(Poll-4, our-2)
+amod(Poll-4, latest-3)
+pobj(In-1, Poll-4)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (VP (VBP try)
+      (S
+        (VP (TO to)
+          (VP (VB find)
+            (PRT (RP out))
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (NP (NN meat))
+                (VP (VBZ is)
+                  (NP (DT the) (NN favorite))
+                  (PP (IN amongst)
+                    (NP (NNP Singaporeans))))))))))
+    (. !)))
+
+
+nsubj(try-2, we-1)
+root(ROOT-0, try-2)
+aux(find-4, to-3)
+xcomp(try-2, find-4)
+prt(find-4, out-5)
+dobj(favorite-10, which-6)
+nsubj(favorite-10, meat-7)
+cop(favorite-10, is-8)
+det(favorite-10, the-9)
+ccomp(find-4, favorite-10)
+prep(favorite-10, amongst-11)
+pobj(amongst-11, Singaporeans-12)
+
+
+(ROOT
+  (S
+    (VP
+      (VP (VB Cast)
+        (NP (PRP$ your) (NN vote)))
+      (CC and)
+      (VP (VB let)
+        (S
+          (NP (POS 's))
+          (VP (VB find)
+            (PRT (RP out))))))
+    (. .)))
+
+
+root(ROOT-0, Cast-1)
+poss(vote-3, your-2)
+dobj(Cast-1, vote-3)
+cc(Cast-1, and-4)
+conj(Cast-1, let-5)
+nsubj(find-7, 's-6)
+ccomp(let-5, find-7)
+prt(find-7, out-8)
+
+

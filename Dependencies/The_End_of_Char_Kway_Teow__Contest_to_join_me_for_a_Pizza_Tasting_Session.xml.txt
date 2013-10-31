@@ -1,0 +1,495 @@
+(ROOT
+  (FRAG
+    (PP (IN Ok)
+      (NP (NNS guys)))
+    (, ,)))
+
+
+root(ROOT-0, Ok-1)
+pobj(Ok-1, guys-2)
+
+
+(ROOT
+  (PP (IN by)
+    (NP
+      (NP (RB now) (DT a) (NN lot))
+      (PP (IN of)
+        (NP
+          (ADJP
+            (NP (PRP you))
+            (JJ have))
+          (ADJP (RB already) (JJ gotten))
+          (NN hold)))
+      (PP (IN of)
+        (NP (PRP$ my) (NN book)))
+      (`` ``))))
+
+
+root(ROOT-0, by-1)
+advmod(lot-4, now-2)
+det(lot-4, a-3)
+pobj(by-1, lot-4)
+prep(lot-4, of-5)
+npadvmod(have-7, you-6)
+amod(hold-10, have-7)
+advmod(gotten-9, already-8)
+amod(hold-10, gotten-9)
+pobj(of-5, hold-10)
+prep(lot-4, of-11)
+poss(book-13, my-12)
+pobj(of-11, book-13)
+
+
+(ROOT
+  (NP
+    (NP (DT The) (NN End))
+    (PP (IN of)
+      (NP
+        (NP (NNP Char) (NNP Kway) (NNP Teow) ('' ''))
+        (, ,)))))
+
+
+det(End-2, The-1)
+root(ROOT-0, End-2)
+prep(End-2, of-3)
+nn(Teow-6, Char-4)
+nn(Teow-6, Kway-5)
+pobj(of-3, Teow-6)
+
+
+(ROOT
+  (S (IN so)
+    (NP (PRP I))
+    (VP (MD would)
+      (ADVP (RB really))
+      (VP (VB like)
+        (S
+          (VP (TO to)
+            (VP (VB hear)
+              (SBAR
+                (WHNP (WP what))
+                (S
+                  (NP (PRP you))
+                  (VP (VBD thought)
+                    (PP (IN of)
+                      (NP (DT the) (NN book)))))))))))
+    (. .)))
+
+
+dep(like-5, so-1)
+nsubj(like-5, I-2)
+aux(like-5, would-3)
+advmod(like-5, really-4)
+root(ROOT-0, like-5)
+aux(hear-7, to-6)
+xcomp(like-5, hear-7)
+dobj(thought-10, what-8)
+nsubj(thought-10, you-9)
+ccomp(hear-7, thought-10)
+prep(thought-10, of-11)
+det(book-13, the-12)
+pobj(of-11, book-13)
+
+
+(ROOT
+  (S
+    (NP (TO To))
+    (VP (VBP make)
+      (S
+        (NP (PRP it))
+        (ADJP (RBR more) (JJ interesting))))
+    (, ,)))
+
+
+nsubj(make-2, To-1)
+root(ROOT-0, make-2)
+nsubj(interesting-5, it-3)
+advmod(interesting-5, more-4)
+xcomp(make-2, interesting-5)
+
+
+(ROOT
+  (S
+    (NP (DT this))
+    (VP (VBZ is)
+      (SBAR
+        (WHNP (WP what))
+        (S
+          (NP (PRP I))
+          (VP (VBP am)
+            (VP (VBG going)
+              (S
+                (VP (TO to)
+                  (VP (VB do)))))))))
+    (. .)))
+
+
+nsubj(is-2, this-1)
+root(ROOT-0, is-2)
+dobj(going-6, what-3)
+nsubj(going-6, I-4)
+aux(going-6, am-5)
+ccomp(is-2, going-6)
+aux(do-8, to-7)
+xcomp(going-6, do-8)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (VP (VBN arranged)
+        (NP
+          (NP (DT a) (JJ special) (NN pizza))
+          (ADJP (NN tasting) (NN lunch)))
+        (PP (IN for)
+          (NP
+            (NP (CD 10) (NNS readers))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (MD will)
+                  (VP (VB join)
+                    (S
+                      (NP (PRP me))
+                      (VP (TO to)
+                        (VP (VB determine)
+                          (NP
+                            (NP (DT the) (NN type))
+                            (PP (IN of)
+                              (NP (NNS pizzas))))
+                          (SBAR (IN that)
+                            (S
+                              (NP (NNP Singaporeans))
+                              (VP (VBP prefer)))))))))))))))
+    (. .)))
+
+
+nsubj(arranged-3, I-1)
+aux(arranged-3, have-2)
+root(ROOT-0, arranged-3)
+det(pizza-6, a-4)
+amod(pizza-6, special-5)
+dobj(arranged-3, pizza-6)
+dep(lunch-8, tasting-7)
+amod(pizza-6, lunch-8)
+prep(arranged-3, for-9)
+num(readers-11, 10-10)
+pobj(for-9, readers-11)
+nsubj(join-14, who-12)
+aux(join-14, will-13)
+rcmod(readers-11, join-14)
+nsubj(determine-17, me-15)
+aux(determine-17, to-16)
+xcomp(join-14, determine-17)
+det(type-19, the-18)
+dobj(determine-17, type-19)
+prep(type-19, of-20)
+pobj(of-20, pizzas-21)
+mark(prefer-24, that-22)
+nsubj(prefer-24, Singaporeans-23)
+ccomp(determine-17, prefer-24)
+
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Gerri)
+        (CC and)
+        (NNP Mauro))
+      (VP (MD will)
+        (VP (VB be)
+          (VP (VBG creating)
+            (S
+              (NP (JJ different) (NN pizza) (NNS crusts))
+              (ADJP (JJ peculiar)
+                (PP (TO to)
+                  (NP
+                    (NP (DT the) (JJ different) (NNS regions))
+                    (PP (IN of)
+                      (NP (NNP Italy)))))))))))
+    (CC and)
+    (S
+      (NP (PRP we))
+      (VP (VBP want)
+        (S
+          (VP (TO to)
+            (VP (VB find)
+              (PRT (RP out))
+              (SBAR (IN if)
+                (S
+                  (NP (NNP Singaporeans))
+                  (VP (VBP prefer)
+                    (NP (NNP Milanese)
+                      (CC or)
+                      (NNP Napoletana) (NN style) (NN crust))))))))))
+    (. .)))
+
+
+nsubj(creating-6, Gerri-1)
+cc(Gerri-1, and-2)
+conj(Gerri-1, Mauro-3)
+aux(creating-6, will-4)
+aux(creating-6, be-5)
+root(ROOT-0, creating-6)
+amod(crusts-9, different-7)
+nn(crusts-9, pizza-8)
+nsubj(peculiar-10, crusts-9)
+xcomp(creating-6, peculiar-10)
+prep(peculiar-10, to-11)
+det(regions-14, the-12)
+amod(regions-14, different-13)
+pobj(to-11, regions-14)
+prep(regions-14, of-15)
+pobj(of-15, Italy-16)
+cc(creating-6, and-17)
+nsubj(want-19, we-18)
+conj(creating-6, want-19)
+aux(find-21, to-20)
+xcomp(want-19, find-21)
+prt(find-21, out-22)
+mark(prefer-25, if-23)
+nsubj(prefer-25, Singaporeans-24)
+advcl(find-21, prefer-25)
+nn(crust-30, Milanese-26)
+cc(Milanese-26, or-27)
+conj(Milanese-26, Napoletana-28)
+nn(crust-30, style-29)
+dobj(prefer-25, crust-30)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (MD shall)
+      (VP (VB be)
+        (VP (VBG holding)
+          (NP (DT this) (JJ special) (NN makan) (NN session))
+          (PP (IN on)
+            (NP (NNP Saturday))))))
+    (, ,)))
+
+
+nsubj(holding-4, We-1)
+aux(holding-4, shall-2)
+aux(holding-4, be-3)
+root(ROOT-0, holding-4)
+det(session-8, this-5)
+amod(session-8, special-6)
+nn(session-8, makan-7)
+dobj(holding-4, session-8)
+prep(holding-4, on-9)
+pobj(on-9, Saturday-10)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (CD 5))
+      (NP (NNP March))
+      (PP (IN at)
+        (NP (CD 1.30))))
+    (VP (VBP pm)
+      (PP (IN at)
+        (NP (NNP Sole) (NNP Pomodoro))))
+    (. .)))
+
+
+nsubj(pm-5, 5-1)
+dep(5-1, March-2)
+prep(5-1, at-3)
+pobj(at-3, 1.30-4)
+root(ROOT-0, pm-5)
+prep(pm-5, at-6)
+nn(Pomodoro-8, Sole-7)
+pobj(at-6, Pomodoro-8)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (VBP are)
+        (ADJP (JJ interested)
+          (S
+            (VP (TO to)
+              (VP (VB join)
+                (NP (PRP me))
+                (PP (IN for)
+                  (NP (DT this) (NN pizza) (NN feedback) (NN session))))))))
+      (, ,))))
+
+
+mark(interested-4, If-1)
+nsubj(interested-4, you-2)
+cop(interested-4, are-3)
+root(ROOT-0, interested-4)
+aux(join-6, to-5)
+xcomp(interested-4, join-6)
+dobj(join-6, me-7)
+prep(join-6, for-8)
+det(session-12, this-9)
+nn(session-12, pizza-10)
+nn(session-12, feedback-11)
+pobj(for-8, session-12)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT all))
+      (SBAR
+        (S
+          (NP (PRP you))
+          (VP (VBP have)
+            (S
+              (VP (TO to)
+                (VP (VB do))))))))
+    (VP (VBZ is)
+      (S
+        (VP (TO to)
+          (VP (VB tell)
+            (NP (PRP me))
+            (SBAR
+              (WHNP (WP what))
+              (S
+                (NP (PRP you))
+                (VP (VBP like)
+                  (PP (IN about)
+                    (NP
+                      (NP (DT The) (NN End))
+                      (PP (IN of)
+                        (NP
+                          (NP (NNP Char) (NNP Kway) (NNP Teow))
+                          (PP (IN in)
+                            (NP (CD 100) (NNS words)
+                              (QP (CC or)
+                                (JJR less)))))))))))))))
+    (. .)))
+
+
+nsubj(is-6, all-1)
+nsubj(have-3, you-2)
+rcmod(all-1, have-3)
+aux(do-5, to-4)
+xcomp(have-3, do-5)
+root(ROOT-0, is-6)
+aux(tell-8, to-7)
+xcomp(is-6, tell-8)
+dobj(tell-8, me-9)
+dobj(like-12, what-10)
+nsubj(like-12, you-11)
+dep(tell-8, like-12)
+prep(like-12, about-13)
+det(End-15, The-14)
+pobj(about-13, End-15)
+prep(End-15, of-16)
+nn(Teow-19, Char-17)
+nn(Teow-19, Kway-18)
+pobj(of-16, Teow-19)
+prep(Teow-19, in-20)
+num(words-22, 100-21)
+pobj(in-20, words-22)
+cc(less-24, or-23)
+num(words-22, less-24)
+
+
+(ROOT
+  (S
+    (INTJ (VB Please))
+    (VP (VB include)
+      (NP (PRP$ your) (NN email))
+      (PP (IN in)
+        (NP (DT the) (NNS comments)))
+      (SBAR (RB so) (IN that)
+        (S
+          (NP (PRP I))
+          (VP (MD can)
+            (VP (VB let)
+              (S
+                (NP (PRP you))
+                (VP (VB know)
+                  (SBAR (IN if)
+                    (S
+                      (NP (PRP you))
+                      (VP (VBD won)))))))))))
+    (. .)))
+
+
+discourse(include-2, Please-1)
+root(ROOT-0, include-2)
+poss(email-4, your-3)
+dobj(include-2, email-4)
+prep(include-2, in-5)
+det(comments-7, the-6)
+pobj(in-5, comments-7)
+advmod(let-12, so-8)
+mark(let-12, that-9)
+nsubj(let-12, I-10)
+aux(let-12, can-11)
+advcl(include-2, let-12)
+nsubj(know-14, you-13)
+ccomp(let-12, know-14)
+mark(won-17, if-15)
+nsubj(won-17, you-16)
+advcl(know-14, won-17)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NN closing) (NN date))
+    (VP (VBZ is)
+      (NP (DT this) (NNP Sunday)))
+    (, ,)))
+
+
+det(date-3, The-1)
+nn(date-3, closing-2)
+nsubj(Sunday-6, date-3)
+cop(Sunday-6, is-4)
+det(Sunday-6, this-5)
+root(ROOT-0, Sunday-6)
+
+
+(ROOT
+  (S
+    (NP (CD 27))
+    (VP (VBZ Feb))
+    (, ,)))
+
+
+nsubj(Feb-2, 27-1)
+root(ROOT-0, Feb-2)
+
+
+(ROOT
+  (S
+    (NP (CD 11.59))
+    (VP (VBP pm))
+    (. .)))
+
+
+nsubj(pm-2, 11.59-1)
+root(ROOT-0, pm-2)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP look)
+      (ADVP (RB forward))
+      (PP (TO to)
+        (S
+          (VP (VBG meeting)
+            (NP (PRP you))))))
+    (. !)))
+
+
+nsubj(look-2, I-1)
+root(ROOT-0, look-2)
+advmod(look-2, forward-3)
+prep(look-2, to-4)
+pcomp(to-4, meeting-5)
+dobj(meeting-5, you-6)
+
+

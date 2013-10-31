@@ -1,0 +1,197 @@
+(ROOT
+  (S
+    (NP (NNP Ever))
+    (VP (VBD heard)
+      (SBAR
+        (S
+          (NP (NNS people))
+          (VP (VBP say)
+            (SBAR (IN that)
+              (S
+                (NP
+                  (NP (DT the) (NN food))
+                  (PP (IN in)
+                    (NP (NNP JB))))
+                (VP (VBZ is)
+                  (ADJP (RB really) (JJ great)))))))))
+    (. ?)))
+
+
+nsubj(heard-2, Ever-1)
+root(ROOT-0, heard-2)
+nsubj(say-4, people-3)
+ccomp(heard-2, say-4)
+mark(great-12, that-5)
+det(food-7, the-6)
+nsubj(great-12, food-7)
+prep(food-7, in-8)
+pobj(in-8, JB-9)
+cop(great-12, is-10)
+advmod(great-12, really-11)
+ccomp(say-4, great-12)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Yeah))
+    (, ,)))
+
+
+root(ROOT-0, Yeah-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP believe)
+      (NP (PRP it))
+      (ADVP (RB too)))
+    (. .)))
+
+
+nsubj(believe-2, I-1)
+root(ROOT-0, believe-2)
+dobj(believe-2, it-3)
+advmod(believe-2, too-4)
+
+
+(ROOT
+  (X (CC But)
+    (S
+      (VP (VB everytime)
+        (S
+          (NP (PRP I))
+          (VP (VB think)
+            (PP (IN about)
+              (S
+                (VP (VBG going)
+                  (PP (IN into)
+                    (NP (NNP JB)))))))
+          (, ,))))))
+
+
+cc(everytime-2, But-1)
+root(ROOT-0, everytime-2)
+nsubj(think-4, I-3)
+ccomp(everytime-2, think-4)
+prep(think-4, about-5)
+pcomp(about-5, going-6)
+prep(going-6, into-7)
+pobj(into-7, JB-8)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT the) (NN traffic) (NN jam))
+      (PP (IN at)
+        (NP
+          (NP (DT the) (NN causeway))
+          (CC and)
+          (NP
+            (NP (DT the) (NN potential))
+            (PP (IN of)
+              (S
+                (VP (VBG losing)
+                  (NP
+                    (NP (PRP$ your) (NN car))
+                    (CC and)
+                    (NP (DT a) (JJ few) (NNS bucks))))))))))
+    (VP (VBZ is)
+      (ADVP (RB always))
+      (NP (DT a) (JJ big) (NN deterrant)))
+    (. .)))
+
+
+det(jam-3, the-1)
+nn(jam-3, traffic-2)
+nsubj(deterrant-22, jam-3)
+prep(jam-3, at-4)
+det(causeway-6, the-5)
+pobj(at-4, causeway-6)
+cc(causeway-6, and-7)
+det(potential-9, the-8)
+conj(causeway-6, potential-9)
+prep(potential-9, of-10)
+pcomp(of-10, losing-11)
+poss(car-13, your-12)
+dobj(losing-11, car-13)
+cc(car-13, and-14)
+det(bucks-17, a-15)
+amod(bucks-17, few-16)
+conj(car-13, bucks-17)
+cop(deterrant-22, is-18)
+advmod(deterrant-22, always-19)
+det(deterrant-22, a-20)
+amod(deterrant-22, big-21)
+root(ROOT-0, deterrant-22)
+
+
+(ROOT
+  (SBARQ (RB So)
+    (WHNP (WP what))
+    (SQ (VBZ is)
+      (NP (DT the) (JJ next) (JJS best) (NN thing)))
+    (. ?)))
+
+
+advmod(is-3, So-1)
+attr(is-3, what-2)
+root(ROOT-0, is-3)
+det(thing-7, the-4)
+amod(thing-7, next-5)
+amod(thing-7, best-6)
+nsubj(is-3, thing-7)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Well))
+    (, ,)))
+
+
+root(ROOT-0, Well-1)
+
+
+(ROOT
+  (S
+    (NP (DT the) (JJ next) (JJS best) (NN thing))
+    (VP (VBZ is)
+      (S
+        (VP (TO to)
+          (VP (VB have)
+            (NP (DT a) (NNP JB) (NN restaurant))
+            (ADVP
+              (ADVP (RB right) (RB here))
+              (PP (IN in)
+                (NP (NNP Singapore))))))))
+    (, ,)))
+
+
+det(thing-4, the-1)
+amod(thing-4, next-2)
+amod(thing-4, best-3)
+nsubj(is-5, thing-4)
+root(ROOT-0, is-5)
+aux(have-7, to-6)
+xcomp(is-5, have-7)
+det(restaurant-10, a-8)
+nn(restaurant-10, JB-9)
+dobj(have-7, restaurant-10)
+advmod(here-12, right-11)
+advmod(have-7, here-12)
+prep(here-12, in-13)
+pobj(in-13, Singapore-14)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP guess))
+    (. .)))
+
+
+nsubj(guess-2, I-1)
+root(ROOT-0, guess-2)
+
+

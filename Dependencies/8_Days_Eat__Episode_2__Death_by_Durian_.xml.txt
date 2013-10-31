@@ -1,0 +1,92 @@
+(ROOT
+  (NP
+    (NP (NNS Thanks))
+    (PP (TO to)
+      (NP (NNS Sen028)))
+    (PP (IN for)
+      (NP (DT the) (JJ video) (NN upload)))
+    (. !)))
+
+
+root(ROOT-0, Thanks-1)
+prep(Thanks-1, to-2)
+pobj(to-2, Sen028-3)
+prep(Thanks-1, for-4)
+det(upload-7, the-5)
+amod(upload-7, video-6)
+pobj(for-4, upload-7)
+
+
+(ROOT
+  (S
+    (PP (IN By)
+      (NP (NN episode) (CD 2)))
+    (NP (PRP I))
+    (VP (VBD was)
+      (VP
+        (VP
+          (ADVP
+            (NP (DT a) (RB little))
+            (RBR more))
+          (VBN relaxed))
+        (CC and)
+        (ADVP (RB really))
+        (VP (VBN started)
+          (S
+            (VP (TO to)
+              (VP (VB gel)
+                (PP (IN with)
+                  (NP (NNP Belinda)))))))))
+    (. .)))
+
+
+prep(relaxed-9, By-1)
+pobj(By-1, episode-2)
+num(episode-2, 2-3)
+nsubjpass(relaxed-9, I-4)
+auxpass(relaxed-9, was-5)
+det(little-7, a-6)
+npadvmod(more-8, little-7)
+advmod(relaxed-9, more-8)
+root(ROOT-0, relaxed-9)
+cc(relaxed-9, and-10)
+advmod(relaxed-9, really-11)
+conj(relaxed-9, started-12)
+aux(gel-14, to-13)
+xcomp(started-12, gel-14)
+prep(gel-14, with-15)
+pobj(with-15, Belinda-16)
+
+
+(ROOT
+  (S
+    (NP (NNP Hope) (PRP you))
+    (VP (VBP enjoy)
+      (NP (DT the) (NN show)))
+    (, ,)))
+
+
+nsubj(enjoy-3, Hope-1)
+dep(Hope-1, you-2)
+root(ROOT-0, enjoy-3)
+det(show-5, the-4)
+dobj(enjoy-3, show-5)
+
+
+(ROOT
+  (S (CC and)
+    (VP (VB do)
+      (VP (VB give)
+        (NP (PRP us))
+        (NP (PRP$ your) (NN feedback))))
+    (. !)))
+
+
+cc(give-3, and-1)
+aux(give-3, do-2)
+root(ROOT-0, give-3)
+iobj(give-3, us-4)
+poss(feedback-6, your-5)
+dobj(give-3, feedback-6)
+
+

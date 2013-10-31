@@ -1,0 +1,209 @@
+(ROOT
+  (FRAG
+    (PP (IN For)
+      (NP (NNP Tonkatsu)))
+    (, ,)))
+
+
+root(ROOT-0, For-1)
+pobj(For-1, Tonkatsu-2)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (VP (VBD made)
+      (NP (PRP$ our) (NN way))
+      (PP (IN off)
+        (NP (DT the) (NN tourist) (NN route)))
+      (PP (TO to)
+        (NP
+          (NP (DT the) (NN town))
+          (PP (IN of)
+            (NP (NNP Meguro)))))
+      (SBAR
+        (WHADVP (WRB where))
+        (S
+          (NP (EX there))
+          (VP (VBZ is)
+            (NP
+              (NP (DT a) (JJ famous) (NNP Tonkatsu) (NN restaurant))
+              (VP (VBN called)
+                (NP (NNP Tonkin))))))))
+    (. .)))
+
+
+nsubj(made-2, we-1)
+root(ROOT-0, made-2)
+poss(way-4, our-3)
+dobj(made-2, way-4)
+prep(made-2, off-5)
+det(route-8, the-6)
+nn(route-8, tourist-7)
+pobj(off-5, route-8)
+prep(made-2, to-9)
+det(town-11, the-10)
+pobj(to-9, town-11)
+prep(town-11, of-12)
+pobj(of-12, Meguro-13)
+advmod(is-16, where-14)
+expl(is-16, there-15)
+advcl(made-2, is-16)
+det(restaurant-20, a-17)
+amod(restaurant-20, famous-18)
+nn(restaurant-20, Tonkatsu-19)
+nsubj(is-16, restaurant-20)
+partmod(restaurant-20, called-21)
+dobj(called-21, Tonkin-22)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB However))
+    (ADVP (RB ,))))
+
+
+root(ROOT-0, However-1)
+
+
+(ROOT
+  (PP (VBG according)
+    (PP (TO to)
+      (NP
+        (NP (PRP$ my) (JJ internet) (NN research))
+        (, ,)))))
+
+
+root(ROOT-0, according-1)
+pcomp(according-1, to-2)
+poss(research-5, my-3)
+amod(research-5, internet-4)
+pobj(to-2, research-5)
+
+
+(ROOT
+  (S
+    (NP (EX there))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (JJR smaller) (NN restaurant))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (NP (DT the) (NNS locals) (NN favor))
+            (VP (VBD called)
+              (NP
+                (NP (NNP Tenshin))
+                (SBAR
+                  (WHNP (WDT which))
+                  (S
+                    (VP (VBD sounded)
+                      (ADJP (RBR more) (JJ interesting))
+                      (PP (TO to)
+                        (NP (PRP me))))))))))))
+    (. .)))
+
+
+expl(is-2, there-1)
+root(ROOT-0, is-2)
+det(restaurant-5, a-3)
+amod(restaurant-5, smaller-4)
+nsubj(is-2, restaurant-5)
+dobj(called-10, which-6)
+det(favor-9, the-7)
+nn(favor-9, locals-8)
+nsubj(called-10, favor-9)
+rcmod(restaurant-5, called-10)
+dobj(called-10, Tenshin-11)
+nsubj(sounded-13, which-12)
+rcmod(Tenshin-11, sounded-13)
+advmod(interesting-15, more-14)
+acomp(sounded-13, interesting-15)
+prep(sounded-13, to-16)
+pobj(to-16, me-17)
+
+
+(ROOT
+  (S
+    (NP (NNP Rumour))
+    (VP (VBZ has)
+      (NP
+        (NP (PRP it))
+        (SBAR (IN that)
+          (S
+            (NP (DT the) (NN restaurant))
+            (VP (VBZ is)
+              (VP (VBN run)
+                (PP (IN by)
+                  (NP
+                    (NP (DT the) (NN wife))
+                    (PP (IN of)
+                      (NP
+                        (NP (DT the) (NN chef))
+                        (SBAR
+                          (WHNP (WP who))
+                          (S
+                            (VP (MD can)
+                              (VP (VB be)
+                                (VP
+                                  (ADVP (RB quite)
+                                    (NP (DT a) (NN Food)))
+                                  (VBN Nazi))))))))))))))))
+    (, ,)))
+
+
+nsubj(has-2, Rumour-1)
+root(ROOT-0, has-2)
+dobj(has-2, it-3)
+mark(run-8, that-4)
+det(restaurant-6, the-5)
+nsubjpass(run-8, restaurant-6)
+auxpass(run-8, is-7)
+dep(it-3, run-8)
+prep(run-8, by-9)
+det(wife-11, the-10)
+pobj(by-9, wife-11)
+prep(wife-11, of-12)
+det(chef-14, the-13)
+pobj(of-12, chef-14)
+nsubjpass(Nazi-21, who-15)
+aux(Nazi-21, can-16)
+auxpass(Nazi-21, be-17)
+advmod(Nazi-21, quite-18)
+det(Food-20, a-19)
+pobj(quite-18, Food-20)
+rcmod(chef-14, Nazi-21)
+
+
+(ROOT
+  (S (IN so)
+    (NP (PRP I))
+    (VP (MD might) (RB not)
+      (VP (VB be)
+        (ADJP (JJ able)
+          (S
+            (VP (TO to)
+              (VP (VB take)
+                (NP (DT any) (NNS photos))))))))
+    (. .)))
+
+
+dep(able-6, so-1)
+nsubj(able-6, I-2)
+aux(able-6, might-3)
+neg(able-6, not-4)
+cop(able-6, be-5)
+root(ROOT-0, able-6)
+aux(take-8, to-7)
+xcomp(able-6, take-8)
+det(photos-10, any-9)
+dobj(take-8, photos-10)
+
+
+(ROOT
+  (NP (NNP Shudder) (: ...)))
+
+
+root(ROOT-0, Shudder-1)
+
+

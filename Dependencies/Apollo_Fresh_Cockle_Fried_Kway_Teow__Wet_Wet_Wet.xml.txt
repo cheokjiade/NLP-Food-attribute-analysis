@@ -1,0 +1,375 @@
+(ROOT
+  (S
+    (NP (TO To))
+    (VP (VBP be)
+      (ADJP (RB very) (JJ honest)))
+    (, ,)))
+
+
+nsubj(honest-4, To-1)
+cop(honest-4, be-2)
+advmod(honest-4, very-3)
+root(ROOT-0, honest-4)
+
+
+(ROOT
+  (S
+    (NP (DT this))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (JJ ugliest) (NN plate))
+        (PP (IN of)
+          (NP
+            (NP (NNP Char) (NNP Kway) (NNP Teow))
+            (SBAR
+              (S
+                (NP (PRP I))
+                (VP (VBP have)
+                  (ADVP (RB ever))
+                  (VP (VBN laid)
+                    (NP (NNS eyes))
+                    (PP (IN on))))))))))
+    (. .)))
+
+
+nsubj(plate-5, this-1)
+cop(plate-5, is-2)
+det(plate-5, the-3)
+amod(plate-5, ugliest-4)
+root(ROOT-0, plate-5)
+prep(plate-5, of-6)
+nn(Teow-9, Char-7)
+nn(Teow-9, Kway-8)
+pobj(of-6, Teow-9)
+nsubj(laid-13, I-10)
+aux(laid-13, have-11)
+advmod(laid-13, ever-12)
+rcmod(Teow-9, laid-13)
+dobj(laid-13, eyes-14)
+prep(laid-13, on-15)
+
+
+(ROOT
+  (S (CC But)
+    (NP (PRP it))
+    (VP (VBZ is)
+      (ADVP (RB also))
+      (NP
+        (NP (DT the)
+          (ADJP (RBS most) (JJ unique))
+          (NNP Char) (NNP Kway) (NN Teow))
+        (SBAR
+          (S
+            (NP (PRP I))
+            (VP (VBP have)
+              (ADVP (RB ever))
+              (VP (VBN come)
+                (PRT (RP across))))))))
+    (. .)))
+
+
+cc(Teow-10, But-1)
+nsubj(Teow-10, it-2)
+cop(Teow-10, is-3)
+advmod(Teow-10, also-4)
+det(Teow-10, the-5)
+advmod(unique-7, most-6)
+amod(Teow-10, unique-7)
+nn(Teow-10, Char-8)
+nn(Teow-10, Kway-9)
+root(ROOT-0, Teow-10)
+nsubj(come-14, I-11)
+aux(come-14, have-12)
+advmod(come-14, ever-13)
+rcmod(Teow-10, come-14)
+prt(come-14, across-15)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (VBZ is)
+        (ADVP (RB almost)
+          (PP (IN like)
+            (NP
+              (NP (DT a) (NNP Hor) (NNP Fun))
+              (PP (IN since)
+                (NP (DT the) (NNP Kway) (NNP Teow))))))
+        (ADJP (RB still) (JJ white)
+          (PP (IN in)
+            (NP (NN color))))))
+    (CC and)
+    (S
+      (NP (PRP it))
+      (VP (VBZ is)
+        (VP (VBG swimming)
+          (PP (IN in)
+            (NP (DT the) (JJ sweet) (JJ black) (NN sauce) (NN gravy))))))
+    (. .)))
+
+
+nsubj(white-13, It-1)
+cop(white-13, is-2)
+advmod(white-13, almost-3)
+prep(almost-3, like-4)
+det(Fun-7, a-5)
+nn(Fun-7, Hor-6)
+pobj(like-4, Fun-7)
+prep(Fun-7, since-8)
+det(Teow-11, the-9)
+nn(Teow-11, Kway-10)
+pobj(since-8, Teow-11)
+advmod(white-13, still-12)
+root(ROOT-0, white-13)
+prep(white-13, in-14)
+pobj(in-14, color-15)
+cc(white-13, and-16)
+nsubj(swimming-19, it-17)
+aux(swimming-19, is-18)
+conj(white-13, swimming-19)
+prep(swimming-19, in-20)
+det(gravy-25, the-21)
+amod(gravy-25, sweet-22)
+amod(gravy-25, black-23)
+nn(gravy-25, sauce-24)
+pobj(in-20, gravy-25)
+
+
+(ROOT
+  (S
+    (SBAR (IN Although)
+      (S
+        (NP
+          (NP (DT the) (NN stall) (POS 's))
+          (NN name))
+        (VP (VBZ is)
+          (NP (NNP Apollo)))))
+    (PRN (-LRB- -LRB-)
+      (S
+        (ADVP (RB probably))
+        (VP (VBN named)
+          (PP (IN after)
+            (NP
+              (NP (DT the) (NNP Apollo) (NN lunar) (NNS missions))
+              (PP (IN of)
+                (NP (DT the) (CD 60) (NNS 's)))))))
+      (-RRB- -RRB-))
+    (NP (PRP it))
+    (VP (VBZ is)
+      (ADVP (RBR better))
+      (VP (VBN known)
+        (PP (IN as)
+          (NP
+            (NP (DT the) (NNP Wet) (NNP Char) (NNP Kway) (NNP Teow))
+            (PP (IN of)
+              (NP (NNP Marine) (NNP Parade) (NNP Hawker) (NNP Centre)))))))
+    (. .)))
+
+
+mark(Apollo-7, Although-1)
+det(stall-3, the-2)
+poss(name-5, stall-3)
+possessive(stall-3, 's-4)
+nsubj(Apollo-7, name-5)
+cop(Apollo-7, is-6)
+advcl(known-24, Apollo-7)
+advmod(named-10, probably-9)
+parataxis(known-24, named-10)
+prep(named-10, after-11)
+det(missions-15, the-12)
+nn(missions-15, Apollo-13)
+nn(missions-15, lunar-14)
+pobj(after-11, missions-15)
+prep(missions-15, of-16)
+det('s-19, the-17)
+num('s-19, 60-18)
+pobj(of-16, 's-19)
+nsubjpass(known-24, it-21)
+auxpass(known-24, is-22)
+advmod(known-24, better-23)
+root(ROOT-0, known-24)
+prep(known-24, as-25)
+det(Teow-30, the-26)
+nn(Teow-30, Wet-27)
+nn(Teow-30, Char-28)
+nn(Teow-30, Kway-29)
+pobj(as-25, Teow-30)
+prep(Teow-30, of-31)
+nn(Centre-35, Marine-32)
+nn(Centre-35, Parade-33)
+nn(Centre-35, Hawker-34)
+pobj(of-31, Centre-35)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (VBP like)
+        (NP (JJ sweet) (NN stuff)))
+      (, ,))))
+
+
+mark(like-3, If-1)
+nsubj(like-3, you-2)
+root(ROOT-0, like-3)
+amod(stuff-5, sweet-4)
+dobj(like-3, stuff-5)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (MD will)
+      (VP (VB like)
+        (NP (DT this) (NNP Char) (NNP Kway) (NNP Teow))
+        (SBAR (IN as)
+          (S
+            (NP (DT the) (NN gravy))
+            (VP (VBZ is)
+              (ADJP (RB very) (JJ much)
+                (PP (IN on)
+                  (NP (DT the) (JJ sweet) (NN side)))))))))
+    (. .)))
+
+
+nsubj(like-3, you-1)
+aux(like-3, will-2)
+root(ROOT-0, like-3)
+det(Teow-7, this-4)
+nn(Teow-7, Char-5)
+nn(Teow-7, Kway-6)
+dobj(like-3, Teow-7)
+mark(much-13, as-8)
+det(gravy-10, the-9)
+nsubj(much-13, gravy-10)
+cop(much-13, is-11)
+advmod(much-13, very-12)
+advcl(like-3, much-13)
+prep(much-13, on-14)
+det(side-17, the-15)
+amod(side-17, sweet-16)
+pobj(on-14, side-17)
+
+
+(ROOT
+  (SBAR (IN As)
+    (S
+      (NP (PRP I))
+      (VP (VBD said))
+      (, ,))))
+
+
+mark(said-3, As-1)
+nsubj(said-3, I-2)
+root(ROOT-0, said-3)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NNP Kway) (NNP Teow))
+    (VP (VBZ does) (RB not)
+      (VP (VB taste)
+        (SBAR (IN like)
+          (S
+            (NP (PRP it))
+            (VP (VBZ has)
+              (VP (VBN had)
+                (NP (JJ enough) (NN contact))
+                (PP (IN with)
+                  (NP (DT the) (NN wok)))))))))
+    (. .)))
+
+
+det(Teow-3, the-1)
+nn(Teow-3, Kway-2)
+nsubj(taste-6, Teow-3)
+aux(taste-6, does-4)
+neg(taste-6, not-5)
+root(ROOT-0, taste-6)
+mark(had-10, like-7)
+nsubj(had-10, it-8)
+aux(had-10, has-9)
+advcl(taste-6, had-10)
+amod(contact-12, enough-11)
+dobj(had-10, contact-12)
+prep(had-10, with-13)
+det(wok-15, the-14)
+pobj(with-13, wok-15)
+
+
+(ROOT
+  (FRAG (CC But)
+    (NP (JJ overall) (NNS ,))))
+
+
+cc(,-3, But-1)
+amod(,-3, overall-2)
+
+
+(ROOT
+  (FRAG
+    (ADJP (DT a)
+      (ADJP (JJR better)
+        (PP (IN than)
+          (NP
+            (NP (JJ average) (NN plate))
+            (PP (IN of)
+              (NP (NNP Char) (NNP Kway) (NNP Teow))))))
+      (CC and)
+      (ADJP (RB certainly) (RB very) (JJ unique)))
+    (. .)))
+
+
+dep(better-2, a-1)
+root(ROOT-0, better-2)
+prep(better-2, than-3)
+amod(plate-5, average-4)
+pobj(than-3, plate-5)
+prep(plate-5, of-6)
+nn(Teow-9, Char-7)
+nn(Teow-9, Kway-8)
+pobj(of-6, Teow-9)
+cc(better-2, and-10)
+advmod(unique-13, certainly-11)
+advmod(unique-13, very-12)
+conj(better-2, unique-13)
+
+
+(ROOT
+  (S
+    (NP (RB Just) (NN gotta))
+    (VP (VBP try)
+      (S
+        (NP (PRP it))
+        (ADVP (IN at) (JJS least) (RB once))
+        (VP (TO to)
+          (VP (VB decide)
+            (SBAR (IN if)
+              (S
+                (NP (PRP you))
+                (VP (VB like)
+                  (NP (PRP it))
+                  (CC or)
+                  (RB not))))))))
+    (. .)))
+
+
+advmod(gotta-2, Just-1)
+nsubj(try-3, gotta-2)
+root(ROOT-0, try-3)
+nsubj(decide-9, it-4)
+advmod(decide-9, at-5)
+pobj(at-5, least-6)
+advmod(at-5, once-7)
+aux(decide-9, to-8)
+xcomp(try-3, decide-9)
+mark(like-12, if-10)
+nsubj(like-12, you-11)
+advcl(decide-9, like-12)
+dobj(like-12, it-13)
+cc(like-12, or-14)
+conj(like-12, not-15)
+
+

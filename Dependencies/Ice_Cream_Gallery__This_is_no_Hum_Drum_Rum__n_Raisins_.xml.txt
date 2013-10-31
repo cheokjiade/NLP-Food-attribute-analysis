@@ -1,0 +1,689 @@
+(ROOT
+  (FRAG
+    (PP
+      (NP (NNS Thanks))
+      (PP (TO to)
+        (NP
+          (NP (DT the) (NNS comments))
+          (PP (IN by)
+            (NP (NNP Kare) (NNP Kevil))))))
+    (, ,)))
+
+
+dep(to-2, Thanks-1)
+root(ROOT-0, to-2)
+det(comments-4, the-3)
+pobj(to-2, comments-4)
+prep(comments-4, by-5)
+nn(Kevil-7, Kare-6)
+pobj(by-5, Kevil-7)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD found)
+      (NP (PRP myself))
+      (S
+        (VP (VBG standing)
+          (PP (IN outside)
+            (NP
+              (NP (DT this) (JJ small) (NN outlet))
+              (PP (IN of)
+                (NP (DT The) (NNP Ice) (NNP Cream) (NNP Gallery)))))
+          (PP (IN at)
+            (NP (NNP Eastwood) (NNP Centre))))))
+    (. .)))
+
+
+nsubj(found-2, I-1)
+root(ROOT-0, found-2)
+dobj(found-2, myself-3)
+xcomp(found-2, standing-4)
+prep(standing-4, outside-5)
+det(outlet-8, this-6)
+amod(outlet-8, small-7)
+pobj(outside-5, outlet-8)
+prep(outlet-8, of-9)
+det(Gallery-13, The-10)
+nn(Gallery-13, Ice-11)
+nn(Gallery-13, Cream-12)
+pobj(of-9, Gallery-13)
+prep(standing-4, at-14)
+nn(Centre-16, Eastwood-15)
+pobj(at-14, Centre-16)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD must)
+      (VP (VB say)
+        (SBAR (IN that)
+          (S
+            (NP (PRP I))
+            (ADVP (RB really))
+            (VP (VBP do)
+              (PP (IN like)
+                (NP (PRP$ our) (JJ very) (JJ own) (NN homegrown) (NN ice)))
+              (PP
+                (ADVP
+                  (NP (NNS creams))
+                  (RBR more))
+                (IN than)
+                (NP (DT the) (JJ international) (NNS brands))))))))
+    (. .)))
+
+
+nsubj(say-3, I-1)
+aux(say-3, must-2)
+root(ROOT-0, say-3)
+mark(do-7, that-4)
+nsubj(do-7, I-5)
+advmod(do-7, really-6)
+ccomp(say-3, do-7)
+prep(do-7, like-8)
+poss(ice-13, our-9)
+amod(ice-13, very-10)
+amod(ice-13, own-11)
+nn(ice-13, homegrown-12)
+pobj(like-8, ice-13)
+npadvmod(more-15, creams-14)
+advmod(than-16, more-15)
+prep(do-7, than-16)
+det(brands-19, the-17)
+amod(brands-19, international-18)
+pobj(than-16, brands-19)
+
+
+(ROOT
+  (S
+    (NP (PRP$ Their) (JJ adventurous) (NNS offerings))
+    (ADVP (RB never))
+    (VP (VBZ fails)
+      (S
+        (VP (TO to)
+          (VP
+            (VP (VB bring)
+              (ADVP (RB novelty)))
+            (CC and)
+            (VP (VB delight)
+              (PP (TO to)
+                (NP (PRP$ my) (NN palette))))))))
+    (. .)))
+
+
+poss(offerings-3, Their-1)
+amod(offerings-3, adventurous-2)
+nsubj(fails-5, offerings-3)
+neg(fails-5, never-4)
+root(ROOT-0, fails-5)
+aux(bring-7, to-6)
+xcomp(fails-5, bring-7)
+advmod(bring-7, novelty-8)
+cc(bring-7, and-9)
+conj(bring-7, delight-10)
+prep(delight-10, to-11)
+poss(palette-13, my-12)
+pobj(to-11, palette-13)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP
+      (VP (VBN sampled)
+        (NP
+          (NP (DT a) (JJ few))
+          (PP (IN of)
+            (NP (PRP$ their) (NNS flavors)))))
+      (CC but)
+      (VP (VBD decided)
+        (SBAR (IN that)
+          (S
+            (NP (PRP$ our) (CD two) (NNS favorites))
+            (VP (VBD were)
+              (ADJP (JJ Rum)))))))))
+
+
+nsubj(sampled-2, We-1)
+root(ROOT-0, sampled-2)
+det(few-4, a-3)
+dobj(sampled-2, few-4)
+prep(few-4, of-5)
+poss(flavors-7, their-6)
+pobj(of-5, flavors-7)
+cc(sampled-2, but-8)
+conj(sampled-2, decided-9)
+mark(Rum-15, that-10)
+poss(favorites-13, our-11)
+num(favorites-13, two-12)
+nsubj(Rum-15, favorites-13)
+cop(Rum-15, were-14)
+ccomp(decided-9, Rum-15)
+
+
+(ROOT
+  (S
+    (VP
+      (NP
+        (NP (CC &)
+          (NP (NNP Raisins))
+          (CC and)
+          (NP (NNP D24) (NNP Durian)))
+        (PRN (-LRB- -LRB-)
+          (SBAR (IN as)
+            (S
+              (VP (VBD were)
+                (VP (VBN recommended)
+                  (PP (IN by)
+                    (NP (NNP Kare) (NNP Kevil)))))))
+          (-RRB- -RRB-))))
+    (. .)))
+
+
+cc(Raisins-2, &-1)
+root(ROOT-0, Raisins-2)
+cc(Raisins-2, and-3)
+nn(Durian-5, D24-4)
+conj(Raisins-2, Durian-5)
+mark(recommended-9, as-7)
+auxpass(recommended-9, were-8)
+dep(Raisins-2, recommended-9)
+prep(recommended-9, by-10)
+nn(Kevil-12, Kare-11)
+pobj(by-10, Kevil-12)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD will)
+      (VP (VB say)
+        (NP (DT that))
+        (PP (IN at)
+          (NP
+            (NP (DT this) (NN point))
+            (PP (IN in)
+              (NP (PRP$ my) (NN life)))))))
+    (, ,)))
+
+
+nsubj(say-3, I-1)
+aux(say-3, will-2)
+root(ROOT-0, say-3)
+dobj(say-3, that-4)
+prep(say-3, at-5)
+det(point-7, this-6)
+pobj(at-5, point-7)
+prep(point-7, in-8)
+poss(life-10, my-9)
+pobj(in-8, life-10)
+
+
+(ROOT
+  (S
+    (NP (DT this))
+    (VP (VBZ IS)
+      (NP
+        (NP (DT the) (NNP BEST) (NNP Rum)
+          (CC &)
+          (NNP Raisins) (NN ice) (NN cream))
+        (SBAR
+          (S
+            (NP (PRP I))
+            (VP (VBP have)
+              (ADVP (RB ever))
+              (VP (VBN tasted)))))))
+    (. !)))
+
+
+nsubj(Rum-5, this-1)
+cop(Rum-5, IS-2)
+det(Rum-5, the-3)
+nn(Rum-5, BEST-4)
+root(ROOT-0, Rum-5)
+cc(Rum-5, &-6)
+nn(cream-9, Raisins-7)
+nn(cream-9, ice-8)
+conj(Rum-5, cream-9)
+nsubj(tasted-13, I-10)
+aux(tasted-13, have-11)
+advmod(tasted-13, ever-12)
+rcmod(Rum-5, tasted-13)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (ADVP (RB even))
+    (VP (VBD got)
+      (NP
+        (NP (DT a) (NN stamp))
+        (PP (IN of)
+          (NP (NN approval))))
+      (PP (IN from)
+        (NP
+          (NP
+            (NP (PRP$ our) (NNP Professor))
+            (PP (IN of)
+              (NP (NNP Rum))))
+          (CC and)
+          (NP
+            (NP (NNP Raisinology))
+            (PRN (-LRB- -LRB-)
+              (NP (NN holydrummer))
+              (-RRB- -RRB-))
+            (SBAR
+              (S
+                (NP (EX There))
+                (VP (VBD was)
+                  (NP (DT a)))))))))
+    (. .)))
+
+
+nsubj(got-3, It-1)
+advmod(got-3, even-2)
+root(ROOT-0, got-3)
+det(stamp-5, a-4)
+dobj(got-3, stamp-5)
+prep(stamp-5, of-6)
+pobj(of-6, approval-7)
+prep(got-3, from-8)
+poss(Professor-10, our-9)
+pobj(from-8, Professor-10)
+prep(Professor-10, of-11)
+pobj(of-11, Rum-12)
+cc(Professor-10, and-13)
+conj(Professor-10, Raisinology-14)
+appos(Raisinology-14, holydrummer-16)
+expl(was-19, There-18)
+rcmod(Raisinology-14, was-19)
+nsubj(was-19, a-20)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NNP D24) (NNP Durian) (NN ice) (NN cream))
+    (VP (VBD was)
+      (ADVP (RB also))
+      (NP
+        (NP (NNP Fair) (NNP Dinkum))
+        (SBAR
+          (S (-LRB- -LRB-)
+            (NP (NNP Oz))
+            (VP (VBZ slang))))))
+    (: :)))
+
+
+det(cream-5, The-1)
+nn(cream-5, D24-2)
+nn(cream-5, Durian-3)
+nn(cream-5, ice-4)
+nsubj(Dinkum-9, cream-5)
+cop(Dinkum-9, was-6)
+advmod(Dinkum-9, also-7)
+nn(Dinkum-9, Fair-8)
+root(ROOT-0, Dinkum-9)
+nsubj(slang-12, Oz-11)
+rcmod(Dinkum-9, slang-12)
+
+
+(ROOT
+  (NP (DT No) (NN Bull) (. !)))
+
+
+det(Bull-2, No-1)
+root(ROOT-0, Bull-2)
+
+
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (NP (DT the) (JJ real) (NN thing)))
+    (. !)))
+
+
+nsubj(thing-5, This-1)
+cop(thing-5, is-2)
+det(thing-5, the-3)
+amod(thing-5, real-4)
+root(ROOT-0, thing-5)
+
+
+(ROOT
+  (NP (FW -RRB-) (. .)))
+
+
+
+
+(ROOT
+  (S (CC But)
+    (NP (PRP I))
+    (VP (VBP have)
+      (S
+        (VP (TO to)
+          (VP (VB say)
+            (SBAR (IN that)
+              (S
+                (NP (PRP I))
+                (VP (MD would)
+                  (ADVP (RB still))
+                  (VP
+                    (ADVP (RB rather))
+                    (VB buy)
+                    (NP (DT the) (JJ real) (NN thing))))
+                (, ,)))))))))
+
+
+cc(have-3, But-1)
+nsubj(have-3, I-2)
+root(ROOT-0, have-3)
+aux(say-5, to-4)
+xcomp(have-3, say-5)
+mark(buy-11, that-6)
+nsubj(buy-11, I-7)
+aux(buy-11, would-8)
+advmod(buy-11, still-9)
+advmod(buy-11, rather-10)
+ccomp(say-5, buy-11)
+det(thing-14, the-12)
+amod(thing-14, real-13)
+dobj(buy-11, thing-14)
+
+
+(ROOT
+  (S
+    (VP
+      (VP (VB chill)
+        (NP (PRP it))
+        (PP (IN in)
+          (NP (DT the) (NN fridge))))
+      (CC and)
+      (VP (VB eat)
+        (NP (DT that))))
+    (. !)))
+
+
+root(ROOT-0, chill-1)
+dobj(chill-1, it-2)
+prep(chill-1, in-3)
+det(fridge-5, the-4)
+pobj(in-3, fridge-5)
+cc(chill-1, and-6)
+conj(chill-1, eat-7)
+dobj(eat-7, that-8)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN advantage))
+      (PP (IN of)
+        (NP (NNP Durian) (NNP Ice))))
+    (VP (VBZ Cream)
+      (ADVP (RB though)))
+    (, ,)))
+
+
+det(advantage-2, The-1)
+nsubj(Cream-6, advantage-2)
+prep(advantage-2, of-3)
+nn(Ice-5, Durian-4)
+pobj(of-3, Ice-5)
+root(ROOT-0, Cream-6)
+advmod(Cream-6, though-7)
+
+
+(ROOT
+  (S
+    (S
+      (VP (VBZ is)
+        (SBAR (IN that)
+          (S
+            (NP (PRP you))
+            (VP (VBP enjoy)
+              (NP (DT the) (NN flavor))
+              (PP (IN without)
+                (S
+                  (VP (VBG having)
+                    (NP (DT the) (NN smell))
+                    (PP (IN on)
+                      (NP
+                        (NP (PRP$ your) (NNS fingers))
+                        (NP (DT all) (NN day))))))))))))
+    (CC and)
+    (S
+      (NP (PRP you))
+      (VP (MD can)
+        (VP (VB put)
+          (NP (PRP it))
+          (PP (IN in)
+            (NP (DT the) (NN fridge)))
+          (PP (IN without)
+            (S
+              (VP (VBG having)
+                (S
+                  (VP (TO to)
+                    (VP (VB deodourise)
+                      (NP (DT the) (NN fridge))
+                      (ADVP (RB afterwards)))))))))))
+    (. .)))
+
+
+root(ROOT-0, is-1)
+mark(enjoy-4, that-2)
+nsubj(enjoy-4, you-3)
+ccomp(is-1, enjoy-4)
+det(flavor-6, the-5)
+dobj(enjoy-4, flavor-6)
+prep(enjoy-4, without-7)
+pcomp(without-7, having-8)
+det(smell-10, the-9)
+dobj(having-8, smell-10)
+prep(having-8, on-11)
+poss(fingers-13, your-12)
+pobj(on-11, fingers-13)
+det(day-15, all-14)
+dep(fingers-13, day-15)
+cc(is-1, and-16)
+nsubj(put-19, you-17)
+aux(put-19, can-18)
+conj(is-1, put-19)
+dobj(put-19, it-20)
+prep(put-19, in-21)
+det(fridge-23, the-22)
+pobj(in-21, fridge-23)
+prep(put-19, without-24)
+pcomp(without-24, having-25)
+aux(deodourise-27, to-26)
+xcomp(having-25, deodourise-27)
+det(fridge-29, the-28)
+dobj(deodourise-27, fridge-29)
+advmod(deodourise-27, afterwards-30)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Conclusion))
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (VBP think)
+            (NP
+              (NP (DT each))
+              (PP (IN of)
+                (NP (DT these) (NNP Boutique) (NNP Ice) (NNP Cream) (NNP Pallors))))))))
+    (VP (VBZ has)
+      (NP (PRP$ their) (JJ own) (JJ special) (NNS flavors)))
+    (. .)))
+
+
+nsubj(has-11, Conclusion-1)
+nsubj(think-3, I-2)
+rcmod(Conclusion-1, think-3)
+dobj(think-3, each-4)
+prep(each-4, of-5)
+det(Pallors-10, these-6)
+nn(Pallors-10, Boutique-7)
+nn(Pallors-10, Ice-8)
+nn(Pallors-10, Cream-9)
+pobj(of-5, Pallors-10)
+root(ROOT-0, has-11)
+poss(flavors-15, their-12)
+amod(flavors-15, own-13)
+amod(flavors-15, special-14)
+dobj(has-11, flavors-15)
+
+
+(ROOT
+  (S
+    (NP (NNP Rum)
+      (CC and)
+      (NNP Raisins))
+    (VP (VBZ is)
+      (ADVP (RB definitely))
+      (NP
+        (NP
+          (NP (NNP Ice) (NNP Cream) (NNP Gallery) (POS 's))
+          (NN Cream))
+        (PP (IN of)
+          (NP (DT the) (NNP Crop)))))
+    (. .)))
+
+
+nsubj(Cream-10, Rum-1)
+cc(Rum-1, and-2)
+conj(Rum-1, Raisins-3)
+cop(Cream-10, is-4)
+advmod(Cream-10, definitely-5)
+nn(Gallery-8, Ice-6)
+nn(Gallery-8, Cream-7)
+poss(Cream-10, Gallery-8)
+possessive(Gallery-8, 's-9)
+root(ROOT-0, Cream-10)
+prep(Cream-10, of-11)
+det(Crop-13, the-12)
+pobj(of-11, Crop-13)
+
+
+(ROOT
+  (FRAG
+    (PP (IN By)
+      (NP (DT the) (NN way)))
+    (, ,)))
+
+
+root(ROOT-0, By-1)
+det(way-3, the-2)
+pobj(By-1, way-3)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (MD should)
+      (VP (VB try)
+        (NP
+          (NP (DT the) (NN combination))
+          (PP (IN of)
+            (NP (NNP Rum)
+              (CC and)
+              (NNP Raisins))))
+        (PP (IN with)
+          (NP (NNP Chocolate)))
+        (SBAR (IN as)
+          (S
+            (VP (VBD suggested)
+              (PP (IN by)
+                (NP (NN holydrummer))))))))
+    (. .)))
+
+
+nsubj(try-3, you-1)
+aux(try-3, should-2)
+root(ROOT-0, try-3)
+det(combination-5, the-4)
+dobj(try-3, combination-5)
+prep(combination-5, of-6)
+pobj(of-6, Rum-7)
+cc(Rum-7, and-8)
+conj(Rum-7, Raisins-9)
+prep(try-3, with-10)
+pobj(with-10, Chocolate-11)
+mark(suggested-13, as-12)
+advcl(try-3, suggested-13)
+prep(suggested-13, by-14)
+pobj(by-14, holydrummer-15)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Not)
+      (ADJP (JJ good)))
+    (, ,)))
+
+
+root(ROOT-0, Not-1)
+pobj(Not-1, good-2)
+
+
+(ROOT
+  (FRAG
+    (ADJP (JJ VERY) (JJ good))
+    (. !)))
+
+
+amod(good-2, VERY-1)
+root(ROOT-0, good-2)
+
+
+(ROOT
+  (NP
+    (NP (DT The) (NN Ice))
+    (NP (NNP Cream) (NNP Gallery))))
+
+
+det(Ice-2, The-1)
+root(ROOT-0, Ice-2)
+nn(Gallery-4, Cream-3)
+dep(Ice-2, Gallery-4)
+
+
+(ROOT
+  (FRAG
+    (X
+      (NP
+        (NP (CD 20) (NNP Eastwood) (NNP Road))
+        (NP (# #) (CD 01-13)))
+      (NP (NNP Eastwood) (NNP Centre) (NNP 62462926) (NNP Main) (NNP Branch) (NNP 491) (NN River) (NNP Valley) (NNP Road))
+      (NP
+        (NP (# #) (CD 01-20))
+        (NP (NNP Valley) (NNP Point))))
+    (NP (CD 62350870) (NN www.icecreamgallery.com))))
+
+
+num(Road-3, 20-1)
+nn(Road-3, Eastwood-2)
+dep(01-20-16, Road-3)
+dep(01-13-5, #-4)
+dep(Road-3, 01-13-5)
+nn(Road-14, Eastwood-6)
+nn(Road-14, Centre-7)
+nn(Road-14, 62462926-8)
+nn(Road-14, Main-9)
+nn(Road-14, Branch-10)
+nn(Road-14, 491-11)
+nn(Road-14, River-12)
+nn(Road-14, Valley-13)
+dep(01-20-16, Road-14)
+dep(01-20-16, #-15)
+dep(www.icecreamgallery.com-20, 01-20-16)
+nn(Point-18, Valley-17)
+dep(01-20-16, Point-18)
+num(www.icecreamgallery.com-20, 62350870-19)
+root(ROOT-0, www.icecreamgallery.com-20)
+
+

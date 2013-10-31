@@ -1,0 +1,288 @@
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ Our) (JJ favorite) (NNP Thai) (NN food))
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP we))
+          (VP (VBD were)
+            (VP (VBG living)
+              (PP (IN in)
+                (NP (NNP Bangkok))))))))
+    (VP (VBD was) (RB not)
+      (NP (DT the) (JJ typical) (NN staple))
+      (SBAR (IN that)
+        (S
+          (NP (PRP we))
+          (VP (VB order)
+            (ADVP (RB here))
+            (SBAR
+              (WHADVP (WRB whenever))
+              (S
+                (NP (PRP we))
+                (VP (VBP visit)
+                  (NP (DT a) (NNP Thai) (NNP Restaurant)))))))))
+    (. .)))
+
+
+poss(food-4, Our-1)
+amod(food-4, favorite-2)
+nn(food-4, Thai-3)
+nsubj(staple-15, food-4)
+advmod(living-8, when-5)
+nsubj(living-8, we-6)
+aux(living-8, were-7)
+rcmod(food-4, living-8)
+prep(living-8, in-9)
+pobj(in-9, Bangkok-10)
+cop(staple-15, was-11)
+neg(staple-15, not-12)
+det(staple-15, the-13)
+amod(staple-15, typical-14)
+root(ROOT-0, staple-15)
+mark(order-18, that-16)
+nsubj(order-18, we-17)
+ccomp(staple-15, order-18)
+advmod(order-18, here-19)
+advmod(visit-22, whenever-20)
+nsubj(visit-22, we-21)
+advcl(order-18, visit-22)
+det(Restaurant-25, a-23)
+nn(Restaurant-25, Thai-24)
+dobj(visit-22, Restaurant-25)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (CD One))
+      (PP (IN of)
+        (NP (PRP$ my) (JJ favorite) (NNS dishes))))
+    (VP (VBD was)
+      (NP
+        (NP (NNP Pad) (NNP Krapau))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (ADVP (RB loosely))
+            (VP (VBZ translates)
+              (PP (TO to)
+                (NP (JJ fried) (JJ basil) (NNS leaves))))))))
+    (. .)))
+
+
+nsubj(Krapau-8, One-1)
+prep(One-1, of-2)
+poss(dishes-5, my-3)
+amod(dishes-5, favorite-4)
+pobj(of-2, dishes-5)
+cop(Krapau-8, was-6)
+nn(Krapau-8, Pad-7)
+root(ROOT-0, Krapau-8)
+nsubj(translates-11, which-9)
+advmod(translates-11, loosely-10)
+rcmod(Krapau-8, translates-11)
+prep(translates-11, to-12)
+amod(leaves-15, fried-13)
+amod(leaves-15, basil-14)
+pobj(to-12, leaves-15)
+
+
+(ROOT
+  (SBAR (IN Although)
+    (S
+      (NP (PRP it))
+      (VP (VBZ is)
+        (VP (VBN called)
+          (S (`` ``)
+            (NP (NNP Pad) (NNP Krapau))
+            ('' ''))))
+      (, ,))))
+
+
+mark(called-4, Although-1)
+nsubjpass(called-4, it-2)
+auxpass(called-4, is-3)
+root(ROOT-0, called-4)
+nn(Krapau-7, Pad-6)
+dep(called-4, Krapau-7)
+
+
+(ROOT
+  (S
+    (NP (JJ minced) (NN pork))
+    (VP (VBZ seems)
+      (S
+        (VP (TO to)
+          (VP (VB be)
+            (NP
+              (NP (DT the) (JJ main) (NN part))
+              (PP (IN of)
+                (NP (DT the) (NN dish))))))))
+    (. .)))
+
+
+amod(pork-2, minced-1)
+nsubj(seems-3, pork-2)
+root(ROOT-0, seems-3)
+aux(part-8, to-4)
+cop(part-8, be-5)
+det(part-8, the-6)
+amod(part-8, main-7)
+xcomp(seems-3, part-8)
+prep(part-8, of-9)
+det(dish-11, the-10)
+pobj(of-9, dish-11)
+
+
+(ROOT
+  (S
+    (NP (DT Another))
+    (VP (VBZ dish)
+      (SBAR (IN that)
+        (S
+          (NP (PRP I))
+          (VP (VBP love)
+            (SBAR
+              (S
+                (VP (VBD was)
+                  (NP (DT the) (NNP Kana) (NNP Pad) (NNP Mu) (NNP Krop)))))))))
+    (, ,)))
+
+
+nsubj(dish-2, Another-1)
+root(ROOT-0, dish-2)
+mark(love-5, that-3)
+nsubj(love-5, I-4)
+ccomp(dish-2, love-5)
+cop(Krop-11, was-6)
+det(Krop-11, the-7)
+nn(Krop-11, Kana-8)
+nn(Krop-11, Pad-9)
+nn(Krop-11, Mu-10)
+ccomp(love-5, Krop-11)
+
+
+(ROOT
+  (S
+    (NP
+      (QP (CC or)
+        (CD fried)))
+    (VP (VBP Kale)
+      (PP (IN with)
+        (NP (NNP Deep) (NNP Fried) (NNP Pork) (NNP Belly))))
+    (. .)))
+
+
+cc(fried-2, or-1)
+nsubj(Kale-3, fried-2)
+root(ROOT-0, Kale-3)
+prep(Kale-3, with-4)
+nn(Belly-8, Deep-5)
+nn(Belly-8, Fried-6)
+nn(Belly-8, Pork-7)
+pobj(with-4, Belly-8)
+
+
+(ROOT
+  (NP (NNP Hmmmm) (: ...)))
+
+
+root(ROOT-0, Hmmmm-1)
+
+
+(ROOT
+  (INTJ (UH .)))
+
+
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBD used)
+        (S
+          (VP (TO to)
+            (VP
+              (ADVP (RB just))
+              (VB pop)
+              (NP
+                (NP
+                  (NP (NNS downstairs))
+                  (PRN (-LRB- -LRB-)
+                    (PP (IN of)
+                      (NP (PRP$ my) (NN apartment)))
+                    (-RRB- -RRB-)))
+                (PP (IN for)
+                  (NP (DT a) (NNP Kana) (NNP Pad) (NNP Mu) (NNP Krop))))
+              (PP (IN with)
+                (NP (NN rice)))
+              (PP (IN for)
+                (NP
+                  (NP
+                    (QP (RB just) (CD 20))
+                    (NN baht))
+                  (PRN (-LRB- -LRB-)
+                    (NP (CD 80) (NNS cents))
+                    (-RRB- -RRB-)))))))))
+    (CC and)
+    (S
+      (NP (DT that))
+      (VP (VBD was)
+        (NP
+          (NP (DT a)
+            (ADJP
+              (ADJP (JJ simple))
+              (CC and)
+              (ADJP (RB very) (JJ satisfying)))
+            (NN meal))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (ADVP (RB really))
+              (VP (VBD hit)
+                (NP (DT the) (NN spot))))))))
+    (. .)))
+
+
+nsubj(used-2, I-1)
+root(ROOT-0, used-2)
+aux(pop-5, to-3)
+advmod(pop-5, just-4)
+xcomp(used-2, pop-5)
+dobj(pop-5, downstairs-6)
+prep(downstairs-6, of-8)
+poss(apartment-10, my-9)
+pobj(of-8, apartment-10)
+prep(downstairs-6, for-12)
+det(Krop-17, a-13)
+nn(Krop-17, Kana-14)
+nn(Krop-17, Pad-15)
+nn(Krop-17, Mu-16)
+pobj(for-12, Krop-17)
+prep(pop-5, with-18)
+pobj(with-18, rice-19)
+prep(pop-5, for-20)
+quantmod(20-22, just-21)
+num(baht-23, 20-22)
+pobj(for-20, baht-23)
+num(cents-26, 80-25)
+appos(baht-23, cents-26)
+cc(used-2, and-28)
+nsubj(meal-36, that-29)
+cop(meal-36, was-30)
+det(meal-36, a-31)
+amod(meal-36, simple-32)
+cc(simple-32, and-33)
+advmod(satisfying-35, very-34)
+conj(simple-32, satisfying-35)
+conj(used-2, meal-36)
+nsubj(hit-39, that-37)
+advmod(hit-39, really-38)
+rcmod(meal-36, hit-39)
+det(spot-41, the-40)
+dobj(hit-39, spot-41)
+
+

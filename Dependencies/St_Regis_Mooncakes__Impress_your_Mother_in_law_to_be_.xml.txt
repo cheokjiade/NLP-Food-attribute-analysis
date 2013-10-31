@@ -1,0 +1,459 @@
+(ROOT
+  (S
+    (VP (VB Let)
+      (S
+        (NP (PRP 's))
+        (VP (VB be)
+          (ADJP (RB very) (JJ honest)))
+        (, ,)))))
+
+
+root(ROOT-0, Let-1)
+nsubj(honest-5, 's-2)
+cop(honest-5, be-3)
+advmod(honest-5, very-4)
+ccomp(Let-1, honest-5)
+
+
+(ROOT
+  (S
+    (NP (NNS Mooncakes))
+    (VP (VBP are)
+      (NP (DT a) (JJ great) (NN way)
+        (S
+          (VP (TO to)
+            (VP (VB make)
+              (NP (NN money)))))))
+    (. .)))
+
+
+nsubj(way-5, Mooncakes-1)
+cop(way-5, are-2)
+det(way-5, a-3)
+amod(way-5, great-4)
+root(ROOT-0, way-5)
+aux(make-7, to-6)
+infmod(way-5, make-7)
+dobj(make-7, money-8)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB Really))
+    (. .)))
+
+
+root(ROOT-0, Really-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP mean)
+      (SBAR
+        (WHNP (WRB how) (JJ much))
+        (S
+          (VP (VBZ does)
+            (SBAR
+              (S
+                (NP
+                  (NP (NNP Lotus) (NNP Paste))
+                  (PRN (-LRB- -LRB-)
+                    (NP (NNP Ling) (NNP Yong))
+                    (-RRB- -RRB-)))
+                (ADVP (RB really))
+                (VP (VBD cost))))))))
+    (. ?)))
+
+
+nsubj(mean-2, I-1)
+root(ROOT-0, mean-2)
+advmod(much-4, how-3)
+advmod(does-5, much-4)
+ccomp(mean-2, does-5)
+nn(Paste-7, Lotus-6)
+nsubj(cost-13, Paste-7)
+nn(Yong-10, Ling-9)
+appos(Paste-7, Yong-10)
+advmod(cost-13, really-12)
+ccomp(does-5, cost-13)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (MD can)
+        (VP (VB buy)
+          (NP
+            (PRN (-LRB- -LRB-)
+              (NP (NNP Ling) (NNP Yong))
+              (-RRB- -RRB-))
+            (NNS pau))
+          (PP (IN for)
+            (NP (CD 50) (NNS cents) (, ,))))))))
+
+
+mark(buy-4, If-1)
+nsubj(buy-4, you-2)
+aux(buy-4, can-3)
+root(ROOT-0, buy-4)
+nn(Yong-7, Ling-6)
+appos(pau-9, Yong-7)
+dobj(buy-4, pau-9)
+prep(buy-4, for-10)
+num(cents-12, 50-11)
+pobj(for-10, cents-12)
+
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB why))
+    (SQ (VBZ does)
+      (NP (DT each) (NNP Mooncake))
+      (VP (VB have)
+        (S
+          (VP (TO to)
+            (VP (VB cost)
+              (NP (NNS $)))))))))
+
+
+advmod(have-5, why-1)
+aux(have-5, does-2)
+det(Mooncake-4, each-3)
+nsubj(have-5, Mooncake-4)
+root(ROOT-0, have-5)
+aux(cost-7, to-6)
+xcomp(have-5, cost-7)
+dobj(cost-7, $-8)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 8))
+    (. ?)))
+
+
+root(ROOT-0, 8-1)
+
+
+(ROOT
+  (S (CC And)
+    (NP
+      (ADJP (IN if))
+      (NNP Ling) (NNP Yong))
+    (ADVP (RB really))
+    (VP (VBZ costs)
+      (S
+        (NP (DT that))
+        (ADJP (JJ much))))
+    (, ,)))
+
+
+cc(costs-6, And-1)
+amod(Yong-4, if-2)
+nn(Yong-4, Ling-3)
+nsubj(costs-6, Yong-4)
+advmod(costs-6, really-5)
+root(ROOT-0, costs-6)
+nsubj(much-8, that-7)
+xcomp(costs-6, much-8)
+
+
+(ROOT
+  (FRAG
+    (WHADVP (WRB how))
+    (VP (VB come)
+      (SBAR
+        (S
+          (NP (PRP you))
+          (VP (VBP have)
+            (S
+              (VP (TO to)
+                (VP (VB pay)
+                  (PP (IN like)
+                    (NP (DT an) (JJ extra) (NN $))))))))))))
+
+
+dep(come-2, how-1)
+root(ROOT-0, come-2)
+nsubj(have-4, you-3)
+ccomp(come-2, have-4)
+aux(pay-6, to-5)
+xcomp(have-4, pay-6)
+prep(pay-6, like-7)
+det($-10, an-8)
+amod($-10, extra-9)
+pobj(like-7, $-10)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 6))
+    (S
+      (VP (TO to)
+        (VP (VB put)
+          (NP (CD 4) (NN egg) (NNS yolks))
+          (PP (IN into)
+            (NP
+              (NP (DT the) (NN mooncake))
+              (VP
+                (ADVP (RB thus))
+                (VBG reducing)
+                (NP
+                  (NP (DT the) (NN amount))
+                  (PP (IN of)
+                    (NP (NNP Ling) (NNP Yong))))))))))
+    (. ?)))
+
+
+root(ROOT-0, 6-1)
+aux(put-3, to-2)
+dep(6-1, put-3)
+num(yolks-6, 4-4)
+nn(yolks-6, egg-5)
+dobj(put-3, yolks-6)
+prep(put-3, into-7)
+det(mooncake-9, the-8)
+pobj(into-7, mooncake-9)
+advmod(reducing-11, thus-10)
+partmod(mooncake-9, reducing-11)
+det(amount-13, the-12)
+dobj(reducing-11, amount-13)
+prep(amount-13, of-14)
+nn(Yong-16, Ling-15)
+pobj(of-14, Yong-16)
+
+
+(ROOT
+  (S (CC And)
+    (NP (JJ salted) (NNS eggs))
+    (VP (VBP are) (RB n't)
+      (ADJP (RB that) (JJ expensive))
+      (ADVP (RB either)))
+    (. .)))
+
+
+cc(expensive-7, And-1)
+amod(eggs-3, salted-2)
+nsubj(expensive-7, eggs-3)
+cop(expensive-7, are-4)
+neg(expensive-7, n't-5)
+advmod(expensive-7, that-6)
+root(ROOT-0, expensive-7)
+advmod(expensive-7, either-8)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (MD would)
+      (VP (VB be)
+        (ADJP
+          (ADJP (RB much) (JJR cheaper))
+          (SBAR (IN if)
+            (S
+              (NP (PRP you))
+              (VP
+                (VP (VBD bought)
+                  (NP (DT some) (JJ salted) (NNS eggs)))
+                (CC and)
+                (VP (VBD ate)
+                  (NP (PRP them))
+                  (PP (IN with)
+                    (NP (DT the) (NNPS Mooncakes))))))))))
+    (. .)))
+
+
+nsubj(cheaper-5, It-1)
+aux(cheaper-5, would-2)
+cop(cheaper-5, be-3)
+advmod(cheaper-5, much-4)
+root(ROOT-0, cheaper-5)
+mark(bought-8, if-6)
+nsubj(bought-8, you-7)
+ccomp(cheaper-5, bought-8)
+det(eggs-11, some-9)
+amod(eggs-11, salted-10)
+dobj(bought-8, eggs-11)
+cc(bought-8, and-12)
+conj(bought-8, ate-13)
+dobj(ate-13, them-14)
+prep(ate-13, with-15)
+det(Mooncakes-17, the-16)
+pobj(with-15, Mooncakes-17)
+
+
+(ROOT
+  (FRAG (CC But)
+    (ADVP (RB culturally))
+    (NP (NNP ,))))
+
+
+cc(,-3, But-1)
+dep(,-3, culturally-2)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (VP (VBP have) (RB all)
+      (VP (VBN grown)
+        (ADJP (JJ accustomed)
+          (PP (TO to)
+            (S
+              (VP (VBG paying)
+                (NP
+                  (NP (DT this) (NN type))
+                  (PP (IN of)
+                    (NP (NN money))))
+                (PP (IN for)
+                  (NP (NN something)))
+                (SBAR (IN that)
+                  (S
+                    (NP (PRP we))
+                    (VP (VBP buy)
+                      (ADVP (RB once))
+                      (NP (DT every) (NN year)))))))))))
+    (. .)))
+
+
+nsubj(grown-4, we-1)
+aux(grown-4, have-2)
+advmod(grown-4, all-3)
+root(ROOT-0, grown-4)
+acomp(grown-4, accustomed-5)
+prep(accustomed-5, to-6)
+pcomp(to-6, paying-7)
+det(type-9, this-8)
+dobj(paying-7, type-9)
+prep(type-9, of-10)
+pobj(of-10, money-11)
+prep(paying-7, for-12)
+pobj(for-12, something-13)
+mark(buy-16, that-14)
+nsubj(buy-16, we-15)
+ccomp(paying-7, buy-16)
+advmod(buy-16, once-17)
+det(year-19, every-18)
+tmod(buy-16, year-19)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (NNP Mooncakes))
+      (VP (VBD were)
+        (ADVP (RB really))
+        (ADJP
+          (ADVP (DT all) (DT that))
+          (JJ great)
+          (S
+            (VP (TO to)
+              (VP (VB eat))))))
+      (, ,))))
+
+
+mark(great-7, If-1)
+nsubj(great-7, Mooncakes-2)
+cop(great-7, were-3)
+advmod(great-7, really-4)
+dep(that-6, all-5)
+advmod(great-7, that-6)
+root(ROOT-0, great-7)
+aux(eat-9, to-8)
+xcomp(great-7, eat-9)
+
+
+(ROOT
+  (SQ (MD would) (RB n't)
+    (NP (DT some) (JJ smart) (NN entrepreneur))
+    (VP (VB manufacture)
+      (S
+        (NP (PRP them))
+        (NP
+          (NP (DT all) (NN year) (NN round))
+          (PP (IN like)
+            (SBAR
+              (WHNP (WP what))
+              (S
+                (NP (PRP they))
+                (VP (VBP do)
+                  (PP (IN with)
+                    (NP (NNP Bak) (NNP Chang))))))))))
+    (. ?)))
+
+
+aux(manufacture-6, would-1)
+neg(manufacture-6, n't-2)
+det(entrepreneur-5, some-3)
+amod(entrepreneur-5, smart-4)
+nsubj(manufacture-6, entrepreneur-5)
+root(ROOT-0, manufacture-6)
+nsubj(round-10, them-7)
+det(round-10, all-8)
+nn(round-10, year-9)
+xcomp(manufacture-6, round-10)
+prep(round-10, like-11)
+dobj(do-14, what-12)
+nsubj(do-14, they-13)
+pcomp(like-11, do-14)
+prep(do-14, with-15)
+nn(Chang-17, Bak-16)
+pobj(with-15, Chang-17)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (DT that))
+      (VP (VBZ happens)
+        (SBAR (IN than)
+          (S
+            (NP (PRP I))
+            (VP (VBP am)
+              (ADJP (JJ sure)
+                (SBAR
+                  (S
+                    (NP
+                      (NP (DT the) (NN price))
+                      (PP (IN of)
+                        (NP (DT a) (NNP Mooncake) (NN off-season))))
+                    (VP (MD would)
+                      (VP (VB be)
+                        (NP
+                          (QP (JJR less) (IN than) (CD $)))))))))))))))
+
+
+mark(happens-3, If-1)
+nsubj(happens-3, that-2)
+root(ROOT-0, happens-3)
+mark(sure-7, than-4)
+nsubj(sure-7, I-5)
+cop(sure-7, am-6)
+advcl(happens-3, sure-7)
+det(price-9, the-8)
+nsubj($-18, price-9)
+prep(price-9, of-10)
+det(off-season-13, a-11)
+nn(off-season-13, Mooncake-12)
+pobj(of-10, off-season-13)
+aux($-18, would-14)
+cop($-18, be-15)
+mwe(than-17, less-16)
+quantmod($-18, than-17)
+ccomp(sure-7, $-18)
+
+
+(ROOT
+  (NP
+    (NP
+      (NP (CD 4))
+      (NP (DT each)))
+    (. .)))
+
+
+root(ROOT-0, 4-1)
+dep(4-1, each-2)
+
+

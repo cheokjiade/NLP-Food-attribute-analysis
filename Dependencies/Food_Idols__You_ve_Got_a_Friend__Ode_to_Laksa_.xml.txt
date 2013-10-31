@@ -1,0 +1,168 @@
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (VBP have)
+        (NP
+          (NP (NNS problems))
+          (VP (VBG viewing)
+            (NP (DT the) (NN video)))))
+      (, ,))))
+
+
+mark(have-3, If-1)
+nsubj(have-3, you-2)
+root(ROOT-0, have-3)
+dobj(have-3, problems-4)
+partmod(problems-4, viewing-5)
+det(video-7, the-6)
+dobj(viewing-5, video-7)
+
+
+(ROOT
+  (SINV
+    (ADVP (RB please))
+    (VP (VBD click)
+      (ADVP (RB here)))
+    (NP (NNP Post) (NNP Script))
+    (: :)))
+
+
+advmod(click-2, please-1)
+root(ROOT-0, click-2)
+advmod(click-2, here-3)
+nn(Script-5, Post-4)
+nsubj(click-2, Script-5)
+
+
+(ROOT
+  (S
+    (PP (RB Just) (IN in)
+      (NP (NN case)))
+    (NP (PRP you))
+    (VP (VBP are)
+      (VP (VBG wondering)))
+    (. .)))
+
+
+advmod(in-2, Just-1)
+prep(wondering-6, in-2)
+pobj(in-2, case-3)
+nsubj(wondering-6, you-4)
+aux(wondering-6, are-5)
+root(ROOT-0, wondering-6)
+
+
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN music))
+      (VP (VBD was)
+        (NP (DT a) (JJ downloaded) (NN midi) (NN file))))
+    (CC and)
+    (S
+      (NP (NNP Amagada))
+      (ADVP (RB basically))
+      (VP (VBD sang)
+        (PP (IN in)
+          (NP
+            (NP (NN front))
+            (PP (IN of)
+              (NP (DT the) (NN laptop)))))
+        (S
+          (VP (TO to)
+            (VP (VB record)
+              (NP (PRP it)))))))
+    (. .)))
+
+
+det(music-2, The-1)
+nsubj(file-7, music-2)
+cop(file-7, was-3)
+det(file-7, a-4)
+amod(file-7, downloaded-5)
+nn(file-7, midi-6)
+root(ROOT-0, file-7)
+cc(file-7, and-8)
+nsubj(sang-11, Amagada-9)
+advmod(sang-11, basically-10)
+conj(file-7, sang-11)
+prep(sang-11, in-12)
+pobj(in-12, front-13)
+prep(front-13, of-14)
+det(laptop-16, the-15)
+pobj(of-14, laptop-16)
+aux(record-18, to-17)
+xcomp(sang-11, record-18)
+dobj(record-18, it-19)
+
+
+(ROOT
+  (S
+    (NP (DT No) (NN post) (NN recording) (NN work))
+    (VP (VBD was)
+      (VP (VBN done)))
+    (, ,)))
+
+
+det(work-4, No-1)
+nn(work-4, post-2)
+nn(work-4, recording-3)
+nsubjpass(done-6, work-4)
+auxpass(done-6, was-5)
+root(ROOT-0, done-6)
+
+
+(ROOT
+  (S (IN so)
+    (NP (PRP it))
+    (VP (VBZ is)
+      (ADJP (RB pretty) (JJ raw)))
+    (. .)))
+
+
+dep(raw-5, so-1)
+nsubj(raw-5, it-2)
+cop(raw-5, is-3)
+advmod(raw-5, pretty-4)
+root(ROOT-0, raw-5)
+
+
+(ROOT
+  (NP
+    (NP
+      (NP (CD One))
+      (PP (IN of)
+        (NP (DT those) (NNS things))))
+    (SBAR
+      (S
+        (NP (PRP you))
+        (VP (VBP do)
+          (SBAR
+            (WHADVP (WRB when))
+            (S
+              (NP (PRP you))
+              (VP (VBP are)
+                (ADJP (VBN bored)
+                  (PP
+                    (ADVP (RB late))
+                    (IN at)
+                    (NP (NN night))))))))))
+    (. !)))
+
+
+root(ROOT-0, One-1)
+prep(One-1, of-2)
+det(things-4, those-3)
+pobj(of-2, things-4)
+nsubj(do-6, you-5)
+rcmod(One-1, do-6)
+advmod(bored-10, when-7)
+nsubjpass(bored-10, you-8)
+auxpass(bored-10, are-9)
+advcl(do-6, bored-10)
+advmod(at-12, late-11)
+prep(bored-10, at-12)
+pobj(at-12, night-13)
+
+

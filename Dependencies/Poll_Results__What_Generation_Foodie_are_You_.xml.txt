@@ -1,0 +1,140 @@
+(ROOT
+  (S
+    (NP
+      (NP (NNS Thanks))
+      (PP (TO to)
+        (NP (PDT all) (DT that))))
+    (VP (VBD voted))
+    (. !)))
+
+
+nsubj(voted-5, Thanks-1)
+prep(Thanks-1, to-2)
+predet(that-4, all-3)
+pobj(to-2, that-4)
+root(ROOT-0, voted-5)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN total))
+      (PP (IN of)
+        (NP (CD 1000) (NNS people))))
+    (VP (VBD cast)
+      (NP (PRP$ their) (NNS votes)))
+    (. .)))
+
+
+det(total-2, A-1)
+nsubj(cast-6, total-2)
+prep(total-2, of-3)
+num(people-5, 1000-4)
+pobj(of-3, people-5)
+root(ROOT-0, cast-6)
+poss(votes-8, their-7)
+dobj(cast-6, votes-8)
+
+
+(ROOT
+  (S
+    (S
+      (NP (NNP 644) (NNP Gen) (NNP Yers) (NNP 313) (NNP Gen))
+      (VP (VBZ Xers)
+        (NP (CD 39) (NNP Baby) (NNS Boomers))))
+    (CC and)
+    (S
+      (NP (PRP we))
+      (VP (VBP 've)
+        (VP (VBN got)
+          (NP (CD 4) (NNP Vintage) (NNS Foodies)))))
+    (. !)))
+
+
+nn(Gen-5, 644-1)
+nn(Gen-5, Gen-2)
+nn(Gen-5, Yers-3)
+nn(Gen-5, 313-4)
+nsubj(Xers-6, Gen-5)
+root(ROOT-0, Xers-6)
+num(Boomers-9, 39-7)
+nn(Boomers-9, Baby-8)
+dobj(Xers-6, Boomers-9)
+cc(Xers-6, and-10)
+nsubj(got-13, we-11)
+aux(got-13, 've-12)
+conj(Xers-6, got-13)
+num(Foodies-16, 4-14)
+nn(Foodies-16, Vintage-15)
+dobj(got-13, Foodies-16)
+
+
+(ROOT
+  (FRAG
+    (NP (NNP Way))
+    (S
+      (VP (TO to)
+        (VP (VB go)
+          (NP (NNP Granduncles)
+            (CC and)
+            (NNP Grandaunties)))))
+    (. !)))
+
+
+root(ROOT-0, Way-1)
+aux(go-3, to-2)
+dep(Way-1, go-3)
+dobj(go-3, Granduncles-4)
+cc(Granduncles-4, and-5)
+conj(Granduncles-4, Grandaunties-6)
+
+
+(ROOT
+  (FRAG
+    (WHADVP (WRB Why))
+    (RB not)
+    (VP (VB let)
+      (S
+        (NP (PRP us))
+        (VP (VB know)
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (NP (PRP you))
+              (VP (VBP are)))))))
+    (. ?)))
+
+
+dep(not-2, Why-1)
+root(ROOT-0, not-2)
+dep(not-2, let-3)
+nsubj(know-5, us-4)
+ccomp(let-3, know-5)
+dobj(are-8, who-6)
+nsubj(are-8, you-7)
+ccomp(know-5, are-8)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS Looks))
+      (PP (IN like)
+        (NP (DT the) (NNP Blogosphere))))
+    (VP (VBP belong)
+      (PP (TO to)
+        (NP (DT the) (NNP Gen) (NNPS Yers))))
+    (. !)))
+
+
+nsubj(belong-5, Looks-1)
+prep(Looks-1, like-2)
+det(Blogosphere-4, the-3)
+pobj(like-2, Blogosphere-4)
+root(ROOT-0, belong-5)
+prep(belong-5, to-6)
+det(Yers-9, the-7)
+nn(Yers-9, Gen-8)
+pobj(to-6, Yers-9)
+
+

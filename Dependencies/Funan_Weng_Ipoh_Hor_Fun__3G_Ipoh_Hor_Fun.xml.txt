@@ -1,0 +1,376 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ sure)
+        (SBAR
+          (S
+            (NP (PRP you))
+            (VP (VBP have)
+              (VP (VBN heard)
+                (PP (IN of)
+                  (NP
+                    (NP (DT the) (JJ legendary) (NN hawker) (NN street))
+                    (VP (VBN called)
+                      (S
+                        (NP (NNP Hock) (NNP Lam) (NNP Street))
+                        (ADJP (RB right))))))))))))
+    (. ?)))
+
+
+nsubj(sure-3, I-1)
+cop(sure-3, am-2)
+root(ROOT-0, sure-3)
+nsubj(heard-6, you-4)
+aux(heard-6, have-5)
+ccomp(sure-3, heard-6)
+prep(heard-6, of-7)
+det(street-11, the-8)
+amod(street-11, legendary-9)
+nn(street-11, hawker-10)
+pobj(of-7, street-11)
+partmod(street-11, called-12)
+nn(Street-15, Hock-13)
+nn(Street-15, Lam-14)
+nsubj(right-16, Street-15)
+xcomp(called-12, right-16)
+
+
+(ROOT
+  (SINV
+    (ADVP (RB Ever))
+    (VP (VBD wondered))
+    (SBAR
+      (WHADVP (WRB where))
+      (S
+        (NP (PRP it))
+        (VP (VBD was)
+          (ADVP (RB originally))))
+      (. ?))))
+
+
+advmod(wondered-2, Ever-1)
+root(ROOT-0, wondered-2)
+advmod(was-5, where-3)
+nsubj(was-5, it-4)
+dep(wondered-2, was-5)
+advmod(was-5, originally-6)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Well))
+    (, ,)))
+
+
+root(ROOT-0, Well-1)
+
+
+(ROOT
+  (S
+    (NP (NNP Hock) (NNP Lam) (NN street))
+    (VP (VBD was)
+      (SBAR
+        (WHADVP (WRB where))
+        (S
+          (NP (NNP Funan) (NNP Digitalife) (NNP Mall))
+          (VP (VBZ is)
+            (VP (VBG standing)
+              (ADVP (RB now)))))))
+    (. .)))
+
+
+nn(street-3, Hock-1)
+nn(street-3, Lam-2)
+nsubj(was-4, street-3)
+root(ROOT-0, was-4)
+advmod(standing-10, where-5)
+nn(Mall-8, Funan-6)
+nn(Mall-8, Digitalife-7)
+nsubj(standing-10, Mall-8)
+aux(standing-10, is-9)
+advcl(was-4, standing-10)
+advmod(standing-10, now-11)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP guess)
+      (SBAR
+        (S
+          (NP (PRP they))
+          (VP (VBD did) (RB not)
+            (VP (VB want)
+              (S
+                (VP (TO to)
+                  (VP (VB call)
+                    (NP (DT the) (JJ new) (NN shopping) (NN center))
+                    (NP (NNP Hock) (NNP Lam) (NNP Centre))))))))))
+    (, ,)))
+
+
+nsubj(guess-2, I-1)
+root(ROOT-0, guess-2)
+nsubj(want-6, they-3)
+aux(want-6, did-4)
+neg(want-6, not-5)
+ccomp(guess-2, want-6)
+aux(call-8, to-7)
+xcomp(want-6, call-8)
+det(center-12, the-9)
+amod(center-12, new-10)
+nn(center-12, shopping-11)
+iobj(call-8, center-12)
+nn(Centre-15, Hock-13)
+nn(Centre-15, Lam-14)
+dobj(call-8, Centre-15)
+
+
+(ROOT
+  (S (IN so)
+    (NP (PRP they))
+    (VP (VBD converted)
+      (NP (DT the) (NNP Hokkien) (NN name))
+      (PP (TO to)
+        (NP (NNP Mandarin)))
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP they))
+          (VP (VBD named)
+            (NP (DT the) (NN brand))
+            (NP (JJ new) (NN shopping) (NN center))))))
+    (. .)))
+
+
+dep(converted-3, so-1)
+nsubj(converted-3, they-2)
+root(ROOT-0, converted-3)
+det(name-6, the-4)
+nn(name-6, Hokkien-5)
+dobj(converted-3, name-6)
+prep(converted-3, to-7)
+pobj(to-7, Mandarin-8)
+advmod(named-11, when-9)
+nsubj(named-11, they-10)
+advcl(converted-3, named-11)
+det(brand-13, the-12)
+iobj(named-11, brand-13)
+amod(center-16, new-14)
+nn(center-16, shopping-15)
+dobj(named-11, center-16)
+
+
+(ROOT
+  (SBAR
+    (WHADVP (WRB When))
+    (S
+      (NP (RB then) (JJ new) (NNP Funan) (NNP Centre))
+      (VP (VBD was)
+        (VP (VBN built)))
+      (, ,))))
+
+
+advmod(built-7, When-1)
+advmod(Centre-5, then-2)
+amod(Centre-5, new-3)
+nn(Centre-5, Funan-4)
+nsubjpass(built-7, Centre-5)
+auxpass(built-7, was-6)
+root(ROOT-0, built-7)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT some))
+      (PP (IN of)
+        (NP
+          (NP (DT the) (JJ original) (NNS hawkers))
+          (PP (IN from)
+            (NP (NNP Hock) (NNP Lam) (NN street))))))
+    (VP (VBD were)
+      (VP (VBN relocated)
+        (PRT (RP back))
+        (PP (TO to)
+          (NP
+            (NP (DT the) (JJ new) (NNP Funan) (NNP Centre) (NN food) (NN court))
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (VP (VBD used)
+                  (S
+                    (VP (TO to)
+                      (VP (VB occupy)
+                        (NP
+                          (NP (DT the) (NN whole))
+                          (PP (IN of)
+                            (NP
+                              (NP (DT the) (JJ top) (NN level))
+                              (PP (IN of)
+                                (NP (NNP Funan) (NNP Centre))))))
+                        (SBAR
+                          (WHADVP (WRB where))
+                          (S
+                            (NP (NNP Challenger))
+                            (VP (VBZ is)
+                              (ADVP (RB now)))))))))))))))
+    (. .)))
+
+
+nsubjpass(relocated-11, some-1)
+prep(some-1, of-2)
+det(hawkers-5, the-3)
+amod(hawkers-5, original-4)
+pobj(of-2, hawkers-5)
+prep(hawkers-5, from-6)
+nn(street-9, Hock-7)
+nn(street-9, Lam-8)
+pobj(from-6, street-9)
+auxpass(relocated-11, were-10)
+root(ROOT-0, relocated-11)
+prt(relocated-11, back-12)
+prep(relocated-11, to-13)
+det(court-19, the-14)
+amod(court-19, new-15)
+nn(court-19, Funan-16)
+nn(court-19, Centre-17)
+nn(court-19, food-18)
+pobj(to-13, court-19)
+nsubj(used-21, which-20)
+rcmod(court-19, used-21)
+aux(occupy-23, to-22)
+xcomp(used-21, occupy-23)
+det(whole-25, the-24)
+dobj(occupy-23, whole-25)
+prep(whole-25, of-26)
+det(level-29, the-27)
+amod(level-29, top-28)
+pobj(of-26, level-29)
+prep(level-29, of-30)
+nn(Centre-32, Funan-31)
+pobj(of-30, Centre-32)
+advmod(is-35, where-33)
+nsubj(is-35, Challenger-34)
+advcl(occupy-23, is-35)
+advmod(is-35, now-36)
+
+
+(ROOT
+  (PP (IN For)
+    (NP
+      (NP (DT those))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (MD can)
+            (VP (VB remember))))
+        (, ,)))))
+
+
+root(ROOT-0, For-1)
+pobj(For-1, those-2)
+nsubj(remember-5, who-3)
+aux(remember-5, can-4)
+rcmod(those-2, remember-5)
+
+
+(ROOT
+  (S
+    (NP (DT this))
+    (VP (VBD was)
+      (NP
+        (NP
+          (NP (NNP Singapore) (POS 's))
+          (ADJP (RB very) (JJ first))
+          (NN air))
+        (NP (JJ con) (NN food) (NN court))))
+    (. .)))
+
+
+nsubj(air-7, this-1)
+cop(air-7, was-2)
+poss(air-7, Singapore-3)
+possessive(Singapore-3, 's-4)
+advmod(first-6, very-5)
+amod(air-7, first-6)
+root(ROOT-0, air-7)
+amod(court-10, con-8)
+nn(court-10, food-9)
+dep(air-7, court-10)
+
+
+(ROOT
+  (S
+    (NP (DT Some))
+    (VP (MD might)
+      (ADVP (RB even))
+      (VP (VB go)
+        (ADVP (RB as) (RB far))
+        (S
+          (VP (TO to)
+            (VP (VB say)
+              (SBAR (IN that)
+                (S
+                  (NP (DT this))
+                  (VP (VBP spelt)
+                    (NP
+                      (NP (DT the) (DT the) (NN beginning))
+                      (PP (IN of)
+                        (NP
+                          (NP (DT the) (NN end))
+                          (PP (IN of)
+                            (NP (JJ great) (NN hawker) (NN food))))))))))))))
+    (. .)))
+
+
+nsubj(go-4, Some-1)
+aux(go-4, might-2)
+advmod(go-4, even-3)
+root(ROOT-0, go-4)
+advmod(far-6, as-5)
+advmod(go-4, far-6)
+aux(say-8, to-7)
+xcomp(go-4, say-8)
+mark(spelt-11, that-9)
+nsubj(spelt-11, this-10)
+ccomp(say-8, spelt-11)
+predet(beginning-14, the-12)
+det(beginning-14, the-13)
+dobj(spelt-11, beginning-14)
+prep(beginning-14, of-15)
+det(end-17, the-16)
+pobj(of-15, end-17)
+prep(end-17, of-18)
+amod(food-21, great-19)
+nn(food-21, hawker-20)
+pobj(of-18, food-21)
+
+
+(ROOT
+  (S (CC But)
+    (VP (VB let)
+      (NP (PRP 's))
+      (RB not)
+      (VP (VB talk)
+        (PP (IN about)
+          (NP (NN air) (NN con) (NN food) (NNS courts)))
+        (ADVP (RB right) (RB now))))
+    (. .)))
+
+
+cc(let-2, But-1)
+root(ROOT-0, let-2)
+dobj(let-2, 's-3)
+neg(let-2, not-4)
+dep(let-2, talk-5)
+prep(talk-5, about-6)
+nn(courts-10, air-7)
+nn(courts-10, con-8)
+nn(courts-10, food-9)
+pobj(about-6, courts-10)
+advmod(now-12, right-11)
+advmod(talk-5, now-12)
+
+

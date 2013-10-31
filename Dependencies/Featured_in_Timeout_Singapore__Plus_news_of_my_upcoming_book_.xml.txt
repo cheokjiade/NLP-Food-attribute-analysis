@@ -1,0 +1,400 @@
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB read)
+          (NP (DT the) (NN article)))))
+    (VP (VBP please)
+      (S
+        (VP (VB visit)
+          (SBAR
+            (S
+              (NP (NNP Timeout) (NNP Singapore) (NN website) (NNP Timeout) (NNP Singapore))
+              (ADVP (RB just))
+              (VP (VBD ran)
+                (NP (DT a) (NN feature))
+                (PP (IN on)
+                  (NP
+                    (NP (PRP$ my) (JJ upcoming) (NN book))
+                    (SBAR
+                      (WHNP (WDT which))
+                      (S
+                        (VP (MD will)
+                          (VP (VB be)
+                            (VP (VBN published)
+                              (PP (IN in)
+                                (NP (JJ early) (NNP December))))))))))))))))
+    (. !)))
+
+
+aux(read-2, To-1)
+csubj(please-5, read-2)
+det(article-4, the-3)
+dobj(read-2, article-4)
+root(ROOT-0, please-5)
+ccomp(please-5, visit-6)
+nn(Singapore-11, Timeout-7)
+nn(Singapore-11, Singapore-8)
+nn(Singapore-11, website-9)
+nn(Singapore-11, Timeout-10)
+nsubj(ran-13, Singapore-11)
+advmod(ran-13, just-12)
+ccomp(visit-6, ran-13)
+det(feature-15, a-14)
+dobj(ran-13, feature-15)
+prep(ran-13, on-16)
+poss(book-19, my-17)
+amod(book-19, upcoming-18)
+pobj(on-16, book-19)
+nsubjpass(published-23, which-20)
+aux(published-23, will-21)
+auxpass(published-23, be-22)
+rcmod(book-19, published-23)
+prep(published-23, in-24)
+amod(December-26, early-25)
+pobj(in-24, December-26)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN title))
+      (PP (IN of)
+        (NP (DT the) (NN book))))
+    (VP (VBZ is)
+      (ADVP (RB now))
+      (VP (VBN finalized)))
+    (. .)))
+
+
+det(title-2, The-1)
+nsubjpass(finalized-8, title-2)
+prep(title-2, of-3)
+det(book-5, the-4)
+pobj(of-3, book-5)
+auxpass(finalized-8, is-6)
+advmod(finalized-8, now-7)
+root(ROOT-0, finalized-8)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (VP (VBG going)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (VP (VBN called)
+                (S
+                  (ADJP (JJ ieatishootipost)))))))))
+    (: :)))
+
+
+nsubj(going-3, It-1)
+aux(going-3, is-2)
+root(ROOT-0, going-3)
+aux(called-6, to-4)
+auxpass(called-6, be-5)
+xcomp(going-3, called-6)
+acomp(called-6, ieatishootipost-7)
+
+
+(ROOT
+  (NP
+    (NP (DT The) (NN End))
+    (PP (IN of)
+      (NP
+        (NP (NNP Char) (NNP Kway) (NNP Teow))
+        (CC and)
+        (NP (JJ other) (NNP Hawker) (NNPS Mysteries))))
+    (. .)))
+
+
+det(End-2, The-1)
+root(ROOT-0, End-2)
+prep(End-2, of-3)
+nn(Teow-6, Char-4)
+nn(Teow-6, Kway-5)
+pobj(of-3, Teow-6)
+cc(Teow-6, and-7)
+amod(Mysteries-10, other-8)
+nn(Mysteries-10, Hawker-9)
+conj(Teow-6, Mysteries-10)
+
+
+(ROOT
+  (FRAG
+    (PP (RB Aside) (IN from)
+      (NP
+        (NP (PRP$ my) (NNS picks))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (JJS best) (NN hawker) (NNS stalls))
+            (PP (IN around)
+              (NP (NNP Singapore)))))))
+    (, ,)))
+
+
+advmod(from-2, Aside-1)
+root(ROOT-0, from-2)
+poss(picks-4, my-3)
+pobj(from-2, picks-4)
+prep(picks-4, of-5)
+det(stalls-9, the-6)
+amod(stalls-9, best-7)
+nn(stalls-9, hawker-8)
+pobj(of-5, stalls-9)
+prep(stalls-9, around-10)
+pobj(around-10, Singapore-11)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NN book))
+    (VP (MD will)
+      (VP (VB include)
+        (NP
+          (NP (DT the) (NN hawker) (NNS stories))
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (NP (PRP I))
+              (VP (VBP have)
+                (VP (VBN accumulated)
+                  (PP (IN from)
+                    (NP
+                      (NP (DT the) (JJ last) (CD five) (NNS years))
+                      (PP (IN of)
+                        (S
+                          (VP (VBG speaking)
+                            (PP (TO to)
+                              (NP (JJ various) (NNS Hawkers)))))))))))))))
+    (. .)))
+
+
+det(book-2, the-1)
+nsubj(include-4, book-2)
+aux(include-4, will-3)
+root(ROOT-0, include-4)
+det(stories-7, the-5)
+nn(stories-7, hawker-6)
+dobj(include-4, stories-7)
+dobj(accumulated-11, which-8)
+nsubj(accumulated-11, I-9)
+aux(accumulated-11, have-10)
+rcmod(stories-7, accumulated-11)
+prep(accumulated-11, from-12)
+det(years-16, the-13)
+amod(years-16, last-14)
+num(years-16, five-15)
+pobj(from-12, years-16)
+prep(years-16, of-17)
+pcomp(of-17, speaking-18)
+prep(speaking-18, to-19)
+amod(Hawkers-21, various-20)
+pobj(to-19, Hawkers-21)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP hope)
+      (S
+        (VP (TO to)
+          (VP (VB introduce)
+            (NP (DT the) (NN reader))
+            (PP (TO to)
+              (NP
+                (NP (NNS stories))
+                (PP (IN of)
+                  (SBAR
+                    (WHADVP (WRB how))
+                    (S
+                      (NP (NNP Chilli) (NNP Crab))
+                      (VP (VBD came)
+                        (S
+                          (VP (TO to)
+                            (VP (VB be))))))))))))))
+    (, ,)))
+
+
+nsubj(hope-2, I-1)
+root(ROOT-0, hope-2)
+aux(introduce-4, to-3)
+xcomp(hope-2, introduce-4)
+det(reader-6, the-5)
+dobj(introduce-4, reader-6)
+prep(introduce-4, to-7)
+pobj(to-7, stories-8)
+prep(stories-8, of-9)
+advmod(came-13, how-10)
+nn(Crab-12, Chilli-11)
+nsubj(came-13, Crab-12)
+pcomp(of-9, came-13)
+aux(be-15, to-14)
+xcomp(came-13, be-15)
+
+
+(ROOT
+  (S
+    (SBAR
+      (SBAR
+        (WHADVP (WRB how))
+        (S
+          (NP (NNP Bak) (NNP Kut) (NNP Teh))
+          (VP (VBP originated))))
+      (CC and)
+      (SBAR
+        (WHADVP (WRB why))
+        (S
+          (NP (NNP Char) (NNP Kway) (NNP Teow))
+          (VP (VBZ 's)
+            (NP (NN future))))))
+    (VP (VBZ looks)
+      (ADJP (JJ bleak)))
+    (. ...)))
+
+
+advmod(originated-5, how-1)
+nn(Teh-4, Bak-2)
+nn(Teh-4, Kut-3)
+nsubj(originated-5, Teh-4)
+csubj(looks-13, originated-5)
+cc(originated-5, and-6)
+advmod(future-12, why-7)
+nn(Teow-10, Char-8)
+nn(Teow-10, Kway-9)
+nsubj(future-12, Teow-10)
+cop(future-12, 's-11)
+conj(originated-5, future-12)
+root(ROOT-0, looks-13)
+acomp(looks-13, bleak-14)
+
+
+(ROOT
+  (NP (RB hence) (DT the) (NN title) (. .)))
+
+
+advmod(title-3, hence-1)
+det(title-3, the-2)
+root(ROOT-0, title-3)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (MD will)
+      (VP (VB be)
+        (VP (VBG planning)
+          (NP
+            (NP (JJ several) (NNS events))
+            (PP (VBG following)
+              (NP
+                (NP (DT the) (NN launch))
+                (PP (IN of)
+                  (NP (DT the) (NN book)))))))))
+    (, ,)))
+
+
+nsubj(planning-4, We-1)
+aux(planning-4, will-2)
+aux(planning-4, be-3)
+root(ROOT-0, planning-4)
+amod(events-6, several-5)
+dobj(planning-4, events-6)
+prep(events-6, following-7)
+det(launch-9, the-8)
+pobj(following-7, launch-9)
+prep(launch-9, of-10)
+det(book-12, the-11)
+pobj(of-10, book-12)
+
+
+(ROOT
+  (S (IN so)
+    (NP (PRP I))
+    (VP (VBP do)
+      (NP (NN hope))
+      (S
+        (VP (TO to)
+          (VP (VB get)
+            (NP (PRP$ your) (NN support))))))
+    (. !)))
+
+
+dep(do-3, so-1)
+nsubj(do-3, I-2)
+root(ROOT-0, do-3)
+dobj(do-3, hope-4)
+aux(get-6, to-5)
+xcomp(do-3, get-6)
+poss(support-8, your-7)
+dobj(get-6, support-8)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP are)
+      (VP (VBG looking)
+        (PP (IN for)
+          (NP (NNS sponsors)
+            (CC and)
+            (NNS venues)))
+        (PP (IN for)
+          (NP (PRP$ our) (JJ various) (NNS events)))))
+    (, ,)))
+
+
+nsubj(looking-3, We-1)
+aux(looking-3, are-2)
+root(ROOT-0, looking-3)
+prep(looking-3, for-4)
+pobj(for-4, sponsors-5)
+cc(sponsors-5, and-6)
+conj(sponsors-5, venues-7)
+prep(looking-3, for-8)
+poss(events-11, our-9)
+amod(events-11, various-10)
+pobj(for-8, events-11)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB so))
+    (SBAR (IN if)
+      (S
+        (NP (PRP you))
+        (VP (MD can)
+          (VP (VB help)
+            (PP (IN in)
+              (NP (DT any) (NN way)))))
+        (, ,)))))
+
+
+root(ROOT-0, so-1)
+mark(help-5, if-2)
+nsubj(help-5, you-3)
+aux(help-5, can-4)
+dep(so-1, help-5)
+prep(help-5, in-6)
+det(way-8, any-7)
+pobj(in-6, way-8)
+
+
+(ROOT
+  (S
+    (INTJ (VB please))
+    (VP (VB write)
+      (PP (TO to)
+        (NP (NN leslie.tay@gmail.com))))
+    (. .)))
+
+
+discourse(write-2, please-1)
+root(ROOT-0, write-2)
+prep(write-2, to-3)
+pobj(to-3, leslie.tay@gmail.com-4)
+
+

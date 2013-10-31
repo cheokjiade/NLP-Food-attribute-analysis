@@ -1,0 +1,70 @@
+(ROOT
+  (S
+    (NP (NNP Chef) (NNP Tim))
+    (VP (VBZ teaches))))
+
+
+nn(Tim-2, Chef-1)
+nsubj(teaches-3, Tim-2)
+root(ROOT-0, teaches-3)
+
+
+(ROOT
+  (S
+    (NP (PRP us))
+    (SBAR
+      (WHADVP (WRB how))
+      (S
+        (VP (TO to)
+          (VP (VB cook)
+            (NP (DT the) (JJ perfect) (NN steak))))))
+    (. !)))
+
+
+dep(cook-4, us-1)
+advmod(cook-4, how-2)
+aux(cook-4, to-3)
+root(ROOT-0, cook-4)
+det(steak-7, the-5)
+amod(steak-7, perfect-6)
+dobj(cook-4, steak-7)
+
+
+(ROOT
+  (S
+    (NP (DT This))
+    (ADVP (RB really))
+    (VP (VBZ is)
+      (NP
+        (NP (CD one))
+        (PP (IN of)
+          (NP
+            (NP (DT the)
+              (ADJP (RBS most) (JJ simple))
+              (NNS things))
+            (SBAR
+              (S
+                (NP (PRP you))
+                (VP (MD can)
+                  (VP (VB cook)
+                    (PP (IN at)
+                      (NP (NN home)))))))))))
+    (. !)))
+
+
+nsubj(one-4, This-1)
+advmod(one-4, really-2)
+cop(one-4, is-3)
+root(ROOT-0, one-4)
+prep(one-4, of-5)
+det(things-9, the-6)
+advmod(simple-8, most-7)
+amod(things-9, simple-8)
+pobj(of-5, things-9)
+nsubj(cook-12, you-10)
+aux(cook-12, can-11)
+rcmod(things-9, cook-12)
+prep(cook-12, at-13)
+pobj(at-13, home-14)
+
+

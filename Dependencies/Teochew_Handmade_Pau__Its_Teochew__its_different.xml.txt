@@ -1,0 +1,235 @@
+(ROOT
+  (S
+    (NP (DT The) (NNPS Teochews))
+    (VP (VBP are)
+      (ADJP (JJ famous)
+        (PP (IN for)
+          (NP (JJ many) (NNS things)))))
+    (. .)))
+
+
+det(Teochews-2, The-1)
+nsubj(famous-4, Teochews-2)
+cop(famous-4, are-3)
+root(ROOT-0, famous-4)
+prep(famous-4, for-5)
+amod(things-7, many-6)
+pobj(for-5, things-7)
+
+
+(ROOT
+  (S
+    (NP (NNP Char) (NNP Kway))
+    (VP (VBZ Teow))
+    (, ,)))
+
+
+nn(Kway-2, Char-1)
+nsubj(Teow-3, Kway-2)
+root(ROOT-0, Teow-3)
+
+
+(ROOT
+  (S
+    (NP (NNP Chai) (NNP Tau))
+    (VP (VBZ Kway))
+    (, ,)))
+
+
+nn(Tau-2, Chai-1)
+nsubj(Kway-3, Tau-2)
+root(ROOT-0, Kway-3)
+
+
+(ROOT
+  (S
+    (NP (NNP Teochew))
+    (VP (VBP Porridge))
+    (, ,)))
+
+
+nsubj(Porridge-2, Teochew-1)
+root(ROOT-0, Porridge-2)
+
+
+(ROOT
+  (S
+    (NP (NNP Mee) (NNP Pok))
+    (VP (VBZ Tar)
+      (NP (FW etc) (FW etc)))
+    (, ,)))
+
+
+nn(Pok-2, Mee-1)
+nsubj(Tar-3, Pok-2)
+root(ROOT-0, Tar-3)
+nn(etc-5, etc-4)
+dobj(Tar-3, etc-5)
+
+
+(ROOT
+  (FRAG (CC but)
+    (RB not)
+    (PP (IN for)
+      (NP (NNP Pau))
+      (. .))))
+
+
+cc(not-2, but-1)
+root(ROOT-0, not-2)
+prep(not-2, for-3)
+pobj(for-3, Pau-4)
+
+
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (ADJP (RB so) (JJ unusual))
+      (SBAR (IN that)
+        (S
+          (NP (DT the) (NN stall) (NN aptly))
+          (VP (VBD named)
+            (S
+              (NP (PRP themselves))
+              (NP (NNP Teochew) (NNP Handmade) (NNP Pau)))
+            (PP (IN because))))))
+    (, ,)))
+
+
+nsubj(unusual-4, This-1)
+cop(unusual-4, is-2)
+advmod(unusual-4, so-3)
+root(ROOT-0, unusual-4)
+mark(named-9, that-5)
+det(aptly-8, the-6)
+nn(aptly-8, stall-7)
+nsubj(named-9, aptly-8)
+ccomp(unusual-4, named-9)
+nsubj(Pau-13, themselves-10)
+nn(Pau-13, Teochew-11)
+nn(Pau-13, Handmade-12)
+xcomp(named-9, Pau-13)
+prep(named-9, because-14)
+
+
+(ROOT
+  (FRAG
+    (PP (IN basically))
+    (, ,)))
+
+
+root(ROOT-0, basically-1)
+
+
+(ROOT
+  (S
+    (NP (DT no) (NN one))
+    (ADVP (RB else))
+    (VP (VBZ does))
+    (. !)))
+
+
+det(one-2, no-1)
+nsubj(does-4, one-2)
+advmod(does-4, else-3)
+root(ROOT-0, does-4)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ other) (NN stall))
+      (PP (IN in)
+        (NP
+          (NP (DT a) (JJ similar) (NN kind))
+          (PP (IN of)
+            (NP (NN situation))))))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (JJ famous) (NNP Chendol) (NNP Stall))
+        (PP (IN in)
+          (NP (NNP Penang)))))
+    (. .)))
+
+
+det(stall-3, The-1)
+amod(stall-3, other-2)
+nsubj(Stall-14, stall-3)
+prep(stall-3, in-4)
+det(kind-7, a-5)
+amod(kind-7, similar-6)
+pobj(in-4, kind-7)
+prep(kind-7, of-8)
+pobj(of-8, situation-9)
+cop(Stall-14, is-10)
+det(Stall-14, the-11)
+amod(Stall-14, famous-12)
+nn(Stall-14, Chendol-13)
+root(ROOT-0, Stall-14)
+prep(Stall-14, in-15)
+pobj(in-15, Penang-16)
+
+
+(ROOT
+  (S
+    (NP (DT That))
+    (VP (VBZ is)
+      (ADVP (RB also))
+      (SBAR
+        (SBAR
+          (S
+            (VP (VBD called)
+              (NP
+                (NP (NNP Teochew) (NNP Chendul))
+                (PRN (-LRB- -LRB-)
+                  (NP (NN sic))
+                  (-RRB- -RRB-))))))
+        (CC and)
+        (SBAR (IN as)
+          (S
+            (NP (PRP you))
+            (ADVP (DT all))
+            (VP (VBP know))))))
+    (, ,)))
+
+
+nsubj(is-2, That-1)
+root(ROOT-0, is-2)
+advmod(is-2, also-3)
+dep(is-2, called-4)
+nn(Chendul-6, Teochew-5)
+dobj(called-4, Chendul-6)
+appos(Chendul-6, sic-8)
+cc(called-4, and-10)
+mark(know-14, as-11)
+nsubj(know-14, you-12)
+advmod(know-14, all-13)
+conj(called-4, know-14)
+
+
+(ROOT
+  (S
+    (NP (NNP Chendol))
+    (VP (VBZ does) (RB n't)
+      (VP (VB originate)
+        (PP (IN in)
+          (NP (NNP Swatow)))))
+    (. .)))
+
+
+nsubj(originate-4, Chendol-1)
+aux(originate-4, does-2)
+neg(originate-4, n't-3)
+root(ROOT-0, originate-4)
+prep(originate-4, in-5)
+pobj(in-5, Swatow-6)
+
+
+(ROOT
+  (NP (NN www.teochewhandmadepau.com.sg)))
+
+
+root(ROOT-0, www.teochewhandmadepau.com.sg-1)
+
+

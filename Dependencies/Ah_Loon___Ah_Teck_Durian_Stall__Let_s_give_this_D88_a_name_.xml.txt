@@ -1,0 +1,129 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (VP (VBN made)
+        (S
+          (NP (PRP it))
+          (NP (PRP$ my) (NN goal)
+            (S
+              (VP (TO to)
+                (VP (VB document)
+                  (PP (IN as)
+                    (NP
+                      (NP (JJ many) (NNS cultivars))
+                      (PP (IN of)
+                        (NP
+                          (NP (NN durian))
+                          (ADJP (RB as) (JJ possible))))))
+                  (SBAR (RB so) (IN that)
+                    (S
+                      (NP (PRP they))
+                      (VP (MD can) (RB all)
+                        (VP (VB be)
+                          (VP
+                            (ADVP (RB nicely))
+                            (VBN cataloged)
+                            (PP (IN on)
+                              (NP (DT this) (NN blog)))))))))))))))
+    (. .)))
+
+
+nsubj(made-3, I-1)
+aux(made-3, have-2)
+root(ROOT-0, made-3)
+nsubj(goal-6, it-4)
+poss(goal-6, my-5)
+xcomp(made-3, goal-6)
+aux(document-8, to-7)
+infmod(goal-6, document-8)
+prep(document-8, as-9)
+amod(cultivars-11, many-10)
+pobj(as-9, cultivars-11)
+prep(cultivars-11, of-12)
+pobj(of-12, durian-13)
+advmod(possible-15, as-14)
+amod(durian-13, possible-15)
+advmod(cataloged-23, so-16)
+mark(cataloged-23, that-17)
+nsubjpass(cataloged-23, they-18)
+aux(cataloged-23, can-19)
+advmod(cataloged-23, all-20)
+auxpass(cataloged-23, be-21)
+advmod(cataloged-23, nicely-22)
+advcl(document-8, cataloged-23)
+prep(cataloged-23, on-24)
+det(blog-26, this-25)
+pobj(on-24, blog-26)
+
+
+(ROOT
+  (FRAG (RB So)
+    (PP (IN with) (IN around)
+      (NP
+        (NP (DT a) (NN week) (NN left))
+        (PP (IN before)
+          (NP (DT this) (JJ durian) (NN season) (NNS ends))))
+      (, ,))))
+
+
+root(ROOT-0, So-1)
+dep(around-3, with-2)
+prep(So-1, around-3)
+det(left-6, a-4)
+nn(left-6, week-5)
+pobj(around-3, left-6)
+prep(left-6, before-7)
+det(ends-11, this-8)
+amod(ends-11, durian-9)
+nn(ends-11, season-10)
+pobj(before-7, ends-11)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (VP (VBG posting)
+        (S
+          (NP (DT this))
+          (VP (TO to)
+            (VP (VB remind)
+              (NP (PRP you))
+              (SBAR (IN that)
+                (S
+                  (NP (PRP you))
+                  (ADVP (RB only))
+                  (VP (VBP have)
+                    (ADVP (IN around)
+                      (NP (CD one) (NN week)))
+                    (VP (VBN left)
+                      (S
+                        (VP (TO to)
+                          (VP (VB get)
+                            (NP (PRP$ your) (NN durian) (NN fix))))))))))))))
+    (. .)))
+
+
+nsubj(posting-3, I-1)
+aux(posting-3, am-2)
+root(ROOT-0, posting-3)
+nsubj(remind-6, this-4)
+aux(remind-6, to-5)
+xcomp(posting-3, remind-6)
+dobj(remind-6, you-7)
+mark(left-15, that-8)
+nsubj(left-15, you-9)
+advmod(left-15, only-10)
+aux(left-15, have-11)
+advmod(left-15, around-12)
+num(week-14, one-13)
+pobj(around-12, week-14)
+ccomp(remind-6, left-15)
+aux(get-17, to-16)
+xcomp(left-15, get-17)
+poss(fix-20, your-18)
+nn(fix-20, durian-19)
+dobj(get-17, fix-20)
+
+

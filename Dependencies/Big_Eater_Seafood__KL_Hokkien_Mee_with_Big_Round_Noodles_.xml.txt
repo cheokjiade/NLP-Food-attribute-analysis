@@ -1,0 +1,796 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (VP (VBN been)
+        (VP (VBG driving)
+          (PP (IN past)
+            (NP
+              (NP (DT this))
+              (VP
+                (ADVP (RB newly))
+                (VBN opened)
+                (NP
+                  (NP (NNP Cze) (NNP Char))
+                  (SBAR
+                    (WHNP (WDT which))
+                    (S
+                      (VP (VBZ occupies)
+                        (NP (DT a) (JJ whole) (NN corner) (NN coffeeshop))
+                        (ADVP (RB right)
+                          (PP (IN beside)
+                            (NP
+                              (NP (NNP Sungei) (NNP Bedok))
+                              (PP (IN for)
+                                (NP (JJ several) (NNS weeks))))
+                            (ADVP (RB now))))))))))))))
+    (. .)))
+
+
+nsubj(driving-4, I-1)
+aux(driving-4, have-2)
+aux(driving-4, been-3)
+root(ROOT-0, driving-4)
+prep(driving-4, past-5)
+pobj(past-5, this-6)
+advmod(opened-8, newly-7)
+partmod(this-6, opened-8)
+nn(Char-10, Cze-9)
+dobj(opened-8, Char-10)
+nsubj(occupies-12, which-11)
+rcmod(Char-10, occupies-12)
+det(coffeeshop-16, a-13)
+amod(coffeeshop-16, whole-14)
+nn(coffeeshop-16, corner-15)
+dobj(occupies-12, coffeeshop-16)
+advmod(occupies-12, right-17)
+prep(right-17, beside-18)
+nn(Bedok-20, Sungei-19)
+pobj(beside-18, Bedok-20)
+prep(Bedok-20, for-21)
+amod(weeks-23, several-22)
+pobj(for-21, weeks-23)
+advmod(beside-18, now-24)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP do) (RB n't)
+      (ADVP (RB really))
+      (VP (VB know)
+        (SBAR
+          (WHADVP (WRB how))
+          (S
+            (VP (TO to)
+              (VP (VB explain)
+                (NP (PRP it))))))))
+    (, ,)))
+
+
+nsubj(know-5, I-1)
+aux(know-5, do-2)
+neg(know-5, n't-3)
+advmod(know-5, really-4)
+root(ROOT-0, know-5)
+advmod(explain-8, how-6)
+aux(explain-8, to-7)
+ccomp(know-5, explain-8)
+dobj(explain-8, it-9)
+
+
+(ROOT
+  (S (CC but)
+    (NP (DT the) (NN place))
+    (VP (VBZ has)
+      (VP (VBN got)
+        (NP
+          (NP (DT a) (JJ romantic) (NN kampong) (NN charm))
+          (PP (IN about)
+            (NP (PRP it))))
+        (PP (IN despite)
+          (NP (DT the) (JJ modern) (NN decor)))))
+    (. .)))
+
+
+cc(got-5, but-1)
+det(place-3, the-2)
+nsubj(got-5, place-3)
+aux(got-5, has-4)
+root(ROOT-0, got-5)
+det(charm-9, a-6)
+amod(charm-9, romantic-7)
+nn(charm-9, kampong-8)
+dobj(got-5, charm-9)
+prep(charm-9, about-10)
+pobj(about-10, it-11)
+prep(got-5, despite-12)
+det(decor-15, the-13)
+amod(decor-15, modern-14)
+pobj(despite-12, decor-15)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NN problem))
+    (VP (VBZ is)
+      (SBAR (IN that)
+        (S
+          (VP (VBP everytime)
+            (SBAR
+              (S
+                (NP (PRP I))
+                (VP (VBD drove)
+                  (NP (NN past)))))))))
+    (, ,)))
+
+
+det(problem-2, The-1)
+nsubj(is-3, problem-2)
+root(ROOT-0, is-3)
+mark(everytime-5, that-4)
+ccomp(is-3, everytime-5)
+nsubj(drove-7, I-6)
+ccomp(everytime-5, drove-7)
+dobj(drove-7, past-8)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NN place))
+    (VP (VBZ does) (RB not)
+      (VP (VB seem)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (ADJP (`` ``) (VBG happening) ('' '')))))))
+    (. .)))
+
+
+det(place-2, the-1)
+nsubj(seem-5, place-2)
+aux(seem-5, does-3)
+neg(seem-5, not-4)
+root(ROOT-0, seem-5)
+aux(happening-9, to-6)
+cop(happening-9, be-7)
+xcomp(seem-5, happening-9)
+
+
+(ROOT
+  (FRAG
+    (S (RB So)
+      (VP
+        (VP (VBG being)
+          (NP (DT a) (JJ kiasu) (NN Singaporean)))
+        (CC and)
+        (RB not)
+        (VP (VBG wanting)
+          (S
+            (VP (TO to)
+              (VP (VB waste)
+                (NP
+                  (NP (DT any) (NNS calories))
+                  (CC and)
+                  (NP (NN money))
+                  (, ,))))))))))
+
+
+advmod(Singaporean-5, So-1)
+cop(Singaporean-5, being-2)
+det(Singaporean-5, a-3)
+amod(Singaporean-5, kiasu-4)
+root(ROOT-0, Singaporean-5)
+cc(Singaporean-5, and-6)
+conj(Singaporean-5, not-7)
+dep(Singaporean-5, wanting-8)
+aux(waste-10, to-9)
+xcomp(wanting-8, waste-10)
+det(calories-12, any-11)
+dobj(waste-10, calories-12)
+cc(calories-12, and-13)
+conj(calories-12, money-14)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD would)
+      (VP (VB drive)
+        (PP (IN past)
+          (NP (PRP it)))
+        (S
+          (VP (TO to)
+            (VP (VB have)
+              (NP
+                (NP (NN supper))
+                (PP (IN at)
+                  (NP (NNP Simpang) (NNP Bedok))))
+              (ADVP (RB instead)))))))
+    (. .)))
+
+
+nsubj(drive-3, I-1)
+aux(drive-3, would-2)
+root(ROOT-0, drive-3)
+prep(drive-3, past-4)
+pobj(past-4, it-5)
+aux(have-7, to-6)
+xcomp(drive-3, have-7)
+dobj(have-7, supper-8)
+prep(supper-8, at-9)
+nn(Bedok-11, Simpang-10)
+pobj(at-9, Bedok-11)
+advmod(have-7, instead-12)
+
+
+(ROOT
+  (S (CC But)
+    (NP (CD one) (NN night))
+    (NP (PRP I))
+    (VP
+      (VP (VBD decided)
+        (S
+          (VP (TO to)
+            (VP (VB avoid)
+              (NP (DT the) (JJ bustling) (NNS crowds))
+              (PP (IN at)
+                (NP (NNP Simpang) (NNP Bedok)))))))
+      (CC and)
+      (VP (VBD decided)
+        (S
+          (VP (TO to)
+            (VP (VB drop)
+              (PRT (RP in))
+              (S
+                (VP (TO to)
+                  (VP (VB check)
+                    (PRT (RP out))
+                    (NP (DT this) (NN place))))))))))
+    (. .)))
+
+
+cc(decided-5, But-1)
+num(night-3, one-2)
+tmod(decided-5, night-3)
+nsubj(decided-5, I-4)
+root(ROOT-0, decided-5)
+aux(avoid-7, to-6)
+xcomp(decided-5, avoid-7)
+det(crowds-10, the-8)
+amod(crowds-10, bustling-9)
+dobj(avoid-7, crowds-10)
+prep(avoid-7, at-11)
+nn(Bedok-13, Simpang-12)
+pobj(at-11, Bedok-13)
+cc(decided-5, and-14)
+conj(decided-5, decided-15)
+aux(drop-17, to-16)
+xcomp(decided-15, drop-17)
+prt(drop-17, in-18)
+aux(check-20, to-19)
+xcomp(drop-17, check-20)
+prt(check-20, out-21)
+det(place-23, this-22)
+dobj(check-20, place-23)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD imagined)
+      (NP (DT that))
+      (SBAR (RB even) (IN if)
+        (S
+          (NP (DT the) (NN food))
+          (VP (VBD was) (RB not)
+            (ADJP (JJ great))))))
+    (, ,)))
+
+
+nsubj(imagined-2, I-1)
+root(ROOT-0, imagined-2)
+dobj(imagined-2, that-3)
+advmod(great-10, even-4)
+mark(great-10, if-5)
+det(food-7, the-6)
+nsubj(great-10, food-7)
+cop(great-10, was-8)
+neg(great-10, not-9)
+advcl(imagined-2, great-10)
+
+
+(ROOT
+  (S
+    (S
+      (VP (VBG eating)
+        (NP (NN supper))
+        (PP (IN beside)
+          (NP (DT the) (NN canal)))))
+    (VP (MD could)
+      (VP (VB be)
+        (ADJP (RB quite) (JJ nice))))
+    (. .)))
+
+
+csubj(nice-9, eating-1)
+dobj(eating-1, supper-2)
+prep(eating-1, beside-3)
+det(canal-5, the-4)
+pobj(beside-3, canal-5)
+aux(nice-9, could-6)
+cop(nice-9, be-7)
+advmod(nice-9, quite-8)
+root(ROOT-0, nice-9)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ glad)))))
+
+
+nsubj(glad-3, I-1)
+cop(glad-3, am-2)
+root(ROOT-0, glad-3)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBD did)))
+    (CC or)
+    (S
+      (NP (RB else) (PRP I))
+      (VP (MD would)
+        (VP (VB have)
+          (VP (VBN missed)
+            (NP
+              (NP (CD one))
+              (PP (IN of)
+                (NP
+                  (NP (DT the) (JJS best))
+                  (NP (NNP KL) (NNP Hokkien) (NNP Mee)))))
+            (SBAR (IN that)
+              (S
+                (NP (PRP I))
+                (VP (VBP have)
+                  (VP (VBN eaten)
+                    (PP (IN in)
+                      (NP (NNP Singapore)))))))))))
+    (. .)))
+
+
+nsubj(did-2, I-1)
+root(ROOT-0, did-2)
+cc(did-2, or-3)
+advmod(I-5, else-4)
+nsubj(missed-8, I-5)
+aux(missed-8, would-6)
+aux(missed-8, have-7)
+conj(did-2, missed-8)
+dobj(missed-8, one-9)
+prep(one-9, of-10)
+det(best-12, the-11)
+pobj(of-10, best-12)
+nn(Mee-15, KL-13)
+nn(Mee-15, Hokkien-14)
+dep(best-12, Mee-15)
+mark(eaten-19, that-16)
+nsubj(eaten-19, I-17)
+aux(eaten-19, have-18)
+ccomp(missed-8, eaten-19)
+prep(eaten-19, in-20)
+pobj(in-20, Singapore-21)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (VBP have)
+        (VP (VBN been)
+          (VP (VBG reading)
+            (NP
+              (NP (DT the) (NN blog))
+              (PP (IN for)
+                (NP (DT a) (NN while)))))))
+      (, ,))))
+
+
+mark(reading-5, If-1)
+nsubj(reading-5, you-2)
+aux(reading-5, have-3)
+aux(reading-5, been-4)
+root(ROOT-0, reading-5)
+det(blog-7, the-6)
+dobj(reading-5, blog-7)
+prep(blog-7, for-8)
+det(while-10, a-9)
+pobj(for-8, while-10)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (MD would)
+      (ADVP (RB probably))
+      (VP (VB know)
+        (SBARQ
+          (WHADVP (WRB how) (RB often)))))))
+
+
+nsubj(know-4, you-1)
+aux(know-4, would-2)
+advmod(know-4, probably-3)
+root(ROOT-0, know-4)
+advmod(often-6, how-5)
+dep(know-4, often-6)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBZ lament)
+      (PP (IN about)
+        (S (RB not)
+          (VP (VBG being)
+            (ADJP (JJ able)
+              (S
+                (VP (TO to)
+                  (VP (VB eat)
+                    (NP
+                      (NP (DT a) (JJ good) (NNP KL) (NNP Hokkien) (NNP Mee))
+                      (PP (IN in)
+                        (NP (NNP Singapore))))))))))))
+    (. .)))
+
+
+nsubj(lament-2, I-1)
+root(ROOT-0, lament-2)
+prep(lament-2, about-3)
+neg(able-6, not-4)
+cop(able-6, being-5)
+pcomp(about-3, able-6)
+aux(eat-8, to-7)
+xcomp(able-6, eat-8)
+det(Mee-13, a-9)
+amod(Mee-13, good-10)
+nn(Mee-13, KL-11)
+nn(Mee-13, Hokkien-12)
+dobj(eat-8, Mee-13)
+prep(Mee-13, in-14)
+pobj(in-14, Singapore-15)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Well))
+    (, ,)))
+
+
+root(ROOT-0, Well-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD must)
+      (VP (VB say)
+        (NP (DT that))
+        (SBAR (RB even) (IN if)
+          (S
+            (NP (DT this) (NNP KL) (NNP Hokkien) (NNP Mee))
+            (VP (MD can) (RB not)
+              (VP (VB beat)
+                (NP
+                  (NP (DT the) (NN one))
+                  (PP (IN in)
+                    (NP (NNP KL))))))))))
+    (, ,)))
+
+
+nsubj(say-3, I-1)
+aux(say-3, must-2)
+root(ROOT-0, say-3)
+dobj(say-3, that-4)
+advmod(beat-13, even-5)
+mark(beat-13, if-6)
+det(Mee-10, this-7)
+nn(Mee-10, KL-8)
+nn(Mee-10, Hokkien-9)
+nsubj(beat-13, Mee-10)
+aux(beat-13, can-11)
+neg(beat-13, not-12)
+advcl(say-3, beat-13)
+det(one-15, the-14)
+dobj(beat-13, one-15)
+prep(one-15, in-16)
+pobj(in-16, KL-17)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (ADVP (RB certainly))
+    (VP (VBZ is)
+      (NP (DT a) (JJ worthy) (NN substitute)))
+    (. .)))
+
+
+nsubj(substitute-6, it-1)
+advmod(substitute-6, certainly-2)
+cop(substitute-6, is-3)
+det(substitute-6, a-4)
+amod(substitute-6, worthy-5)
+root(ROOT-0, substitute-6)
+
+
+(ROOT
+  (S
+    (SBAR
+      (WHNP (WP What))
+      (S
+        (NP (PRP I))
+        (VP (VBD liked)
+          (PP (IN about)
+            (NP
+              (NP (DT this) (NNP Hokkien) (NNP Mee))
+              (SBAR
+                (WHNP (WDT that))
+                (S
+                  (VP (VBZ sets)
+                    (NP (PRP it))
+                    (PRT (RP apart))
+                    (PP (IN from)
+                      (NP (DT the) (NN rest)))))))))))
+    (VP (VBZ is)
+      (NP
+        (NP (PRP$ their) (NN use))
+        (PP (IN of)
+          (NP (JJ thick) (NN round) (NNP Hokkien) (NNP Noodles)))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBP have)
+              (NP
+                (NP (DT an) (JJ excellent) (NN texture)
+                  (CC and)
+                  (NN bite))
+                (PP (TO to)
+                  (NP (PRP it)))))))))
+    (. .)))
+
+
+dobj(liked-3, What-1)
+nsubj(liked-3, I-2)
+csubj(use-17, liked-3)
+prep(liked-3, about-4)
+det(Mee-7, this-5)
+nn(Mee-7, Hokkien-6)
+pobj(about-4, Mee-7)
+nsubj(sets-9, that-8)
+rcmod(Mee-7, sets-9)
+dobj(sets-9, it-10)
+prt(sets-9, apart-11)
+prep(sets-9, from-12)
+det(rest-14, the-13)
+pobj(from-12, rest-14)
+cop(use-17, is-15)
+poss(use-17, their-16)
+root(ROOT-0, use-17)
+prep(use-17, of-18)
+amod(Noodles-22, thick-19)
+nn(Noodles-22, round-20)
+nn(Noodles-22, Hokkien-21)
+pobj(of-18, Noodles-22)
+nsubj(have-24, which-23)
+rcmod(use-17, have-24)
+det(texture-27, an-25)
+amod(texture-27, excellent-26)
+dobj(have-24, texture-27)
+cc(texture-27, and-28)
+conj(texture-27, bite-29)
+prep(texture-27, to-30)
+pobj(to-30, it-31)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN shape))
+      (PP (IN of)
+        (NP (DT the) (NNP Hokkien) (NNP Mee))))
+    (VP (VBZ enables)
+      (S
+        (NP (PRP you))
+        (VP (TO to)
+          (VP
+            (ADVP (RB really))
+            (VB slurp)
+            (NP (PRP it))
+            (PP (IN unlike)
+              (NP (DT the) (JJ commoner)
+                (ADJP (JJ thin) (JJ flat))
+                (NN variety)))))))
+    (. .)))
+
+
+det(shape-2, The-1)
+nsubj(enables-7, shape-2)
+prep(shape-2, of-3)
+det(Mee-6, the-4)
+nn(Mee-6, Hokkien-5)
+pobj(of-3, Mee-6)
+root(ROOT-0, enables-7)
+nsubj(slurp-11, you-8)
+aux(slurp-11, to-9)
+advmod(slurp-11, really-10)
+xcomp(enables-7, slurp-11)
+dobj(slurp-11, it-12)
+prep(slurp-11, unlike-13)
+det(variety-18, the-14)
+amod(variety-18, commoner-15)
+amod(flat-17, thin-16)
+amod(variety-18, flat-17)
+pobj(unlike-13, variety-18)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NN sauce))
+    (VP
+      (VP (VBZ is)
+        (ADJP (JJ gooey)))
+      (CC and)
+      (VP (VBP shiok)
+        (NP (NNP and))))
+    (, ,)))
+
+
+det(sauce-2, The-1)
+nsubj(gooey-4, sauce-2)
+cop(gooey-4, is-3)
+root(ROOT-0, gooey-4)
+cc(gooey-4, and-5)
+conj(gooey-4, shiok-6)
+dobj(shiok-6, and-7)
+
+
+(ROOT
+  (FRAG
+    (PP (IN of)
+      (NP (JJ prime) (NN importance)))
+    (, ,)))
+
+
+root(ROOT-0, of-1)
+amod(importance-3, prime-2)
+pobj(of-1, importance-3)
+
+
+(ROOT
+  (S
+    (NP (PRP they))
+    (VP (VBP have)
+      (S
+        (ADJP (RB really) (JJ fresh)
+          (CC and)
+          (JJ crispy))))
+    (, ,)))
+
+
+nsubj(have-2, they-1)
+root(ROOT-0, have-2)
+advmod(fresh-4, really-3)
+acomp(have-2, fresh-4)
+cc(fresh-4, and-5)
+conj(fresh-4, crispy-6)
+
+
+(ROOT
+  (S (`` ``)
+    (VP (VBP burst)
+      (PP (IN in)
+        (NP (PRP$ your) (NN mouth) ('' '') (NN pork) (NN lard))))
+    (. .)))
+
+
+root(ROOT-0, burst-2)
+prep(burst-2, in-3)
+poss(lard-8, your-4)
+nn(lard-8, mouth-5)
+nn(lard-8, pork-7)
+pobj(in-3, lard-8)
+
+
+(ROOT
+  (NP (NNP Ohhhh) (: ...)))
+
+
+root(ROOT-0, Ohhhh-1)
+
+
+(ROOT
+  (NP
+    (NP (PRP$ my) (JJ current) (NN favorite))
+    (NP (NNP KL) (NNP Hokkien) (NNP Mee))
+    (. !)))
+
+
+poss(favorite-3, my-1)
+amod(favorite-3, current-2)
+root(ROOT-0, favorite-3)
+nn(Mee-6, KL-4)
+nn(Mee-6, Hokkien-5)
+dep(favorite-3, Mee-6)
+
+
+(ROOT
+  (NP
+    (NP (NNP Great))
+    (VP (VBG kampung)
+      (NP
+        (NP (NN ambiance))
+        (CC and)
+        (NP (DT a) (JJ memorable) (NNP KL) (NNP Hokkien) (NNP Mee))))
+    (. .)))
+
+
+root(ROOT-0, Great-1)
+partmod(Great-1, kampung-2)
+dobj(kampung-2, ambiance-3)
+cc(ambiance-3, and-4)
+det(Mee-9, a-5)
+amod(Mee-9, memorable-6)
+nn(Mee-9, KL-7)
+nn(Mee-9, Hokkien-8)
+conj(ambiance-3, Mee-9)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD will)
+      (VP (VB be)
+        (VP (VBG going)
+          (PRT (RP back))
+          (S
+            (VP (TO to)
+              (VP (VB try)
+                (NP
+                  (NP (DT the) (NN rest))
+                  (PP (IN of)
+                    (NP (PRP$ their) (NNP Cze) (NNP Char) (NN menu))))))))))
+    (. .)))
+
+
+nsubj(going-4, I-1)
+aux(going-4, will-2)
+aux(going-4, be-3)
+root(ROOT-0, going-4)
+prt(going-4, back-5)
+aux(try-7, to-6)
+xcomp(going-4, try-7)
+det(rest-9, the-8)
+dobj(try-7, rest-9)
+prep(rest-9, of-10)
+poss(menu-14, their-11)
+nn(menu-14, Cze-12)
+nn(menu-14, Char-13)
+pobj(of-10, menu-14)
+
+
+(ROOT
+  (S
+    (NP (NNP Stay))
+    (VP (VBZ tuned))
+    (. .)))
+
+
+nsubj(tuned-2, Stay-1)
+root(ROOT-0, tuned-2)
+
+

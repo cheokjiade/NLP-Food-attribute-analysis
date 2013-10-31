@@ -1,0 +1,298 @@
+(ROOT
+  (NP (NNP Part) (NNP I) (NNP Part) (NNP II)))
+
+
+nn(II-4, Part-1)
+nn(II-4, I-2)
+nn(II-4, Part-3)
+root(ROOT-0, II-4)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN flour))
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (VBP use)))))
+    (VP (VBZ is)
+      (NP
+        (NP (NNP Prima) (NNP Plain) (NNP Flour))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBZ is)
+              (NP
+                (NP (DT the) (JJ same) (NN flour))
+                (SBAR
+                  (WHNP (WDT that))
+                  (S
+                    (VP (VBZ is)
+                      (VP (VBN used)
+                        (PP (IN by)
+                          (NP (NNP Roti) (NNP Prata) (NNS sellers)))
+                        (PP (IN throughout)
+                          (NP (NNP Singapore)))))))))))))
+    (. .)))
+
+
+det(flour-2, The-1)
+nsubj(Flour-8, flour-2)
+nsubj(use-4, I-3)
+rcmod(flour-2, use-4)
+cop(Flour-8, is-5)
+nn(Flour-8, Prima-6)
+nn(Flour-8, Plain-7)
+root(ROOT-0, Flour-8)
+nsubj(flour-13, which-9)
+cop(flour-13, is-10)
+det(flour-13, the-11)
+amod(flour-13, same-12)
+rcmod(Flour-8, flour-13)
+nsubjpass(used-16, that-14)
+auxpass(used-16, is-15)
+rcmod(flour-13, used-16)
+prep(used-16, by-17)
+nn(sellers-20, Roti-18)
+nn(sellers-20, Prata-19)
+pobj(by-17, sellers-20)
+prep(used-16, throughout-21)
+pobj(throughout-21, Singapore-22)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (VP (VBN branded)
+        (PP (IN as)
+          (NP (NNP Ikan) (NNP Terbang) (NN flour)))))
+    (. .)))
+
+
+nsubjpass(branded-3, It-1)
+auxpass(branded-3, is-2)
+root(ROOT-0, branded-3)
+prep(branded-3, as-4)
+nn(flour-7, Ikan-5)
+nn(flour-7, Terbang-6)
+pobj(as-4, flour-7)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ curry) (NN powder))
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (VBD used)))))
+    (VP (VBZ is)
+      (NP
+        (NP
+          (NP (NNP Waugh) (POS 's))
+          (JJ curry) (NN powder))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (NP (PRP you))
+            (VP (MD can)
+              (VP (VB buy)
+                (PP (IN in)
+                  (NP (NNP Golden) (NNP Mile) (NNP Shopping) (NNP Centre)))))))))
+    (. .)))
+
+
+det(powder-3, The-1)
+amod(powder-3, curry-2)
+nsubj(powder-10, powder-3)
+nsubj(used-5, I-4)
+rcmod(powder-3, used-5)
+cop(powder-10, is-6)
+poss(powder-10, Waugh-7)
+possessive(Waugh-7, 's-8)
+amod(powder-10, curry-9)
+root(ROOT-0, powder-10)
+dobj(buy-14, which-11)
+nsubj(buy-14, you-12)
+aux(buy-14, can-13)
+rcmod(powder-10, buy-14)
+prep(buy-14, in-15)
+nn(Centre-19, Golden-16)
+nn(Centre-19, Mile-17)
+nn(Centre-19, Shopping-18)
+pobj(in-15, Centre-19)
+
+
+(ROOT
+  (S
+    (NP (DT This) (NN powder))
+    (VP
+      (VP (VBZ is)
+        (ADJP
+          (ADJP (RB very) (JJ fragrant))
+          (CC and)
+          (ADJP (RB not) (JJ spicy))))
+      (CC and)
+      (VP (VBZ is)
+        (ADJP (JJ great)
+          (ADVP (RB also))
+          (PP (IN for)
+            (S
+              (VP (VBG marinating)
+                (NP (NN chicken) (NNS wings))
+                (PP (IN for)
+                  (NP
+                    (NP (JJ deep) (NN frying))
+                    (SBAR
+                      (FRAG
+                        (CONJP (RB as) (RB well) (IN as))
+                        (S
+                          (VP (TO to)
+                            (VP (VB make)
+                              (NP (NNP Curry) (NNP Crabs)))))))))))))))
+    (. .)))
+
+
+det(powder-2, This-1)
+nsubj(fragrant-5, powder-2)
+cop(fragrant-5, is-3)
+advmod(fragrant-5, very-4)
+root(ROOT-0, fragrant-5)
+cc(fragrant-5, and-6)
+neg(spicy-8, not-7)
+conj(fragrant-5, spicy-8)
+cc(fragrant-5, and-9)
+cop(great-11, is-10)
+conj(fragrant-5, great-11)
+advmod(great-11, also-12)
+prep(great-11, for-13)
+pcomp(for-13, marinating-14)
+nn(wings-16, chicken-15)
+dobj(marinating-14, wings-16)
+prep(marinating-14, for-17)
+amod(frying-19, deep-18)
+pobj(for-17, frying-19)
+advmod(well-21, as-20)
+cc(make-24, well-21)
+mwe(well-21, as-22)
+aux(make-24, to-23)
+dep(frying-19, make-24)
+nn(Crabs-26, Curry-25)
+dobj(make-24, Crabs-26)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (VBP are)
+        (VP (VBG looking)
+          (PP (IN for)
+            (NP (DT the) (NNP Roti) (NNP Prata) (NNP Recipe)))))
+      (, ,))))
+
+
+mark(looking-4, If-1)
+nsubj(looking-4, you-2)
+aux(looking-4, are-3)
+root(ROOT-0, looking-4)
+prep(looking-4, for-5)
+det(Recipe-9, the-6)
+nn(Recipe-9, Roti-7)
+nn(Recipe-9, Prata-8)
+pobj(for-5, Recipe-9)
+
+
+(ROOT
+  (S
+    (INTJ (VB please))
+    (VP (VB click)
+      (ADVP (RB here)))
+    (. !)))
+
+
+discourse(click-2, please-1)
+root(ROOT-0, click-2)
+advmod(click-2, here-3)
+
+
+(ROOT
+  (NP
+    (NP (JJ Many) (NNS thanks))
+    (PP (TO to)
+      (NP (NNP Sen)))
+    (PP (IN for)
+      (NP (DT the) (JJ video) (NN upload)))
+    (. !)))
+
+
+amod(thanks-2, Many-1)
+root(ROOT-0, thanks-2)
+prep(thanks-2, to-3)
+pobj(to-3, Sen-4)
+prep(thanks-2, for-5)
+det(upload-8, the-6)
+amod(upload-8, video-7)
+pobj(for-5, upload-8)
+
+
+(ROOT
+  (NP (NNP Update) (: :)))
+
+
+root(ROOT-0, Update-1)
+
+
+(ROOT
+  (S
+    (NP (CD 28) (NNP Jul) (NNP 2011) (JJ Many) (NNS people))
+    (VP (VBP have)
+      (VP (VBN written)
+        (PP (TO to)
+          (NP (PRP me)))
+        (S
+          (VP (TO to)
+            (VP (VB ask)
+              (PP (IN for)
+                (NP
+                  (NP (DT the) (NN recipe))
+                  (PP (IN for)
+                    (NP (DT the) (NNP Curry))))))))))
+    (. .)))
+
+
+num(people-5, 28-1)
+nn(people-5, Jul-2)
+nn(people-5, 2011-3)
+amod(people-5, Many-4)
+nsubj(written-7, people-5)
+aux(written-7, have-6)
+root(ROOT-0, written-7)
+prep(written-7, to-8)
+pobj(to-8, me-9)
+aux(ask-11, to-10)
+xcomp(written-7, ask-11)
+prep(ask-11, for-12)
+det(recipe-14, the-13)
+pobj(for-12, recipe-14)
+prep(recipe-14, for-15)
+det(Curry-17, the-16)
+pobj(for-15, Curry-17)
+
+
+(ROOT
+  (S (IN So)
+    (ADVP (RB here))
+    (NP (PRP it))
+    (VP (VBZ is))
+    (. !)))
+
+
+dep(is-4, So-1)
+advmod(is-4, here-2)
+nsubj(is-4, it-3)
+root(ROOT-0, is-4)
+
+

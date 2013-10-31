@@ -1,0 +1,248 @@
+(ROOT
+  (NP
+    (NP (NNS Thanks))
+    (PP (TO to)
+      (NP
+        (NP (DT all))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBP have)
+              (VP (VBN written)
+                (PRT (RP in))
+                (S
+                  (VP (TO to)
+                    (VP (VB join)
+                      (NP (DT the) (NN competition)))))))))))
+    (. !)))
+
+
+root(ROOT-0, Thanks-1)
+prep(Thanks-1, to-2)
+pobj(to-2, all-3)
+nsubj(written-6, who-4)
+aux(written-6, have-5)
+rcmod(all-3, written-6)
+prt(written-6, in-7)
+aux(join-9, to-8)
+xcomp(written-6, join-9)
+det(competition-11, the-10)
+dobj(join-9, competition-11)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (ADVP (DT all))
+    (VP (VBD wrote)
+      (ADVP (RB very) (RB well)))
+    (, ,)))
+
+
+nsubj(wrote-3, You-1)
+advmod(wrote-3, all-2)
+root(ROOT-0, wrote-3)
+advmod(well-5, very-4)
+advmod(wrote-3, well-5)
+
+
+(ROOT
+  (FRAG (CC but)
+    (SBAR (IN as)
+      (S
+        (NP (PRP you))
+        (VP (VBP know)
+          (SBAR
+            (S
+              (NP (EX there))
+              (VP (MD can)
+                (ADVP (RB only))
+                (VP (VB be)
+                  (NP (CD one) (JJ winning) (NN entry)))))))))
+    (. .)))
+
+
+cc(know-4, but-1)
+mark(know-4, as-2)
+nsubj(know-4, you-3)
+root(ROOT-0, know-4)
+expl(entry-11, there-5)
+aux(entry-11, can-6)
+advmod(entry-11, only-7)
+cop(entry-11, be-8)
+num(entry-11, one-9)
+amod(entry-11, winning-10)
+ccomp(know-4, entry-11)
+
+
+(ROOT
+  (X (CC But)
+    (S
+      (VP (VB do)
+        (S
+          (NP (RB n't))
+          (VP (VB be)
+            (VP (VBN disheartened)))
+          (, ,))))))
+
+
+cc(do-2, But-1)
+root(ROOT-0, do-2)
+nsubjpass(disheartened-5, n't-3)
+auxpass(disheartened-5, be-4)
+ccomp(do-2, disheartened-5)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP hope)
+      (SBAR (IN that)
+        (S
+          (NP (PRP we))
+          (VP (MD can)
+            (VP (VB run)
+              (NP (JJR more) (JJ similar) (NNS competitions))
+              (PP (IN in)
+                (NP (DT the) (NN future))))))))
+    (. .)))
+
+
+nsubj(hope-2, I-1)
+root(ROOT-0, hope-2)
+mark(run-6, that-3)
+nsubj(run-6, we-4)
+aux(run-6, can-5)
+ccomp(hope-2, run-6)
+amod(competitions-9, more-7)
+amod(competitions-9, similar-8)
+dobj(run-6, competitions-9)
+prep(run-6, in-10)
+det(future-12, the-11)
+pobj(in-10, future-12)
+
+
+(ROOT
+  (FRAG
+    (PP
+      (ADVP (RB So))
+      (IN without)
+      (NP (JJ further) (NN ado)))
+    (, ,)))
+
+
+advmod(without-2, So-1)
+root(ROOT-0, without-2)
+amod(ado-4, further-3)
+pobj(without-2, ado-4)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ happy)
+        (S
+          (VP (TO to)
+            (VP (VB announce)
+              (SBAR (IN that)
+                (S
+                  (NP
+                    (NP (DT the) (CD 2) (NNS people))
+                    (SBAR
+                      (WHNP (WP who))
+                      (S
+                        (VP (MD will)
+                          (VP (VB be)
+                            (VP (VBG attending)
+                              (S
+                                (NP (DT the) (NNP Gourmet) (NNP Culinary) (NNP Course))
+                                (NP (DT this) (NNP Friday)
+                                  (CC and)
+                                  (NNP Saturday)))))))))
+                  (VP (VBP are)))))))))
+    (: :)))
+
+
+nsubj(happy-3, I-1)
+cop(happy-3, am-2)
+root(ROOT-0, happy-3)
+aux(announce-5, to-4)
+xcomp(happy-3, announce-5)
+mark(are-22, that-6)
+det(people-9, the-7)
+num(people-9, 2-8)
+nsubj(are-22, people-9)
+nsubj(attending-13, who-10)
+aux(attending-13, will-11)
+aux(attending-13, be-12)
+rcmod(people-9, attending-13)
+det(Course-17, the-14)
+nn(Course-17, Gourmet-15)
+nn(Course-17, Culinary-16)
+nsubj(Friday-19, Course-17)
+det(Friday-19, this-18)
+xcomp(attending-13, Friday-19)
+cc(Friday-19, and-20)
+conj(Friday-19, Saturday-21)
+ccomp(announce-5, are-22)
+
+
+(ROOT
+  (NP (NNS Congrats) (. !)))
+
+
+root(ROOT-0, Congrats-1)
+
+
+(ROOT
+  (FRAG (CC And)
+    (VP (VB make)
+      (S
+        (ADJP (JJ sure)
+          (SBAR
+            (S
+              (NP (PRP you))
+              (VP (VB invite)
+                (NP (PRP us))
+                (PP (TO to)
+                  (NP (PRP$ your) (NN home))))))))
+      (ADVP (RB later)
+        (S
+          (VP (TO to)
+            (VP (VB try)
+              (NP (PRP$ your) (JJ newfound) (NNS skills)))))))
+    (. !)))
+
+
+cc(make-2, And-1)
+root(ROOT-0, make-2)
+acomp(make-2, sure-3)
+nsubj(invite-5, you-4)
+ccomp(sure-3, invite-5)
+dobj(invite-5, us-6)
+prep(invite-5, to-7)
+poss(home-9, your-8)
+pobj(to-7, home-9)
+advmod(make-2, later-10)
+aux(try-12, to-11)
+dep(later-10, try-12)
+poss(skills-15, your-13)
+amod(skills-15, newfound-14)
+dobj(try-12, skills-15)
+
+
+(ROOT
+  (S
+    (NP (DT Some) (NN stuff))
+    (VP (TO to)
+      (VP (VB note)))
+    (: :)))
+
+
+det(stuff-2, Some-1)
+nsubj(note-4, stuff-2)
+aux(note-4, to-3)
+root(ROOT-0, note-4)
+
+

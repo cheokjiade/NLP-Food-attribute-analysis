@@ -1,0 +1,112 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ sure)
+        (SBAR (IN that)
+          (S
+            (NP (PRP you))
+            (ADVP (DT all))
+            (VP (VBP have)
+              (VP (VBN found)
+                (S
+                  (NP (NN something))
+                  (ADJP (JJ good)
+                    (S
+                      (VP (TO to)
+                        (VP (VB eat)
+                          (PP (IN in)
+                            (NP (CD 2007)))
+                          (PP (IN through)
+                            (S
+                              (VP (VBG reading)
+                                (NP (DT this) (NN blog))))))))))))))))
+    (. .)))
+
+
+nsubj(sure-3, I-1)
+cop(sure-3, am-2)
+root(ROOT-0, sure-3)
+mark(found-8, that-4)
+nsubj(found-8, you-5)
+advmod(found-8, all-6)
+aux(found-8, have-7)
+ccomp(sure-3, found-8)
+nsubj(good-10, something-9)
+xcomp(found-8, good-10)
+aux(eat-12, to-11)
+xcomp(good-10, eat-12)
+prep(eat-12, in-13)
+pobj(in-13, 2007-14)
+prep(eat-12, through-15)
+pcomp(through-15, reading-16)
+det(blog-18, this-17)
+dobj(reading-16, blog-18)
+
+
+(ROOT
+  (S (IN So)
+    (ADVP (RB perhaps))
+    (NP (PRP you))
+    (VP (MD would)
+      (VP (VB like)
+        (S
+          (VP (TO to)
+            (VP (VB nominate)
+              (NP (PRP$ your) (JJ favorite) (NN food) (NN stall\/restaurant))
+              (SBAR (IN that)
+                (S
+                  (NP (PRP you))
+                  (VP (VBD discovered)
+                    (PP (IN through)
+                      (NP (DT this) (NN blog)))))))))))
+    (. ?)))
+
+
+dep(like-5, So-1)
+advmod(like-5, perhaps-2)
+nsubj(like-5, you-3)
+aux(like-5, would-4)
+root(ROOT-0, like-5)
+aux(nominate-7, to-6)
+xcomp(like-5, nominate-7)
+poss(stall\/restaurant-11, your-8)
+amod(stall\/restaurant-11, favorite-9)
+nn(stall\/restaurant-11, food-10)
+dobj(nominate-7, stall\/restaurant-11)
+mark(discovered-14, that-12)
+nsubj(discovered-14, you-13)
+ccomp(nominate-7, discovered-14)
+prep(discovered-14, through-15)
+det(blog-17, this-16)
+pobj(through-15, blog-17)
+
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (EX there))
+        (VP (VBP are)
+          (NP (JJ enough) (NNS nominees)))))
+    (NP (PRP we))
+    (VP (MD can)
+      (ADVP (RB even))
+      (VP (VB do)
+        (NP (DT a) (NN poll))))
+    (. .)))
+
+
+mark(are-3, If-1)
+expl(are-3, there-2)
+advcl(do-9, are-3)
+amod(nominees-5, enough-4)
+nsubj(are-3, nominees-5)
+nsubj(do-9, we-6)
+aux(do-9, can-7)
+advmod(do-9, even-8)
+root(ROOT-0, do-9)
+det(poll-11, a-10)
+dobj(do-9, poll-11)
+
+

@@ -1,0 +1,170 @@
+(ROOT
+  (S
+    (NP (NN Nothing))
+    (VP (VBZ hits)
+      (NP
+        (NP (DT the) (NN spot))
+        (VP
+          (ADVP (RB quite)
+            (PP (IN like)
+              (NP
+                (NP (DT a) (JJ good) (NN plate))
+                (PP (IN of)
+                  (NP (NN rice))))))
+          (VBN drenched)
+          (PP (IN in)
+            (NP (DT a)
+              (ADJP (JJ coconut) (JJ laden))
+              (NN gravy))))))
+    (. .)))
+
+
+nsubj(hits-2, Nothing-1)
+root(ROOT-0, hits-2)
+det(spot-4, the-3)
+dobj(hits-2, spot-4)
+advmod(drenched-12, quite-5)
+prep(quite-5, like-6)
+det(plate-9, a-7)
+amod(plate-9, good-8)
+pobj(like-6, plate-9)
+prep(plate-9, of-10)
+pobj(of-10, rice-11)
+partmod(spot-4, drenched-12)
+prep(drenched-12, in-13)
+det(gravy-17, a-14)
+amod(laden-16, coconut-15)
+amod(gravy-17, laden-16)
+pobj(in-13, gravy-17)
+
+
+(ROOT
+  (S (CC And)
+    (NP (PRP it))
+    (VP (VBZ does) (RB n't)
+      (VP (VB get)
+        (ADVP (RBR better))
+        (PP (IN than)
+          (NP (NNP Nasi) (NNP Padang) (NNP except) (, ,)))))))
+
+
+cc(get-5, And-1)
+nsubj(get-5, it-2)
+aux(get-5, does-3)
+neg(get-5, n't-4)
+root(ROOT-0, get-5)
+advmod(get-5, better-6)
+prep(get-5, than-7)
+nn(except-10, Nasi-8)
+nn(except-10, Padang-9)
+pobj(than-7, except-10)
+
+
+(ROOT
+  (FRAG
+    (PP (IN maybe))
+    (, ,)))
+
+
+root(ROOT-0, maybe-1)
+
+
+(ROOT
+  (FRAG
+    (NP (RB very) (JJ good))
+    (NP (NNP Nasi) (NNP Padang))
+    (. .)))
+
+
+advmod(good-2, very-1)
+root(ROOT-0, good-2)
+nn(Padang-4, Nasi-3)
+dep(good-2, Padang-4)
+
+
+(ROOT
+  (S
+    (NP (NNP Finding) (NNP Hajjah) (NNP Mona))
+    (VP (VBD was)
+      (ADVP (RB qutie))
+      (ADJP (JJ easy)))
+    (. .)))
+
+
+nn(Mona-3, Finding-1)
+nn(Mona-3, Hajjah-2)
+nsubj(easy-6, Mona-3)
+cop(easy-6, was-4)
+advmod(easy-6, qutie-5)
+root(ROOT-0, easy-6)
+
+
+(ROOT
+  (S
+    (NP (PRP$ Our) (NNS kakis))
+    (VP (VBD were)
+      (ADVP (RB just))
+      (VP (VBG sitting)
+        (PP
+          (PP (IN at)
+            (NP (DT the)
+              (ADJP (RB newly) (VBN refurbished))
+              (NNP Geylang) (NNP Serai) (NNP Food) (NNP Centre)))
+          (CC and)
+          (PP (IN for)
+            (NP
+              (NP (DT the) (JJ good) (NN hour))
+              (SBAR (IN that)
+                (S
+                  (NP (PRP we))
+                  (VP (VBD were)
+                    (ADVP (RB there))))))))))
+    (, ,)))
+
+
+poss(kakis-2, Our-1)
+nsubj(sitting-5, kakis-2)
+aux(sitting-5, were-3)
+advmod(sitting-5, just-4)
+root(ROOT-0, sitting-5)
+prep(sitting-5, at-6)
+det(Centre-13, the-7)
+advmod(refurbished-9, newly-8)
+amod(Centre-13, refurbished-9)
+nn(Centre-13, Geylang-10)
+nn(Centre-13, Serai-11)
+nn(Centre-13, Food-12)
+pobj(at-6, Centre-13)
+cc(at-6, and-14)
+conj(at-6, for-15)
+det(hour-18, the-16)
+amod(hour-18, good-17)
+pobj(for-15, hour-18)
+mark(were-21, that-19)
+nsubj(were-21, we-20)
+dep(hour-18, were-21)
+advmod(were-21, there-22)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (VP (VBD noticed)
+      (NP
+        (NP (DT a) (JJ perpetual) (NN queue) (NN outside))
+        (PP (IN of)
+          (NP (DT this) (NN stall)))))
+    (. .)))
+
+
+nsubj(noticed-2, we-1)
+root(ROOT-0, noticed-2)
+det(outside-6, a-3)
+amod(outside-6, perpetual-4)
+nn(outside-6, queue-5)
+dobj(noticed-2, outside-6)
+prep(outside-6, of-7)
+det(stall-9, this-8)
+pobj(of-7, stall-9)
+
+

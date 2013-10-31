@@ -1,0 +1,178 @@
+(ROOT
+  (NP
+    (NP (PRP$ My) (NN feature))
+    (PP (IN on)
+      (NP
+        (NP (NNP Dawn) (NNP Magazine))
+        (PP (IN for)
+          (NP (DT those)))))
+    (SBAR
+      (WHNP (WP who))
+      (S
+        (VP (VBP are)
+          (ADJP (JJ interested)
+            (PP (IN in)
+              (NP
+                (NP (NNS answers))
+                (PP (TO to)
+                  (NP (NNS questions))))))
+          (PP (IN like)))))
+    (: :)))
+
+
+poss(feature-2, My-1)
+root(ROOT-0, feature-2)
+prep(feature-2, on-3)
+nn(Magazine-5, Dawn-4)
+pobj(on-3, Magazine-5)
+prep(Magazine-5, for-6)
+pobj(for-6, those-7)
+nsubj(interested-10, who-8)
+cop(interested-10, are-9)
+rcmod(feature-2, interested-10)
+prep(interested-10, in-11)
+pobj(in-11, answers-12)
+prep(answers-12, to-13)
+pobj(to-13, questions-14)
+prep(interested-10, like-15)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 1))
+    (. .)))
+
+
+root(ROOT-0, 1-1)
+
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB Why))
+    (SQ (VBP do)
+      (NP (PRP I))
+      (VP (VB blog)))
+    (. ?)))
+
+
+advmod(blog-4, Why-1)
+aux(blog-4, do-2)
+nsubj(blog-4, I-3)
+root(ROOT-0, blog-4)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 2))
+    (. .)))
+
+
+root(ROOT-0, 2-1)
+
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB How))
+    (SQ (VBP do)
+      (NP (PRP I))
+      (VP (VB keep)
+        (NP (PRP$ my) (NN figure))))
+    (. ?)))
+
+
+advmod(keep-4, How-1)
+aux(keep-4, do-2)
+nsubj(keep-4, I-3)
+root(ROOT-0, keep-4)
+poss(figure-6, my-5)
+dobj(keep-4, figure-6)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 3))
+    (. .)))
+
+
+root(ROOT-0, 3-1)
+
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB How))
+    (SQ
+      (NP (PRP I))
+      (VP (VB get)
+        (S
+          (NP (DT the) (NNS hawkers))
+          (VP (TO to)
+            (VP (VB create)
+              (NP (JJ new) (NNS dishes)))))))
+    (. ?)))
+
+
+advmod(get-3, How-1)
+nsubj(get-3, I-2)
+root(ROOT-0, get-3)
+det(hawkers-5, the-4)
+nsubj(create-7, hawkers-5)
+aux(create-7, to-6)
+xcomp(get-3, create-7)
+amod(dishes-9, new-8)
+dobj(create-7, dishes-9)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 4))
+    (. .)))
+
+
+root(ROOT-0, 4-1)
+
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB How))
+    (S
+      (NP
+        (NP (DT the) (NN family))
+        (CC and)
+        (NP (NNS makankakis)))
+      (VP (VBP react)
+        (PP (TO to)
+          (NP
+            (NP (PDT all) (DT the) (NN photo))
+            (VP (VBG taking))))))
+    (. ?)))
+
+
+advmod(react-6, How-1)
+det(family-3, the-2)
+nsubj(react-6, family-3)
+cc(family-3, and-4)
+conj(family-3, makankakis-5)
+root(ROOT-0, react-6)
+prep(react-6, to-7)
+predet(photo-10, all-8)
+det(photo-10, the-9)
+pobj(to-7, photo-10)
+partmod(photo-10, taking-11)
+
+
+(ROOT
+  (S (CC and)
+    (NP (JJ many) (JJ other) (NNS Frequently))
+    (VP (VBD Asked)
+      (NP (NNS Questions)))
+    (. !)))
+
+
+cc(Asked-5, and-1)
+amod(Frequently-4, many-2)
+amod(Frequently-4, other-3)
+nsubj(Asked-5, Frequently-4)
+root(ROOT-0, Asked-5)
+dobj(Asked-5, Questions-6)
+
+

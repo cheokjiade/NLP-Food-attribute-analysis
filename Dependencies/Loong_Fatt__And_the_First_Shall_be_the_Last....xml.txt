@@ -1,0 +1,461 @@
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP
+        (NP (PRP$ my) (JJ last) (NN post))
+        (PP (IN on)
+          (NP (DT the) (NNP Tau) (NNP Sar) (NNP Piah)))))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+poss(post-4, my-2)
+amod(post-4, last-3)
+pobj(In-1, post-4)
+prep(post-4, on-5)
+det(Piah-9, the-6)
+nn(Piah-9, Tau-7)
+nn(Piah-9, Sar-8)
+pobj(on-5, Piah-9)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD gave)
+      (NP
+        (NP (DT a) (JJ brief) (NN history))
+        (PP (IN of)
+          (SBAR
+            (WHADVP (WRB how))
+            (S
+              (NP (DT the) (NNP Tau) (NNP Sar) (NNP Piah))
+              (VP (VBD came)
+                (PRT (RP about))))))))
+    (. .)))
+
+
+nsubj(gave-2, I-1)
+root(ROOT-0, gave-2)
+det(history-5, a-3)
+amod(history-5, brief-4)
+dobj(gave-2, history-5)
+prep(history-5, of-6)
+advmod(came-12, how-7)
+det(Piah-11, the-8)
+nn(Piah-11, Tau-9)
+nn(Piah-11, Sar-10)
+nsubj(came-12, Piah-11)
+pcomp(of-6, came-12)
+prt(came-12, about-13)
+
+
+(ROOT
+  (S (IN So)
+    (NP (DT this) (NN blog))
+    (VP (MD would) (RB not)
+      (VP (VB be)
+        (ADJP (JJ complete))
+        (SBAR (IN if)
+          (S
+            (NP (PRP it))
+            (VP (VBZ does) (RB not)
+              (VP (VB feature)
+                (NP (DT the) (NN shop))
+                (PP (IN from)
+                  (SBAR
+                    (WHNP (WDT which))
+                    (S
+                      (NP (DT this) (NNP Singaporean) (NNP Confectionery))
+                      (VP
+                        (ADVP (RB actually))
+                        (ADVP (RB first))
+                        (VBD made)
+                        (NP (PRP$ its) (NN appearance))))))))))))
+    (. .)))
+
+
+dep(complete-7, So-1)
+det(blog-3, this-2)
+nsubj(complete-7, blog-3)
+aux(complete-7, would-4)
+neg(complete-7, not-5)
+cop(complete-7, be-6)
+root(ROOT-0, complete-7)
+mark(feature-12, if-8)
+nsubj(feature-12, it-9)
+aux(feature-12, does-10)
+neg(feature-12, not-11)
+advcl(complete-7, feature-12)
+det(shop-14, the-13)
+dobj(feature-12, shop-14)
+prep(feature-12, from-15)
+dobj(made-22, which-16)
+det(Confectionery-19, this-17)
+nn(Confectionery-19, Singaporean-18)
+nsubj(made-22, Confectionery-19)
+advmod(made-22, actually-20)
+advmod(made-22, first-21)
+pcomp(from-15, made-22)
+poss(appearance-24, its-23)
+dobj(made-22, appearance-24)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Yes))
+    (, ,)))
+
+
+root(ROOT-0, Yes-1)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (VBD was)
+      (ADVP (RB here))
+      (SBAR (IN that)
+        (S
+          (NP (DT the) (NNP Tau) (NNP Sar) (NNP Piah) (NN craze))
+          (VP (VBD started)
+            (CC and)
+            (VBD gained)
+            (NP
+              (NP (NN momentum))
+              (VP (VBG resulting)
+                (PP (IN in)
+                  (NP
+                    (NP (JJ several) (NNS shops))
+                    (VP (VBG sprouting)
+                      (PRT (RP up))
+                      (PP (IN along)
+                        (NP (DT the) (NNP Balestier) (NN area)))
+                      (S
+                        (VP (VBG cashing)
+                          (PRT (RP in))
+                          (PP (IN on)
+                            (NP (DT the) (NN craze))))))))))))))
+    (. .)))
+
+
+nsubj(was-2, it-1)
+root(ROOT-0, was-2)
+advmod(was-2, here-3)
+mark(started-10, that-4)
+det(craze-9, the-5)
+nn(craze-9, Tau-6)
+nn(craze-9, Sar-7)
+nn(craze-9, Piah-8)
+nsubj(started-10, craze-9)
+ccomp(was-2, started-10)
+cc(started-10, and-11)
+conj(started-10, gained-12)
+dobj(started-10, momentum-13)
+partmod(momentum-13, resulting-14)
+prep(resulting-14, in-15)
+amod(shops-17, several-16)
+pobj(in-15, shops-17)
+partmod(shops-17, sprouting-18)
+prt(sprouting-18, up-19)
+prep(sprouting-18, along-20)
+det(area-23, the-21)
+nn(area-23, Balestier-22)
+pobj(along-20, area-23)
+xcomp(sprouting-18, cashing-24)
+prt(cashing-24, in-25)
+prep(cashing-24, on-26)
+det(craze-28, the-27)
+pobj(on-26, craze-28)
+
+
+(ROOT
+  (SBAR
+    (WHADVP (WRB When))
+    (S
+      (NP (DT the) (NN dust))
+      (VP
+        (ADVP (RB finally))
+        (VBD settled))
+      (, ,))))
+
+
+advmod(settled-5, When-1)
+det(dust-3, the-2)
+nsubj(settled-5, dust-3)
+advmod(settled-5, finally-4)
+root(ROOT-0, settled-5)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT the) (NN one))
+      (VP (VBN left)
+        (PP (IN with)
+          (NP
+            (NP (DT the) (NN task))
+            (PP (IN of)
+              (S
+                (VP (VBG blowing)
+                  (NP (DT the) (NN smoke))
+                  (PP (IN from)
+                    (NP (DT the) (NN gun) (NN barrel))))))))))
+    (VP (VBZ is)
+      (NP (NNP Loong) (NNP Fatt)))
+    (. .)))
+
+
+det(one-2, the-1)
+nsubj(Fatt-17, one-2)
+partmod(one-2, left-3)
+prep(left-3, with-4)
+det(task-6, the-5)
+pobj(with-4, task-6)
+prep(task-6, of-7)
+pcomp(of-7, blowing-8)
+det(smoke-10, the-9)
+dobj(blowing-8, smoke-10)
+prep(blowing-8, from-11)
+det(barrel-14, the-12)
+nn(barrel-14, gun-13)
+pobj(from-11, barrel-14)
+cop(Fatt-17, is-15)
+nn(Fatt-17, Loong-16)
+root(ROOT-0, Fatt-17)
+
+
+(ROOT
+  (S
+    (NP (NNP Business))
+    (VP (VBZ is)
+      (ADVP (RB still))
+      (ADJP (RB very) (JJ good)
+        (PP (IN in)
+          (NP
+            (NP (DT the) (JJ venerable) (JJ old) (NN shophouse))
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (VP (VBZ sells)
+                  (NP (JJ other) (NNS cakes)
+                    (CC and)
+                    (NNS confectioneries))
+                  (ADVP (RB as) (RB well)))))))))
+    (. .)))
+
+
+nsubj(good-5, Business-1)
+cop(good-5, is-2)
+advmod(good-5, still-3)
+advmod(good-5, very-4)
+root(ROOT-0, good-5)
+prep(good-5, in-6)
+det(shophouse-10, the-7)
+amod(shophouse-10, venerable-8)
+amod(shophouse-10, old-9)
+pobj(in-6, shophouse-10)
+nsubj(sells-12, which-11)
+rcmod(shophouse-10, sells-12)
+amod(cakes-14, other-13)
+dobj(sells-12, cakes-14)
+cc(cakes-14, and-15)
+conj(cakes-14, confectioneries-16)
+advmod(well-18, as-17)
+advmod(sells-12, well-18)
+
+
+(ROOT
+  (S (CC But)
+    (NP (PRP it))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (NNP Tau) (NNP Sar) (NNP Piah))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBZ is)
+              (ADVP (RB still))
+              (NP
+                (NP (DT the) (NN star))
+                (PP (IN of)
+                  (NP (DT the) (NN coffeeshop)))))))))
+    (. .)))
+
+
+cc(Piah-7, But-1)
+nsubj(Piah-7, it-2)
+cop(Piah-7, is-3)
+det(Piah-7, the-4)
+nn(Piah-7, Tau-5)
+nn(Piah-7, Sar-6)
+root(ROOT-0, Piah-7)
+nsubj(star-12, that-8)
+cop(star-12, is-9)
+advmod(star-12, still-10)
+det(star-12, the-11)
+rcmod(Piah-7, star-12)
+prep(star-12, of-13)
+det(coffeeshop-15, the-14)
+pobj(of-13, coffeeshop-15)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Freshly) (NNP baked) (NNP Tau) (NNP Sar) (NNP Piah))
+      (PP (IN with)
+        (NP
+          (NP (DT a) (NN cup))
+          (PP (IN of)
+            (NP (NNP Kopi)
+              (CC or)
+              (NNP Teh))))))
+    (VP (MD must)
+      (VP (VB be)
+        (NP
+          (NP (CD one))
+          (PP (IN of)
+            (NP (DT those) (JJ unique) (JJ Singaporean) (NNS pleasures))))
+        (SBAR (IN that)
+          (S
+            (NP (PRP you))
+            (VP (VBP are) (RB not)
+              (VP (VBG going)
+                (S
+                  (VP (TO to)
+                    (VP (VB find)
+                      (NP (RB anywhere) (RB else))
+                      (PP (IN in)
+                        (NP (DT the) (NN world))))))))))))
+    (. .)))
+
+
+nn(Piah-5, Freshly-1)
+nn(Piah-5, baked-2)
+nn(Piah-5, Tau-3)
+nn(Piah-5, Sar-4)
+nsubj(one-15, Piah-5)
+prep(Piah-5, with-6)
+det(cup-8, a-7)
+pobj(with-6, cup-8)
+prep(cup-8, of-9)
+pobj(of-9, Kopi-10)
+cc(Kopi-10, or-11)
+conj(Kopi-10, Teh-12)
+aux(one-15, must-13)
+cop(one-15, be-14)
+root(ROOT-0, one-15)
+prep(one-15, of-16)
+det(pleasures-20, those-17)
+amod(pleasures-20, unique-18)
+amod(pleasures-20, Singaporean-19)
+pobj(of-16, pleasures-20)
+mark(going-25, that-21)
+nsubj(going-25, you-22)
+aux(going-25, are-23)
+neg(going-25, not-24)
+ccomp(one-15, going-25)
+aux(find-27, to-26)
+xcomp(going-25, find-27)
+advmod(else-29, anywhere-28)
+dobj(find-27, else-29)
+prep(find-27, in-30)
+det(world-32, the-31)
+pobj(in-30, world-32)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NN crust))
+    (VP (VBZ is)
+      (ADJP (JJ fragrant))
+      (ADVP (IN albeit)
+        (NP (DT a) (JJ little) (NNS oily))))
+    (, ,)))
+
+
+det(crust-2, The-1)
+nsubj(fragrant-4, crust-2)
+cop(fragrant-4, is-3)
+root(ROOT-0, fragrant-4)
+advmod(fragrant-4, albeit-5)
+det(oily-8, a-6)
+amod(oily-8, little-7)
+pobj(albeit-5, oily-8)
+
+
+(ROOT
+  (S
+    (VP (VB crisp)
+      (CC and)
+      (VB savoury))
+    (. .)))
+
+
+root(ROOT-0, crisp-1)
+cc(crisp-1, and-2)
+conj(crisp-1, savoury-3)
+
+
+(ROOT
+  (NP
+    (NP (NNP Great))
+    (PP (IN with)
+      (NP (DT that) (JJ hot) (NN cup)))
+    (PP (IN of)
+      (NP (NNP Teh) (NNP Tarik)))
+    (. !)))
+
+
+root(ROOT-0, Great-1)
+prep(Great-1, with-2)
+det(cup-5, that-3)
+amod(cup-5, hot-4)
+pobj(with-2, cup-5)
+prep(Great-1, of-6)
+nn(Tarik-8, Teh-7)
+pobj(of-6, Tarik-8)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ Its) (NN survival))
+      (PP (IN of)
+        (NP
+          (NP (DT the) (JJS fittest))
+          (CC and)
+          (NP (DT this) (NN stall)))))
+    (ADVP (RB obviously))
+    (VP (VBZ has)
+      (NP (DT a) (JJ big) (NN fan) (NN base)
+        (S
+          (VP (TO to)
+            (VP (VB keep)
+              (S
+                (NP (PRP them))
+                (VP (VBG going))))))))
+    (. .)))
+
+
+poss(survival-2, Its-1)
+nsubj(has-10, survival-2)
+prep(survival-2, of-3)
+det(fittest-5, the-4)
+pobj(of-3, fittest-5)
+cc(fittest-5, and-6)
+det(stall-8, this-7)
+conj(fittest-5, stall-8)
+advmod(has-10, obviously-9)
+root(ROOT-0, has-10)
+det(base-14, a-11)
+amod(base-14, big-12)
+nn(base-14, fan-13)
+dobj(has-10, base-14)
+aux(keep-16, to-15)
+infmod(base-14, keep-16)
+nsubj(going-18, them-17)
+dep(keep-16, going-18)
+
+

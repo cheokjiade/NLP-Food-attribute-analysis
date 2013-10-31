@@ -1,0 +1,144 @@
+(ROOT
+  (S
+    (NP (NNP Julie)
+      (CC and)
+      (NNP Julia))
+    (VP (VBZ is)
+      (UCP
+        (NP
+          (NP (DT a) (NN film))
+          (PP (IN about)
+            (NP (NN food))))
+        (CC and)
+        (SBAR
+          (WHADVP (WRB how))
+          (S
+            (NP
+              (NP (DT the) (NN passion))
+              (PP (IN for)
+                (NP (NN food))))
+            (VP (VBD transformed)
+              (NP
+                (NP (DT the) (NNS lives))
+                (PP (IN of)
+                  (NP (CD two) (JJ ordinary) (NNS women)))))))))
+    (. .)))
+
+
+nsubj(film-6, Julie-1)
+cc(Julie-1, and-2)
+conj(Julie-1, Julia-3)
+cop(film-6, is-4)
+det(film-6, a-5)
+root(ROOT-0, film-6)
+prep(film-6, about-7)
+pobj(about-7, food-8)
+cc(film-6, and-9)
+advmod(transformed-15, how-10)
+det(passion-12, the-11)
+nsubj(transformed-15, passion-12)
+prep(passion-12, for-13)
+pobj(for-13, food-14)
+conj(film-6, transformed-15)
+det(lives-17, the-16)
+dobj(transformed-15, lives-17)
+prep(lives-17, of-18)
+num(women-21, two-19)
+amod(women-21, ordinary-20)
+pobj(of-18, women-21)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP
+      (VP (VBZ is)
+        (NP (DT the) (JJ first) (NN film))
+        (S
+          (VP (TO to)
+            (VP (VB give)
+              (NP (DT a)
+                (ADJP (RBR more) (JJ intimate))
+                (NN look))
+              (PP (IN into)
+                (NP
+                  (NP (DT the) (NN life))
+                  (PP (IN of)
+                    (NP (DT a) (NN food) (NN blogger)))))))))
+      (CC and)
+      (VP (VBZ needless)
+        (S
+          (VP (TO to)
+            (VP (VB say))))))
+    (, ,)))
+
+
+nsubj(film-5, It-1)
+cop(film-5, is-2)
+det(film-5, the-3)
+amod(film-5, first-4)
+root(ROOT-0, film-5)
+aux(give-7, to-6)
+xcomp(film-5, give-7)
+det(look-11, a-8)
+advmod(intimate-10, more-9)
+amod(look-11, intimate-10)
+dobj(give-7, look-11)
+prep(give-7, into-12)
+det(life-14, the-13)
+pobj(into-12, life-14)
+prep(life-14, of-15)
+det(blogger-18, a-16)
+nn(blogger-18, food-17)
+pobj(of-15, blogger-18)
+cc(film-5, and-19)
+conj(film-5, needless-20)
+aux(say-22, to-21)
+xcomp(needless-20, say-22)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB thoroughly))
+    (VP (VBD enjoyed)
+      (NP (PRP it))
+      (SBAR (IN since)
+        (S
+          (NP (PRP I))
+          (VP (MD could)
+            (VP (VB identify)
+              (PP (IN with)
+                (NP
+                  (NP (DT a) (NN lot))
+                  (PP (IN of)
+                    (SBAR
+                      (WHNP (WP what))
+                      (S
+                        (NP (DT the) (NN onscreen) (NN food) (NN blogger))
+                        (VP (VBD had)
+                          (VP (VBN experienced)))))))))))))
+    (. .)))
+
+
+nsubj(enjoyed-3, I-1)
+advmod(enjoyed-3, thoroughly-2)
+root(ROOT-0, enjoyed-3)
+dobj(enjoyed-3, it-4)
+mark(identify-8, since-5)
+nsubj(identify-8, I-6)
+aux(identify-8, could-7)
+advcl(enjoyed-3, identify-8)
+prep(identify-8, with-9)
+det(lot-11, a-10)
+pobj(with-9, lot-11)
+prep(lot-11, of-12)
+dobj(experienced-19, what-13)
+det(blogger-17, the-14)
+nn(blogger-17, onscreen-15)
+nn(blogger-17, food-16)
+nsubj(experienced-19, blogger-17)
+aux(experienced-19, had-18)
+pcomp(of-12, experienced-19)
+
+

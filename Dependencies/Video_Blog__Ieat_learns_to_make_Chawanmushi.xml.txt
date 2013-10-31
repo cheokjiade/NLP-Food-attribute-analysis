@@ -1,0 +1,452 @@
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP
+        (NP (DT the) (JJ third) (NN part))
+        (PP (IN of)
+          (NP (PRP$ our) (JJ Japanese) (NN Cooking) (NN Series)))))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+det(part-4, the-2)
+amod(part-4, third-3)
+pobj(In-1, part-4)
+prep(part-4, of-5)
+poss(Series-9, our-6)
+amod(Series-9, Japanese-7)
+nn(Series-9, Cooking-8)
+pobj(of-5, Series-9)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD accompany)
+      (NP (NNP Chef) (NNP Tom))
+      (PP (TO to)
+        (NP (DT the) (NN supermarket)))
+      (SBAR
+        (WHADVP (WRB where))
+        (S
+          (NP (PRP he))
+          (VP (VBZ tells)
+            (NP (PRP us))
+            (PP (IN about)
+              (NP
+                (NP (DT the) (CD three) (JJ key) (NNS ingredients))
+                (PP (IN of)
+                  (NP (JJ Japanese) (NN cooking)))))))))
+    (, ,)))
+
+
+nsubj(accompany-2, I-1)
+root(ROOT-0, accompany-2)
+nn(Tom-4, Chef-3)
+dobj(accompany-2, Tom-4)
+prep(accompany-2, to-5)
+det(supermarket-7, the-6)
+pobj(to-5, supermarket-7)
+advmod(tells-10, where-8)
+nsubj(tells-10, he-9)
+advcl(accompany-2, tells-10)
+dobj(tells-10, us-11)
+prep(tells-10, about-12)
+det(ingredients-16, the-13)
+num(ingredients-16, three-14)
+amod(ingredients-16, key-15)
+pobj(about-12, ingredients-16)
+prep(ingredients-16, of-17)
+amod(cooking-19, Japanese-18)
+pobj(of-17, cooking-19)
+
+
+(ROOT
+  (S
+    (NP (NNP namely))
+    (VP (VBZ shoyu))
+    (, ,)))
+
+
+nsubj(shoyu-2, namely-1)
+root(ROOT-0, shoyu-2)
+
+
+(ROOT
+  (S
+    (VP (VB mirin)
+      (CC and)
+      (VB sake))
+    (. .)))
+
+
+root(ROOT-0, mirin-1)
+cc(mirin-1, and-2)
+conj(mirin-1, sake-3)
+
+
+(ROOT
+  (SINV (VBZ Then)
+    (NP (PRP we))
+    (VP (VB head)
+      (PRT (RP back))
+      (PP (TO to)
+        (NP (DT the) (NN kitchen)
+          (S
+            (VP (TO to)
+              (VP (VB make)
+                (NP
+                  (NP (NNP Chawanmushi))
+                  (SBAR
+                    (WHNP (WDT which))
+                    (S
+                      (VP (VBZ is)
+                        (NP
+                          (NP (CD one))
+                          (PP (IN of)
+                            (NP (PRP$ my) (NNS kids) ('' '))))))))))))))))
+
+
+root(ROOT-0, Then-1)
+nsubj(Then-1, we-2)
+dep(Then-1, head-3)
+prt(head-3, back-4)
+prep(head-3, to-5)
+det(kitchen-7, the-6)
+pobj(to-5, kitchen-7)
+aux(make-9, to-8)
+infmod(kitchen-7, make-9)
+dobj(make-9, Chawanmushi-10)
+nsubj(one-13, which-11)
+cop(one-13, is-12)
+rcmod(Chawanmushi-10, one-13)
+prep(one-13, of-14)
+poss(kids-16, my-15)
+pobj(of-14, kids-16)
+
+
+(ROOT
+  (NP (NN favorite) (NNS dishes) (. .)))
+
+
+nn(dishes-2, favorite-1)
+root(ROOT-0, dishes-2)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN key))
+      (PP (TO to)
+        (NP (DT a) (JJ great) (NNP Chawanmushi))))
+    (VP (VBZ is)
+      (S
+        (VP (TO to)
+          (VP (VB ensure)
+            (SBAR (IN that)
+              (S
+                (S
+                  (NP (EX there))
+                  (VP (VBP are)
+                    (NP
+                      (NP (DT no) (NNS bubbles))
+                      (PP (IN in)
+                        (NP (DT the) (NN custard))))))
+                (CC and)
+                (S
+                  (NP (NNP Chef) (NNP Tom))
+                  (VP (VBZ shows)))))))))))
+
+
+det(key-2, The-1)
+nsubj(is-7, key-2)
+prep(key-2, to-3)
+det(Chawanmushi-6, a-4)
+amod(Chawanmushi-6, great-5)
+pobj(to-3, Chawanmushi-6)
+root(ROOT-0, is-7)
+aux(ensure-9, to-8)
+xcomp(is-7, ensure-9)
+mark(are-12, that-10)
+expl(are-12, there-11)
+ccomp(ensure-9, are-12)
+det(bubbles-14, no-13)
+nsubj(are-12, bubbles-14)
+prep(bubbles-14, in-15)
+det(custard-17, the-16)
+pobj(in-15, custard-17)
+cc(are-12, and-18)
+nn(Tom-20, Chef-19)
+nsubj(shows-21, Tom-20)
+conj(are-12, shows-21)
+
+
+(ROOT
+  (S
+    (NP (PRP us))
+    (SBAR
+      (WHADVP (WRB how)
+        (ADJP (JJ simple)))
+      (S
+        (NP (PRP it))
+        (VP (VBZ is)
+          (S
+            (VP (TO to)
+              (VP (VB make)
+                (NP (DT this))
+                (PP (IN at)
+                  (NP (NN home)))))))))
+    (. .)))
+
+
+dep(is-5, us-1)
+advmod(is-5, how-2)
+dep(how-2, simple-3)
+nsubj(is-5, it-4)
+root(ROOT-0, is-5)
+aux(make-7, to-6)
+xcomp(is-5, make-7)
+dobj(make-7, this-8)
+prep(make-7, at-9)
+pobj(at-9, home-10)
+
+
+(ROOT
+  (S
+    (PP (IN For)
+      (NP
+        (NP (DT the) (CD one) (NN bowl))
+        (PP (IN of)
+          (NP (NNS chawanmushi)))))
+    (NP (PRP you))
+    (VP (VBP buy)
+      (PP (IN at)
+        (NP (DT the) (NN restaurant))
+        (, ,)))))
+
+
+prep(buy-8, For-1)
+det(bowl-4, the-2)
+num(bowl-4, one-3)
+pobj(For-1, bowl-4)
+prep(bowl-4, of-5)
+pobj(of-5, chawanmushi-6)
+nsubj(buy-8, you-7)
+root(ROOT-0, buy-8)
+prep(buy-8, at-9)
+det(restaurant-11, the-10)
+pobj(at-9, restaurant-11)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (MD can)
+      (VP (VB make)
+        (NP (CD ten) (NNS bowls))
+        (PP (IN at)
+          (NP (NN home)))))
+    (. !)))
+
+
+nsubj(make-3, you-1)
+aux(make-3, can-2)
+root(ROOT-0, make-3)
+num(bowls-5, ten-4)
+dobj(make-3, bowls-5)
+prep(make-3, at-6)
+pobj(at-6, home-7)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD would)
+      (VP (VB be)
+        (VP (VBN amazed)
+          (SBAR
+            (WHADVP (WRB how)
+              (ADJP (JJ simple)))
+            (S
+              (NP (PRP it))
+              (ADVP (RB really))
+              (VP (VBZ is)))))))
+    (. !)))
+
+
+nsubjpass(amazed-4, You-1)
+aux(amazed-4, would-2)
+auxpass(amazed-4, be-3)
+root(ROOT-0, amazed-4)
+advmod(is-9, how-5)
+dep(how-5, simple-6)
+nsubj(is-9, it-7)
+advmod(is-9, really-8)
+ccomp(amazed-4, is-9)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (VBZ 's) (RB not)
+        (VP (VBN stated)
+          (PP (IN in)
+            (NP (DT the) (NN video))))))
+    (CC but)
+    (S
+      (NP
+        (NP (DT the) (NN proportion))
+        (PP (IN of)
+          (NP
+            (NP (NN egg))
+            (PP (TO to)
+              (NP (NNS dashi))))))
+      (VP (VBZ is)
+        (NP
+          (NP (CD 1) (NN egg))
+          (PP (TO to)
+            (NP
+              (NP (DT half) (NN cup))
+              (PP (IN of)
+                (NP (JJ dashi) (NN stock))))))))
+    (. .)))
+
+
+nsubjpass(stated-4, It-1)
+auxpass(stated-4, 's-2)
+neg(stated-4, not-3)
+root(ROOT-0, stated-4)
+prep(stated-4, in-5)
+det(video-7, the-6)
+pobj(in-5, video-7)
+cc(stated-4, but-8)
+det(proportion-10, the-9)
+nsubj(egg-17, proportion-10)
+prep(proportion-10, of-11)
+pobj(of-11, egg-12)
+prep(egg-12, to-13)
+pobj(to-13, dashi-14)
+cop(egg-17, is-15)
+num(egg-17, 1-16)
+conj(stated-4, egg-17)
+prep(egg-17, to-18)
+det(cup-20, half-19)
+pobj(to-18, cup-20)
+prep(cup-20, of-21)
+amod(stock-23, dashi-22)
+pobj(of-21, stock-23)
+
+
+(ROOT
+  (S
+    (NP (NNP Dashi) (NN stock))
+    (VP (VBD was)
+      (VP (VBN covered)
+        (PP (IN in)
+          (NP
+            (NP (DT the) (JJ previous) (NN video))
+            (PP (IN on)
+              (NP (NNP Miso) (NNP Soup)))))))
+    (. .)))
+
+
+nn(stock-2, Dashi-1)
+nsubjpass(covered-4, stock-2)
+auxpass(covered-4, was-3)
+root(ROOT-0, covered-4)
+prep(covered-4, in-5)
+det(video-8, the-6)
+amod(video-8, previous-7)
+pobj(in-5, video-8)
+prep(video-8, on-9)
+nn(Soup-11, Miso-10)
+pobj(on-9, Soup-11)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB learn)
+        (PP (IN about)
+          (NP (PRP it)))
+        (ADVP (RB here))))
+    (. .)))
+
+
+nsubj(learn-3, You-1)
+aux(learn-3, can-2)
+root(ROOT-0, learn-3)
+prep(learn-3, about-4)
+pobj(about-4, it-5)
+advmod(learn-3, here-6)
+
+
+(ROOT
+  (FRAG
+    (PP (TO To)
+      (NP (NN cook)))
+    (, ,)))
+
+
+root(ROOT-0, To-1)
+pobj(To-1, cook-2)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (VBP need)
+      (S
+        (VP (TO to)
+          (VP (VB bring)
+            (NP (DT the) (NN water))
+            (PP (TO to)
+              (NP
+                (NP (DT the) (NN boil)
+                  (CC and)
+                  (NN steam))
+                (PP (IN for)
+                  (NP (CD 15) (NNS mins)))))))))
+    (. .)))
+
+
+nsubj(need-2, you-1)
+root(ROOT-0, need-2)
+aux(bring-4, to-3)
+xcomp(need-2, bring-4)
+det(water-6, the-5)
+dobj(bring-4, water-6)
+prep(bring-4, to-7)
+det(boil-9, the-8)
+pobj(to-7, boil-9)
+cc(boil-9, and-10)
+conj(boil-9, steam-11)
+prep(boil-9, for-12)
+num(mins-14, 15-13)
+pobj(for-12, mins-14)
+
+
+(ROOT
+  (FRAG
+    (PP (IN For)
+      (NP
+        (NP (DT the) (NN rest))
+        (PP (IN of)
+          (NP (DT the) (JJ ieatvideos) (JJ please) (NN click)))))
+    (NP (RB here))
+    (: :)))
+
+
+prep(here-9, For-1)
+det(rest-3, the-2)
+pobj(For-1, rest-3)
+prep(rest-3, of-4)
+det(click-8, the-5)
+amod(click-8, ieatvideos-6)
+amod(click-8, please-7)
+pobj(of-4, click-8)
+root(ROOT-0, here-9)
+
+

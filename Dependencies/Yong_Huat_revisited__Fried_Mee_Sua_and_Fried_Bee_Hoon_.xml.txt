@@ -1,0 +1,226 @@
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (VP (VBG heartening)
+        (S
+          (VP (TO to)
+            (VP (VB find)
+              (SBAR (IN that)
+                (S
+                  (NP (DT some) (NNS hawkers))
+                  (VP (VBP do) (RB n't)
+                    (ADVP (RB yet))
+                    (VP (VB seem)
+                      (S
+                        (VP (TO to)
+                          (VP (VB have)
+                            (VP (VBN heard)
+                              (NP
+                                (NP (DT the) (NNP Health) (NNP Promotion) (NNP Board) (POS 's))
+                                (NN plea))
+                              (PP (IN for)
+                                (NP
+                                  (NP (JJR less) (NN oil))
+                                  (CC and)
+                                  (NP (JJR more) (NNS vegetables)))))))))))))))))
+    (. .)))
+
+
+nsubj(heartening-3, It-1)
+aux(heartening-3, is-2)
+root(ROOT-0, heartening-3)
+aux(find-5, to-4)
+xcomp(heartening-3, find-5)
+mark(seem-12, that-6)
+det(hawkers-8, some-7)
+nsubj(seem-12, hawkers-8)
+aux(seem-12, do-9)
+neg(seem-12, n't-10)
+advmod(seem-12, yet-11)
+ccomp(find-5, seem-12)
+aux(heard-15, to-13)
+aux(heard-15, have-14)
+xcomp(seem-12, heard-15)
+det(Board-19, the-16)
+nn(Board-19, Health-17)
+nn(Board-19, Promotion-18)
+poss(plea-21, Board-19)
+possessive(Board-19, 's-20)
+dobj(heard-15, plea-21)
+prep(heard-15, for-22)
+amod(oil-24, less-23)
+pobj(for-22, oil-24)
+cc(oil-24, and-25)
+amod(vegetables-27, more-26)
+conj(oil-24, vegetables-27)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB Now))
+    (ADVP (RB ,))))
+
+
+root(ROOT-0, Now-1)
+
+
+(ROOT
+  (FRAG
+    (PP (IN please))
+    (, ,)))
+
+
+root(ROOT-0, please-1)
+
+
+(ROOT
+  (SBAR (IN if)
+    (S
+      (NP (PRP you))
+      (VP (VBP have)
+        (NP (DT a) (NN cholesterol) (NN problem)))
+      (, ,))))
+
+
+mark(have-3, if-1)
+nsubj(have-3, you-2)
+root(ROOT-0, have-3)
+det(problem-6, a-4)
+nn(problem-6, cholesterol-5)
+dobj(have-3, problem-6)
+
+
+(ROOT
+  (S
+    (S
+      (VP (VB do)
+        (VP (VBN cut)
+          (PRT (RP down))
+          (PP (IN on)
+            (NP
+              (NP (PDT all) (DT the) (NN lard))
+              (CC and)
+              (NP (JJ oily) (NN stuff)))))))
+    (CC and)
+    (S
+      (INTJ (VB please))
+      (VP (VB stop)
+        (S
+          (VP (VBG reading)
+            (NP (DT this) (NN post))))
+        (SBAR (IN as)
+          (S
+            (NP (PRP it))
+            (VP (MD will)
+              (VP (VB lead)
+                (NP (PRP you))
+                (PP (TO to)
+                  (NP (NN temptation)))))))))
+    (. .)))
+
+
+aux(cut-2, do-1)
+root(ROOT-0, cut-2)
+prt(cut-2, down-3)
+prep(cut-2, on-4)
+predet(lard-7, all-5)
+det(lard-7, the-6)
+pobj(on-4, lard-7)
+cc(lard-7, and-8)
+amod(stuff-10, oily-9)
+conj(lard-7, stuff-10)
+cc(cut-2, and-11)
+discourse(stop-13, please-12)
+conj(cut-2, stop-13)
+xcomp(stop-13, reading-14)
+det(post-16, this-15)
+dobj(reading-14, post-16)
+mark(lead-20, as-17)
+nsubj(lead-20, it-18)
+aux(lead-20, will-19)
+advcl(stop-13, lead-20)
+dobj(lead-20, you-21)
+prep(lead-20, to-22)
+pobj(to-22, temptation-23)
+
+
+(ROOT
+  (S (CC But)
+    (SBAR (IN if)
+      (S
+        (NP (PRP you))
+        (VP (MD can)
+          (VP (VB afford)))))
+    (NP (PRP it))
+    (ADVP (CC and))
+    (VP (VBP wish)
+      (S
+        (VP (TO to)
+          (VP (VB pamper)
+            (NP (PRP yourself))
+            (ADVP (DT every) (RB now)
+              (CC and)
+              (RB again))))))
+    (, ,)))
+
+
+cc(wish-8, But-1)
+mark(afford-5, if-2)
+nsubj(afford-5, you-3)
+aux(afford-5, can-4)
+advcl(wish-8, afford-5)
+nsubj(wish-8, it-6)
+advmod(wish-8, and-7)
+root(ROOT-0, wish-8)
+aux(pamper-10, to-9)
+xcomp(wish-8, pamper-10)
+dobj(pamper-10, yourself-11)
+dep(now-13, every-12)
+advmod(pamper-10, now-13)
+cc(now-13, and-14)
+conj(now-13, again-15)
+
+
+(ROOT
+  (S
+    (NP (RB then))
+    (ADVP (RB here))
+    (VP (VBZ is)
+      (SBAR
+        (WHADVP (WRB where))
+        (S
+          (NP (PRP you))
+          (VP (MD can)
+            (VP (VB find)
+              (NP
+                (NP (DT a) (NN hawker))
+                (SBAR
+                  (WHNP (WP who))
+                  (S
+                    (VP (VBZ does) (RB n't)
+                      (VP (VB prioritise)
+                        (NP (NN health))
+                        (PP (IN over)
+                          (NP (NN taste)))))))))))))
+    (. .)))
+
+
+nsubj(is-3, then-1)
+advmod(is-3, here-2)
+root(ROOT-0, is-3)
+advmod(find-7, where-4)
+nsubj(find-7, you-5)
+aux(find-7, can-6)
+advcl(is-3, find-7)
+det(hawker-9, a-8)
+dobj(find-7, hawker-9)
+nsubj(prioritise-13, who-10)
+aux(prioritise-13, does-11)
+neg(prioritise-13, n't-12)
+rcmod(hawker-9, prioritise-13)
+dobj(prioritise-13, health-14)
+prep(prioritise-13, over-15)
+pobj(over-15, taste-16)
+
+

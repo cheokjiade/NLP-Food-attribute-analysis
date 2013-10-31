@@ -1,0 +1,326 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD went)
+      (ADVP (RB down)
+        (PP (TO to)
+          (NP
+            (NP (NNP Big) (NNP Ben) (POS 's))
+            (NNS Pies))))
+      (NP (JJ last) (NN month))
+      (PP (IN with)
+        (NP (PRP$ my) (NN son) (RB only)))
+      (S
+        (VP (TO to)
+          (VP (VB find)
+            (SBAR (IN that)
+              (S
+                (NP (EX there))
+                (VP (VBD were)
+                  (NP
+                    (NP (DT a) (JJ whole) (NN lot))
+                    (PP (IN of)
+                      (NP
+                        (NP (NNS contractors))
+                        (PP (IN at)
+                          (NP
+                            (NP (DT the) (NN shop))
+                            (SBAR
+                              (WHNP (WP who))
+                              (S
+                                (VP (VBD told)
+                                  (NP (PRP me))
+                                  (SBAR (IN that)
+                                    (S
+                                      (NP (DT the) (NN shop))
+                                      (VP (VBD had)
+                                        (VP (VBN changed)
+                                          (NP (NNS owners)))))))))))))))))))))
+    (. !)))
+
+
+nsubj(went-2, I-1)
+root(ROOT-0, went-2)
+advmod(went-2, down-3)
+prep(down-3, to-4)
+nn(Ben-6, Big-5)
+poss(Pies-8, Ben-6)
+possessive(Ben-6, 's-7)
+pobj(to-4, Pies-8)
+amod(month-10, last-9)
+tmod(went-2, month-10)
+prep(went-2, with-11)
+poss(son-13, my-12)
+pobj(with-11, son-13)
+advmod(son-13, only-14)
+aux(find-16, to-15)
+xcomp(went-2, find-16)
+mark(were-19, that-17)
+expl(were-19, there-18)
+ccomp(find-16, were-19)
+det(lot-22, a-20)
+amod(lot-22, whole-21)
+nsubj(were-19, lot-22)
+prep(lot-22, of-23)
+pobj(of-23, contractors-24)
+prep(contractors-24, at-25)
+det(shop-27, the-26)
+pobj(at-25, shop-27)
+nsubj(told-29, who-28)
+rcmod(shop-27, told-29)
+dobj(told-29, me-30)
+mark(changed-35, that-31)
+det(shop-33, the-32)
+nsubj(changed-35, shop-33)
+aux(changed-35, had-34)
+ccomp(told-29, changed-35)
+dobj(changed-35, owners-36)
+
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN son))
+    (VP (VBD was)
+      (VP (VBN devastated)
+        (SBAR (IN because)
+          (S
+            (NP
+              (NP (NNP Big) (NNP Ben) (POS 's))
+              (NNS pies))
+            (VP (VBD were)
+              (NP (PRP$ his) (NN favorite)))))))
+    (. .)))
+
+
+poss(son-2, My-1)
+nsubjpass(devastated-4, son-2)
+auxpass(devastated-4, was-3)
+root(ROOT-0, devastated-4)
+mark(favorite-12, because-5)
+nn(Ben-7, Big-6)
+poss(pies-9, Ben-7)
+possessive(Ben-7, 's-8)
+nsubj(favorite-12, pies-9)
+cop(favorite-12, were-10)
+poss(favorite-12, his-11)
+advcl(devastated-4, favorite-12)
+
+
+(ROOT
+  (FRAG (RB So) (JJ ,)))
+
+
+root(ROOT-0, So-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD updated)
+      (PP (IN on)
+        (NP (DT the) (NN blog)))
+      (SBAR (IN that)
+        (S
+          (NP (DT the) (NN shop))
+          (VP (VBD had)
+            (VP (VBN closed))))))
+    (. .)))
+
+
+nsubj(updated-2, I-1)
+root(ROOT-0, updated-2)
+prep(updated-2, on-3)
+det(blog-5, the-4)
+pobj(on-3, blog-5)
+mark(closed-10, that-6)
+det(shop-8, the-7)
+nsubj(closed-10, shop-8)
+aux(closed-10, had-9)
+ccomp(updated-2, closed-10)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB However))
+    (ADVP (RB ,))))
+
+
+root(ROOT-0, However-1)
+
+
+(ROOT
+  (FRAG
+    (PP
+      (PP
+        (ADVP (DT a))
+        (ADJP (JJ few)))
+      (ADVP
+        (NP (NNS weeks))
+        (RBR later)))
+    (, ,)))
+
+
+root(ROOT-0, a-1)
+dep(a-1, few-2)
+npadvmod(later-4, weeks-3)
+dep(a-1, later-4)
+
+
+(ROOT
+  (S
+    (NP (NN someone))
+    (VP (VBD wrote)
+      (PRT (RP in))
+      (S
+        (VP (TO to)
+          (VP (VB say)
+            (SBAR (IN that)
+              (S
+                (NP (NNP Big) (NNP Ben) (POS 's))
+                (VP (VBD was)
+                  (ADVP (RB still))
+                  (ADJP (JJ alive)
+                    (CC and)
+                    (RB well)))))))))
+    (. !)))
+
+
+nsubj(wrote-2, someone-1)
+root(ROOT-0, wrote-2)
+prt(wrote-2, in-3)
+aux(say-5, to-4)
+xcomp(wrote-2, say-5)
+mark(alive-12, that-6)
+nn(Ben-8, Big-7)
+nsubj(alive-12, Ben-8)
+possessive(Ben-8, 's-9)
+cop(alive-12, was-10)
+advmod(alive-12, still-11)
+ccomp(say-5, alive-12)
+cc(alive-12, and-13)
+advmod(alive-12, well-14)
+
+
+(ROOT
+  (FRAG (RB So) (JJ ,)))
+
+
+root(ROOT-0, So-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB quickly))
+    (VP
+      (VP (VBD brought)
+        (NP (PRP$ my) (NN son))
+        (ADVP (RB down))
+        (S
+          (VP (TO to)
+            (VP (VB investigate)
+              (CC and)
+              (VB lo)))))
+      (CC and)
+      (VP (VBD behold)))
+    (, ,)))
+
+
+nsubj(brought-3, I-1)
+advmod(brought-3, quickly-2)
+root(ROOT-0, brought-3)
+poss(son-5, my-4)
+dobj(brought-3, son-5)
+advmod(brought-3, down-6)
+aux(investigate-8, to-7)
+xcomp(brought-3, investigate-8)
+cc(investigate-8, and-9)
+conj(investigate-8, lo-10)
+cc(brought-3, and-11)
+conj(brought-3, behold-12)
+
+
+(ROOT
+  (FRAG
+    (CONJP (RB not) (JJ only))
+    (S
+      (VP (VBD was)
+        (NP
+          (NP (NNP Big) (NNP Ben))
+          (SBAR
+            (S
+              (VP (VBZ 's)
+                (ADJP
+                  (ADJP (JJ alive))
+                  (CC and)
+                  (ADVP (RB well))
+                  (, ,))))))))))
+
+
+neg(only-2, not-1)
+dep(Ben-5, only-2)
+cop(Ben-5, was-3)
+nn(Ben-5, Big-4)
+root(ROOT-0, Ben-5)
+cop(alive-7, 's-6)
+rcmod(Ben-5, alive-7)
+cc(alive-7, and-8)
+advmod(alive-7, well-9)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP
+      (VP (VBD had)
+        (VP (VBN undergone)
+          (NP (DT a) (NN makeover))))
+      (CC and)
+      (VP (VBD was)
+        (ADVP (RB now)))
+      (NP
+        (NP (DT a) (JJ cosy) (JJ little) (NN place))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBD looked)
+              (ADJP (RB very) (JJ much)
+                (PP (IN like)
+                  (NP (DT a) (NN pie) (NN shop))))
+              (SBAR
+                (S
+                  (NP (PRP you))
+                  (VP (MD would)
+                    (VP (VB find)
+                      (PP (IN in)
+                        (NP (NNP Britain))))))))))))
+    (. !)))
+
+
+nsubj(undergone-3, it-1)
+aux(undergone-3, had-2)
+root(ROOT-0, undergone-3)
+det(makeover-5, a-4)
+dobj(undergone-3, makeover-5)
+cc(undergone-3, and-6)
+conj(undergone-3, was-7)
+advmod(was-7, now-8)
+det(place-12, a-9)
+amod(place-12, cosy-10)
+amod(place-12, little-11)
+dobj(undergone-3, place-12)
+nsubj(looked-14, that-13)
+rcmod(place-12, looked-14)
+advmod(much-16, very-15)
+acomp(looked-14, much-16)
+prep(much-16, like-17)
+det(shop-20, a-18)
+nn(shop-20, pie-19)
+pobj(like-17, shop-20)
+nsubj(find-23, you-21)
+aux(find-23, would-22)
+ccomp(looked-14, find-23)
+prep(find-23, in-24)
+pobj(in-24, Britain-25)
+
+

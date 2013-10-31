@@ -1,0 +1,472 @@
+(ROOT
+  (S
+    (NP (NNP Tomorrow))
+    (VP (VBZ is)
+      (VP (VBN Eat)
+        (PP (IN with)
+          (NP (PRP$ your) (NNP Family) (NN Day)))))
+    (. !)))
+
+
+nsubjpass(Eat-3, Tomorrow-1)
+auxpass(Eat-3, is-2)
+root(ROOT-0, Eat-3)
+prep(Eat-3, with-4)
+poss(Day-7, your-5)
+nn(Day-7, Family-6)
+pobj(with-4, Day-7)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD grew)
+      (PRT (RP up))
+      (PP (IN in)
+        (NP (DT a) (NN home)))
+      (SBAR
+        (WHADVP (WRB where))
+        (S
+          (NP (PRP$ my) (NN mom))
+          (VP (VBD was)
+            (NP (DT a) (NN homemaker))))))
+    (, ,)))
+
+
+nsubj(grew-2, I-1)
+root(ROOT-0, grew-2)
+prt(grew-2, up-3)
+prep(grew-2, in-4)
+det(home-6, a-5)
+pobj(in-4, home-6)
+advmod(homemaker-12, where-7)
+poss(mom-9, my-8)
+nsubj(homemaker-12, mom-9)
+cop(homemaker-12, was-10)
+det(homemaker-12, a-11)
+advcl(grew-2, homemaker-12)
+
+
+(ROOT
+  (S
+    (NP (RB so) (JJ everyday))
+    (VP (VBD was)
+      (VP (VBN Eat)
+        (PP (IN with)
+          (NP (DT the) (NNP Family) (NNP Day)))))
+    (. .)))
+
+
+advmod(everyday-2, so-1)
+nsubjpass(Eat-4, everyday-2)
+auxpass(Eat-4, was-3)
+root(ROOT-0, Eat-4)
+prep(Eat-4, with-5)
+det(Day-8, the-6)
+nn(Day-8, Family-7)
+pobj(with-5, Day-8)
+
+
+(ROOT
+  (S
+    (NP (JJ Nowadays) (NN everyone))
+    (VP (VBZ is)
+      (ADJP (JJR busier))
+      (SBAR (IN so)
+        (S
+          (NP
+            (NP (DT a) (NN lot))
+            (PP (IN of)
+              (NP (NNS families))))
+          (VP (VBP do) (RB n't)
+            (ADVP (RB actually))
+            (VP (VB have)
+              (NP (DT the) (NN time)
+                (S
+                  (VP (TO to)
+                    (VP (VB eat)
+                      (PRT (RP together))
+                      (SBAR
+                        (WHNP (WDT which))
+                        (S
+                          (VP (VBZ is)
+                            (VP (VBG why)
+                              (NP (DT every) (NN year)))))))))))))))
+    (, ,)))
+
+
+amod(everyone-2, Nowadays-1)
+nsubj(busier-4, everyone-2)
+cop(busier-4, is-3)
+root(ROOT-0, busier-4)
+mark(have-13, so-5)
+det(lot-7, a-6)
+nsubj(have-13, lot-7)
+prep(lot-7, of-8)
+pobj(of-8, families-9)
+aux(have-13, do-10)
+neg(have-13, n't-11)
+advmod(have-13, actually-12)
+advcl(busier-4, have-13)
+det(time-15, the-14)
+dobj(have-13, time-15)
+aux(eat-17, to-16)
+infmod(time-15, eat-17)
+prt(eat-17, together-18)
+nsubj(why-21, which-19)
+aux(why-21, is-20)
+ccomp(eat-17, why-21)
+det(year-23, every-22)
+tmod(why-21, year-23)
+
+
+(ROOT
+  (S
+    (NP (CD one) (NN day))
+    (VP (VBZ is)
+      (VP (VBN set)
+        (ADVP (RB aside))
+        (S
+          (VP (TO to)
+            (VP (VB remember)
+              (NP
+                (NP (DT the) (NN importance))
+                (PP (IN of)
+                  (S
+                    (VP (VBG having)
+                      (NP (DT a) (NN meal))))))
+              (ADVP (RB together)))))))
+    (. .)))
+
+
+num(day-2, one-1)
+nsubjpass(set-4, day-2)
+auxpass(set-4, is-3)
+root(ROOT-0, set-4)
+advmod(set-4, aside-5)
+aux(remember-7, to-6)
+xcomp(set-4, remember-7)
+det(importance-9, the-8)
+dobj(remember-7, importance-9)
+prep(importance-9, of-10)
+pcomp(of-10, having-11)
+det(meal-13, a-12)
+dobj(having-11, meal-13)
+advmod(remember-7, together-14)
+
+
+(ROOT
+  (S (CC But)
+    (S
+      (VP (VBG eating)
+        (PP (IN with)
+          (NP (DT the) (NN family)))))
+    (VP (MD should) (RB n't)
+      (VP
+        (ADVP (RB just))
+        (VB occur)
+        (NP
+          (ADVP (RB once))
+          (DT a) (NN year))))
+    (. !)))
+
+
+cc(occur-9, But-1)
+csubj(occur-9, eating-2)
+prep(eating-2, with-3)
+det(family-5, the-4)
+pobj(with-3, family-5)
+aux(occur-9, should-6)
+neg(occur-9, n't-7)
+advmod(occur-9, just-8)
+root(ROOT-0, occur-9)
+advmod(year-12, once-10)
+det(year-12, a-11)
+tmod(occur-9, year-12)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (MD should)
+      (VP (VB be)
+        (NP
+          (NP (DT a) (JJ regular) (NN time))
+          (SBAR
+            (WHADVP (WRB where))
+            (S
+              (NP (DT the) (NN family))
+              (VP (VBZ comes)
+                (PRT (RP together))
+                (S
+                  (VP (TO to)
+                    (VP (VB share)
+                      (PP (IN in)
+                        (NP (DT a) (NN meal)
+                          (CC and)
+                          (NN bond))))))))))))
+    (. .)))
+
+
+nsubj(time-6, It-1)
+aux(time-6, should-2)
+cop(time-6, be-3)
+det(time-6, a-4)
+amod(time-6, regular-5)
+root(ROOT-0, time-6)
+advmod(comes-10, where-7)
+det(family-9, the-8)
+nsubj(comes-10, family-9)
+rcmod(time-6, comes-10)
+prt(comes-10, together-11)
+aux(share-13, to-12)
+xcomp(comes-10, share-13)
+prep(share-13, in-14)
+det(meal-16, a-15)
+pobj(in-14, meal-16)
+cc(meal-16, and-17)
+conj(meal-16, bond-18)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (MD will)
+        (VP (VB be)
+          (VP (VBG giving)
+            (NP (CD two))
+            (NP (NNS talks))
+            (NP (NN today)
+              (CC and)
+              (NN tomorrow))
+            (PP (IN on)
+              (NP (`` ``)
+                (NP (NNP Taking) (NNP Family) (NNP Photos))
+                ('' '')
+                (PP (IN in)
+                  (NP
+                    (NP (NN conjunction))
+                    (PP (IN with)
+                      (NP
+                        (NP (NNP MINDEF\/SAF) (POS 's))
+                        (`` ``)
+                        (S
+                          (VP (NN Eat)
+                            (PP (IN with)
+                              (NP (PRP$ your) (NNP Family) (NN Day)))))
+                        ('' '')))))))))))
+    (CC and)
+    (S
+      (NP (PRP I))
+      (VP (VBD thought)
+        (SBAR
+          (S
+            (NP (PRP I))
+            (VP (MD would)
+              (VP (VB share)
+                (NP
+                  (NP (CD one))
+                  (PP (IN of)
+                    (NP (PRP$ my) (NN slides))))
+                (PP (IN on)
+                  (NP
+                    (NP (DT some) (NNS ideas))
+                    (SBAR
+                      (WHPP (IN on)
+                        (WHNP (WP what)))
+                      (S
+                        (NP (PRP you))
+                        (VP (MD can)
+                          (VP (VB do)
+                            (PP (IN during)
+                              (NP (PRP$ your) (`` ``)
+                                (S
+                                  (VP (VB Eat)
+                                    (PP (IN with)
+                                      (NP (PRP$ your) (NNP Family) (NN Day)))))
+                                ('' '') (NN meal)))))))))))))))
+    (. .)))
+
+
+nsubj(giving-4, I-1)
+aux(giving-4, will-2)
+aux(giving-4, be-3)
+root(ROOT-0, giving-4)
+iobj(giving-4, two-5)
+dobj(giving-4, talks-6)
+tmod(giving-4, today-7)
+cc(today-7, and-8)
+conj(today-7, tomorrow-9)
+prep(giving-4, on-10)
+nn(Photos-14, Taking-12)
+nn(Photos-14, Family-13)
+pobj(on-10, Photos-14)
+prep(Photos-14, in-16)
+pobj(in-16, conjunction-17)
+prep(conjunction-17, with-18)
+pobj(with-18, MINDEF\/SAF-19)
+possessive(MINDEF\/SAF-19, 's-20)
+dep(MINDEF\/SAF-19, Eat-22)
+prep(Eat-22, with-23)
+poss(Day-26, your-24)
+nn(Day-26, Family-25)
+pobj(with-23, Day-26)
+cc(giving-4, and-28)
+nsubj(thought-30, I-29)
+conj(giving-4, thought-30)
+nsubj(share-33, I-31)
+aux(share-33, would-32)
+ccomp(thought-30, share-33)
+dobj(share-33, one-34)
+prep(one-34, of-35)
+poss(slides-37, my-36)
+pobj(of-35, slides-37)
+prep(share-33, on-38)
+det(ideas-40, some-39)
+pobj(on-38, ideas-40)
+prep(do-45, on-41)
+pobj(on-41, what-42)
+nsubj(do-45, you-43)
+aux(do-45, can-44)
+rcmod(ideas-40, do-45)
+prep(do-45, during-46)
+poss(meal-55, your-47)
+dep(meal-55, Eat-49)
+prep(Eat-49, with-50)
+poss(Day-53, your-51)
+nn(Day-53, Family-52)
+pobj(with-50, Day-53)
+pobj(during-46, meal-55)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (VBP have) (RB n't)
+        (VP (VBD had)
+          (S
+            (NP (DT a) (JJ nice))
+            (VP (VB sit)
+              (PRT (RP down))
+              (NP (NN meal))
+              (PP (IN with)
+                (NP
+                  (NP (DT the) (NN family))
+                  (PP (IN for)
+                    (NP (NNP awhile))))))
+            (, ,)))))))
+
+
+mark(had-5, If-1)
+nsubj(had-5, you-2)
+aux(had-5, have-3)
+neg(had-5, n't-4)
+root(ROOT-0, had-5)
+det(nice-7, a-6)
+nsubj(sit-8, nice-7)
+ccomp(had-5, sit-8)
+prt(sit-8, down-9)
+dobj(sit-8, meal-10)
+prep(sit-8, with-11)
+det(family-13, the-12)
+pobj(with-11, family-13)
+prep(family-13, for-14)
+pobj(for-14, awhile-15)
+
+
+(ROOT
+  (SQ (MD may)
+    (NP (PRP I))
+    (VP (VB encourage)
+      (S
+        (NP (PRP you))
+        (VP (TO to)
+          (VP (VB take)
+            (NP (DT this) (NN opportunity)
+              (S
+                (VP (TO to)
+                  (VP (VB organize)
+                    (NP
+                      (NP (DT a) (NN meal))
+                      (PP (IN with)
+                        (NP (DT a) (JJ conscious) (NN effort))))
+                    (S
+                      (VP (TO to)
+                        (VP (VB build)
+                          (NP (NN family) (NNS togetherness)))))))))))))
+    (. !)))
+
+
+aux(encourage-3, may-1)
+nsubj(encourage-3, I-2)
+root(ROOT-0, encourage-3)
+nsubj(take-6, you-4)
+aux(take-6, to-5)
+xcomp(encourage-3, take-6)
+det(opportunity-8, this-7)
+dobj(take-6, opportunity-8)
+aux(organize-10, to-9)
+infmod(opportunity-8, organize-10)
+det(meal-12, a-11)
+dobj(organize-10, meal-12)
+prep(meal-12, with-13)
+det(effort-16, a-14)
+amod(effort-16, conscious-15)
+pobj(with-13, effort-16)
+aux(build-18, to-17)
+xcomp(organize-10, build-18)
+nn(togetherness-20, family-19)
+dobj(build-18, togetherness-20)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB read)
+        (NP (JJR more))
+        (PP (IN about) (`` ``)
+          (S
+            (VP (NN Eat)
+              (PP (IN with)
+                (NP (PRP$ your) (NNP Family) (NN Day)))))
+          ('' ''))
+        (PP (IN at)
+          (NP
+            (NP (DT the) (NNP Centre))
+            (PP (IN for)
+              (NP (NNP Fathering) (NNP website)
+                (CC and)
+                (NNP Dadsforlife)))))))
+    (. .)))
+
+
+nsubj(read-3, You-1)
+aux(read-3, can-2)
+root(ROOT-0, read-3)
+dobj(read-3, more-4)
+prep(read-3, about-5)
+dep(about-5, Eat-7)
+prep(Eat-7, with-8)
+poss(Day-11, your-9)
+nn(Day-11, Family-10)
+pobj(with-8, Day-11)
+prep(read-3, at-13)
+det(Centre-15, the-14)
+pobj(at-13, Centre-15)
+prep(Centre-15, for-16)
+nn(website-18, Fathering-17)
+pobj(for-16, website-18)
+cc(website-18, and-19)
+conj(website-18, Dadsforlife-20)
+
+
+(ROOT
+  (NP (NN sg)))
+
+
+root(ROOT-0, sg-1)
+
+

@@ -1,0 +1,342 @@
+(ROOT
+  (PRN
+    (S
+      (S
+        (NP
+          (NP (DT The) (NNS results))
+          (PP (IN of)
+            (NP (DT the) (NNS polls))))
+        (VP (VBP are)
+          (ADJP (RP out))))
+      (CC and)
+      (S
+        (NP (PRP it))
+        (VP (VBZ seems)
+          (NP
+            (NP (DT that))
+            (PP (IN of)
+              (NP (DT the) (JJ different) (NN dialect) (NNS groups)))))))
+    (, ,)))
+
+
+det(results-2, The-1)
+nsubj(out-7, results-2)
+prep(results-2, of-3)
+det(polls-5, the-4)
+pobj(of-3, polls-5)
+cop(out-7, are-6)
+root(ROOT-0, out-7)
+cc(out-7, and-8)
+nsubj(that-11, it-9)
+cop(that-11, seems-10)
+conj(out-7, that-11)
+prep(that-11, of-12)
+det(groups-16, the-13)
+amod(groups-16, different-14)
+nn(groups-16, dialect-15)
+pobj(of-12, groups-16)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NNP Hainanese))
+    (VP (VBP have)
+      (NP
+        (NP (DT the) (JJS largest) (NN proportion))
+        (PP (IN of)
+          (NP (NNS foodies)))))
+    (. !)))
+
+
+det(Hainanese-2, the-1)
+nsubj(have-3, Hainanese-2)
+root(ROOT-0, have-3)
+det(proportion-6, the-4)
+amod(proportion-6, largest-5)
+dobj(have-3, proportion-6)
+prep(proportion-6, of-7)
+pobj(of-7, foodies-8)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Altogether))
+    (, ,)))
+
+
+root(ROOT-0, Altogether-1)
+
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (CD 2873) (NNS people))
+        (VP (VBN voted)))
+      (CC and)
+      (NP (DT the) (NN breakdown)))
+    (VP (VBZ is)
+      (SBAR (IN as)
+        (S
+          (VP (VBZ follows)))))
+    (: :)))
+
+
+num(people-2, 2873-1)
+nsubj(is-7, people-2)
+partmod(people-2, voted-3)
+cc(people-2, and-4)
+det(breakdown-6, the-5)
+conj(people-2, breakdown-6)
+root(ROOT-0, is-7)
+mark(follows-9, as-8)
+advcl(is-7, follows-9)
+
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP
+        (NP (NNS terms))
+        (PP (IN of)
+          (NP (NNS numbers)))))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+pobj(In-1, terms-2)
+prep(terms-2, of-3)
+pobj(of-3, numbers-4)
+
+
+(ROOT
+  (S
+    (VP
+      (ADVP (DT the))
+      (VB Hokkiens) (-LRB- -LRB-)
+      (NP (CD 26.9) (NN %)))))
+
+
+advmod(Hokkiens-2, the-1)
+root(ROOT-0, Hokkiens-2)
+num(%-5, 26.9-4)
+dobj(Hokkiens-2, %-5)
+
+
+(ROOT
+  (S
+    (NP (NNP -RRB-))
+    (VP (VBP have)
+      (NP
+        (NP (DT a) (JJ narrow) (NN lead))
+        (PP (IN over)
+          (NP (DT the) (NNPS Teochews)))
+        (ADJP
+          (QP (CD -LRB-) (CD 24.3))
+          (NN %))))))
+
+
+root(ROOT-0, have-2)
+det(lead-5, a-3)
+amod(lead-5, narrow-4)
+dobj(have-2, lead-5)
+prep(lead-5, over-6)
+det(Teochews-8, the-7)
+pobj(over-6, Teochews-8)
+dep(%-11, 24.3-10)
+dep(lead-5, %-11)
+
+
+(ROOT
+  (FRAG
+    (PP (IN -RRB-))
+    (, ,)))
+
+
+
+
+(ROOT
+  (VP (VBN followed)
+    (S
+      (VP
+        (ADVP (RB closely)
+          (PP (IN by)
+            (NP (DT the))))
+        (VB Cantonese) (-LRB- -LRB-)
+        (NP (CD 18.8) (NN %))))))
+
+
+root(ROOT-0, followed-1)
+advmod(Cantonese-5, closely-2)
+prep(closely-2, by-3)
+pobj(by-3, the-4)
+ccomp(followed-1, Cantonese-5)
+num(%-8, 18.8-7)
+dobj(Cantonese-5, %-8)
+
+
+(ROOT
+  (S
+    (VP (VB -RRB-)
+      (PP (IN with)
+        (NP
+          (NP (DT a) (JJR smaller) (NN population))
+          (PP (IN of)
+            (NP
+              (NP (NNP Hakka) (NNP -LRB-))
+              (ADJP (CD 8.9) (NN %)))))))))
+
+
+prep(-RRB--1, with-2)
+det(population-5, a-3)
+amod(population-5, smaller-4)
+pobj(with-2, population-5)
+prep(population-5, of-6)
+nn(-LRB--8, Hakka-7)
+number(%-10, 8.9-9)
+amod(-LRB--8, %-10)
+
+
+(ROOT
+  (FRAG
+    (NP
+      (NP (NNP -RRB-)
+        (CC and)
+        (NNP Hainanese) (NNP -LRB-))
+      (ADJP (CD 11.4) (NN %)))))
+
+
+cc(-RRB--1, and-2)
+conj(-RRB--1, Hainanese-3)
+number(%-6, 11.4-5)
+amod(-LRB--4, %-6)
+
+
+(ROOT
+  (NP (FW -RRB-) (. .)))
+
+
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB However))
+    (ADVP (RB ,))))
+
+
+root(ROOT-0, However-1)
+
+
+(ROOT
+  (S
+    (NP (DT this))
+    (VP (VBZ does) (RB not)
+      (ADVP (RB really))
+      (VP (VB tell)
+        (NP (PRP us))
+        (SBAR (IN whether)
+          (S
+            (S
+              (VP (VBG being)
+                (PP (IN of)
+                  (NP (DT a) (JJ certain) (NN dialect) (NN group)))))
+            (VP (MD would)
+              (VP (VB make)
+                (S
+                  (NP (PRP you))
+                  (NP
+                    (NP (JJR more))
+                    (PP (IN of)
+                      (NP (DT a) (NN foodie)))))))))))
+    (. .)))
+
+
+nsubj(tell-5, this-1)
+aux(tell-5, does-2)
+neg(tell-5, not-3)
+advmod(tell-5, really-4)
+root(ROOT-0, tell-5)
+dobj(tell-5, us-6)
+mark(make-15, whether-7)
+csubj(make-15, being-8)
+prep(being-8, of-9)
+det(group-13, a-10)
+amod(group-13, certain-11)
+nn(group-13, dialect-12)
+pobj(of-9, group-13)
+aux(make-15, would-14)
+ccomp(tell-5, make-15)
+nsubj(more-17, you-16)
+xcomp(make-15, more-17)
+prep(more-17, of-18)
+det(foodie-20, a-19)
+pobj(of-18, foodie-20)
+
+
+(ROOT
+  (S
+    (SBAR
+      (WHNP (WP What))
+      (S
+        (NP (PRP I))
+        (VP (VBP think))))
+    (VP (MD would)
+      (VP (VB give)
+        (NP (PRP us))
+        (NP
+          (NP (DT a)
+            (ADJP (RBR more) (JJ accurate))
+            (NN picture))
+          (SBAR
+            (S
+              (VP (VBZ is)
+                (S
+                  (VP (TO to)
+                    (VP (VB compare)
+                      (NP
+                        (NP (DT the) (NN proportion))
+                        (PP (IN of)
+                          (NP (DT the) (NNS voters))))
+                      (PP (TO to)
+                        (NP
+                          (NP (DT the) (NN proportion))
+                          (PP (IN of)
+                            (NP
+                              (NP (NN dialect) (NNS groups))
+                              (PP (IN in)
+                                (NP (NNP Singapore)))))))
+                      (PP (IN in)
+                        (NP (NN general))))))))))))
+    (. .)))
+
+
+dobj(think-3, What-1)
+nsubj(think-3, I-2)
+csubj(give-5, think-3)
+aux(give-5, would-4)
+root(ROOT-0, give-5)
+iobj(give-5, us-6)
+det(picture-10, a-7)
+advmod(accurate-9, more-8)
+amod(picture-10, accurate-9)
+dobj(give-5, picture-10)
+rcmod(picture-10, is-11)
+aux(compare-13, to-12)
+xcomp(is-11, compare-13)
+det(proportion-15, the-14)
+dobj(compare-13, proportion-15)
+prep(proportion-15, of-16)
+det(voters-18, the-17)
+pobj(of-16, voters-18)
+prep(compare-13, to-19)
+det(proportion-21, the-20)
+pobj(to-19, proportion-21)
+prep(proportion-21, of-22)
+nn(groups-24, dialect-23)
+pobj(of-22, groups-24)
+prep(groups-24, in-25)
+pobj(in-25, Singapore-26)
+prep(compare-13, in-27)
+pobj(in-27, general-28)
+
+

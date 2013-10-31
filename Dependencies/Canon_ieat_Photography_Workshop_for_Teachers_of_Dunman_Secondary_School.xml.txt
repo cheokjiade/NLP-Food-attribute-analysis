@@ -1,0 +1,328 @@
+(ROOT
+  (SBAR
+    (WHADVP (WRB When))
+    (S
+      (NP (PRP I))
+      (VP (VBD was)
+        (PP (IN in)
+          (NP (NN school))))
+      (, ,))))
+
+
+advmod(was-3, When-1)
+nsubj(was-3, I-2)
+root(ROOT-0, was-3)
+prep(was-3, in-4)
+pobj(in-4, school-5)
+
+
+(ROOT
+  (S
+    (NP (PRP IT))
+    (VP (VBD was) (RB n't)
+      (ADVP (RB even))
+      (NP (DT a) (NN subject)))
+    (. .)))
+
+
+nsubj(subject-6, IT-1)
+cop(subject-6, was-2)
+neg(subject-6, n't-3)
+advmod(subject-6, even-4)
+det(subject-6, a-5)
+root(ROOT-0, subject-6)
+
+
+(ROOT
+  (S
+    (ADVP (RB Now))
+    (NP (PRP it))
+    (VP (VBZ is)
+      (NP
+        (NP (DT an) (JJ indispensable) (NN part))
+        (PP (IN of)
+          (NP (DT the) (NN curriculum)))))
+    (. .)))
+
+
+advmod(part-6, Now-1)
+nsubj(part-6, it-2)
+cop(part-6, is-3)
+det(part-6, an-4)
+amod(part-6, indispensable-5)
+root(ROOT-0, part-6)
+prep(part-6, of-7)
+det(curriculum-9, the-8)
+pobj(of-7, curriculum-9)
+
+
+(ROOT
+  (S (CC But)
+    (NP (NNS teachers))
+    (ADVP (PRP themselves))
+    (VP (MD might) (RB not)
+      (VP (VB be)
+        (ADJP (RB IT) (JJ savvy))))
+    (, ,)))
+
+
+cc(savvy-8, But-1)
+nsubj(savvy-8, teachers-2)
+advmod(savvy-8, themselves-3)
+aux(savvy-8, might-4)
+neg(savvy-8, not-5)
+cop(savvy-8, be-6)
+advmod(savvy-8, IT-7)
+root(ROOT-0, savvy-8)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB so))
+    (SBAR
+      (WHADVP (WRB how))
+      (S
+        (VP (TO to)
+          (VP (VB teach)
+            (NP (DT the) (NN subject))
+            (PP (TO to)
+              (NP
+                (NP (NNS students))
+                (, ,)))))))))
+
+
+root(ROOT-0, so-1)
+advmod(teach-4, how-2)
+aux(teach-4, to-3)
+dep(so-1, teach-4)
+det(subject-6, the-5)
+dobj(teach-4, subject-6)
+prep(teach-4, to-7)
+pobj(to-7, students-8)
+
+
+(ROOT
+  (SBARQ
+    (WHNP
+      (WHNP (DT many))
+      (PP (IN of)
+        (WHNP (WP whom))))
+    (SQ
+      (VP (VBP are)
+        (ADVP (RB already))
+        (VP (VBG blogging)
+          (CC and)
+          (VBG online)
+          (NP (NN gaming)))))
+    (. ?)))
+
+
+nsubj(blogging-6, many-1)
+prep(many-1, of-2)
+pobj(of-2, whom-3)
+aux(blogging-6, are-4)
+advmod(blogging-6, already-5)
+root(ROOT-0, blogging-6)
+cc(blogging-6, and-7)
+conj(blogging-6, online-8)
+dobj(blogging-6, gaming-9)
+
+
+(ROOT
+  (PP (IN As)
+    (NP
+      (NP (NN part))
+      (PP (IN of)
+        (NP (DT an) (NN effort)
+          (S
+            (VP (TO to)
+              (VP (VB inspire)
+                (NP (DT the) (NNS teachers)))))))
+      (, ,))))
+
+
+root(ROOT-0, As-1)
+pobj(As-1, part-2)
+prep(part-2, of-3)
+det(effort-5, an-4)
+pobj(of-3, effort-5)
+aux(inspire-7, to-6)
+infmod(effort-5, inspire-7)
+det(teachers-9, the-8)
+dobj(inspire-7, teachers-9)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NNP IT) (NN dept))
+    (VP (VBD invited)
+      (S
+        (NP (PRP me))
+        (VP (TO to)
+          (VP (VB conduct)
+            (NP
+              (NP (DT a) (NN lecture)
+                (CC and)
+                (NN workshop))
+              (PP (IN on)
+                (NP (NNP Blogging)
+                  (CC and)
+                  (NNP Food) (NNP Photography))))))))
+    (. .)))
+
+
+det(dept-3, the-1)
+nn(dept-3, IT-2)
+nsubj(invited-4, dept-3)
+root(ROOT-0, invited-4)
+nsubj(conduct-7, me-5)
+aux(conduct-7, to-6)
+xcomp(invited-4, conduct-7)
+det(lecture-9, a-8)
+dobj(conduct-7, lecture-9)
+cc(lecture-9, and-10)
+conj(lecture-9, workshop-11)
+prep(lecture-9, on-12)
+nn(Photography-16, Blogging-13)
+cc(Blogging-13, and-14)
+conj(Blogging-13, Food-15)
+pobj(on-12, Photography-16)
+
+
+(ROOT
+  (S
+    (NP
+      (ADJP (JJ Around) (CD twenty))
+      (NNS teachers))
+    (VP (VBD were)
+      (PP
+        (PP (IN in)
+          (NP (NN attendance)))
+        (CC and)
+        (PP (IN after)
+          (NP (DT the) (NN lecture)))))
+    (, ,)))
+
+
+amod(teachers-3, Around-1)
+number(Around-1, twenty-2)
+nsubj(were-4, teachers-3)
+root(ROOT-0, were-4)
+prep(were-4, in-5)
+pobj(in-5, attendance-6)
+cc(in-5, and-7)
+conj(in-5, after-8)
+det(lecture-10, the-9)
+pobj(after-8, lecture-10)
+
+
+(ROOT
+  (S
+    (NP (NN everyone))
+    (VP (VBD got)
+      (NP (DT an) (NN opportunity)
+        (S
+          (VP (TO to)
+            (VP (VB take)
+              (NP
+                (NP (DT some) (NNS photos))
+                (PP (IN of)
+                  (NP (DT the) (NNP Sushi)))))))))
+    (. .)))
+
+
+nsubj(got-2, everyone-1)
+root(ROOT-0, got-2)
+det(opportunity-4, an-3)
+dobj(got-2, opportunity-4)
+aux(take-6, to-5)
+infmod(opportunity-4, take-6)
+det(photos-8, some-7)
+dobj(take-6, photos-8)
+prep(photos-8, of-9)
+det(Sushi-11, the-10)
+pobj(of-9, Sushi-11)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (ADJP (JJ interesting)
+        (S
+          (VP (TO to)
+            (VP (VB note)
+              (SBAR (IN that)
+                (S
+                  (NP (DT the) (NNP Sushi))
+                  (VP (VBD was)
+                    (VP (VBN eaten)
+                      (PP (IN by)
+                        (NP
+                          (NP (DT some) (JJ other) (NNS teachers))
+                          (SBAR
+                            (WHNP (WP who))
+                            (S
+                              (VP (VBD came)
+                                (PP (IN after)
+                                  (NP
+                                    (NP (DT the) (NN workshop))
+                                    (CC and)
+                                    (NP
+                                      (NP (DT that) (NN none))
+                                      (PP (IN of)
+                                        (NP (DT the) (NNS teachers)))
+                                      (SBAR
+                                        (WHNP (WP who))
+                                        (S
+                                          (VP (VBD took)
+                                            (SBAR
+                                              (S
+                                                (NP (DT the) (NNS photos))
+                                                (ADVP (RB actually))
+                                                (VP (VBD ate)
+                                                  (NP (DT the) (NNP Sushi)))))))))))))))))))))))))
+    (: ...)))
+
+
+nsubj(interesting-3, It-1)
+cop(interesting-3, is-2)
+root(ROOT-0, interesting-3)
+aux(note-5, to-4)
+xcomp(interesting-3, note-5)
+mark(eaten-10, that-6)
+det(Sushi-8, the-7)
+nsubjpass(eaten-10, Sushi-8)
+auxpass(eaten-10, was-9)
+ccomp(note-5, eaten-10)
+prep(eaten-10, by-11)
+det(teachers-14, some-12)
+amod(teachers-14, other-13)
+pobj(by-11, teachers-14)
+nsubj(came-16, who-15)
+rcmod(teachers-14, came-16)
+prep(came-16, after-17)
+det(workshop-19, the-18)
+pobj(after-17, workshop-19)
+cc(workshop-19, and-20)
+det(none-22, that-21)
+conj(workshop-19, none-22)
+prep(none-22, of-23)
+det(teachers-25, the-24)
+pobj(of-23, teachers-25)
+nsubj(took-27, who-26)
+rcmod(none-22, took-27)
+det(photos-29, the-28)
+nsubj(ate-31, photos-29)
+advmod(ate-31, actually-30)
+ccomp(took-27, ate-31)
+det(Sushi-33, the-32)
+dobj(ate-31, Sushi-33)
+
+
+(ROOT
+  (INTJ (UH .)))
+
+
+
+

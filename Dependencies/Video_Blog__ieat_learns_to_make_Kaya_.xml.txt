@@ -1,0 +1,196 @@
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD might)
+      (VP (VB have)
+        (VP (VBN read)
+          (PP (IN in)
+            (NP (DT the) (NNP Sunday) (NNP Times)))
+          (SBAR
+            (ADVP (RB recently))
+            (IN that)
+            (S
+              (NP
+                (NP (PRP$ our) (NN friend))
+                (SBAR
+                  (S
+                    (S
+                      (NP
+                        (NP (NNP Liverpool) (POS 's))
+                        (NNP Good) (NN Morning) (NNP Nanyang) (NNP Cafe))
+                      (VP (VBD was)
+                        (VP (VBN voted)
+                          (NP
+                            (NP (NNP Best) (NNP Kaya) (NNP Toast))
+                            (PP (IN in)
+                              (NP (NNP Singapore)))))))
+                    (CC and)
+                    (S
+                      (NP
+                        (NP (DT a) (NN lot))
+                        (PP (IN of)
+                          (NP (PRP it))))
+                      (VP (VBZ has)
+                        (S
+                          (VP (TO to)
+                            (VP (VB do)
+                              (PP (IN with)
+                                (NP
+                                  (NP (NNP Liverpool) (POS 's))
+                                  (NN freshly)))))))))))
+              (VP (VBD made)
+                (NP (NN kaya))))))))
+    (. .)))
+
+
+nsubj(read-4, You-1)
+aux(read-4, might-2)
+aux(read-4, have-3)
+root(ROOT-0, read-4)
+prep(read-4, in-5)
+det(Times-8, the-6)
+nn(Times-8, Sunday-7)
+pobj(in-5, Times-8)
+advmod(made-38, recently-9)
+mark(made-38, that-10)
+poss(friend-12, our-11)
+nsubj(made-38, friend-12)
+poss(Cafe-18, Liverpool-13)
+possessive(Liverpool-13, 's-14)
+nn(Cafe-18, Good-15)
+nn(Cafe-18, Morning-16)
+nn(Cafe-18, Nanyang-17)
+nsubjpass(voted-20, Cafe-18)
+auxpass(voted-20, was-19)
+rcmod(friend-12, voted-20)
+nn(Toast-23, Best-21)
+nn(Toast-23, Kaya-22)
+dobj(voted-20, Toast-23)
+prep(Toast-23, in-24)
+pobj(in-24, Singapore-25)
+cc(voted-20, and-26)
+det(lot-28, a-27)
+nsubj(has-31, lot-28)
+prep(lot-28, of-29)
+pobj(of-29, it-30)
+conj(voted-20, has-31)
+aux(do-33, to-32)
+xcomp(has-31, do-33)
+prep(do-33, with-34)
+poss(freshly-37, Liverpool-35)
+possessive(Liverpool-35, 's-36)
+pobj(with-34, freshly-37)
+dep(read-4, made-38)
+dobj(made-38, kaya-39)
+
+
+(ROOT
+  (S
+    (NP (NNP Liverpool))
+    (VP (VBZ has)
+      (ADVP (RB very) (RB generously))
+      (VP (VBN agreed)
+        (S
+          (VP (TO to)
+            (VP (VB share)
+              (NP (PRP$ his) (NN recipe))
+              (PP (IN with)
+                (NP
+                  (NP (PRP us))
+                  (CC and)
+                  (NP
+                    (NP (RB especially) (DT those))
+                    (SBAR
+                      (WHNP (WP who))
+                      (S
+                        (VP (VBP are)
+                          (VP (VBG living)
+                            (ADVP (RB overseas))
+                            (SBAR
+                              (WHNP (WP who))
+                              (S
+                                (VP (MD might)
+                                  (VP (VB miss)
+                                    (S
+                                      (VP (VBG having)
+                                        (NP (NNP Kaya) (NNP Toast))))))))))))))))))))
+    (. !)))
+
+
+nsubj(agreed-5, Liverpool-1)
+aux(agreed-5, has-2)
+advmod(generously-4, very-3)
+advmod(agreed-5, generously-4)
+root(ROOT-0, agreed-5)
+aux(share-7, to-6)
+xcomp(agreed-5, share-7)
+poss(recipe-9, his-8)
+dobj(share-7, recipe-9)
+prep(share-7, with-10)
+pobj(with-10, us-11)
+cc(us-11, and-12)
+advmod(those-14, especially-13)
+conj(us-11, those-14)
+nsubj(living-17, who-15)
+aux(living-17, are-16)
+rcmod(those-14, living-17)
+advmod(living-17, overseas-18)
+nsubj(miss-21, who-19)
+aux(miss-21, might-20)
+ccomp(living-17, miss-21)
+xcomp(miss-21, having-22)
+nn(Toast-24, Kaya-23)
+dobj(having-22, Toast-24)
+
+
+(ROOT
+  (NP (NNP Thanks) (NNP Liverpool) (. !)))
+
+
+nn(Liverpool-2, Thanks-1)
+root(ROOT-0, Liverpool-2)
+
+
+(ROOT
+  (NP (NNS Ingredients) (: :)))
+
+
+root(ROOT-0, Ingredients-1)
+
+
+(ROOT
+  (S
+    (NP (CD 12) (NNP Eggs) (CD 250) (JJ ml) (NNP Coconut) (NN Milk) (NNS 250g))
+    (VP (VBD sugar)
+      (NP
+        (NP (CD One) (NN bunch))
+        (PP (IN of)
+          (NP (NNP Pandan) (NNPS Leaves) (NNP Link))))
+      (PP (TO to)
+        (NP (DT the) (JJ Good) (NN Morning) (NNP Nanyang) (NNP Cafe) (NN post))))
+    (. .)))
+
+
+num(250g-7, 12-1)
+nn(250g-7, Eggs-2)
+num(250g-7, 250-3)
+amod(250g-7, ml-4)
+nn(250g-7, Coconut-5)
+nn(250g-7, Milk-6)
+nsubj(sugar-8, 250g-7)
+root(ROOT-0, sugar-8)
+num(bunch-10, One-9)
+dobj(sugar-8, bunch-10)
+prep(bunch-10, of-11)
+nn(Link-14, Pandan-12)
+nn(Link-14, Leaves-13)
+pobj(of-11, Link-14)
+prep(sugar-8, to-15)
+det(post-21, the-16)
+amod(post-21, Good-17)
+nn(post-21, Morning-18)
+nn(post-21, Nanyang-19)
+nn(post-21, Cafe-20)
+pobj(to-15, post-21)
+
+

@@ -1,0 +1,355 @@
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (NP (JJ human) (NN nature)
+        (S
+          (VP (TO to)
+            (VP (VB side)
+              (PP (IN with)
+                (NP (DT the) (NN underdog))))))))
+    (. .)))
+
+
+nsubj(nature-4, It-1)
+cop(nature-4, is-2)
+amod(nature-4, human-3)
+root(ROOT-0, nature-4)
+aux(side-6, to-5)
+infmod(nature-4, side-6)
+prep(side-6, with-7)
+det(underdog-9, the-8)
+pobj(with-7, underdog-9)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB So))
+    (SBAR
+      (WHADVP (WRB when))
+      (S
+        (NP (PRP it))
+        (VP (VBZ comes)
+          (PP (TO to)
+            (NP (NN chicken) (NN rice))))
+        (, ,)))))
+
+
+root(ROOT-0, So-1)
+advmod(comes-4, when-2)
+nsubj(comes-4, it-3)
+dep(So-1, comes-4)
+prep(comes-4, to-5)
+nn(rice-7, chicken-6)
+pobj(to-5, rice-7)
+
+
+(ROOT
+  (S
+    (NP (RB not) (JJ many) (NNS people))
+    (VP (MD would)
+      (VP (VB go)
+        (PP (IN with)
+          (NP
+            (NP (DT the) (JJ big) (NNS players))
+            (PP (IN like)
+              (NP (NNP Boon) (NNP Tong) (NNP Kee)))))))
+    (, ,)))
+
+
+neg(people-3, not-1)
+amod(people-3, many-2)
+nsubj(go-5, people-3)
+aux(go-5, would-4)
+root(ROOT-0, go-5)
+prep(go-5, with-6)
+det(players-9, the-7)
+amod(players-9, big-8)
+pobj(with-6, players-9)
+prep(players-9, like-10)
+nn(Kee-13, Boon-11)
+nn(Kee-13, Tong-12)
+pobj(like-10, Kee-13)
+
+
+(ROOT
+  (S
+    (VP (VBG citing)
+      (SBAR (IN that)
+        (S
+          (NP (PRP they))
+          (VP (VBP are)
+            (ADJP (RB too) (JJ commercial)))
+          (, ,))))))
+
+
+root(ROOT-0, citing-1)
+mark(commercial-6, that-2)
+nsubj(commercial-6, they-3)
+cop(commercial-6, are-4)
+advmod(commercial-6, too-5)
+ccomp(citing-1, commercial-6)
+
+
+(ROOT
+  (S
+    (VP (VBZ lacks)
+      (NP
+        (NP (DT the) (JJ personal) (NN touch))
+        (NP (FW etc) (FW etc.))))
+    (. .)))
+
+
+root(ROOT-0, lacks-1)
+det(touch-4, the-2)
+amod(touch-4, personal-3)
+dobj(lacks-1, touch-4)
+nn(etc.-6, etc-5)
+dep(touch-4, etc.-6)
+
+
+(ROOT
+  (S
+    (PP (IN With)
+      (PP (IN over)
+        (NP (CD 20) (NN chicken))))
+    (NP (NN rice) (NNS stalls))
+    (ADVP (RB already))
+    (VP (VBD blogged))
+    (, ,)))
+
+
+prep(blogged-8, With-1)
+pcomp(With-1, over-2)
+num(chicken-4, 20-3)
+pobj(over-2, chicken-4)
+nn(stalls-6, rice-5)
+nsubj(blogged-8, stalls-6)
+advmod(blogged-8, already-7)
+root(ROOT-0, blogged-8)
+
+
+(ROOT
+  (S
+    (NP (DT this) (NN site))
+    (VP (MD would)
+      (ADVP (RB really))
+      (RB not)
+      (VP (VB be)
+        (ADJP (JJ complete)
+          (PP (IN without)
+            (NP
+              (NP (CD one))
+              (PP (IN of)
+                (NP
+                  (NP
+                    (NP (NNP Singapore) (POS 's))
+                    (JJS largest) (NN chain))
+                  (PP (IN of)
+                    (NP (NN chicken) (NN rice) (NNS stalls))))))))))
+    (. .)))
+
+
+det(site-2, this-1)
+nsubj(complete-7, site-2)
+aux(complete-7, would-3)
+advmod(complete-7, really-4)
+neg(complete-7, not-5)
+cop(complete-7, be-6)
+root(ROOT-0, complete-7)
+prep(complete-7, without-8)
+pobj(without-8, one-9)
+prep(one-9, of-10)
+poss(chain-14, Singapore-11)
+possessive(Singapore-11, 's-12)
+amod(chain-14, largest-13)
+pobj(of-10, chain-14)
+prep(chain-14, of-15)
+nn(stalls-18, chicken-16)
+nn(stalls-18, rice-17)
+pobj(of-15, stalls-18)
+
+
+(ROOT
+  (S (IN So)
+    (NP (PRP it))
+    (VP (VBD was)
+      (ADVP (RB only))
+      (NP
+        (NP (DT a) (NN matter))
+        (PP (IN of)
+          (NP (NN time))))
+      (SBAR (IN before)
+        (S
+          (NP (PRP I))
+          (VP (VBD blogged)
+            (NP (NNP BTK))))))
+    (. .)))
+
+
+dep(matter-6, So-1)
+nsubj(matter-6, it-2)
+cop(matter-6, was-3)
+advmod(matter-6, only-4)
+det(matter-6, a-5)
+root(ROOT-0, matter-6)
+prep(matter-6, of-7)
+pobj(of-7, time-8)
+mark(blogged-11, before-9)
+nsubj(blogged-11, I-10)
+advcl(matter-6, blogged-11)
+dobj(blogged-11, BTK-12)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (VP (VBN had)
+        (NP
+          (NP (DT this) (NN chicken) (NN rice))
+          (NP (JJ several) (NNS times)))
+        (SBAR
+          (ADVP (RB already))
+          (IN before)
+          (S
+            (NP (PRP I))
+            (VP (VBD started)
+              (PP (IN by)
+                (S
+                  (VP (VBG blogging)))))))))
+    (, ,)))
+
+
+nsubj(had-3, I-1)
+aux(had-3, have-2)
+root(ROOT-0, had-3)
+det(rice-6, this-4)
+nn(rice-6, chicken-5)
+dobj(had-3, rice-6)
+amod(times-8, several-7)
+dep(rice-6, times-8)
+advmod(started-12, already-9)
+mark(started-12, before-10)
+nsubj(started-12, I-11)
+advcl(had-3, started-12)
+prep(started-12, by-13)
+pcomp(by-13, blogging-14)
+
+
+(ROOT
+  (S (CC but)
+    (ADVP (RB never))
+    (ADVP (RB really))
+    (VP (VBD thought)
+      (NP
+        (NP (RB much))
+        (PP (IN of)
+          (NP (PRP it)))))
+    (. .)))
+
+
+cc(thought-4, but-1)
+neg(thought-4, never-2)
+advmod(thought-4, really-3)
+root(ROOT-0, thought-4)
+dobj(thought-4, much-5)
+prep(much-5, of-6)
+pobj(of-6, it-7)
+
+
+(ROOT
+  (S (-LRB- -LRB-)
+    (NP (NNP Did))
+    (ADVP (RB n't))
+    (VP
+      (VP (VBP analyze)
+        (NP (NN food))
+        (ADVP (RB as) (RB much) (RB then) (RB as)))
+      (PRN
+        (S
+          (NP (PRP I))
+          (VP (VBP do)
+            (ADVP (RB nowadays))))
+        (-RRB- -RRB-))
+      (ADVP (RB However)))
+    (, ,)))
+
+
+nsubj(analyze-4, Did-2)
+neg(analyze-4, n't-3)
+root(ROOT-0, analyze-4)
+dobj(analyze-4, food-5)
+advmod(as-9, as-6)
+advmod(as-9, much-7)
+advmod(as-9, then-8)
+advmod(analyze-4, as-9)
+nsubj(do-11, I-10)
+parataxis(analyze-4, do-11)
+advmod(do-11, nowadays-12)
+advmod(analyze-4, However-14)
+
+
+(ROOT
+  (PP (IN on)
+    (NP
+      (NP (DT the) (NN insistence))
+      (PP (IN of)
+        (NP (NNP Holydrummer)))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBZ swears)
+            (PP (IN by)
+              (NP (DT this) (NN chicken) (NN rice)))
+            (PRN (-LRB- -LRB-)
+              (NP (DT the)
+                (ADJP (JJ East))
+                (JJ Coast) (NN branch))
+              (-RRB- -RRB-)))))
+      (, ,))))
+
+
+root(ROOT-0, on-1)
+det(insistence-3, the-2)
+pobj(on-1, insistence-3)
+prep(insistence-3, of-4)
+pobj(of-4, Holydrummer-5)
+nsubj(swears-7, who-6)
+rcmod(insistence-3, swears-7)
+prep(swears-7, by-8)
+det(rice-11, this-9)
+nn(rice-11, chicken-10)
+pobj(by-8, rice-11)
+det(branch-16, the-13)
+amod(branch-16, East-14)
+amod(branch-16, Coast-15)
+dep(swears-7, branch-16)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD decided)
+      (S
+        (VP (TO to)
+          (VP (VB blog)
+            (NP (PRP it))
+            (ADVP (RBR sooner))
+            (PP (RB rather) (IN than)
+              (NP (DT the) (JJ later)))))))
+    (. .)))
+
+
+nsubj(decided-2, I-1)
+root(ROOT-0, decided-2)
+aux(blog-4, to-3)
+xcomp(decided-2, blog-4)
+dobj(blog-4, it-5)
+advmod(blog-4, sooner-6)
+advmod(than-8, rather-7)
+prep(blog-4, than-8)
+det(later-10, the-9)
+pobj(than-8, later-10)
+
+

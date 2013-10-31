@@ -1,0 +1,179 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (RB very) (JJ new)
+        (PP (TO to)
+          (NP (JJ Korean) (NN food)))))
+    (, ,)))
+
+
+nsubj(new-4, I-1)
+cop(new-4, am-2)
+advmod(new-4, very-3)
+root(ROOT-0, new-4)
+prep(new-4, to-5)
+amod(food-7, Korean-6)
+pobj(to-5, food-7)
+
+
+(ROOT
+  (FRAG
+    (PP (CC but)
+      (NP (NN fortunately)))
+    (, ,)))
+
+
+root(ROOT-0, but-1)
+dep(but-1, fortunately-2)
+
+
+(ROOT
+  (S
+    (NP (PRP$ my) (NN makan))
+    (VP (VBZ kaki))
+    (, ,)))
+
+
+poss(makan-2, my-1)
+nsubj(kaki-3, makan-2)
+root(ROOT-0, kaki-3)
+
+
+(ROOT
+  (NP (NNP Cactuskit) (NNP ,)))
+
+
+nn(,-2, Cactuskit-1)
+
+
+(ROOT
+  (S
+    (VP (VBZ is)
+      (NP (DT a) (JJ big) (NN fan)))
+    (. .)))
+
+
+cop(fan-4, is-1)
+det(fan-4, a-2)
+amod(fan-4, big-3)
+root(ROOT-0, fan-4)
+
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBZ has)
+      (VP (VBN been)
+        (NP
+          (NP (DT a) (NN fan))
+          (PP (IN of)
+            (NP (JJ Korean) (NN food))))
+        (SBAR (IN since)
+          (S
+            (S
+              (NP
+                (NP (PRP he))
+                (CC and)
+                (NP (PRP$ his) (NN wife)))
+              (VP (VBD were)
+                (ADVP (RB still))
+                (VP (VBG dating)
+                  (PP (IN in)
+                    (NP (NNP Hawaii))))))
+            (CC and)
+            (S
+              (NP (PRP he))
+              (VP (VBZ has)
+                (VP (VBN eaten)
+                  (PP (IN at)
+                    (NP
+                      (NP (JJ many) (NNS restaurants))
+                      (PP (IN in)
+                        (NP (NNP Hawaii))))))))))))
+    (, ,)))
+
+
+nsubj(fan-5, He-1)
+aux(fan-5, has-2)
+cop(fan-5, been-3)
+det(fan-5, a-4)
+root(ROOT-0, fan-5)
+prep(fan-5, of-6)
+amod(food-8, Korean-7)
+pobj(of-6, food-8)
+mark(dating-16, since-9)
+nsubj(dating-16, he-10)
+cc(he-10, and-11)
+poss(wife-13, his-12)
+conj(he-10, wife-13)
+aux(dating-16, were-14)
+advmod(dating-16, still-15)
+advcl(fan-5, dating-16)
+prep(dating-16, in-17)
+pobj(in-17, Hawaii-18)
+cc(dating-16, and-19)
+nsubj(eaten-22, he-20)
+aux(eaten-22, has-21)
+conj(dating-16, eaten-22)
+prep(eaten-22, at-23)
+amod(restaurants-25, many-24)
+pobj(at-23, restaurants-25)
+prep(restaurants-25, in-26)
+pobj(in-26, Hawaii-27)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Korea))
+    (, ,)))
+
+
+root(ROOT-0, Korea-1)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB as) (RB well) (RB as))
+    (NP (NNP Singapore))
+    (. .)))
+
+
+advmod(as-3, as-1)
+advmod(as-3, well-2)
+dep(Singapore-4, as-3)
+root(ROOT-0, Singapore-4)
+
+
+(ROOT
+  (S (IN So)
+    (NP (PRP I))
+    (VP (VBP depend)
+      (PP (IN on)
+        (NP (PRP him)))
+      (S
+        (VP (TO to)
+          (VP (VB give)
+            (NP
+              (NP (DT a) (JJR more) (JJ balanced) (NN review))
+              (PP (IN of)
+                (NP (JJ Korean) (NN food))))))))
+    (. .)))
+
+
+dep(depend-3, So-1)
+nsubj(depend-3, I-2)
+root(ROOT-0, depend-3)
+prep(depend-3, on-4)
+pobj(on-4, him-5)
+aux(give-7, to-6)
+xcomp(depend-3, give-7)
+det(review-11, a-8)
+amod(review-11, more-9)
+amod(review-11, balanced-10)
+dobj(give-7, review-11)
+prep(review-11, of-12)
+amod(food-14, Korean-13)
+pobj(of-12, food-14)
+
+

@@ -1,0 +1,178 @@
+(ROOT
+  (S
+    (NP
+      (NP (NNP Registration))
+      (PP (IN for)
+        (NP (DT the) (NNP Extreme) (NNP Ice) (NNP Cream) (NNP Encounter))))
+    (VP (VBZ is)
+      (ADVP (RB now))
+      (VP (VBN opened)))
+    (. !)))
+
+
+nsubjpass(opened-10, Registration-1)
+prep(Registration-1, for-2)
+det(Encounter-7, the-3)
+nn(Encounter-7, Extreme-4)
+nn(Encounter-7, Ice-5)
+nn(Encounter-7, Cream-6)
+pobj(for-2, Encounter-7)
+auxpass(opened-10, is-8)
+advmod(opened-10, now-9)
+root(ROOT-0, opened-10)
+
+
+(ROOT
+  (PP (RB Rather) (IN than)
+    (S
+      (VP (VBG doing)
+        (S
+          (NP (RB just) (DT an) (NN ice) (NN cream))
+          (VP (VB buffet))
+          (, ,))))))
+
+
+advmod(than-2, Rather-1)
+root(ROOT-0, than-2)
+pcomp(than-2, doing-3)
+advmod(cream-7, just-4)
+det(cream-7, an-5)
+nn(cream-7, ice-6)
+nsubj(buffet-8, cream-7)
+ccomp(doing-3, buffet-8)
+
+
+(ROOT
+  (S
+    (NP (NNP Chief))
+    (VP (VBZ Milkman))
+    (, ,)))
+
+
+nsubj(Milkman-2, Chief-1)
+root(ROOT-0, Milkman-2)
+
+
+(ROOT
+  (NP (NNP David) (NNP ,)))
+
+
+nn(,-2, David-1)
+
+
+(ROOT
+  (S
+    (VP (MD will)
+      (VP (VB introduce)
+        (PP (TO to)
+          (NP (PRP us)))
+        (NP
+          (NP (DT the) (NNS basics))
+          (PP (IN of)
+            (NP
+              (NP (NN Ice) (NN Cream) (NN making))
+              (CC and)
+              (ADVP (RB also))
+              (NP (DT the) (NNS trials)
+                (CC and)
+                (NNS tribulations))))
+          (PP (IN of)
+            (S
+              (VP (VBG making)
+                (NP
+                  (NP (DT each))
+                  (PP (IN of)
+                    (NP (DT the) (NNP Ice) (NN Cream) (NNS flavors))))))))))
+    (. .)))
+
+
+aux(introduce-2, will-1)
+root(ROOT-0, introduce-2)
+prep(introduce-2, to-3)
+pobj(to-3, us-4)
+det(basics-6, the-5)
+dobj(introduce-2, basics-6)
+prep(basics-6, of-7)
+nn(making-10, Ice-8)
+nn(making-10, Cream-9)
+pobj(of-7, making-10)
+cc(making-10, and-11)
+advmod(making-10, also-12)
+det(trials-14, the-13)
+conj(making-10, trials-14)
+cc(trials-14, and-15)
+conj(trials-14, tribulations-16)
+prep(basics-6, of-17)
+pcomp(of-17, making-18)
+dobj(making-18, each-19)
+prep(each-19, of-20)
+det(flavors-24, the-21)
+nn(flavors-24, Ice-22)
+nn(flavors-24, Cream-23)
+pobj(of-20, flavors-24)
+
+
+(ROOT
+  (S (IN So)
+    (S
+      (PP (IN during)
+        (NP (DT the) (NN event)))
+      (NP (PRP you))
+      (VP (MD will)
+        (VP (VB get)
+          (S
+            (VP (TO to)
+              (VP (VB appreciate)
+                (NP (DT the) (NNS stories))
+                (PP (IN behind)
+                  (NP
+                    (NP (DT some))
+                    (PP (IN of)
+                      (NP (DT the) (NN signature) (NN ice) (NNS creams)))))))))))
+    (CC and)
+    (S
+      (PP (IN of)
+        (NP (NN course)))
+      (VP (VB get)
+        (S
+          (VP (TO to)
+            (VP (VB taste)
+              (NP
+                (NP (DT the) (JJ myriad))
+                (PP (IN of)
+                  (NP (NN ice) (NN cream) (NNS flavors)))))))))
+    (. .)))
+
+
+dep(get-7, So-1)
+prep(get-7, during-2)
+det(event-4, the-3)
+pobj(during-2, event-4)
+nsubj(get-7, you-5)
+aux(get-7, will-6)
+root(ROOT-0, get-7)
+aux(appreciate-9, to-8)
+xcomp(get-7, appreciate-9)
+det(stories-11, the-10)
+dobj(appreciate-9, stories-11)
+prep(appreciate-9, behind-12)
+pobj(behind-12, some-13)
+prep(some-13, of-14)
+det(creams-18, the-15)
+nn(creams-18, signature-16)
+nn(creams-18, ice-17)
+pobj(of-14, creams-18)
+cc(get-7, and-19)
+prep(get-22, of-20)
+pobj(of-20, course-21)
+conj(get-7, get-22)
+aux(taste-24, to-23)
+xcomp(get-22, taste-24)
+det(myriad-26, the-25)
+dobj(taste-24, myriad-26)
+prep(myriad-26, of-27)
+nn(flavors-30, ice-28)
+nn(flavors-30, cream-29)
+pobj(of-27, flavors-30)
+
+

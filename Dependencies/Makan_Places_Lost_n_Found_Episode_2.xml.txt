@@ -1,0 +1,281 @@
+(ROOT
+  (S
+    (NP (CD 1) (NNP Part) (CD 2) (NN Part))
+    (ADVP
+      (NP (CD 3))
+      (RB Here))
+    (VP (VBZ 's)
+      (NP
+        (NP (DT the) (NN episode))
+        (PP (IN of)
+          (NP
+            (NP (NNP Makan) (NNPS Places) (NNP Lost) (NNP n) (NNP Found))
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (ADVP (RB first))
+                (VP (VBN aired)
+                  (PRT (RP on))
+                  (NP (JJ 15th) (NNP Jan) (CD 2013))
+                  (PP (IN on)
+                    (NP (NNP Ch) (CD 5))))))))))
+    (. .)))
+
+
+num(Part-4, 1-1)
+nn(Part-4, Part-2)
+num(Part-4, 2-3)
+nsubj(episode-9, Part-4)
+npadvmod(Here-6, 3-5)
+advmod(episode-9, Here-6)
+cop(episode-9, 's-7)
+det(episode-9, the-8)
+root(ROOT-0, episode-9)
+prep(episode-9, of-10)
+nn(Found-15, Makan-11)
+nn(Found-15, Places-12)
+nn(Found-15, Lost-13)
+nn(Found-15, n-14)
+pobj(of-10, Found-15)
+nsubj(aired-18, which-16)
+advmod(aired-18, first-17)
+rcmod(Found-15, aired-18)
+prt(aired-18, on-19)
+amod(Jan-21, 15th-20)
+dobj(aired-18, Jan-21)
+num(Jan-21, 2013-22)
+prep(aired-18, on-23)
+pobj(on-23, Ch-24)
+num(Ch-24, 5-25)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD had)
+      (NP
+        (NP (NNS lots))
+        (PP (IN of)
+          (NP
+            (NP (NN fun))
+            (VP (VBG filming)
+              (NP
+                (NP (DT this))
+                (PP (IN with)
+                  (NP (NNP Gurmit) (NNP Singh)))))))))
+    (. .)))
+
+
+nsubj(had-2, I-1)
+root(ROOT-0, had-2)
+dobj(had-2, lots-3)
+prep(lots-3, of-4)
+pobj(of-4, fun-5)
+partmod(fun-5, filming-6)
+dobj(filming-6, this-7)
+prep(this-7, with-8)
+nn(Singh-10, Gurmit-9)
+pobj(with-8, Singh-10)
+
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBZ is)
+      (NP (DT a)
+        (ADJP (RB genuinely) (JJ nice))
+        (NN guy)))
+    (. !)))
+
+
+nsubj(guy-6, He-1)
+cop(guy-6, is-2)
+det(guy-6, a-3)
+advmod(nice-5, genuinely-4)
+amod(guy-6, nice-5)
+root(ROOT-0, guy-6)
+
+
+(ROOT
+  (VP (VBN Loved)
+    (S
+      (NP (PRP$ my) (NN period) (NN costume) (, ,)))))
+
+
+root(ROOT-0, Loved-1)
+poss(costume-4, my-2)
+nn(costume-4, period-3)
+dep(Loved-1, costume-4)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB especially))
+    (NP (PRP$ my) (NN goatee))
+    (. .)))
+
+
+dep(goatee-3, especially-1)
+poss(goatee-3, my-2)
+root(ROOT-0, goatee-3)
+
+
+(ROOT
+  (S
+    (ADVP (RB Too) (RB bad))
+    (NP (PRP$ my) (NN wife))
+    (VP (MD will)
+      (ADVP (RB never))
+      (VP (VB let)
+        (S
+          (NP (PRP me))
+          (VP (VB grow)
+            (NP (CD one))))))
+    (. .)))
+
+
+advmod(bad-2, Too-1)
+advmod(let-7, bad-2)
+poss(wife-4, my-3)
+nsubj(let-7, wife-4)
+aux(let-7, will-5)
+neg(let-7, never-6)
+root(ROOT-0, let-7)
+nsubj(grow-9, me-8)
+ccomp(let-7, grow-9)
+dobj(grow-9, one-10)
+
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBZ says)
+      (SBAR
+        (S
+          (NP (PRP it))
+          (VP (VBZ makes)
+            (SBAR
+              (S
+                (NP (PRP me))
+                (VP (VBP look)
+                  (ADVP (RB too) (RB much))
+                  (PP (IN like)
+                    (NP (DT a) (NNP Chee) (NNP Ko) (NNP Peh))))))))))
+    (. !)))
+
+
+nsubj(says-2, She-1)
+root(ROOT-0, says-2)
+nsubj(makes-4, it-3)
+ccomp(says-2, makes-4)
+nsubj(look-6, me-5)
+ccomp(makes-4, look-6)
+advmod(much-8, too-7)
+advmod(look-6, much-8)
+prep(look-6, like-9)
+det(Peh-13, a-10)
+nn(Peh-13, Chee-11)
+nn(Peh-13, Ko-12)
+pobj(like-9, Peh-13)
+
+
+(ROOT
+  (NP
+    (NP (JJ Many) (NNS thanks))
+    (PP (TO to)
+      (NP (NNP Sen)))
+    (PP (IN for)
+      (NP (DT the) (JJ video) (NN upload)))
+    (. !)))
+
+
+amod(thanks-2, Many-1)
+root(ROOT-0, thanks-2)
+prep(thanks-2, to-3)
+pobj(to-3, Sen-4)
+prep(thanks-2, for-5)
+det(upload-8, the-6)
+amod(upload-8, video-7)
+pobj(for-5, upload-8)
+
+
+(ROOT
+  (S
+    (NP (RB Here))
+    (VP (VBP are)
+      (NP
+        (NP (PRP$ my) (VBG blog) (NNS posts))
+        (PP (IN on)
+          (NP (DT the) (NNS stalls)))))
+    (. .)))
+
+
+nsubj(posts-5, Here-1)
+cop(posts-5, are-2)
+poss(posts-5, my-3)
+amod(posts-5, blog-4)
+root(ROOT-0, posts-5)
+prep(posts-5, on-6)
+det(stalls-8, the-7)
+pobj(on-6, stalls-8)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 1))
+    (. .)))
+
+
+root(ROOT-0, 1-1)
+
+
+(ROOT
+  (NP
+    (NP (CD 132))
+    (NP
+      (NP (NNP Mee) (NNP Pok))
+      (NP (CD 2)))
+    (. .)))
+
+
+root(ROOT-0, 132-1)
+nn(Pok-3, Mee-2)
+dep(132-1, Pok-3)
+dep(Pok-3, 2-4)
+
+
+(ROOT
+  (NP (NNP Simpang) (NNP Yong) (NNP Tau) (NNP Foo) (NNP 3) (. .)))
+
+
+nn(3-5, Simpang-1)
+nn(3-5, Yong-2)
+nn(3-5, Tau-3)
+nn(3-5, Foo-4)
+root(ROOT-0, 3-5)
+
+
+(ROOT
+  (NP
+    (NP (NNP Simon) (NNP Road) (NNP Oyster) (NNP Omelette))
+    (NP (CD 4))
+    (. .)))
+
+
+nn(Omelette-4, Simon-1)
+nn(Omelette-4, Road-2)
+nn(Omelette-4, Oyster-3)
+root(ROOT-0, Omelette-4)
+dep(Omelette-4, 4-5)
+
+
+(ROOT
+  (NP (NNP Siang) (NNP Hee) (NNP Cze) (NNP Char)))
+
+
+nn(Char-4, Siang-1)
+nn(Char-4, Hee-2)
+nn(Char-4, Cze-3)
+root(ROOT-0, Char-4)
+
+

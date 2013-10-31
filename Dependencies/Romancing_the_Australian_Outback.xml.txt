@@ -1,0 +1,357 @@
+(ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ (VBD was)
+      (NP
+        (NP (PRP$ your) (JJ first) (NN contact))
+        (PP (IN with)
+          (NP (NNP Australia)))))
+    (. ?)))
+
+
+attr(was-2, What-1)
+root(ROOT-0, was-2)
+poss(contact-5, your-3)
+amod(contact-5, first-4)
+nsubj(was-2, contact-5)
+prep(contact-5, with-6)
+pobj(with-6, Australia-7)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP remember)
+      (NP (NN mine))
+      (ADVP (RB very) (RB clearly)))
+    (. .)))
+
+
+nsubj(remember-2, I-1)
+root(ROOT-0, remember-2)
+dobj(remember-2, mine-3)
+advmod(clearly-5, very-4)
+advmod(remember-2, clearly-5)
+
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN uncle))
+    (VP (VBD had)
+      (ADVP (RB just))
+      (VP
+        (VP (VBN come)
+          (PRT (RP back))
+          (PP (IN from)
+            (NP (PRP$ his) (NNS studies)))
+          (PP (IN in)
+            (NP
+              (NP (DT the) (NNP University))
+              (PP (IN of)
+                (NP (NNP Western) (NNP Australia))))))
+        (CC and)
+        (VP (VBN bought)
+          (NP (PRP me))
+          (NP
+            (NP (CD one))
+            (PP (IN of)
+              (NP (DT those) (NNP stuffed) (NNP Koala) (NNPS Bears))))
+          (PP (IN with)
+            (NP
+              (NP (DT a) (JJ windup) (JJ musical) (NN box))
+              (PP (IN in)
+                (NP (DT the) (NN belly))))))))
+    (. .)))
+
+
+poss(uncle-2, My-1)
+nsubj(come-5, uncle-2)
+aux(come-5, had-3)
+advmod(come-5, just-4)
+root(ROOT-0, come-5)
+prt(come-5, back-6)
+prep(come-5, from-7)
+poss(studies-9, his-8)
+pobj(from-7, studies-9)
+prep(come-5, in-10)
+det(University-12, the-11)
+pobj(in-10, University-12)
+prep(University-12, of-13)
+nn(Australia-15, Western-14)
+pobj(of-13, Australia-15)
+cc(come-5, and-16)
+conj(come-5, bought-17)
+iobj(bought-17, me-18)
+dobj(bought-17, one-19)
+prep(one-19, of-20)
+det(Bears-24, those-21)
+nn(Bears-24, stuffed-22)
+nn(Bears-24, Koala-23)
+pobj(of-20, Bears-24)
+prep(bought-17, with-25)
+det(box-29, a-26)
+amod(box-29, windup-27)
+amod(box-29, musical-28)
+pobj(with-25, box-29)
+prep(box-29, in-30)
+det(belly-32, the-31)
+pobj(in-30, belly-32)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Being)
+      (NP (DT an) (JJ aspiring) (NN surgeon)))
+    (, ,)))
+
+
+root(ROOT-0, Being-1)
+det(surgeon-4, an-2)
+amod(surgeon-4, aspiring-3)
+pobj(Being-1, surgeon-4)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD wanted)
+      (S
+        (VP (TO to)
+          (VP (VB know)
+            (SBAR
+              (WHADVP (WRB how))
+              (S
+                (NP (DT the) (JJ musical) (NN box))
+                (VP (VBD worked))))))))
+    (, ,)))
+
+
+nsubj(wanted-2, I-1)
+root(ROOT-0, wanted-2)
+aux(know-4, to-3)
+xcomp(wanted-2, know-4)
+advmod(worked-9, how-5)
+det(box-8, the-6)
+amod(box-8, musical-7)
+nsubj(worked-9, box-8)
+ccomp(know-4, worked-9)
+
+
+(ROOT
+  (S (IN so)
+    (NP (DT that))
+    (VP (VBD was)
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP I))
+          (VP (VBD performed)
+            (NP (PRP$ my) (JJ first) (JJ surgical) (NN procedure))))))
+    (. .)))
+
+
+dep(was-3, so-1)
+nsubj(was-3, that-2)
+root(ROOT-0, was-3)
+advmod(performed-6, when-4)
+nsubj(performed-6, I-5)
+advcl(was-3, performed-6)
+poss(procedure-10, my-7)
+amod(procedure-10, first-8)
+amod(procedure-10, surgical-9)
+dobj(performed-6, procedure-10)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (ADJP (JJ interesting)
+        (S
+          (VP (TO to)
+            (VP (VB learn)
+              (SBAR (IN that)
+                (S
+                  (NP (DT the) (NN tune))
+                  (VP (VBD was)
+                    (VP (VBN produced)
+                      (PP (IN by)
+                        (NP
+                          (NP (DT a) (NN comb))
+                          (PP (IN of)
+                            (NP
+                              (NP (JJ different) (NNS lengths))
+                              (VP (VBG being)
+                                (VP (VBD was)
+                                  (VP (`` ``) (VBN plucked) ('' '')
+                                    (PP (IN by)
+                                      (NP (DT a) (VBG revolving) (NN drum)))))))))))))))))))
+    (. .)))
+
+
+nsubj(interesting-3, It-1)
+cop(interesting-3, was-2)
+root(ROOT-0, interesting-3)
+aux(learn-5, to-4)
+xcomp(interesting-3, learn-5)
+mark(produced-10, that-6)
+det(tune-8, the-7)
+nsubjpass(produced-10, tune-8)
+auxpass(produced-10, was-9)
+ccomp(learn-5, produced-10)
+prep(produced-10, by-11)
+det(comb-13, a-12)
+pobj(by-11, comb-13)
+prep(comb-13, of-14)
+amod(lengths-16, different-15)
+pobj(of-14, lengths-16)
+auxpass(plucked-20, being-17)
+auxpass(plucked-20, was-18)
+partmod(lengths-16, plucked-20)
+prep(plucked-20, by-22)
+det(drum-25, a-23)
+amod(drum-25, revolving-24)
+pobj(by-22, drum-25)
+
+
+(ROOT
+  (S
+    (PP (IN Of)
+      (NP (NN course)))
+    (NP (PRP I))
+    (VP (VBD got)
+      (VP (VBN scolded)
+        (PP (IN by)
+          (NP
+            (NP (PRP$ my) (NN mom))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBD said)
+                  (SBAR (IN that)
+                    (S
+                      (NP (PRP I))
+                      (VP (VBD was)
+                        (NP (DT a) (JJ little) (NN destroyer))))))))))))
+    (. .)))
+
+
+prep(scolded-5, Of-1)
+pobj(Of-1, course-2)
+nsubjpass(scolded-5, I-3)
+auxpass(scolded-5, got-4)
+root(ROOT-0, scolded-5)
+prep(scolded-5, by-6)
+poss(mom-8, my-7)
+pobj(by-6, mom-8)
+nsubj(said-10, who-9)
+rcmod(mom-8, said-10)
+mark(destroyer-16, that-11)
+nsubj(destroyer-16, I-12)
+cop(destroyer-16, was-13)
+det(destroyer-16, a-14)
+amod(destroyer-16, little-15)
+ccomp(said-10, destroyer-16)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB However))
+    (ADVP (RB ,))))
+
+
+root(ROOT-0, However-1)
+
+
+(ROOT
+  (S
+    (NP (DT that) (NN tune))
+    (VP (VBD was)
+      (VP (VBN etched)
+        (PP (IN in)
+          (NP (PRP$ my) (NN memory)))
+        (ADVP (RB forever))))
+    (. .)))
+
+
+det(tune-2, that-1)
+nsubjpass(etched-4, tune-2)
+auxpass(etched-4, was-3)
+root(ROOT-0, etched-4)
+prep(etched-4, in-5)
+poss(memory-7, my-6)
+pobj(in-5, memory-7)
+advmod(etched-4, forever-8)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP I))
+          (VP (VBD went)
+            (PP (TO to)
+              (NP
+                (NP (NNP Australia))
+                (PP (IN for)
+                  (NP (PRP$ my) (NNS studies)))))
+            (SBAR (IN that)
+              (S
+                (NP (PRP I))
+                (VP (VBD found)
+                  (PRT (RP out))
+                  (SBAR (IN that)
+                    (S
+                      (NP (DT the) (NN haunting) (NN tune))
+                      (VP (VBD was)
+                        (NP (NN none) (JJ other))
+                        (SBAR (IN than) (IN that)
+                          (S
+                            (NP (DT all) (NN time) (JJ favorite) (NN Aussie))
+                            (VP (VBP bush)
+                              (NP (NNS ballad)))))))))))))))
+    (, ,)))
+
+
+nsubj(was-2, It-1)
+root(ROOT-0, was-2)
+advmod(went-5, when-3)
+nsubj(went-5, I-4)
+advcl(was-2, went-5)
+prep(went-5, to-6)
+pobj(to-6, Australia-7)
+prep(Australia-7, for-8)
+poss(studies-10, my-9)
+pobj(for-8, studies-10)
+mark(found-13, that-11)
+nsubj(found-13, I-12)
+ccomp(went-5, found-13)
+prt(found-13, out-14)
+mark(none-20, that-15)
+det(tune-18, the-16)
+nn(tune-18, haunting-17)
+nsubj(none-20, tune-18)
+cop(none-20, was-19)
+ccomp(found-13, none-20)
+amod(none-20, other-21)
+mark(bush-28, than-22)
+mark(bush-28, that-23)
+det(Aussie-27, all-24)
+nn(Aussie-27, time-25)
+amod(Aussie-27, favorite-26)
+nsubj(bush-28, Aussie-27)
+advcl(none-20, bush-28)
+dobj(bush-28, ballad-29)
+
+
+(ROOT
+  (NP (NNP Waltzing) (NNP Matilda) (. .)))
+
+
+nn(Matilda-2, Waltzing-1)
+root(ROOT-0, Matilda-2)
+
+

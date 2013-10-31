@@ -1,0 +1,470 @@
+(ROOT
+  (PP (IN In)
+    (NP
+      (NP (DT the) (JJ 2nd) (NN episode))
+      (PP (IN of)
+        (NP
+          (NP (DT the) (`` ``) (NN ieat))
+          (SBAR
+            (S
+              (VP (VBZ learns)
+                (S
+                  (VP (TO to)
+                    (VP (VB cook)
+                      (NP (DT an) (NN egg) (NN series) ('' ''))))))))))
+      (, ,))))
+
+
+root(ROOT-0, In-1)
+det(episode-4, the-2)
+amod(episode-4, 2nd-3)
+pobj(In-1, episode-4)
+prep(episode-4, of-5)
+det(ieat-8, the-6)
+pobj(of-5, ieat-8)
+rcmod(ieat-8, learns-9)
+aux(cook-11, to-10)
+xcomp(learns-9, cook-11)
+det(series-14, an-12)
+nn(series-14, egg-13)
+dobj(cook-11, series-14)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Chef)
+      (NP (NNP Tim)))
+    (, ,)))
+
+
+root(ROOT-0, Chef-1)
+pobj(Chef-1, Tim-2)
+
+
+(ROOT
+  (S
+    (VP (VBZ tells)
+      (NP (PRP me))
+      (SBAR
+        (WHADVP (WRB how))
+        (S
+          (VP (TO to)
+            (VP (VB tell)
+              (SBAR (IN if)
+                (S
+                  (NP (DT an) (NN egg))
+                  (VP (VBZ is)
+                    (ADJP (JJ fresh)
+                      (PP (IN without)
+                        (S
+                          (VP (VBG having)
+                            (S
+                              (VP (TO to)
+                                (VP (VB crack)
+                                  (S
+                                    (NP (PRP it))
+                                    (ADJP (JJ open))))))))))))))))))
+    (. .)))
+
+
+root(ROOT-0, tells-1)
+dobj(tells-1, me-2)
+advmod(tell-5, how-3)
+aux(tell-5, to-4)
+xcomp(tells-1, tell-5)
+mark(fresh-10, if-6)
+det(egg-8, an-7)
+nsubj(fresh-10, egg-8)
+cop(fresh-10, is-9)
+advcl(tell-5, fresh-10)
+prep(fresh-10, without-11)
+pcomp(without-11, having-12)
+aux(crack-14, to-13)
+xcomp(having-12, crack-14)
+nsubj(open-16, it-15)
+xcomp(crack-14, open-16)
+
+
+(ROOT
+  (SBARQ (-LRB- -LRB-)
+    (WHADVP (WRB Actually))
+    (SQ (VBP do)
+      (NP (PRP you))
+      (VP (VB know)
+        (SBAR
+          (WHADVP (WRB how))
+          (S
+            (VP (TO to)
+              (VP (VB tell)
+                (SBAR (IN if)
+                  (S
+                    (NP (PRP it))
+                    (VP (VBZ is)
+                      (ADJP (JJ fresh))
+                      (SBAR (RB even) (IN after)
+                        (S
+                          (NP (PRP you))
+                          (VP (VBP crack)
+                            (S
+                              (NP (PRP it))
+                              (ADJP (JJ open)))))))))))))))
+    (. ?)))
+
+
+advmod(know-5, Actually-2)
+aux(know-5, do-3)
+nsubj(know-5, you-4)
+root(ROOT-0, know-5)
+advmod(tell-8, how-6)
+aux(tell-8, to-7)
+ccomp(know-5, tell-8)
+mark(fresh-12, if-9)
+nsubj(fresh-12, it-10)
+cop(fresh-12, is-11)
+advcl(tell-8, fresh-12)
+advmod(crack-16, even-13)
+mark(crack-16, after-14)
+nsubj(crack-16, you-15)
+advcl(fresh-12, crack-16)
+nsubj(open-18, it-17)
+xcomp(crack-16, open-18)
+
+
+(ROOT
+  (NP (FW -RRB-) (. .)))
+
+
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (ADVP (RB also))
+    (VP (VB explore)
+      (SBAR
+        (WHADVP (WRB how))
+        (S
+          (VP (TO to)
+            (VP (VB make)
+              (NP (DT a) (JJ French) (NN style) (NN Omelette)))))))
+    (. .)))
+
+
+nsubj(explore-3, We-1)
+advmod(explore-3, also-2)
+root(ROOT-0, explore-3)
+advmod(make-6, how-4)
+aux(make-6, to-5)
+ccomp(explore-3, make-6)
+det(Omelette-10, a-7)
+amod(Omelette-10, French-8)
+nn(Omelette-10, style-9)
+dobj(make-6, Omelette-10)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD might)
+      (VP (VB think)
+        (S
+          (NP (PRP you))
+          (VP (VB know)
+            (SBAR
+              (WHADVP (WRB how))
+              (S
+                (VP (TO to)
+                  (VP (VB fry)
+                    (NP (DT an) (NN Omelette))))))))))
+    (, ,)))
+
+
+nsubj(think-3, You-1)
+aux(think-3, might-2)
+root(ROOT-0, think-3)
+nsubj(know-5, you-4)
+ccomp(think-3, know-5)
+advmod(fry-8, how-6)
+aux(fry-8, to-7)
+ccomp(know-5, fry-8)
+det(Omelette-10, an-9)
+dobj(fry-8, Omelette-10)
+
+
+(ROOT
+  (PRN (CC but)
+    (SBAR (IN if)
+      (S
+        (NP (PRP you))
+        (VP (VBD were)
+          (ADVP (RB ever))
+          (VP (VBN asked)
+            (S
+              (VP (TO to)
+                (VP (VB make)
+                  (NP (CD one))
+                  (PP (IN by)
+                    (NP (DT a) (JJ Western) (NN Chef))))))))
+        (, ,)))))
+
+
+cc(asked-6, but-1)
+mark(asked-6, if-2)
+nsubjpass(asked-6, you-3)
+auxpass(asked-6, were-4)
+advmod(asked-6, ever-5)
+root(ROOT-0, asked-6)
+aux(make-8, to-7)
+xcomp(asked-6, make-8)
+dobj(make-8, one-9)
+prep(make-8, by-10)
+det(Chef-13, a-11)
+amod(Chef-13, Western-12)
+pobj(by-10, Chef-13)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (JJS most))
+      (PP (IN of)
+        (NP (PRP us))))
+    (VP (MD would)
+      (ADVP (RB probably))
+      (VP (VB fail)
+        (NP (NNS miserably))))
+    (. .)))
+
+
+nsubj(fail-6, most-1)
+prep(most-1, of-2)
+pobj(of-2, us-3)
+aux(fail-6, would-4)
+advmod(fail-6, probably-5)
+root(ROOT-0, fail-6)
+dobj(fail-6, miserably-7)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (VP (VBN said)
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP (DT a) (NN lot))
+              (PP (IN of)
+                (NP (NNP Head) (NNPS Chefs))))
+            (VP (VBP use)
+              (S
+                (NP (DT the) (NNP Omelette) (NN test))
+                (VP (TO to)
+                  (VP (VB see)
+                    (SBAR (IN if)
+                      (S
+                        (NP (PRP$ their) (JJ new)
+                          (NX (NNS cooks)))
+                        (ADVP (RB actually))
+                        (VP (VBP know)
+                          (SBAR
+                            (WHADVP (WRB how))
+                            (S
+                              (VP (TO to)
+                                (VP (VB cook))))))))))))))))
+    (. .)))
+
+
+nsubjpass(said-3, It-1)
+auxpass(said-3, is-2)
+root(ROOT-0, said-3)
+mark(use-10, that-4)
+det(lot-6, a-5)
+nsubj(use-10, lot-6)
+prep(lot-6, of-7)
+nn(Chefs-9, Head-8)
+pobj(of-7, Chefs-9)
+ccomp(said-3, use-10)
+det(test-13, the-11)
+nn(test-13, Omelette-12)
+nsubj(see-15, test-13)
+aux(see-15, to-14)
+xcomp(use-10, see-15)
+mark(know-21, if-16)
+poss(cooks-19, their-17)
+amod(cooks-19, new-18)
+nsubj(know-21, cooks-19)
+advmod(know-21, actually-20)
+advcl(see-15, know-21)
+advmod(cook-24, how-22)
+aux(cook-24, to-23)
+ccomp(know-21, cook-24)
+
+
+(ROOT
+  (S
+    (ADVP (RB Hope))
+    (NP (PRP you))
+    (VP (VBP have)
+      (NP
+        (NP (NN fun))
+        (VP (VBG making)
+          (NP
+            (NP (NNP Omelettes))
+            (PP (IN for)
+              (NP
+                (NP (NN breakfast))
+                (PP (IN over)
+                  (NP (DT the) (JJ new) (NN year) (NN break)))))))))
+    (. .)))
+
+
+advmod(have-3, Hope-1)
+nsubj(have-3, you-2)
+root(ROOT-0, have-3)
+dobj(have-3, fun-4)
+partmod(fun-4, making-5)
+dobj(making-5, Omelettes-6)
+prep(Omelettes-6, for-7)
+pobj(for-7, breakfast-8)
+prep(breakfast-8, over-9)
+det(break-13, the-10)
+amod(break-13, new-11)
+nn(break-13, year-12)
+pobj(over-9, break-13)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ My) (JJ favorite) (NN way))
+      (PP (IN of)
+        (S
+          (VP
+            (VP (VBG eating)
+              (SBAR
+                (S
+                  (NP (PRP it))
+                  (VP (VBZ is)
+                    (S
+                      (VP (TO to)
+                        (VP (VB add)
+                          (NP (RB freshly) (JJ grated)
+                            (NP (NNP Gruyere) (NNP Cheese)))
+                          (PP (IN onto)
+                            (NP (DT the) (NNP Omelette)))
+                          (SBAR (IN before)
+                            (S
+                              (NP (PRP you))
+                              (VP (VBP fold)
+                                (NP (PRP it))))))))))))
+            (CC and)
+            (ADVP (RB then))
+            (VP (VBG putting)
+              (NP (PRP it))
+              (PP (IN into)
+                (NP (DT a) (NN freshly))))))))
+    (VP (VBD toasted)
+      (SBAR
+        (S
+          (NP
+            (NP (NNP Croissant))
+            (PP (IN with)
+              (NP
+                (NP (DT a) (NN slice))
+                (PP (IN of)
+                  (S
+                    (VP
+                      (ADVP (RB lightly))
+                      (VBG fried)
+                      (NP
+                        (NP (JJ smoked) (NN ham)
+                          (CC and)
+                          (NNS slices))
+                        (PP (IN of)
+                          (NP (NNP Avacado))))))))))
+          (RB then)
+          (ADVP (RB slowly))
+          (VP (VB enjoy)
+            (NP (PRP it))
+            (PP (IN with)
+              (NP
+                (NP (DT a)
+                  (ADJP (JJ roasted) (JJ vine))
+                  (JJ ripened) (NN tomato))
+                (CC and)
+                (NP
+                  (NP (DT a) (NN cup))
+                  (PP (IN of)
+                    (NP (NNP Teh) (NNP Tarik))))))))))
+    (: ...)))
+
+
+poss(way-3, My-1)
+amod(way-3, favorite-2)
+nsubj(toasted-28, way-3)
+prep(way-3, of-4)
+pcomp(of-4, eating-5)
+nsubj(is-7, it-6)
+ccomp(eating-5, is-7)
+aux(add-9, to-8)
+xcomp(is-7, add-9)
+advmod(Cheese-13, freshly-10)
+amod(Cheese-13, grated-11)
+nn(Cheese-13, Gruyere-12)
+dobj(add-9, Cheese-13)
+prep(add-9, onto-14)
+det(Omelette-16, the-15)
+pobj(onto-14, Omelette-16)
+mark(fold-19, before-17)
+nsubj(fold-19, you-18)
+advcl(add-9, fold-19)
+dobj(fold-19, it-20)
+cc(eating-5, and-21)
+advmod(eating-5, then-22)
+conj(eating-5, putting-23)
+dobj(putting-23, it-24)
+prep(putting-23, into-25)
+det(freshly-27, a-26)
+pobj(into-25, freshly-27)
+root(ROOT-0, toasted-28)
+nsubj(enjoy-44, Croissant-29)
+prep(Croissant-29, with-30)
+det(slice-32, a-31)
+pobj(with-30, slice-32)
+prep(slice-32, of-33)
+advmod(fried-35, lightly-34)
+pcomp(of-33, fried-35)
+amod(ham-37, smoked-36)
+dobj(fried-35, ham-37)
+cc(ham-37, and-38)
+conj(ham-37, slices-39)
+prep(ham-37, of-40)
+pobj(of-40, Avacado-41)
+advmod(enjoy-44, then-42)
+advmod(enjoy-44, slowly-43)
+ccomp(toasted-28, enjoy-44)
+dobj(enjoy-44, it-45)
+prep(enjoy-44, with-46)
+det(tomato-51, a-47)
+amod(vine-49, roasted-48)
+amod(tomato-51, vine-49)
+amod(tomato-51, ripened-50)
+pobj(with-46, tomato-51)
+cc(tomato-51, and-52)
+det(cup-54, a-53)
+conj(tomato-51, cup-54)
+prep(cup-54, of-55)
+nn(Tarik-57, Teh-56)
+pobj(of-55, Tarik-57)
+
+
+(ROOT
+  (S
+    (VP (VB ooooohhh))
+    (. .)))
+
+
+root(ROOT-0, ooooohhh-1)
+
+

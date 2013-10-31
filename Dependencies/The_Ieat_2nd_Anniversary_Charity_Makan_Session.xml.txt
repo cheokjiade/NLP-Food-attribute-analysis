@@ -1,0 +1,154 @@
+(ROOT
+  (S
+    (NP (DT A) (JJ big))
+    (VP (VBP thank)
+      (NP (PRP you))
+      (PP (TO to)
+        (NP
+          (NP (NN everyone))
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP (VBD supported)
+                (NP
+                  (NP (PRP$ our) (JJ 2nd) (NN Anniversary) (NNP Charity) (NNP Makan) (NN Session))
+                  (SBAR
+                    (WHNP (WDT which))
+                    (S
+                      (VP (VBD was)
+                        (VP (VBN held)
+                          (PP (IN at)
+                            (NP
+                              (NP (NNP Aston) (POS 's))
+                              (JJ new) (NN restaurant)))
+                          (PP (IN at)
+                            (NP (DT The) (NNP Cathay))))))))))))))
+    (. .)))
+
+
+det(big-2, A-1)
+nsubj(thank-3, big-2)
+root(ROOT-0, thank-3)
+dobj(thank-3, you-4)
+prep(thank-3, to-5)
+pobj(to-5, everyone-6)
+nsubj(supported-8, who-7)
+rcmod(everyone-6, supported-8)
+poss(Session-14, our-9)
+amod(Session-14, 2nd-10)
+nn(Session-14, Anniversary-11)
+nn(Session-14, Charity-12)
+nn(Session-14, Makan-13)
+dobj(supported-8, Session-14)
+nsubjpass(held-17, which-15)
+auxpass(held-17, was-16)
+rcmod(Session-14, held-17)
+prep(held-17, at-18)
+poss(restaurant-22, Aston-19)
+possessive(Aston-19, 's-20)
+amod(restaurant-22, new-21)
+pobj(at-18, restaurant-22)
+prep(held-17, at-23)
+det(Cathay-25, The-24)
+pobj(at-23, Cathay-25)
+
+
+(ROOT
+  (S
+    (NP (DT This) (NN year))
+    (NP (PRP we))
+    (VP (VBP are)
+      (VP (VBG supporting)
+        (NP (DT the) (NNS kids))
+        (PP (IN from)
+          (NP
+            (NP (NNP Oakley) (NNP Prison) (POS 's))
+            (NNP Ministry)))))
+    (. .)))
+
+
+det(year-2, This-1)
+tmod(supporting-5, year-2)
+nsubj(supporting-5, we-3)
+aux(supporting-5, are-4)
+root(ROOT-0, supporting-5)
+det(kids-7, the-6)
+dobj(supporting-5, kids-7)
+prep(supporting-5, from-8)
+nn(Prison-10, Oakley-9)
+poss(Ministry-12, Prison-10)
+possessive(Prison-10, 's-11)
+pobj(from-8, Ministry-12)
+
+
+(ROOT
+  (SBAR (IN As)
+    (S
+      (NP (PRP you))
+      (VP (MD can)
+        (VP (VB see)
+          (PP (IN from)
+            (NP (DT the) (NNS pictures)))))
+      (, ,))))
+
+
+mark(see-4, As-1)
+nsubj(see-4, you-2)
+aux(see-4, can-3)
+root(ROOT-0, see-4)
+prep(see-4, from-5)
+det(pictures-7, the-6)
+pobj(from-5, pictures-7)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NNS kids))
+    (ADVP (RB really))
+    (VP (VBD had)
+      (NP (DT a) (JJ great) (NN day)
+        (PRT (RP out))))
+    (. .)))
+
+
+det(kids-2, the-1)
+nsubj(had-4, kids-2)
+advmod(had-4, really-3)
+root(ROOT-0, had-4)
+det(day-7, a-5)
+amod(day-7, great-6)
+tmod(had-4, day-7)
+dep(day-7, out-8)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (ADVP (RB really))
+    (VP (VBZ does)
+      (VP (VB warm)
+        (NP (DT the) (NN heart)
+          (S
+            (VP (TO to)
+              (VP (VB see)
+                (NP
+                  (ADJP (RB so) (RB many) (JJ happy))
+                  (VBG smiling) (NNS faces))))))))
+    (. !)))
+
+
+nsubj(warm-4, It-1)
+advmod(warm-4, really-2)
+aux(warm-4, does-3)
+root(ROOT-0, warm-4)
+det(heart-6, the-5)
+dobj(warm-4, heart-6)
+aux(see-8, to-7)
+infmod(heart-6, see-8)
+advmod(happy-11, so-9)
+advmod(happy-11, many-10)
+amod(faces-13, happy-11)
+amod(faces-13, smiling-12)
+dobj(see-8, faces-13)
+
+

@@ -1,0 +1,49 @@
+(ROOT
+  (S
+    (NP (RB Here))
+    (VP (VBZ 's)
+      (NP
+        (NP (DT the) (NN episode))
+        (PP (IN of)
+          (NP (NNP Meat)
+            (CC and)
+            (NNP Greed)))
+        (VP (VBN shown)
+          (PP (IN on)
+            (NP (CD 5)))
+          (NP (NNP June))
+          (SBAR
+            (WHADVP (WRB where))
+            (S
+              (NP (PRP I))
+              (VP (VBD introduced)
+                (NP
+                  (NP (NNP Fatty) (NNP Cheong) (POS 's))
+                  (NNP Bu) (NNP Jian) (NNP Tian) (NNP Charsiew))))))))
+    (. .)))
+
+
+nsubj(episode-4, Here-1)
+cop(episode-4, 's-2)
+det(episode-4, the-3)
+root(ROOT-0, episode-4)
+prep(episode-4, of-5)
+pobj(of-5, Meat-6)
+cc(Meat-6, and-7)
+conj(Meat-6, Greed-8)
+partmod(episode-4, shown-9)
+prep(shown-9, on-10)
+pobj(on-10, 5-11)
+tmod(shown-9, June-12)
+advmod(introduced-15, where-13)
+nsubj(introduced-15, I-14)
+advcl(shown-9, introduced-15)
+nn(Cheong-17, Fatty-16)
+poss(Charsiew-22, Cheong-17)
+possessive(Cheong-17, 's-18)
+nn(Charsiew-22, Bu-19)
+nn(Charsiew-22, Jian-20)
+nn(Charsiew-22, Tian-21)
+dobj(introduced-15, Charsiew-22)
+
+

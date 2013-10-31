@@ -1,0 +1,77 @@
+(ROOT
+  (S
+    (NP (NNP Notice))
+    (VP (VBZ is)
+      (ADVP (RB hereby))
+      (VP (VBN given)
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP (NN registration))
+              (PP (IN for)
+                (NP (DT the) (NNP Zento) (NNP Makan) (NN session))))
+            (VP (VBZ is)
+              (VP (VBN opened)))))))
+    (. !)))
+
+
+nsubjpass(given-4, Notice-1)
+auxpass(given-4, is-2)
+advmod(given-4, hereby-3)
+root(ROOT-0, given-4)
+mark(opened-13, that-5)
+nsubjpass(opened-13, registration-6)
+prep(registration-6, for-7)
+det(session-11, the-8)
+nn(session-11, Zento-9)
+nn(session-11, Makan-10)
+pobj(for-7, session-11)
+auxpass(opened-13, is-12)
+ccomp(given-4, opened-13)
+
+
+(ROOT
+  (SINV
+    (ADVP (RB Here))
+    (VP (VBP are))
+    (NP (DT the) (NNS details))
+    (: :)))
+
+
+advmod(are-2, Here-1)
+root(ROOT-0, are-2)
+det(details-4, the-3)
+nsubj(are-2, details-4)
+
+
+(ROOT
+  (NP
+    (NP (NNP Zento) (NNP Contemporary) (NNPS Japanese))
+    (NP
+      (NP (CD 15) (NNP Aug) (CD 2009))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP Sat))
+        (-RRB- -RRB-))
+      (NP (CD 1.30) (NN pm) (NNS $)))))
+
+
+nn(Japanese-3, Zento-1)
+nn(Japanese-3, Contemporary-2)
+root(ROOT-0, Japanese-3)
+num(Aug-5, 15-4)
+dep(Japanese-3, Aug-5)
+num(Aug-5, 2009-6)
+appos(Aug-5, Sat-8)
+num($-12, 1.30-10)
+nn($-12, pm-11)
+dep(Aug-5, $-12)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 40))))
+
+
+root(ROOT-0, 40-1)
+
+

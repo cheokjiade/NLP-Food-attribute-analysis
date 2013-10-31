@@ -1,0 +1,359 @@
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP know))
+    (, ,)))
+
+
+nsubj(know-2, You-1)
+root(ROOT-0, know-2)
+
+
+(ROOT
+  (S
+    (NP (DT some) (NNS people))
+    (VP (MD might)
+      (VP (VB frown)
+        (PP (IN upon)
+          (NP
+            (NP (DT the) (NN use))
+            (PP (IN of)
+              (NP
+                (NP (NNP Tomato) (NNP Ketchup))
+                (PP (IN in)
+                  (NP (NN wonton) (NN mee)))))))))
+    (, ,)))
+
+
+det(people-2, some-1)
+nsubj(frown-4, people-2)
+aux(frown-4, might-3)
+root(ROOT-0, frown-4)
+prep(frown-4, upon-5)
+det(use-7, the-6)
+pobj(upon-5, use-7)
+prep(use-7, of-8)
+nn(Ketchup-10, Tomato-9)
+pobj(of-8, Ketchup-10)
+prep(Ketchup-10, in-11)
+nn(mee-13, wonton-12)
+pobj(in-11, mee-13)
+
+
+(ROOT
+  (S
+    (S
+      (VP (VBG saying)
+        (NP (DT that) (JJ authentic) (NN wonton) (NN mee))))
+    (VP (MD should) (RB not)
+      (VP (VB have)
+        (NP
+          (NP (NN ketchup))
+          (PP (IN in)
+            (NP (PRP it))))))
+    (. .)))
+
+
+csubj(have-8, saying-1)
+det(mee-5, that-2)
+amod(mee-5, authentic-3)
+nn(mee-5, wonton-4)
+dobj(saying-1, mee-5)
+aux(have-8, should-6)
+neg(have-8, not-7)
+root(ROOT-0, have-8)
+dobj(have-8, ketchup-9)
+prep(ketchup-9, in-10)
+pobj(in-10, it-11)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (SBAR
+        (WHNP (WP what))
+        (S
+          (NP (PRP they))
+          (VP (VBP are)
+            (VP (VBG trying)
+              (S
+                (VP (TO to)
+                  (VP (VB say)
+                    (SBAR
+                      (S
+                        (VP (VBZ is)
+                          (SBAR (IN that)
+                            (S
+                              (NP (NNP Hong) (NNP Kong) (NN style) (NNP Wontan) (NNP mee))
+                              (VP (MD should) (RB not)
+                                (VP (VB have)
+                                  (NP
+                                    (NP (NN ketchup))
+                                    (PP (IN in)
+                                      (NP (PRP it)))))))))))))))))))
+    (. .)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+dobj(trying-6, what-3)
+nsubj(trying-6, they-4)
+aux(trying-6, are-5)
+ccomp(think-2, trying-6)
+aux(say-8, to-7)
+xcomp(trying-6, say-8)
+ccomp(say-8, is-9)
+mark(have-18, that-10)
+nn(mee-15, Hong-11)
+nn(mee-15, Kong-12)
+nn(mee-15, style-13)
+nn(mee-15, Wontan-14)
+nsubj(have-18, mee-15)
+aux(have-18, should-16)
+neg(have-18, not-17)
+ccomp(is-9, have-18)
+dobj(have-18, ketchup-19)
+prep(ketchup-19, in-20)
+pobj(in-20, it-21)
+
+
+(ROOT
+  (S (CC But)
+    (NP (PRP I))
+    (ADVP (RB actually))
+    (VP (VBP know)
+      (NP
+        (NP (DT a) (NN lot))
+        (PP (IN of)
+          (NP
+            (NP (NNS people))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBP love)
+                  (NP (NN wanton) (NN mee))
+                  (PP (IN with)
+                    (NP
+                      (NP (NN tomato) (NN ketchup))
+                      (PP (IN in)
+                        (NP (PRP it)))))
+                  (SBAR (IN because)
+                    (S
+                      (NP (PRP they))
+                      (VP (VBD grew)
+                        (PRT (RP up))
+                        (S
+                          (VP (VBG eating)
+                            (NP (PRP it))))))))))))))
+    (. .)))
+
+
+cc(know-4, But-1)
+nsubj(know-4, I-2)
+advmod(know-4, actually-3)
+root(ROOT-0, know-4)
+det(lot-6, a-5)
+dobj(know-4, lot-6)
+prep(lot-6, of-7)
+pobj(of-7, people-8)
+nsubj(love-10, who-9)
+rcmod(people-8, love-10)
+nn(mee-12, wanton-11)
+dobj(love-10, mee-12)
+prep(love-10, with-13)
+nn(ketchup-15, tomato-14)
+pobj(with-13, ketchup-15)
+prep(ketchup-15, in-16)
+pobj(in-16, it-17)
+mark(grew-20, because-18)
+nsubj(grew-20, they-19)
+advcl(love-10, grew-20)
+prt(grew-20, up-21)
+xcomp(grew-20, eating-22)
+dobj(eating-22, it-23)
+
+
+(ROOT
+  (S (CC So)
+    (NP (PRP I))
+    (ADVP (RB really))
+    (VP (VBP think)
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (DT this) (NN form))
+            (PP (IN of)
+              (NP
+                (NP (NNP Wanton) (NNP Mee))
+                (SBAR
+                  (WHNP (WDT which))
+                  (S
+                    (VP (VBZ is)
+                      (ADVP (RB also))
+                      (SBAR
+                        (WHNP (WP what))
+                        (S
+                          (NP (PRP I))
+                          (VP (VBD grew)
+                            (PRT (RP up))
+                            (S
+                              (VP (VBG eating)
+                                (ADVP (RB really)))))))))))))
+          (VP (VBZ is)
+            (NP
+              (NP (PRP$ our) (RB very) (JJ own) (NN version))
+              (PP (IN of)
+                (NP (DT the) (NN dish))))))))
+    (. .)))
+
+
+cc(think-4, So-1)
+nsubj(think-4, I-2)
+advmod(think-4, really-3)
+root(ROOT-0, think-4)
+mark(version-24, that-5)
+det(form-7, this-6)
+nsubj(version-24, form-7)
+prep(form-7, of-8)
+nn(Mee-10, Wanton-9)
+pobj(of-8, Mee-10)
+nsubj(is-12, which-11)
+rcmod(Mee-10, is-12)
+advmod(is-12, also-13)
+dobj(grew-16, what-14)
+nsubj(grew-16, I-15)
+ccomp(is-12, grew-16)
+prt(grew-16, up-17)
+xcomp(grew-16, eating-18)
+advmod(eating-18, really-19)
+cop(version-24, is-20)
+poss(version-24, our-21)
+advmod(version-24, very-22)
+amod(version-24, own-23)
+ccomp(think-4, version-24)
+prep(version-24, of-25)
+det(dish-27, the-26)
+pobj(of-25, dish-27)
+
+
+(ROOT
+  (S
+    (NP (NNP Kovan) (NN food) (NN center))
+    (VP (VBZ is)
+      (VP (VBN closed)
+        (ADVP (RB temporarily))))
+    (. .)))
+
+
+nn(center-3, Kovan-1)
+nn(center-3, food-2)
+nsubjpass(closed-5, center-3)
+auxpass(closed-5, is-4)
+root(ROOT-0, closed-5)
+advmod(closed-5, temporarily-6)
+
+
+(ROOT
+  (S
+    (NP (DT This) (NN stall))
+    (VP (VBZ has)
+      (VP (VBN moved)
+        (PP (TO to)
+          (NP (NNP Blk) (CD 203)))))
+    (, ,)))
+
+
+det(stall-2, This-1)
+nsubj(moved-4, stall-2)
+aux(moved-4, has-3)
+root(ROOT-0, moved-4)
+prep(moved-4, to-5)
+pobj(to-5, Blk-6)
+num(Blk-6, 203-7)
+
+
+(ROOT
+  (S
+    (VP (VBG Hougang)
+      (NP (NNP St) (CD 21)))
+    (. .)))
+
+
+root(ROOT-0, Hougang-1)
+dobj(Hougang-1, St-2)
+num(St-2, 21-3)
+
+
+(ROOT
+  (NP
+    (NP
+      (NP (NNS Thanks))
+      (PP (TO to)
+        (NP
+          (NP (NNP Kelvin))
+          (PP (IN for)
+            (NP (DT the) (NN update))))))
+    (NP
+      (NP (NNP Update) (CD 29))
+      (NP (NNP Oct)))))
+
+
+root(ROOT-0, Thanks-1)
+prep(Thanks-1, to-2)
+pobj(to-2, Kelvin-3)
+prep(Kelvin-3, for-4)
+det(update-6, the-5)
+pobj(for-4, update-6)
+dep(Thanks-1, Update-7)
+num(Update-7, 29-8)
+dep(Update-7, Oct-9)
+
+
+(ROOT
+  (S
+    (ADVP (RB 2010))
+    (NP (PRP They))
+    (VP (MD will)
+      (VP (VB move)
+        (PRT (RP back))
+        (PP (TO to)
+          (NP
+            (NP (NNP Kovan) (NNP Food) (NNP Centre))
+            (PP (IN on)
+              (NP (CD 7th)))))
+        (NP (NNP November) (CD 2010))))
+    (. .)))
+
+
+advmod(move-4, 2010-1)
+nsubj(move-4, They-2)
+aux(move-4, will-3)
+root(ROOT-0, move-4)
+prt(move-4, back-5)
+prep(move-4, to-6)
+nn(Centre-9, Kovan-7)
+nn(Centre-9, Food-8)
+pobj(to-6, Centre-9)
+prep(Centre-9, on-10)
+pobj(on-10, 7th-11)
+tmod(move-4, November-12)
+num(November-12, 2010-13)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NN address))
+    (VP (VBZ has)
+      (VP (VBN been)
+        (ADJP (JJ updated))))
+    (. .)))
+
+
+det(address-2, The-1)
+nsubj(updated-5, address-2)
+aux(updated-5, has-3)
+cop(updated-5, been-4)
+root(ROOT-0, updated-5)
+
+

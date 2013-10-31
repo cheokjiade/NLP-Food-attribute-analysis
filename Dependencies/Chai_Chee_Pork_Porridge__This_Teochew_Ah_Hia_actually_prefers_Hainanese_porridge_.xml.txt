@@ -1,0 +1,303 @@
+(ROOT
+  (FRAG
+    (PP (IN Ah))
+    (, ,)))
+
+
+root(ROOT-0, Ah-1)
+
+
+(ROOT
+  (S
+    (NP (DT an) (JJ anonymous) (NN reader))
+    (VP (VBD quipped)
+      (SBAR (IN that)
+        (S
+          (S
+            (VP (VBG being)
+              (VP (VBN Teochew)
+                (S
+                  (NP (PRP I))
+                  (ADVP (RB only))))))
+          (VP (VBD liked)
+            (NP
+              (NP (DT the) (JJ grainy) (NN kind))
+              (PP (IN of)
+                (NP (NN porridge))))))))
+    (. .)))
+
+
+det(reader-3, an-1)
+amod(reader-3, anonymous-2)
+nsubj(quipped-4, reader-3)
+root(ROOT-0, quipped-4)
+mark(liked-10, that-5)
+auxpass(Teochew-7, being-6)
+csubj(liked-10, Teochew-7)
+dep(Teochew-7, I-8)
+advmod(I-8, only-9)
+ccomp(quipped-4, liked-10)
+det(kind-13, the-11)
+amod(kind-13, grainy-12)
+dobj(liked-10, kind-13)
+prep(kind-13, of-14)
+pobj(of-14, porridge-15)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Not)
+      (ADJP (JJ true)))
+    (, ,)))
+
+
+root(ROOT-0, Not-1)
+pobj(Not-1, true-2)
+
+
+(ROOT
+  (FRAG (RB not)
+    (ADJP (JJ true))
+    (. .)))
+
+
+root(ROOT-0, not-1)
+dep(not-1, true-2)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ My) (JJ favorite) (NN kind))
+      (PP (IN of)
+        (NP (NNP Jok))))
+    (VP (VBZ is)
+      (ADVP (RB actually))
+      (NP
+        (NP (DT the) (NNP Hainanese) (NN style) (NN one))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBZ has)
+              (VP (VBN broken)
+                (NP
+                  (NP (NNS grains))
+                  (PP (IN in)
+                    (NP (PRP it))))))))))
+    (. .)))
+
+
+poss(kind-3, My-1)
+amod(kind-3, favorite-2)
+nsubj(one-11, kind-3)
+prep(kind-3, of-4)
+pobj(of-4, Jok-5)
+cop(one-11, is-6)
+advmod(one-11, actually-7)
+det(one-11, the-8)
+nn(one-11, Hainanese-9)
+nn(one-11, style-10)
+root(ROOT-0, one-11)
+nsubj(broken-14, which-12)
+aux(broken-14, has-13)
+rcmod(one-11, broken-14)
+dobj(broken-14, grains-15)
+prep(grains-15, in-16)
+pobj(in-16, it-17)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP guess)
+      (SBAR
+        (S
+          (NP (PRP it))
+          (VP (MD might)
+            (VP (VB be)
+              (NP
+                (NP (NN something))
+                (SBAR
+                  (S
+                    (NP (PRP I))
+                    (VP (VBD grew)
+                      (PRT (RP up))
+                      (PP (IN with)))))))))))
+    (. .)))
+
+
+nsubj(guess-2, I-1)
+root(ROOT-0, guess-2)
+nsubj(something-6, it-3)
+aux(something-6, might-4)
+cop(something-6, be-5)
+ccomp(guess-2, something-6)
+nsubj(grew-8, I-7)
+rcmod(something-6, grew-8)
+prt(grew-8, up-9)
+prep(grew-8, with-10)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP remember)
+      (S
+        (VP (VBG eating)
+          (NP (NNP Jok)))))))
+
+
+nsubj(remember-2, I-1)
+root(ROOT-0, remember-2)
+xcomp(remember-2, eating-3)
+dobj(eating-3, Jok-4)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB almost))
+    (NP
+      (NP (DT every) (NNP Sunday) (NN morning))
+      (PP (IN with)
+        (NP (PRP$ my) (NN Dad)))
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP we))
+          (VP (VBD were)
+            (ADVP (RB still))
+            (VP (VBG living)
+              (PP (IN in)
+                (NP (NNP Toa) (NNP Payoh) (NNP lor))))))))))
+
+
+dep(morning-4, almost-1)
+det(morning-4, every-2)
+nn(morning-4, Sunday-3)
+root(ROOT-0, morning-4)
+prep(morning-4, with-5)
+poss(Dad-7, my-6)
+pobj(with-5, Dad-7)
+advmod(living-12, when-8)
+nsubj(living-12, we-9)
+aux(living-12, were-10)
+advmod(living-12, still-11)
+rcmod(morning-4, living-12)
+prep(living-12, in-13)
+nn(lor-16, Toa-14)
+nn(lor-16, Payoh-15)
+pobj(in-13, lor-16)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (CD 8))
+      (CC and)
+      (NP (PRP it)))
+    (VP (VBD was)
+      (NP
+        (NP (DT this) (NN kind))
+        (PP (IN of)
+          (NP (NNP Jok)))))
+    (. .)))
+
+
+nsubj(kind-6, 8-1)
+cc(8-1, and-2)
+conj(8-1, it-3)
+cop(kind-6, was-4)
+det(kind-6, this-5)
+root(ROOT-0, kind-6)
+prep(kind-6, of-7)
+pobj(of-7, Jok-8)
+
+
+(ROOT
+  (S
+    (NP (JJS Best) (NN thing))
+    (VP (VBD was)
+      (SBAR (IN that)
+        (S
+          (NP (EX there))
+          (VP (VBD was)
+            (NP
+              (NP (DT a) (PRP You))
+              (SBAR
+                (S
+                  (NP
+                    (NP (NNP Char) (NNP Kway) (NNP stall))
+                    (PP (IN in)
+                      (NP (DT the) (JJ same) (NN market))))
+                  (VP (VBD were)
+                    (NP
+                      (NP (DT this) (JJ old) (NN man))
+                      (VP (VBN used)
+                        (S
+                          (VP (TO to)
+                            (VP (VB sell)
+                              (NP (CD 10))
+                              (PP (IN for)
+                                (NP (DT a) (NN dollar))))))))))))))))
+    (. .)))
+
+
+amod(thing-2, Best-1)
+nsubj(was-3, thing-2)
+root(ROOT-0, was-3)
+mark(was-6, that-4)
+expl(was-6, there-5)
+ccomp(was-3, was-6)
+det(You-8, a-7)
+nsubj(was-6, You-8)
+nn(stall-11, Char-9)
+nn(stall-11, Kway-10)
+nsubj(man-19, stall-11)
+prep(stall-11, in-12)
+det(market-15, the-13)
+amod(market-15, same-14)
+pobj(in-12, market-15)
+cop(man-19, were-16)
+det(man-19, this-17)
+amod(man-19, old-18)
+rcmod(You-8, man-19)
+partmod(man-19, used-20)
+aux(sell-22, to-21)
+xcomp(used-20, sell-22)
+dobj(sell-22, 10-23)
+prep(sell-22, for-24)
+det(dollar-26, a-25)
+pobj(for-24, dollar-26)
+
+
+(ROOT
+  (S
+    (NP (NNS Happiness))
+    (VP (VBZ is)
+      (ADJP (JJ dipping)
+        (NP (DT a) (RB freshly)))
+      (S
+        (VP (VBG fried)
+          (S
+            (NP (PRP You))
+            (NP
+              (NP (NNP Char) (NNP Kway))
+              (PP (IN into)
+                (NP (JJ hot) (NN porridge))))))))
+    (. !)))
+
+
+nsubj(dipping-3, Happiness-1)
+cop(dipping-3, is-2)
+root(ROOT-0, dipping-3)
+det(freshly-5, a-4)
+dep(dipping-3, freshly-5)
+xcomp(dipping-3, fried-6)
+nsubj(Kway-9, You-7)
+nn(Kway-9, Char-8)
+xcomp(fried-6, Kway-9)
+prep(Kway-9, into-10)
+amod(porridge-12, hot-11)
+pobj(into-10, porridge-12)
+
+

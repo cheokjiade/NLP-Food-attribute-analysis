@@ -1,0 +1,561 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP find)
+      (S
+        (NP (PRP it))
+        (NP (DT the)
+          (ADJP (RBS most) (JJ satisfying)
+            (S
+              (VP (TO to)
+                (VP (VB discover)
+                  (NP
+                    (NP (NNS stalls))
+                    (SBAR
+                      (WHNP (WDT which))
+                      (S
+                        (VP (VBP sell)
+                          (ADJP (RB really) (JJ great))))))))))
+          (NN food))))
+    (, ,)))
+
+
+nsubj(find-2, I-1)
+root(ROOT-0, find-2)
+nsubj(food-14, it-3)
+det(food-14, the-4)
+advmod(satisfying-6, most-5)
+amod(food-14, satisfying-6)
+aux(discover-8, to-7)
+xcomp(satisfying-6, discover-8)
+dobj(discover-8, stalls-9)
+nsubj(sell-11, which-10)
+rcmod(stalls-9, sell-11)
+advmod(great-13, really-12)
+acomp(sell-11, great-13)
+xcomp(find-2, food-14)
+
+
+(ROOT
+  (FRAG
+    (NP
+      (NP (NNP BUT))
+      (SBAR
+        (WHNP (WDT which))
+        (S
+          (ADVP (RB still))
+          (VP (VBZ does) (RB not)
+            (VP (VB have)
+              (NP
+                (NP (DT any) (NN newspaper) (NNS cuttings)
+                  (CC or)
+                  (NNS pictures))
+                (PP (IN of)
+                  (NP
+                    (NP (NNP Mediacorp) (NNP Stars))
+                    (PP (IN on)
+                      (NP (PRP them)))))))))))
+    (. !)))
+
+
+root(ROOT-0, BUT-1)
+nsubj(have-6, which-2)
+advmod(have-6, still-3)
+aux(have-6, does-4)
+neg(have-6, not-5)
+rcmod(BUT-1, have-6)
+det(cuttings-9, any-7)
+nn(cuttings-9, newspaper-8)
+dobj(have-6, cuttings-9)
+cc(cuttings-9, or-10)
+conj(cuttings-9, pictures-11)
+prep(cuttings-9, of-12)
+nn(Stars-14, Mediacorp-13)
+pobj(of-12, Stars-14)
+prep(Stars-14, on-15)
+pobj(on-15, them-16)
+
+
+(ROOT
+  (S
+    (NP (NNP Do))
+    (VP (RB n't)
+      (VP (VBD let)
+        (NP (DT the) (NN simple))))
+    (, ,)))
+
+
+nsubj(let-3, Do-1)
+neg(let-3, n't-2)
+root(ROOT-0, let-3)
+det(simple-5, the-4)
+dobj(let-3, simple-5)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ unadorned) (NN frontage))
+      (PP (IN of)
+        (NP (DT the) (NN stall))))
+    (VP (VB fool)
+      (NP (PRP you)))
+    (. .)))
+
+
+amod(frontage-2, unadorned-1)
+nsubj(fool-6, frontage-2)
+prep(frontage-2, of-3)
+det(stall-5, the-4)
+pobj(of-3, stall-5)
+root(ROOT-0, fool-6)
+dobj(fool-6, you-7)
+
+
+(ROOT
+  (SINV
+    (PP (IN Within)
+      (NP (DT this) (JJ unassuming) (NN cubicle)))
+    (VP (VBZ lies)
+      (S
+        (NP
+          (NP (DT a) (NN pot))
+          (PP (IN of)
+            (NP (NN gravy))))
+        (ADJP (RB so) (JJ good))))
+    (SBAR (IN that)
+      (S
+        (NP (PRP I))
+        (VP (VBP gurantee)
+          (SBAR
+            (S
+              (NP (PRP you))
+              (VP (MD can)
+                (VP (VB SEE)
+                  (NP
+                    (NP (DT the) (NN FLAVOUR))
+                    (PP (IN in)
+                      (NP (DT the) (NN picture)))))))))))
+    (. !)))
+
+
+prep(lies-5, Within-1)
+det(cubicle-4, this-2)
+amod(cubicle-4, unassuming-3)
+pobj(Within-1, cubicle-4)
+root(ROOT-0, lies-5)
+det(pot-7, a-6)
+nsubj(good-11, pot-7)
+prep(pot-7, of-8)
+pobj(of-8, gravy-9)
+advmod(good-11, so-10)
+xcomp(lies-5, good-11)
+mark(gurantee-14, that-12)
+nsubj(gurantee-14, I-13)
+dep(lies-5, gurantee-14)
+nsubj(SEE-17, you-15)
+aux(SEE-17, can-16)
+ccomp(gurantee-14, SEE-17)
+det(FLAVOUR-19, the-18)
+dobj(SEE-17, FLAVOUR-19)
+prep(FLAVOUR-19, in-20)
+det(picture-22, the-21)
+pobj(in-20, picture-22)
+
+
+(ROOT
+  (S
+    (ADVP (IN Before))
+    (NP (PRP we))
+    (VP (VBP get)
+      (PP (TO to)
+        (NP (DT that))))
+    (. .)))
+
+
+advmod(get-3, Before-1)
+nsubj(get-3, we-2)
+root(ROOT-0, get-3)
+prep(get-3, to-4)
+pobj(to-4, that-5)
+
+
+(ROOT
+  (S
+    (NP (NNP Let) (POS 's))
+    (ADVP (RB just))
+    (VP (VBP talk)
+      (NP
+        (NP (DT a) (NN bit))
+        (PP (IN about)
+          (NP (DT the) (NN soup) (NN version)))))
+    (. .)))
+
+
+nsubj(talk-4, Let-1)
+possessive(Let-1, 's-2)
+advmod(talk-4, just-3)
+root(ROOT-0, talk-4)
+det(bit-6, a-5)
+dobj(talk-4, bit-6)
+prep(bit-6, about-7)
+det(version-10, the-8)
+nn(version-10, soup-9)
+pobj(about-7, version-10)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP We))
+      (VP (VBD found)
+        (NP (DT the) (NN soup)
+          (S
+            (VP (TO to)
+              (VP (VB be)
+                (ADJP (JJ sweet)
+                  (CC and)
+                  (JJ robust))))))))
+    (CC and)
+    (S
+      (NP (PDT all) (DT the))
+      (VP (VBZ meats)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (NP (NN tender)
+                (CC and)
+                (NN flavoursome)))))))
+    (. .)))
+
+
+nsubj(found-2, We-1)
+root(ROOT-0, found-2)
+det(soup-4, the-3)
+dobj(found-2, soup-4)
+aux(sweet-7, to-5)
+cop(sweet-7, be-6)
+infmod(soup-4, sweet-7)
+cc(sweet-7, and-8)
+conj(sweet-7, robust-9)
+cc(found-2, and-10)
+predet(the-12, all-11)
+nsubj(meats-13, the-12)
+conj(found-2, meats-13)
+aux(tender-16, to-14)
+cop(tender-16, be-15)
+xcomp(meats-13, tender-16)
+cc(tender-16, and-17)
+conj(tender-16, flavoursome-18)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP On))
+      (PP (IN of)
+        (NP (DT the) (JJR better) (NN beef))))
+    (VP (VBZ soups)
+      (PRT (RP around)))
+    (. .)))
+
+
+nsubj(soups-6, On-1)
+prep(On-1, of-2)
+det(beef-5, the-3)
+amod(beef-5, better-4)
+pobj(of-2, beef-5)
+root(ROOT-0, soups-6)
+prt(soups-6, around-7)
+
+
+(ROOT
+  (FRAG
+    (PP (IN OK))
+    (, ,)))
+
+
+root(ROOT-0, OK-1)
+
+
+(ROOT
+  (S
+    (VP (VB let)
+      (S
+        (NP (POS 's))
+        (VP (VB get)
+          (PRT (RP down))
+          (PP (TO to)
+            (NP (DT the) (JJ exciting) (NN part))))))
+    (. .)))
+
+
+root(ROOT-0, let-1)
+nsubj(get-3, 's-2)
+ccomp(let-1, get-3)
+prt(get-3, down-4)
+prep(get-3, to-5)
+det(part-8, the-6)
+amod(part-8, exciting-7)
+pobj(to-5, part-8)
+
+
+(ROOT
+  (S
+    (NP (DT The) (JJ dry) (NN version))
+    (VP (VBZ is)
+      (NP (DT the) (NN one)
+        (S
+          (VP (TO to)
+            (VP (VB die)
+              (PP (IN for)))))))
+    (. .)))
+
+
+det(version-3, The-1)
+amod(version-3, dry-2)
+nsubj(one-6, version-3)
+cop(one-6, is-4)
+det(one-6, the-5)
+root(ROOT-0, one-6)
+aux(die-8, to-7)
+infmod(one-6, die-8)
+prep(die-8, for-9)
+
+
+(ROOT
+  (INTJ (UH Seriously) (UH ,)))
+
+
+root(ROOT-0, Seriously-1)
+
+
+(ROOT
+  (S
+    (NP (DT this))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (JJS best) (NN gravy))
+        (SBAR
+          (S
+            (NP (PRP I))
+            (VP (VBP have)
+              (ADVP (RB ever))
+              (VP (VBN seen)
+                (CC and)
+                (VBN tasted)))))))
+    (. !)))
+
+
+nsubj(gravy-5, this-1)
+cop(gravy-5, is-2)
+det(gravy-5, the-3)
+amod(gravy-5, best-4)
+root(ROOT-0, gravy-5)
+nsubj(seen-9, I-6)
+aux(seen-9, have-7)
+advmod(seen-9, ever-8)
+rcmod(gravy-5, seen-9)
+cc(seen-9, and-10)
+conj(seen-9, tasted-11)
+
+
+(ROOT
+  (NP
+    (NP
+      (ADJP (JJ Savoury)
+        (CC and)
+        (JJ full)))
+    (PP (IN of)
+      (NP (JJ bovine) (NN goodness)))
+    (. !)))
+
+
+root(ROOT-0, Savoury-1)
+cc(Savoury-1, and-2)
+conj(Savoury-1, full-3)
+prep(Savoury-1, of-4)
+amod(goodness-6, bovine-5)
+pobj(of-4, goodness-6)
+
+
+(ROOT
+  (NP
+    (NP (RB Just) (NN LOOK))
+    (PP (IN at)
+      (NP (PRP it)))
+    (. !)))
+
+
+advmod(LOOK-2, Just-1)
+root(ROOT-0, LOOK-2)
+prep(LOOK-2, at-3)
+pobj(at-3, it-4)
+
+
+(ROOT
+  (SQ
+    (VP (VB See)
+      (SBAR
+        (WHNP (WP what))
+        (S
+          (NP (PRP I))
+          (VP (VBP mean)
+            (PP (IN by)
+              (NP (NNP FLAVOUR)))
+            (SBAR (IN that)
+              (S
+                (NP (PRP you))
+                (VP (MD can)
+                  (VP (VB SEE)))))))))
+    (. ?)))
+
+
+root(ROOT-0, See-1)
+dobj(mean-4, what-2)
+nsubj(mean-4, I-3)
+ccomp(See-1, mean-4)
+prep(mean-4, by-5)
+pobj(by-5, FLAVOUR-6)
+mark(SEE-10, that-7)
+nsubj(SEE-10, you-8)
+aux(SEE-10, can-9)
+ccomp(mean-4, SEE-10)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN beef) (NNS strands))
+      (VP (VBG floating)
+        (PP (IN in)
+          (NP (DT the) (NN gravy)))))
+    (VP (VBZ is)
+      (NP
+        (NP (PRP$ your) (NN preview))
+        (PP (IN of)
+          (SBAR
+            (WHNP (WP what))
+            (S
+              (VP (VBZ is)
+                (VP (VBG going)
+                  (S
+                    (VP (TO to)
+                      (VP (VB happen)
+                        (SBAR
+                          (WHADVP (WRB when))
+                          (S
+                            (NP (PRP you))
+                            (VP (VB scoop)
+                              (NP
+                                (NP (DT a) (NN spoonful))
+                                (PP (IN of)
+                                  (NP (DT the) (NN gravy)
+                                    (S
+                                      (VP (TO to)
+                                        (VP (VB put)
+                                          (PP (IN in)
+                                            (NP (PRP$ your) (NN mouth))))))))))))))))))))))
+    (. .)))
+
+
+det(strands-3, The-1)
+nn(strands-3, beef-2)
+nsubj(preview-10, strands-3)
+partmod(strands-3, floating-4)
+prep(floating-4, in-5)
+det(gravy-7, the-6)
+pobj(in-5, gravy-7)
+cop(preview-10, is-8)
+poss(preview-10, your-9)
+root(ROOT-0, preview-10)
+prep(preview-10, of-11)
+nsubj(going-14, what-12)
+aux(going-14, is-13)
+pcomp(of-11, going-14)
+aux(happen-16, to-15)
+xcomp(going-14, happen-16)
+advmod(scoop-19, when-17)
+nsubj(scoop-19, you-18)
+advcl(happen-16, scoop-19)
+det(spoonful-21, a-20)
+dobj(scoop-19, spoonful-21)
+prep(spoonful-21, of-22)
+det(gravy-24, the-23)
+pobj(of-22, gravy-24)
+aux(put-26, to-25)
+infmod(gravy-24, put-26)
+prep(put-26, in-27)
+poss(mouth-29, your-28)
+pobj(in-27, mouth-29)
+
+
+(ROOT
+  (S
+    (VP (VB Think)
+      (PP (IN of)
+        (NP (PRP it)))
+      (PP
+        (PP (IN as)
+          (NP (NNP Sharksfin) (NN soup)))
+        (CC but)
+        (PP (IN with)
+          (NP
+            (NP (NN beef))
+            (PP (RB instead) (IN of)
+              (NP (NN crabmeat)))))))
+    (. !)))
+
+
+root(ROOT-0, Think-1)
+prep(Think-1, of-2)
+pobj(of-2, it-3)
+prep(Think-1, as-4)
+nn(soup-6, Sharksfin-5)
+pobj(as-4, soup-6)
+cc(as-4, but-7)
+conj(as-4, with-8)
+pobj(with-8, beef-9)
+advmod(of-11, instead-10)
+prep(beef-9, of-11)
+pobj(of-11, crabmeat-12)
+
+
+(ROOT
+  (S
+    (NP (NNP Conclusion) (PRP You))
+    (ADVP (RB really))
+    (VP (VBP call)
+      (S
+        (NP (PRP yourself))
+        (NP
+          (NP (DT a) (NN lover))
+          (PP (IN of)
+            (NP (NNP Beef) (NNP Kway) (NNP Teow)))))
+      (SBAR (IN until)
+        (S
+          (NP (PRP you))
+          (VP (VBP have)
+            (VP (VBN tried)
+              (NP (DT this)))))))
+    (. !)))
+
+
+nsubj(call-4, Conclusion-1)
+dep(Conclusion-1, You-2)
+advmod(call-4, really-3)
+root(ROOT-0, call-4)
+nsubj(lover-7, yourself-5)
+det(lover-7, a-6)
+xcomp(call-4, lover-7)
+prep(lover-7, of-8)
+nn(Teow-11, Beef-9)
+nn(Teow-11, Kway-10)
+pobj(of-8, Teow-11)
+mark(tried-15, until-12)
+nsubj(tried-15, you-13)
+aux(tried-15, have-14)
+advcl(call-4, tried-15)
+dobj(tried-15, this-16)
+
+

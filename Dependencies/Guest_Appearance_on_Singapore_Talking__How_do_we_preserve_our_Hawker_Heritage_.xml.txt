@@ -1,0 +1,309 @@
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP
+        (NP (DT this) (NN episode))
+        (PP (IN of)
+          (NP (NNP Singapore) (NNP Talking)))))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+det(episode-3, this-2)
+pobj(In-1, episode-3)
+prep(episode-3, of-4)
+nn(Talking-6, Singapore-5)
+pobj(of-4, Talking-6)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (VP (VB discuss)
+      (NP
+        (NP (DT the) (NN topic))
+        (PP (IN of)
+          (SBAR
+            (WHADVP (WRB how))
+            (S
+              (NP (PRP we))
+              (VP (VBP are)
+                (VP (VBG going)
+                  (S
+                    (VP (TO to)
+                      (VP (VB preserve)
+                        (NP (PRP$ our) (NNP Singapore) (NNP Hawker) (NNP Culture))
+                        (PP (IN in)
+                          (NP
+                            (NP (DT the) (NN midst))
+                            (PP (IN of)
+                              (NP (NN modernization)))))))))))))))
+    (. .)))
+
+
+nsubj(discuss-2, we-1)
+root(ROOT-0, discuss-2)
+det(topic-4, the-3)
+dobj(discuss-2, topic-4)
+prep(topic-4, of-5)
+advmod(going-9, how-6)
+nsubj(going-9, we-7)
+aux(going-9, are-8)
+pcomp(of-5, going-9)
+aux(preserve-11, to-10)
+xcomp(going-9, preserve-11)
+poss(Culture-15, our-12)
+nn(Culture-15, Singapore-13)
+nn(Culture-15, Hawker-14)
+dobj(preserve-11, Culture-15)
+prep(preserve-11, in-16)
+det(midst-18, the-17)
+pobj(in-16, midst-18)
+prep(midst-18, of-19)
+pobj(of-19, modernization-20)
+
+
+(ROOT
+  (PP (IN Of)
+    (NP (PDT all) (DT the) (NNS points)
+      (SBAR
+        (WHNP (WDT which))
+        (S
+          (NP (PRP we))
+          (VP (VBD discussed))
+          (, ,))))))
+
+
+root(ROOT-0, Of-1)
+predet(points-4, all-2)
+det(points-4, the-3)
+pobj(Of-1, points-4)
+dobj(discussed-7, which-5)
+nsubj(discussed-7, we-6)
+ccomp(points-4, discussed-7)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP (DT the)
+            (ADJP (RBS most) (JJ interesting)
+              (CC and)
+              (JJ practical))
+            (NN point))
+          (VP (VBZ is)
+            (SBAR (IN that)
+              (S
+                (NP (PRP we))
+                (VP (MD should)
+                  (VP (VB include)
+                    (NP (NNP Singapore) (NN heritage) (NN food) (NNS recipes))
+                    (PP (IN into)
+                      (NP (PRP$ our) (NN school) (NN curriculum)))))))))))
+    (. .)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+det(point-8, the-3)
+advmod(interesting-5, most-4)
+amod(point-8, interesting-5)
+cc(interesting-5, and-6)
+conj(interesting-5, practical-7)
+nsubj(is-9, point-8)
+ccomp(think-2, is-9)
+mark(include-13, that-10)
+nsubj(include-13, we-11)
+aux(include-13, should-12)
+ccomp(is-9, include-13)
+nn(recipes-17, Singapore-14)
+nn(recipes-17, heritage-15)
+nn(recipes-17, food-16)
+dobj(include-13, recipes-17)
+prep(include-13, into-18)
+poss(curriculum-21, our-19)
+nn(curriculum-21, school-20)
+pobj(into-18, curriculum-21)
+
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB Why))
+    (SQ (VBP are)
+      (NP (PRP we))
+      (VP (VBG teaching)
+        (NP (PRP$ our) (NNS kids))
+        (SBAR
+          (WHADVP (WRB how))
+          (S
+            (VP (TO to)
+              (VP (VB make)
+                (NP (NNS muffins))
+                (PP (IN in)
+                  (NP
+                    (NP (NN home) (NN economics) (NN class))
+                    (CC and)
+                    (NP (RB not) (NNP Ang) (NNP Ku) (NNP Kueh))))))))))
+    (. ?)))
+
+
+advmod(teaching-4, Why-1)
+aux(teaching-4, are-2)
+nsubj(teaching-4, we-3)
+root(ROOT-0, teaching-4)
+poss(kids-6, our-5)
+dobj(teaching-4, kids-6)
+advmod(make-9, how-7)
+aux(make-9, to-8)
+xcomp(teaching-4, make-9)
+dobj(make-9, muffins-10)
+prep(make-9, in-11)
+nn(class-14, home-12)
+nn(class-14, economics-13)
+pobj(in-11, class-14)
+cc(class-14, and-15)
+neg(Kueh-19, not-16)
+nn(Kueh-19, Ang-17)
+nn(Kueh-19, Ku-18)
+conj(class-14, Kueh-19)
+
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB Why))
+    (SQ (VBP are)
+      (NP (PRP they))
+      (VP (VBN taught)
+        (S
+          (VP (TO to)
+            (VP (VB make)
+              (NP
+                (NP (DT a) (JJ French) (NN Omelette))
+                (PP (RB instead) (IN of)
+                  (NP
+                    (NP (NNP Oyster) (NNP Omelette))
+                    (PP (IN in)
+                      (NP (PRP$ our) (JJ culinary) (NNS schools)))))))))))
+    (. ?)))
+
+
+advmod(taught-4, Why-1)
+auxpass(taught-4, are-2)
+nsubjpass(taught-4, they-3)
+root(ROOT-0, taught-4)
+aux(make-6, to-5)
+xcomp(taught-4, make-6)
+det(Omelette-9, a-7)
+amod(Omelette-9, French-8)
+dobj(make-6, Omelette-9)
+advmod(of-11, instead-10)
+prep(Omelette-9, of-11)
+nn(Omelette-13, Oyster-12)
+pobj(of-11, Omelette-13)
+prep(Omelette-13, in-14)
+poss(schools-17, our-15)
+amod(schools-17, culinary-16)
+pobj(in-14, schools-17)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (ADVP (RB really))
+    (VP (VBP do)
+      (VP (VB need)
+        (S
+          (VP (TO to)
+            (VP (VB include)
+              (NP
+                (NP (NNP Singapore) (NNP Hawker) (NNP Cuisine))
+                (PP (IN as)
+                  (NP (DT a) (NN module)))))))
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (PRP we))
+            (VP (VBP train)
+              (NP
+                (NP (PRP$ our) (JJ next) (NN generation))
+                (PP (IN of)
+                  (NP (NNS chefs)))))))))
+    (. !)))
+
+
+nsubj(need-4, We-1)
+advmod(need-4, really-2)
+aux(need-4, do-3)
+root(ROOT-0, need-4)
+aux(include-6, to-5)
+xcomp(need-4, include-6)
+nn(Cuisine-9, Singapore-7)
+nn(Cuisine-9, Hawker-8)
+dobj(include-6, Cuisine-9)
+prep(Cuisine-9, as-10)
+det(module-12, a-11)
+pobj(as-10, module-12)
+advmod(train-15, when-13)
+nsubj(train-15, we-14)
+advcl(need-4, train-15)
+poss(generation-18, our-16)
+amod(generation-18, next-17)
+dobj(train-15, generation-18)
+prep(generation-18, of-19)
+pobj(of-19, chefs-20)
+
+
+(ROOT
+  (S
+    (NP (RB Here))
+    (VP (VBZ is)
+      (NP (NNP Part) (NNP II)))
+    (, ,)))
+
+
+nsubj(II-4, Here-1)
+cop(II-4, is-2)
+nn(II-4, Part-3)
+root(ROOT-0, II-4)
+
+
+(ROOT
+  (S
+    (NP (NNP Part))
+    (VP (VBZ III))
+    (, ,)))
+
+
+nsubj(III-2, Part-1)
+root(ROOT-0, III-2)
+
+
+(ROOT
+  (NP (NNP Part) (NNP IV) (. .)))
+
+
+nn(IV-2, Part-1)
+root(ROOT-0, IV-2)
+
+
+(ROOT
+  (NP
+    (NP (NNS Thanks))
+    (PP (TO to)
+      (NP (NNP Sen)))
+    (PP (IN for)
+      (NP (DT the) (NN upload)))
+    (. .)))
+
+
+root(ROOT-0, Thanks-1)
+prep(Thanks-1, to-2)
+pobj(to-2, Sen-3)
+prep(Thanks-1, for-4)
+det(upload-6, the-5)
+pobj(for-4, upload-6)
+
+

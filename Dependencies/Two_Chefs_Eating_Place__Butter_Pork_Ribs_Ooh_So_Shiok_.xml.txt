@@ -1,0 +1,186 @@
+(ROOT
+  (SBAR
+    (WHADVP (WRB When))
+    (S
+      (NP (NNP PChong))
+      (ADVP (RB first))
+      (VP (VBD told)
+        (NP (PRP me))
+        (PP (IN about)
+          (NP
+            (NP (CD Two) (NN Chef) (POS 's))
+            (NNP Butter) (NNP Pork) (NNP Ribs) (, ,)))))))
+
+
+advmod(told-4, When-1)
+nsubj(told-4, PChong-2)
+advmod(told-4, first-3)
+root(ROOT-0, told-4)
+dobj(told-4, me-5)
+prep(told-4, about-6)
+num(Chef-8, Two-7)
+poss(Ribs-12, Chef-8)
+possessive(Chef-8, 's-9)
+nn(Ribs-12, Butter-10)
+nn(Ribs-12, Pork-11)
+pobj(about-6, Ribs-12)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT the) (NN dish))
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (VBD saw)
+            (PP (IN in)
+              (NP
+                (NP (PRP$ my) (NN mind) (POS 's))
+                (NN eye)))))))
+    (VP (VBD was)
+      (NP
+        (NP (DT a) (NN couple))
+        (PP (IN of)
+          (NP
+            (NP (NN pork) (NNS ribs))
+            (VP (VBG swimming)
+              (PP (IN in)
+                (NP (JJ golden) (NN oil))))))))
+    (. .)))
+
+
+det(dish-2, the-1)
+nsubj(couple-12, dish-2)
+nsubj(saw-4, I-3)
+rcmod(dish-2, saw-4)
+prep(saw-4, in-5)
+poss(mind-7, my-6)
+poss(eye-9, mind-7)
+possessive(mind-7, 's-8)
+pobj(in-5, eye-9)
+cop(couple-12, was-10)
+det(couple-12, a-11)
+root(ROOT-0, couple-12)
+prep(couple-12, of-13)
+nn(ribs-15, pork-14)
+pobj(of-13, ribs-15)
+partmod(ribs-15, swimming-16)
+prep(swimming-16, in-17)
+amod(oil-19, golden-18)
+pobj(in-17, oil-19)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBD bet)
+        (SBAR
+          (S
+            (NP (PRP it))
+            (VP (VBD was)
+              (ADJP (JJ good)
+                (S
+                  (VP (TO to)
+                    (VP (VB eat))))))))))
+    (CC but)
+    (S
+      (NP (PRP I))
+      (VP (VBD felt)
+        (NP
+          (NP (PRP$ my) (NNS arteries))
+          (VP
+            (ADVP (RB clogging) (RB up))
+            (ADVP (RB just))
+            (VBG thinking) (IN about)
+            (NP (PRP it))))))
+    (. .)))
+
+
+nsubj(bet-2, I-1)
+root(ROOT-0, bet-2)
+nsubj(good-5, it-3)
+cop(good-5, was-4)
+ccomp(bet-2, good-5)
+aux(eat-7, to-6)
+xcomp(good-5, eat-7)
+cc(bet-2, but-8)
+nsubj(felt-10, I-9)
+conj(bet-2, felt-10)
+poss(arteries-12, my-11)
+dobj(felt-10, arteries-12)
+advmod(up-14, clogging-13)
+advmod(thinking-16, up-14)
+advmod(thinking-16, just-15)
+partmod(arteries-12, thinking-16)
+dep(thinking-16, about-17)
+dobj(thinking-16, it-18)
+
+
+(ROOT
+  (S (RB So)
+    (VP
+      (VP (VB imagine)
+        (NP (PRP$ my) (NN surprise))
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (DT the) (NNP Butter) (NNP Pork) (NNP Ribs))
+            (VP (VBP come)
+              (PRT (RP out))
+              (S
+                (VP (VBN covered)
+                  (PP (IN with)
+                    (NP (JJ golden) (JJ yellow) (NN dust)))))))))
+      (CC and)
+      (VP (VB curry)
+        (NP (NNS leaves))))
+    (. !)))
+
+
+advmod(imagine-2, So-1)
+root(ROOT-0, imagine-2)
+poss(surprise-4, my-3)
+dobj(imagine-2, surprise-4)
+advmod(come-10, when-5)
+det(Ribs-9, the-6)
+nn(Ribs-9, Butter-7)
+nn(Ribs-9, Pork-8)
+nsubj(come-10, Ribs-9)
+advcl(imagine-2, come-10)
+prt(come-10, out-11)
+dep(come-10, covered-12)
+prep(covered-12, with-13)
+amod(dust-16, golden-14)
+amod(dust-16, yellow-15)
+pobj(with-13, dust-16)
+cc(imagine-2, and-17)
+conj(imagine-2, curry-18)
+dobj(curry-18, leaves-19)
+
+
+(ROOT
+  (S (CC And)
+    (NP (RB even) (JJR more) (NN delightfully))
+    (VP (VBD surprised)
+      (SBAR (IN that)
+        (S
+          (NP (PRP it))
+          (VP (VBD tasted)
+            (NP (RB so) (NN shiok))))))
+    (. !)))
+
+
+cc(surprised-5, And-1)
+advmod(delightfully-4, even-2)
+amod(delightfully-4, more-3)
+nsubj(surprised-5, delightfully-4)
+root(ROOT-0, surprised-5)
+mark(tasted-8, that-6)
+nsubj(tasted-8, it-7)
+ccomp(surprised-5, tasted-8)
+advmod(shiok-10, so-9)
+dobj(tasted-8, shiok-10)
+
+

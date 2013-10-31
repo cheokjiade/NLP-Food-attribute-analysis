@@ -1,0 +1,97 @@
+(ROOT
+  (SBAR (RB Even) (IN since)
+    (S
+      (NP (NNP Swee) (NNP Kee))
+      (VP (VBD closed))
+      (, ,))))
+
+
+advmod(closed-5, Even-1)
+mark(closed-5, since-2)
+nn(Kee-4, Swee-3)
+nsubj(closed-5, Kee-4)
+root(ROOT-0, closed-5)
+
+
+(ROOT
+  (S
+    (NP (DT no) (NN one))
+    (VP (VBZ has)
+      (VP (VBN been)
+        (ADJP (JJ able)
+          (S
+            (VP (TO to)
+              (VP (VB claim)
+                (NP
+                  (NP (DT the) (NN throne))
+                  (SBAR
+                    (WHNP (WDT which))
+                    (S
+                      (NP
+                        (NP (DT the) (JJ legendary) (NN king))
+                        (PP (IN of)
+                          (NP (NN chicken) (NN rice))))
+                      (VP (VBD occupied)))))))))))
+    (. .)))
+
+
+det(one-2, no-1)
+nsubj(able-5, one-2)
+aux(able-5, has-3)
+cop(able-5, been-4)
+root(ROOT-0, able-5)
+aux(claim-7, to-6)
+xcomp(able-5, claim-7)
+det(throne-9, the-8)
+dobj(claim-7, throne-9)
+dobj(occupied-17, which-10)
+det(king-13, the-11)
+amod(king-13, legendary-12)
+nsubj(occupied-17, king-13)
+prep(king-13, of-14)
+nn(rice-16, chicken-15)
+pobj(of-14, rice-16)
+rcmod(throne-9, occupied-17)
+
+
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN competition))
+      (VP (VBZ is)
+        (ADVP (RB however))
+        (ADJP (RB very) (JJ keen))))
+    (CC and)
+    (S
+      (NP (EX there))
+      (VP (VBP are)
+        (NP
+          (NP (JJ several))
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP (VBP are)
+                (VP (VBG jostling)
+                  (PP (IN for)
+                    (NP (JJ top) (NN spot))))))))))
+    (. .)))
+
+
+det(competition-2, The-1)
+nsubj(keen-6, competition-2)
+cop(keen-6, is-3)
+advmod(keen-6, however-4)
+advmod(keen-6, very-5)
+root(ROOT-0, keen-6)
+cc(keen-6, and-7)
+expl(are-9, there-8)
+conj(keen-6, are-9)
+nsubj(are-9, several-10)
+nsubj(jostling-13, who-11)
+aux(jostling-13, are-12)
+rcmod(several-10, jostling-13)
+prep(jostling-13, for-14)
+amod(spot-16, top-15)
+pobj(for-14, spot-16)
+
+

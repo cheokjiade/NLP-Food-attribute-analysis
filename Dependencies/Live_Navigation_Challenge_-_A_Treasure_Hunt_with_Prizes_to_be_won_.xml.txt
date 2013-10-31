@@ -1,0 +1,689 @@
+(ROOT
+  (SQ (VBP Do)
+    (NP (PRP you))
+    (VP (VB like)
+      (NP (NNP Treasure) (NNP Hunts)))
+    (. ?)))
+
+
+aux(like-3, Do-1)
+nsubj(like-3, you-2)
+root(ROOT-0, like-3)
+nn(Hunts-5, Treasure-4)
+dobj(like-3, Hunts-5)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP do))
+    (. .)))
+
+
+nsubj(do-2, I-1)
+root(ROOT-0, do-2)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP
+      (VP (VBP love)
+        (ADJP (JJ orienteering)))
+      (CC and)
+      (VP (VBD used)
+        (S
+          (VP (TO to)
+            (VP (VB do)
+              (NP (PRP it))
+              (NP
+                (NP (DT a) (NN lot))
+                (SBAR
+                  (WHADVP (WRB when))
+                  (S
+                    (NP (PRP I))
+                    (VP (VBD was)
+                      (PP (IN in)
+                        (NP (DT the) (NNP NCC))))))))))))
+    (. .)))
+
+
+nsubj(love-2, I-1)
+root(ROOT-0, love-2)
+acomp(love-2, orienteering-3)
+cc(love-2, and-4)
+conj(love-2, used-5)
+aux(do-7, to-6)
+xcomp(used-5, do-7)
+iobj(do-7, it-8)
+det(lot-10, a-9)
+dobj(do-7, lot-10)
+advmod(was-13, when-11)
+nsubj(was-13, I-12)
+rcmod(lot-10, was-13)
+prep(was-13, in-14)
+det(NCC-16, the-15)
+pobj(in-14, NCC-16)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Nowadays))
+    (, ,)))
+
+
+root(ROOT-0, Nowadays-1)
+
+
+(ROOT
+  (SBAR
+    (NP (DT the) (JJ only) (NNS times))
+    (IN that)
+    (S
+      (NP (PRP I))
+      (VP (VBP have)
+        (S
+          (VP (TO to)
+            (VP (VB do)
+              (NP
+                (NP (NN orienteering))
+                (SBAR
+                  (S
+                    (VP (VBZ is)
+                      (PP (IN with)
+                        (NP (DT a) (NNP Map)))))))
+              (, ,))))))))
+
+
+det(times-3, the-1)
+amod(times-3, only-2)
+dep(have-6, times-3)
+mark(have-6, that-4)
+nsubj(have-6, I-5)
+root(ROOT-0, have-6)
+aux(do-8, to-7)
+xcomp(have-6, do-8)
+dobj(do-8, orienteering-9)
+rcmod(orienteering-9, is-10)
+prep(is-10, with-11)
+det(Map-13, a-12)
+pobj(with-11, Map-13)
+
+
+(ROOT
+  (FRAG
+    (PP (IN in)
+      (NP (DT a) (NN car)))
+    (, ,)))
+
+
+root(ROOT-0, in-1)
+det(car-3, a-2)
+pobj(in-1, car-3)
+
+
+(ROOT
+  (S
+    (NP (NNP hopelessly))
+    (VP (VBD lost)
+      (PP (IN in)
+        (NP (NNP Malaysia))))
+    (. .)))
+
+
+nsubj(lost-2, hopelessly-1)
+root(ROOT-0, lost-2)
+prep(lost-2, in-3)
+pobj(in-3, Malaysia-4)
+
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Map) (NN reading)
+        (CC and)
+        (NN finding) (NNS directions))
+      (VP (MD can)
+        (VP (VB be)
+          (ADJP (RB downright) (JJ frustrating))
+          (SBAR (IN if)
+            (S
+              (NP (PRP you))
+              (VP
+                (VP (VBP are)
+                  (PP (IN in)
+                    (NP (DT a) (NN rush)
+                      (S
+                        (VP (TO to)
+                          (VP (VB get)
+                            (ADVP (RB somewhere))
+                            (ADVP (RB urgently))))))))
+                (CC and)
+                (VP (VBP are)
+                  (ADJP (RB hopelessly) (VBN lost)))))))))
+    (CC and)
+    (S
+      (NP (PRP$ your) (NN vehicle) (NN commander))
+      (VP (VBZ is)
+        (VP (VBG holding)
+          (NP (DT the) (NN map))
+          (ADVP (RB upside) (RB down)))))
+    (. .)))
+
+
+nn(reading-2, Map-1)
+nsubj(frustrating-9, reading-2)
+cc(reading-2, and-3)
+nn(directions-5, finding-4)
+conj(reading-2, directions-5)
+aux(frustrating-9, can-6)
+cop(frustrating-9, be-7)
+advmod(frustrating-9, downright-8)
+root(ROOT-0, frustrating-9)
+mark(are-12, if-10)
+nsubj(are-12, you-11)
+advcl(frustrating-9, are-12)
+prep(are-12, in-13)
+det(rush-15, a-14)
+pobj(in-13, rush-15)
+aux(get-17, to-16)
+infmod(rush-15, get-17)
+advmod(get-17, somewhere-18)
+advmod(get-17, urgently-19)
+cc(are-12, and-20)
+auxpass(lost-23, are-21)
+advmod(lost-23, hopelessly-22)
+conj(are-12, lost-23)
+cc(frustrating-9, and-24)
+poss(commander-27, your-25)
+nn(commander-27, vehicle-26)
+nsubj(holding-29, commander-27)
+aux(holding-29, is-28)
+conj(frustrating-9, holding-29)
+det(map-31, the-30)
+dobj(holding-29, map-31)
+advmod(down-33, upside-32)
+advmod(holding-29, down-33)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB However))
+    (ADVP (RB ,))))
+
+
+root(ROOT-0, However-1)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (MD can)
+      (VP (VB be)
+        (ADJP (RB very) (JJ fun))
+        (SBAR (IN if)
+          (S
+            (NP (PRP you))
+            (VP (VBP are)
+              (VP (VBG playing)
+                (NP (`` ``) (JJ Amazing) (NN Race) ('' ''))
+                (SBAR
+                  (WHADVP (WRB where))
+                  (S
+                    (NP (PRP you))
+                    (VP (VBP go)
+                      (PP (IN around)
+                        (S
+                          (VP
+                            (VP (VBG looking)
+                              (PP (IN for)
+                                (NP (NNS clues))))
+                            (CC and)
+                            (VP (VBG doing)
+                              (NP (DT the) (NNS challenges)))))))))))))))
+    (. .)))
+
+
+nsubj(fun-5, it-1)
+aux(fun-5, can-2)
+cop(fun-5, be-3)
+advmod(fun-5, very-4)
+root(ROOT-0, fun-5)
+mark(playing-9, if-6)
+nsubj(playing-9, you-7)
+aux(playing-9, are-8)
+advcl(fun-5, playing-9)
+amod(Race-12, Amazing-11)
+dobj(playing-9, Race-12)
+advmod(go-16, where-14)
+nsubj(go-16, you-15)
+advcl(playing-9, go-16)
+prep(go-16, around-17)
+pcomp(around-17, looking-18)
+prep(looking-18, for-19)
+pobj(for-19, clues-20)
+cc(looking-18, and-21)
+conj(looking-18, doing-22)
+det(challenges-24, the-23)
+dobj(doing-22, challenges-24)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Anyway))
+    (, ,)))
+
+
+root(ROOT-0, Anyway-1)
+
+
+(ROOT
+  (SBAR (IN if)
+    (S
+      (NP (PRP you))
+      (VP (VBP enjoy)
+        (SBAR
+          (S
+            (NP (NN treasure))
+            (VP (VBZ hunts))
+            (, ,)))))))
+
+
+mark(enjoy-3, if-1)
+nsubj(enjoy-3, you-2)
+root(ROOT-0, enjoy-3)
+nsubj(hunts-5, treasure-4)
+ccomp(enjoy-3, hunts-5)
+
+
+(ROOT
+  (S
+    (NP (EX there))
+    (VP (VBZ is)
+      (NP
+        (NP (CD one))
+        (VP (VBG happening)
+          (PP (IN on)
+            (NP
+              (NP (DT the) (JJ 19th))
+              (PP (IN of)
+                (NP
+                  (NP (NNP December))
+                  (VP (VBN organized)
+                    (PP (IN by)
+                      (NP (NNP Garmin) (NNPS Asus)))))))))))
+    (. .)))
+
+
+expl(is-2, there-1)
+root(ROOT-0, is-2)
+nsubj(is-2, one-3)
+partmod(one-3, happening-4)
+prep(happening-4, on-5)
+det(19th-7, the-6)
+pobj(on-5, 19th-7)
+prep(19th-7, of-8)
+pobj(of-8, December-9)
+partmod(December-9, organized-10)
+prep(organized-10, by-11)
+nn(Asus-13, Garmin-12)
+pobj(by-11, Asus-13)
+
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP call)
+      (SBAR
+        (S
+          (S
+            (NP (PRP it))
+            (NP (DT the) (NNP Live) (NNP Navigation) (NNP Challenge)))
+          (CC and)
+          (S
+            (NP (EX there))
+            (VP (VBP are)
+              (NP (JJ attractive) (NNS prizes)
+                (S
+                  (VP (TO to)
+                    (VP (VB be)
+                      (VP (VBN won)
+                        (PP (VBG including)
+                          (NP
+                            (NP (DT a) (NN pair))
+                            (PP (IN of)
+                              (NP
+                                (NP (NN air) (NNS tickets))
+                                (PP (TO to)
+                                  (NP (DT the) (NNPS Maldives)))))))))))))))))
+    (, ,)))
+
+
+nsubj(call-2, They-1)
+root(ROOT-0, call-2)
+dep(Challenge-7, it-3)
+det(Challenge-7, the-4)
+nn(Challenge-7, Live-5)
+nn(Challenge-7, Navigation-6)
+dep(call-2, Challenge-7)
+cc(Challenge-7, and-8)
+expl(are-10, there-9)
+conj(Challenge-7, are-10)
+amod(prizes-12, attractive-11)
+nsubj(are-10, prizes-12)
+aux(won-15, to-13)
+auxpass(won-15, be-14)
+infmod(prizes-12, won-15)
+prep(won-15, including-16)
+det(pair-18, a-17)
+pobj(including-16, pair-18)
+prep(pair-18, of-19)
+nn(tickets-21, air-20)
+pobj(of-19, tickets-21)
+prep(tickets-21, to-22)
+det(Maldives-24, the-23)
+pobj(to-22, Maldives-24)
+
+
+(ROOT
+  (INTJ (UH cruises) (UH ,)))
+
+
+root(ROOT-0, cruises-1)
+
+
+(ROOT
+  (S
+    (NP (NN hotel))
+    (VP (VBZ stays)
+      (NP (CC and)
+        (NP
+          (NP (NNP Garmin) (NNPS Asus) (NNP G60))
+          (CC and)
+          (NP (NNP M20)))))
+    (, ,)))
+
+
+nsubj(G60-6, hotel-1)
+cop(G60-6, stays-2)
+cc(G60-6, and-3)
+nn(G60-6, Garmin-4)
+nn(G60-6, Asus-5)
+root(ROOT-0, G60-6)
+cc(G60-6, and-7)
+conj(G60-6, M20-8)
+
+
+(ROOT
+  (S
+    (NP (NNP GPS))
+    (VP (VBP enable)
+      (NP (NNS smartphones)))
+    (. .)))
+
+
+nsubj(enable-2, GPS-1)
+root(ROOT-0, enable-2)
+dobj(enable-2, smartphones-3)
+
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT All))
+        (SBAR
+          (S
+            (NP (PRP you))
+            (VP (VBP have)
+              (S
+                (VP (TO to)
+                  (VP (VB do))))))))
+      (VP (VBZ is)
+        (S
+          (VP (TO to)
+            (VP (VB register)
+              (PP (IN at)
+                (NP (NN www.livenavigation.com.sg))))))))
+    (CC and)
+    (S
+      (NP (DT the) (JJ first) (NN clue))
+      (VP (MD will)
+        (VP (VB be)
+          (VP (VBN sent)
+            (PP (TO to)
+              (NP (PRP you)))
+            (PP (IN on)
+              (NP (JJ 19th) (NNP December)))
+            (PP (IN at)
+              (NP (CD 1pm)))))))
+    (. .)))
+
+
+nsubj(is-6, All-1)
+nsubj(have-3, you-2)
+rcmod(All-1, have-3)
+aux(do-5, to-4)
+xcomp(have-3, do-5)
+root(ROOT-0, is-6)
+aux(register-8, to-7)
+xcomp(is-6, register-8)
+prep(register-8, at-9)
+pobj(at-9, www.livenavigation.com.sg-10)
+cc(is-6, and-11)
+det(clue-14, the-12)
+amod(clue-14, first-13)
+nsubjpass(sent-17, clue-14)
+aux(sent-17, will-15)
+auxpass(sent-17, be-16)
+conj(is-6, sent-17)
+prep(sent-17, to-18)
+pobj(to-18, you-19)
+prep(sent-17, on-20)
+amod(December-22, 19th-21)
+pobj(on-20, December-22)
+prep(sent-17, at-23)
+pobj(at-23, 1pm-24)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD will)
+      (PP (IN of)
+        (NP (NN course)))
+      (VP (VB have)
+        (S
+          (VP (TO to)
+            (VP (VB do)
+              (NP
+                (NP (DT some) (NN sort))
+                (PP (IN of)
+                  (NP (NN challenge))))
+              (PP (IN at)
+                (NP (DT each) (NN pit) (NN stop))))))
+        (S
+          (VP (TO to)
+            (VP (VB get)
+              (NP (NNS clues))
+              (PP (IN for)
+                (NP (PRP$ your) (JJ next) (NN pit) (NN stop)))
+              (PRN (-LRB- -LRB-)
+                (PP
+                  (ADVP (RB just))
+                  (IN like)
+                  (NP (NNP Amazing) (NNP Race)))
+                (-RRB- -RRB-)))))))
+    (. .)))
+
+
+nsubj(have-5, You-1)
+aux(have-5, will-2)
+prep(have-5, of-3)
+pobj(of-3, course-4)
+root(ROOT-0, have-5)
+aux(do-7, to-6)
+xcomp(have-5, do-7)
+det(sort-9, some-8)
+dobj(do-7, sort-9)
+prep(sort-9, of-10)
+pobj(of-10, challenge-11)
+prep(do-7, at-12)
+det(stop-15, each-13)
+nn(stop-15, pit-14)
+pobj(at-12, stop-15)
+aux(get-17, to-16)
+xcomp(have-5, get-17)
+dobj(get-17, clues-18)
+prep(get-17, for-19)
+poss(stop-23, your-20)
+amod(stop-23, next-21)
+nn(stop-23, pit-22)
+pobj(for-19, stop-23)
+advmod(like-26, just-25)
+dep(get-17, like-26)
+nn(Race-28, Amazing-27)
+pobj(like-26, Race-28)
+
+
+(ROOT
+  (S
+    (NP (RB First) (CD one) (NN home))
+    (VP (VBZ wins))
+    (. !)))
+
+
+advmod(home-3, First-1)
+num(home-3, one-2)
+nsubj(wins-4, home-3)
+root(ROOT-0, wins-4)
+
+
+(ROOT
+  (S
+    (ADVP (RB Now))
+    (NP (RB here))
+    (VP (VBZ 's)
+      (NP (DT a) (JJ little) (NN tip)))
+    (. .)))
+
+
+advmod(tip-6, Now-1)
+nsubj(tip-6, here-2)
+cop(tip-6, 's-3)
+det(tip-6, a-4)
+amod(tip-6, little-5)
+root(ROOT-0, tip-6)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP do) (RB n't)
+      (VP (VB need)
+        (S
+          (VP (TO to)
+            (VP (VB have)
+              (S
+                (NP (DT a) (NNP Garmin) (NNP Asus) (NN handphone))
+                (VP (TO to)
+                  (VP (VB join)
+                    (NP (DT the) (NN competition))))))))))
+    (, ,)))
+
+
+nsubj(need-4, You-1)
+aux(need-4, do-2)
+neg(need-4, n't-3)
+root(ROOT-0, need-4)
+aux(have-6, to-5)
+xcomp(need-4, have-6)
+det(handphone-10, a-7)
+nn(handphone-10, Garmin-8)
+nn(handphone-10, Asus-9)
+nsubj(join-12, handphone-10)
+aux(join-12, to-11)
+ccomp(have-6, join-12)
+det(competition-14, the-13)
+dobj(join-12, competition-14)
+
+
+(ROOT
+  (S (CC but)
+    (NP (PRP you))
+    (VP (MD will)
+      (VP (VB need)
+        (S
+          (VP (TO to)
+            (VP (VB familiarize)
+              (NP (PRP yourself))
+              (PP (IN with)
+                (NP
+                  (NP (DT the) (NNS functions))
+                  (PP (IN of)
+                    (NP (DT the) (NN handphone)))))
+              (PP (IN by)
+                (S
+                  (VP (VBG watching)
+                    (NP (DT the) (NN demo))
+                    (PP (IN on)
+                      (NP (PRP$ their) (NN website)))))))))))
+    (. .)))
+
+
+cc(need-4, but-1)
+nsubj(need-4, you-2)
+aux(need-4, will-3)
+root(ROOT-0, need-4)
+aux(familiarize-6, to-5)
+xcomp(need-4, familiarize-6)
+dobj(familiarize-6, yourself-7)
+prep(familiarize-6, with-8)
+det(functions-10, the-9)
+pobj(with-8, functions-10)
+prep(functions-10, of-11)
+det(handphone-13, the-12)
+pobj(of-11, handphone-13)
+prep(familiarize-6, by-14)
+pcomp(by-14, watching-15)
+det(demo-17, the-16)
+dobj(watching-15, demo-17)
+prep(watching-15, on-18)
+poss(website-20, their-19)
+pobj(on-18, website-20)
+
+
+(ROOT
+  (S
+    (VP (VB See)
+      (NP (PRP you))
+      (PP (IN at)
+        (NP (DT the) (JJ finishing) (NN line))))
+    (. !)))
+
+
+root(ROOT-0, See-1)
+dobj(See-1, you-2)
+prep(See-1, at-3)
+det(line-6, the-4)
+amod(line-6, finishing-5)
+pobj(at-3, line-6)
+
+
+(ROOT
+  (S
+    (NP (NNP Join) (DT the) (NNP Garmin-Asus))
+    (VP (VBP facebook)
+      (NP (NN community))
+      (ADVP (RB here)))
+    (. .)))
+
+
+nn(Garmin-Asus-3, Join-1)
+det(Garmin-Asus-3, the-2)
+nsubj(facebook-4, Garmin-Asus-3)
+root(ROOT-0, facebook-4)
+dobj(facebook-4, community-5)
+advmod(facebook-4, here-6)
+
+

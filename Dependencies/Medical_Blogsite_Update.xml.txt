@@ -1,0 +1,96 @@
+(ROOT
+  (SINV
+    (ADJP (RB very) (JJ patient))
+    (VP (VBZ has)
+      (NP (JJ certain) (NNS fears)))
+    (SBAR
+      (WHADVP (WRB when))
+      (S
+        (NP (PRP they))
+        (VP (VBP visit)
+          (NP (PRP$ their) (NN doctor)))))
+    (. .)))
+
+
+advmod(patient-2, very-1)
+dep(has-3, patient-2)
+root(ROOT-0, has-3)
+amod(fears-5, certain-4)
+dobj(has-3, fears-5)
+advmod(visit-8, when-6)
+nsubj(visit-8, they-7)
+dep(has-3, visit-8)
+poss(doctor-10, their-9)
+dobj(visit-8, doctor-10)
+
+
+(ROOT
+  (S
+    (VP (VB Have)
+      (NP
+        (NP (DT a) (NN look))
+        (PP (IN at)
+          (NP
+            (NP (PRP$ my) (NN list))
+            (PP (IN of)
+              (NP (NNP and)))
+            (SBAR (IN if)
+              (S
+                (NP (PRP you))
+                (VP (VBP have)
+                  (NP
+                    (NP (DT a) (NN fear))
+                    (SBAR
+                      (WHNP (WDT that))
+                      (S
+                        (VP (VBZ is) (RB not)
+                          (VP (VBN mentioned)))))))))
+            (, ,)))))))
+
+
+root(ROOT-0, Have-1)
+det(look-3, a-2)
+dobj(Have-1, look-3)
+prep(look-3, at-4)
+poss(list-6, my-5)
+pobj(at-4, list-6)
+prep(list-6, of-7)
+pobj(of-7, and-8)
+mark(have-11, if-9)
+nsubj(have-11, you-10)
+dep(list-6, have-11)
+det(fear-13, a-12)
+dobj(have-11, fear-13)
+nsubjpass(mentioned-17, that-14)
+auxpass(mentioned-17, is-15)
+neg(mentioned-17, not-16)
+rcmod(fear-13, mentioned-17)
+
+
+(ROOT
+  (S
+    (VP (VB add)
+      (NP (PRP it))
+      (PP (IN into)
+        (NP (DT the) (NNS comments))))
+    (. !)))
+
+
+root(ROOT-0, add-1)
+dobj(add-1, it-2)
+prep(add-1, into-3)
+det(comments-5, the-4)
+pobj(into-3, comments-5)
+
+
+(ROOT
+  (S
+    (VP (VB Click)
+      (ADVP (RB HERE)))
+    (. !)))
+
+
+root(ROOT-0, Click-1)
+advmod(Click-1, HERE-2)
+
+

@@ -1,0 +1,164 @@
+(ROOT
+  (SBARQ
+    (WHADVP (WRB How))
+    (SQ (MD would)
+      (NP (PRP you))
+      (VP (VB like)
+        (S
+          (VP (TO to)
+            (VP (VB win)
+              (NP
+                (NP (DT an) (JJ autographed) (NN copy))
+                (PP (IN of)
+                  (NP
+                    (NP (DT The) (NN End))
+                    (PP (IN of)
+                      (NP (NNP Char) (NNP Kway) (NNP Teow)))))))))))
+    (. ?)))
+
+
+advmod(like-4, How-1)
+aux(like-4, would-2)
+nsubj(like-4, you-3)
+root(ROOT-0, like-4)
+aux(win-6, to-5)
+xcomp(like-4, win-6)
+det(copy-9, an-7)
+amod(copy-9, autographed-8)
+dobj(win-6, copy-9)
+prep(copy-9, of-10)
+det(End-12, The-11)
+pobj(of-10, End-12)
+prep(End-12, of-13)
+nn(Teow-16, Char-14)
+nn(Teow-16, Kway-15)
+pobj(of-13, Teow-16)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ 's)
+      (ADJP (RB very) (JJ simple)))
+    (. .)))
+
+
+nsubj(simple-4, It-1)
+cop(simple-4, 's-2)
+advmod(simple-4, very-3)
+root(ROOT-0, simple-4)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT All))
+      (SBAR
+        (S
+          (NP (PRP it))
+          (VP (VBZ takes)))))
+    (VP (VBZ is)
+      (SBAR (IN for)
+        (S
+          (NP (PRP you))
+          (VP (TO to)
+            (VP (VB write)
+              (NP (CD 10) (NNS words)))))))
+    (. .)))
+
+
+nsubj(is-4, All-1)
+nsubj(takes-3, it-2)
+rcmod(All-1, takes-3)
+root(ROOT-0, is-4)
+mark(write-8, for-5)
+nsubj(write-8, you-6)
+aux(write-8, to-7)
+advcl(is-4, write-8)
+num(words-10, 10-9)
+dobj(write-8, words-10)
+
+
+(ROOT
+  (S
+    (NP (NNP Log))
+    (VP (VBZ onto)
+      (NP (PRP$ our) (NN facebook) (NN site))
+      (ADVP (RB here)))
+    (, ,)))
+
+
+nsubj(onto-2, Log-1)
+root(ROOT-0, onto-2)
+poss(site-5, our-3)
+nn(site-5, facebook-4)
+dobj(onto-2, site-5)
+advmod(onto-2, here-6)
+
+
+(ROOT
+  (FRAG (CC and)
+    (PP (IN in)
+      (NP
+        (NP (NNP TEN) (NNS words))
+        (-LRB- -LRB-)
+        (NP (RB no) (JJR more))
+        (, ,)))))
+
+
+root(ROOT-0, and-1)
+prep(and-1, in-2)
+nn(words-4, TEN-3)
+pobj(in-2, words-4)
+advmod(more-7, no-6)
+dep(words-4, more-7)
+
+
+(ROOT
+  (S
+    (NP (DT no) (JJR less))
+    (VP (VBZ -RRB-))
+    (, ,)))
+
+
+det(less-2, no-1)
+nsubj(-RRB--3, less-2)
+
+
+(ROOT
+  (S
+    (VP (VB tell)
+      (NP (PRP us))
+      (SBAR
+        (WHADVP (WRB why))
+        (S
+          (NP (NNP Singapore) (NNP Hawker) (NNP Food))
+          (VP (VBZ is)
+            (ADJP (RB so) (JJ great))))))
+    (. !)))
+
+
+root(ROOT-0, tell-1)
+dobj(tell-1, us-2)
+advmod(great-9, why-3)
+nn(Food-6, Singapore-4)
+nn(Food-6, Hawker-5)
+nsubj(great-9, Food-6)
+cop(great-9, is-7)
+advmod(great-9, so-8)
+advcl(tell-1, great-9)
+
+
+(ROOT
+  (NP
+    (NP (JJS Best))
+    (PP (IN of)
+      (NP (NNP Luck)))
+    (. !)))
+
+
+root(ROOT-0, Best-1)
+prep(Best-1, of-2)
+pobj(of-2, Luck-3)
+
+

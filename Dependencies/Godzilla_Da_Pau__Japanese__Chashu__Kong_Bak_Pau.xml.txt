@@ -1,0 +1,235 @@
+(ROOT
+  (S
+    (NP (DT This) (NN stall))
+    (VP (VBZ is)
+      (VP (VBG relocating)))
+    (. .)))
+
+
+det(stall-2, This-1)
+nsubj(relocating-4, stall-2)
+aux(relocating-4, is-3)
+root(ROOT-0, relocating-4)
+
+
+(ROOT
+  (FRAG
+    (PP (RB Back) (IN in)
+      (NP (CD 2006)))
+    (, ,)))
+
+
+advmod(in-2, Back-1)
+root(ROOT-0, in-2)
+pobj(in-2, 2006-3)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP
+      (VP (VBD met)
+        (NP
+          (NP (NNP Mr))
+          (CC and)
+          (NP (NNP Mrs) (NNP Cheng))))
+      (CC and)
+      (VP (VBD remarked)
+        (SBAR
+          (WHADVP (WRB how)
+            (ADJP (JJ nice)))
+          (S
+            (NP (PRP it))
+            (VP (MD would)
+              (VP (VB be)
+                (S
+                  (VP (TO to)
+                    (VP (VB have)
+                      (NP (DT those) (JJ gigantic) (NNS paus))
+                      (SBAR (IN that)
+                        (S
+                          (NP (PRP you))
+                          (VP
+                            (ADVP (RB often))
+                            (VBP see)
+                            (PRT (RP along))
+                            (NP (DT the) (NN highway))
+                            (PP (IN while)
+                              (S
+                                (VP (VBG driving)
+                                  (PP (IN in)
+                                    (NP (NNP Malaysia))))))))))))))))))
+    (. .)))
+
+
+nsubj(met-2, I-1)
+root(ROOT-0, met-2)
+dobj(met-2, Mr-3)
+cc(Mr-3, and-4)
+nn(Cheng-6, Mrs-5)
+conj(Mr-3, Cheng-6)
+cc(met-2, and-7)
+conj(met-2, remarked-8)
+advmod(be-13, how-9)
+dep(how-9, nice-10)
+nsubj(be-13, it-11)
+aux(be-13, would-12)
+ccomp(remarked-8, be-13)
+aux(have-15, to-14)
+xcomp(be-13, have-15)
+det(paus-18, those-16)
+amod(paus-18, gigantic-17)
+dobj(have-15, paus-18)
+mark(see-22, that-19)
+nsubj(see-22, you-20)
+advmod(see-22, often-21)
+ccomp(have-15, see-22)
+prt(see-22, along-23)
+det(highway-25, the-24)
+dobj(see-22, highway-25)
+prep(see-22, while-26)
+pcomp(while-26, driving-27)
+prep(driving-27, in-28)
+pobj(in-28, Malaysia-29)
+
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBD took)
+      (PP (IN on)
+        (NP
+          (NP (DT the) (NN idea))
+          (CC and)
+          (S
+            (NP (PRP it))
+            (VP (VBZ is)
+              (ADJP (JJ good)
+                (S
+                  (VP (TO to)
+                    (VP (VB know)
+                      (NP (DT that) (CD four) (NNS years))
+                      (PRT (RP on)))))))))))
+    (, ,)))
+
+
+nsubj(took-2, They-1)
+root(ROOT-0, took-2)
+prep(took-2, on-3)
+det(idea-5, the-4)
+pobj(on-3, idea-5)
+cc(idea-5, and-6)
+nsubj(good-9, it-7)
+cop(good-9, is-8)
+conj(idea-5, good-9)
+aux(know-11, to-10)
+xcomp(good-9, know-11)
+det(years-14, that-12)
+num(years-14, four-13)
+tmod(know-11, years-14)
+prt(know-11, on-15)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NNP Godzilla) (NNP Da) (NNP Pau))
+    (VP (VBZ is)
+      (ADVP (RB still))
+      (VP (VBG doing)
+        (ADVP (RB very) (RB well))))
+    (. .)))
+
+
+det(Pau-4, the-1)
+nn(Pau-4, Godzilla-2)
+nn(Pau-4, Da-3)
+nsubj(doing-7, Pau-4)
+aux(doing-7, is-5)
+advmod(doing-7, still-6)
+root(ROOT-0, doing-7)
+advmod(well-9, very-8)
+advmod(doing-7, well-9)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NN couple))
+    (VP
+      (VP (VBZ has)
+        (ADVP (IN since))
+        (VP (VBN moved)
+          (PP (IN from)
+            (NP (NNP Tampines)))
+          (PP (TO to)
+            (NP (NNP Pasir) (NNP Ris)))))
+      (CC and)
+      (VP (VBZ continues)
+        (S
+          (VP (TO to)
+            (VP (VB sell)
+              (NP (DT the) (NN Pau)))))))
+    (. .)))
+
+
+det(couple-2, The-1)
+nsubj(moved-5, couple-2)
+aux(moved-5, has-3)
+advmod(moved-5, since-4)
+root(ROOT-0, moved-5)
+prep(moved-5, from-6)
+pobj(from-6, Tampines-7)
+prep(moved-5, to-8)
+nn(Ris-10, Pasir-9)
+pobj(to-8, Ris-10)
+cc(moved-5, and-11)
+conj(moved-5, continues-12)
+aux(sell-14, to-13)
+xcomp(continues-12, sell-14)
+det(Pau-16, the-15)
+dobj(sell-14, Pau-16)
+
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (NN fact)))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+pobj(In-1, fact-2)
+
+
+(ROOT
+  (SBAR
+    (WHADVP (WRB when))
+    (S
+      (NP (PRP they))
+      (VP (VBD moved))
+      (, ,))))
+
+
+advmod(moved-3, when-1)
+nsubj(moved-3, they-2)
+root(ROOT-0, moved-3)
+
+
+(ROOT
+  (S
+    (NP (PRP they))
+    (ADVP (RB even))
+    (VP (VBD renamed)
+      (NP (PRP$ their) (NNP stall) (NNP Godzilla) (NNP Handmade) (NN Pau)))
+    (. !)))
+
+
+nsubj(renamed-3, they-1)
+advmod(renamed-3, even-2)
+root(ROOT-0, renamed-3)
+poss(Pau-8, their-4)
+nn(Pau-8, stall-5)
+nn(Pau-8, Godzilla-6)
+nn(Pau-8, Handmade-7)
+dobj(renamed-3, Pau-8)
+
+

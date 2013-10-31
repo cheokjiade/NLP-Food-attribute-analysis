@@ -1,0 +1,419 @@
+(ROOT
+  (SBAR (IN Although)
+    (S
+      (NP (DT this) (NN blog))
+      (VP (VBZ is)
+        (PP (IN about)
+          (NP (JJ great) (NN food))))
+      (, ,))))
+
+
+mark(is-4, Although-1)
+det(blog-3, this-2)
+nsubj(is-4, blog-3)
+root(ROOT-0, is-4)
+prep(is-4, about-5)
+amod(food-7, great-6)
+pobj(about-5, food-7)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (ADVP (DT all))
+    (VP (VBP realize)
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (DT the) (NNS stalls))
+            (SBAR (IN that)
+              (S
+                (NP (PRP we))
+                (VP (VBZ frequent)))))
+          (VP (VBP do) (RB not)
+            (ADVP (RB necessarily))
+            (VP (VB sell)
+              (NP (DT THE) (JJS best) (NN food)))))))
+    (. .)))
+
+
+nsubj(realize-3, you-1)
+advmod(realize-3, all-2)
+root(ROOT-0, realize-3)
+mark(sell-13, that-4)
+det(stalls-6, the-5)
+nsubj(sell-13, stalls-6)
+mark(frequent-9, that-7)
+nsubj(frequent-9, we-8)
+dep(stalls-6, frequent-9)
+aux(sell-13, do-10)
+neg(sell-13, not-11)
+advmod(sell-13, necessarily-12)
+ccomp(realize-3, sell-13)
+det(food-16, THE-14)
+amod(food-16, best-15)
+dobj(sell-13, food-16)
+
+
+(ROOT
+  (FRAG
+    (PP (IN No))
+    (, ,)))
+
+
+root(ROOT-0, No-1)
+
+
+(ROOT
+  (S
+    (NP (EX there))
+    (VP (VBP are)
+      (NP
+        (NP (JJ several) (JJ other) (NNS factors))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBP influence)
+              (SBAR
+                (WHADVP (WRB how))
+                (S
+                  (NP (PRP we))
+                  (VP (VBP decide)
+                    (SBAR
+                      (WHADVP (WRB where))
+                      (S
+                        (VP (TO to)
+                          (VP (VB eat)
+                            (NP (PRP$ our) (JJ next) (NN meal))))))))))))))
+    (, ,)))
+
+
+expl(are-2, there-1)
+root(ROOT-0, are-2)
+amod(factors-5, several-3)
+amod(factors-5, other-4)
+nsubj(are-2, factors-5)
+nsubj(influence-7, that-6)
+rcmod(factors-5, influence-7)
+advmod(decide-10, how-8)
+nsubj(decide-10, we-9)
+ccomp(influence-7, decide-10)
+advmod(eat-13, where-11)
+aux(eat-13, to-12)
+xcomp(decide-10, eat-13)
+poss(meal-16, our-14)
+amod(meal-16, next-15)
+dobj(eat-13, meal-16)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB right)
+      (CC or)
+      (RB not))
+    (. ?)))
+
+
+root(ROOT-0, right-1)
+cc(right-1, or-2)
+conj(right-1, not-3)
+
+
+(ROOT
+  (FRAG
+    (PP
+      (ADVP (IN At) (JJS least))
+      (IN for)
+      (NP (PRP myself)))
+    (, ,)))
+
+
+advmod(for-3, At-1)
+pobj(At-1, least-2)
+root(ROOT-0, for-3)
+pobj(for-3, myself-4)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NN decision)
+      (S
+        (VP (TO to)
+          (VP (VB eat)
+            (PP (IN at)
+              (NP (DT a) (JJ particular) (NN stall)))))))
+    (VP (VBZ is)
+      (VP (VBN based)
+        (PP (IN on)
+          (NP (NN convenience)))
+        (, ,)))))
+
+
+det(decision-2, the-1)
+nsubjpass(based-10, decision-2)
+aux(eat-4, to-3)
+infmod(decision-2, eat-4)
+prep(eat-4, at-5)
+det(stall-8, a-6)
+amod(stall-8, particular-7)
+pobj(at-5, stall-8)
+auxpass(based-10, is-9)
+root(ROOT-0, based-10)
+prep(based-10, on-11)
+pobj(on-11, convenience-12)
+
+
+(ROOT
+  (NP (NN value) (CD ,)))
+
+
+root(ROOT-0, value-1)
+
+
+(ROOT
+  (FRAG
+    (SBAR (IN whether)
+      (S
+        (NP (PRP one))
+        (ADJP
+          (ADJP (IN if) (JJ familiar))
+          (PP
+            (PP (IN with)
+              (NP (DT the) (NN stall) (NN owner)))
+            (CC and)
+            (PP (IN of)
+              (NP (NN course)))
+            (, ,)))))))
+
+
+mark(familiar-4, whether-1)
+dep(familiar-4, one-2)
+dep(familiar-4, if-3)
+root(ROOT-0, familiar-4)
+prep(familiar-4, with-5)
+det(owner-8, the-6)
+nn(owner-8, stall-7)
+pobj(with-5, owner-8)
+cc(with-5, and-9)
+conj(with-5, of-10)
+pobj(of-10, course-11)
+
+
+(ROOT
+  (S
+    (VP (VB taste))
+    (. .)))
+
+
+root(ROOT-0, taste-1)
+
+
+(ROOT
+  (SBARQ (RB So)
+    (WHNP (WP what))
+    (SQ
+      (VP (VBZ makes)
+        (NP
+          (NP (DT this) (NNP Cze) (NNP Char) (NN one))
+          (PP (IN of)
+            (NP
+              (NP (NNP Cactuskit) (POS 's))
+              (JJ favorite) (NNS haunts))))))
+    (. ?)))
+
+
+advmod(makes-3, So-1)
+nsubj(makes-3, what-2)
+root(ROOT-0, makes-3)
+det(one-7, this-4)
+nn(one-7, Cze-5)
+nn(one-7, Char-6)
+dobj(makes-3, one-7)
+prep(one-7, of-8)
+poss(haunts-12, Cactuskit-9)
+possessive(Cactuskit-9, 's-10)
+amod(haunts-12, favorite-11)
+pobj(of-8, haunts-12)
+
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD told)
+      (NP (PRP me))
+      (SBAR (IN that)
+        (S
+          (NP (PRP he))
+          (ADVP (RB once))
+          (VP (VBD ate)
+            (ADJP (RB here) (JJ thrice))
+            (PP (IN in)
+              (NP (DT a) (NN fortnight)))))))
+    (. !)))
+
+
+nsubj(told-2, He-1)
+root(ROOT-0, told-2)
+dobj(told-2, me-3)
+mark(ate-7, that-4)
+nsubj(ate-7, he-5)
+advmod(ate-7, once-6)
+ccomp(told-2, ate-7)
+advmod(thrice-9, here-8)
+acomp(ate-7, thrice-9)
+prep(ate-7, in-10)
+det(fortnight-12, a-11)
+pobj(in-10, fortnight-12)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Well))
+    (, ,)))
+
+
+root(ROOT-0, Well-1)
+
+
+(ROOT
+  (S
+    (S
+      (NP (DT the) (NN food))
+      (ADVP (RB here))
+      (VP (VBZ is)
+        (ADJP (JJ good))))
+    (CC but)
+    (S
+      (NP (PRP it))
+      (VP (VBZ is)
+        (NP
+          (NP (DT the) (NN price))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (MD will)
+                (VP (VB draw)
+                  (NP (NN anybody))
+                  (ADVP (RB back) (RB again)
+                    (CC and)
+                    (RB again)))))))))
+    (. .)))
+
+
+det(food-2, the-1)
+nsubj(good-5, food-2)
+advmod(good-5, here-3)
+cop(good-5, is-4)
+root(ROOT-0, good-5)
+cc(good-5, but-6)
+nsubj(price-10, it-7)
+cop(price-10, is-8)
+det(price-10, the-9)
+conj(good-5, price-10)
+nsubj(draw-13, that-11)
+aux(draw-13, will-12)
+rcmod(price-10, draw-13)
+dobj(draw-13, anybody-14)
+dep(again-16, back-15)
+advmod(draw-13, again-16)
+cc(again-16, and-17)
+conj(again-16, again-18)
+
+
+(ROOT
+  (S (CC Plus)
+    (NP
+      (NP (DT the) (NN fact))
+      (SBAR (IN that)
+        (S
+          (NP (PRP you))
+          (VP (MD will)
+            (ADVP (RB definitely))
+            (VP (VB find)
+              (NP (DT a) (NN table)
+                (S
+                  (VP (TO to)
+                    (VP (VB sit)
+                      (PP (IN without)
+                        (S
+                          (VP (VBG having)
+                            (S
+                              (VP (TO to)
+                                (VP (VB stand)
+                                  (PP (IN in)
+                                    (NP
+                                      (NP (NN front))
+                                      (PP (IN of)
+                                        (NP (NN someone)))))
+                                  (PP (IN with)
+                                    (NP
+                                      (NP (PRP$ your) (JJS most) (NN pathetic))
+                                      (`` ``)
+                                      (ADJP (JJ hungry) (JJ puppy))
+                                      ('' ''))))))))))))))))))
+    (VP (VBP look)
+      (S
+        (VP (TO to)
+          (VP (VB pressure)
+            (S
+              (NP (PRP them))
+              (VP (TO to)
+                (VP
+                  (VP (VB finish)
+                    (NP
+                      (NP (PRP$ their) (NN bowl))
+                      (PP (IN of)
+                        (NP (NN chengtng)))))
+                  (CC and)
+                  (VP (VB get)
+                    (NP (PRP$ their) (NN butt))
+                    (PP (IN off)
+                      (NP (DT the) (NN chair)))))))))))
+    (. .)))
+
+
+cc(look-29, Plus-1)
+det(fact-3, the-2)
+nsubj(look-29, fact-3)
+mark(find-8, that-4)
+nsubj(find-8, you-5)
+aux(find-8, will-6)
+advmod(find-8, definitely-7)
+dep(fact-3, find-8)
+det(table-10, a-9)
+dobj(find-8, table-10)
+aux(sit-12, to-11)
+infmod(table-10, sit-12)
+prep(sit-12, without-13)
+pcomp(without-13, having-14)
+aux(stand-16, to-15)
+xcomp(having-14, stand-16)
+prep(stand-16, in-17)
+pobj(in-17, front-18)
+prep(front-18, of-19)
+pobj(of-19, someone-20)
+prep(stand-16, with-21)
+poss(pathetic-24, your-22)
+amod(pathetic-24, most-23)
+pobj(with-21, pathetic-24)
+amod(puppy-27, hungry-26)
+amod(pathetic-24, puppy-27)
+root(ROOT-0, look-29)
+aux(pressure-31, to-30)
+xcomp(look-29, pressure-31)
+nsubj(finish-34, them-32)
+aux(finish-34, to-33)
+xcomp(pressure-31, finish-34)
+poss(bowl-36, their-35)
+dobj(finish-34, bowl-36)
+prep(bowl-36, of-37)
+pobj(of-37, chengtng-38)
+cc(finish-34, and-39)
+conj(finish-34, get-40)
+poss(butt-42, their-41)
+dobj(get-40, butt-42)
+prep(get-40, off-43)
+det(chair-45, the-44)
+pobj(off-43, chair-45)
+
+

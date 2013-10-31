@@ -1,0 +1,40 @@
+(ROOT
+  (SINV
+    (ADVP (RB Just))
+    (VP (VBD posted))
+    (NP
+      (NP (DT the) (JJ above) (NN article))
+      (PP (IN in)
+        (NP (PRP$ my) (NNP Medical) (NNP Blog))))
+    (. .)))
+
+
+advmod(posted-2, Just-1)
+root(ROOT-0, posted-2)
+det(article-5, the-3)
+amod(article-5, above-4)
+nsubj(posted-2, article-5)
+prep(article-5, in-6)
+poss(Blog-9, my-7)
+nn(Blog-9, Medical-8)
+pobj(in-6, Blog-9)
+
+
+(ROOT
+  (FRAG
+    (S
+      (VP (TO To)
+        (VP (VB read)
+          (S
+            (NP (PRP it))
+            (VP (VB click)
+              (ADVP (RB here)))))))))
+
+
+aux(read-2, To-1)
+root(ROOT-0, read-2)
+nsubj(click-4, it-3)
+ccomp(read-2, click-4)
+advmod(click-4, here-5)
+
+

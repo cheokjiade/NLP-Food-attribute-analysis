@@ -1,0 +1,350 @@
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are)
+      (NP
+        (NP (DT some) (NNS things))
+        (SBAR
+          (WHNP
+            (WHNP (WDT that) (NN sound))
+            (ADJP (RB too) (JJ good)))
+          (S
+            (VP (TO to)
+              (VP (VB be)
+                (ADJP (JJ true))))))))
+    (. .)))
+
+
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+det(things-4, some-3)
+nsubj(are-2, things-4)
+det(sound-6, that-5)
+nsubj(true-11, sound-6)
+advmod(good-8, too-7)
+amod(sound-6, good-8)
+aux(true-11, to-9)
+cop(true-11, be-10)
+infmod(things-4, true-11)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB Now))
+    (SBAR (IN if)
+      (S
+        (NP (PRP you))
+        (VP (VBP are)
+          (NP (DT an) (NN optimist)))
+        (, ,)))))
+
+
+root(ROOT-0, Now-1)
+mark(optimist-6, if-2)
+nsubj(optimist-6, you-3)
+cop(optimist-6, are-4)
+det(optimist-6, an-5)
+dep(Now-1, optimist-6)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ your) (NN response))
+      (PP (TO to)
+        (NP (JJ such) (NNS things))))
+    (VP (VBZ is)
+      (S
+        (VP (TO to)
+          (VP
+            (VP
+              (ADVP (RB quickly))
+              (VB go))
+            (CC and)
+            (VP (VB find)
+              (PRT (RP out))
+              (SBAR
+                (SBAR (IN if)
+                  (S
+                    (NP (PRP it))
+                    (ADVP (RB really))
+                    (VP (VBZ is)
+                      (ADJP (JJ true)))))
+                (CC but)
+                (SBAR (IN if)
+                  (S
+                    (NP (PRP you))
+                    (VP (VBP are)
+                      (NP (DT a) (NN pessimist))))))
+              (, ,))))))))
+
+
+poss(response-2, your-1)
+nsubj(is-6, response-2)
+prep(response-2, to-3)
+amod(things-5, such-4)
+pobj(to-3, things-5)
+root(ROOT-0, is-6)
+aux(go-9, to-7)
+advmod(go-9, quickly-8)
+xcomp(is-6, go-9)
+cc(go-9, and-10)
+conj(go-9, find-11)
+prt(find-11, out-12)
+mark(true-17, if-13)
+nsubj(true-17, it-14)
+advmod(true-17, really-15)
+cop(true-17, is-16)
+dep(find-11, true-17)
+cc(true-17, but-18)
+mark(pessimist-23, if-19)
+nsubj(pessimist-23, you-20)
+cop(pessimist-23, are-21)
+det(pessimist-23, a-22)
+conj(true-17, pessimist-23)
+
+
+(ROOT
+  (S
+    (ADVP (RB then))
+    (NP (PRP you))
+    (VP (MD would)
+      (VP
+        (VP (VB sit)
+          (ADVP (RB back)))
+        (CC and)
+        (VP (VB mull)
+          (PP (IN over)
+            (NP (DT the) (NN thought)))
+          (SBAR (IN that)
+            (S
+              (NP (EX there))
+              (VP (VBP ai) (RB n't)
+                (NP
+                  (NP (DT no) (JJ such) (NN thing))
+                  (PP (IN as)
+                    (NP (DT a) (JJ free) (NN lunch))))))))))
+    (. .)))
+
+
+advmod(sit-4, then-1)
+nsubj(sit-4, you-2)
+aux(sit-4, would-3)
+root(ROOT-0, sit-4)
+advmod(sit-4, back-5)
+cc(sit-4, and-6)
+conj(sit-4, mull-7)
+prep(mull-7, over-8)
+det(thought-10, the-9)
+pobj(over-8, thought-10)
+mark(ai-13, that-11)
+expl(ai-13, there-12)
+ccomp(mull-7, ai-13)
+neg(ai-13, n't-14)
+det(thing-17, no-15)
+amod(thing-17, such-16)
+nsubj(ai-13, thing-17)
+prep(thing-17, as-18)
+det(lunch-21, a-19)
+amod(lunch-21, free-20)
+pobj(as-18, lunch-21)
+
+
+(ROOT
+  (SINV (RB So)
+    (VP (MD would)
+      (ADVP (RB you))
+      (VP (VB consider)
+        (NP (PRP yourself))))
+    (NP
+      (NP (DT an) (NN optimist)
+        (CC or)
+        (NN pessimist))
+      (SBAR (IN if)
+        (S
+          (NP (PRP I))
+          (VP (VBD were)
+            (S
+              (VP (TO to)
+                (VP (VB tell)
+                  (NP (PRP you))
+                  (SBAR (IN that)
+                    (S
+                      (NP (PRP you))
+                      (VP (MD can)
+                        (VP (VB get)
+                          (NP
+                            (NP (DT a) (NNP Wagyu) (NNP Shabu) (NNP Shabu))
+                            (PP (IN for)
+                              (NP (NNP $)))))))))))))))))
+
+
+advmod(consider-4, So-1)
+aux(consider-4, would-2)
+advmod(consider-4, you-3)
+root(ROOT-0, consider-4)
+dobj(consider-4, yourself-5)
+det(optimist-7, an-6)
+nsubj(consider-4, optimist-7)
+cc(optimist-7, or-8)
+conj(optimist-7, pessimist-9)
+mark(were-12, if-10)
+nsubj(were-12, I-11)
+dep(optimist-7, were-12)
+aux(tell-14, to-13)
+xcomp(were-12, tell-14)
+dobj(tell-14, you-15)
+mark(get-19, that-16)
+nsubj(get-19, you-17)
+aux(get-19, can-18)
+ccomp(tell-14, get-19)
+det(Shabu-23, a-20)
+nn(Shabu-23, Wagyu-21)
+nn(Shabu-23, Shabu-22)
+dobj(get-19, Shabu-23)
+prep(Shabu-23, for-24)
+pobj(for-24, $-25)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 15))
+    (. ?)))
+
+
+root(ROOT-0, 15-1)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ 's)
+      (NP
+        (NP (DT no) (NN bull))
+        (PRN (-LRB- -LRB-)
+          (NP
+            (NP (NN pun))
+            (VP (VBN intended)))
+          (-RRB- -RRB-))))
+    (, ,)))
+
+
+nsubj(bull-4, It-1)
+cop(bull-4, 's-2)
+det(bull-4, no-3)
+root(ROOT-0, bull-4)
+dep(bull-4, pun-6)
+partmod(pun-6, intended-7)
+
+
+(ROOT
+  (S
+    (NP (DT this) (NNP Wagyu) (NNP Shabu) (NNP Shabu))
+    (VP (VBZ is)
+      (VP (VBG going)
+        (PP (IN for)
+          (NP (NNP $)))))))
+
+
+det(Shabu-4, this-1)
+nn(Shabu-4, Wagyu-2)
+nn(Shabu-4, Shabu-3)
+nsubj(going-6, Shabu-4)
+aux(going-6, is-5)
+root(ROOT-0, going-6)
+prep(going-6, for-7)
+pobj(for-7, $-8)
+
+
+(ROOT
+  (NP (CD 15) (NN ,)))
+
+
+num(,-2, 15-1)
+
+
+(ROOT
+  (S (CC but)
+    (NP (EX there))
+    (VP (VBZ is)
+      (NP
+        (NP (CD one) (NN catch))
+        (: --)
+        (S
+          (NP (PRP you))
+          (VP (VBP have)
+            (S
+              (VP (TO to)
+                (VP (VB eat)
+                  (NP (PRP it))
+                  (PP (IN in)
+                    (NP (DT a) (NN coffee) (NN shop))))))))))
+    (. .)))
+
+
+cc(is-3, but-1)
+expl(is-3, there-2)
+root(ROOT-0, is-3)
+num(catch-5, one-4)
+nsubj(is-3, catch-5)
+nsubj(have-8, you-7)
+dep(catch-5, have-8)
+aux(eat-10, to-9)
+xcomp(have-8, eat-10)
+dobj(eat-10, it-11)
+prep(eat-10, in-12)
+det(shop-15, a-13)
+nn(shop-15, coffee-14)
+pobj(in-12, shop-15)
+
+
+(ROOT
+  (FRAG
+    (PP (IN ``)
+      (NP (NNP Phew)))
+    (, ,)))
+
+
+pobj(``-1, Phew-2)
+
+
+(ROOT
+  (S
+    (NP (DT that))
+    (VP (VBZ 's) (RB not)
+      (ADVP (RB too))
+      (ADJP (JJ bad))
+      ('' ''))
+    (, ,)))
+
+
+nsubj(bad-5, that-1)
+cop(bad-5, 's-2)
+neg(bad-5, not-3)
+advmod(bad-5, too-4)
+root(ROOT-0, bad-5)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (VBP hear)
+            (SBAR
+              (S
+                (NP (PRP you))
+                (VP (VBP say))))))))
+    (. .)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+nsubj(hear-4, I-3)
+ccomp(think-2, hear-4)
+nsubj(say-6, you-5)
+ccomp(hear-4, say-6)
+
+

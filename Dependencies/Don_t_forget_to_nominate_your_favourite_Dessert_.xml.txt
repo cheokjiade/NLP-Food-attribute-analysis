@@ -1,0 +1,78 @@
+(ROOT
+  (PP (IN In)
+    (NP
+      (NP (NN case))
+      (SBAR
+        (S
+          (NP (PRP you))
+          (VP (VBP have) (RB n't)
+            (ADVP (RB already))
+            (VP (VBN done)
+              (ADVP (RB so))))
+          (, ,))))))
+
+
+root(ROOT-0, In-1)
+pobj(In-1, case-2)
+nsubj(done-7, you-3)
+aux(done-7, have-4)
+neg(done-7, n't-5)
+advmod(done-7, already-6)
+rcmod(case-2, done-7)
+advmod(done-7, so-8)
+
+
+(ROOT
+  (S
+    (VP (VB please)
+      (VP (VB nominate)
+        (NP (PRP$ your) (JJ top) (CD 3) (JJ local) (NNS desserts))
+        (PP (IN by)
+          (S
+            (VP (VBG clicking)
+              (ADVP (RB here)))))))
+    (: :)))
+
+
+root(ROOT-0, please-1)
+xcomp(please-1, nominate-2)
+poss(desserts-7, your-3)
+amod(desserts-7, top-4)
+num(desserts-7, 3-5)
+amod(desserts-7, local-6)
+dobj(nominate-2, desserts-7)
+prep(nominate-2, by-8)
+pcomp(by-8, clicking-9)
+advmod(clicking-9, here-10)
+
+
+(ROOT
+  (S
+    (NP (NNS Nominations))
+    (ADVP (RB close)
+      (PP (IN on)
+        (NP
+          (NP (NNP Wednesday))
+          (CC and)
+          (NP (NN voting)))))
+    (VP (MD will)
+      (VP (VB begin)
+        (ADVP (RB shortly))
+        (PP (IN after)
+          (NP (DT that)))))
+    (. !)))
+
+
+nsubj(begin-8, Nominations-1)
+advmod(begin-8, close-2)
+prep(close-2, on-3)
+pobj(on-3, Wednesday-4)
+cc(Wednesday-4, and-5)
+conj(Wednesday-4, voting-6)
+aux(begin-8, will-7)
+root(ROOT-0, begin-8)
+advmod(begin-8, shortly-9)
+prep(begin-8, after-10)
+pobj(after-10, that-11)
+
+

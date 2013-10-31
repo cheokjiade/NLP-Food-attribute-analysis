@@ -1,0 +1,87 @@
+(ROOT
+  (NP
+    (NP (NNP Met))
+    (PP (IN with)
+      (NP (NNP Jill)
+        (CC and)
+        (NNP Terry)))
+    (SBAR
+      (WHNP
+        (ADVP (RB recently))
+        (WP who))
+      (S
+        (VP (VBP have)
+          (VP (VBN written)
+            (NP (DT a) (JJ wonderful) (NN article))
+            (PP (IN about)
+              (SBAR
+                (WHADVP (WRB how))
+                (S
+                  (NP (NNP Singapore) (NN food))
+                  (VP (VBZ is)
+                    (ADJP (VBG evolving))))))))))
+    (. .)))
+
+
+root(ROOT-0, Met-1)
+prep(Met-1, with-2)
+pobj(with-2, Jill-3)
+cc(Jill-3, and-4)
+conj(Jill-3, Terry-5)
+advmod(who-7, recently-6)
+nsubj(written-9, who-7)
+aux(written-9, have-8)
+rcmod(Met-1, written-9)
+det(article-12, a-10)
+amod(article-12, wonderful-11)
+dobj(written-9, article-12)
+prep(written-9, about-13)
+advmod(evolving-18, how-14)
+nn(food-16, Singapore-15)
+nsubj(evolving-18, food-16)
+cop(evolving-18, is-17)
+pcomp(about-13, evolving-18)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB read)
+        (NP (DT the) (JJ whole) (NN story))
+        (ADVP (RB HERE))))
+    (. .)))
+
+
+nsubj(read-3, You-1)
+aux(read-3, can-2)
+root(ROOT-0, read-3)
+det(story-6, the-4)
+amod(story-6, whole-5)
+dobj(read-3, story-6)
+advmod(read-3, HERE-7)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NN article))
+    (ADVP (RB also))
+    (VP (VBZ features)
+      (NP
+        (NP (DT some))
+        (PP (IN of)
+          (NP (PRP$ my) (NN food) (NNS photos)))))
+    (. !)))
+
+
+det(article-2, The-1)
+nsubj(features-4, article-2)
+advmod(features-4, also-3)
+root(ROOT-0, features-4)
+dobj(features-4, some-5)
+prep(some-5, of-6)
+poss(photos-9, my-7)
+nn(photos-9, food-8)
+pobj(of-6, photos-9)
+
+

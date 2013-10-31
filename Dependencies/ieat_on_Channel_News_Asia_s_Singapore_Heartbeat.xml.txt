@@ -1,0 +1,76 @@
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN case)))
+    (NP (PRP you))
+    (VP (VBD missed)
+      (NP
+        (NP (DT the) (NN episode))
+        (PP (IN of)
+          (NP
+            (NP (NNP Singapore) (NNP Heartbeat))
+            (, ,)))))))
+
+
+prep(missed-4, In-1)
+pobj(In-1, case-2)
+nsubj(missed-4, you-3)
+root(ROOT-0, missed-4)
+det(episode-6, the-5)
+dobj(missed-4, episode-6)
+prep(episode-6, of-7)
+nn(Heartbeat-9, Singapore-8)
+pobj(of-7, Heartbeat-9)
+
+
+(ROOT
+  (S
+    (ADVP (RB here))
+    (NP (PRP it))
+    (VP (VBZ is))
+    (. !)))
+
+
+advmod(is-3, here-1)
+nsubj(is-3, it-2)
+root(ROOT-0, is-3)
+
+
+(ROOT
+  (NP
+    (NP (JJ Many) (NNS Thanks))
+    (PP (TO to)
+      (NP
+        (NP (NNP Sen))
+        (PP (IN for)
+          (NP (DT the) (NN upload)))))
+    (: :)))
+
+
+amod(Thanks-2, Many-1)
+root(ROOT-0, Thanks-2)
+prep(Thanks-2, to-3)
+pobj(to-3, Sen-4)
+prep(Sen-4, for-5)
+det(upload-7, the-6)
+pobj(for-5, upload-7)
+
+
+(ROOT
+  (NP (NNP Part)))
+
+
+root(ROOT-0, Part-1)
+
+
+(ROOT
+  (NP (NNP I) (NNP Part) (NNP II) (NNP Part) (NNP III)))
+
+
+nn(III-5, I-1)
+nn(III-5, Part-2)
+nn(III-5, II-3)
+nn(III-5, Part-4)
+root(ROOT-0, III-5)
+
+

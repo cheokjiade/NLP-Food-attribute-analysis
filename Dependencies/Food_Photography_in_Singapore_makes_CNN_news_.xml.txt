@@ -1,0 +1,207 @@
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBD was)
+      (NP
+        (NP (DT the) (NN workshop))
+        (SBAR
+          (S
+            (NP (PRP we))
+            (VP (VBD did)
+              (NP (JJ last) (NN week))
+              (PP (IN at)
+                (NP (NNP Sichuan) (NNP DouHua) (NN restaurant))))))))
+    (. .)))
+
+
+nsubj(workshop-4, This-1)
+cop(workshop-4, was-2)
+det(workshop-4, the-3)
+root(ROOT-0, workshop-4)
+nsubj(did-6, we-5)
+rcmod(workshop-4, did-6)
+amod(week-8, last-7)
+tmod(did-6, week-8)
+prep(did-6, at-9)
+nn(restaurant-12, Sichuan-10)
+nn(restaurant-12, DouHua-11)
+pobj(at-9, restaurant-12)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NN newsclip))
+    (ADVP (RB first))
+    (VP (VBD aired)
+      (PP (IN on)
+        (NP
+          (NP (NNP CNN))
+          (PP (IN on)
+            (NP (CD 20)))))
+      (NP (NNP May) (CD 2011)))
+    (. .)))
+
+
+det(newsclip-2, The-1)
+nsubj(aired-4, newsclip-2)
+advmod(aired-4, first-3)
+root(ROOT-0, aired-4)
+prep(aired-4, on-5)
+pobj(on-5, CNN-6)
+prep(CNN-6, on-7)
+pobj(on-7, 20-8)
+tmod(aired-4, May-9)
+num(May-9, 2011-10)
+
+
+(ROOT
+  (SINV
+    (ADVP (RB Here))
+    (VP (VBP are))
+    (NP
+      (NP (DT some))
+      (PP (IN of)
+        (NP
+          (NP (DT the) (NNS photos))
+          (SBAR
+            (S
+              (NP (PRP I))
+              (VP (VBD took)
+                (PP (IN at)
+                  (NP (DT the) (NN workshop)))))))))
+    (: :)))
+
+
+advmod(are-2, Here-1)
+root(ROOT-0, are-2)
+nsubj(are-2, some-3)
+prep(some-3, of-4)
+det(photos-6, the-5)
+pobj(of-4, photos-6)
+nsubj(took-8, I-7)
+rcmod(photos-6, took-8)
+prep(took-8, at-9)
+det(workshop-11, the-10)
+pobj(at-9, workshop-11)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP High) (NNP Tea))
+      (PP (IN at)
+        (NP (NNP Sichuan) (NNP Douhua) (NNS costs))))
+    (ADJP (JJ $))))
+
+
+nn(Tea-2, High-1)
+dep($-7, Tea-2)
+prep(Tea-2, at-3)
+nn(costs-6, Sichuan-4)
+nn(costs-6, Douhua-5)
+pobj(at-3, costs-6)
+root(ROOT-0, $-7)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (CD 20) (JJ +) (NNS +))
+      (CC and)
+      (NP (PRP you)))
+    (VP (MD can)
+      (VP (VB get)
+        (NP (CD 8) (JJ different) (NN dim) (NN sum))
+        (PP (IN with)
+          (NP (NN tea) (NN pairing)))))
+    (. .)))
+
+
+num(+-3, 20-1)
+amod(+-3, +-2)
+nsubj(get-7, +-3)
+cc(+-3, and-4)
+conj(+-3, you-5)
+aux(get-7, can-6)
+root(ROOT-0, get-7)
+num(sum-11, 8-8)
+amod(sum-11, different-9)
+nn(sum-11, dim-10)
+dobj(get-7, sum-11)
+prep(get-7, with-12)
+nn(pairing-14, tea-13)
+pobj(with-12, pairing-14)
+
+
+(ROOT
+  (NP
+    (NP (JJ Many) (NNS thanks))
+    (PP (TO to)
+      (NP
+        (NP (NNP Linda))
+        (PP (IN for)
+          (S
+            (VP (VBG helping)
+              (S
+                (VP (TO to)
+                  (VP (VB arrange)
+                    (PP (IN for)
+                      (NP (DT the) (NN food) (NN photography) (NN workshop)))))))))))
+    (. !)))
+
+
+amod(thanks-2, Many-1)
+root(ROOT-0, thanks-2)
+prep(thanks-2, to-3)
+pobj(to-3, Linda-4)
+prep(Linda-4, for-5)
+pcomp(for-5, helping-6)
+aux(arrange-8, to-7)
+xcomp(helping-6, arrange-8)
+prep(arrange-8, for-9)
+det(workshop-13, the-10)
+nn(workshop-13, food-11)
+nn(workshop-13, photography-12)
+pobj(for-9, workshop-13)
+
+
+(ROOT
+  (NP
+    (NP (NNP Sichuan) (NNP DouHua))
+    (NP (NNP Restaurant) (NNP UOB) (NNP Plaza) (, ,))))
+
+
+nn(DouHua-2, Sichuan-1)
+root(ROOT-0, DouHua-2)
+nn(Plaza-5, Restaurant-3)
+nn(Plaza-5, UOB-4)
+dep(DouHua-2, Plaza-5)
+
+
+(ROOT
+  (S
+    (NP (CD 80) (NNS Raffles))
+    (VP (VBZ Place))
+    (, ,)))
+
+
+num(Raffles-2, 80-1)
+nsubj(Place-3, Raffles-2)
+root(ROOT-0, Place-3)
+
+
+(ROOT
+  (NP
+    (NP (NN level))
+    (NP
+      (NP
+        (QP (CD 60) (CD 65356006)))
+      (NP (NNP Website)))))
+
+
+root(ROOT-0, level-1)
+number(65356006-3, 60-2)
+dep(level-1, 65356006-3)
+dep(65356006-3, Website-4)
+
+

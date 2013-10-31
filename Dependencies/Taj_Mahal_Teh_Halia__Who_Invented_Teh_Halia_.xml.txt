@@ -1,0 +1,864 @@
+(ROOT
+  (S
+    (NP (NN Nothing) (RB quite))
+    (VP (VBP like)
+      (S
+        (NP
+          (NP (DT a) (NN cup))
+          (PP (IN of)
+            (NP (JJ hot) (NNP Teh) (NNP Halia))))
+        (VP (TO to)
+          (VP (VB wash)
+            (PRT (RP down))
+            (NP (PDT all) (DT that) (NN oil))
+            (PP (IN after)
+              (S
+                (VP (VBG eating)
+                  (NP (NN stuff))
+                  (PP (IN like)
+                    (NP
+                      (NP (NNP Nasi) (NNP Lemak))
+                      (CC and)
+                      (NP (NNP Nasi) (NNP Briyani)))))))))))
+    (. .)))
+
+
+nsubj(like-3, Nothing-1)
+advmod(Nothing-1, quite-2)
+root(ROOT-0, like-3)
+det(cup-5, a-4)
+nsubj(wash-11, cup-5)
+prep(cup-5, of-6)
+amod(Halia-9, hot-7)
+nn(Halia-9, Teh-8)
+pobj(of-6, Halia-9)
+aux(wash-11, to-10)
+xcomp(like-3, wash-11)
+prt(wash-11, down-12)
+predet(oil-15, all-13)
+det(oil-15, that-14)
+dobj(wash-11, oil-15)
+prep(wash-11, after-16)
+pcomp(after-16, eating-17)
+dobj(eating-17, stuff-18)
+prep(eating-17, like-19)
+nn(Lemak-21, Nasi-20)
+pobj(like-19, Lemak-21)
+cc(Lemak-21, and-22)
+nn(Briyani-24, Nasi-23)
+conj(Lemak-21, Briyani-24)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNP Tannin))
+      (PP (IN in)
+        (NP (NNP Tea))))
+    (VP (VBZ acts)
+      (PP (IN as)
+        (NP (DT an) (NN astringent)))
+      (S
+        (VP (TO to)
+          (VP (VB wash)
+            (PRT (RP down))
+            (NP (DT the) (NNS flavors)))))
+      (, ,))))
+
+
+det(Tannin-2, The-1)
+nsubj(acts-5, Tannin-2)
+prep(Tannin-2, in-3)
+pobj(in-3, Tea-4)
+root(ROOT-0, acts-5)
+prep(acts-5, as-6)
+det(astringent-8, an-7)
+pobj(as-6, astringent-8)
+aux(wash-10, to-9)
+xcomp(acts-5, wash-10)
+prt(wash-10, down-11)
+det(flavors-13, the-12)
+dobj(wash-10, flavors-13)
+
+
+(ROOT
+  (S
+    (NP (DT the)
+      (ADJP (JJ fat)
+        (PP (IN in)
+          (NP (DT the) (NN milk)))))
+    (VP (VBZ binds)
+      (PP (TO to)
+        (NP
+          (NP (NN capsaicin))
+          (PRN (-LRB- -LRB-)
+            (NP
+              (NP (DT the) (NN substance))
+              (PP (IN in)
+                (NP
+                  (NP (NNS chilli))
+                  (SBAR
+                    (WHNP (WDT that))
+                    (S
+                      (VP (VBZ causes)
+                        (NP (DT that) (VBG burning) (NN sensation))))))))
+            (-RRB- -RRB-))
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (VBZ eases)
+                (NP (DT the) (NN heat))))))))
+    (, ,)))
+
+
+det(fat-2, the-1)
+nsubj(binds-6, fat-2)
+prep(fat-2, in-3)
+det(milk-5, the-4)
+pobj(in-3, milk-5)
+root(ROOT-0, binds-6)
+prep(binds-6, to-7)
+pobj(to-7, capsaicin-8)
+det(substance-11, the-10)
+dep(capsaicin-8, substance-11)
+prep(substance-11, in-12)
+pobj(in-12, chilli-13)
+nsubj(causes-15, that-14)
+rcmod(chilli-13, causes-15)
+det(sensation-18, that-16)
+amod(sensation-18, burning-17)
+dobj(causes-15, sensation-18)
+nsubj(eases-21, which-20)
+rcmod(capsaicin-8, eases-21)
+det(heat-23, the-22)
+dobj(eases-21, heat-23)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NN sugar))
+    (VP (VBZ triggers)
+      (NP
+        (NP (NN release))
+        (PP (IN of)
+          (NP
+            (NP (NNS substances))
+            (PP (IN from)
+              (NP
+                (NP (DT the) (NN tongue))
+                (SBAR
+                  (WHNP (WDT which))
+                  (S
+                    (ADVP (RB also))
+                    (VP (VBZ eases)
+                      (SBAR
+                        (S
+                          (NP
+                            (NP (DT the) (NN burning) (NN sensation))
+                            (CC and)
+                            (NP (DT the) (NN ginger)))
+                          (VP
+                            (VP (VBZ helps)
+                              (PP (TO to)
+                                (NP (NN relief) (NNS bloatedness))))
+                            (CC and)
+                            (VP (VBZ aids)
+                              (NP (NN digestion)))))))))))))))
+    (. .)))
+
+
+det(sugar-2, the-1)
+nsubj(triggers-3, sugar-2)
+root(ROOT-0, triggers-3)
+dobj(triggers-3, release-4)
+prep(release-4, of-5)
+pobj(of-5, substances-6)
+prep(substances-6, from-7)
+det(tongue-9, the-8)
+pobj(from-7, tongue-9)
+nsubj(eases-12, which-10)
+advmod(eases-12, also-11)
+rcmod(tongue-9, eases-12)
+det(sensation-15, the-13)
+nn(sensation-15, burning-14)
+nsubj(helps-19, sensation-15)
+cc(sensation-15, and-16)
+det(ginger-18, the-17)
+conj(sensation-15, ginger-18)
+ccomp(eases-12, helps-19)
+prep(helps-19, to-20)
+nn(bloatedness-22, relief-21)
+pobj(to-20, bloatedness-22)
+cc(helps-19, and-23)
+conj(helps-19, aids-24)
+dobj(aids-24, digestion-25)
+
+
+(ROOT
+  (INTJ (UH Wow) (. !)))
+
+
+root(ROOT-0, Wow-1)
+
+
+(ROOT
+  (SBARQ
+    (WHNP (WDT Which)
+      (ADJP (JJ brilliant))
+      (NN fellow))
+    (SQ
+      (VP (VBD came)
+        (PRT (RP up))
+        (PP (IN with)
+          (NP
+            (NP (DT this) (NN wonder))
+            (`` ``)
+            (PP (IN after)
+              (NP (PRP$ your) (JJ spicy) (NN dinner) ('' '') (NN drink)))))))
+    (. ?)))
+
+
+det(fellow-3, Which-1)
+amod(fellow-3, brilliant-2)
+nsubj(came-4, fellow-3)
+root(ROOT-0, came-4)
+prt(came-4, up-5)
+prep(came-4, with-6)
+det(wonder-8, this-7)
+pobj(with-6, wonder-8)
+prep(wonder-8, after-10)
+poss(drink-15, your-11)
+amod(drink-15, spicy-12)
+nn(drink-15, dinner-13)
+pobj(after-10, drink-15)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP do) (RB n't)
+      (VP (VB know)
+        (WHNP (WP who))))
+    (, ,)))
+
+
+nsubj(know-4, We-1)
+aux(know-4, do-2)
+neg(know-4, n't-3)
+root(ROOT-0, know-4)
+dobj(know-4, who-5)
+
+
+(ROOT
+  (S (CC but)
+    (NP (PRP we))
+    (ADVP (RB certainly))
+    (VP (MD can)
+      (VP (VB say)
+        (SBAR (IN that)
+          (S
+            (NP (NNP Teh) (NNP Halia))
+            (ADVP (RB ultimately))
+            (VP (VBZ has)
+              (NP (PRP$ its) (NNS origins))
+              (PP (IN in)
+                (NP (NNP China))))))))
+    (. .)))
+
+
+cc(say-5, but-1)
+nsubj(say-5, we-2)
+advmod(say-5, certainly-3)
+aux(say-5, can-4)
+root(ROOT-0, say-5)
+mark(has-10, that-6)
+nn(Halia-8, Teh-7)
+nsubj(has-10, Halia-8)
+advmod(has-10, ultimately-9)
+ccomp(say-5, has-10)
+poss(origins-12, its-11)
+dobj(has-10, origins-12)
+prep(has-10, in-13)
+pobj(in-13, China-14)
+
+
+(ROOT
+  (SQ
+    (VP (VB Huh))
+    (. ?)))
+
+
+root(ROOT-0, Huh-1)
+
+
+(ROOT
+  (NP (CD Kidding) (RB right) (. ?)))
+
+
+root(ROOT-0, Kidding-1)
+advmod(Kidding-1, right-2)
+
+
+(ROOT
+  (FRAG
+    (PP
+      (NP (NNP No))
+      (PP (RB not)
+        (ADVP (RB really))))
+    (, ,)))
+
+
+dep(not-2, No-1)
+root(ROOT-0, not-2)
+dep(not-2, really-3)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBD said)
+        (ADVP (RB ultimately))
+        (SBAR (IN because)
+          (S
+            (NP
+              (NP (DT the) (NN origin))
+              (PP (IN of)
+                (NP (NNP Tea))))
+            (VP (VBZ is)
+              (PP (IN from)
+                (NP (NNP China) (NNS whiles))))))))
+    (NP (NN ginger))
+    (VP (VBZ is)
+      (ADJP (JJ native)
+        (PP (TO to)
+          (NP (DT both) (NNP China)
+            (CC and)
+            (NNP India)))))
+    (. .)))
+
+
+nsubj(said-2, I-1)
+dep(native-15, said-2)
+advmod(said-2, ultimately-3)
+mark(is-9, because-4)
+det(origin-6, the-5)
+nsubj(is-9, origin-6)
+prep(origin-6, of-7)
+pobj(of-7, Tea-8)
+advcl(said-2, is-9)
+prep(is-9, from-10)
+nn(whiles-12, China-11)
+pobj(from-10, whiles-12)
+nsubj(native-15, ginger-13)
+cop(native-15, is-14)
+root(ROOT-0, native-15)
+prep(native-15, to-16)
+preconj(China-18, both-17)
+pobj(to-16, China-18)
+cc(China-18, and-19)
+conj(China-18, India-20)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Of)
+      (NP (NN course)))
+    (, ,)))
+
+
+root(ROOT-0, Of-1)
+pobj(Of-1, course-2)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (VBD was)
+      (NP
+        (NP (DT the) (JJ British) (NNS traders))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBD smuggled)
+              (NP
+                (NP (DT the) (NNP Tea) (NN plant))
+                (PP (RB out) (IN of)
+                  (NP (NNP China))))
+              (PP (TO to)
+                (NP (NNP India)))
+              (S
+                (VP (TO to)
+                  (VP (VB start)
+                    (NP (PRP$ their) (JJ own) (NN tea) (NN plantation))))))))))
+    (. .)))
+
+
+nsubj(traders-5, it-1)
+cop(traders-5, was-2)
+det(traders-5, the-3)
+amod(traders-5, British-4)
+root(ROOT-0, traders-5)
+nsubj(smuggled-7, that-6)
+rcmod(traders-5, smuggled-7)
+det(plant-10, the-8)
+nn(plant-10, Tea-9)
+dobj(smuggled-7, plant-10)
+advmod(of-12, out-11)
+prep(plant-10, of-12)
+pobj(of-12, China-13)
+prep(smuggled-7, to-14)
+pobj(to-14, India-15)
+aux(start-17, to-16)
+xcomp(smuggled-7, start-17)
+poss(plantation-21, their-18)
+amod(plantation-21, own-19)
+nn(plantation-21, tea-20)
+dobj(start-17, plantation-21)
+
+
+(ROOT
+  (S
+    (NP (PRP$ Their) (NN attempt)
+      (S
+        (VP (TO to)
+          (VP (VB ease)
+            (NP
+              (NP (DT the) (NN trade) (NN deficit))
+              (VP (VBN caused)
+                (PP (IN by)
+                  (NP
+                    (NP (RB too) (JJ many) (NNPS Britons))
+                    (VP (VBG liking)
+                      (NP
+                        (NP (NNP Tea))
+                        (CC and)
+                        (RB too)
+                        (NP (JJ little) (JJ Chinese) (NN liking) (NN anything) (NNP English))))))))))))
+    (VP (VBZ is)
+      (NP (DT the) (NN reason))
+      (SBAR (IN that)
+        (S
+          (NP (NNP Tea))
+          (VP (VBD became)
+            (NP (DT a) (JJ popular) (NN drink))
+            (PP (IN in)
+              (NP (NNP India)))))))
+    (. .)))
+
+
+poss(attempt-2, Their-1)
+nsubj(reason-24, attempt-2)
+aux(ease-4, to-3)
+infmod(attempt-2, ease-4)
+det(deficit-7, the-5)
+nn(deficit-7, trade-6)
+dobj(ease-4, deficit-7)
+partmod(deficit-7, caused-8)
+prep(caused-8, by-9)
+advmod(Britons-12, too-10)
+amod(Britons-12, many-11)
+pobj(by-9, Britons-12)
+partmod(Britons-12, liking-13)
+dobj(liking-13, Tea-14)
+cc(Tea-14, and-15)
+advmod(Tea-14, too-16)
+amod(English-21, little-17)
+amod(English-21, Chinese-18)
+nn(English-21, liking-19)
+nn(English-21, anything-20)
+dep(Tea-14, English-21)
+cop(reason-24, is-22)
+det(reason-24, the-23)
+root(ROOT-0, reason-24)
+mark(drink-30, that-25)
+nsubj(drink-30, Tea-26)
+cop(drink-30, became-27)
+det(drink-30, a-28)
+amod(drink-30, popular-29)
+ccomp(reason-24, drink-30)
+prep(drink-30, in-31)
+pobj(in-31, India-32)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB However))
+    (ADVP (RB ,))))
+
+
+root(ROOT-0, However-1)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NN word) (NN Halia))
+    (ADVP (RB though))
+    (VP (VBZ has)
+      (NP (JJ Indonesian) (NNS origins)))
+    (. .)))
+
+
+det(Halia-3, the-1)
+nn(Halia-3, word-2)
+nsubj(has-5, Halia-3)
+advmod(has-5, though-4)
+root(ROOT-0, has-5)
+amod(origins-7, Indonesian-6)
+dobj(has-5, origins-7)
+
+
+(ROOT
+  (S (IN So)
+    (NP (PRP it))
+    (VP (MD could)
+      (VP (VB be)
+        (SBAR (IN that)
+          (S
+            (ADVP (RB somehow))
+            (NP
+              (NP (DT the) (NN concept))
+              (PP (IN of)
+                (NP (DT the) (NN milk) (NN tea))))
+            (VP (VBD made)
+              (NP (PRP$ its) (NN way))
+              (PP (IN from)
+                (NP (NNP India)))
+              (PP
+                (PP (TO to)
+                  (NP (NNP Indonesia)))
+                (CC and)
+                (PP
+                  (ADVP (RB ultimately))
+                  (TO to)
+                  (NP (NNP Singapore)))))))))
+    (. .)))
+
+
+dep(be-4, So-1)
+nsubj(be-4, it-2)
+aux(be-4, could-3)
+root(ROOT-0, be-4)
+mark(made-13, that-5)
+advmod(made-13, somehow-6)
+det(concept-8, the-7)
+nsubj(made-13, concept-8)
+prep(concept-8, of-9)
+det(tea-12, the-10)
+nn(tea-12, milk-11)
+pobj(of-9, tea-12)
+ccomp(be-4, made-13)
+poss(way-15, its-14)
+dobj(made-13, way-15)
+prep(made-13, from-16)
+pobj(from-16, India-17)
+prep(made-13, to-18)
+pobj(to-18, Indonesia-19)
+cc(to-18, and-20)
+advmod(to-22, ultimately-21)
+conj(to-18, to-22)
+pobj(to-22, Singapore-23)
+
+
+(ROOT
+  (S
+    (NP (DT This) (NN part) (NN I))
+    (VP (VBP am)
+      (ADVP (RB only))
+      (VP (VBG guessing)))
+    (, ,)))
+
+
+det(I-3, This-1)
+nn(I-3, part-2)
+nsubj(guessing-6, I-3)
+aux(guessing-6, am-4)
+advmod(guessing-6, only-5)
+root(ROOT-0, guessing-6)
+
+
+(ROOT
+  (S (IN so)
+    (ADVP (RB maybe))
+    (NP (DT some) (NNS experts))
+    (VP (MD can)
+      (VP (VB tell)
+        (NP (PRP us))
+        (NP
+          (NP (DT the) (JJ exact) (NNS origins))
+          (PP (IN of)
+            (NP (NNP Teh) (NNP Halia))))))
+    (. ?)))
+
+
+dep(tell-6, so-1)
+advmod(tell-6, maybe-2)
+det(experts-4, some-3)
+nsubj(tell-6, experts-4)
+aux(tell-6, can-5)
+root(ROOT-0, tell-6)
+iobj(tell-6, us-7)
+det(origins-10, the-8)
+amod(origins-10, exact-9)
+dobj(tell-6, origins-10)
+prep(origins-10, of-11)
+nn(Halia-13, Teh-12)
+pobj(of-11, Halia-13)
+
+
+(ROOT
+  (S
+    (ADVP (RB Anyway))
+    (NP (PRP I))
+    (VP (VBZ digress))
+    (. .)))
+
+
+advmod(digress-3, Anyway-1)
+nsubj(digress-3, I-2)
+root(ROOT-0, digress-3)
+
+
+(ROOT
+  (S
+    (NP (WP What))
+    (VP (VBD got)
+      (SBAR
+        (S
+          (NP (PRP$ my) (NN attention))
+          (VP (VBD was)
+            (NP
+              (NP (DT the) (JJ continuous) (NN queue))
+              (PP (IN of)
+                (NP
+                  (NP (NNS people))
+                  (PP (IN outside)
+                    (NP
+                      (NP (DT this) (NNP Teh) (NNP Halia) (NN stall))
+                      (PP (IN at)
+                        (NP (NNP Adam) (NNP Road) (NNP Food) (NNP Centre))))))))))))
+    (. .)))
+
+
+nsubj(got-2, What-1)
+root(ROOT-0, got-2)
+poss(attention-4, my-3)
+nsubj(queue-8, attention-4)
+cop(queue-8, was-5)
+det(queue-8, the-6)
+amod(queue-8, continuous-7)
+ccomp(got-2, queue-8)
+prep(queue-8, of-9)
+pobj(of-9, people-10)
+prep(people-10, outside-11)
+det(stall-15, this-12)
+nn(stall-15, Teh-13)
+nn(stall-15, Halia-14)
+pobj(outside-11, stall-15)
+prep(stall-15, at-16)
+nn(Centre-20, Adam-17)
+nn(Centre-20, Road-18)
+nn(Centre-20, Food-19)
+pobj(at-16, Centre-20)
+
+
+(ROOT
+  (S (IN So)
+    (NP (PRP I))
+    (VP (VBD decided)
+      (S
+        (VP (TO to)
+          (VP (VB try)
+            (NP (PRP it))))))
+    (. .)))
+
+
+dep(decided-3, So-1)
+nsubj(decided-3, I-2)
+root(ROOT-0, decided-3)
+aux(try-5, to-4)
+xcomp(decided-3, try-5)
+dobj(try-5, it-6)
+
+
+(ROOT
+  (S
+    (NP (DT This) (JJ particular) (NNP Teh) (NNP Halia))
+    (VP (VBD was)
+      (ADJP (RB surprisingly) (JJ refreshing)))
+    (. .)))
+
+
+det(Halia-4, This-1)
+amod(Halia-4, particular-2)
+nn(Halia-4, Teh-3)
+nsubj(refreshing-7, Halia-4)
+cop(refreshing-7, was-5)
+advmod(refreshing-7, surprisingly-6)
+root(ROOT-0, refreshing-7)
+
+
+(ROOT
+  (PP (IN Unlike)
+    (NP (JJ other) (NNP Teh) (NNPS Halias))))
+
+
+root(ROOT-0, Unlike-1)
+amod(Halias-4, other-2)
+nn(Halias-4, Teh-3)
+pobj(Unlike-1, Halias-4)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (VP (VBN tasted)
+        (ADVP (RB before))))
+    (, ,)))
+
+
+nsubj(tasted-3, I-1)
+aux(tasted-3, have-2)
+root(ROOT-0, tasted-3)
+advmod(tasted-3, before-4)
+
+
+(ROOT
+  (S
+    (NP (DT this) (NN one))
+    (VP
+      (VP (VBD was)
+        (ADJP (RB not) (RB overly) (JJ milky)))
+      (CC and)
+      (VP (VBD had)
+        (NP
+          (NP (DT a) (JJ good) (NN balance))
+          (PP (IN of)
+            (NP (NN ginger)
+              (CC and)
+              (NN tea) (NNS flavors))))))
+    (. .)))
+
+
+det(one-2, this-1)
+nsubj(milky-6, one-2)
+cop(milky-6, was-3)
+neg(milky-6, not-4)
+advmod(milky-6, overly-5)
+root(ROOT-0, milky-6)
+cc(milky-6, and-7)
+conj(milky-6, had-8)
+det(balance-11, a-9)
+amod(balance-11, good-10)
+dobj(had-8, balance-11)
+prep(balance-11, of-12)
+nn(flavors-16, ginger-13)
+cc(ginger-13, and-14)
+conj(ginger-13, tea-15)
+pobj(of-12, flavors-16)
+
+
+(ROOT
+  (NP
+    (NP (NNP Perfect))
+    (PP (IN for)
+      (S
+        (VP (VBG washing)
+          (PRT (RP down))
+          (NP (PDT all)
+            (NP (DT that) (NN oil))
+            (CC and)
+            (NP (NNS spices))))))
+    (. !)))
+
+
+root(ROOT-0, Perfect-1)
+prep(Perfect-1, for-2)
+pcomp(for-2, washing-3)
+prt(washing-3, down-4)
+dep(oil-7, all-5)
+det(oil-7, that-6)
+dobj(washing-3, oil-7)
+cc(oil-7, and-8)
+conj(oil-7, spices-9)
+
+
+(ROOT
+  (NP
+    (NP (NNP Conclusion) (NNP Pretty))
+    (NP
+      (NP (JJ good) (NN cup))
+      (PP (IN of)
+        (NP (NNP Teh) (NNP Halia))))
+    (. !)))
+
+
+nn(Pretty-2, Conclusion-1)
+root(ROOT-0, Pretty-2)
+amod(cup-4, good-3)
+dep(Pretty-2, cup-4)
+prep(cup-4, of-5)
+nn(Halia-7, Teh-6)
+pobj(of-5, Halia-7)
+
+
+(ROOT
+  (SINV (RB So)
+    (VP (VBZ starts))
+    (NP
+      (NP (PRP$ my) (NN search))
+      (PP (IN for)
+        (NP
+          (NP (DT the) (JJ ultimate) (NNP Teh) (NNP Halia))
+          (PP (IN in)
+            (NP (NNP Singapore))))))
+    (. .)))
+
+
+advmod(starts-2, So-1)
+root(ROOT-0, starts-2)
+poss(search-4, my-3)
+nsubj(starts-2, search-4)
+prep(search-4, for-5)
+det(Halia-9, the-6)
+amod(Halia-9, ultimate-7)
+nn(Halia-9, Teh-8)
+pobj(for-5, Halia-9)
+prep(Halia-9, in-10)
+pobj(in-10, Singapore-11)
+
+
+(ROOT
+  (S
+    (NP (PRP$ Your) (NNS recommendations))
+    (VP (VBP please))
+    (. !)))
+
+
+poss(recommendations-2, Your-1)
+nsubj(please-3, recommendations-2)
+root(ROOT-0, please-3)
+
+
+(ROOT
+  (NP
+    (NP (NNP Taj) (NNP Mahal) (NNP Adam) (NNP Road))
+    (NP
+      (NP (NNP Food) (NNP Centre) (NNP Stall) (CD 15) (NNP Open))
+      (NP (CD 24) (NNS hours)))))
+
+
+nn(Road-4, Taj-1)
+nn(Road-4, Mahal-2)
+nn(Road-4, Adam-3)
+root(ROOT-0, Road-4)
+nn(Open-9, Food-5)
+nn(Open-9, Centre-6)
+nn(Open-9, Stall-7)
+num(Open-9, 15-8)
+dep(Road-4, Open-9)
+num(hours-11, 24-10)
+dep(Open-9, hours-11)
+
+

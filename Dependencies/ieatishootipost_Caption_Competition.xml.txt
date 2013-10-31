@@ -1,0 +1,206 @@
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBP am)
+        (VP (VBG designing)
+          (NP
+            (NP (DT a) (NN series))
+            (PP (IN of)
+              (NP (JJ ieatishootipost) (NNS Postcards)))))))
+    (CC and)
+    (S
+      (NP
+        (NP (PRP$ our) (NNS readers))
+        (PP (IN in)
+          (NP (DT the) (NN facebook) (NN fan) (NN page))))
+      (VP (VBP have)
+        (VP (VBN been)
+          (VP (VBN involved)
+            (PP (IN in)
+              (S
+                (VP (VBG coining)
+                  (NP (NNS captions))
+                  (PP (IN for)
+                    (NP (PRP them))))))))))
+    (. .)))
+
+
+nsubj(designing-3, I-1)
+aux(designing-3, am-2)
+root(ROOT-0, designing-3)
+det(series-5, a-4)
+dobj(designing-3, series-5)
+prep(series-5, of-6)
+amod(Postcards-8, ieatishootipost-7)
+pobj(of-6, Postcards-8)
+cc(designing-3, and-9)
+poss(readers-11, our-10)
+nsubjpass(involved-19, readers-11)
+prep(readers-11, in-12)
+det(page-16, the-13)
+nn(page-16, facebook-14)
+nn(page-16, fan-15)
+pobj(in-12, page-16)
+aux(involved-19, have-17)
+auxpass(involved-19, been-18)
+conj(designing-3, involved-19)
+prep(involved-19, in-20)
+pcomp(in-20, coining-21)
+dobj(coining-21, captions-22)
+prep(coining-21, for-23)
+pobj(for-23, them-24)
+
+
+(ROOT
+  (S
+    (NP (DT This) (JJ particular) (NN caption))
+    (VP (VBD was)
+      (VP (VBN coined)
+        (PP (IN by)
+          (NP (DT the) (NN winner) (NNP Alex) (NNP Ong)))))
+    (. .)))
+
+
+det(caption-3, This-1)
+amod(caption-3, particular-2)
+nsubjpass(coined-5, caption-3)
+auxpass(coined-5, was-4)
+root(ROOT-0, coined-5)
+prep(coined-5, by-6)
+det(Ong-10, the-7)
+nn(Ong-10, winner-8)
+nn(Ong-10, Alex-9)
+pobj(by-6, Ong-10)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP (PRP he))
+          (VP (VBD captured)
+            (NP (DT the) (NN expression))
+            (PP (IN on)
+              (NP
+                (NP (PRP$ our) (NN model) (POS 's))
+                (NN face)))
+            (PP (IN in)
+              (NP (CD five) (JJ simple) (NNS words)))))))
+    (. .)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+nsubj(captured-4, he-3)
+ccomp(think-2, captured-4)
+det(expression-6, the-5)
+dobj(captured-4, expression-6)
+prep(captured-4, on-7)
+poss(model-9, our-8)
+poss(face-11, model-9)
+possessive(model-9, 's-10)
+pobj(on-7, face-11)
+prep(captured-4, in-12)
+num(words-15, five-13)
+amod(words-15, simple-14)
+pobj(in-12, words-15)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (VBP have) (RB not)
+        (VP
+          (ADVP (RB yet))
+          (VBP join)
+          (NP (DT the) (JJ ieatishootipost) (NN fan) (NN page))))
+      (, ,))))
+
+
+mark(join-6, If-1)
+nsubj(join-6, you-2)
+aux(join-6, have-3)
+neg(join-6, not-4)
+advmod(join-6, yet-5)
+root(ROOT-0, join-6)
+det(page-10, the-7)
+amod(page-10, ieatishootipost-8)
+nn(page-10, fan-9)
+dobj(join-6, page-10)
+
+
+(ROOT
+  (SBARQ
+    (WHNP (WP what))
+    (SQ (VBP are)
+      (NP (PRP you))
+      (VP (VBG waiting)
+        (PP (IN for))))
+    (. ?)))
+
+
+dep(waiting-4, what-1)
+aux(waiting-4, are-2)
+nsubj(waiting-4, you-3)
+root(ROOT-0, waiting-4)
+prep(waiting-4, for-5)
+
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBZ is)
+      (NP
+        (NP (DT another) (NN caption) (NN competition))
+        (VP (VBG going)
+          (PRT (RP on))
+          (PP (IN with)
+            (NP (NNP Aston) (NNP Dining) (NNS vouchers)))
+          (S
+            (VP (TO to)
+              (VP (VB be)
+                (VP (VBN won))))))))
+    (. !)))
+
+
+expl(is-2, There-1)
+root(ROOT-0, is-2)
+det(competition-5, another-3)
+nn(competition-5, caption-4)
+nsubj(is-2, competition-5)
+partmod(competition-5, going-6)
+prt(going-6, on-7)
+prep(going-6, with-8)
+nn(vouchers-11, Aston-9)
+nn(vouchers-11, Dining-10)
+pobj(with-8, vouchers-11)
+aux(won-14, to-12)
+auxpass(won-14, be-13)
+xcomp(going-6, won-14)
+
+
+(ROOT
+  (S
+    (VP (VB Click)
+      (ADVP (RB here))
+      (S
+        (VP (TO to)
+          (VP (VB link)
+            (PP (TO to)
+              (NP (DT the) (NN fanpage)))))))
+    (. .)))
+
+
+root(ROOT-0, Click-1)
+advmod(Click-1, here-2)
+aux(link-4, to-3)
+xcomp(Click-1, link-4)
+prep(link-4, to-5)
+det(fanpage-7, the-6)
+pobj(to-5, fanpage-7)
+
+

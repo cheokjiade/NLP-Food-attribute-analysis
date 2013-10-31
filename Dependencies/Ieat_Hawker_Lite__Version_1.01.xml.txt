@@ -1,0 +1,112 @@
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJS latest) (NN version))
+      (PP (IN of)
+        (NP (DT the) (NNP ieat) (NNP Hawker) (NNP Lite) (NNP App))))
+    (VP (VBZ has)
+      (ADVP (RB just))
+      (VP (VBN been)
+        (VP (VBN released)
+          (PP (IN on)
+            (NP (NNP Appstore))))))
+    (. .)))
+
+
+det(version-3, The-1)
+amod(version-3, latest-2)
+nsubjpass(released-13, version-3)
+prep(version-3, of-4)
+det(App-9, the-5)
+nn(App-9, ieat-6)
+nn(App-9, Hawker-7)
+nn(App-9, Lite-8)
+pobj(of-4, App-9)
+aux(released-13, has-10)
+advmod(released-13, just-11)
+auxpass(released-13, been-12)
+root(ROOT-0, released-13)
+prep(released-13, on-14)
+pobj(on-14, Appstore-15)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP have)
+      (VP (VBN increased)
+        (NP
+          (NP (DT the) (NN number))
+          (PP (IN of)
+            (NP (JJ free) (NNS categories))))
+        (PP (TO to)
+          (NP (CD 34)))))
+    (, ,)))
+
+
+nsubj(increased-3, We-1)
+aux(increased-3, have-2)
+root(ROOT-0, increased-3)
+det(number-5, the-4)
+dobj(increased-3, number-5)
+prep(number-5, of-6)
+amod(categories-8, free-7)
+pobj(of-6, categories-8)
+prep(increased-3, to-9)
+pobj(to-9, 34-10)
+
+
+(ROOT
+  (S (IN so)
+    (ADVP (RB now))
+    (NP (PRP you))
+    (VP (MD can)
+      (VP (VB access)
+        (NP
+          (NP (DT the) (JJ full) (NN listing))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (JJS best) (JJ Hokkien) (NN Mee))
+              (PP (IN on)
+                (NP (NN town))))))))
+    (. !)))
+
+
+dep(access-5, so-1)
+advmod(access-5, now-2)
+nsubj(access-5, you-3)
+aux(access-5, can-4)
+root(ROOT-0, access-5)
+det(listing-8, the-6)
+amod(listing-8, full-7)
+dobj(access-5, listing-8)
+prep(listing-8, of-9)
+det(Mee-13, the-10)
+amod(Mee-13, best-11)
+amod(Mee-13, Hokkien-12)
+pobj(of-9, Mee-13)
+prep(Mee-13, on-14)
+pobj(on-14, town-15)
+
+
+(ROOT
+  (S
+    (NP (JJR More) (NNS details))
+    (VP (MD can)
+      (VP (VB be)
+        (VP (VBN found)
+          (PP (IN at)
+            (NP (DT this) (NN link))))))
+    (. !)))
+
+
+amod(details-2, More-1)
+nsubjpass(found-5, details-2)
+aux(found-5, can-3)
+auxpass(found-5, be-4)
+root(ROOT-0, found-5)
+prep(found-5, at-6)
+det(link-8, this-7)
+pobj(at-6, link-8)
+
+

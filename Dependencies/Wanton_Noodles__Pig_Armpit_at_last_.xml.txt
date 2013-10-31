@@ -1,0 +1,110 @@
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ My) (JJ first) (VBG blog) (NN post))
+      (PP (IN on)
+        (NP (DT this) (NN stall))))
+    (VP (VBD was)
+      (ADVP (RB way) (RB back))
+      (PP (IN in)
+        (NP (CD 2006))))
+    (. .)))
+
+
+poss(post-4, My-1)
+amod(post-4, first-2)
+amod(post-4, blog-3)
+nsubj(was-8, post-4)
+prep(post-4, on-5)
+det(stall-7, this-6)
+pobj(on-5, stall-7)
+root(ROOT-0, was-8)
+advmod(back-10, way-9)
+advmod(was-8, back-10)
+prep(was-8, in-11)
+pobj(in-11, 2006-12)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD went)
+      (PP (TO to)
+        (NP (DT the) (NN stall)))
+      (S
+        (VP (TO to)
+          (VP (VB try)
+            (NP
+              (NP (DT the) (JJ famous) (NN pig) (NN armpit))
+              (SBAR
+                (S
+                  (NP (NNP Charsiew))
+                  (VP (CC but)
+                    (VP (VBD was)
+                      (ADJP (RB too) (JJ late)))
+                    (CC and)
+                    (VP (VBD was)
+                      (VP (VBN given)
+                        (NP (PRP$ their) (NN grade))
+                        (NP
+                          (NP (NNP B) (NNP Charsiew))
+                          (ADVP (RB instead)))))))))))))
+    (. .)))
+
+
+nsubj(went-2, I-1)
+root(ROOT-0, went-2)
+prep(went-2, to-3)
+det(stall-5, the-4)
+pobj(to-3, stall-5)
+aux(try-7, to-6)
+xcomp(went-2, try-7)
+det(armpit-11, the-8)
+amod(armpit-11, famous-9)
+nn(armpit-11, pig-10)
+dobj(try-7, armpit-11)
+nsubj(late-16, Charsiew-12)
+cc(late-16, but-13)
+cop(late-16, was-14)
+advmod(late-16, too-15)
+rcmod(armpit-11, late-16)
+cc(late-16, and-17)
+auxpass(given-19, was-18)
+conj(late-16, given-19)
+poss(grade-21, their-20)
+dep(given-19, grade-21)
+nn(Charsiew-23, B-22)
+dobj(given-19, Charsiew-23)
+advmod(Charsiew-23, instead-24)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD vowed)
+      (SBAR (IN that)
+        (S
+          (NP (PRP I))
+          (VP (MD shall)
+            (VP (VB return)
+              (PP (IN for)
+                (NP (DT the) (NN pig) (NN armpit) (NNP Charsiew)))
+              (NP (CD one) (NN day)))))))
+    (: ...)))
+
+
+nsubj(vowed-2, I-1)
+root(ROOT-0, vowed-2)
+mark(return-6, that-3)
+nsubj(return-6, I-4)
+aux(return-6, shall-5)
+ccomp(vowed-2, return-6)
+prep(return-6, for-7)
+det(Charsiew-11, the-8)
+nn(Charsiew-11, pig-9)
+nn(Charsiew-11, armpit-10)
+pobj(for-7, Charsiew-11)
+num(day-13, one-12)
+tmod(return-6, day-13)
+
+

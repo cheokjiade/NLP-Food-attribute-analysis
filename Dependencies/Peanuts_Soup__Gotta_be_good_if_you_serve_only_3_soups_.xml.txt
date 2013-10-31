@@ -1,0 +1,342 @@
+(ROOT
+  (FRAG
+    (PP (IN Yes))
+    (, ,)))
+
+
+root(ROOT-0, Yes-1)
+
+
+(ROOT
+  (PP (IN in)
+    (NP
+      (NP (DT this) (NN day))
+      (CC and)
+      (NP
+        (NP (NN age))
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (NP (NN dessert) (NNS stalls))
+            (VP (VBP are)
+              (VP (VBG offering)
+                (NP
+                  (NP (DT a) (JJ wide) (NN variety))
+                  (PP (IN of)
+                    (NP (NNS desserts)))))))))
+      (, ,))))
+
+
+root(ROOT-0, in-1)
+det(day-3, this-2)
+pobj(in-1, day-3)
+cc(day-3, and-4)
+conj(day-3, age-5)
+advmod(offering-10, where-6)
+nn(stalls-8, dessert-7)
+nsubj(offering-10, stalls-8)
+aux(offering-10, are-9)
+rcmod(age-5, offering-10)
+det(variety-13, a-11)
+amod(variety-13, wide-12)
+dobj(offering-10, variety-13)
+prep(variety-13, of-14)
+pobj(of-14, desserts-15)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (VBZ takes)
+      (NP (DT a) (RB really) (JJ special) (NN stall))
+      (S
+        (VP (TO to)
+          (VP (VB offer)
+            (NP
+              (NP
+                (QP (RB just) (CD 3))
+                (NNS flavors))
+              (PP (IN of)
+                (NP (NN soup))))))))
+    (. .)))
+
+
+nsubj(takes-2, it-1)
+root(ROOT-0, takes-2)
+det(stall-6, a-3)
+advmod(stall-6, really-4)
+amod(stall-6, special-5)
+dobj(takes-2, stall-6)
+aux(offer-8, to-7)
+xcomp(takes-2, offer-8)
+quantmod(3-10, just-9)
+num(flavors-11, 3-10)
+dobj(offer-8, flavors-11)
+prep(flavors-11, of-12)
+pobj(of-12, soup-13)
+
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN fact)))
+    (NP (DT the) (NN stall))
+    (ADVP (RB only))
+    (VP (VBZ has)
+      (NP
+        (NP (CD 3) (NNS troughs))
+        (PP (IN in)
+          (NP (DT the) (NN display) (NN cabinet) (NN offering) (NN Peanut) (NN soup)))))
+    (, ,)))
+
+
+prep(has-6, In-1)
+pobj(In-1, fact-2)
+det(stall-4, the-3)
+nsubj(has-6, stall-4)
+advmod(has-6, only-5)
+root(ROOT-0, has-6)
+num(troughs-8, 3-7)
+dobj(has-6, troughs-8)
+prep(troughs-8, in-9)
+det(soup-15, the-10)
+nn(soup-15, display-11)
+nn(soup-15, cabinet-12)
+nn(soup-15, offering-13)
+nn(soup-15, Peanut-14)
+pobj(in-9, soup-15)
+
+
+(ROOT
+  (NP
+    (NP (NNP Red) (NNP Bean))
+    (PP (IN with)
+      (NP (NNP Brown) (NNP Rice) (NNP soup)
+        (CC and)
+        (NNP Tau) (NNP Suan)))
+    (. .)))
+
+
+nn(Bean-2, Red-1)
+root(ROOT-0, Bean-2)
+prep(Bean-2, with-3)
+nn(soup-6, Brown-4)
+nn(soup-6, Rice-5)
+pobj(with-3, soup-6)
+cc(soup-6, and-7)
+nn(Suan-9, Tau-8)
+conj(soup-6, Suan-9)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (ADVP (RB also))
+      (VP (VB add)
+        (NP (JJ glutinous) (NN rice) (NNS balls))
+        (SBAR (IN if)
+          (S
+            (NP (PRP you))
+            (VP (VBP like))))))
+    (. .)))
+
+
+nsubj(add-4, You-1)
+aux(add-4, can-2)
+advmod(add-4, also-3)
+root(ROOT-0, add-4)
+amod(balls-7, glutinous-5)
+nn(balls-7, rice-6)
+dobj(add-4, balls-7)
+mark(like-10, if-8)
+nsubj(like-10, you-9)
+advcl(add-4, like-10)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBD tried)
+        (NP (PDT both)
+          (NP (DT the) (NNP Peanut) (NNP Soup))
+          (CC and)
+          (NP (DT the) (NNP Red) (NNP Bean) (NNP Soup)))))
+    (CC and)
+    (S
+      (NP (PRP they))
+      (VP (VBD were)
+        (ADJP (DT both) (JJ excellent))))
+    (. .)))
+
+
+nsubj(tried-2, I-1)
+root(ROOT-0, tried-2)
+preconj(Soup-6, both-3)
+det(Soup-6, the-4)
+nn(Soup-6, Peanut-5)
+dobj(tried-2, Soup-6)
+cc(Soup-6, and-7)
+det(Soup-11, the-8)
+nn(Soup-11, Red-9)
+nn(Soup-11, Bean-10)
+conj(Soup-6, Soup-11)
+cc(tried-2, and-12)
+nsubj(excellent-16, they-13)
+cop(excellent-16, were-14)
+dep(excellent-16, both-15)
+conj(tried-2, excellent-16)
+
+
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NNP Peanuts))
+      (VP (VBD were)
+        (ADJP (RB fantastically) (JJ soft))))
+    (CC and)
+    (S
+      (NP (DT the) (NN soup))
+      (VP (VBD was)
+        (ADJP (JJ smooth)
+          (CC and)
+          (JJ full))
+        (PP (IN of)
+          (NP (JJ nutty) (NN aroma)))))
+    (. .)))
+
+
+det(Peanuts-2, The-1)
+nsubj(soft-5, Peanuts-2)
+cop(soft-5, were-3)
+advmod(soft-5, fantastically-4)
+root(ROOT-0, soft-5)
+cc(soft-5, and-6)
+det(soup-8, the-7)
+nsubj(smooth-10, soup-8)
+cop(smooth-10, was-9)
+conj(soft-5, smooth-10)
+cc(smooth-10, and-11)
+conj(smooth-10, full-12)
+prep(smooth-10, of-13)
+amod(aroma-15, nutty-14)
+pobj(of-13, aroma-15)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (CD One))
+      (PP (IN of)
+        (NP (DT the) (JJS best) (NN I))))
+    (VP (VBP have)
+      (VP (VBN tasted)))
+    (. .)))
+
+
+nsubj(tasted-7, One-1)
+prep(One-1, of-2)
+det(I-5, the-3)
+amod(I-5, best-4)
+pobj(of-2, I-5)
+aux(tasted-7, have-6)
+root(ROOT-0, tasted-7)
+
+
+(ROOT
+  (PP (VBG According)
+    (PP (TO to)
+      (NP
+        (NP (NNP Damien))
+        (, ,)))))
+
+
+root(ROOT-0, According-1)
+pcomp(According-1, to-2)
+pobj(to-2, Damien-3)
+
+
+(ROOT
+  (NP
+    (NP (DT the) (NNP Tau) (NNP Suan))
+    (NP
+      (ADVP (RB also))
+      (NP (CD one))
+      (PP (IN of)
+        (NP
+          (NP (DT the) (JJS best))
+          (ADVP (RB around)))))
+    (. .)))
+
+
+det(Suan-3, the-1)
+nn(Suan-3, Tau-2)
+root(ROOT-0, Suan-3)
+advmod(one-5, also-4)
+dep(Suan-3, one-5)
+prep(one-5, of-6)
+det(best-8, the-7)
+pobj(of-6, best-8)
+advmod(best-8, around-9)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (ADJP (RB too) (JJ bad)
+        (SBAR
+          (S
+            (NP (PRP they))
+            (VP (VBD sold)
+              (PRT (RP out))
+              (NP (DT that) (NN day)))))))
+    (. .)))
+
+
+nsubj(bad-4, It-1)
+cop(bad-4, was-2)
+advmod(bad-4, too-3)
+root(ROOT-0, bad-4)
+nsubj(sold-6, they-5)
+ccomp(bad-4, sold-6)
+prt(sold-6, out-7)
+det(day-9, that-8)
+tmod(sold-6, day-9)
+
+
+(ROOT
+  (S
+    (VP (VBN Got)
+      (S
+        (VP (TO to)
+          (VP (VB be)
+            (ADJP (RB really) (JJ good))
+            (SBAR (IN if)
+              (S
+                (NP (PRP you))
+                (ADVP (RB only))
+                (VP (VBD sold)
+                  (NP
+                    (NP (CD 3) (NNS flavors))
+                    (PP (IN of)
+                      (NP (NN soup)))))))))))
+    (. !)))
+
+
+root(ROOT-0, Got-1)
+aux(good-5, to-2)
+cop(good-5, be-3)
+advmod(good-5, really-4)
+xcomp(Got-1, good-5)
+mark(sold-9, if-6)
+nsubj(sold-9, you-7)
+advmod(sold-9, only-8)
+advcl(good-5, sold-9)
+num(flavors-11, 3-10)
+dobj(sold-9, flavors-11)
+prep(flavors-11, of-12)
+pobj(of-12, soup-13)
+
+

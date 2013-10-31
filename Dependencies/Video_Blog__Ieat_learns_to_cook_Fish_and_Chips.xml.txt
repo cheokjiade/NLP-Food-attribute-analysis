@@ -1,0 +1,360 @@
+(ROOT
+  (FRAG
+    (VP (VBD Did)
+      (SBAR
+        (S
+          (NP (PRP you))
+          (VP (VBP know)
+            (SBAR (IN that)
+              (S
+                (NP (DT this) (NN year))
+                (VP (VBZ marks)
+                  (NP
+                    (NP (DT the) (JJ 150th) (NN anniversary))
+                    (PP (IN of)
+                      (NP
+                        (NP (DT the) (NN invention))
+                        (PP (IN of)
+                          (NP (DT that) (JJ iconic) (JJ British) (NN dish))))))))))))
+      (, ,))))
+
+
+root(ROOT-0, Did-1)
+nsubj(know-3, you-2)
+ccomp(Did-1, know-3)
+mark(marks-7, that-4)
+det(year-6, this-5)
+nsubj(marks-7, year-6)
+ccomp(know-3, marks-7)
+det(anniversary-10, the-8)
+amod(anniversary-10, 150th-9)
+dobj(marks-7, anniversary-10)
+prep(anniversary-10, of-11)
+det(invention-13, the-12)
+pobj(of-11, invention-13)
+prep(invention-13, of-14)
+det(dish-18, that-15)
+amod(dish-18, iconic-16)
+amod(dish-18, British-17)
+pobj(of-14, dish-18)
+
+
+(ROOT
+  (FRAG
+    (NP
+      (NP (NN Fish))
+      (CC and)
+      (NP (NNP Chips)))
+    (. ?)))
+
+
+root(ROOT-0, Fish-1)
+cc(Fish-1, and-2)
+conj(Fish-1, Chips-3)
+
+
+(ROOT
+  (S
+    (SBAR (IN In) (NN order)
+      (S
+        (VP (TO to)
+          (VP (VB celebrate)))))
+    (NP (DT this) (NN simple))
+    (ADVP (RB yet))
+    (VP (VBZ undeniably)
+      (NP (JJ addictive) (JJ British) (NN fare)))
+    (, ,)))
+
+
+mark(celebrate-4, In-1)
+dep(celebrate-4, order-2)
+aux(celebrate-4, to-3)
+advcl(undeniably-8, celebrate-4)
+det(simple-6, this-5)
+nsubj(undeniably-8, simple-6)
+advmod(undeniably-8, yet-7)
+root(ROOT-0, undeniably-8)
+amod(fare-11, addictive-9)
+amod(fare-11, British-10)
+dobj(undeniably-8, fare-11)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (VP (VBN asked)
+        (NP (PRP$ our) (NN friend))))
+    (, ,)))
+
+
+nsubj(asked-3, I-1)
+aux(asked-3, have-2)
+root(ROOT-0, asked-3)
+poss(friend-5, our-4)
+dobj(asked-3, friend-5)
+
+
+(ROOT
+  (FRAG
+    (NP (NNP Chef) (NNP Tim))
+    (S
+      (VP (TO to)
+        (VP (VB show)
+          (NP (PRP us))
+          (SBAR
+            (WHADVP (WRB how))
+            (S
+              (VP (TO to)
+                (VP (VB make)
+                  (NP
+                    (NP (DT a)
+                      (ADJP (RB really) (JJ good))
+                      (NN fish))
+                    (CC and)
+                    (NP (NNS chips))))))))))
+    (. !)))
+
+
+nn(Tim-2, Chef-1)
+root(ROOT-0, Tim-2)
+aux(show-4, to-3)
+dep(Tim-2, show-4)
+dobj(show-4, us-5)
+advmod(make-8, how-6)
+aux(make-8, to-7)
+xcomp(show-4, make-8)
+det(fish-12, a-9)
+advmod(good-11, really-10)
+amod(fish-12, good-11)
+dobj(make-8, fish-12)
+cc(fish-12, and-13)
+conj(fish-12, chips-14)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NNS chips))
+    (VP
+      (VP (VBD were)
+        (ADJP (JJ excellent)))
+      (CC and)
+      (VP (VBZ has)
+        (NP (DT that) (JJ real) (NN potato) (NN taste))))
+    (, ,)))
+
+
+det(chips-2, The-1)
+nsubj(excellent-4, chips-2)
+cop(excellent-4, were-3)
+root(ROOT-0, excellent-4)
+cc(excellent-4, and-5)
+conj(excellent-4, has-6)
+det(taste-10, that-7)
+amod(taste-10, real-8)
+nn(taste-10, potato-9)
+dobj(has-6, taste-10)
+
+
+(ROOT
+  (S
+    (PP (IN unlike)
+      (NP
+        (NP (JJS most))
+        (PP (IN of)
+          (NP (DT the) (JJ frozen) (NNS chips)))))
+    (NP (DT that))
+    (VP (VBP are)
+      (VP (VBG being)
+        (VP (VBN served)
+          (PP (IN in)
+            (NP (NNS restaurants)))
+          (ADVP (RB nowadays)))))
+    (. .)))
+
+
+prep(served-10, unlike-1)
+pobj(unlike-1, most-2)
+prep(most-2, of-3)
+det(chips-6, the-4)
+amod(chips-6, frozen-5)
+pobj(of-3, chips-6)
+nsubjpass(served-10, that-7)
+aux(served-10, are-8)
+auxpass(served-10, being-9)
+root(ROOT-0, served-10)
+prep(served-10, in-11)
+pobj(in-11, restaurants-12)
+advmod(served-10, nowadays-13)
+
+
+(ROOT
+  (S (CC But)
+    (NP (DT the) (JJ real) (NN surprise))
+    (VP (VBZ is)
+      (NP
+        (NP
+          (NP (NNP Tim) (POS 's))
+          (NNP Beer) (NNP Batter))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBZ is)
+              (NP (DT the) (NN crunchiest))))
+          (, ,))))))
+
+
+cc(Batter-9, But-1)
+det(surprise-4, the-2)
+amod(surprise-4, real-3)
+nsubj(Batter-9, surprise-4)
+cop(Batter-9, is-5)
+poss(Batter-9, Tim-6)
+possessive(Tim-6, 's-7)
+nn(Batter-9, Beer-8)
+root(ROOT-0, Batter-9)
+nsubj(crunchiest-13, which-10)
+cop(crunchiest-13, is-11)
+det(crunchiest-13, the-12)
+rcmod(Batter-9, crunchiest-13)
+
+
+(ROOT
+  (S
+    (NP
+      (ADJP (RBS most) (JJ satisfying))
+      (NN fish) (NNP I))
+    (VP (VBP have)
+      (VP (VBN eaten)
+        (PP (IN for)
+          (NP (DT a) (JJ long) (NN while)))))
+    (. !)))
+
+
+advmod(satisfying-2, most-1)
+amod(I-4, satisfying-2)
+nn(I-4, fish-3)
+nsubj(eaten-6, I-4)
+aux(eaten-6, have-5)
+root(ROOT-0, eaten-6)
+prep(eaten-6, for-7)
+det(while-10, a-8)
+amod(while-10, long-9)
+pobj(for-7, while-10)
+
+
+(ROOT
+  (S
+    (NP (RB Here))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (NN recipe))
+        (PP (IN for)
+          (NP (JJ easy) (NN reference)))))
+    (. .)))
+
+
+nsubj(recipe-4, Here-1)
+cop(recipe-4, is-2)
+det(recipe-4, the-3)
+root(ROOT-0, recipe-4)
+prep(recipe-4, for-5)
+amod(reference-7, easy-6)
+pobj(for-5, reference-7)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Tim) (POS 's))
+      (NNP Beer) (NNP Batter) (NNP Recipe) (NNP Plain) (NNP Flour) (CD 200g) (NNP Rice) (NNP Flour) (CD 200g) (NNP Baking) (NNP Powder) (CD 1) (NNP tsp) (NNP Honey) (CD 1) (NNP Tblsp) (NNP Salt) (CD 1) (NN tsp) (NNS Water))
+    (VP (VBZ 100mls)
+      (NP
+        (NP (NNP Beer) (NNPS 500mls)
+          (PRN (-LRB- -LRB-)
+            (NP (NN ice) (NN cold))
+            (-RRB- -RRB-))
+          (NNP Hope))
+        (SBAR
+          (S
+            (NP (PRP you))
+            (VP (VBP enjoy)
+              (NP (DT the) (NNS videos)))))))
+    (. !)))
+
+
+poss(Water-22, Tim-1)
+possessive(Tim-1, 's-2)
+nn(Water-22, Beer-3)
+nn(Water-22, Batter-4)
+nn(Water-22, Recipe-5)
+nn(Water-22, Plain-6)
+nn(Water-22, Flour-7)
+num(Water-22, 200g-8)
+nn(Water-22, Rice-9)
+nn(Water-22, Flour-10)
+num(Water-22, 200g-11)
+nn(Water-22, Baking-12)
+nn(Water-22, Powder-13)
+num(Water-22, 1-14)
+nn(Water-22, tsp-15)
+nn(Water-22, Honey-16)
+num(Water-22, 1-17)
+nn(Water-22, Tblsp-18)
+nn(Water-22, Salt-19)
+num(Water-22, 1-20)
+nn(Water-22, tsp-21)
+nsubj(100mls-23, Water-22)
+root(ROOT-0, 100mls-23)
+nn(Hope-30, Beer-24)
+nn(Hope-30, 500mls-25)
+nn(cold-28, ice-27)
+appos(Hope-30, cold-28)
+dobj(100mls-23, Hope-30)
+nsubj(enjoy-32, you-31)
+rcmod(Hope-30, enjoy-32)
+det(videos-34, the-33)
+dobj(enjoy-32, videos-34)
+
+
+(ROOT
+  (S
+    (VP (VB Do)
+      (VP
+        (VP (VB write)
+          (PRT (RP in)))
+        (CC and)
+        (VP (VB let)
+          (S
+            (NP (PRP us))
+            (VP (VB know)
+              (SBAR
+                (WHADVP (WRB how))
+                (S
+                  (NP (PRP you))
+                  (VP (VBD went)
+                    (PP (IN with)
+                      (NP
+                        (NP (PRP$ your) (NN Fish))
+                        (CC and)
+                        (NP (NNP Chips))))))))))))
+    (. !)))
+
+
+aux(write-2, Do-1)
+root(ROOT-0, write-2)
+prt(write-2, in-3)
+cc(write-2, and-4)
+conj(write-2, let-5)
+nsubj(know-7, us-6)
+ccomp(let-5, know-7)
+advmod(went-10, how-8)
+nsubj(went-10, you-9)
+ccomp(know-7, went-10)
+prep(went-10, with-11)
+poss(Fish-13, your-12)
+pobj(with-11, Fish-13)
+cc(Fish-13, and-14)
+conj(Fish-13, Chips-15)
+
+

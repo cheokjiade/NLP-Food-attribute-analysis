@@ -1,0 +1,101 @@
+(ROOT
+  (SBARQ
+    (WHADVP (WRB Whenever))
+    (SQ
+      (NP (PRP you))
+      (VP (VB ask)
+        (PRT (RP around))
+        (PP (IN about)
+          (SBAR
+            (WHADVP (WRB where))
+            (S
+              (NP (DT the) (JJS best) (NN carrot) (NN cake))
+              (VP (VBZ is)))))
+        (, ,)))))
+
+
+advmod(ask-3, Whenever-1)
+nsubj(ask-3, you-2)
+root(ROOT-0, ask-3)
+prt(ask-3, around-4)
+prep(ask-3, about-5)
+advmod(is-11, where-6)
+det(cake-10, the-7)
+amod(cake-10, best-8)
+nn(cake-10, carrot-9)
+nsubj(is-11, cake-10)
+pcomp(about-5, is-11)
+
+
+(ROOT
+  (S
+    (ADVP (RB invariably))
+    (NP (NN someone))
+    (VP (MD will)
+      (VP (VB mention)
+        (NP (NNP Chey) (NNP Sua))))
+    (. .)))
+
+
+advmod(mention-4, invariably-1)
+nsubj(mention-4, someone-2)
+aux(mention-4, will-3)
+root(ROOT-0, mention-4)
+nn(Sua-6, Chey-5)
+dobj(mention-4, Sua-6)
+
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (NN fact)))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+pobj(In-1, fact-2)
+
+
+(ROOT
+  (FRAG
+    (PP (IN by)
+      (NP
+        (NP (DT the) (NN way) (NNS people) (NN talk))
+        (PP (IN about)
+          (NP (PRP it)))
+        (PP (IN in)
+          (NP (PRP$ our) (NN forum)))))
+    (, ,)))
+
+
+root(ROOT-0, by-1)
+det(talk-5, the-2)
+nn(talk-5, way-3)
+nn(talk-5, people-4)
+pobj(by-1, talk-5)
+prep(talk-5, about-6)
+pobj(about-6, it-7)
+prep(talk-5, in-8)
+poss(forum-10, our-9)
+pobj(in-8, forum-10)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT this) (NN stall) (POS 's))
+      (NN reputation))
+    (VP (VBZ is)
+      (ADJP (RB almost) (JJ legendary)))
+    (. .)))
+
+
+det(stall-2, this-1)
+poss(reputation-4, stall-2)
+possessive(stall-2, 's-3)
+nsubj(legendary-7, reputation-4)
+cop(legendary-7, is-5)
+advmod(legendary-7, almost-6)
+root(ROOT-0, legendary-7)
+
+

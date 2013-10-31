@@ -1,0 +1,180 @@
+(ROOT
+  (S
+    (NP (NNP Peramakan))
+    (VP (VBZ has)
+      (VP (VBN been)
+        (NP
+          (NP (PRP$ my) (JJ gold) (NN standard))
+          (PP (IN for)
+            (NP (NNP Peranakan) (NN food))))
+        (SBAR (IN since)
+          (S
+            (NP (PRP I))
+            (VP (VBD blogged)
+              (NP (PRP them))
+              (ADVP (RB back))
+              (SBAR
+                (WHADVP (WRB when))
+                (S
+                  (NP (PRP they))
+                  (VP (VBD were)
+                    (ADVP (RB still))
+                    (PP (IN in)
+                      (NP (NNP Joo) (NNP Chiat)))))))))))
+    (. .)))
+
+
+nsubj(standard-6, Peramakan-1)
+aux(standard-6, has-2)
+cop(standard-6, been-3)
+poss(standard-6, my-4)
+amod(standard-6, gold-5)
+root(ROOT-0, standard-6)
+prep(standard-6, for-7)
+nn(food-9, Peranakan-8)
+pobj(for-7, food-9)
+mark(blogged-12, since-10)
+nsubj(blogged-12, I-11)
+advcl(standard-6, blogged-12)
+dobj(blogged-12, them-13)
+advmod(blogged-12, back-14)
+advmod(were-17, when-15)
+nsubj(were-17, they-16)
+advcl(blogged-12, were-17)
+advmod(were-17, still-18)
+prep(were-17, in-19)
+nn(Chiat-21, Joo-20)
+pobj(in-19, Chiat-21)
+
+
+(ROOT
+  (S
+    (S
+      (PP (IN Since)
+        (NP (RB then)))
+      (NP (PRP they))
+      (VP (VBP 've)
+        (VP (VBN moved)
+          (PRT (RP over))
+          (PP (TO to)
+            (NP (NNP Keppel) (NNP Club))))))
+    (CC and)
+    (S
+      (NP (PRP I))
+      (VP (VBD heard)
+        (NP (NNS rumors))
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP (RB perhaps) (DT the) (NN standard))
+              (PP (IN of)
+                (NP (DT the) (NN food))))
+            (VP (VBD had)
+              (VP (VBN dropped)))))))
+    (. .)))
+
+
+prep(moved-5, Since-1)
+pobj(Since-1, then-2)
+nsubj(moved-5, they-3)
+aux(moved-5, 've-4)
+root(ROOT-0, moved-5)
+prt(moved-5, over-6)
+prep(moved-5, to-7)
+nn(Club-9, Keppel-8)
+pobj(to-7, Club-9)
+cc(moved-5, and-10)
+nsubj(heard-12, I-11)
+conj(moved-5, heard-12)
+dobj(heard-12, rumors-13)
+mark(dropped-22, that-14)
+advmod(standard-17, perhaps-15)
+det(standard-17, the-16)
+nsubj(dropped-22, standard-17)
+prep(standard-17, of-18)
+det(food-20, the-19)
+pobj(of-18, food-20)
+aux(dropped-22, had-21)
+ccomp(heard-12, dropped-22)
+
+
+(ROOT
+  (S (IN So)
+    (NP (PRP it))
+    (VP (VBZ is)
+      (NP (NN time)
+        (S
+          (VP (TO to)
+            (VP (VB revisit)
+              (S
+                (NP (PRP them))
+                (ADVP (RB again))
+                (VP (TO to)
+                  (VP (VB find)
+                    (PRT (RP out))
+                    (NP (DT the) (NN truth))))))))))
+    (. .)))
+
+
+dep(time-4, So-1)
+nsubj(time-4, it-2)
+cop(time-4, is-3)
+root(ROOT-0, time-4)
+aux(revisit-6, to-5)
+infmod(time-4, revisit-6)
+nsubj(find-10, them-7)
+advmod(find-10, again-8)
+aux(find-10, to-9)
+xcomp(revisit-6, find-10)
+prt(find-10, out-11)
+det(truth-13, the-12)
+dobj(find-10, truth-13)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ glad)
+        (PRN (-LRB- -LRB-)
+          (CC and)
+          (VP
+            (ADVP (JJ very))
+            (VBN relieved))
+          (-RRB- -RRB-))
+        (S
+          (VP (TO to)
+            (VP (VB report)
+              (SBAR (IN that)
+                (S
+                  (NP (DT all))
+                  (VP (VBZ is)
+                    (ADVP (RB well)
+                      (PP (IN with)
+                        (NP (PRP$ my) (NN favorite))))
+                    (NP
+                      (NP (NNP Nonya) (POS 's))
+                      (NN cooking))))))))))
+    (. !)))
+
+
+nsubj(glad-3, I-1)
+cop(glad-3, am-2)
+root(ROOT-0, glad-3)
+cc(relieved-7, and-5)
+advmod(relieved-7, very-6)
+dep(glad-3, relieved-7)
+aux(report-10, to-9)
+xcomp(glad-3, report-10)
+mark(cooking-20, that-11)
+nsubj(cooking-20, all-12)
+cop(cooking-20, is-13)
+advmod(cooking-20, well-14)
+prep(well-14, with-15)
+poss(favorite-17, my-16)
+pobj(with-15, favorite-17)
+poss(cooking-20, Nonya-18)
+possessive(Nonya-18, 's-19)
+ccomp(report-10, cooking-20)
+
+

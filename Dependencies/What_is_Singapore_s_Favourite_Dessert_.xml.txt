@@ -1,0 +1,156 @@
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ Our) (NNS polls))
+      (JJ last) (NN year))
+    (VP (VBD showed)
+      (NP (DT that) (NNP Hokkien) (NNP Mee)))
+    (, ,)))
+
+
+poss(polls-2, Our-1)
+nn(year-4, polls-2)
+amod(year-4, last-3)
+nsubj(showed-5, year-4)
+root(ROOT-0, showed-5)
+det(Mee-8, that-6)
+nn(Mee-8, Hokkien-7)
+dobj(showed-5, Mee-8)
+
+
+(ROOT
+  (S
+    (NP (NNP Chicken) (NNP Rice)
+      (CC and)
+      (NNP Mee) (NNP Poh))
+    (VP (VBD were)
+      (NP (DT the) (JJ top) (CD 3) (NN hawker) (NNS dishes)))
+    (. .)))
+
+
+nn(Rice-2, Chicken-1)
+nsubj(dishes-11, Rice-2)
+cc(Rice-2, and-3)
+nn(Poh-5, Mee-4)
+conj(Rice-2, Poh-5)
+cop(dishes-11, were-6)
+det(dishes-11, the-7)
+amod(dishes-11, top-8)
+num(dishes-11, 3-9)
+nn(dishes-11, hawker-10)
+root(ROOT-0, dishes-11)
+
+
+(ROOT
+  (S
+    (NP (DT This) (NN time))
+    (VP (VBP round)
+      (SBAR
+        (S
+          (NP (PRP we))
+          (VP (VBP are)
+            (VP (VBG looking)
+              (PP (IN for)
+                (NP
+                  (NP (NNP Singapore) (POS 's))
+                  (JJ favorite) (NN dessert))))))))
+    (. .)))
+
+
+det(time-2, This-1)
+nsubj(round-3, time-2)
+root(ROOT-0, round-3)
+nsubj(looking-6, we-4)
+aux(looking-6, are-5)
+ccomp(round-3, looking-6)
+prep(looking-6, for-7)
+poss(dessert-11, Singapore-8)
+possessive(Singapore-8, 's-9)
+amod(dessert-11, favorite-10)
+pobj(for-7, dessert-11)
+
+
+(ROOT
+  (S
+    (INTJ (VB Please))
+    (VP (VB nominate)
+      (PRT (RP up))
+      (PP (TO to)
+        (NP
+          (NP (CD 3))
+          (PP (IN of)
+            (NP (PRP$ your) (JJ favorite) (NNS desserts))))))
+    (. .)))
+
+
+discourse(nominate-2, Please-1)
+root(ROOT-0, nominate-2)
+prt(nominate-2, up-3)
+prep(nominate-2, to-4)
+pobj(to-4, 3-5)
+prep(3-5, of-6)
+poss(desserts-9, your-7)
+amod(desserts-9, favorite-8)
+pobj(of-6, desserts-9)
+
+
+(ROOT
+  (S
+    (NP (PRP Mine))
+    (VP (MD would)
+      (VP (VB be)))
+    (: :)))
+
+
+nsubj(be-3, Mine-1)
+aux(be-3, would-2)
+root(ROOT-0, be-3)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 1))
+    (. .)))
+
+
+root(ROOT-0, 1-1)
+
+
+(ROOT
+  (S
+    (NP (NNP Bean))
+    (VP (VBD Curd)
+      (NP (CD 2)))
+    (. .)))
+
+
+nsubj(Curd-2, Bean-1)
+root(ROOT-0, Curd-2)
+dobj(Curd-2, 2-3)
+
+
+(ROOT
+  (NP
+    (NP
+      (NP (NNP Orh) (NNP Nee))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP Yam) (NNP Paste))
+        (-RRB- -RRB-)))
+    (ADJP (CD 3))
+    (. .)))
+
+
+nn(Nee-2, Orh-1)
+root(ROOT-0, Nee-2)
+nn(Paste-5, Yam-4)
+appos(Nee-2, Paste-5)
+amod(Nee-2, 3-7)
+
+
+(ROOT
+  (NP (NNP Cendol)))
+
+
+root(ROOT-0, Cendol-1)
+
+

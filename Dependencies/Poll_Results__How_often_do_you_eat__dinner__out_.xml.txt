@@ -1,0 +1,206 @@
+(ROOT
+  (S
+    (NP (DT The) (NNS results))
+    (VP (VBP are)
+      (PP (IN in)))
+    (. .)))
+
+
+det(results-2, The-1)
+nsubj(are-3, results-2)
+root(ROOT-0, are-3)
+prep(are-3, in-4)
+
+
+(ROOT
+  (NP
+    (NP (NNS Thanks))
+    (PP (TO to)
+      (NP
+        (NP (DT all) (CD 1000) (NNS people))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBN polled))))))
+    (. .)))
+
+
+root(ROOT-0, Thanks-1)
+prep(Thanks-1, to-2)
+det(people-5, all-3)
+num(people-5, 1000-4)
+pobj(to-2, people-5)
+nsubj(polled-7, who-6)
+rcmod(people-5, polled-7)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ seems)
+      (SBAR (IN that)
+        (S
+          (NP (PRP it))
+          (VP (VBZ is)
+            (VP
+              (ADVP (RB almost))
+              (VBN split)
+              (ADVP (RB equally))
+              (PP (IN with)
+                (NP (JJS most) (NNS people)))
+              (S
+                (VP (VBG -LRB-)
+                  (NP (CD 36.5) (NN %)))))))))))
+
+
+nsubj(seems-2, It-1)
+root(ROOT-0, seems-2)
+mark(split-7, that-3)
+nsubjpass(split-7, it-4)
+auxpass(split-7, is-5)
+advmod(split-7, almost-6)
+ccomp(seems-2, split-7)
+advmod(split-7, equally-8)
+prep(split-7, with-9)
+amod(people-11, most-10)
+pobj(with-9, people-11)
+num(%-14, 36.5-13)
+dobj(-LRB--12, %-14)
+
+
+(ROOT
+  (FRAG
+    (ADJP (JJ -RRB-))
+    (S
+      (VP (VBG eating)
+        (PRT (RP out))
+        (PP (RB mostly) (IN on)
+          (NP
+            (NP (NNS weekends))
+            (PP (IN on)
+              (NP
+                (NP (CD one) (NN end))
+                (PP (IN of)
+                  (NP
+                    (NP (DT the) (NN spectrum))
+                    (CC and)
+                    (NP (CD 32.9) (NN %))))))))))))
+
+
+dep(-RRB--1, eating-2)
+prt(eating-2, out-3)
+advmod(on-5, mostly-4)
+prep(eating-2, on-5)
+pobj(on-5, weekends-6)
+prep(weekends-6, on-7)
+num(end-9, one-8)
+pobj(on-7, end-9)
+prep(end-9, of-10)
+det(spectrum-12, the-11)
+pobj(of-10, spectrum-12)
+cc(spectrum-12, and-13)
+num(%-15, 32.9-14)
+conj(spectrum-12, %-15)
+
+
+(ROOT
+  (UCP
+    (VP (VBG eating)
+      (PRT (RP out))
+      (NP (RB almost) (DT every) (NN night)))
+    (CC and)
+    (ADJP (CD 30.7) (NN %))))
+
+
+root(ROOT-0, eating-1)
+prt(eating-1, out-2)
+advmod(night-5, almost-3)
+det(night-5, every-4)
+tmod(eating-1, night-5)
+cc(eating-1, and-6)
+number(%-8, 30.7-7)
+conj(eating-1, %-8)
+
+
+(ROOT
+  (NP
+    (NP (RB somewhere))
+    (PP (IN in)
+      (NP (IN between)))
+    (. !)))
+
+
+root(ROOT-0, somewhere-1)
+prep(somewhere-1, in-2)
+pobj(in-2, between-3)
+
+
+(ROOT
+  (S (IN So)
+    (NP (PRP I))
+    (VP (VBP guess)
+      (SBAR
+        (S
+          (NP
+            (NP (JJS most))
+            (PP (IN of)
+              (NP (PRP$ our) (NNS readers))))
+          (ADVP (RB still))
+          (VP (VB enjoy)
+            (NP (NN home) (NN cooking))
+            (PRT (RP on))
+            (NP (JJS most) (NNS nights))))))
+    (. !)))
+
+
+dep(guess-3, So-1)
+nsubj(guess-3, I-2)
+root(ROOT-0, guess-3)
+nsubj(enjoy-9, most-4)
+prep(most-4, of-5)
+poss(readers-7, our-6)
+pobj(of-5, readers-7)
+advmod(enjoy-9, still-8)
+ccomp(guess-3, enjoy-9)
+nn(cooking-11, home-10)
+dobj(enjoy-9, cooking-11)
+prt(enjoy-9, on-12)
+amod(nights-14, most-13)
+tmod(enjoy-9, nights-14)
+
+
+(ROOT
+  (NP
+    (NP (NNP Stay))
+    (ADJP (VBN tuned)
+      (PP (IN for)
+        (NP
+          (NP (DT the) (JJ next) (NN poll) (NN question))
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (VBZ is)
+                (VP (VBG going)
+                  (S
+                    (VP (TO to)
+                      (VP (VB be)
+                        (ADJP (RB quite) (JJ interesting))))))))))))
+    (. !)))
+
+
+root(ROOT-0, Stay-1)
+amod(Stay-1, tuned-2)
+prep(tuned-2, for-3)
+det(question-7, the-4)
+amod(question-7, next-5)
+nn(question-7, poll-6)
+pobj(for-3, question-7)
+nsubj(going-10, which-8)
+aux(going-10, is-9)
+rcmod(question-7, going-10)
+aux(interesting-14, to-11)
+cop(interesting-14, be-12)
+advmod(interesting-14, quite-13)
+xcomp(going-10, interesting-14)
+
+

@@ -1,0 +1,109 @@
+(ROOT
+  (NP (NNP Pioneer) (NNP Magazine) (NNP Nov) (NNP 2011)))
+
+
+nn(2011-4, Pioneer-1)
+nn(2011-4, Magazine-2)
+nn(2011-4, Nov-3)
+root(ROOT-0, 2011-4)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (VP (VBN received)
+        (NP (NNS requests))
+        (PP (IN from)
+          (NP (NNS readers)))
+        (S
+          (VP (TO to)
+            (VP (VB review)
+              (NP (NNP Army) (NNP Food))
+              (ADVP (RB before)))))))
+    (. .)))
+
+
+nsubj(received-3, I-1)
+aux(received-3, have-2)
+root(ROOT-0, received-3)
+dobj(received-3, requests-4)
+prep(received-3, from-5)
+pobj(from-5, readers-6)
+aux(review-8, to-7)
+xcomp(received-3, review-8)
+nn(Food-10, Army-9)
+dobj(review-8, Food-10)
+advmod(review-8, before-11)
+
+
+(ROOT
+  (S (CC So)
+    (ADVP (RB here))
+    (ADVP (RB now))
+    (VP (VBZ is)
+      (NP (PRP$ my) (JJ official) (NN assessment)))
+    (. !)))
+
+
+cc(assessment-7, So-1)
+advmod(assessment-7, here-2)
+advmod(assessment-7, now-3)
+cop(assessment-7, is-4)
+poss(assessment-7, my-5)
+amod(assessment-7, official-6)
+root(ROOT-0, assessment-7)
+
+
+(ROOT
+  (NP (NNP Bottomline) (: :)))
+
+
+root(ROOT-0, Bottomline-1)
+
+
+(ROOT
+  (FRAG
+    (NP (RB Much))
+    (ADJP
+      (ADJP (JJR better))
+      (PP (IN than)
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (PRP I))
+            (VP (VBD was)
+              (PP (IN in)
+                (NP (NN army)))
+              (SBAR (CC but)
+                (S
+                  (NP (PRP I))
+                  (VP (MD would) (RB n't)
+                    (VP (VB sign)
+                      (PRT (RP on))
+                      (ADVP (RB just))
+                      (PP (IN for)
+                        (NP (DT the) (NN food)))))))))))
+      (. !))))
+
+
+root(ROOT-0, Much-1)
+dep(Much-1, better-2)
+prep(better-2, than-3)
+advmod(was-6, when-4)
+nsubj(was-6, I-5)
+pcomp(than-3, was-6)
+prep(was-6, in-7)
+pobj(in-7, army-8)
+cc(sign-13, but-9)
+nsubj(sign-13, I-10)
+aux(sign-13, would-11)
+neg(sign-13, n't-12)
+ccomp(was-6, sign-13)
+prt(sign-13, on-14)
+advmod(sign-13, just-15)
+prep(sign-13, for-16)
+det(food-18, the-17)
+pobj(for-16, food-18)
+
+

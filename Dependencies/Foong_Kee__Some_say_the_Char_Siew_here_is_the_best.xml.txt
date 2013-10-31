@@ -1,0 +1,160 @@
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ 's)
+      (VP (VBN been)
+        (NP
+          (NP (DT a) (NN while))
+          (PP (IN since)
+            (NP (PRP$ my) (JJ last) (NN post))))
+        (PP (IN on)
+          (NP (NNP Foong) (NNP Kee)))))
+    (. .)))
+
+
+nsubjpass(while-5, It-1)
+auxpass(while-5, 's-2)
+cop(while-5, been-3)
+det(while-5, a-4)
+root(ROOT-0, while-5)
+prep(while-5, since-6)
+poss(post-9, my-7)
+amod(post-9, last-8)
+pobj(since-6, post-9)
+prep(while-5, on-10)
+nn(Kee-12, Foong-11)
+pobj(on-10, Kee-12)
+
+
+(ROOT
+  (S
+    (NP (DT The) (JJ last) (NN time) (NN I))
+    (VP (VBD was)
+      (ADVP (RB here))
+      (S
+        (VP (TO to)
+          (VP (VB review)
+            (NP
+              (NP (DT the) (NN wanton) (NN mee))
+              (SBAR
+                (WHNP (WDT which))
+                (S
+                  (VP (VBZ is)
+                    (NP
+                      (NP (NN number) (CD 1))
+                      (PP (IN with)
+                        (NP
+                          (NP (RB quite) (DT a) (NN number))
+                          (PP (IN of)
+                            (NP (NNS people))))))))))))))
+    (, ,)))
+
+
+det(I-4, The-1)
+amod(I-4, last-2)
+nn(I-4, time-3)
+nsubj(was-5, I-4)
+root(ROOT-0, was-5)
+advmod(was-5, here-6)
+aux(review-8, to-7)
+xcomp(was-5, review-8)
+det(mee-11, the-9)
+nn(mee-11, wanton-10)
+dobj(review-8, mee-11)
+nsubj(number-14, which-12)
+cop(number-14, is-13)
+rcmod(mee-11, number-14)
+num(number-14, 1-15)
+prep(number-14, with-16)
+advmod(number-19, quite-17)
+det(number-19, a-18)
+pobj(with-16, number-19)
+prep(number-19, of-20)
+pobj(of-20, people-21)
+
+
+(ROOT
+  (FRAG
+    (PP (VBG including)
+      (NP
+        (NP (DT the) (NN writer))
+        (PP (IN for)
+          (NP (NNP Sunday) (NNP Plus)))))
+    (. .)))
+
+
+root(ROOT-0, including-1)
+det(writer-3, the-2)
+pobj(including-1, writer-3)
+prep(writer-3, for-4)
+nn(Plus-6, Sunday-5)
+pobj(for-4, Plus-6)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB However))
+    (ADVP (RB ,))))
+
+
+root(ROOT-0, However-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD gave)
+      (NP (PRP it))
+      (NP (RB only) (DT a))
+      (SBAR (IN because)
+        (S
+          (NP (PRP I))
+          (VP (VBD felt)
+            (NP (DT that))
+            (ADVP (RB apart))
+            (PP (IN from)
+              (NP (DT the) (NNP Char) (NNP Siew)))))))
+    (, ,)))
+
+
+nsubj(gave-2, I-1)
+root(ROOT-0, gave-2)
+iobj(gave-2, it-3)
+advmod(a-5, only-4)
+dobj(gave-2, a-5)
+mark(felt-8, because-6)
+nsubj(felt-8, I-7)
+advcl(gave-2, felt-8)
+dobj(felt-8, that-9)
+advmod(felt-8, apart-10)
+prep(felt-8, from-11)
+det(Siew-14, the-12)
+nn(Siew-14, Char-13)
+pobj(from-11, Siew-14)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT the) (NN rest))
+      (PP (IN of)
+        (NP (DT the) (NN dish))))
+    (VP (VBD was)
+      (ADJP (JJ good)
+        (CC but)
+        (RB not) (JJ outstanding)))
+    (. .)))
+
+
+det(rest-2, the-1)
+nsubj(outstanding-10, rest-2)
+prep(rest-2, of-3)
+det(dish-5, the-4)
+pobj(of-3, dish-5)
+cop(outstanding-10, was-6)
+dep(outstanding-10, good-7)
+cc(outstanding-10, but-8)
+conj(outstanding-10, not-9)
+root(ROOT-0, outstanding-10)
+
+

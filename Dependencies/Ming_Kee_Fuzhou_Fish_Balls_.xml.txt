@@ -1,0 +1,195 @@
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (VP (VBN reported)
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP (DT a) (JJ recent) (NN poll))
+              (VP (VBN done)
+                (PP (IN by)
+                  (NP (NNP Shin) (NNP Min) (NN newspaper)))))
+            (VP (VBD voted)
+              (NP (NNP Tampines) (NNP Round) (NNP Market))
+              (NP (DT the) (JJS Best)
+                (NP
+                  (NP (NNP Hawker) (NNP Centre))
+                  (PP (IN in)
+                    (NP (NNP Singapore))))))))))
+    (. .)))
+
+
+nsubjpass(reported-3, It-1)
+auxpass(reported-3, was-2)
+root(ROOT-0, reported-3)
+mark(voted-13, that-4)
+det(poll-7, a-5)
+amod(poll-7, recent-6)
+nsubj(voted-13, poll-7)
+partmod(poll-7, done-8)
+prep(done-8, by-9)
+nn(newspaper-12, Shin-10)
+nn(newspaper-12, Min-11)
+pobj(by-9, newspaper-12)
+ccomp(reported-3, voted-13)
+nn(Market-16, Tampines-14)
+nn(Market-16, Round-15)
+iobj(voted-13, Market-16)
+det(Centre-20, the-17)
+amod(Centre-20, Best-18)
+nn(Centre-20, Hawker-19)
+dobj(voted-13, Centre-20)
+prep(Centre-20, in-21)
+pobj(in-21, Singapore-22)
+
+
+(ROOT
+  (FRAG
+    (PP (IN OK))
+    (, ,)))
+
+
+root(ROOT-0, OK-1)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBP agree)
+        (SBAR
+          (S
+            (NP (NNP Tampines) (NNP Round) (NNP Market))
+            (VP (VBZ has)
+              (VP (VBN got)
+                (NP
+                  (NP (DT a)
+                    (ADJP (RB pretty) (JJ good))
+                    (NN selection))
+                  (PP (IN of)
+                    (NP (NNP Hawkers))))))))))
+    (CC but)
+    (S
+      (NP (PRP I))
+      (VP (VBD was)
+        (VP (VBN suprised)
+          (SBAR (IN that)
+            (S
+              (NP (PRP it))
+              (VP (VBD was)
+                (VP (VBN voted)
+                  (NP (DT the) (JJS best)))))))))
+    (. .)))
+
+
+nsubj(agree-2, I-1)
+root(ROOT-0, agree-2)
+nn(Market-5, Tampines-3)
+nn(Market-5, Round-4)
+nsubj(got-7, Market-5)
+aux(got-7, has-6)
+ccomp(agree-2, got-7)
+det(selection-11, a-8)
+advmod(good-10, pretty-9)
+amod(selection-11, good-10)
+dobj(got-7, selection-11)
+prep(selection-11, of-12)
+pobj(of-12, Hawkers-13)
+cc(agree-2, but-14)
+nsubjpass(suprised-17, I-15)
+auxpass(suprised-17, was-16)
+conj(agree-2, suprised-17)
+mark(voted-21, that-18)
+nsubjpass(voted-21, it-19)
+auxpass(voted-21, was-20)
+ccomp(suprised-17, voted-21)
+det(best-23, the-22)
+dobj(voted-21, best-23)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (VBP ask)
+        (NP (PRP me)))
+      (, ,))))
+
+
+mark(ask-3, If-1)
+nsubj(ask-3, you-2)
+root(ROOT-0, ask-3)
+dobj(ask-3, me-4)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP (NNP Old) (NNP Airport) (NNP Road) (NNP Food) (NNP Centre))
+          (VP (MD should)
+            (VP (VB be)
+              (NP
+                (NP (CD one))
+                (PP (IN of)
+                  (NP
+                    (NP (DT the) (NNS contenders))
+                    (PP (IN for)
+                      (NP (NNP Best) (NNP Hawker) (NNP Centre)))))))))))
+    (. .)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+nn(Centre-7, Old-3)
+nn(Centre-7, Airport-4)
+nn(Centre-7, Road-5)
+nn(Centre-7, Food-6)
+nsubj(one-10, Centre-7)
+aux(one-10, should-8)
+cop(one-10, be-9)
+ccomp(think-2, one-10)
+prep(one-10, of-11)
+det(contenders-13, the-12)
+pobj(of-11, contenders-13)
+prep(contenders-13, for-14)
+nn(Centre-17, Best-15)
+nn(Centre-17, Hawker-16)
+pobj(for-14, Centre-17)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ other) (NNS contenders))
+      (PP (IN in)
+        (NP (PRP$ my) (NNS books))))
+    (VP (MD would)
+      (VP (VB be)
+        (NP
+          (NP (NNP Maxwell) (NNP Road))
+          (CC and)
+          (NP (NNP Golden) (NNP Mile) (NNP Food) (NNP Centres)))))
+    (. .)))
+
+
+det(contenders-3, The-1)
+amod(contenders-3, other-2)
+nsubj(Road-10, contenders-3)
+prep(contenders-3, in-4)
+poss(books-6, my-5)
+pobj(in-4, books-6)
+aux(Road-10, would-7)
+cop(Road-10, be-8)
+nn(Road-10, Maxwell-9)
+root(ROOT-0, Road-10)
+cc(Road-10, and-11)
+nn(Centres-15, Golden-12)
+nn(Centres-15, Mile-13)
+nn(Centres-15, Food-14)
+conj(Road-10, Centres-15)
+
+

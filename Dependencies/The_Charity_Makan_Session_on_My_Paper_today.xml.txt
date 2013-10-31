@@ -1,0 +1,148 @@
+(ROOT
+  (S
+    (NP (PRP$ Our) (NNP Charity) (NN event))
+    (VP (VBD was)
+      (VP (VBN covered)
+        (PP (IN in)
+          (NP
+            (NP (NNP Today) (POS 's))
+            (NNP My) (NNP Paper)))))
+    (. .)))
+
+
+poss(event-3, Our-1)
+nn(event-3, Charity-2)
+nsubjpass(covered-5, event-3)
+auxpass(covered-5, was-4)
+root(ROOT-0, covered-5)
+prep(covered-5, in-6)
+poss(Paper-10, Today-7)
+possessive(Today-7, 's-8)
+nn(Paper-10, My-9)
+pobj(in-6, Paper-10)
+
+
+(ROOT
+  (FRAG
+    (ADVP
+      (ADVP
+        (NP (NNS Thanks))
+        (RB again))
+      (PP (TO to)
+        (NP (NN everyone))))
+    (SBAR
+      (WHNP (WP who))
+      (S
+        (VP (VBD contributed)
+          (PP (TO to)
+            (NP (DT the) (NN event))))))
+    (. !)))
+
+
+npadvmod(again-2, Thanks-1)
+root(ROOT-0, again-2)
+prep(again-2, to-3)
+pobj(to-3, everyone-4)
+nsubj(contributed-6, who-5)
+dep(again-2, contributed-6)
+prep(contributed-6, to-7)
+det(event-9, the-8)
+pobj(to-7, event-9)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (ADVP (RB really))
+    (VP (VBZ is)
+      (NP (DT a) (NN team) (NN effort)))
+    (. !)))
+
+
+nsubj(effort-6, It-1)
+advmod(effort-6, really-2)
+cop(effort-6, is-3)
+det(effort-6, a-4)
+nn(effort-6, team-5)
+root(ROOT-0, effort-6)
+
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (S
+          (NP
+            (NP (PRP you))
+            (CC or)
+            (NP (PRP$ your) (NN organization)))
+          (VP (MD would)
+            (ADVP (RB also))
+            (VP (VB like)
+              (S
+                (VP (TO to)
+                  (VP (VB be)
+                    (VP (VBN involved)
+                      (PP (IN in)
+                        (NP (PRP$ our) (JJ future) (NNS endeavors))))))))))
+        (S
+          (INTJ (VB please))
+          (VP (VB do)
+            (VP
+              (VP (VB write)
+                (PRT (RP in)))
+              (CC and)
+              (VP (VB let)))))))
+    (NP (PRP me))
+    (VP (VBP know))
+    (. .)))
+
+
+mark(like-8, If-1)
+nsubj(like-8, you-2)
+cc(you-2, or-3)
+poss(organization-5, your-4)
+conj(you-2, organization-5)
+aux(like-8, would-6)
+advmod(like-8, also-7)
+advcl(know-23, like-8)
+aux(involved-11, to-9)
+auxpass(involved-11, be-10)
+xcomp(like-8, involved-11)
+prep(involved-11, in-12)
+poss(endeavors-15, our-13)
+amod(endeavors-15, future-14)
+pobj(in-12, endeavors-15)
+discourse(write-18, please-16)
+aux(write-18, do-17)
+parataxis(like-8, write-18)
+prt(write-18, in-19)
+cc(write-18, and-20)
+conj(write-18, let-21)
+nsubj(know-23, me-22)
+root(ROOT-0, know-23)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB view)
+        (NP
+          (NP (DT the) (NNS photos))
+          (PP (IN of)
+            (NP (DT the) (NN event))))
+        (ADVP (RB here))))))
+
+
+nsubj(view-3, You-1)
+aux(view-3, can-2)
+root(ROOT-0, view-3)
+det(photos-5, the-4)
+dobj(view-3, photos-5)
+prep(photos-5, of-6)
+det(event-8, the-7)
+pobj(of-6, event-8)
+advmod(view-3, here-9)
+
+

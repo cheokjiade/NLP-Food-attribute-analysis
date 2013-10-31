@@ -1,0 +1,296 @@
+(ROOT
+  (S
+    (NP
+      (NP (NNS Fans))
+      (PP (IN of)
+        (NP (NNP Fatty) (NNP Ox) (NNP Hong) (NNP Kong) (NNP Roast) (NN Duck))))
+    (VP (MD can)
+      (VP (VB rejoice)
+        (SBAR (IN that)
+          (S
+            (NP (PRP$ their) (JJ favorite) (NNP Hong) (NNP Kong) (NNP Roast) (NNP Meat) (NN man))
+            (VP (VBZ is)
+              (ADVP (RB back))
+              (PP (IN after)
+                (NP
+                  (NP (DT a) (NN one))
+                  (CC and)
+                  (NP (DT a) (JJ half) (NN year) (NN hiatus)))))))))
+    (. .)))
+
+
+nsubj(rejoice-10, Fans-1)
+prep(Fans-1, of-2)
+nn(Duck-8, Fatty-3)
+nn(Duck-8, Ox-4)
+nn(Duck-8, Hong-5)
+nn(Duck-8, Kong-6)
+nn(Duck-8, Roast-7)
+pobj(of-2, Duck-8)
+aux(rejoice-10, can-9)
+root(ROOT-0, rejoice-10)
+mark(is-19, that-11)
+poss(man-18, their-12)
+amod(man-18, favorite-13)
+nn(man-18, Hong-14)
+nn(man-18, Kong-15)
+nn(man-18, Roast-16)
+nn(man-18, Meat-17)
+nsubj(is-19, man-18)
+ccomp(rejoice-10, is-19)
+advmod(is-19, back-20)
+prep(is-19, after-21)
+det(one-23, a-22)
+pobj(after-21, one-23)
+cc(one-23, and-24)
+det(hiatus-28, a-25)
+amod(hiatus-28, half-26)
+nn(hiatus-28, year-27)
+conj(one-23, hiatus-28)
+
+
+(ROOT
+  (PP (IN Unlike)
+    (NP
+      (NP (DT some) (JJ other) (NNS stalls))
+      (SBAR (WP$ whose)
+        (S
+          (NP (`` ``) (NN comeback) ('' ''))
+          (VP (VBZ is)
+            (VP (VBN claimed)
+              (PP (IN by)
+                (NP
+                  (NP (DT a) (NN relative))
+                  (CC or)
+                  (NP
+                    (NP (DT an) (NN ex-employee))
+                    (PP (IN of)
+                      (NP (DT the) (NN place))))
+                  (, ,))))))))))
+
+
+root(ROOT-0, Unlike-1)
+det(stalls-4, some-2)
+amod(stalls-4, other-3)
+pobj(Unlike-1, stalls-4)
+dep(claimed-10, whose-5)
+nsubjpass(claimed-10, comeback-7)
+auxpass(claimed-10, is-9)
+dep(stalls-4, claimed-10)
+prep(claimed-10, by-11)
+det(relative-13, a-12)
+pobj(by-11, relative-13)
+cc(relative-13, or-14)
+det(ex-employee-16, an-15)
+conj(relative-13, ex-employee-16)
+prep(ex-employee-16, of-17)
+det(place-19, the-18)
+pobj(of-17, place-19)
+
+
+(ROOT
+  (S
+    (NP (DT this) (NN one))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (JJ proper) (NN return))
+        (PP (TO to)
+          (NP
+            (NP
+              (NP (DT the) (JJ pugalistic) (NN world))
+              (PRN (-LRB- -LRB-)
+                (NP (JJ Chung2) (NNP Chu4) (NNP Jiang1) (NNP Hu2))
+                (-RRB- -RRB-)))
+            (PP (IN of)
+              (NP (DT the) (JJ famed) (NN roaster)))))))
+    (, ,)))
+
+
+det(one-2, this-1)
+nsubj(return-6, one-2)
+cop(return-6, is-3)
+det(return-6, a-4)
+amod(return-6, proper-5)
+root(ROOT-0, return-6)
+prep(return-6, to-7)
+det(world-10, the-8)
+amod(world-10, pugalistic-9)
+pobj(to-7, world-10)
+amod(Hu2-15, Chung2-12)
+nn(Hu2-15, Chu4-13)
+nn(Hu2-15, Jiang1-14)
+appos(world-10, Hu2-15)
+prep(world-10, of-17)
+det(roaster-20, the-18)
+amod(roaster-20, famed-19)
+pobj(of-17, roaster-20)
+
+
+(ROOT
+  (NP (NNP Fatty) (NNP Ox) (. .)))
+
+
+nn(Ox-2, Fatty-1)
+root(ROOT-0, Ox-2)
+
+
+(ROOT
+  (S
+    (NP (DT The) (JJ last) (NN time))
+    (NP (PRP I))
+    (VP (VBD met)
+      (SBAR
+        (S
+          (NP (NNP Mr) (NNP Fatty) (NNP Ox))
+          (VP (VBD was)
+            (SBAR (RB just) (IN before)
+              (S
+                (NP (PRP he))
+                (VP (VBD closed)
+                  (NP (PRP$ his) (NN shop))
+                  (PP (IN at)
+                    (NP (NNP Murray) (NNP Street))))))))))
+    (. .)))
+
+
+det(time-3, The-1)
+amod(time-3, last-2)
+nsubj(met-5, time-3)
+nsubj(met-5, I-4)
+root(ROOT-0, met-5)
+nn(Ox-8, Mr-6)
+nn(Ox-8, Fatty-7)
+nsubj(was-9, Ox-8)
+ccomp(met-5, was-9)
+advmod(closed-13, just-10)
+mark(closed-13, before-11)
+nsubj(closed-13, he-12)
+advcl(was-9, closed-13)
+poss(shop-15, his-14)
+dobj(closed-13, shop-15)
+prep(closed-13, at-16)
+nn(Street-18, Murray-17)
+pobj(at-16, Street-18)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Since)
+      (NP
+        (NP (RB then))
+        (NP (NNP Mr) (NNP Cheung))))
+    (, ,)))
+
+
+root(ROOT-0, Since-1)
+pobj(Since-1, then-2)
+nn(Cheung-4, Mr-3)
+dep(then-2, Cheung-4)
+
+
+(ROOT
+  (SBARQ
+    (WHNP (WP who))
+    (SQ (VBZ is)
+      (NP
+        (NP
+          (ADJP (CC neither)
+            (JJ fat)
+            (CC nor)
+            (JJ bears))
+          (DT any) (NN resemblance))
+        (PP (TO to)
+          (NP (DT an) (NNP Ox) (NNP -LRB-)))))))
+
+
+attr(is-2, who-1)
+preconj(fat-4, neither-3)
+amod(resemblance-8, fat-4)
+cc(fat-4, nor-5)
+conj(fat-4, bears-6)
+det(resemblance-8, any-7)
+nsubj(is-2, resemblance-8)
+prep(resemblance-8, to-9)
+det(-LRB--12, an-10)
+nn(-LRB--12, Ox-11)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ only) (NN truth))
+      (PP (IN in)
+        (NP (DT the) (NN stall) (NN name))))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (NN fact))
+        (SBAR
+          (WHNP (WDT that))
+          (PRN
+            (S
+              (NP (PRP he))
+              (VP (VBZ is)
+                (ADVP (RB indeed))
+                (PP (IN from)
+                  (NP (NNP Hong) (NNP Kong)))))
+            (-RRB- -RRB-))
+          (S
+            (VP (VBZ has)
+              (VP (VBN been)
+                (VP (VBG roaming)
+                  (NP
+                    (NP (DT the) (NNP HDB) (NNS estates))
+                    (VP (VBG looking)
+                      (PP (IN for)
+                        (NP (DT a) (JJ suitable) (NN place)))
+                      (S
+                        (VP (TO to)
+                          (VP
+                            (ADVP (RB once) (RB again))
+                            (VB entice)
+                            (NP
+                              (NP (NNP Singaporeans))
+                              (PP (IN with)
+                                (NP (PRP$ his) (NNP Roast) (NN Duck))))))))))))))))
+    (. .)))
+
+
+det(truth-3, The-1)
+amod(truth-3, only-2)
+nsubj(fact-10, truth-3)
+prep(truth-3, in-4)
+det(name-7, the-5)
+nn(name-7, stall-6)
+pobj(in-4, name-7)
+cop(fact-10, is-8)
+det(fact-10, the-9)
+root(ROOT-0, fact-10)
+nsubj(roaming-21, that-11)
+nsubj(is-13, he-12)
+dep(roaming-21, is-13)
+advmod(is-13, indeed-14)
+prep(is-13, from-15)
+nn(Kong-17, Hong-16)
+pobj(from-15, Kong-17)
+aux(roaming-21, has-19)
+aux(roaming-21, been-20)
+rcmod(fact-10, roaming-21)
+det(estates-24, the-22)
+nn(estates-24, HDB-23)
+dobj(roaming-21, estates-24)
+partmod(estates-24, looking-25)
+prep(looking-25, for-26)
+det(place-29, a-27)
+amod(place-29, suitable-28)
+pobj(for-26, place-29)
+aux(entice-33, to-30)
+advmod(again-32, once-31)
+advmod(entice-33, again-32)
+xcomp(looking-25, entice-33)
+dobj(entice-33, Singaporeans-34)
+prep(Singaporeans-34, with-35)
+poss(Duck-38, his-36)
+nn(Duck-38, Roast-37)
+pobj(with-35, Duck-38)
+
+

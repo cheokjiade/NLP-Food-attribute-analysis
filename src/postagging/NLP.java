@@ -11,37 +11,6 @@ import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.process.DocumentPreprocessor;
 import edu.stanford.nlp.tagger.maxent.MaxentTagger;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -72,6 +41,7 @@ import org.apache.commons.io.IOUtils;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
+
 
 import edu.stanford.nlp.ling.*;
 import edu.stanford.nlp.trees.*;
@@ -172,7 +142,18 @@ public class NLP {
 		
 		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder dBuilder;
-        Corpus corpus = new Corpus();
+        
+        Corpus corpus;
+        //List<Word> wordList = db.Db4oHelper.getInstance().db().query(Word.class);
+        List<Corpus> corpusList = db.Db4oHelper.getInstance().db().query(Corpus.class);
+        
+        if(corpusList.size()==0){
+        	corpus = new Corpus();
+        }else{
+        	corpus = corpusList.get(0);
+        }
+        //db.Db4oHelper.getInstance().db().close();
+        
         for(File f:files){
 			if(f.getName().endsWith(".xml")){
 				try {
@@ -181,6 +162,7 @@ public class NLP {
 					org.w3c.dom.Document doc = dBuilder.parse(f);
 		            doc.getDocumentElement().normalize();
 		            Node textNode = doc.getElementsByTagName("text").item(0).getFirstChild();
+		            //List<Node> tagNodes = 
 		            String posTagged = textNode.getNodeValue();
 		            String[] tags = posTagged.split(" ");
 		            ArrayList<entities.Word> multiWordBuffer = new ArrayList<entities.Word>();
@@ -193,6 +175,7 @@ public class NLP {
 		            		w.wordCount++;
 		            		w.addTag(parts[1]);
 		            		w.addDomain(f.getName());
+		            		db.Db4oHelper.getInstance().db().store(w);
 		            		//Add NN to multiword
 		            		if(parts[1].startsWith("NN")){
 		            			//While the multiword has not ended, add it to list
@@ -215,12 +198,14 @@ public class NLP {
 		            					for(entities.Word tmpWord:multiWordBuffer)
 			            					cw.wordParts.add(tmpWord);
 		            					corpus.words.put(combinedWord, cw);
+		            					db.Db4oHelper.getInstance().db().store(cw);
 		            				}else{
 		            					//update the exisiting combinedword entity if it already exists
 		            					CombinedWord cw = (CombinedWord) corpus.words.get(combinedWord);
 		            					cw.wordCount++;
 		            					cw.addTag("NN");
 		            					cw.addDomain(f.getName());
+		            					db.Db4oHelper.getInstance().db().store(cw);
 		            				}
 		            			}
 		            			//clear buffer in prep for next multi word
@@ -232,6 +217,7 @@ public class NLP {
 		            		w.tagsCount.put(parts[1], 1);
 		            		w.addTag(parts[1]);
 		            		w.addDomain(f.getName());
+		            		db.Db4oHelper.getInstance().db().store(w);
 		            		corpus.words.put(parts[0].toLowerCase(), w);
 		            		if(parts[1].startsWith("NN")){
 		            			//While the multiword has not ended, add it to list
@@ -254,12 +240,15 @@ public class NLP {
 		            					for(entities.Word tmpWord:multiWordBuffer)
 			            					cw.wordParts.add(tmpWord);
 		            					corpus.words.put(combinedWord, cw);
+		            					db.Db4oHelper.getInstance().db().store(cw);
 		            				}else{
 		            					//update the exisiting combinedword entity if it already exists
 		            					CombinedWord cw = (CombinedWord) corpus.words.get(combinedWord);
+		            					
 		            					cw.wordCount++;
 		            					cw.addTag("NN");
 		            					cw.addDomain(f.getName());
+		            					db.Db4oHelper.getInstance().db().store(cw);
 		            				}
 		            			}
 		            			//clear buffer in prep for next multi word
@@ -272,6 +261,11 @@ public class NLP {
 				}
 			}
         }
+        db.Db4oHelper.getInstance().db().store(corpus);
+        db.Db4oHelper.getInstance().db().commit();
+        
+        db.Db4oHelper.getInstance().db().close();
+        
         System.out.println("Total Number of Unique Words = " + corpus.words.size());
         ArrayList<entities.Word > alwi = new ArrayList<>(corpus.words.values());
         Comparator<entities.Word> c = new Comparator<entities.Word>() {

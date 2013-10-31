@@ -1,0 +1,231 @@
+(ROOT
+  (SBAR (IN Since)
+    (S
+      (NP (PRP we))
+      (VP (VBP have)
+        (NP
+          (NP (NNP HD) (NNP Video) (NN recording) (NN technology))
+          (PP (IN in)
+            (NP (PRP$ our) (NNP Canon) (NNS cameras) (NNS -LRB-))))))))
+
+
+mark(have-3, Since-1)
+nsubj(have-3, we-2)
+nn(technology-7, HD-4)
+nn(technology-7, Video-5)
+nn(technology-7, recording-6)
+dobj(have-3, technology-7)
+prep(technology-7, in-8)
+poss(-LRB--12, our-9)
+nn(-LRB--12, Canon-10)
+nn(-LRB--12, cameras-11)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD used)
+      (NP (DT a) (NNP EOS) (CD 5D))
+      (PRN
+        (NP
+          (NP (NNP MkII)
+            (CC and)
+            (NNP Melvyn))
+          (NP (DT a) (NNP EOD) (CD 7D)))
+        (-RRB- -RRB-)))
+    (, ,)))
+
+
+nsubj(used-2, I-1)
+root(ROOT-0, used-2)
+det(EOS-4, a-3)
+dobj(used-2, EOS-4)
+num(EOS-4, 5D-5)
+dep(used-2, MkII-6)
+cc(MkII-6, and-7)
+conj(MkII-6, Melvyn-8)
+det(EOD-10, a-9)
+dep(MkII-6, EOD-10)
+num(EOD-10, 7D-11)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (VP (VBD were)
+      (VP (VBG toying)
+        (PP (IN with)
+          (NP
+            (NP (DT the) (NN idea))
+            (PP (IN of)
+              (S
+                (VP (VBG going)
+                  (PP (IN beyond)
+                    (NP (JJ standard) (NNS photos)))
+                  (S
+                    (VP (TO to)
+                      (VP (VB see)
+                        (SBAR
+                          (WHADVP (WRB how))
+                          (S
+                            (NP (PRP we))
+                            (VP (MD can)
+                              (VP (VB make)
+                                (NP
+                                  (NP (DT a) (VBG blog) (NN post))
+                                  (ADJP (RB even) (RBR more) (JJ droolworthy)))))))))))))))))
+    (. .)))
+
+
+nsubj(toying-3, we-1)
+aux(toying-3, were-2)
+root(ROOT-0, toying-3)
+prep(toying-3, with-4)
+det(idea-6, the-5)
+pobj(with-4, idea-6)
+prep(idea-6, of-7)
+pcomp(of-7, going-8)
+prep(going-8, beyond-9)
+amod(photos-11, standard-10)
+pobj(beyond-9, photos-11)
+aux(see-13, to-12)
+xcomp(going-8, see-13)
+advmod(make-17, how-14)
+nsubj(make-17, we-15)
+aux(make-17, can-16)
+ccomp(see-13, make-17)
+det(post-20, a-18)
+amod(post-20, blog-19)
+dobj(make-17, post-20)
+advmod(droolworthy-23, even-21)
+advmod(droolworthy-23, more-22)
+amod(post-20, droolworthy-23)
+
+
+(ROOT
+  (S (IN So)
+    (NP (RB here))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (NNP HD) (NN video))
+        (SBAR
+          (S
+            (NP (PRP we))
+            (VP (VBD did)
+              (PP (IN on)
+                (NP
+                  (NP (CD one))
+                  (PP (IN of)
+                    (NP (PRP$ our) (NN pizza) (NNS experiments))))))))))
+    (. .)))
+
+
+dep(video-6, So-1)
+nsubj(video-6, here-2)
+cop(video-6, is-3)
+det(video-6, a-4)
+nn(video-6, HD-5)
+root(ROOT-0, video-6)
+nsubj(did-8, we-7)
+rcmod(video-6, did-8)
+prep(did-8, on-9)
+pobj(on-9, one-10)
+prep(one-10, of-11)
+poss(experiments-14, our-12)
+nn(experiments-14, pizza-13)
+pobj(of-11, experiments-14)
+
+
+(ROOT
+  (S
+    (NP (NNP Do))
+    (VP (VBD let)
+      (SBAR
+        (S
+          (NP (PRP us))
+          (VP (VBP know)
+            (SBAR
+              (WHNP (WP what))
+              (S
+                (NP (PRP you))
+                (VP (VBP think))))))))
+    (. !)))
+
+
+nsubj(let-2, Do-1)
+root(ROOT-0, let-2)
+nsubj(know-4, us-3)
+ccomp(let-2, know-4)
+dobj(think-7, what-5)
+nsubj(think-7, you-6)
+ccomp(know-4, think-7)
+
+
+(ROOT
+  (S
+    (ADVP (RB Ah))
+    (NP (PRP I))
+    (VP (MD must)
+      (VP (VB declare)
+        (SBAR (IN that)
+          (S
+            (NP (PRP I))
+            (VP (VBD was)
+              (VP (VBG using)
+                (ADVP
+                  (NP (DT a) (NN body))
+                  (RB double))
+                (PP (IN for)
+                  (NP (DT the) (NN clip)))))))))
+    (. !)))
+
+
+advmod(declare-4, Ah-1)
+nsubj(declare-4, I-2)
+aux(declare-4, must-3)
+root(ROOT-0, declare-4)
+mark(using-8, that-5)
+nsubj(using-8, I-6)
+aux(using-8, was-7)
+ccomp(declare-4, using-8)
+det(body-10, a-9)
+npadvmod(double-11, body-10)
+advmod(using-8, double-11)
+prep(using-8, for-12)
+det(clip-14, the-13)
+pobj(for-12, clip-14)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NNS hands) (NN you))
+    (VP (VBP see)
+      (SBAR
+        (S
+          (VP (VBP are)
+            (NP
+              (NP (DT the) (NNS hands))
+              (PP (IN of)
+                (NP (NNP Damien))))))))
+    (, ,)))
+
+
+det(you-3, The-1)
+nn(you-3, hands-2)
+nsubj(see-4, you-3)
+root(ROOT-0, see-4)
+cop(hands-7, are-5)
+det(hands-7, the-6)
+ccomp(see-4, hands-7)
+prep(hands-7, of-8)
+pobj(of-8, Damien-9)
+
+
+(ROOT
+  (NP (PRP$ our) (NNS Pizzaiolo) (. !)))
+
+
+poss(Pizzaiolo-2, our-1)
+root(ROOT-0, Pizzaiolo-2)
+
+

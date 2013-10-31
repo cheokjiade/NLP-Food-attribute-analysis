@@ -1,0 +1,214 @@
+(ROOT
+  (ADVP (RB Usually)))
+
+
+root(ROOT-0, Usually-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD would)
+      (VP (VB put)
+        (NP
+          (NP (DT the) (NN photo))
+          (PP (IN of)
+            (NP (DT a) (NN dish))))
+        (PP (IN as)
+          (NP (PRP$ my) (JJ first) (NN picture)))))
+    (, ,)))
+
+
+nsubj(put-3, I-1)
+aux(put-3, would-2)
+root(ROOT-0, put-3)
+det(photo-5, the-4)
+dobj(put-3, photo-5)
+prep(photo-5, of-6)
+det(dish-8, a-7)
+pobj(of-6, dish-8)
+prep(put-3, as-9)
+poss(picture-12, my-10)
+amod(picture-12, first-11)
+pobj(as-9, picture-12)
+
+
+(ROOT
+  (PRN (CC but)
+    (SBAR (IN as)
+      (S
+        (NP (PRP I))
+        (VP (VBD started)
+          (S
+            (VP (TO to)
+              (VP (VB write)
+                (NP (DT this) (NN post))))
+            (, ,)))))))
+
+
+cc(started-4, but-1)
+mark(started-4, as-2)
+nsubj(started-4, I-3)
+root(ROOT-0, started-4)
+aux(write-6, to-5)
+xcomp(started-4, write-6)
+det(post-8, this-7)
+dobj(write-6, post-8)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD began)
+      (S
+        (VP (TO to)
+          (VP (VB feel)
+            (SBAR (IN that)
+              (S
+                (NP (DT this) (NN story))
+                (VP (VBZ is)
+                  (ADJP
+                    (ADJP (JJR more))
+                    (PP (IN about)
+                      (NP
+                        (NP (NNP Madam) (NNP Leong))
+                        (CONJP (RB rather) (IN than))
+                        (NP (DT the) (NNP Wanton) (NNP Mee)))))
+                  (SBAR
+                    (WHNP (WDT which))
+                    (S
+                      (NP (PRP she))
+                      (VP (VBZ has)
+                        (VP (VBN been)
+                          (VP (VBG dishing)
+                            (PRT (RP out))
+                            (PP (IN since)
+                              (NP (CD 1959)))))))))))))))
+    (. .)))
+
+
+nsubj(began-2, I-1)
+root(ROOT-0, began-2)
+aux(feel-4, to-3)
+xcomp(began-2, feel-4)
+mark(more-9, that-5)
+det(story-7, this-6)
+nsubj(more-9, story-7)
+cop(more-9, is-8)
+ccomp(feel-4, more-9)
+prep(more-9, about-10)
+nn(Leong-12, Madam-11)
+pobj(about-10, Leong-12)
+cc(Leong-12, rather-13)
+mwe(rather-13, than-14)
+det(Mee-17, the-15)
+nn(Mee-17, Wanton-16)
+conj(Leong-12, Mee-17)
+dobj(dishing-22, which-18)
+nsubj(dishing-22, she-19)
+aux(dishing-22, has-20)
+aux(dishing-22, been-21)
+ccomp(more-9, dishing-22)
+prt(dishing-22, out-23)
+prep(dishing-22, since-24)
+pobj(since-24, 1959-25)
+
+
+(ROOT
+  (FRAG
+    (PP (IN At)
+      (NP
+        (NP (CD 80) (NNS years))
+        (PP (IN of)
+          (NP (NN age)))))
+    (, ,)))
+
+
+root(ROOT-0, At-1)
+num(years-3, 80-2)
+pobj(At-1, years-3)
+prep(years-3, of-4)
+pobj(of-4, age-5)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP (PRP she))
+          (VP (VBZ is)
+            (NP (DT the)
+              (ADJP (JJS oldest) (VBG working))
+              (NN hawker))
+            (SBAR (IN that)
+              (S
+                (NP (PRP I))
+                (VP (VBP have)
+                  (VP (VBN met)))))))))
+    (. .)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+nsubj(hawker-8, she-3)
+cop(hawker-8, is-4)
+det(hawker-8, the-5)
+dep(working-7, oldest-6)
+amod(hawker-8, working-7)
+ccomp(think-2, hawker-8)
+mark(met-12, that-9)
+nsubj(met-12, I-10)
+aux(met-12, have-11)
+ccomp(hawker-8, met-12)
+
+
+(ROOT
+  (INTJ (UH Amazingly) (UH ,)))
+
+
+root(ROOT-0, Amazingly-1)
+
+
+(ROOT
+  (S
+    (NP (PRP she))
+    (ADVP (RB still))
+    (VP (VBZ comes)
+      (PP (TO to)
+        (NP
+          (NP (DT the) (NN stall))
+          (PP (IN at)
+            (NP (CD 6am)))))
+      (PP (IN in)
+        (NP (DT the) (NN morning)
+          (S
+            (VP (TO to)
+              (VP (VB prepare)
+                (NP (DT the) (NNS ingredients))
+                (PP (IN for)
+                  (NP (DT the) (NN day)))))))))
+    (. .)))
+
+
+nsubj(comes-3, she-1)
+advmod(comes-3, still-2)
+root(ROOT-0, comes-3)
+prep(comes-3, to-4)
+det(stall-6, the-5)
+pobj(to-4, stall-6)
+prep(stall-6, at-7)
+pobj(at-7, 6am-8)
+prep(comes-3, in-9)
+det(morning-11, the-10)
+pobj(in-9, morning-11)
+aux(prepare-13, to-12)
+infmod(morning-11, prepare-13)
+det(ingredients-15, the-14)
+dobj(prepare-13, ingredients-15)
+prep(prepare-13, for-16)
+det(day-18, the-17)
+pobj(for-16, day-18)
+
+

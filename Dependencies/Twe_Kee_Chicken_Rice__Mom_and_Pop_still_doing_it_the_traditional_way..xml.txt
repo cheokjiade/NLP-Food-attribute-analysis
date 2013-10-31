@@ -1,0 +1,149 @@
+(ROOT
+  (S
+    (NP
+      (NP (NNP Tucked))
+      (PP (IN in)
+        (NP
+          (NP (DT a) (JJ small) (NN corner) (NN coffeeshop))
+          (PP (IN in)
+            (NP (DT the) (NNP East) (NNP Coast))))))
+    (VP (VBZ is)
+      (NP
+        (NP (DT an) (JJ elderly) (NN couple))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBP are)
+              (ADVP (RB still))
+              (VP (VBG making)
+                (NP (NN chicken) (NN rice))
+                (NP
+                  (NP (DT the) (JJ same) (NN way))
+                  (SBAR
+                    (S
+                      (NP (PRP they))
+                      (VP (VBP have)
+                        (VP (VBN been)
+                          (PP (IN for)
+                            (NP (CD 30) (NNS years))))))))))))))
+    (. .)))
+
+
+nsubj(couple-14, Tucked-1)
+prep(Tucked-1, in-2)
+det(coffeeshop-6, a-3)
+amod(coffeeshop-6, small-4)
+nn(coffeeshop-6, corner-5)
+pobj(in-2, coffeeshop-6)
+prep(coffeeshop-6, in-7)
+det(Coast-10, the-8)
+nn(Coast-10, East-9)
+pobj(in-7, Coast-10)
+cop(couple-14, is-11)
+det(couple-14, an-12)
+amod(couple-14, elderly-13)
+root(ROOT-0, couple-14)
+nsubj(making-18, who-15)
+aux(making-18, are-16)
+advmod(making-18, still-17)
+rcmod(couple-14, making-18)
+nn(rice-20, chicken-19)
+iobj(making-18, rice-20)
+det(way-23, the-21)
+amod(way-23, same-22)
+dobj(making-18, way-23)
+nsubj(been-26, they-24)
+aux(been-26, have-25)
+rcmod(way-23, been-26)
+prep(been-26, for-27)
+num(years-29, 30-28)
+pobj(for-27, years-29)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (VBP have)
+        (ADVP (RB ever))
+        (VP (VBD wondered)
+          (SBAR
+            (WHNP (WP what))
+            (S
+              (NP (NN chicken) (NN rice))
+              (VP (VBN tasted)
+                (PP (IN like)
+                  (PP (IN in)
+                    (NP (DT the) (JJ old) (NNS days))))
+                (, ,)))))))))
+
+
+mark(wondered-5, If-1)
+nsubj(wondered-5, you-2)
+aux(wondered-5, have-3)
+advmod(wondered-5, ever-4)
+root(ROOT-0, wondered-5)
+dobj(tasted-9, what-6)
+nn(rice-8, chicken-7)
+nsubj(tasted-9, rice-8)
+ccomp(wondered-5, tasted-9)
+prep(tasted-9, like-10)
+pcomp(like-10, in-11)
+det(days-14, the-12)
+amod(days-14, old-13)
+pobj(in-11, days-14)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (ADVP (RB better))
+    (VP (VBP get)
+      (ADJP (RB here) (JJ quick)))
+    (, ,)))
+
+
+nsubj(quick-5, you-1)
+advmod(quick-5, better-2)
+dep(quick-5, get-3)
+advmod(quick-5, here-4)
+root(ROOT-0, quick-5)
+
+
+(ROOT
+  (S
+    (VP
+      (VP (VB cos)
+        (NP (DT these) (JJ good) (JJ old) (NN mom)))
+      (CC and)
+      (VP (VB pop)
+        (SBAR
+          (S
+            (NP (NNS shops))
+            (VP (VBP are)
+              (VP (VBG getting)
+                (NP (NN rarer))))))))))
+
+
+root(ROOT-0, cos-1)
+det(mom-5, these-2)
+amod(mom-5, good-3)
+amod(mom-5, old-4)
+dobj(cos-1, mom-5)
+cc(cos-1, and-6)
+conj(cos-1, pop-7)
+nsubj(getting-10, shops-8)
+aux(getting-10, are-9)
+ccomp(pop-7, getting-10)
+dobj(getting-10, rarer-11)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB nowadays))
+    (. .)))
+
+
+root(ROOT-0, nowadays-1)
+
+

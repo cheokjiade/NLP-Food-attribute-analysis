@@ -1,0 +1,378 @@
+(ROOT
+  (S
+    (NP (JJ Ah) (NN Election) (NN fever))
+    (VP (VBZ is)
+      (PP (IN in)
+        (NP (DT the) (NN air))))
+    (, ,)))
+
+
+amod(fever-3, Ah-1)
+nn(fever-3, Election-2)
+nsubj(is-4, fever-3)
+root(ROOT-0, is-4)
+prep(is-4, in-5)
+det(air-7, the-6)
+pobj(in-5, air-7)
+
+
+(ROOT
+  (S (IN so)
+    (NP (PRP we))
+    (VP (MD shall)
+      (ADVP (RB also))
+      (VP (VB have)
+        (NP (PRP$ our) (JJ own) (NNP General) (NNS Elections))))
+    (. !)))
+
+
+dep(have-5, so-1)
+nsubj(have-5, we-2)
+aux(have-5, shall-3)
+advmod(have-5, also-4)
+root(ROOT-0, have-5)
+poss(Elections-9, our-6)
+amod(Elections-9, own-7)
+nn(Elections-9, General-8)
+dobj(have-5, Elections-9)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP have)
+      (VP (VBN done)
+        (NP (NNP Chicken) (NNP Rice))))
+    (, ,)))
+
+
+nsubj(done-3, We-1)
+aux(done-3, have-2)
+root(ROOT-0, done-3)
+nn(Rice-5, Chicken-4)
+dobj(done-3, Rice-5)
+
+
+(ROOT
+  (VP (VBN Hokkien)
+    (NP
+      (NP (NNP Mee))
+      (CC and)
+      (NP (NNP Ramen))
+      (, ,))))
+
+
+root(ROOT-0, Hokkien-1)
+dobj(Hokkien-1, Mee-2)
+cc(Mee-2, and-3)
+conj(Mee-2, Ramen-4)
+
+
+(ROOT
+  (S
+    (ADVP (RB now))
+    (NP (PRP we))
+    (VP (VBP are)
+      (VP (VBG looking)
+        (PP (IN for)
+          (NP
+            (NP
+              (NP (NNP Singapore) (POS 's))
+              (JJS best) (NN bowl))
+            (PP (IN of)
+              (NP (NNP Bak) (NNP Chor) (NNP Mee\/Mee) (NNP Pok) (NNP Tar)))))))
+    (. !)))
+
+
+advmod(looking-4, now-1)
+nsubj(looking-4, we-2)
+aux(looking-4, are-3)
+root(ROOT-0, looking-4)
+prep(looking-4, for-5)
+poss(bowl-9, Singapore-6)
+possessive(Singapore-6, 's-7)
+amod(bowl-9, best-8)
+pobj(for-5, bowl-9)
+prep(bowl-9, of-10)
+nn(Tar-15, Bak-11)
+nn(Tar-15, Chor-12)
+nn(Tar-15, Mee\/Mee-13)
+nn(Tar-15, Pok-14)
+pobj(of-10, Tar-15)
+
+
+(ROOT
+  (S
+    (S
+      (NP (DT This))
+      (VP (VBZ is) (RB not)
+        (VP (VBG going)
+          (S
+            (VP (TO to)
+              (VP (VB be)
+                (ADJP (JJ easy))
+                (SBAR (IN as)
+                  (S
+                    (NP (EX there))
+                    (VP (VBP are)
+                      (NP (JJ many) (JJ great) (NNS stalls))
+                      (ADVP (RB around)))))))))))
+    (CC and)
+    (S
+      (NP (EX there))
+      (VP (VBP are)
+        (ADVP (RB so))
+        (NP
+          (NP (JJ many) (JJ different) (NNS variants))
+          (PP (IN of)
+            (NP (NNP Bak) (NNP Chor) (NNP Mee))))))
+    (. .)))
+
+
+nsubj(going-4, This-1)
+aux(going-4, is-2)
+neg(going-4, not-3)
+root(ROOT-0, going-4)
+aux(easy-7, to-5)
+cop(easy-7, be-6)
+xcomp(going-4, easy-7)
+mark(are-10, as-8)
+expl(are-10, there-9)
+advcl(easy-7, are-10)
+amod(stalls-13, many-11)
+amod(stalls-13, great-12)
+nsubj(are-10, stalls-13)
+advmod(are-10, around-14)
+cc(going-4, and-15)
+expl(are-17, there-16)
+conj(going-4, are-17)
+advmod(are-17, so-18)
+amod(variants-21, many-19)
+amod(variants-21, different-20)
+nsubj(are-17, variants-21)
+prep(variants-21, of-22)
+nn(Mee-25, Bak-23)
+nn(Mee-25, Chor-24)
+pobj(of-22, Mee-25)
+
+
+(ROOT
+  (FRAG
+    (PP (IN For)
+      (NP (DT the) (NN nomination) (NN round)))
+    (, ,)))
+
+
+root(ROOT-0, For-1)
+det(round-4, the-2)
+nn(round-4, nomination-3)
+pobj(For-1, round-4)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (VP (MD shall)
+      (VP
+        (VP (VB cast)
+          (NP (DT the) (JJ net) (JJ wide)))
+        (CC and)
+        (VP (VB include)
+          (NP (NNP Bak) (NNP Chor) (NNP Mee)
+            (CC and)
+            (NNP Fish) (NNP Ball) (NNS noodles))
+          (ADVP (RB as) (RB well)))))
+    (. .)))
+
+
+nsubj(cast-3, we-1)
+aux(cast-3, shall-2)
+root(ROOT-0, cast-3)
+det(wide-6, the-4)
+amod(wide-6, net-5)
+dobj(cast-3, wide-6)
+cc(cast-3, and-7)
+conj(cast-3, include-8)
+nn(Mee-11, Bak-9)
+nn(Mee-11, Chor-10)
+dobj(include-8, Mee-11)
+cc(Mee-11, and-12)
+nn(noodles-15, Fish-13)
+nn(noodles-15, Ball-14)
+conj(Mee-11, noodles-15)
+advmod(well-17, as-16)
+advmod(include-8, well-17)
+
+
+(ROOT
+  (PP (VBG Depending)
+    (PP (IN on)
+      (NP
+        (NP (DT the) (NNS nominees))
+        (, ,)))))
+
+
+root(ROOT-0, Depending-1)
+pcomp(Depending-1, on-2)
+det(nominees-4, the-3)
+pobj(on-2, nominees-4)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD will)
+      (VP (VB determine)
+        (SBAR
+          (SBAR (IN if)
+            (S
+              (NP (DT the) (CD two) (NNS categories))
+              (VP (MD should)
+                (VP (VB be)
+                  (VP (VBN split))))))
+          (CC or)
+          (SBAR (IN if)
+            (S
+              (NP (PRP they))
+              (VP (MD will)
+                (VP (VB form)
+                  (NP (CD one) (NN GRC)))))))))
+    (. .)))
+
+
+nsubj(determine-3, I-1)
+aux(determine-3, will-2)
+root(ROOT-0, determine-3)
+mark(split-10, if-4)
+det(categories-7, the-5)
+num(categories-7, two-6)
+nsubjpass(split-10, categories-7)
+aux(split-10, should-8)
+auxpass(split-10, be-9)
+dep(determine-3, split-10)
+cc(split-10, or-11)
+mark(form-15, if-12)
+nsubj(form-15, they-13)
+aux(form-15, will-14)
+conj(split-10, form-15)
+num(GRC-17, one-16)
+dobj(form-15, GRC-17)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (MD will) (RB then)
+      (VP
+        (VP (VB shortlist)
+          (NP (DT the) (JJ top) (CD ten) (NNS nominees)))
+        (CC and)
+        (VP (VB vote)
+          (PP (IN for)
+            (NP (NNP Singapore) (POS 's)))
+          (ADVP (RB No)
+            (NP (CD 1))))))
+    (. .)))
+
+
+nsubj(shortlist-4, We-1)
+aux(shortlist-4, will-2)
+advmod(shortlist-4, then-3)
+root(ROOT-0, shortlist-4)
+det(nominees-8, the-5)
+amod(nominees-8, top-6)
+num(nominees-8, ten-7)
+dobj(shortlist-4, nominees-8)
+cc(shortlist-4, and-9)
+conj(shortlist-4, vote-10)
+prep(vote-10, for-11)
+pobj(for-11, Singapore-12)
+possessive(Singapore-12, 's-13)
+advmod(vote-10, No-14)
+pobj(No-14, 1-15)
+
+
+(ROOT
+  (S
+    (S
+      (NP (NNS Nominations))
+      (VP (MD will)
+        (VP (VB close)
+          (PP (IN on)
+            (NP (CD 1) (NNS Apr))))))
+    (CC and)
+    (S
+      (NP (NN polling))
+      (VP (MD shall)
+        (VP (VB start)
+          (NP (JJ next) (NNP Monday)))))
+    (. .)))
+
+
+nsubj(close-3, Nominations-1)
+aux(close-3, will-2)
+root(ROOT-0, close-3)
+prep(close-3, on-4)
+num(Apr-6, 1-5)
+pobj(on-4, Apr-6)
+cc(close-3, and-7)
+nsubj(start-10, polling-8)
+aux(start-10, shall-9)
+conj(close-3, start-10)
+amod(Monday-12, next-11)
+tmod(start-10, Monday-12)
+
+
+(ROOT
+  (S
+    (NP (RB Here))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (NN link))
+        (PP (TO to)
+          (NP
+            (NP (DT the) (NNS stalls))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP (VBP have)
+                  (ADVP (RB already))
+                  (VP (VBN been)
+                    (VP (VBN blogged))))))))))
+    (. .)))
+
+
+nsubj(link-4, Here-1)
+cop(link-4, is-2)
+det(link-4, the-3)
+root(ROOT-0, link-4)
+prep(link-4, to-5)
+det(stalls-7, the-6)
+pobj(to-5, stalls-7)
+nsubjpass(blogged-12, that-8)
+aux(blogged-12, have-9)
+advmod(blogged-12, already-10)
+auxpass(blogged-12, been-11)
+rcmod(stalls-7, blogged-12)
+
+
+(ROOT
+  (S (RB So)
+    (VP (VB start)
+      (S
+        (VP (VBG nominating)
+          (NP (PRP$ your) (JJ favorite) (NNP Bak) (NNP Chor) (NNP Mee) (NN Stall)))))
+    (. !)))
+
+
+advmod(start-2, So-1)
+root(ROOT-0, start-2)
+xcomp(start-2, nominating-3)
+poss(Stall-9, your-4)
+amod(Stall-9, favorite-5)
+nn(Stall-9, Bak-6)
+nn(Stall-9, Chor-7)
+nn(Stall-9, Mee-8)
+dobj(nominating-3, Stall-9)
+
+

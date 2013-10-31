@@ -1,0 +1,286 @@
+(ROOT
+  (FRAG
+    (ADJP (RB So) (JJ good))
+    (S
+      (VP (TO to)
+        (VP (VB meet)
+          (NP (NN everyone))
+          (NP (JJ last) (NN night))
+          (PP (IN at)
+            (NP (NNP Durian) (NNP Degustation) (NNP XI))))))
+    (. !)))
+
+
+advmod(good-2, So-1)
+root(ROOT-0, good-2)
+aux(meet-4, to-3)
+dep(good-2, meet-4)
+dobj(meet-4, everyone-5)
+amod(night-7, last-6)
+tmod(meet-4, night-7)
+prep(meet-4, at-8)
+nn(XI-11, Durian-9)
+nn(XI-11, Degustation-10)
+pobj(at-8, XI-11)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP You))
+      (VP (MD can)
+        (VP (VB see)
+          (PP (IN from)
+            (NP (DT the) (NNS photos)))
+          (SBAR (IN that)
+            (S
+              (NP (NN everyone))
+              (VP (VBD had)
+                (NP (DT a) (JJ great) (NN time))))))))
+    (CC and)
+    (S
+      (NP (EX there))
+      (VP (VBD were)
+        (NP
+          (NP (NNS lots)
+            (CC and)
+            (NNS lots))
+          (PP (IN of)
+            (NP (NNP Durian)))
+          (S
+            (VP (TO to)
+              (VP (VB eat)))))))
+    (. !)))
+
+
+nsubj(see-3, You-1)
+aux(see-3, can-2)
+root(ROOT-0, see-3)
+prep(see-3, from-4)
+det(photos-6, the-5)
+pobj(from-4, photos-6)
+mark(had-9, that-7)
+nsubj(had-9, everyone-8)
+ccomp(see-3, had-9)
+det(time-12, a-10)
+amod(time-12, great-11)
+dobj(had-9, time-12)
+cc(see-3, and-13)
+expl(were-15, there-14)
+conj(see-3, were-15)
+nsubj(were-15, lots-16)
+cc(lots-16, and-17)
+conj(lots-16, lots-18)
+prep(lots-16, of-19)
+pobj(of-19, Durian-20)
+aux(eat-22, to-21)
+infmod(lots-16, eat-22)
+
+
+(ROOT
+  (ADJP (JJ Thanks)
+    (PP (TO to)
+      (NP (NN everyone)))
+    (PP (IN for)
+      (S
+        (VP (VBG turning)
+          (PRT (RP up))
+          (PP (IN on)
+            (NP (NN time))))))
+    (. !)))
+
+
+root(ROOT-0, Thanks-1)
+prep(Thanks-1, to-2)
+pobj(to-2, everyone-3)
+prep(Thanks-1, for-4)
+pcomp(for-4, turning-5)
+prt(turning-5, up-6)
+prep(turning-5, on-7)
+pobj(on-7, time-8)
+
+
+(ROOT
+  (FRAG
+    (NP (JJ Big) (NNS thanks))
+    (S
+      (VP
+        (VP (TO to)
+          (VP (VB Soundman)
+            (PP (IN for)
+              (S
+                (VP (VBG organizing)
+                  (NP (DT the) (NN event)))))))
+        (CC and)
+        (ADVP (RB also))
+        (VP (TO to)
+          (VP (VB Irene)
+            (PP (IN for)
+              (NP (NN helpin)))
+            (PP (IN with)
+              (NP (DT the) (NN registration)))))))
+    (. !)))
+
+
+amod(thanks-2, Big-1)
+root(ROOT-0, thanks-2)
+aux(Soundman-4, to-3)
+dep(thanks-2, Soundman-4)
+prep(Soundman-4, for-5)
+pcomp(for-5, organizing-6)
+det(event-8, the-7)
+dobj(organizing-6, event-8)
+cc(Soundman-4, and-9)
+advmod(Soundman-4, also-10)
+aux(Irene-12, to-11)
+conj(Soundman-4, Irene-12)
+prep(Irene-12, for-13)
+pobj(for-13, helpin-14)
+prep(Irene-12, with-15)
+det(registration-17, the-16)
+pobj(with-15, registration-17)
+
+
+(ROOT
+  (S
+    (NP (PRP$ Our) (JJ next) (NN makan) (NN session))
+    (VP (VBZ is)
+      (PP (IN on)
+        (NP
+          (NP (CD 8) (NNS Dec))
+          (CC and)
+          (NP (PRP$ its) (NN going))))
+      (S
+        (VP (TO to)
+          (VP (VB be)
+            (NP (PRP$ our)
+              (ADJP (NN Year) (VBN End))
+              (NNP Big) (NNP Makan) (NNP Bash))))))
+    (. !)))
+
+
+poss(session-4, Our-1)
+amod(session-4, next-2)
+nn(session-4, makan-3)
+nsubj(is-5, session-4)
+root(ROOT-0, is-5)
+prep(is-5, on-6)
+num(Dec-8, 8-7)
+pobj(on-6, Dec-8)
+cc(Dec-8, and-9)
+poss(going-11, its-10)
+conj(Dec-8, going-11)
+aux(Bash-19, to-12)
+cop(Bash-19, be-13)
+poss(Bash-19, our-14)
+dep(End-16, Year-15)
+amod(Bash-19, End-16)
+nn(Bash-19, Big-17)
+nn(Bash-19, Makan-18)
+xcomp(is-5, Bash-19)
+
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBZ 's)
+      (VP (VBG going)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (NP
+                (NP (NNS lots))
+                (PP (IN of)
+                  (NP (NN fun)
+                    (CC and)
+                    (NNS activities)))))))))
+    (, ,)))
+
+
+expl(going-3, There-1)
+aux(going-3, 's-2)
+root(ROOT-0, going-3)
+aux(lots-6, to-4)
+cop(lots-6, be-5)
+xcomp(going-3, lots-6)
+prep(lots-6, of-7)
+pobj(of-7, fun-8)
+cc(fun-8, and-9)
+conj(fun-8, activities-10)
+
+
+(ROOT
+  (S
+    (NP (JJ lucky))
+    (VP (VBP draw))
+    (, ,)))
+
+
+nsubj(draw-2, lucky-1)
+root(ROOT-0, draw-2)
+
+
+(ROOT
+  (NP
+    (NP (NN food))
+    (PP (IN of)
+      (NP
+        (NP (NN course))
+        (CC AND)
+        (NP (JJ autographed) (NNS copies))))
+    (PP (IN of)
+      (NP
+        (NP (PRP$ my) (JJS latest) (NN book))
+        (`` ``)
+        (NP (RB Only) (DT The) (JJS Best))))
+    (. !)))
+
+
+root(ROOT-0, food-1)
+prep(food-1, of-2)
+pobj(of-2, course-3)
+cc(course-3, AND-4)
+amod(copies-6, autographed-5)
+conj(course-3, copies-6)
+prep(food-1, of-7)
+poss(book-10, my-8)
+amod(book-10, latest-9)
+pobj(of-7, book-10)
+advmod(Best-14, Only-12)
+det(Best-14, The-13)
+dep(book-10, Best-14)
+
+
+(ROOT
+  (FRAG ('' '')
+    (NP (NN Look))
+    (PP (RB out) (IN for)
+      (NP
+        (NP (DT the) (NN registration))
+        (NP (JJ next) (NN week))))
+    (. !)))
+
+
+root(ROOT-0, Look-2)
+advmod(for-4, out-3)
+prep(Look-2, for-4)
+det(registration-6, the-5)
+pobj(for-4, registration-6)
+amod(week-8, next-7)
+dep(registration-6, week-8)
+
+
+(ROOT
+  (S
+    (VP (VB See)
+      (NP (PRP you))
+      (ADVP (DT all) (RB there)))
+    (. !)))
+
+
+root(ROOT-0, See-1)
+dobj(See-1, you-2)
+dep(there-4, all-3)
+advmod(See-1, there-4)
+
+

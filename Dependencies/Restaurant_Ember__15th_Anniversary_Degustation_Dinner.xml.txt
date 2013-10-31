@@ -1,0 +1,900 @@
+(ROOT
+  (S
+    (NP (NNP Marriage))
+    (VP (VBZ is) (RB n't)
+      (PP (IN for)
+        (NP (NN everyone))))))
+
+
+nsubj(is-2, Marriage-1)
+root(ROOT-0, is-2)
+neg(is-2, n't-3)
+prep(is-2, for-4)
+pobj(for-4, everyone-5)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP guess))
+    (, ,)))
+
+
+nsubj(guess-2, I-1)
+root(ROOT-0, guess-2)
+
+
+(ROOT
+  (FRAG
+    (PP (CC but)
+      (NP (NNP personally)))
+    (, ,)))
+
+
+root(ROOT-0, but-1)
+dep(but-1, personally-2)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (VBZ suits)
+      (S
+        (NP (PRP me))
+        (ADJP (RB just) (JJ fine))))
+    (. .)))
+
+
+nsubj(suits-2, it-1)
+root(ROOT-0, suits-2)
+nsubj(fine-5, me-3)
+advmod(fine-5, just-4)
+xcomp(suits-2, fine-5)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (NP
+        (NP (DT the) (NN kind))
+        (PP (IN of)
+          (NP (NN guy)))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBZ likes)
+              (NP
+                (NP (NN stability)
+                  (CC and)
+                  (NN predictability))
+                (PP (IN in)
+                  (NP (NN life)))))))))
+    (, ,)))
+
+
+nsubj(kind-4, I-1)
+cop(kind-4, am-2)
+det(kind-4, the-3)
+root(ROOT-0, kind-4)
+prep(kind-4, of-5)
+pobj(of-5, guy-6)
+nsubj(likes-8, who-7)
+rcmod(kind-4, likes-8)
+dobj(likes-8, stability-9)
+cc(stability-9, and-10)
+conj(stability-9, predictability-11)
+prep(stability-9, in-12)
+pobj(in-12, life-13)
+
+
+(ROOT
+  (SBAR (IN so)
+    (S
+      (NP (PRP it))
+      (VP (VBZ is)
+        (ADJP (JJ comforting)
+          (S
+            (VP (TO to)
+              (VP (VB come)
+                (NP (NN home) (JJ everyday))))))
+        (, ,)))))
+
+
+mark(comforting-4, so-1)
+nsubj(comforting-4, it-2)
+cop(comforting-4, is-3)
+root(ROOT-0, comforting-4)
+aux(come-6, to-5)
+xcomp(comforting-4, come-6)
+dobj(come-6, home-7)
+amod(home-7, everyday-8)
+
+
+(ROOT
+  (S
+    (VP (VB have)
+      (NP (PRP$ my))
+      (NP (NN meal))
+      (, ,))))
+
+
+root(ROOT-0, have-1)
+dep(have-1, my-2)
+dobj(have-1, meal-3)
+
+
+(ROOT
+  (S
+    (VP (VB play)
+      (PP (IN with)
+        (NP (DT the) (NNS kids))
+        (, ,)))))
+
+
+root(ROOT-0, play-1)
+prep(play-1, with-2)
+det(kids-4, the-3)
+pobj(with-2, kids-4)
+
+
+(ROOT
+  (S
+    (VP
+      (VP (VB watch)
+        (NP (NN TV)))
+      (CC and)
+      (VP (VB go)
+        (PP (TO to)
+          (NP (NN bed)))))
+    (. .)))
+
+
+root(ROOT-0, watch-1)
+dobj(watch-1, TV-2)
+cc(watch-1, and-3)
+conj(watch-1, go-4)
+prep(go-4, to-5)
+pobj(to-5, bed-6)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB once))
+    (VP (VBD joked)
+      (PP (IN with)
+        (NP (PRP$ my) (NN wife)))
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (CD one))
+            (PP (IN of)
+              (NP
+                (NP (DT the) (NNS reasons))
+                (SBAR
+                  (S
+                    (NP (PRP I))
+                    (VP (VBD wanted)
+                      (S
+                        (VP (TO to)
+                          (VP (VB get)
+                            (VP (VBN married)
+                              (PRN (-LRB- -LRB-)
+                                (PP (TO to)
+                                  (NP (PRP her)))
+                                (-RRB- -RRB-))))))))))))
+          (VP (VBD was)
+            (NP (DT the) (NN fact))
+            (SBAR (IN that)
+              (S
+                (NP (PRP I))
+                (VP (VBD did) (RB not)
+                  (VP (VB like)
+                    (S
+                      (VP (TO to)
+                        (VP (VB say)
+                          (NP (NN goodbye))
+                          (PP (IN after)
+                            (NP
+                              (NP (DT a) (JJ wonderful) (NN meal))
+                              (CC and)
+                              (NP (DT a) (NN movie)))))))))))))))
+    (. .)))
+
+
+nsubj(joked-3, I-1)
+advmod(joked-3, once-2)
+root(ROOT-0, joked-3)
+prep(joked-3, with-4)
+poss(wife-6, my-5)
+pobj(with-4, wife-6)
+mark(fact-23, that-7)
+nsubj(fact-23, one-8)
+prep(one-8, of-9)
+det(reasons-11, the-10)
+pobj(of-9, reasons-11)
+nsubj(wanted-13, I-12)
+rcmod(reasons-11, wanted-13)
+aux(married-16, to-14)
+auxpass(married-16, get-15)
+xcomp(wanted-13, married-16)
+dep(married-16, to-18)
+pobj(to-18, her-19)
+cop(fact-23, was-21)
+det(fact-23, the-22)
+ccomp(joked-3, fact-23)
+mark(like-28, that-24)
+nsubj(like-28, I-25)
+aux(like-28, did-26)
+neg(like-28, not-27)
+ccomp(fact-23, like-28)
+aux(say-30, to-29)
+xcomp(like-28, say-30)
+dobj(say-30, goodbye-31)
+prep(say-30, after-32)
+det(meal-35, a-33)
+amod(meal-35, wonderful-34)
+pobj(after-32, meal-35)
+cc(meal-35, and-36)
+det(movie-38, a-37)
+conj(meal-35, movie-38)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBZ hated)
+      (S
+        (VP (VBG taking)
+          (PP
+            (ADVP
+              (NP (DT a) (NN bus))
+              (RB all))
+            (IN by)
+            (NP (PRP myself)))
+          (PP (IN after)
+            (NP (NN midnight)))
+          (PRN (-LRB- -LRB-)
+            (S
+              (NP (DT Those))
+              (VP (VBD were)
+                (NP (DT the) (NNP NS) (NNS days))))
+            (-RRB- -RRB-)))))
+    (. .)))
+
+
+nsubj(hated-2, I-1)
+root(ROOT-0, hated-2)
+xcomp(hated-2, taking-3)
+det(bus-5, a-4)
+npadvmod(all-6, bus-5)
+advmod(by-7, all-6)
+prep(taking-3, by-7)
+pobj(by-7, myself-8)
+prep(taking-3, after-9)
+pobj(after-9, midnight-10)
+nsubj(days-16, Those-12)
+cop(days-16, were-13)
+det(days-16, the-14)
+nn(days-16, NS-15)
+parataxis(taking-3, days-16)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT Another) (JJ good) (NN thing))
+      (PP (IN about)
+        (S
+          (VP (VBG getting)
+            (ADJP (JJ married))))))
+    (VP (VBZ is)
+      (SBAR (IN that)
+        (S
+          (S
+            (NP (PRP you))
+            (VP (VBP do) (RB n't)
+              (VP (VB have)
+                (S
+                  (VP (TO to)
+                    (VP (VB decide)
+                      (SBAR
+                        (WHNP (WP who))
+                        (S
+                          (VP (TO to)
+                            (VP (VB go)
+                              (PP (TO to)
+                                (NP (DT the) (NNS movies)))
+                              (PP (IN with))))))))))))
+          (CC and)
+          (S
+            (NP (PRP you))
+            (ADVP (RB never))
+            (VP (VBP have)
+              (S
+                (VP (TO to)
+                  (VP (VB grapple)
+                    (PP (IN with)
+                      (NP
+                        (NP (DT the) (NN embarassment))
+                        (PP (IN of)
+                          (S
+                            (VP (VBG being)
+                              (VP (VBN turned)
+                                (PRT (RP down))))))))))))))))
+    (. .)))
+
+
+det(thing-3, Another-1)
+amod(thing-3, good-2)
+nsubj(is-7, thing-3)
+prep(thing-3, about-4)
+dep(married-6, getting-5)
+pcomp(about-4, married-6)
+root(ROOT-0, is-7)
+mark(have-12, that-8)
+nsubj(have-12, you-9)
+aux(have-12, do-10)
+neg(have-12, n't-11)
+ccomp(is-7, have-12)
+aux(decide-14, to-13)
+xcomp(have-12, decide-14)
+nsubj(go-17, who-15)
+aux(go-17, to-16)
+ccomp(decide-14, go-17)
+prep(go-17, to-18)
+det(movies-20, the-19)
+pobj(to-18, movies-20)
+prep(go-17, with-21)
+cc(have-12, and-22)
+nsubj(have-25, you-23)
+neg(have-25, never-24)
+conj(have-12, have-25)
+aux(grapple-27, to-26)
+xcomp(have-25, grapple-27)
+prep(grapple-27, with-28)
+det(embarassment-30, the-29)
+pobj(with-28, embarassment-30)
+prep(embarassment-30, of-31)
+auxpass(turned-33, being-32)
+pcomp(of-31, turned-33)
+prt(turned-33, down-34)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Ah)
+      (NP (RB yes)))
+    (, ,)))
+
+
+root(ROOT-0, Ah-1)
+pobj(Ah-1, yes-2)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (ADVP (RB also))
+    (VP (VB save)
+      (NP (DT a) (NN lot))
+      (PP (IN on)
+        (NP (NN phone) (NNS bills))))
+    (. .)))
+
+
+nsubj(save-3, you-1)
+advmod(save-3, also-2)
+root(ROOT-0, save-3)
+det(lot-5, a-4)
+dobj(save-3, lot-5)
+prep(save-3, on-6)
+nn(bills-8, phone-7)
+pobj(on-6, bills-8)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Anyway))
+    (, ,)))
+
+
+root(ROOT-0, Anyway-1)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Amagada) (POS 's))
+      (NNS tastebuds))
+    (VP (MD can)
+      (VP (VB be)
+        (ADJP (RB quite) (JJ difficult)
+          (S
+            (VP (TO to)
+              (VP (VB please)))))))
+    (. .)))
+
+
+poss(tastebuds-3, Amagada-1)
+possessive(Amagada-1, 's-2)
+nsubj(difficult-7, tastebuds-3)
+aux(difficult-7, can-4)
+cop(difficult-7, be-5)
+advmod(difficult-7, quite-6)
+root(ROOT-0, difficult-7)
+aux(please-9, to-8)
+xcomp(difficult-7, please-9)
+
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP have)
+      (VP (VBN been)
+        (NP
+          (NP
+            (ADJP (RB so) (JJ many))
+            (NNS occasions))
+          (SBAR
+            (WHADVP (WRB when))
+            (S
+              (NP (PRP I))
+              (VP (VBD brought)
+                (NP (PRP her))
+                (PP (TO to)
+                  (NP
+                    (NP (CD one))
+                    (PP (IN of)
+                      (NP (DT those) (`` ``)
+                        (S
+                          (S
+                            (VP (NN die)
+                              (VP (VB die))))
+                          (VP (MD must)
+                            (VP (VB try))))
+                        ('' '') (NNS places)))))
+                (SBAR
+                  (WHNP (WDT which))
+                  (S
+                    (NP (PRP I))
+                    (VP (VBP have)
+                      (VP (VBN blogged)
+                        (NP
+                          (QP (RB about) (RB only)))
+                        (S
+                          (VP (TO to)
+                            (VP (VB be)
+                              (VP (VBN told)
+                                (SBAR (IN that)
+                                  (S
+                                    (NP (PRP she))
+                                    (VP (VBD felt)
+                                      (SBAR
+                                        (S
+                                          (NP (PRP it))
+                                          (VP (VBD was)
+                                            (ADJP (RB quite) (JJ ordinary))))))))))))))))))))))
+    (. .)))
+
+
+expl(occasions-6, There-1)
+aux(occasions-6, have-2)
+cop(occasions-6, been-3)
+advmod(many-5, so-4)
+amod(occasions-6, many-5)
+root(ROOT-0, occasions-6)
+advmod(brought-9, when-7)
+nsubj(brought-9, I-8)
+rcmod(occasions-6, brought-9)
+dobj(brought-9, her-10)
+prep(brought-9, to-11)
+pobj(to-11, one-12)
+prep(one-12, of-13)
+det(places-21, those-14)
+dep(die-17, die-16)
+csubj(try-19, die-17)
+aux(try-19, must-18)
+dep(places-21, try-19)
+pobj(of-13, places-21)
+dobj(blogged-25, which-22)
+nsubj(blogged-25, I-23)
+aux(blogged-25, have-24)
+dep(brought-9, blogged-25)
+quantmod(only-27, about-26)
+dobj(blogged-25, only-27)
+aux(told-30, to-28)
+auxpass(told-30, be-29)
+xcomp(blogged-25, told-30)
+mark(felt-33, that-31)
+nsubj(felt-33, she-32)
+ccomp(told-30, felt-33)
+nsubj(ordinary-37, it-34)
+cop(ordinary-37, was-35)
+advmod(ordinary-37, quite-36)
+ccomp(felt-33, ordinary-37)
+
+
+(ROOT
+  (S (IN So)
+    (NP (PRP I))
+    (VP (VBD was)
+      (PP (IN under)
+        (NP
+          (NP (DT a) (NN lot))
+          (PP (IN of)
+            (NP (NN pressure)))))
+      (S
+        (VP (TO to)
+          (VP (VB find)
+            (NP (DT a) (JJ nice) (NN place))
+            (S
+              (VP (TO to)
+                (VP (VB bring)
+                  (NP (PRP her))
+                  (PP (IN for)
+                    (NP (PRP$ our) (NN anniversary) (NN dinner))))))))))
+    (. .)))
+
+
+dep(was-3, So-1)
+nsubj(was-3, I-2)
+root(ROOT-0, was-3)
+prep(was-3, under-4)
+det(lot-6, a-5)
+pobj(under-4, lot-6)
+prep(lot-6, of-7)
+pobj(of-7, pressure-8)
+aux(find-10, to-9)
+xcomp(was-3, find-10)
+det(place-13, a-11)
+amod(place-13, nice-12)
+dobj(find-10, place-13)
+aux(bring-15, to-14)
+xcomp(find-10, bring-15)
+dobj(bring-15, her-16)
+prep(bring-15, for-17)
+poss(dinner-20, our-18)
+nn(dinner-20, anniversary-19)
+pobj(for-17, dinner-20)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Of)
+      (NP (NN course)))
+    (, ,)))
+
+
+root(ROOT-0, Of-1)
+pobj(Of-1, course-2)
+
+
+(ROOT
+  (S
+    (NP (PRP she))
+    (VP (VBD told)
+      (NP (PRP me))
+      (SBAR (IN that)
+        (S
+          (NP (NNS flowers)
+            (CC and)
+            (NN dinner))
+          (VP (VBD were) (RB not)
+            (ADJP (JJ necessary))))))
+    (, ,)))
+
+
+nsubj(told-2, she-1)
+root(ROOT-0, told-2)
+dobj(told-2, me-3)
+mark(necessary-10, that-4)
+nsubj(necessary-10, flowers-5)
+cc(flowers-5, and-6)
+conj(flowers-5, dinner-7)
+cop(necessary-10, were-8)
+neg(necessary-10, not-9)
+ccomp(told-2, necessary-10)
+
+
+(ROOT
+  (SBAR (IN that)
+    (S
+      (NP (PRP we))
+      (VP (MD should)
+        (VP (VB save)
+          (NP (NN money) (NN lah))))
+      (, ,))))
+
+
+mark(save-4, that-1)
+nsubj(save-4, we-2)
+aux(save-4, should-3)
+root(ROOT-0, save-4)
+nn(lah-6, money-5)
+dobj(save-4, lah-6)
+
+
+(ROOT
+  (NP (JJ blah) (NNS ,)))
+
+
+amod(,-2, blah-1)
+
+
+(ROOT
+  (S
+    (NP (NN blah))
+    (VP (VBP blah))
+    (. .)))
+
+
+nsubj(blah-2, blah-1)
+root(ROOT-0, blah-2)
+
+
+(ROOT
+  (X (CC But)
+    (S
+      (VP (VB take)
+        (NP (PRP it))
+        (PP (IN from)
+          (NP (PRP me) (NNS guys))
+          (, ,))))))
+
+
+cc(take-2, But-1)
+root(ROOT-0, take-2)
+dobj(take-2, it-3)
+prep(take-2, from-4)
+dep(guys-6, me-5)
+pobj(from-4, guys-6)
+
+
+(ROOT
+  (S
+    (NP (PRP they))
+    (VP (MD might)
+      (VP (VB say)
+        (INTJ (`` ``) (UH no) ('' ''))))
+    (, ,)))
+
+
+nsubj(say-3, they-1)
+aux(say-3, might-2)
+root(ROOT-0, say-3)
+discourse(say-3, no-5)
+
+
+(ROOT
+  (FRAG (CC but)
+    (SBAR
+      (ADVP (RB often))
+      (IN that)
+      (S (`` ``)
+        (NP (RB no))
+        ('' '')
+        (VP (VBZ is)
+          (ADVP (RB often))
+          (NP
+            (NP (DT a) (NN test))
+            (PP (IN of)
+              (NP (PRP$ your) (NN ability)
+                (S
+                  (VP (TO to)
+                    (VP (VB read)
+                      (NP (PRP$ their) (NNS thoughts)))))))))))
+    (. .)))
+
+
+cc(test-10, but-1)
+advmod(test-10, often-2)
+mark(test-10, that-3)
+nsubj(test-10, no-5)
+cop(test-10, is-7)
+advmod(test-10, often-8)
+det(test-10, a-9)
+root(ROOT-0, test-10)
+prep(test-10, of-11)
+poss(ability-13, your-12)
+pobj(of-11, ability-13)
+aux(read-15, to-14)
+infmod(ability-13, read-15)
+poss(thoughts-17, their-16)
+dobj(read-15, thoughts-17)
+
+
+(ROOT
+  (FRAG (RB So) (JJ ,)))
+
+
+root(ROOT-0, So-1)
+
+
+(ROOT
+  (S
+    (ADVP (RB sometimes))
+    (`` ``)
+    (NP (RB no))
+    ('' '')
+    (VP (VBZ means) (`` ``)
+      (NP (DT No) (NN dinner) (NN huh)))
+    (. ?)))
+
+
+advmod(means-5, sometimes-1)
+nsubj(means-5, no-3)
+root(ROOT-0, means-5)
+det(huh-9, No-7)
+nn(huh-9, dinner-8)
+dobj(means-5, huh-9)
+
+
+(ROOT
+  (S
+    (NP (JJ Next) (NN time))
+    (NP (PRP you))
+    (VP (VBP wait)
+      (ADVP (RB long) (RB long))
+      (PP (IN for)
+        (NP (PRP$ your) (JJ favorite) (JJ Carrot) (NN Cake) ('' ''))))
+    (. .)))
+
+
+amod(time-2, Next-1)
+nsubj(wait-4, time-2)
+nsubj(wait-4, you-3)
+root(ROOT-0, wait-4)
+advmod(long-6, long-5)
+advmod(wait-4, long-6)
+prep(wait-4, for-7)
+poss(Cake-11, your-8)
+amod(Cake-11, favorite-9)
+amod(Cake-11, Carrot-10)
+pobj(for-7, Cake-11)
+
+
+(ROOT
+  (FRAG (CC But)
+    (NP (NNP ,))))
+
+
+cc(,-2, But-1)
+
+
+(ROOT
+  (S
+    (ADVP (RB sometimes))
+    (`` ``)
+    (NP (RB no))
+    ('' '')
+    (ADVP (RB really))
+    (VP (VBZ means)
+      (S (`` ``)
+        (NP (RB no))
+        ('' '')))
+    (. .)))
+
+
+advmod(means-6, sometimes-1)
+nsubj(means-6, no-3)
+advmod(means-6, really-5)
+root(ROOT-0, means-6)
+dep(means-6, no-8)
+
+
+(ROOT
+  (S (IN So)
+    (NP
+      (NP (DT the) (NN secret))
+      (PP (IN of)
+        (NP (DT a) (JJ good) (NN marriage))))
+    (VP (VBZ is)
+      (VP (VBG knowing)
+        (SBAR
+          (WHADVP (WRB when))
+          (S (`` ``)
+            (NP (RB no))
+            ('' '')
+            (VP (VBZ means)
+              (UCP
+                (FRAG
+                  (INTJ (`` ``) (UH no) ('' '')))
+                (CC and)
+                (SBAR
+                  (WHADVP (WRB when))
+                  (S
+                    (NP (PRP it))
+                    (VP (VBZ means)
+                      (ADVP (RB otherwise)))))))))))
+    (. .)))
+
+
+dep(knowing-9, So-1)
+det(secret-3, the-2)
+nsubj(knowing-9, secret-3)
+prep(secret-3, of-4)
+det(marriage-7, a-5)
+amod(marriage-7, good-6)
+pobj(of-4, marriage-7)
+aux(knowing-9, is-8)
+root(ROOT-0, knowing-9)
+advmod(means-14, when-10)
+nsubj(means-14, no-12)
+advcl(knowing-9, means-14)
+dep(means-14, no-16)
+cc(no-16, and-18)
+advmod(means-21, when-19)
+nsubj(means-21, it-20)
+conj(no-16, means-21)
+advmod(means-21, otherwise-22)
+
+
+(ROOT
+  (FRAG (CC And)
+    (NP (DT that) (NN ,))))
+
+
+cc(,-3, And-1)
+det(,-3, that-2)
+
+
+(ROOT
+  (S
+    (NP (NNP unfortunately))
+    (ADVP (RB only))
+    (VP (VBZ comes)
+      (PP (IN through)
+        (NP (NN experience))))
+    (. .)))
+
+
+nsubj(comes-3, unfortunately-1)
+advmod(comes-3, only-2)
+root(ROOT-0, comes-3)
+prep(comes-3, through-4)
+pobj(through-4, experience-5)
+
+
+(ROOT
+  (S (IN So)
+    (NP (PRP you))
+    (VP (MD can)
+      (VP (VB imagine)
+        (SBAR
+          (WHNP
+            (WHADJP (WRB how) (JJ many))
+            (NNS times))
+          (S
+            (NP (PRP I))
+            (VP (VBD kena)
+              (PP (IN from)
+                (NP (PRP her)))
+              (PP (IN in)
+                (NP
+                  (NP (DT the) (JJ early) (NNS years))
+                  (PP (IN of)
+                    (NP (NN marriage))))))))))
+    (. .)))
+
+
+dep(imagine-4, So-1)
+nsubj(imagine-4, you-2)
+aux(imagine-4, can-3)
+root(ROOT-0, imagine-4)
+advmod(many-6, how-5)
+amod(times-7, many-6)
+dobj(kena-9, times-7)
+nsubj(kena-9, I-8)
+ccomp(imagine-4, kena-9)
+prep(kena-9, from-10)
+pobj(from-10, her-11)
+prep(kena-9, in-12)
+det(years-15, the-13)
+amod(years-15, early-14)
+pobj(in-12, years-15)
+prep(years-15, of-16)
+pobj(of-16, marriage-17)
+
+

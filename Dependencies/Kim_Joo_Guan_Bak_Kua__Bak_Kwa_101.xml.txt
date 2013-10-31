@@ -1,0 +1,168 @@
+(ROOT
+  (NP (NNP Alright) (NNP ,)))
+
+
+nn(,-2, Alright-1)
+
+
+(ROOT
+  (FRAG
+    (PP (IN with)
+      (NP
+        (NP (NNP Chinese) (NNP New) (NNP Year))
+        (PP (RB just) (IN around)
+          (NP (DT the) (NN corner)))))
+    (, ,)))
+
+
+root(ROOT-0, with-1)
+nn(Year-4, Chinese-2)
+nn(Year-4, New-3)
+pobj(with-1, Year-4)
+advmod(around-6, just-5)
+prep(Year-4, around-6)
+det(corner-8, the-7)
+pobj(around-6, corner-8)
+
+
+(ROOT
+  (S
+    (VP (VB let)
+      (S
+        (NP (POS 's))
+        (VP (NN talk)
+          (PP (IN about)
+            (NP (NNP Bak) (NNP Kwa))))))
+    (. .)))
+
+
+root(ROOT-0, let-1)
+nsubj(talk-3, 's-2)
+ccomp(let-1, talk-3)
+prep(talk-3, about-4)
+nn(Kwa-6, Bak-5)
+pobj(about-4, Kwa-6)
+
+
+(ROOT
+  (SBARQ
+    (WHNP (WP Who))
+    (SQ
+      (VP (VBZ does) (RB n't)
+        (VP (VB like)
+          (NP (NNP Bak) (NNP Kwa)))))
+    (. ?)))
+
+
+nsubj(like-4, Who-1)
+aux(like-4, does-2)
+neg(like-4, n't-3)
+root(ROOT-0, like-4)
+nn(Kwa-6, Bak-5)
+dobj(like-4, Kwa-6)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Well))
+    (, ,)))
+
+
+root(ROOT-0, Well-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP guess)
+      (SBAR (IN if)
+        (S
+          (NP (PRP you))
+          (VP (VBP are)
+            (NP (DT a) (NN health) (NN nut))))))
+    (, ,)))
+
+
+nsubj(guess-2, I-1)
+root(ROOT-0, guess-2)
+mark(nut-8, if-3)
+nsubj(nut-8, you-4)
+cop(nut-8, are-5)
+det(nut-8, a-6)
+nn(nut-8, health-7)
+advcl(guess-2, nut-8)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (ADVP (RB probably))
+    (VP (VBP want)
+      (S
+        (VP (TO to)
+          (VP (VB steer)
+            (ADJP (JJ clear))
+            (PP (IN of)
+              (NP (DT this)))))))
+    (. .)))
+
+
+nsubj(want-3, you-1)
+advmod(want-3, probably-2)
+root(ROOT-0, want-3)
+aux(steer-5, to-4)
+xcomp(want-3, steer-5)
+acomp(steer-5, clear-6)
+prep(steer-5, of-7)
+pobj(of-7, this-8)
+
+
+(ROOT
+  (FRAG (CC But)
+    (PP (IN for)
+      (NP
+        (NP (DT the) (NN rest))
+        (PP (IN of)
+          (NP (PRP us)))
+        (, ,)))))
+
+
+root(ROOT-0, But-1)
+prep(But-1, for-2)
+det(rest-4, the-3)
+pobj(for-2, rest-4)
+prep(rest-4, of-5)
+pobj(of-5, us-6)
+
+
+(ROOT
+  (S
+    (NP (NNP Chinese) (NNP New) (NNP Year))
+    (VP (VBZ is)
+      (NP (DT an) (NN excuse)
+        (S
+          (VP (TO to)
+            (VP (VB indulge)
+              (NP (DT a) (JJ few) (NNS calories))
+              (PP (IN on)
+                (NP (DT this) (NN luxury) (NN snack))))))))
+    (. .)))
+
+
+nn(Year-3, Chinese-1)
+nn(Year-3, New-2)
+nsubj(excuse-6, Year-3)
+cop(excuse-6, is-4)
+det(excuse-6, an-5)
+root(ROOT-0, excuse-6)
+aux(indulge-8, to-7)
+infmod(excuse-6, indulge-8)
+det(calories-11, a-9)
+amod(calories-11, few-10)
+dobj(indulge-8, calories-11)
+prep(indulge-8, on-12)
+det(snack-15, this-13)
+nn(snack-15, luxury-14)
+pobj(on-12, snack-15)
+
+

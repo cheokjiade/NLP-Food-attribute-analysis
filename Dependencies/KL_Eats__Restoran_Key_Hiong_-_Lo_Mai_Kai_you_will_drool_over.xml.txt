@@ -1,0 +1,269 @@
+(ROOT
+  (NP
+    (NP (DT The) (JJS best))
+    (NP (NNP Lo) (NNP Mai) (NNP Kai))))
+
+
+det(best-2, The-1)
+root(ROOT-0, best-2)
+nn(Kai-5, Lo-3)
+nn(Kai-5, Mai-4)
+dep(best-2, Kai-5)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (ADVP (RB ever))
+      (VP (VBN eaten)
+        (PP (IN in)
+          (NP
+            (NP (PRP$ my) (NN life))
+            (SBAR
+              (S
+                (VP (VBD was)
+                  (PP (IN in)
+                    (NP (NNP Petaling) (NNP Jaya))))))))))
+    (. .)))
+
+
+nsubj(eaten-4, I-1)
+aux(eaten-4, have-2)
+advmod(eaten-4, ever-3)
+root(ROOT-0, eaten-4)
+prep(eaten-4, in-5)
+poss(life-7, my-6)
+pobj(in-5, life-7)
+rcmod(life-7, was-8)
+prep(was-8, in-9)
+nn(Jaya-11, Petaling-10)
+pobj(in-9, Jaya-11)
+
+
+(ROOT
+  (S
+    (NP (DT That))
+    (VP (VBD was)
+      (ADVP
+        (NP (CD 7) (NNS years))
+        (RB ago))
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP I))
+          (VP (VBD visited)
+            (NP (PRP$ my) (NN cousin))
+            (PP (IN in)
+              (NP (NNP KL)))))))
+    (. .)))
+
+
+nsubj(was-2, That-1)
+root(ROOT-0, was-2)
+num(years-4, 7-3)
+npadvmod(ago-5, years-4)
+advmod(was-2, ago-5)
+advmod(visited-8, when-6)
+nsubj(visited-8, I-7)
+advcl(was-2, visited-8)
+poss(cousin-10, my-9)
+dobj(visited-8, cousin-10)
+prep(visited-8, in-11)
+pobj(in-11, KL-12)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (NP
+        (NP (CD one))
+        (PP (IN of)
+          (NP
+            (NP (DT those) (NNS moments))
+            (PP (IN of)
+              (NP (NN epiphany)))))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (NP (PRP one))
+            (ADVP (RB never))
+            (VP (VBZ forgets))))))
+    (. .)))
+
+
+nsubj(one-3, It-1)
+cop(one-3, was-2)
+root(ROOT-0, one-3)
+prep(one-3, of-4)
+det(moments-6, those-5)
+pobj(of-4, moments-6)
+prep(moments-6, of-7)
+pobj(of-7, epiphany-8)
+dobj(forgets-12, which-9)
+nsubj(forgets-12, one-10)
+neg(forgets-12, never-11)
+rcmod(one-3, forgets-12)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (ADJP (RB too) (JJ bad))
+      (SBAR (IN that)
+        (S
+          (NP (PRP I))
+          (VP (VBD was) (RB n't)
+            (NP (DT a) (NN blogger))
+            (ADVP (RB then))
+            (, ,)))))))
+
+
+nsubj(bad-4, It-1)
+cop(bad-4, is-2)
+advmod(bad-4, too-3)
+root(ROOT-0, bad-4)
+mark(blogger-10, that-5)
+nsubj(blogger-10, I-6)
+cop(blogger-10, was-7)
+neg(blogger-10, n't-8)
+det(blogger-10, a-9)
+ccomp(bad-4, blogger-10)
+advmod(blogger-10, then-11)
+
+
+(ROOT
+  (S (IN so)
+    (NP (PRP I))
+    (VP (VBD did) (RB not)
+      (VP (VB take)
+        (NP
+          (NP (NN note))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (NN address))
+              (PP (IN of)
+                (NP (DT the) (NN place))))))))
+    (. .)))
+
+
+dep(take-5, so-1)
+nsubj(take-5, I-2)
+aux(take-5, did-3)
+neg(take-5, not-4)
+root(ROOT-0, take-5)
+dobj(take-5, note-6)
+prep(note-6, of-7)
+det(address-9, the-8)
+pobj(of-7, address-9)
+prep(address-9, of-10)
+det(place-12, the-11)
+pobj(of-10, place-12)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Since)
+      (NP (RB then)))
+    (, ,)))
+
+
+root(ROOT-0, Since-1)
+pobj(Since-1, then-2)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (VP (VBN been)
+        (VP (VBG searching)
+          (PP (IN in)
+            (NP
+              (NP (JJ vain))
+              (PP (IN for)
+                (NP (DT a) (NNP Lo) (NNP Mai) (NNP Kai)))))
+          (PP (IN in)
+            (NP
+              (NP (NNP Singapore))
+              (SBAR
+                (WHNP (WDT that))
+                (S
+                  (VP (MD could)
+                    (VP (VB come)
+                      (NP (NN close))
+                      (SBAR (CC but)
+                        (S
+                          (NP (PRP I))
+                          (VP (VBP think)
+                            (SBAR
+                              (S
+                                (NP (DT the) (NN problem))
+                                (VP (VBZ is)
+                                  (SBAR (IN that)
+                                    (S
+                                      (NP (DT no) (NN one))
+                                      (ADVP (RB actually))
+                                      (VP (VBZ uses)
+                                        (NP (NN pork) (NN lard))
+                                        (ADVP (RB anymore))))))))))))))))))))
+    (, ,)))
+
+
+nsubjpass(searching-4, I-1)
+auxpass(searching-4, am-2)
+aux(searching-4, been-3)
+root(ROOT-0, searching-4)
+prep(searching-4, in-5)
+pobj(in-5, vain-6)
+prep(vain-6, for-7)
+det(Kai-11, a-8)
+nn(Kai-11, Lo-9)
+nn(Kai-11, Mai-10)
+pobj(for-7, Kai-11)
+prep(searching-4, in-12)
+pobj(in-12, Singapore-13)
+nsubj(come-16, that-14)
+aux(come-16, could-15)
+rcmod(Singapore-13, come-16)
+dobj(come-16, close-17)
+cc(think-20, but-18)
+nsubj(think-20, I-19)
+dep(come-16, think-20)
+det(problem-22, the-21)
+nsubj(is-23, problem-22)
+ccomp(think-20, is-23)
+mark(uses-28, that-24)
+det(one-26, no-25)
+nsubj(uses-28, one-26)
+advmod(uses-28, actually-27)
+ccomp(is-23, uses-28)
+nn(lard-30, pork-29)
+dobj(uses-28, lard-30)
+advmod(uses-28, anymore-31)
+
+
+(ROOT
+  (S (IN so)
+    (NP (PRP I))
+    (VP (VBP have) (RB not)
+      (VP (VBN found)
+        (NP (NN anything) (NN half))
+        (PP (IN as)
+          (NP (NN shiok)))))
+    (. .)))
+
+
+dep(found-5, so-1)
+nsubj(found-5, I-2)
+aux(found-5, have-3)
+neg(found-5, not-4)
+root(ROOT-0, found-5)
+nn(half-7, anything-6)
+dobj(found-5, half-7)
+prep(found-5, as-8)
+pobj(as-8, shiok-9)
+
+

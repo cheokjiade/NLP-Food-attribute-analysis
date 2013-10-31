@@ -1,0 +1,369 @@
+(ROOT
+  (S
+    (NP (NNP Haig) (NNP Road) (NNP Food) (NNP Centre))
+    (VP (MD will)
+      (VP (VB be)
+        (VP (VBG closing)
+          (PP (IN in)
+            (NP
+              (NP (NNP Aug))
+              (PP (IN for)
+                (NP (NNS renovations))))))))
+    (, ,)))
+
+
+nn(Centre-4, Haig-1)
+nn(Centre-4, Road-2)
+nn(Centre-4, Food-3)
+nsubj(closing-7, Centre-4)
+aux(closing-7, will-5)
+aux(closing-7, be-6)
+root(ROOT-0, closing-7)
+prep(closing-7, in-8)
+pobj(in-8, Aug-9)
+prep(Aug-9, for-10)
+pobj(for-10, renovations-11)
+
+
+(ROOT
+  (S (IN so)
+    (NP (PRP we))
+    (VP (VBD had)
+      (S
+        (VP (TO to)
+          (VP (VB go)
+            (PRT (RP down))
+            (NP
+              (QP (IN at) (JJS least) (CD one))
+              (JJ last) (NN time)
+              (S
+                (VP (TO to)
+                  (VP (VB visit)
+                    (NP (PDT all) (DT the) (JJ famous) (NNS stalls))
+                    (ADVP (RB there))))))))))
+    (. .)))
+
+
+dep(had-3, so-1)
+nsubj(had-3, we-2)
+root(ROOT-0, had-3)
+aux(go-5, to-4)
+xcomp(had-3, go-5)
+prt(go-5, down-6)
+quantmod(one-9, at-7)
+mwe(at-7, least-8)
+num(time-11, one-9)
+amod(time-11, last-10)
+dobj(go-5, time-11)
+aux(visit-13, to-12)
+infmod(time-11, visit-13)
+predet(stalls-17, all-14)
+det(stalls-17, the-15)
+amod(stalls-17, famous-16)
+dobj(visit-13, stalls-17)
+advmod(visit-13, there-18)
+
+
+(ROOT
+  (S
+    (NP (DT The) (JJ main) (NN event))
+    (VP (VBD was)
+      (NP
+        (NP
+          (NP (NNP Yong) (NNP Li) (POS 's))
+          (NNP Kway) (NNP Chap))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBZ is)
+              (NP
+                (NP
+                  (NP (NNP Cactuskit) (POS 's))
+                  (NP (DT all) (NN time) (NN favorite)))
+                (SBAR
+                  (WHNP (WDT which))
+                  (S
+                    (NP (PRP he))
+                    (VP (MD will)
+                      (ADVP (RB sorely))
+                      (VP (VB miss)
+                        (SBAR
+                          (WHADVP (WRB when))
+                          (S
+                            (NP (PRP they))
+                            (VP (VB close))))))))))))))
+    (. .)))
+
+
+det(event-3, The-1)
+amod(event-3, main-2)
+nsubj(Chap-9, event-3)
+cop(Chap-9, was-4)
+nn(Li-6, Yong-5)
+poss(Chap-9, Li-6)
+possessive(Li-6, 's-7)
+nn(Chap-9, Kway-8)
+root(ROOT-0, Chap-9)
+nsubj(Cactuskit-12, which-10)
+cop(Cactuskit-12, is-11)
+rcmod(Chap-9, Cactuskit-12)
+possessive(Cactuskit-12, 's-13)
+det(favorite-16, all-14)
+nn(favorite-16, time-15)
+dep(Cactuskit-12, favorite-16)
+dobj(miss-21, which-17)
+nsubj(miss-21, he-18)
+aux(miss-21, will-19)
+advmod(miss-21, sorely-20)
+rcmod(Cactuskit-12, miss-21)
+advmod(close-24, when-22)
+nsubj(close-24, they-23)
+advcl(miss-21, close-24)
+
+
+(ROOT
+  (S
+    (NP (NN Everyone))
+    (VP (VBD agreed)
+      (SBAR (IN that)
+        (S
+          (NP (DT the) (NNP Da) (NNP Chang))
+          (VP (VBZ is)
+            (ADVP (RB very) (RB well))
+            (ADJP (JJ prepared)
+              (CC and)
+              (JJ clean))))))
+    (. .)))
+
+
+nsubj(agreed-2, Everyone-1)
+root(ROOT-0, agreed-2)
+mark(prepared-10, that-3)
+det(Chang-6, the-4)
+nn(Chang-6, Da-5)
+nsubj(prepared-10, Chang-6)
+cop(prepared-10, is-7)
+advmod(well-9, very-8)
+advmod(prepared-10, well-9)
+ccomp(agreed-2, prepared-10)
+cc(prepared-10, and-11)
+conj(prepared-10, clean-12)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (ADJP (JJ great)
+        (S
+          (VP (TO to)
+            (VP (VB meet)
+              (NP (PDT all) (PRP$ our) (JJ new) (NNS kakis))
+              (PP (IN from)
+                (NP (DT the) (NNP Facebook) (NNP Group))))))))
+    (. !)))
+
+
+nsubj(great-3, It-1)
+cop(great-3, was-2)
+root(ROOT-0, great-3)
+aux(meet-5, to-4)
+xcomp(great-3, meet-5)
+predet(kakis-9, all-6)
+poss(kakis-9, our-7)
+amod(kakis-9, new-8)
+dobj(meet-5, kakis-9)
+prep(meet-5, from-10)
+det(Group-13, the-11)
+nn(Group-13, Facebook-12)
+pobj(from-10, Group-13)
+
+
+(ROOT
+  (FRAG
+    (PP (IN With)
+      (NP (PDT all) (DT the) (JJ positive) (NN response)))
+    (, ,)))
+
+
+root(ROOT-0, With-1)
+predet(response-5, all-2)
+det(response-5, the-3)
+amod(response-5, positive-4)
+pobj(With-1, response-5)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (VP (MD shall)
+      (VP (VB be)
+        (VP (VBG looking)
+          (PP (IN at)
+            (S
+              (VP (VBG organizing)
+                (NP (JJR more) (JJ informal) (NNS sessions))
+                (PP (IN like)
+                  (NP (DT this)))))))))
+    (. .)))
+
+
+nsubj(looking-4, we-1)
+aux(looking-4, shall-2)
+aux(looking-4, be-3)
+root(ROOT-0, looking-4)
+prep(looking-4, at-5)
+pcomp(at-5, organizing-6)
+amod(sessions-9, more-7)
+amod(sessions-9, informal-8)
+dobj(organizing-6, sessions-9)
+prep(organizing-6, like-10)
+pobj(like-10, this-11)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (VBP want)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (VP (VBN informed)
+                (PP (IN of)
+                  (NP (DT the) (NN makan) (NN session)))
+                (, ,)))))))))
+
+
+mark(want-3, If-1)
+nsubj(want-3, you-2)
+root(ROOT-0, want-3)
+aux(informed-6, to-4)
+auxpass(informed-6, be-5)
+xcomp(want-3, informed-6)
+prep(informed-6, of-7)
+det(session-10, the-8)
+nn(session-10, makan-9)
+pobj(of-7, session-10)
+
+
+(ROOT
+  (S
+    (VP (VB make)
+      (ADJP (JJ sure)
+        (SBAR
+          (S
+            (NP (PRP you))
+            (VP (VBP are)
+              (VP (VBN registered)
+                (PP (IN on)
+                  (NP (DT the) (NN facebook) (NN group)))))))))
+    (. !)))
+
+
+root(ROOT-0, make-1)
+acomp(make-1, sure-2)
+nsubjpass(registered-5, you-3)
+auxpass(registered-5, are-4)
+ccomp(sure-2, registered-5)
+prep(registered-5, on-6)
+det(group-9, the-7)
+nn(group-9, facebook-8)
+pobj(on-6, group-9)
+
+
+(ROOT
+  (S
+    (VP (VB Click)
+      (ADVP (RB here))
+      (S
+        (VP (TO to)
+          (VP (VB register)))))
+    (. .)))
+
+
+root(ROOT-0, Click-1)
+advmod(Click-1, here-2)
+aux(register-4, to-3)
+xcomp(Click-1, register-4)
+
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (DT the) (NN meantime)))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+det(meantime-3, the-2)
+pobj(In-1, meantime-3)
+
+
+(ROOT
+  (SBAR (IN if)
+    (S
+      (NP (PRP you))
+      (VP (VBD missed)
+        (NP (PRP$ our) (NN session)))
+      (, ,))))
+
+
+mark(missed-3, if-1)
+nsubj(missed-3, you-2)
+root(ROOT-0, missed-3)
+poss(session-5, our-4)
+dobj(missed-3, session-5)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (MD can)
+      (ADVP (RB still))
+      (VP (VB go)
+        (PRT (RP down))
+        (NP (PRP yourself))
+        (S
+          (VP (TO to)
+            (VP (VB check)
+              (PRT (RP out))
+              (NP (DT the) (NNS stalls)))))))
+    (. !)))
+
+
+nsubj(go-4, you-1)
+aux(go-4, can-2)
+advmod(go-4, still-3)
+root(ROOT-0, go-4)
+prt(go-4, down-5)
+dobj(go-4, yourself-6)
+aux(check-8, to-7)
+xcomp(go-4, check-8)
+prt(check-8, out-9)
+det(stalls-11, the-10)
+dobj(check-8, stalls-11)
+
+
+(ROOT
+  (SINV
+    (VP (VBZ Yong))
+    (NP (NNP Li) (NNP Kway) (NNP Chap) (NNP Fandi) (NNP Mona) (NNP Mee) (NNP Rebus) (NNP Warung) (NNP Sudi) (NNP Mapir) (NNP Satay) (NNP Putu) (NNP Piring))))
+
+
+root(ROOT-0, Yong-1)
+nn(Piring-14, Li-2)
+nn(Piring-14, Kway-3)
+nn(Piring-14, Chap-4)
+nn(Piring-14, Fandi-5)
+nn(Piring-14, Mona-6)
+nn(Piring-14, Mee-7)
+nn(Piring-14, Rebus-8)
+nn(Piring-14, Warung-9)
+nn(Piring-14, Sudi-10)
+nn(Piring-14, Mapir-11)
+nn(Piring-14, Satay-12)
+nn(Piring-14, Putu-13)
+nsubj(Yong-1, Piring-14)
+
+

@@ -1,0 +1,227 @@
+(ROOT
+  (S
+    (NP
+      (NP (NNP Food))
+      (PP (IN like)
+        (NP (DT this))))
+    (ADVP (RB really))
+    (VP (VBZ gets)
+      (S
+        (NP (PRP me))
+        (ADJP (JJ excited))))
+    (. .)))
+
+
+nsubj(gets-5, Food-1)
+prep(Food-1, like-2)
+pobj(like-2, this-3)
+advmod(gets-5, really-4)
+root(ROOT-0, gets-5)
+nsubj(excited-7, me-6)
+xcomp(gets-5, excited-7)
+
+
+(ROOT
+  (FRAG
+    (PP
+      (ADVP (RB First))
+      (IN of)
+      (NP (DT all)))
+    (, ,)))
+
+
+advmod(of-2, First-1)
+root(ROOT-0, of-2)
+pobj(of-2, all-3)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP love)
+      (NP (NNP Hainanese) (NNP Curry) (NNP Rice)))
+    (. .)))
+
+
+nsubj(love-2, I-1)
+root(ROOT-0, love-2)
+nn(Rice-5, Hainanese-3)
+nn(Rice-5, Curry-4)
+dobj(love-2, Rice-5)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP (PRP it))
+          (VP (VBZ is)
+            (NP
+              (NP (CD one))
+              (PP (IN of)
+                (NP
+                  (NP (DT the) (JJ tastiest) (NNS things))
+                  (PP (IN on)
+                    (NP (NN earth))))))))))
+    (. .)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+nsubj(one-5, it-3)
+cop(one-5, is-4)
+ccomp(think-2, one-5)
+prep(one-5, of-6)
+det(things-9, the-7)
+amod(things-9, tastiest-8)
+pobj(of-6, things-9)
+prep(things-9, on-10)
+pobj(on-10, earth-11)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Secondly))
+    (, ,)))
+
+
+root(ROOT-0, Secondly-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP love)
+      (NP (NNP Pork) (NNP Chops)))
+    (. .)))
+
+
+nsubj(love-2, I-1)
+root(ROOT-0, love-2)
+nn(Chops-4, Pork-3)
+dobj(love-2, Chops-4)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP (PRP it))
+          (VP (VBZ is)
+            (NP
+              (NP (CD one))
+              (PP (IN of)
+                (NP (DT the) (JJ tastiest) (NNS ways)))
+              (S
+                (VP (TO to)
+                  (VP (VB prepare)
+                    (NP (NN pork))))))))))
+    (. .)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+nsubj(one-5, it-3)
+cop(one-5, is-4)
+ccomp(think-2, one-5)
+prep(one-5, of-6)
+det(ways-9, the-7)
+amod(ways-9, tastiest-8)
+pobj(of-6, ways-9)
+aux(prepare-11, to-10)
+infmod(one-5, prepare-11)
+dobj(prepare-11, pork-12)
+
+
+(ROOT
+  (INTJ (UH Thirdly) (UH ,)))
+
+
+root(ROOT-0, Thirdly-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD experienced)
+      (PP (IN for)
+        (NP (DT the) (JJ first) (NN time))))
+    (, ,)))
+
+
+nsubj(experienced-2, I-1)
+root(ROOT-0, experienced-2)
+prep(experienced-2, for-3)
+det(time-6, the-4)
+amod(time-6, first-5)
+pobj(for-3, time-6)
+
+
+(ROOT
+  (SBARQ
+    (WHNP (WP what))
+    (SQ
+      (VP (VBD traditional)
+        (SBAR
+          (S
+            (S
+              (NP (NNP Hainanese) (NNP Pork) (NNP Chop))
+              (VP (VBZ is)
+                (ADJP (JJ like))))
+            (CC and)
+            (S
+              (NP (PRP it))
+              (VP (VBD left)
+                (S
+                  (NP (PRP me))
+                  (VP (VBG wondering)
+                    (SBAR
+                      (WHADVP (WRB why))
+                      (S
+                        (NP (RB so) (JJ many) (NN stall))
+                        (ADVP (RB nowadays))
+                        (VP (VBD changed)
+                          (PP (IN from)
+                            (NP (DT the) (JJ traditional) (NN recipe)))
+                          (PP (TO to)
+                            (NP
+                              (NP (DT the) (NN one))
+                              (PP (IN with)
+                                (NP (NN tomato) (NN sauce))))))))))))))))
+    (. ?)))
+
+
+nsubj(traditional-2, what-1)
+root(ROOT-0, traditional-2)
+nn(Chop-5, Hainanese-3)
+nn(Chop-5, Pork-4)
+nsubj(like-7, Chop-5)
+cop(like-7, is-6)
+dep(traditional-2, like-7)
+cc(like-7, and-8)
+nsubj(left-10, it-9)
+conj(like-7, left-10)
+nsubj(wondering-12, me-11)
+dep(left-10, wondering-12)
+advmod(changed-18, why-13)
+advmod(stall-16, so-14)
+amod(stall-16, many-15)
+nsubj(changed-18, stall-16)
+advmod(changed-18, nowadays-17)
+advcl(wondering-12, changed-18)
+prep(changed-18, from-19)
+det(recipe-22, the-20)
+amod(recipe-22, traditional-21)
+pobj(from-19, recipe-22)
+prep(changed-18, to-23)
+det(one-25, the-24)
+pobj(to-23, one-25)
+prep(one-25, with-26)
+nn(sauce-28, tomato-27)
+pobj(with-26, sauce-28)
+
+

@@ -1,0 +1,188 @@
+(ROOT
+  (S
+    (S
+      (NP (NNP Christmas))
+      (VP (VBZ means)
+        (NP (JJ many) (NNS things))
+        (PP (TO to)
+          (NP (JJ many) (NNS people)))))
+    (CC but)
+    (S
+      (NP (PRP it))
+      (VP (MD might)
+        (ADVP (RB also))
+        (VP (VB mean)
+          (NP (JJ different) (NNS things))
+          (PP (TO to)
+            (NP
+              (NP (DT the) (JJ same) (NN person))
+              (PP (IN at)
+                (NP
+                  (NP (JJ different) (NNS stages))
+                  (PP (IN of)
+                    (NP (NN life))))))))))
+    (. .)))
+
+
+nsubj(means-2, Christmas-1)
+root(ROOT-0, means-2)
+amod(things-4, many-3)
+dobj(means-2, things-4)
+prep(means-2, to-5)
+amod(people-7, many-6)
+pobj(to-5, people-7)
+cc(means-2, but-8)
+nsubj(mean-12, it-9)
+aux(mean-12, might-10)
+advmod(mean-12, also-11)
+conj(means-2, mean-12)
+amod(things-14, different-13)
+dobj(mean-12, things-14)
+prep(mean-12, to-15)
+det(person-18, the-16)
+amod(person-18, same-17)
+pobj(to-15, person-18)
+prep(person-18, at-19)
+amod(stages-21, different-20)
+pobj(at-19, stages-21)
+prep(stages-21, of-22)
+pobj(of-22, life-23)
+
+
+(ROOT
+  (SBAR
+    (WHADVP (WRB When))
+    (S
+      (NP (PRP I))
+      (VP (VBD was)
+        (NP (DT a) (NN kid)))
+      (, ,))))
+
+
+advmod(kid-5, When-1)
+nsubj(kid-5, I-2)
+cop(kid-5, was-3)
+det(kid-5, a-4)
+root(ROOT-0, kid-5)
+
+
+(ROOT
+  (S
+    (NP (NNP Christmas))
+    (VP (VBD meant)
+      (NP (DT a) (NN day))
+      (PRT (RP off))
+      (PP (IN from)
+        (NP
+          (NP (NN school)
+            (CC and)
+            (JJ great) (NNS shows))
+          (PP (IN on)
+            (NP (NNP Channel) (CD 5))))))
+    (. .)))
+
+
+nsubj(meant-2, Christmas-1)
+root(ROOT-0, meant-2)
+det(day-4, a-3)
+tmod(meant-2, day-4)
+prt(meant-2, off-5)
+prep(meant-2, from-6)
+nn(shows-10, school-7)
+cc(school-7, and-8)
+conj(school-7, great-9)
+pobj(from-6, shows-10)
+prep(shows-10, on-11)
+pobj(on-11, Channel-12)
+num(Channel-12, 5-13)
+
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN family))
+    (ADVP (RB never))
+    (VP
+      (ADVP (RB really))
+      (VBD celebrated)
+      (NP (NNP Christmas)))
+    (. .)))
+
+
+poss(family-2, My-1)
+nsubj(celebrated-5, family-2)
+neg(celebrated-5, never-3)
+advmod(celebrated-5, really-4)
+root(ROOT-0, celebrated-5)
+dobj(celebrated-5, Christmas-6)
+
+
+(ROOT
+  (S (CC So)
+    (NP (PDT all) (DT those) (NN stuff))
+    (ADVP (RB about))
+    (VP (VBZ turkeys))
+    (, ,)))
+
+
+cc(turkeys-6, So-1)
+predet(stuff-4, all-2)
+det(stuff-4, those-3)
+nsubj(turkeys-6, stuff-4)
+advmod(turkeys-6, about-5)
+root(ROOT-0, turkeys-6)
+
+
+(ROOT
+  (FRAG
+    (PP (IN gifts))
+    (, ,)))
+
+
+root(ROOT-0, gifts-1)
+
+
+(ROOT
+  (S
+    (NP (NNP Santa) (NNP Claus)
+      (CC and)
+      (NNP Christmas) (NNP Trees))
+    (VP (VBD was)
+      (NP
+        (NP (NN something))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBD happened)
+              (PP (IN on)
+                (NP
+                  (NP (NN TV))
+                  (SBAR
+                    (WHNP (WDT which))
+                    (S
+                      (VP (VBD had)
+                        (NP
+                          (NP (DT no) (NN relevance))
+                          (PP (TO to)
+                            (NP (PRP me))))))))))))))
+    (. .)))
+
+
+nn(Claus-2, Santa-1)
+nsubj(something-7, Claus-2)
+cc(Claus-2, and-3)
+nn(Trees-5, Christmas-4)
+conj(Claus-2, Trees-5)
+cop(something-7, was-6)
+root(ROOT-0, something-7)
+nsubj(happened-9, that-8)
+rcmod(something-7, happened-9)
+prep(happened-9, on-10)
+pobj(on-10, TV-11)
+nsubj(had-13, which-12)
+rcmod(TV-11, had-13)
+det(relevance-15, no-14)
+dobj(had-13, relevance-15)
+prep(relevance-15, to-16)
+pobj(to-16, me-17)
+
+

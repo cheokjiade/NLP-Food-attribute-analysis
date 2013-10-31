@@ -1,0 +1,37 @@
+(ROOT
+  (NP
+    (NP (NNP Cuisine))
+    (CC and)
+    (NP (NNP Wine) (NNP Asia) (, ,))))
+
+
+root(ROOT-0, Cuisine-1)
+cc(Cuisine-1, and-2)
+nn(Asia-4, Wine-3)
+conj(Cuisine-1, Asia-4)
+
+
+(ROOT
+  (NP (NNP Jan\/Feb) (NNP 2011) (NNP Pg)))
+
+
+nn(Pg-3, Jan\/Feb-1)
+nn(Pg-3, 2011-2)
+root(ROOT-0, Pg-3)
+
+
+(ROOT
+  (NP (CD 15) (NN ,)))
+
+
+num(,-2, 15-1)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 16))))
+
+
+root(ROOT-0, 16-1)
+
+

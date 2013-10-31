@@ -1,0 +1,381 @@
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNS results))
+      (PP (IN of)
+        (NP
+          (NP (DT the) (NN Battle))
+          (PP (IN of)
+            (NP (DT the) (NNP Sexes) (NNP Poll))))))
+    (VP (VBP are)
+      (PP (IN in)))
+    (. !)))
+
+
+det(results-2, The-1)
+nsubj(are-10, results-2)
+prep(results-2, of-3)
+det(Battle-5, the-4)
+pobj(of-3, Battle-5)
+prep(Battle-5, of-6)
+det(Poll-9, the-7)
+nn(Poll-9, Sexes-8)
+pobj(of-6, Poll-9)
+root(ROOT-0, are-10)
+prep(are-10, in-11)
+
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBD were)
+      (NP (CD 665) (NNS votes)))
+    (. .)))
+
+
+expl(were-2, There-1)
+root(ROOT-0, were-2)
+num(votes-4, 665-3)
+nsubj(were-2, votes-4)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NNS girls))
+    (VP (VBD won)
+      (PP (IN by)
+        (NP (CD 62.1) (NN %))))))
+
+
+det(girls-2, The-1)
+nsubj(won-3, girls-2)
+root(ROOT-0, won-3)
+prep(won-3, by-4)
+num(%-6, 62.1-5)
+pobj(by-4, %-6)
+
+
+(ROOT
+  (PP (TO to)
+    (NP (CD 37.9) (NN %))))
+
+
+root(ROOT-0, to-1)
+num(%-3, 37.9-2)
+pobj(to-1, %-3)
+
+
+(ROOT
+  (S
+    (NP (WDT which))
+    (VP (VBZ is)
+      (NP (DT a) (NN majority))
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (NNP George) (NNP Bush))
+            (PRN (-LRB- -LRB-)
+              (FRAG
+                (CONJP (CC but)
+                  (RB not))
+                (NP (DT the) (NNP PAP)))
+              (-RRB- -RRB-)))
+          (VP (MD would)
+            (VP (VB have)
+              (VP (VBN been)
+                (ADJP (JJ proud))
+                (PP (IN of))))))))
+    (. .)))
+
+
+nsubj(majority-4, which-1)
+cop(majority-4, is-2)
+det(majority-4, a-3)
+root(ROOT-0, majority-4)
+mark(proud-17, that-5)
+nn(Bush-7, George-6)
+nsubj(proud-17, Bush-7)
+cc(not-10, but-9)
+cc(PAP-12, not-10)
+det(PAP-12, the-11)
+dep(Bush-7, PAP-12)
+aux(proud-17, would-14)
+aux(proud-17, have-15)
+cop(proud-17, been-16)
+ccomp(majority-4, proud-17)
+prep(proud-17, of-18)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Too)
+      (NP (JJ bad) (NNS guys)))
+    (, ,)))
+
+
+root(ROOT-0, Too-1)
+amod(guys-3, bad-2)
+pobj(Too-1, guys-3)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP we))
+      (ADVP (RB only))
+      (VP (VBP think)
+        (S
+          (NP (PRP we))
+          (VP (VB rule)
+            (NP (DT the) (JJ foodie) (NN universe))))))
+    (CC but)
+    (ADVP (RB now))
+    (S
+      (NP (PRP we))
+      (VP (VBP know)
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (ADVP (RB really))
+            (VP (VBZ pulls)
+              (NP (DT the) (NNS strings)))))))
+    (. !)))
+
+
+nsubj(think-3, we-1)
+advmod(think-3, only-2)
+root(ROOT-0, think-3)
+nsubj(rule-5, we-4)
+ccomp(think-3, rule-5)
+det(universe-8, the-6)
+amod(universe-8, foodie-7)
+dobj(rule-5, universe-8)
+cc(think-3, but-9)
+advmod(think-3, now-10)
+nsubj(know-12, we-11)
+ccomp(think-3, know-12)
+nsubj(pulls-15, who-13)
+advmod(pulls-15, really-14)
+ccomp(know-12, pulls-15)
+det(strings-17, the-16)
+dobj(pulls-15, strings-17)
+
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are)
+      (PP (IN of)
+        (NP (NN course) (NNS excuses)))
+      (SBAR (IN that)
+        (S
+          (NP (PRP we) (NNS guys))
+          (VP (MD can)
+            (VP (VB give)
+              (SBAR (IN like)
+                (S (`` ``)
+                  (S
+                    (NP (NNS Guys))
+                    (ADVP (RB just))
+                    (VP (MD ca) (RB n't)
+                      (VP (VB be)
+                        (VP (VBN bothered)
+                          (S
+                            (VP (TO to)
+                              (VP (VB click)
+                                (NP (DT the) (NNS Polls)))))))))
+                  ('' '')
+                  (CC and)
+                  (`` ``)
+                  (S
+                    (NP (NNS Guys))
+                    (VP (MD ca) (RB n't)
+                      (VP (VB be)
+                        (VP (VBN bothered)
+                          (S
+                            (VP (TO to)
+                              (VP (VB read)
+                                (NP
+                                  (NP (NNP Food) (NNP Blogs))
+                                  ('' '')
+                                  (CC or)
+                                  (`` ``)
+                                  (NP (NNP Ay)))))))))))))))))))
+
+
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+prep(are-2, of-3)
+nn(excuses-5, course-4)
+pobj(of-3, excuses-5)
+mark(give-10, that-6)
+dep(guys-8, we-7)
+nsubj(give-10, guys-8)
+aux(give-10, can-9)
+ccomp(are-2, give-10)
+mark(bothered-18, like-11)
+nsubjpass(bothered-18, Guys-13)
+advmod(bothered-18, just-14)
+aux(bothered-18, ca-15)
+neg(bothered-18, n't-16)
+auxpass(bothered-18, be-17)
+advcl(give-10, bothered-18)
+aux(click-20, to-19)
+xcomp(bothered-18, click-20)
+det(Polls-22, the-21)
+dobj(click-20, Polls-22)
+cc(bothered-18, and-24)
+nsubjpass(bothered-30, Guys-26)
+aux(bothered-30, ca-27)
+neg(bothered-30, n't-28)
+auxpass(bothered-30, be-29)
+conj(bothered-18, bothered-30)
+aux(read-32, to-31)
+xcomp(bothered-30, read-32)
+nn(Blogs-34, Food-33)
+dobj(read-32, Blogs-34)
+cc(Blogs-34, or-36)
+conj(Blogs-34, Ay-38)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD was)
+      (VP (VBG going)
+        (S
+          (VP (TO to)
+            (VP (VB click)
+              (NP
+                (NP (PRP it))
+                (NP (NN tomorrow)))
+              ('' '')
+              (ADVP (CC but)))))))
+    (, ,)))
+
+
+nsubj(going-3, I-1)
+aux(going-3, was-2)
+root(ROOT-0, going-3)
+aux(click-5, to-4)
+xcomp(going-3, click-5)
+dobj(click-5, it-6)
+dep(it-6, tomorrow-7)
+advmod(click-5, but-9)
+
+
+(ROOT
+  (S
+    (ADVP (RB just))
+    (VP (VB like)
+      (PP (IN in)
+        (NP (DT the) (NNP American) (NNP Idol) (, ,))))))
+
+
+advmod(like-2, just-1)
+root(ROOT-0, like-2)
+prep(like-2, in-3)
+det(Idol-6, the-4)
+nn(Idol-6, American-5)
+pobj(in-3, Idol-6)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (VBZ is)
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (ADVP (RB actually))
+          (VP (VBD voted)
+            (SBAR (IN that)
+              (S
+                (VP (VBZ counts))))))))
+    (. !)))
+
+
+nsubj(is-2, it-1)
+root(ROOT-0, is-2)
+nsubj(voted-5, who-3)
+advmod(voted-5, actually-4)
+ccomp(is-2, voted-5)
+mark(counts-7, that-6)
+ccomp(voted-5, counts-7)
+
+
+(ROOT
+  (S (IN So)
+    (NP (PRP it))
+    (VP (VBZ 's)
+      (NP
+        (NP (NNP Round) (CD 1))
+        (PP (TO to)
+          (NP (DT the) (NNPS Girls)))))
+    (. !)))
+
+
+dep(Round-4, So-1)
+nsubj(Round-4, it-2)
+cop(Round-4, 's-3)
+root(ROOT-0, Round-4)
+num(Round-4, 1-5)
+prep(Round-4, to-6)
+det(Girls-8, the-7)
+pobj(to-6, Girls-8)
+
+
+(ROOT
+  (S
+    (NP (NNP Well))
+    (VP (VBN done))
+    (. !)))
+
+
+nsubj(done-2, Well-1)
+root(ROOT-0, done-2)
+
+
+(ROOT
+  (NP (NNP Female) (NNP Foodies) (NNP Rule) (. !)))
+
+
+nn(Rule-3, Female-1)
+nn(Rule-3, Foodies-2)
+root(ROOT-0, Rule-3)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Again))
+    (, ,)))
+
+
+root(ROOT-0, Again-1)
+
+
+(ROOT
+  (NP
+    (NP (NNS thanks))
+    (PP (TO to)
+      (NP
+        (NP (NN everyone))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBD participated)
+              (PP (IN in)
+                (NP (DT the) (NNS Polls))))))))
+    (. !)))
+
+
+root(ROOT-0, thanks-1)
+prep(thanks-1, to-2)
+pobj(to-2, everyone-3)
+nsubj(participated-5, who-4)
+rcmod(everyone-3, participated-5)
+prep(participated-5, in-6)
+det(Polls-8, the-7)
+pobj(in-6, Polls-8)
+
+

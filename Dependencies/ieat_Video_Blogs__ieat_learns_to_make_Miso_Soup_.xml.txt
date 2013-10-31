@@ -1,0 +1,363 @@
+(ROOT
+  (S
+    (NP (NNP Miso) (NNP Soup))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (RBS most) (JJ basic))
+        (PP (IN of)
+          (NP (JJ Japanese) (NN Cooking)))))
+    (. .)))
+
+
+nn(Soup-2, Miso-1)
+nsubj(basic-6, Soup-2)
+cop(basic-6, is-3)
+det(basic-6, the-4)
+advmod(basic-6, most-5)
+root(ROOT-0, basic-6)
+prep(basic-6, of-7)
+amod(Cooking-9, Japanese-8)
+pobj(of-7, Cooking-9)
+
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN mother))
+    (VP (VBD used)
+      (S
+        (VP (TO to)
+          (VP (VB tell)
+            (NP (PRP me))
+            (SBAR (IN that)
+              (S
+                (SBAR
+                  (WHADVP (WRB when))
+                  (S
+                    (NP (PRP you))
+                    (VP (VBP have)
+                      (NP (DT no) (NN money)))))
+                (NP (PRP you))
+                (VP (VBP eat)
+                  (NP (NN rice))
+                  (PP (IN with)
+                    (NP (NN soy) (NN sauce))))))))))
+    (. .)))
+
+
+poss(mother-2, My-1)
+nsubj(used-3, mother-2)
+root(ROOT-0, used-3)
+aux(tell-5, to-4)
+xcomp(used-3, tell-5)
+dobj(tell-5, me-6)
+mark(eat-14, that-7)
+advmod(have-10, when-8)
+nsubj(have-10, you-9)
+advcl(eat-14, have-10)
+det(money-12, no-11)
+dobj(have-10, money-12)
+nsubj(eat-14, you-13)
+ccomp(tell-5, eat-14)
+dobj(eat-14, rice-15)
+prep(eat-14, with-16)
+nn(sauce-18, soy-17)
+pobj(with-16, sauce-18)
+
+
+(ROOT
+  (S
+    (NP (NNP Chef) (NNP Tom))
+    (VP (VBZ tells)
+      (NP (PRP me))
+      (NP
+        (NP (DT that))
+        (PP (IN in)
+          (NP (NNP Japan)))))
+    (, ,)))
+
+
+nn(Tom-2, Chef-1)
+nsubj(tells-3, Tom-2)
+root(ROOT-0, tells-3)
+iobj(tells-3, me-4)
+dobj(tells-3, that-5)
+prep(that-5, in-6)
+pobj(in-6, Japan-7)
+
+
+(ROOT
+  (SBAR (IN if)
+    (S
+      (NP (PRP you))
+      (VP (VBP have)
+        (NP (DT no) (NN money)))
+      (, ,))))
+
+
+mark(have-3, if-1)
+nsubj(have-3, you-2)
+root(ROOT-0, have-3)
+det(money-5, no-4)
+dobj(have-3, money-5)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (VBP eat)
+      (NP (NN rice))
+      (PP (IN with)
+        (NP (NNP Miso) (NNP Soup))))
+    (. .)))
+
+
+nsubj(eat-2, you-1)
+root(ROOT-0, eat-2)
+dobj(eat-2, rice-3)
+prep(eat-2, with-4)
+nn(Soup-6, Miso-5)
+pobj(with-4, Soup-6)
+
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (DT this) (NN video)))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+det(video-3, this-2)
+pobj(In-1, video-3)
+
+
+(ROOT
+  (S
+    (NP (NNP Chef) (NNP Tom))
+    (VP (VBZ shows))))
+
+
+nn(Tom-2, Chef-1)
+nsubj(shows-3, Tom-2)
+root(ROOT-0, shows-3)
+
+
+(ROOT
+  (S
+    (NP (PRP us))
+    (SBAR
+      (WHADVP (WRB how))
+      (S
+        (VP (TO to)
+          (VP (VB make)
+            (NP (DT a)
+              (ADJP (RB very) (JJ simple))
+              (NN miso) (NN soup))))))
+    (. .)))
+
+
+dep(make-4, us-1)
+advmod(make-4, how-2)
+aux(make-4, to-3)
+root(ROOT-0, make-4)
+det(soup-9, a-5)
+advmod(simple-7, very-6)
+amod(soup-9, simple-7)
+nn(soup-9, miso-8)
+dobj(make-4, soup-9)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Although))
+    (, ,)))
+
+
+root(ROOT-0, Although-1)
+
+
+(ROOT
+  (FRAG
+    (PP (IN in)
+      (NP (NNP Singapore)))
+    (, ,)))
+
+
+root(ROOT-0, in-1)
+pobj(in-1, Singapore-2)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (MD will)
+      (ADVP (RB still))
+      (VP (VB be)
+        (ADJP
+          (ADJP (JJR cheaper))
+          (SBAR (IN if)
+            (S
+              (NP (PRP you))
+              (VP (VBD ate)
+                (NP (NN rice))
+                (PP (IN with)
+                  (NP (NN soy) (NN sauce)))
+                (SBAR (IN as)
+                  (S
+                    (NP (PDT all) (DT these) (JJ Japanese) (NNS ingredients))
+                    (VP (VBP are) (RB not)
+                      (ADJP (JJ cheap)))))))))))
+    (. !)))
+
+
+nsubj(cheaper-5, it-1)
+aux(cheaper-5, will-2)
+advmod(cheaper-5, still-3)
+cop(cheaper-5, be-4)
+root(ROOT-0, cheaper-5)
+mark(ate-8, if-6)
+nsubj(ate-8, you-7)
+ccomp(cheaper-5, ate-8)
+dobj(ate-8, rice-9)
+prep(ate-8, with-10)
+nn(sauce-12, soy-11)
+pobj(with-10, sauce-12)
+mark(cheap-20, as-13)
+predet(ingredients-17, all-14)
+det(ingredients-17, these-15)
+amod(ingredients-17, Japanese-16)
+nsubj(cheap-20, ingredients-17)
+cop(cheap-20, are-18)
+neg(cheap-20, not-19)
+advcl(ate-8, cheap-20)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (MD would)
+        (VP (VB like)
+          (S
+            (VP (TO to)
+              (VP (VB invite)
+                (NP
+                  (NP (NNP Chef) (NNP Tom))
+                  (PP (TO to)
+                    (NP (PRP$ your) (NN home)
+                      (S
+                        (VP (TO to)
+                          (VP (VB conduct)
+                            (NP (DT a) (JJ Japanese) (NN cooking) (NN class))))))))
+                (, ,)))))))))
+
+
+mark(like-4, If-1)
+nsubj(like-4, you-2)
+aux(like-4, would-3)
+root(ROOT-0, like-4)
+aux(invite-6, to-5)
+xcomp(like-4, invite-6)
+nn(Tom-8, Chef-7)
+dobj(invite-6, Tom-8)
+prep(Tom-8, to-9)
+poss(home-11, your-10)
+pobj(to-9, home-11)
+aux(conduct-13, to-12)
+infmod(home-11, conduct-13)
+det(class-17, a-14)
+amod(class-17, Japanese-15)
+nn(class-17, cooking-16)
+dobj(conduct-13, class-17)
+
+
+(ROOT
+  (S
+    (VP (VB do)
+      (VP (VB write)
+        (PP (TO to))))
+    (. .)))
+
+
+aux(write-2, do-1)
+root(ROOT-0, write-2)
+prep(write-2, to-3)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP are)
+      (VP (VBG looking)
+        (PP (IN for)
+          (NP
+            (NP (NNS sponsors))
+            (PP (IN for)
+              (NP (JJ future) (NNS videos)))))))
+    (. .)))
+
+
+nsubj(looking-3, We-1)
+aux(looking-3, are-2)
+root(ROOT-0, looking-3)
+prep(looking-3, for-4)
+pobj(for-4, sponsors-5)
+prep(sponsors-5, for-6)
+amod(videos-8, future-7)
+pobj(for-6, videos-8)
+
+
+(ROOT
+  (S
+    (NP (NNP Do))
+    (VP (VBP write)
+      (PP (TO to)
+        (SBAR (IN if)
+          (S
+            (NP (PRP you))
+            (VP (MD would)
+              (VP (VB like)
+                (S
+                  (VP (TO to)
+                    (VP (VB sponsor)
+                      (NP (DT a) (JJ video) (NN series)))))))))))
+    (. .)))
+
+
+nsubj(write-2, Do-1)
+root(ROOT-0, write-2)
+prep(write-2, to-3)
+mark(like-7, if-4)
+nsubj(like-7, you-5)
+aux(like-7, would-6)
+pcomp(to-3, like-7)
+aux(sponsor-9, to-8)
+xcomp(like-7, sponsor-9)
+det(series-12, a-10)
+amod(series-12, video-11)
+dobj(sponsor-9, series-12)
+
+
+(ROOT
+  (FRAG
+    (NP (VB Check))
+    (PP (IN out)
+      (NP
+        (NP (DT the) (NN rest))
+        (PP (IN of)
+          (NP (DT the) (JJ ieat) (NNS Videos)))))
+    (NP (RB here))
+    (. .)))
+
+
+root(ROOT-0, Check-1)
+prep(Check-1, out-2)
+det(rest-4, the-3)
+pobj(out-2, rest-4)
+prep(rest-4, of-5)
+det(Videos-8, the-6)
+amod(Videos-8, ieat-7)
+pobj(of-5, Videos-8)
+dep(Check-1, here-9)
+
+

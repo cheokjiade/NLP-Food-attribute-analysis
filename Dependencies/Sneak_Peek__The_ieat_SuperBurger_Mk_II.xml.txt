@@ -1,0 +1,38 @@
+(ROOT
+  (FRAG
+    (NP (NNP Akan) (NNP Datang\/Coming))
+    (ADVP (RB Soon))
+    (. !)))
+
+
+nn(Datang\/Coming-2, Akan-1)
+root(ROOT-0, Datang\/Coming-2)
+dep(Datang\/Coming-2, Soon-3)
+
+
+(ROOT
+  (S
+    (VP (VB Remember)
+      (S
+        (VP (TO to)
+          (VP (VB vote)
+            (NP (NN today))))))
+    (. !)))
+
+
+root(ROOT-0, Remember-1)
+aux(vote-3, to-2)
+xcomp(Remember-1, vote-3)
+tmod(vote-3, today-4)
+
+
+(ROOT
+  (S
+    (VP (VB Click)
+      (ADVP (RB here)))))
+
+
+root(ROOT-0, Click-1)
+advmod(Click-1, here-2)
+
+

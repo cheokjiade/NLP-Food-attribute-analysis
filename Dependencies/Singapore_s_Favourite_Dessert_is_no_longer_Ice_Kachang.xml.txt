@@ -1,0 +1,273 @@
+(ROOT
+  (FRAG
+    (PP (IN Well))
+    (, ,)))
+
+
+root(ROOT-0, Well-1)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP we))
+      (VP (VBP are)
+        (NP
+          (NP (CD one) (NN week))
+          (PP (IN into)
+            (NP (DT the) (NNS polls))))))
+    (CC and)
+    (S
+      (NP (PRP it))
+      (VP (VBZ looks)
+        (SBAR (IN like)
+          (S
+            (NP (NNP Bean) (NNP Curd))
+            (VP (VBZ is)
+              (ADJP (RB quite) (RB firmly)
+                (PP (IN in)
+                  (NP (JJ first) (NN place))))
+              (PP (VBN followed)
+                (PP (IN by)
+                  (NP (NNP Cheng) (NNP Tng)))))))))
+    (. .)))
+
+
+nsubj(week-4, we-1)
+cop(week-4, are-2)
+num(week-4, one-3)
+root(ROOT-0, week-4)
+prep(week-4, into-5)
+det(polls-7, the-6)
+pobj(into-5, polls-7)
+cc(week-4, and-8)
+nsubj(looks-10, it-9)
+conj(week-4, looks-10)
+mark(firmly-16, like-11)
+nn(Curd-13, Bean-12)
+nsubj(firmly-16, Curd-13)
+cop(firmly-16, is-14)
+advmod(firmly-16, quite-15)
+advcl(looks-10, firmly-16)
+prep(firmly-16, in-17)
+amod(place-19, first-18)
+pobj(in-17, place-19)
+prep(firmly-16, followed-20)
+pcomp(followed-20, by-21)
+nn(Tng-23, Cheng-22)
+pobj(by-21, Tng-23)
+
+
+(ROOT
+  (FRAG
+    (PP (IN After)
+      (NP
+        (NP (DT a) (JJ few) (NNS days))
+        (PP (IN of)
+          (NP (JJ close) (NN competition)))))
+    (, ,)))
+
+
+root(ROOT-0, After-1)
+det(days-4, a-2)
+amod(days-4, few-3)
+pobj(After-1, days-4)
+prep(days-4, of-5)
+amod(competition-7, close-6)
+pobj(of-5, competition-7)
+
+
+(ROOT
+  (S
+    (NP (NNP Yam) (NNP Paste))
+    (VP (VBZ has)
+      (ADVP (RB now))
+      (VP (VBN extended)
+        (NP (PRP$ its) (NN lead))
+        (PP (IN over)
+          (NP (NNP Ah) (NNP Balling)))))
+    (. .)))
+
+
+nn(Paste-2, Yam-1)
+nsubj(extended-5, Paste-2)
+aux(extended-5, has-3)
+advmod(extended-5, now-4)
+root(ROOT-0, extended-5)
+poss(lead-7, its-6)
+dobj(extended-5, lead-7)
+prep(extended-5, over-8)
+nn(Balling-10, Ah-9)
+pobj(over-8, Balling-10)
+
+
+(ROOT
+  (S
+    (NP (NNP Smart))
+    (VP (VBD commented)
+      (SBAR (IN that)
+        (S
+          (NP (DT this))
+          (VP (VBZ is)
+            (ADJP (RB quite) (JJ amazing))))))
+    (. .)))
+
+
+nsubj(commented-2, Smart-1)
+root(ROOT-0, commented-2)
+mark(amazing-7, that-3)
+nsubj(amazing-7, this-4)
+cop(amazing-7, is-5)
+advmod(amazing-7, quite-6)
+ccomp(commented-2, amazing-7)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB Years) (RB ago))
+    (SBAR
+      (WHADVP (WRB when))
+      (S
+        (NP (PRP he))
+        (VP (VBD was)
+          (NP (DT a) (JJ young) (NN man)))
+        (, ,)))))
+
+
+advmod(ago-2, Years-1)
+root(ROOT-0, ago-2)
+advmod(man-8, when-3)
+nsubj(man-8, he-4)
+cop(man-8, was-5)
+det(man-8, a-6)
+amod(man-8, young-7)
+dep(ago-2, man-8)
+
+
+(ROOT
+  (S
+    (NP (NNP Ice) (NNP Kachang))
+    (VP (MD would)
+      (VP (VB have)
+        (VP (VBN won)
+          (NP (NNS hands))
+          (PRT (RP down)))))
+    (. !)))
+
+
+nn(Kachang-2, Ice-1)
+nsubj(won-5, Kachang-2)
+aux(won-5, would-3)
+aux(won-5, have-4)
+root(ROOT-0, won-5)
+dobj(won-5, hands-6)
+prt(won-5, down-7)
+
+
+(ROOT
+  (S
+    (ADVP (RB Anyway))
+    (NP (DT the) (NNS polls))
+    (VP (VBP are)
+      (ADVP (RB still))
+      (VP (VBN opened)
+        (SBAR (IN if)
+          (S
+            (NP (PRP you))
+            (VP (VBP have) (RB not)
+              (VP (VBN voted)
+                (ADVP (RB yet))))))))
+    (. !)))
+
+
+advmod(opened-6, Anyway-1)
+det(polls-3, the-2)
+nsubjpass(opened-6, polls-3)
+auxpass(opened-6, are-4)
+advmod(opened-6, still-5)
+root(ROOT-0, opened-6)
+mark(voted-11, if-7)
+nsubj(voted-11, you-8)
+aux(voted-11, have-9)
+neg(voted-11, not-10)
+advcl(opened-6, voted-11)
+advmod(voted-11, yet-12)
+
+
+(ROOT
+  (SBAR
+    (WHNP (WP Who))
+    (S
+      (VP (VBZ knows))
+      (, ,))))
+
+
+nsubj(knows-2, Who-1)
+root(ROOT-0, knows-2)
+
+
+(ROOT
+  (S
+    (NP (NNP Cheng) (NNP Tng))
+    (VP (MD might)
+      (ADVP (RB still))
+      (VP (VB overtake)
+        (NP
+          (NP (NNP Bean) (NNP Curd))
+          (PP (IN as)
+            (NP
+              (NP (NNP Singapore) (POS 's))
+              (JJ favorite) (NN dessert))))))
+    (. .)))
+
+
+nn(Tng-2, Cheng-1)
+nsubj(overtake-5, Tng-2)
+aux(overtake-5, might-3)
+advmod(overtake-5, still-4)
+root(ROOT-0, overtake-5)
+nn(Curd-7, Bean-6)
+dobj(overtake-5, Curd-7)
+prep(Curd-7, as-8)
+poss(dessert-12, Singapore-9)
+possessive(Singapore-9, 's-10)
+amod(dessert-12, favorite-11)
+pobj(as-8, dessert-12)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NN polling) (NN widget))
+    (VP (VBZ is)
+      (VP (VBN found)
+        (PP (IN on)
+          (NP (DT the) (NN right) (NN column) (NNP -----------------------------) (-RRB- -RRB-) (NNP Click)))
+        (PP
+          (ADVP (RB here))
+          (IN for)
+          (NP
+            (NP (NNS results))
+            (PP (IN of)
+              (NP (DT the) (NN nomination) (NN round)))))))))
+
+
+det(widget-3, The-1)
+nn(widget-3, polling-2)
+nsubjpass(found-5, widget-3)
+auxpass(found-5, is-4)
+root(ROOT-0, found-5)
+prep(found-5, on-6)
+det(Click-12, the-7)
+nn(Click-12, right-8)
+nn(Click-12, column-9)
+nn(Click-12, ------------------------------10)
+pobj(on-6, Click-12)
+advmod(for-14, here-13)
+prep(found-5, for-14)
+pobj(for-14, results-15)
+prep(results-15, of-16)
+det(round-19, the-17)
+nn(round-19, nomination-18)
+pobj(of-16, round-19)
+
+

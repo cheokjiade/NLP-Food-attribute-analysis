@@ -1,0 +1,206 @@
+(ROOT
+  (SBARQ
+    (WHADVP (WRB Whenever))
+    (SQ
+      (NP (PRP you))
+      (VP
+        (VP (VB walk)
+          (PP (IN into)
+            (NP (DT an) (NN eatery))))
+        (CC and)
+        (VP (VB see)
+          (NP
+            (NP (NNS photos))
+            (PP (IN of)
+              (NP
+                (NP (NNS stars))
+                (VP (VBG adorning)
+                  (NP (DT the) (NNS walls))))))
+          (, ,))))))
+
+
+advmod(walk-3, Whenever-1)
+nsubj(walk-3, you-2)
+root(ROOT-0, walk-3)
+prep(walk-3, into-4)
+det(eatery-6, an-5)
+pobj(into-4, eatery-6)
+cc(walk-3, and-7)
+conj(walk-3, see-8)
+dobj(see-8, photos-9)
+prep(photos-9, of-10)
+pobj(of-10, stars-11)
+partmod(stars-11, adorning-12)
+det(walls-14, the-13)
+dobj(adorning-12, walls-14)
+
+
+(ROOT
+  (SBARQ
+    (WHNP (WP what))
+    (SQ (VBZ is)
+      (NP (PRP$ your) (JJ first) (NN reaction)))
+    (. ?)))
+
+
+attr(is-2, what-1)
+root(ROOT-0, is-2)
+poss(reaction-5, your-3)
+amod(reaction-5, first-4)
+nsubj(is-2, reaction-5)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Well))
+    (, ,)))
+
+
+root(ROOT-0, Well-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP guess)
+      (SBAR
+        (S
+          (NP (PRP mine))
+          (VP (VBZ is)
+            (NP
+              (NP (DT the) (JJ same))
+              (PP (IN as)
+                (NP (JJ many) (NNS others))))))))
+    (, ,)))
+
+
+nsubj(guess-2, I-1)
+root(ROOT-0, guess-2)
+nsubj(same-6, mine-3)
+cop(same-6, is-4)
+det(same-6, the-5)
+ccomp(guess-2, same-6)
+prep(same-6, as-7)
+amod(others-9, many-8)
+pobj(as-7, others-9)
+
+
+(ROOT
+  (SBAR
+    (WHNP (WDT which))
+    (S
+      (VP (VBZ is) (`` ``)
+        (ADJP (JJ Ay)))
+      (PRN
+        (S
+          (NP (DT this) (NN stall))
+          (VP (VBZ is)
+            (VP (VBN frequented)
+              (PP (IN by)
+                (NP (PDT all) (DT these) (NN movie) (NNS stars))))))
+        (, ,)))))
+
+
+nsubj(Ay-4, which-1)
+cop(Ay-4, is-2)
+root(ROOT-0, Ay-4)
+det(stall-6, this-5)
+nsubjpass(frequented-8, stall-6)
+auxpass(frequented-8, is-7)
+parataxis(Ay-4, frequented-8)
+prep(frequented-8, by-9)
+predet(stars-13, all-10)
+det(stars-13, these-11)
+nn(stars-13, movie-12)
+pobj(by-9, stars-13)
+
+
+(ROOT
+  (S
+    (VP (MD must)
+      (VP (VB be)
+        (ADVP (RB quite))
+        (ADJP (JJ good) ('' ''))))
+    (. .)))
+
+
+aux(good-4, must-1)
+cop(good-4, be-2)
+advmod(good-4, quite-3)
+root(ROOT-0, good-4)
+
+
+(ROOT
+  (S (CC But)
+    (ADVP (PRP you))
+    (VP (VBP know))
+    (, ,)))
+
+
+cc(know-3, But-1)
+advmod(know-3, you-2)
+root(ROOT-0, know-3)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NNS stars))
+    (VP (VBP are)
+      (ADVP (RB just)
+        (PP (IN like)
+          (NP (NN anyone))))
+      (ADJP (RB else)))
+    (. .)))
+
+
+det(stars-2, the-1)
+nsubj(else-7, stars-2)
+cop(else-7, are-3)
+advmod(else-7, just-4)
+prep(just-4, like-5)
+pobj(like-5, anyone-6)
+root(ROOT-0, else-7)
+
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are)
+      (NP
+        (NP
+          (NP (DT some))
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP (VBP are)
+                (ADJP (RB very) (JJ discerning))))))
+        (CC and)
+        (NP
+          (NP (NNS others))
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (ADVP (RB just))
+              (VP (VBP eat)
+                (S
+                  (VP (TO to)
+                    (VP (VB live))))))))))
+    (. .)))
+
+
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+nsubj(are-2, some-3)
+nsubj(discerning-7, who-4)
+cop(discerning-7, are-5)
+advmod(discerning-7, very-6)
+rcmod(some-3, discerning-7)
+cc(some-3, and-8)
+conj(some-3, others-9)
+nsubj(eat-12, who-10)
+advmod(eat-12, just-11)
+rcmod(others-9, eat-12)
+aux(live-14, to-13)
+xcomp(eat-12, live-14)
+
+

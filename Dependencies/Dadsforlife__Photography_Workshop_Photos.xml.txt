@@ -1,0 +1,968 @@
+(ROOT
+  (S
+    (NP (NNP Kids))
+    (VP (VBP grow)
+      (ADVP (RB up) (RB fast)))
+    (. !)))
+
+
+nsubj(grow-2, Kids-1)
+root(ROOT-0, grow-2)
+advmod(fast-4, up-3)
+advmod(grow-2, fast-4)
+
+
+(ROOT
+  (SBAR (IN Before)
+    (S
+      (NP (PRP I))
+      (VP (VBP know)
+        (NP (PRP it)))
+      (, ,))))
+
+
+mark(know-3, Before-1)
+nsubj(know-3, I-2)
+root(ROOT-0, know-3)
+dobj(know-3, it-4)
+
+
+(ROOT
+  (S
+    (NP (PRP$ my) (NN son))
+    (VP (VBZ is)
+      (ADVP (RB already))
+      (NP
+        (NP (CD 11))
+        (CC and)
+        (NP
+          (NP (PRP$ my) (NN daughter))
+          (NP (CD 8)))))
+    (. .)))
+
+
+poss(son-2, my-1)
+nsubj(11-5, son-2)
+cop(11-5, is-3)
+advmod(11-5, already-4)
+root(ROOT-0, 11-5)
+cc(11-5, and-6)
+poss(daughter-8, my-7)
+conj(11-5, daughter-8)
+dep(daughter-8, 8-9)
+
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP are)
+      (ADVP (RB no) (RB longer))
+      (NP
+        (NP (DT the)
+          (ADJP (JJ cute) (JJ little))
+          (NNS babies))
+        (SBAR (IN that)
+          (S
+            (NP (PRP they))
+            (ADVP (RB once))
+            (VP (VBD were))))))
+    (, ,)))
+
+
+nsubj(babies-8, They-1)
+cop(babies-8, are-2)
+advmod(longer-4, no-3)
+advmod(babies-8, longer-4)
+det(babies-8, the-5)
+amod(little-7, cute-6)
+amod(babies-8, little-7)
+root(ROOT-0, babies-8)
+mark(were-12, that-9)
+nsubj(were-12, they-10)
+advmod(were-12, once-11)
+dep(babies-8, were-12)
+
+
+(ROOT
+  (S (CC and)
+    (NP
+      (NP (DT all))
+      (SBAR (IN that)
+        (S
+          (NP (PRP I))
+          (VP (VBP have)
+            (S
+              (VP (TO to)
+                (VP (VB remind)
+                  (NP (PRP me))
+                  (PP (IN of)
+                    (NP
+                      (NP (DT that) (NN period))
+                      (PP (IN of)
+                        (NP (PRP$ my) (NN life))))))))))))
+    (VP (VBP are)
+      (NP (PRP$ my) (NNS photos)))
+    (. .)))
+
+
+cc(photos-17, and-1)
+nsubj(photos-17, all-2)
+mark(have-5, that-3)
+nsubj(have-5, I-4)
+dep(all-2, have-5)
+aux(remind-7, to-6)
+xcomp(have-5, remind-7)
+dobj(remind-7, me-8)
+prep(remind-7, of-9)
+det(period-11, that-10)
+pobj(of-9, period-11)
+prep(period-11, of-12)
+poss(life-14, my-13)
+pobj(of-12, life-14)
+cop(photos-17, are-15)
+poss(photos-17, my-16)
+root(ROOT-0, photos-17)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (MD can)
+            (ADVP (RB confidently))
+            (VP (VB say)
+              (SBAR (IN that)
+                (S
+                  (NP (JJS most) (NNS people))
+                  (ADVP (RB nowadays))
+                  (VP (VBP own)
+                    (NP
+                      (NP
+                        (QP (IN at) (JJS least) (CD one))
+                        (NN camera))
+                      (PP (IN in)
+                        (NP (DT some) (NN shape)
+                          (CC or)
+                          (NN form))))))))))))
+    (, ,)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+nsubj(say-6, I-3)
+aux(say-6, can-4)
+advmod(say-6, confidently-5)
+ccomp(think-2, say-6)
+mark(own-11, that-7)
+amod(people-9, most-8)
+nsubj(own-11, people-9)
+advmod(own-11, nowadays-10)
+ccomp(say-6, own-11)
+quantmod(one-14, at-12)
+mwe(at-12, least-13)
+num(camera-15, one-14)
+dobj(own-11, camera-15)
+prep(camera-15, in-16)
+det(shape-18, some-17)
+pobj(in-16, shape-18)
+cc(shape-18, or-19)
+conj(shape-18, form-20)
+
+
+(ROOT
+  (S (CC and)
+    (ADVP (RB so))
+    (NP (DT the) (NN ability)
+      (S
+        (VP (TO to)
+          (VP (VB take)
+            (NP
+              (NP (DT some) (JJ nice) (NNS photos))
+              (PP (IN of)
+                (NP (DT the) (NN family))))
+            (SBAR (IN as)
+              (S
+                (NP (PRP they))
+                (VP (VBP grow)
+                  (PRT (RP up)))))))))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (NN skill))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBZ is)
+              (ADJP (RB very) (JJ useful))
+              (S
+                (VP (TO to)
+                  (VP (VB pick)
+                    (PRT (RP up))))))))))
+    (. .)))
+
+
+cc(skill-19, and-1)
+advmod(skill-19, so-2)
+det(ability-4, the-3)
+nsubj(skill-19, ability-4)
+aux(take-6, to-5)
+infmod(ability-4, take-6)
+det(photos-9, some-7)
+amod(photos-9, nice-8)
+dobj(take-6, photos-9)
+prep(photos-9, of-10)
+det(family-12, the-11)
+pobj(of-10, family-12)
+mark(grow-15, as-13)
+nsubj(grow-15, they-14)
+advcl(take-6, grow-15)
+prt(grow-15, up-16)
+cop(skill-19, is-17)
+det(skill-19, a-18)
+root(ROOT-0, skill-19)
+nsubj(useful-23, that-20)
+cop(useful-23, is-21)
+advmod(useful-23, very-22)
+rcmod(skill-19, useful-23)
+aux(pick-25, to-24)
+xcomp(useful-23, pick-25)
+prt(pick-25, up-26)
+
+
+(ROOT
+  (S
+    (NP (PRP$ My))
+    (VP (VBZ workshop))
+    (, ,)))
+
+
+nsubj(workshop-2, My-1)
+root(ROOT-0, workshop-2)
+
+
+(ROOT
+  (SBAR
+    (WHNP (WDT which))
+    (S
+      (VP (VBD was)
+        (VP (VBN conducted)
+          (PP (IN for)
+            (NP (NNP Dadsforlife)))
+          (PP (IN during)
+            (S
+              (S
+                (NP (DT the) (NN school) (NNS holidays))
+                (VP (VBD was)
+                  (VP (VBN targeted)
+                    (PP (IN at)
+                      (NP (NNS beginners))))))
+              (CC and)
+              (S
+                (NP (DT the) (JJ main) (NN message))
+                (VP (VBD was)
+                  (NP
+                    (NP (DT that))
+                    (PP (IN with)
+                      (NP
+                        (QP (RB just) (DT a) (JJ few))
+                        (NNS tips)))))
+                (, ,)))))))))
+
+
+nsubjpass(conducted-3, which-1)
+auxpass(conducted-3, was-2)
+root(ROOT-0, conducted-3)
+prep(conducted-3, for-4)
+pobj(for-4, Dadsforlife-5)
+prep(conducted-3, during-6)
+det(holidays-9, the-7)
+nn(holidays-9, school-8)
+nsubjpass(targeted-11, holidays-9)
+auxpass(targeted-11, was-10)
+pcomp(during-6, targeted-11)
+prep(targeted-11, at-12)
+pobj(at-12, beginners-13)
+cc(targeted-11, and-14)
+det(message-17, the-15)
+amod(message-17, main-16)
+nsubj(that-19, message-17)
+cop(that-19, was-18)
+conj(targeted-11, that-19)
+prep(that-19, with-20)
+quantmod(few-23, just-21)
+quantmod(few-23, a-22)
+num(tips-24, few-23)
+pobj(with-20, tips-24)
+
+
+(ROOT
+  (S
+    (NP (NN everyone))
+    (VP (MD can)
+      (VP (VB take)
+        (NP
+          (NP (JJR better) (NNS photos))
+          (PP (IN of) (PRP$ their) (NNS families))
+          (SBAR
+            (WHPP (IN with)
+              (WHNP (WDT whatever) (NN camera)))
+            (S
+              (NP (PRP they))
+              (ADVP (RB currently))
+              (VP (VBP own)))))))
+    (. .)))
+
+
+nsubj(take-3, everyone-1)
+aux(take-3, can-2)
+root(ROOT-0, take-3)
+amod(photos-5, better-4)
+dobj(take-3, photos-5)
+prep(photos-5, of-6)
+dep(of-6, their-7)
+dep(of-6, families-8)
+prep(own-14, with-9)
+det(camera-11, whatever-10)
+pobj(with-9, camera-11)
+nsubj(own-14, they-12)
+advmod(own-14, currently-13)
+rcmod(photos-5, own-14)
+
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBZ is)
+      (NP (DT no) (NN need)
+        (S
+          (VP (TO to)
+            (VP (VB spend)
+              (NP (JJR more) (NN money))
+              (S
+                (VP (VBG buying)
+                  (NP (JJ expensive) (NN equipment)))))))))
+    (. .)))
+
+
+expl(is-2, There-1)
+root(ROOT-0, is-2)
+det(need-4, no-3)
+nsubj(is-2, need-4)
+aux(spend-6, to-5)
+infmod(need-4, spend-6)
+amod(money-8, more-7)
+dobj(spend-6, money-8)
+xcomp(spend-6, buying-9)
+amod(equipment-11, expensive-10)
+dobj(buying-9, equipment-11)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT All))
+      (SBAR
+        (S
+          (NP (PRP you))
+          (VP (VBP need)))))
+    (VP (VBZ is)
+      (NP
+        (NP
+          (NP (DT some) (JJ basic) (NN understanding))
+          (PP (IN of)
+            (NP (NN composition)
+              (CC and)
+              (NN lighting))))
+        (CC and)
+        (NP
+          (NP (DT the) (NN way))
+          (NP (PRP$ your) (NN camera) (NNS works)))))
+    (. .)))
+
+
+nsubj(understanding-7, All-1)
+nsubj(need-3, you-2)
+rcmod(All-1, need-3)
+cop(understanding-7, is-4)
+det(understanding-7, some-5)
+amod(understanding-7, basic-6)
+root(ROOT-0, understanding-7)
+prep(understanding-7, of-8)
+pobj(of-8, composition-9)
+cc(composition-9, and-10)
+conj(composition-9, lighting-11)
+cc(understanding-7, and-12)
+det(way-14, the-13)
+conj(understanding-7, way-14)
+poss(works-17, your-15)
+nn(works-17, camera-16)
+dep(way-14, works-17)
+
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Photography))
+      (VP (VBZ is)
+        (PP (DT all)
+          (PP (IN about)
+            (NP (NN creativity)))
+          (CC and)
+          (PP (IN during)
+            (NP (DT the) (NN workshop))))))
+    (NP (PRP I))
+    (VP (VBD challenged)
+      (NP (DT the) (NNS participants))
+      (S
+        (VP (TO to)
+          (VP (VB think)
+            (PP (IN of)
+              (NP
+                (NP (JJ creative) (NNS ways))
+                (PP (IN of)
+                  (S
+                    (VP (VBG taking)
+                      (NP
+                        (NP (NNS photos))
+                        (PP (IN of)
+                          (NP (PRP$ their) (NN loved) (NNS ones)))
+                        (PP (IN besides)
+                          (NP (DT the) (JJ usual) (`` ``) (NN Look))))
+                      (ADVP (RB here)))))))))))
+    (. !)))
+
+
+nsubj(is-2, Photography-1)
+dep(challenged-11, is-2)
+dep(about-4, all-3)
+prep(is-2, about-4)
+pobj(about-4, creativity-5)
+cc(about-4, and-6)
+conj(about-4, during-7)
+det(workshop-9, the-8)
+pobj(during-7, workshop-9)
+nsubj(challenged-11, I-10)
+root(ROOT-0, challenged-11)
+det(participants-13, the-12)
+dobj(challenged-11, participants-13)
+aux(think-15, to-14)
+xcomp(challenged-11, think-15)
+prep(think-15, of-16)
+amod(ways-18, creative-17)
+pobj(of-16, ways-18)
+prep(ways-18, of-19)
+pcomp(of-19, taking-20)
+dobj(taking-20, photos-21)
+prep(photos-21, of-22)
+poss(ones-25, their-23)
+nn(ones-25, loved-24)
+pobj(of-22, ones-25)
+prep(photos-21, besides-26)
+det(Look-30, the-27)
+amod(Look-30, usual-28)
+pobj(besides-26, Look-30)
+advmod(taking-20, here-31)
+
+
+(ROOT
+  (S
+    (VP (VB Say)
+      (NP (NNP Cheese)))
+    (. !)))
+
+
+root(ROOT-0, Say-1)
+dobj(Say-1, Cheese-2)
+
+
+(ROOT
+  (NP (CD '') (NNS photos) (. .)))
+
+
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD could)
+      (PP (IN for)
+        (NP (NN example)))
+      (VP (VB take)
+        (NP (DT a) (NN photo))
+        (PP (IN like)
+          (NP
+            (NP (DT the) (NN one))
+            (PP (IN above)
+              (SBAR
+                (WHADVP (WRB where))
+                (S
+                  (NP
+                    (NP (DT the) (NN addition))
+                    (PP (IN of)
+                      (NP
+                        (NP (DT the) (NN camera))
+                        (PP (IN with)
+                          (NP
+                            (NP (DT a) (NN mirror) (NN image))
+                            (PP (IN of)
+                              (NP (DT the) (NNS subjects))))))))
+                  (VP (VBP add)
+                    (NP (NN interest))
+                    (PP (TO to)
+                      (NP (DT the) (NN photo)))))))))))
+    (. .)))
+
+
+nsubj(take-5, You-1)
+aux(take-5, could-2)
+prep(take-5, for-3)
+pobj(for-3, example-4)
+root(ROOT-0, take-5)
+det(photo-7, a-6)
+dobj(take-5, photo-7)
+prep(take-5, like-8)
+det(one-10, the-9)
+pobj(like-8, one-10)
+prep(one-10, above-11)
+advmod(add-25, where-12)
+det(addition-14, the-13)
+nsubj(add-25, addition-14)
+prep(addition-14, of-15)
+det(camera-17, the-16)
+pobj(of-15, camera-17)
+prep(camera-17, with-18)
+det(image-21, a-19)
+nn(image-21, mirror-20)
+pobj(with-18, image-21)
+prep(image-21, of-22)
+det(subjects-24, the-23)
+pobj(of-22, subjects-24)
+pcomp(above-11, add-25)
+dobj(add-25, interest-26)
+prep(add-25, to-27)
+det(photo-29, the-28)
+pobj(to-27, photo-29)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (VBD put)
+        (PP (IN in)
+          (NP (DT some) (NN effort)))
+        (S
+          (VP (TO to)
+            (VP (VB think)
+              (ADVP (RB creatively)))))
+        (, ,)))))
+
+
+mark(put-3, If-1)
+nsubj(put-3, you-2)
+root(ROOT-0, put-3)
+prep(put-3, in-4)
+det(effort-6, some-5)
+pobj(in-4, effort-6)
+aux(think-8, to-7)
+xcomp(put-3, think-8)
+advmod(think-8, creatively-9)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NNS possibilities))
+    (VP (VBP are)
+      (ADJP (JJ endless)))
+    (. .)))
+
+
+det(possibilities-2, the-1)
+nsubj(endless-4, possibilities-2)
+cop(endless-4, are-3)
+root(ROOT-0, endless-4)
+
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are)
+      (ADVP (RB also))
+      (NP
+        (NP (JJ many) (NNS things))
+        (SBAR
+          (S
+            (NP (PRP you))
+            (VP (MD can)
+              (VP (VB do)
+                (PP (IN with)
+                  (NP
+                    (NP (PRP$ your) (VBG existing) (NN camera))
+                    (SBAR
+                      (WHNP (WDT that))
+                      (S
+                        (VP (VBP are)
+                          (ADVP (RB just))
+                          (VP (VBG waiting)
+                            (PP (IN for)
+                              (NP (PRP you)))
+                            (S
+                              (VP (TO to)
+                                (VP (VB discover))))))))))))))))
+    (. !)))
+
+
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+advmod(are-2, also-3)
+amod(things-5, many-4)
+nsubj(are-2, things-5)
+nsubj(do-8, you-6)
+aux(do-8, can-7)
+rcmod(things-5, do-8)
+prep(do-8, with-9)
+poss(camera-12, your-10)
+amod(camera-12, existing-11)
+pobj(with-9, camera-12)
+nsubj(waiting-16, that-13)
+aux(waiting-16, are-14)
+advmod(waiting-16, just-15)
+rcmod(camera-12, waiting-16)
+prep(waiting-16, for-17)
+pobj(for-17, you-18)
+aux(discover-20, to-19)
+xcomp(waiting-16, discover-20)
+
+
+(ROOT
+  (FRAG
+    (PP (IN On)
+      (NP (PRP$ my) (NNP Canon) (NNP Powershot) (NNP S90)))
+    (, ,)))
+
+
+root(ROOT-0, On-1)
+poss(S90-5, my-2)
+nn(S90-5, Canon-3)
+nn(S90-5, Powershot-4)
+pobj(On-1, S90-5)
+
+
+(ROOT
+  (S
+    (NP (EX there))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (NN mode))
+        (VP (VBN called)
+          (NP
+            (NP (NNP Colour) (NNP Accent) (NN mode))
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (ADVP (RB basically))
+                (VP (VBZ turns)
+                  (NP (DT the) (JJ whole) (NN photo))
+                  (PP (IN into)
+                    (NP (JJ black)
+                      (CC and)
+                      (JJ white)))))))
+          (PP (IN with)
+            (NP
+              (NP (DT the) (NN exception))
+              (PP (IN of)
+                (NP
+                  (NP (CD one) (NN color))
+                  (SBAR
+                    (WHNP (WDT which))
+                    (S
+                      (NP (PRP you))
+                      (VP (VBP choose)))))))))))
+    (. .)))
+
+
+expl(is-2, there-1)
+root(ROOT-0, is-2)
+det(mode-4, a-3)
+nsubj(is-2, mode-4)
+partmod(mode-4, called-5)
+nn(mode-8, Colour-6)
+nn(mode-8, Accent-7)
+dobj(called-5, mode-8)
+nsubj(turns-11, which-9)
+advmod(turns-11, basically-10)
+rcmod(mode-8, turns-11)
+det(photo-14, the-12)
+amod(photo-14, whole-13)
+dobj(turns-11, photo-14)
+prep(turns-11, into-15)
+pobj(into-15, black-16)
+cc(black-16, and-17)
+conj(black-16, white-18)
+prep(called-5, with-19)
+det(exception-21, the-20)
+pobj(with-19, exception-21)
+prep(exception-21, of-22)
+num(color-24, one-23)
+pobj(of-22, color-24)
+dobj(choose-27, which-25)
+nsubj(choose-27, you-26)
+rcmod(color-24, choose-27)
+
+
+(ROOT
+  (S
+    (NP (DT That))
+    (VP (VBZ means)
+      (SBAR (IN that)
+        (S
+          (NP (EX there))
+          (VP (MD might)
+            (VP (VB be)
+              (NP
+                (NP (DT some) (JJ incredible) (NNS things))
+                (SBAR
+                  (S
+                    (NP (PRP you))
+                    (VP (MD could)
+                      (VP (VB do)
+                        (PP (IN with)
+                          (NP (PRP$ your) (NN camera)))
+                        (SBAR (IN if)
+                          (S
+                            (NP (PRP you))
+                            (ADVP (RB just))
+                            (VP (VB take)
+                              (NP (DT the) (NN effort)
+                                (S
+                                  (VP (TO to)
+                                    (VP (VB read)
+                                      (NP (DT the) (NN instruction) (NN manual)))))))))))))))))))
+    (. !)))
+
+
+nsubj(means-2, That-1)
+root(ROOT-0, means-2)
+mark(things-9, that-3)
+expl(things-9, there-4)
+aux(things-9, might-5)
+cop(things-9, be-6)
+det(things-9, some-7)
+amod(things-9, incredible-8)
+ccomp(means-2, things-9)
+nsubj(do-12, you-10)
+aux(do-12, could-11)
+rcmod(things-9, do-12)
+prep(do-12, with-13)
+poss(camera-15, your-14)
+pobj(with-13, camera-15)
+mark(take-19, if-16)
+nsubj(take-19, you-17)
+advmod(take-19, just-18)
+advcl(do-12, take-19)
+det(effort-21, the-20)
+dobj(take-19, effort-21)
+aux(read-23, to-22)
+infmod(effort-21, read-23)
+det(manual-26, the-24)
+nn(manual-26, instruction-25)
+dobj(read-23, manual-26)
+
+
+(ROOT
+  (NP
+    (NP (JJ Many) (NNS thanks))
+    (PP (TO to)
+      (NP
+        (NP (NN everyone))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBD attended)
+              (NP (DT the) (NN talk)))))))
+    (. !)))
+
+
+amod(thanks-2, Many-1)
+root(ROOT-0, thanks-2)
+prep(thanks-2, to-3)
+pobj(to-3, everyone-4)
+nsubj(attended-6, who-5)
+rcmod(everyone-4, attended-6)
+det(talk-8, the-7)
+dobj(attended-6, talk-8)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNS photos))
+      (PP (IN of)
+        (NP (DT the) (NNS events))))
+    (VP (VBP are)
+      (ADVP (RB here)))
+    (. .)))
+
+
+det(photos-2, The-1)
+nsubj(are-6, photos-2)
+prep(photos-2, of-3)
+det(events-5, the-4)
+pobj(of-3, events-5)
+root(ROOT-0, are-6)
+advmod(are-6, here-7)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (ADVP (RB also))
+      (VP (VB visit)
+        (NP (NNP Dadsforlife))))
+    (. .)))
+
+
+nsubj(visit-4, You-1)
+aux(visit-4, can-2)
+advmod(visit-4, also-3)
+root(ROOT-0, visit-4)
+dobj(visit-4, Dadsforlife-5)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NN sg))
+      (PP (IN for)
+        (NP
+          (NP (JJR more) (NN information))
+          (PP (IN on)
+            (SBAR
+              (WHADVP (WRB how))
+              (S
+                (VP (TO to)
+                  (VP (VB get)))))))))
+    (VP (VBN involved)
+      (PP (IN in)
+        (NP (DT this) (NN movement))))
+    (. .)))
+
+
+nsubj(involved-9, sg-1)
+prep(sg-1, for-2)
+amod(information-4, more-3)
+pobj(for-2, information-4)
+prep(information-4, on-5)
+advmod(get-8, how-6)
+aux(get-8, to-7)
+pcomp(on-5, get-8)
+root(ROOT-0, involved-9)
+prep(involved-9, in-10)
+det(movement-12, this-11)
+pobj(in-10, movement-12)
+
+
+(ROOT
+  (S
+    (NP (NNP Let) (POS 's))
+    (VP (VBP encourage)
+      (NP (DT each) (JJ other))
+      (PP (TO to)
+        (NP (JJR better) (NN fathering))))
+    (. !)))
+
+
+nsubj(encourage-3, Let-1)
+possessive(Let-1, 's-2)
+root(ROOT-0, encourage-3)
+det(other-5, each-4)
+dobj(encourage-3, other-5)
+prep(encourage-3, to-6)
+amod(fathering-8, better-7)
+pobj(to-6, fathering-8)
+
+
+(ROOT
+  (NP
+    (NP (JJ Many) (NNS thanks))
+    (PP (TO to)
+      (NP (NNP Canon)))
+    (PP (IN for)
+      (NP (PRP$ their) (JJ generous) (NN support)))
+    (PP (IN for)
+      (NP (DT the) (NN event)))
+    (. .)))
+
+
+amod(thanks-2, Many-1)
+root(ROOT-0, thanks-2)
+prep(thanks-2, to-3)
+pobj(to-3, Canon-4)
+prep(thanks-2, for-5)
+poss(support-8, their-6)
+amod(support-8, generous-7)
+pobj(for-5, support-8)
+prep(thanks-2, for-9)
+det(event-11, the-10)
+pobj(for-9, event-11)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (VBP are)
+        (ADJP (JJ interested)
+          (S
+            (VP (TO to)
+              (VP (VB organize)
+                (NP
+                  (NP
+                    (NP (DT a) (NN workshop))
+                    (PP (IN on)
+                      (NP (JJ basic) (NN food))))
+                  (CC or)
+                  (NP (NN family) (NN photography))
+                  (, ,))))))))))
+
+
+mark(interested-4, If-1)
+nsubj(interested-4, you-2)
+cop(interested-4, are-3)
+root(ROOT-0, interested-4)
+aux(organize-6, to-5)
+xcomp(interested-4, organize-6)
+det(workshop-8, a-7)
+dobj(organize-6, workshop-8)
+prep(workshop-8, on-9)
+amod(food-11, basic-10)
+pobj(on-9, food-11)
+cc(workshop-8, or-12)
+nn(photography-14, family-13)
+conj(workshop-8, photography-14)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (MD can)
+      (VP (VB write)
+        (ADVP (RB directly))
+        (PP (TO to)
+          (NP (PRP me)))
+        (PP (IN at))))
+    (. .)))
+
+
+nsubj(write-3, you-1)
+aux(write-3, can-2)
+root(ROOT-0, write-3)
+advmod(write-3, directly-4)
+prep(write-3, to-5)
+pobj(to-5, me-6)
+prep(write-3, at-7)
+
+

@@ -1,0 +1,122 @@
+(ROOT
+  (FRAG
+    (PP (IN Well))
+    (, ,)))
+
+
+root(ROOT-0, Well-1)
+
+
+(ROOT
+  (S
+    (NP
+      (ADJP (RB not) (RB so))
+      (NN dramtic))
+    (VP (VBP lah))
+    (, ,)))
+
+
+neg(so-2, not-1)
+amod(dramtic-3, so-2)
+nsubj(lah-4, dramtic-3)
+root(ROOT-0, lah-4)
+
+
+(ROOT
+  (S (CC but)
+    (NP
+      (NP (CD one))
+      (PP (IN of)
+        (NP (PRP$ my) (NNS articles))))
+    (VP (VBD was)
+      (VP (VBN reprinted)
+        (PP (IN for)
+          (NP (NNS students)))
+        (S
+          (VP (TO to)
+            (VP (VB practice)
+              (NP (PRP$ their) (VBG speaking) (NNS skills)))))))
+    (. .)))
+
+
+cc(reprinted-7, but-1)
+nsubjpass(reprinted-7, one-2)
+prep(one-2, of-3)
+poss(articles-5, my-4)
+pobj(of-3, articles-5)
+auxpass(reprinted-7, was-6)
+root(ROOT-0, reprinted-7)
+prep(reprinted-7, for-8)
+pobj(for-8, students-9)
+aux(practice-11, to-10)
+xcomp(reprinted-7, practice-11)
+poss(skills-14, their-12)
+amod(skills-14, speaking-13)
+dobj(practice-11, skills-14)
+
+
+(ROOT
+  (NP (RB Still) (VB ,)))
+
+
+root(ROOT-0, Still-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB never))
+    (VP (VBD thought)
+      (SBAR
+        (S
+          (NP (DT the) (NN day))
+          (VP (MD would)
+            (VP (VB come)
+              (SBAR (IN that)
+                (S
+                  (NP (PRP I))
+                  (VP (MD would)
+                    (VP (VB contribute)
+                      (NP
+                        (NP (DT an) (NN article))
+                        (PP (IN for)
+                          (NP (DT an) (NNP English) (NNP Textbook)))))))))))))
+    (. .)))
+
+
+nsubj(thought-3, I-1)
+neg(thought-3, never-2)
+root(ROOT-0, thought-3)
+det(day-5, the-4)
+nsubj(come-7, day-5)
+aux(come-7, would-6)
+ccomp(thought-3, come-7)
+mark(contribute-11, that-8)
+nsubj(contribute-11, I-9)
+aux(contribute-11, would-10)
+ccomp(come-7, contribute-11)
+det(article-13, an-12)
+dobj(contribute-11, article-13)
+prep(article-13, for-14)
+det(Textbook-17, an-15)
+nn(Textbook-17, English-16)
+pobj(for-14, Textbook-17)
+
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NNP GP) (NN teacher))
+    (VP (MD would)
+      (VP (VB be)
+        (ADJP (JJ pleased))))
+    (. !)))
+
+
+poss(teacher-3, My-1)
+nn(teacher-3, GP-2)
+nsubj(pleased-6, teacher-3)
+aux(pleased-6, would-4)
+cop(pleased-6, be-5)
+root(ROOT-0, pleased-6)
+
+

@@ -1,0 +1,125 @@
+(ROOT
+  (S
+    (NP (DT This) (NN stall))
+    (VP (VBZ is)
+      (VP (VBN closed)
+        (PRT (RP Back))
+        (PP (IN in)
+          (NP (NNP July)))))
+    (, ,)))
+
+
+det(stall-2, This-1)
+nsubjpass(closed-4, stall-2)
+auxpass(closed-4, is-3)
+root(ROOT-0, closed-4)
+prt(closed-4, Back-5)
+prep(closed-4, in-6)
+pobj(in-6, July-7)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT a) (NN group))
+      (PP (IN of)
+        (NP (CD 30) (JJ ieat) (NNS kakis))))
+    (VP (VBD was)
+      (VP (VBN involved)
+        (PP (IN in)
+          (NP (DT a) (NNP Buzzing) (NNP Cashier) (NN episode)))
+        (S
+          (VP (VBG featuring)
+            (NP (DT the) (NNP Carrot) (NNP Cake) (NN stall))
+            (PP (IN from)
+              (NP (NNP Elias) (NNP Mall)))))))
+    (. .)))
+
+
+det(group-2, a-1)
+nsubjpass(involved-8, group-2)
+prep(group-2, of-3)
+num(kakis-6, 30-4)
+amod(kakis-6, ieat-5)
+pobj(of-3, kakis-6)
+auxpass(involved-8, was-7)
+root(ROOT-0, involved-8)
+prep(involved-8, in-9)
+det(episode-13, a-10)
+nn(episode-13, Buzzing-11)
+nn(episode-13, Cashier-12)
+pobj(in-9, episode-13)
+xcomp(involved-8, featuring-14)
+det(stall-18, the-15)
+nn(stall-18, Carrot-16)
+nn(stall-18, Cake-17)
+dobj(featuring-14, stall-18)
+prep(featuring-14, from-19)
+nn(Mall-21, Elias-20)
+pobj(from-19, Mall-21)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBD was)
+        (NP
+          (NP (CD one))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (NNS judges))
+              (PP (IN at)
+                (NP (DT the) (NN event))))))))
+    (CC and)
+    (S
+      (NP (PRP I))
+      (VP (VBD wanted)
+        (S
+          (VP (TO to)
+            (VP (VB find)
+              (PRT (RP out))
+              (SBAR
+                (WHADVP (WRB how))
+                (S
+                  (NP (DT the) (NNS stallowners))
+                  (VP (VBP are)
+                    (VP (VBG doing)
+                      (NP (CD 2) (NNS months))
+                      (SBAR (IN after)
+                        (S
+                          (NP (PRP$ their) (NN episode))
+                          (VP (VBD was)
+                            (VP (VBN aired))))))))))))))
+    (. .)))
+
+
+nsubj(one-3, I-1)
+cop(one-3, was-2)
+root(ROOT-0, one-3)
+prep(one-3, of-4)
+det(judges-6, the-5)
+pobj(of-4, judges-6)
+prep(judges-6, at-7)
+det(event-9, the-8)
+pobj(at-7, event-9)
+cc(one-3, and-10)
+nsubj(wanted-12, I-11)
+conj(one-3, wanted-12)
+aux(find-14, to-13)
+xcomp(wanted-12, find-14)
+prt(find-14, out-15)
+advmod(doing-20, how-16)
+det(stallowners-18, the-17)
+nsubj(doing-20, stallowners-18)
+aux(doing-20, are-19)
+ccomp(find-14, doing-20)
+num(months-22, 2-21)
+tmod(doing-20, months-22)
+mark(aired-27, after-23)
+poss(episode-25, their-24)
+nsubjpass(aired-27, episode-25)
+auxpass(aired-27, was-26)
+advcl(doing-20, aired-27)
+
+

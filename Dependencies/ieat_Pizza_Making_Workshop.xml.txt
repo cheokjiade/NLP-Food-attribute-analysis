@@ -1,0 +1,647 @@
+(ROOT
+  (NP
+    (NP (NNS Photos))
+    (PP (IN by)
+      (NP (NN ijeff)))
+    (: -)))
+
+
+root(ROOT-0, Photos-1)
+prep(Photos-1, by-2)
+pobj(by-2, ijeff-3)
+
+
+(ROOT
+  (FRAG
+    (NP (JJ many) (NNS thanks))
+    (. !)))
+
+
+amod(thanks-2, many-1)
+root(ROOT-0, thanks-2)
+
+
+(ROOT
+  (S
+    (VP (VB Remember))))
+
+
+root(ROOT-0, Remember-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD was)
+      (VP (VBG telling)
+        (NP (PRP you))
+        (PP (IN about)
+          (NP (DT the)
+            (ADJP (CD 1) (NN minute))
+            (NN pizza) (NN dough)))))
+    (. ?)))
+
+
+nsubj(telling-3, I-1)
+aux(telling-3, was-2)
+root(ROOT-0, telling-3)
+dobj(telling-3, you-4)
+prep(telling-3, about-5)
+det(dough-10, the-6)
+number(minute-8, 1-7)
+amod(dough-10, minute-8)
+nn(dough-10, pizza-9)
+pobj(about-5, dough-10)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Well))
+    (, ,)))
+
+
+root(ROOT-0, Well-1)
+
+
+(ROOT
+  (S
+    (NP (PRP$ our) (NNS kakis))
+    (VP (VBD managed)
+      (S
+        (VP (TO to)
+          (VP (VB get)
+            (S
+              (VP (TO to)
+                (VP (VB try)
+                  (NP (PRP it))
+                  (PRT (RP out))
+                  (PP (IN at)
+                    (NP
+                      (NP (DT the) (NNP Mayer) (NNP Live) (NN Kitchen))
+                      (PP (IN at)
+                        (NP (NNP Orchard) (NNP Central)))
+                      (NP (JJ last) (NNP Saturday)))))))))))
+    (. .)))
+
+
+poss(kakis-2, our-1)
+nsubj(managed-3, kakis-2)
+root(ROOT-0, managed-3)
+aux(get-5, to-4)
+xcomp(managed-3, get-5)
+aux(try-7, to-6)
+xcomp(get-5, try-7)
+dobj(try-7, it-8)
+prt(try-7, out-9)
+prep(try-7, at-10)
+det(Kitchen-14, the-11)
+nn(Kitchen-14, Mayer-12)
+nn(Kitchen-14, Live-13)
+pobj(at-10, Kitchen-14)
+prep(Kitchen-14, at-15)
+nn(Central-17, Orchard-16)
+pobj(at-15, Central-17)
+amod(Saturday-19, last-18)
+dep(Kitchen-14, Saturday-19)
+
+
+(ROOT
+  (SBAR (IN Once)
+    (S
+      (NP (PRP you))
+      (VP (VBP learn)
+        (SBAR
+          (WHADVP (WRB how))
+          (S
+            (VP (TO to)
+              (VP (VB make)
+                (NP (PRP$ your) (JJ own) (NN pizza) (NN base)))))))
+      (, ,))))
+
+
+mark(learn-3, Once-1)
+nsubj(learn-3, you-2)
+root(ROOT-0, learn-3)
+advmod(make-6, how-4)
+aux(make-6, to-5)
+ccomp(learn-3, make-6)
+poss(base-10, your-7)
+amod(base-10, own-8)
+nn(base-10, pizza-9)
+dobj(make-6, base-10)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NN sky))
+    (VP (VBZ is)
+      (ADVP (RB really))
+      (NP
+        (NP (DT the) (NN limit))
+        (PP (IN on)
+          (SBAR
+            (WHNP (WP what))
+            (S
+              (NP (PRP you))
+              (VP (MD can)
+                (VP (VB put)
+                  (PP (IN on)
+                    (NP (DT the) (NN pizza))))))))))
+    (. .)))
+
+
+det(sky-2, the-1)
+nsubj(limit-6, sky-2)
+cop(limit-6, is-3)
+advmod(limit-6, really-4)
+det(limit-6, the-5)
+root(ROOT-0, limit-6)
+prep(limit-6, on-7)
+dobj(put-11, what-8)
+nsubj(put-11, you-9)
+aux(put-11, can-10)
+pcomp(on-7, put-11)
+prep(put-11, on-12)
+det(pizza-14, the-13)
+pobj(on-12, pizza-14)
+
+
+(ROOT
+  (NP
+    (NP (DT Some))
+    (PP (IN of)
+      (NP
+        (NP (DT the)
+          (ADJP (RB very) (JJ creative))
+          (NNS pizzas))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBD came)
+              (PRT (RP out))
+              (SBAR (IN that)
+                (S
+                  (NP (NN afternoon))
+                  (VP (VBD were)
+                    (NP
+                      (NP (NNP Cactuskit) (POS 's))
+                      (NNP Kaya)
+                      (CC and)
+                      (JJ Avocado) (NN pizza)))))))
+          (, ,))))))
+
+
+root(ROOT-0, Some-1)
+prep(Some-1, of-2)
+det(pizzas-6, the-3)
+advmod(creative-5, very-4)
+amod(pizzas-6, creative-5)
+pobj(of-2, pizzas-6)
+nsubj(came-8, that-7)
+rcmod(pizzas-6, came-8)
+prt(came-8, out-9)
+mark(Kaya-15, that-10)
+nsubj(Kaya-15, afternoon-11)
+cop(Kaya-15, were-12)
+poss(Kaya-15, Cactuskit-13)
+possessive(Cactuskit-13, 's-14)
+ccomp(came-8, Kaya-15)
+cc(Kaya-15, and-16)
+amod(pizza-18, Avocado-17)
+conj(Kaya-15, pizza-18)
+
+
+(ROOT
+  (S
+    (NP (NNP Muah))
+    (VP (VBP Otah)
+      (NP
+        (NP (NN pizza))
+        (CC and)
+        (NP
+          (NP (NNP Holydrummer) (POS 's))
+          (NNP Unagi) (NN pizza))))
+    (. .)))
+
+
+nsubj(Otah-2, Muah-1)
+root(ROOT-0, Otah-2)
+dobj(Otah-2, pizza-3)
+cc(pizza-3, and-4)
+poss(pizza-8, Holydrummer-5)
+possessive(Holydrummer-5, 's-6)
+nn(pizza-8, Unagi-7)
+conj(pizza-3, pizza-8)
+
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBD was)
+      (ADVP (RB also))
+      (NP (DT a) (NNP Bacon)
+        (CC and)
+        (NNP Egg))
+      (PP (IN with)
+        (NP
+          (NP (JJ Brie) (NN cheese) (NN pizza))
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (VBD was)
+                (ADJP (RB pretty) (JJ good))))))))
+    (. .)))
+
+
+expl(was-2, There-1)
+root(ROOT-0, was-2)
+advmod(was-2, also-3)
+det(Bacon-5, a-4)
+nsubj(was-2, Bacon-5)
+cc(Bacon-5, and-6)
+conj(Bacon-5, Egg-7)
+prep(was-2, with-8)
+amod(pizza-11, Brie-9)
+nn(pizza-11, cheese-10)
+pobj(with-8, pizza-11)
+nsubj(good-15, which-12)
+cop(good-15, was-13)
+advmod(good-15, pretty-14)
+rcmod(pizza-11, good-15)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP (PRP we))
+          (VP (VBD did)
+            (S
+              (VP (VB get)
+                (VP (VBN carried)
+                  (PRT (RP away))
+                  (PP (IN with)
+                    (NP
+                      (NP (PRP$ our) (JJ last) (NN pizza))
+                      (SBAR
+                        (WHADVP (WRB when))
+                        (S
+                          (NP (PRP we))
+                          (VP (VBD put)
+                            (SBAR
+                              (S
+                                (NP
+                                  (NP (DT a) (JJ whole) (NN block))
+                                  (PP (IN of)
+                                    (NP
+                                      (NP (NNP Brie) (NNP Cheese))
+                                      (PP (IN on)
+                                        (NP
+                                          (NP (DT the) (NN pizza))
+                                          (CC and)
+                                          (NP (DT the) (JJ whole) (NN thing)))))))
+                                (VP (VBD became)
+                                  (NP (DT a) (JJ calorie) (NN bomb)))))))))))))))))
+    (. !)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+nsubj(did-4, we-3)
+ccomp(think-2, did-4)
+auxpass(carried-6, get-5)
+ccomp(did-4, carried-6)
+prt(carried-6, away-7)
+prep(carried-6, with-8)
+poss(pizza-11, our-9)
+amod(pizza-11, last-10)
+pobj(with-8, pizza-11)
+advmod(put-14, when-12)
+nsubj(put-14, we-13)
+rcmod(pizza-11, put-14)
+det(block-17, a-15)
+amod(block-17, whole-16)
+nsubj(bomb-31, block-17)
+prep(block-17, of-18)
+nn(Cheese-20, Brie-19)
+pobj(of-18, Cheese-20)
+prep(Cheese-20, on-21)
+det(pizza-23, the-22)
+pobj(on-21, pizza-23)
+cc(pizza-23, and-24)
+det(thing-27, the-25)
+amod(thing-27, whole-26)
+conj(pizza-23, thing-27)
+cop(bomb-31, became-28)
+det(bomb-31, a-29)
+amod(bomb-31, calorie-30)
+ccomp(put-14, bomb-31)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Besides)
+      (NP (DT the) (NN pizza)))
+    (, ,)))
+
+
+root(ROOT-0, Besides-1)
+det(pizza-3, the-2)
+pobj(Besides-1, pizza-3)
+
+
+(ROOT
+  (S
+    (NP (NNP Champagne))
+    (ADVP (RB also))
+    (VP (VBD demonstrated)
+      (SBAR
+        (WHADVP (WRB how)
+          (ADJP (JJ easy)))
+        (S
+          (NP (PRP it))
+          (VP (VBD was)
+            (S
+              (VP (TO to)
+                (VP (VB make)
+                  (NP (NNP Cookies)
+                    (CC and)
+                    (NN Cream) (NN Ice) (NN Cream))
+                  (PP (IN with)
+                    (NP (DT the) (NNP Cuisinart) (NNP Ice) (NN Cream) (NN maker))))))))))
+    (. .)))
+
+
+nsubj(demonstrated-3, Champagne-1)
+advmod(demonstrated-3, also-2)
+root(ROOT-0, demonstrated-3)
+advmod(was-7, how-4)
+dep(how-4, easy-5)
+nsubj(was-7, it-6)
+ccomp(demonstrated-3, was-7)
+aux(make-9, to-8)
+xcomp(was-7, make-9)
+nn(Cream-14, Cookies-10)
+cc(Cookies-10, and-11)
+conj(Cookies-10, Cream-12)
+nn(Cream-14, Ice-13)
+dobj(make-9, Cream-14)
+prep(make-9, with-15)
+det(maker-20, the-16)
+nn(maker-20, Cuisinart-17)
+nn(maker-20, Ice-18)
+nn(maker-20, Cream-19)
+pobj(with-15, maker-20)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ 's)
+      (NP
+        (NP (PDT all) (DT a) (NN matter))
+        (PP (IN of)
+          (S
+            (VP
+              (VP (VBG putting)
+                (NP (NN everything))
+                (PP (IN into)
+                  (NP (DT the) (NN machine))))
+              (CC and)
+              (VP (VBG turning)
+                (NP (PRP it))
+                (PRT (RP on))))))))
+    (. .)))
+
+
+nsubj(matter-5, It-1)
+cop(matter-5, 's-2)
+predet(matter-5, all-3)
+det(matter-5, a-4)
+root(ROOT-0, matter-5)
+prep(matter-5, of-6)
+pcomp(of-6, putting-7)
+dobj(putting-7, everything-8)
+prep(putting-7, into-9)
+det(machine-11, the-10)
+pobj(into-9, machine-11)
+cc(putting-7, and-12)
+conj(putting-7, turning-13)
+dobj(turning-13, it-14)
+prt(turning-13, on-15)
+
+
+(ROOT
+  (NP
+    (NP (JJ Many) (NNS thanks))
+    (PP
+      (PP (TO to)
+        (NP
+          (NP (NNP Champagne))
+          (PP (IN for)
+            (S
+              (VP (VBG helping)
+                (S
+                  (VP (TO to)
+                    (VP (VB organize)
+                      (NP (DT the) (NN session))))))))))
+      (CC and)
+      (PP (TO to)
+        (NP
+          (NP (NN everyone))
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (ADVP (RB so))
+              (VP
+                (ADVP (RB enthusiastically))
+                (VBD brought)
+                (NP
+                  (NP (DT the) (NNS toppings))
+                  (PP (IN for)
+                    (NP (DT the) (NN pizza))))))))))
+    (. !)))
+
+
+amod(thanks-2, Many-1)
+root(ROOT-0, thanks-2)
+prep(thanks-2, to-3)
+pobj(to-3, Champagne-4)
+prep(Champagne-4, for-5)
+pcomp(for-5, helping-6)
+aux(organize-8, to-7)
+xcomp(helping-6, organize-8)
+det(session-10, the-9)
+dobj(organize-8, session-10)
+cc(to-3, and-11)
+conj(to-3, to-12)
+pobj(to-12, everyone-13)
+nsubj(brought-17, who-14)
+advmod(brought-17, so-15)
+advmod(brought-17, enthusiastically-16)
+rcmod(everyone-13, brought-17)
+det(toppings-19, the-18)
+dobj(brought-17, toppings-19)
+prep(toppings-19, for-20)
+det(pizza-22, the-21)
+pobj(for-20, pizza-22)
+
+
+(ROOT
+  (ADJP (JJ Thanks)
+    (PP
+      (ADVP (RB also))
+      (TO to)
+      (NP
+        (NP (NNP Mayer) (NNP Live) (NNP Kitchen))
+        (PP (IN at)
+          (NP (NNP Orchard) (NNP Central)))))
+    (PP (IN for)
+      (S
+        (VP (VBG allowing)
+          (S
+            (NP (PRP us))
+            (VP (TO to)
+              (VP (VB use)
+                (NP (PRP$ their) (NNS premises))
+                (PP (IN for)
+                  (NP (PRP$ our) (NN session)))))))))
+    (. !)))
+
+
+root(ROOT-0, Thanks-1)
+advmod(to-3, also-2)
+prep(Thanks-1, to-3)
+nn(Kitchen-6, Mayer-4)
+nn(Kitchen-6, Live-5)
+pobj(to-3, Kitchen-6)
+prep(Kitchen-6, at-7)
+nn(Central-9, Orchard-8)
+pobj(at-7, Central-9)
+prep(Thanks-1, for-10)
+pcomp(for-10, allowing-11)
+nsubj(use-14, us-12)
+aux(use-14, to-13)
+xcomp(allowing-11, use-14)
+poss(premises-16, their-15)
+dobj(use-14, premises-16)
+prep(use-14, for-17)
+poss(session-19, our-18)
+pobj(for-17, session-19)
+
+
+(ROOT
+  (S
+    (NP (NNP Oh))
+    (VP (VBP BTW))
+    (, ,)))
+
+
+nsubj(BTW-2, Oh-1)
+root(ROOT-0, BTW-2)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (VP (MD will)
+      (VP (VB be)
+        (VP (VBG auctioning)
+          (NP (DT a) (NNP Pizza) (NNP Peel))
+          (PP (IN at)
+            (NP (PRP$ our) (JJ ieat) (NN AGM)))
+          (NP (DT this) (NNP Friday)))))
+    (. !)))
+
+
+nsubj(auctioning-4, we-1)
+aux(auctioning-4, will-2)
+aux(auctioning-4, be-3)
+root(ROOT-0, auctioning-4)
+det(Peel-7, a-5)
+nn(Peel-7, Pizza-6)
+dobj(auctioning-4, Peel-7)
+prep(auctioning-4, at-8)
+poss(AGM-11, our-9)
+amod(AGM-11, ieat-10)
+pobj(at-8, AGM-11)
+det(Friday-13, this-12)
+tmod(auctioning-4, Friday-13)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB So))
+    (SBAR (IN if)
+      (S
+        (NP (PRP you))
+        (VP (VBP are)
+          (ADJP (JJ keen)
+            (S
+              (VP (TO to)
+                (VP (VB make)
+                  (NP (PRP$ your) (JJ own) (NN pizza)))))))
+        (, ,)))))
+
+
+root(ROOT-0, So-1)
+mark(keen-5, if-2)
+nsubj(keen-5, you-3)
+cop(keen-5, are-4)
+dep(So-1, keen-5)
+aux(make-7, to-6)
+xcomp(keen-5, make-7)
+poss(pizza-10, your-8)
+amod(pizza-10, own-9)
+dobj(make-7, pizza-10)
+
+
+(ROOT
+  (S
+    (VP (VB get)
+      (S
+        (NP (PRP$ your) (NN wallet))
+        (ADJP (JJ ready)
+          (PP (IN on)
+            (NP (NNP Friday))))
+        (S
+          (VP (TO to)
+            (VP (VB bid)
+              (PP (IN for)
+                (NP (PRP it))))))))
+    (. !)))
+
+
+root(ROOT-0, get-1)
+poss(wallet-3, your-2)
+nsubj(bid-8, wallet-3)
+dep(bid-8, ready-4)
+prep(ready-4, on-5)
+pobj(on-5, Friday-6)
+aux(bid-8, to-7)
+xcomp(get-1, bid-8)
+prep(bid-8, for-9)
+pobj(for-9, it-10)
+
+
+(ROOT
+  (PRN (-LRB- -LRB-)
+    (S
+      (NP (DT All) (NNS proceeds))
+      (VP (VBP are)
+        (VP (VBN donated)
+          (PP (TO to)
+            (NP (NNP Charity))))))
+    (-RRB- -RRB-)))
+
+
+det(proceeds-3, All-2)
+nsubjpass(donated-5, proceeds-3)
+auxpass(donated-5, are-4)
+root(ROOT-0, donated-5)
+prep(donated-5, to-6)
+pobj(to-6, Charity-7)
+
+

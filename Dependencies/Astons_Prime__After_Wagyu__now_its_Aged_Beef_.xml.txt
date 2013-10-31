@@ -1,0 +1,32 @@
+(ROOT
+  (S
+    (NP (NN Steak) (NNS lovers))
+    (VP (MD can)
+      (VP (VB rejoice)
+        (ADVP (RB now))
+        (SBAR (IN that)
+          (S
+            (NP (NNP Astons))
+            (VP (VBZ has)
+              (VP (VBN started)
+                (S
+                  (VP (VBG aging)
+                    (NP (PRP$ his) (JJ own) (NN beef))))))))))
+    (. .)))
+
+
+nn(lovers-2, Steak-1)
+nsubj(rejoice-4, lovers-2)
+aux(rejoice-4, can-3)
+root(ROOT-0, rejoice-4)
+advmod(rejoice-4, now-5)
+mark(started-9, that-6)
+nsubj(started-9, Astons-7)
+aux(started-9, has-8)
+ccomp(rejoice-4, started-9)
+xcomp(started-9, aging-10)
+poss(beef-13, his-11)
+amod(beef-13, own-12)
+dobj(aging-10, beef-13)
+
+

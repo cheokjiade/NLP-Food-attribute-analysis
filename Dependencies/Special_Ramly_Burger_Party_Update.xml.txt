@@ -1,0 +1,318 @@
+(ROOT
+  (S
+    (NP (NNP Tak))
+    (VP (VBP Boleh)
+      (NP (NNP Tahan)))
+    (, ,)))
+
+
+nsubj(Boleh-2, Tak-1)
+root(ROOT-0, Boleh-2)
+dobj(Boleh-2, Tahan-3)
+
+
+(ROOT
+  (S
+    (VP (VBD went)
+      (ADVP (RB down))
+      (PP (TO to)
+        (NP (JJ Ole) (NNP Bubble) (NNP Cafe)))
+      (ADVP (RB again))
+      (NP (NN yesterday))
+      (S
+        (VP (TO to)
+          (VP (VB have)
+            (NP (PRP$ my) (NNP Ramly) (NNP Burger) (NN fix))))))
+    (. !)))
+
+
+root(ROOT-0, went-1)
+advmod(went-1, down-2)
+prep(went-1, to-3)
+amod(Cafe-6, Ole-4)
+nn(Cafe-6, Bubble-5)
+pobj(to-3, Cafe-6)
+advmod(went-1, again-7)
+tmod(went-1, yesterday-8)
+aux(have-10, to-9)
+xcomp(went-1, have-10)
+poss(fix-14, my-11)
+nn(fix-14, Ramly-12)
+nn(fix-14, Burger-13)
+dobj(have-10, fix-14)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD did) (RB not)
+      (VP (VB taste)
+        (NP
+          (NP (DT the) (JJ improved) (NN version))
+          (PP (IN with)
+            (NP (NNP Worchestershire) (NN sauce))))
+        (NP (DT the) (JJ last) (NN time))
+        (SBAR (IN so)
+          (S
+            (NP (PRP I))
+            (VP (VBD wanted)
+              (S
+                (VP (TO to)
+                  (VP (VB make)
+                    (ADJP (JJ sure))
+                    (SBAR (IN that)
+                      (S
+                        (NP (DT the) (NN taste))
+                        (VP (VBD was)
+                          (ADJP (JJ right)))))))))))))
+    (. .)))
+
+
+nsubj(taste-4, I-1)
+aux(taste-4, did-2)
+neg(taste-4, not-3)
+root(ROOT-0, taste-4)
+det(version-7, the-5)
+amod(version-7, improved-6)
+iobj(taste-4, version-7)
+prep(version-7, with-8)
+nn(sauce-10, Worchestershire-9)
+pobj(with-8, sauce-10)
+det(time-13, the-11)
+amod(time-13, last-12)
+dobj(taste-4, time-13)
+mark(wanted-16, so-14)
+nsubj(wanted-16, I-15)
+advcl(taste-4, wanted-16)
+aux(make-18, to-17)
+xcomp(wanted-16, make-18)
+acomp(make-18, sure-19)
+mark(right-24, that-20)
+det(taste-22, the-21)
+nsubj(right-24, taste-22)
+cop(right-24, was-23)
+ccomp(make-18, right-24)
+
+
+(ROOT
+  (VP
+    (ADVP (RB Anyway))
+    (VBN based)
+    (PP (IN on)
+      (NP
+        (NP (PDT all) (DT the) (NN feedback))
+        (ADVP (RB so) (RB far))))
+    (, ,)))
+
+
+advmod(based-2, Anyway-1)
+root(ROOT-0, based-2)
+prep(based-2, on-3)
+predet(feedback-6, all-4)
+det(feedback-6, the-5)
+pobj(on-3, feedback-6)
+advmod(far-8, so-7)
+advmod(feedback-6, far-8)
+
+
+(ROOT
+  (S
+    (NP (JJS most) (NNS people))
+    (VP (VBD found)
+      (SBAR
+        (S
+          (NP (DT the) (NN burger))
+          (ADVP (RB quite))
+          (VP (VBP shiok)))))
+    (. .)))
+
+
+amod(people-2, most-1)
+nsubj(found-3, people-2)
+root(ROOT-0, found-3)
+det(burger-5, the-4)
+nsubj(shiok-7, burger-5)
+advmod(shiok-7, quite-6)
+ccomp(found-3, shiok-7)
+
+
+(ROOT
+  (S
+    (S
+      (VP (VBN Made)
+        (NP (DT some) (NNS adjustments))
+        (PP (TO to)
+          (NP
+            (NP (DT the) (NN brand))
+            (PP (IN of)
+              (NP (DT the) (JJ curry) (NN powder)))))))
+    (VP
+      (VP (VBD used))
+      (CC and)
+      (VP
+        (ADVP (RB also))
+        (VBD got)
+        (S
+          (NP (PRP them))
+          (VP (TO to)
+            (VP (VB toast)
+              (NP
+                (NP (DT the) (NN bun))
+                (PP (IN over)
+                  (NP (DT the) (JJ hot) (NN plate))))
+              (S
+                (VP (TO to)
+                  (VP (VB get)
+                    (NP
+                      (NP (DT that)
+                        (ADJP (RB buttery) (JJ caramelized))
+                        (NN taste))
+                      (PP (IN of)
+                        (NP (DT the) (NN bun))))))))))))
+    (. .)))
+
+
+csubj(used-11, Made-1)
+det(adjustments-3, some-2)
+dobj(Made-1, adjustments-3)
+prep(Made-1, to-4)
+det(brand-6, the-5)
+pobj(to-4, brand-6)
+prep(brand-6, of-7)
+det(powder-10, the-8)
+amod(powder-10, curry-9)
+pobj(of-7, powder-10)
+root(ROOT-0, used-11)
+cc(used-11, and-12)
+advmod(got-14, also-13)
+conj(used-11, got-14)
+nsubj(toast-17, them-15)
+aux(toast-17, to-16)
+xcomp(got-14, toast-17)
+det(bun-19, the-18)
+dobj(toast-17, bun-19)
+prep(bun-19, over-20)
+det(plate-23, the-21)
+amod(plate-23, hot-22)
+pobj(over-20, plate-23)
+aux(get-25, to-24)
+xcomp(toast-17, get-25)
+det(taste-29, that-26)
+advmod(caramelized-28, buttery-27)
+amod(taste-29, caramelized-28)
+dobj(get-25, taste-29)
+prep(taste-29, of-30)
+det(bun-32, the-31)
+pobj(of-30, bun-32)
+
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NNS makankakis))
+    (VP
+      (ADVP (DT all))
+      (VBD agreed)
+      (SBAR (IN that)
+        (S
+          (NP (DT this))
+          (VP (VBZ is)
+            (NP (DT the) (JJ shiokest) (NN $))))))))
+
+
+poss(makankakis-2, My-1)
+nsubj(agreed-4, makankakis-2)
+advmod(agreed-4, all-3)
+root(ROOT-0, agreed-4)
+mark($-10, that-5)
+nsubj($-10, this-6)
+cop($-10, is-7)
+det($-10, the-8)
+amod($-10, shiokest-9)
+ccomp(agreed-4, $-10)
+
+
+(ROOT
+  (NP
+    (NP (CD 3.50) (NN burger))
+    (PP (IN in)
+      (NP (NNP Singapore)))
+    (PP (IN at)
+      (NP (DT the) (NN moment)))
+    (. .)))
+
+
+num(burger-2, 3.50-1)
+root(ROOT-0, burger-2)
+prep(burger-2, in-3)
+pobj(in-3, Singapore-4)
+prep(burger-2, at-5)
+det(moment-7, the-6)
+pobj(at-5, moment-7)
+
+
+(ROOT
+  (FRAG (RB So) (JJ ,)))
+
+
+root(ROOT-0, So-1)
+
+
+(ROOT
+  (PP (IN for)
+    (NP
+      (NP (PDT all) (DT those))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBD did) (RB not)
+            (VP (VB make)
+              (NP (PRP it))
+              (NP (NN yesterday)))))))
+    (: ...)))
+
+
+root(ROOT-0, for-1)
+predet(those-3, all-2)
+pobj(for-1, those-3)
+nsubj(make-7, who-4)
+aux(make-7, did-5)
+neg(make-7, not-6)
+rcmod(those-3, make-7)
+dobj(make-7, it-8)
+tmod(make-7, yesterday-9)
+
+
+(ROOT
+  (INTJ (UH ...)))
+
+
+
+
+(ROOT
+  (FRAG
+    (ADJP (RB too) (JJ bad))
+    (. .)))
+
+
+advmod(bad-2, too-1)
+root(ROOT-0, bad-2)
+
+
+(ROOT
+  (NP
+    (NP (NN Link))
+    (PP (TO to)
+      (NP (NNP Doubly) (NNP Ramly)))
+    (PP (IN in)
+      (NP (PRP$ my) (NN Tumbly)))))
+
+
+root(ROOT-0, Link-1)
+prep(Link-1, to-2)
+nn(Ramly-4, Doubly-3)
+pobj(to-2, Ramly-4)
+prep(Link-1, in-5)
+poss(Tumbly-7, my-6)
+pobj(in-5, Tumbly-7)
+
+

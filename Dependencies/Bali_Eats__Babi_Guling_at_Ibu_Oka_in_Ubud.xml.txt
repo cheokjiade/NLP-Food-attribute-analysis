@@ -1,0 +1,226 @@
+(ROOT
+  (SBAR
+    (WHADVP (WRB When))
+    (S
+      (NP (PRP I))
+      (VP (VBD was)
+        (VP (VBG doing)
+          (NP (NN research))
+          (PP (IN on)
+            (SBAR
+              (WHNP (WP what))
+              (S
+                (VP (TO to)
+                  (VP (VB eat)
+                    (PP (IN in)
+                      (NP (NNP Bali))))))))))
+      (, ,))))
+
+
+advmod(doing-4, When-1)
+nsubj(doing-4, I-2)
+aux(doing-4, was-3)
+root(ROOT-0, doing-4)
+dobj(doing-4, research-5)
+prep(doing-4, on-6)
+nsubj(eat-9, what-7)
+aux(eat-9, to-8)
+pcomp(on-6, eat-9)
+prep(eat-9, in-10)
+pobj(in-10, Bali-11)
+
+
+(ROOT
+  (S
+    (S
+      (NP (CD one) (NN restaurant))
+      (ADVP (RB always))
+      (VP (VBP seem)
+        (S
+          (VP (TO to)
+            (VP (VB pop)
+              (PRT (RP up)))))))
+    (CC and)
+    (S
+      (NP (DT that))
+      (VP (VBZ is)
+        (NP
+          (NP (DT this) (JJ little) (NN restaurant))
+          (PP (IN in)
+            (NP (NNP Ubud)))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (VBZ sells)
+                (NP
+                  (NP (NNP Babi) (NNP Guling))
+                  (PRN (-LRB- -LRB-)
+                    (NP (NNP Roast) (NNP Pig))
+                    (-RRB- -RRB-)))))))))
+    (. .)))
+
+
+num(restaurant-2, one-1)
+nsubj(seem-4, restaurant-2)
+advmod(seem-4, always-3)
+root(ROOT-0, seem-4)
+aux(pop-6, to-5)
+xcomp(seem-4, pop-6)
+prt(pop-6, up-7)
+cc(seem-4, and-8)
+nsubj(restaurant-13, that-9)
+cop(restaurant-13, is-10)
+det(restaurant-13, this-11)
+amod(restaurant-13, little-12)
+conj(seem-4, restaurant-13)
+prep(restaurant-13, in-14)
+pobj(in-14, Ubud-15)
+nsubj(sells-17, that-16)
+rcmod(restaurant-13, sells-17)
+nn(Guling-19, Babi-18)
+dobj(sells-17, Guling-19)
+nn(Pig-22, Roast-21)
+appos(Guling-19, Pig-22)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Indeed))
+    (, ,)))
+
+
+root(ROOT-0, Indeed-1)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (VBD seemed)
+      (S
+        (VP (TO to)
+          (VP (VB be)
+            (NP (DT the) (JJ undisputed))))))
+    (, ,)))
+
+
+nsubj(seemed-2, it-1)
+root(ROOT-0, seemed-2)
+aux(undisputed-6, to-3)
+cop(undisputed-6, be-4)
+det(undisputed-6, the-5)
+xcomp(seemed-2, undisputed-6)
+
+
+(ROOT
+  (S (`` ``)
+    (S
+      (VP (VB come)
+        (NP (PDT all) (DT the) (NN way))
+        (PP (TO to)
+          (NP (NNP Bali)))))
+    (VP (MD must)
+      (VP (VB eat) ('' '')
+        (NP (NN dish))))
+    (. .)))
+
+
+csubj(eat-9, come-2)
+predet(way-5, all-3)
+det(way-5, the-4)
+dobj(come-2, way-5)
+prep(come-2, to-6)
+pobj(to-6, Bali-7)
+aux(eat-9, must-8)
+root(ROOT-0, eat-9)
+dobj(eat-9, dish-11)
+
+
+(ROOT
+  (S
+    (NP (RB Not) (JJ only))
+    (VP (MD must)
+      (NP (PRP you))
+      (S
+        (VP (VB try)
+          (NP (NNP Babi) (NNP Guling)))))
+    (, ,)))
+
+
+neg(only-2, Not-1)
+nsubj(must-3, only-2)
+root(ROOT-0, must-3)
+dobj(must-3, you-4)
+dep(must-3, try-5)
+nn(Guling-7, Babi-6)
+dobj(try-5, Guling-7)
+
+
+(ROOT
+  (S (CC but)
+    (NP (PRP you))
+    (VP (MD must)
+      (ADVP (RB specifically))
+      (VP (VB try)
+        (NP (DT the) (NNP Babi) (NNP Guling))
+        (PP (IN at)
+          (NP
+            (NP (NNP Ibu) (NNP Oka))
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (VP (VBZ is)
+                  (VP (VBN acknowledged)
+                    (ADVP (RB even))
+                    (PP (IN by)
+                      (NP (DT the) (NNS locals)))
+                    (S
+                      (VP (TO to)
+                        (VP (VB be)
+                          (NP (DT the) (JJS best)
+                            (NP
+                              (NP (NNP Babi) (NNP Guling))
+                              (PP (IN in)
+                                (NP (NNP Bali)
+                                  (CC and)
+                                  (RB indeed))))))))
+                    (, ,)))))))))))
+
+
+cc(try-5, but-1)
+nsubj(try-5, you-2)
+aux(try-5, must-3)
+advmod(try-5, specifically-4)
+root(ROOT-0, try-5)
+det(Guling-8, the-6)
+nn(Guling-8, Babi-7)
+dobj(try-5, Guling-8)
+prep(try-5, at-9)
+nn(Oka-11, Ibu-10)
+pobj(at-9, Oka-11)
+nsubjpass(acknowledged-14, which-12)
+auxpass(acknowledged-14, is-13)
+rcmod(Oka-11, acknowledged-14)
+advmod(acknowledged-14, even-15)
+prep(acknowledged-14, by-16)
+det(locals-18, the-17)
+pobj(by-16, locals-18)
+aux(Guling-24, to-19)
+cop(Guling-24, be-20)
+det(Guling-24, the-21)
+amod(Guling-24, best-22)
+nn(Guling-24, Babi-23)
+xcomp(acknowledged-14, Guling-24)
+prep(Guling-24, in-25)
+pobj(in-25, Bali-26)
+cc(Bali-26, and-27)
+advmod(Bali-26, indeed-28)
+
+
+(ROOT
+  (NP (DT the) (NN world) (. .)))
+
+
+det(world-2, the-1)
+root(ROOT-0, world-2)
+
+

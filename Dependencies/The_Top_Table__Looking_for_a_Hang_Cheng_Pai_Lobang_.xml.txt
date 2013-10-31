@@ -1,0 +1,296 @@
+(ROOT
+  (PP (IN With)
+    (NP
+      (NP (PDT all) (DT the) (JJ financial) (NN doom))
+      (CC and)
+      (NP
+        (NP (NN gloom))
+        (VP (VBG being)
+          (VP (VBN reported)
+            (PP (IN in)
+              (NP (DT the) (NN news) (NN daily))))))
+      (, ,))))
+
+
+root(ROOT-0, With-1)
+predet(doom-5, all-2)
+det(doom-5, the-3)
+amod(doom-5, financial-4)
+pobj(With-1, doom-5)
+cc(doom-5, and-6)
+conj(doom-5, gloom-7)
+auxpass(reported-9, being-8)
+partmod(gloom-7, reported-9)
+prep(reported-9, in-10)
+det(daily-13, the-11)
+nn(daily-13, news-12)
+pobj(in-10, daily-13)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT a) (NN lot))
+      (PP (IN of)
+        (NP (NNS people))))
+    (VP (VBP are)
+      (VP (VBG making)
+        (NP (DT the) (JJ extra) (NN effort))
+        (S
+          (VP (TO to)
+            (VP (VB look)
+              (PP (IN for)
+                (NP (JJ great) (NNS deals))))))))
+    (. .)))
+
+
+det(lot-2, a-1)
+nsubj(making-6, lot-2)
+prep(lot-2, of-3)
+pobj(of-3, people-4)
+aux(making-6, are-5)
+root(ROOT-0, making-6)
+det(effort-9, the-7)
+amod(effort-9, extra-8)
+dobj(making-6, effort-9)
+aux(look-11, to-10)
+xcomp(making-6, look-11)
+prep(look-11, for-12)
+amod(deals-14, great-13)
+pobj(for-12, deals-14)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB So) (RB much) (RB so))
+    (SBAR (IN that)
+      (S
+        (NP (PRP we))
+        (ADVP (RB even))
+        (VP (VBP have)
+          (NP
+            (NP (DT a) (NN thread))
+            (PP (IN in)
+              (NP
+                (NP (DT the) (NN forum))
+                (PP (IN for)
+                  (NP (NNS people)))))
+            (S
+              (VP (TO to)
+                (VP (VB share)
+                  (NP (NN information))
+                  (PP (IN on)
+                    (NP
+                      (NP (JJ great) (NNS deals))
+                      (VP (VBN called)
+                        (S (`` ``)
+                          (NP (NNP Hang) (NNP Cheng) (NNP Pai) (NNP Lobangs))
+                          ('' '')))))))
+              (, ,))))))))
+
+
+advmod(so-3, So-1)
+advmod(so-3, much-2)
+root(ROOT-0, so-3)
+mark(have-7, that-4)
+nsubj(have-7, we-5)
+advmod(have-7, even-6)
+dep(so-3, have-7)
+det(thread-9, a-8)
+dobj(have-7, thread-9)
+prep(thread-9, in-10)
+det(forum-12, the-11)
+pobj(in-10, forum-12)
+prep(forum-12, for-13)
+pobj(for-13, people-14)
+aux(share-16, to-15)
+infmod(thread-9, share-16)
+dobj(share-16, information-17)
+prep(share-16, on-18)
+amod(deals-20, great-19)
+pobj(on-18, deals-20)
+partmod(deals-20, called-21)
+nn(Lobangs-26, Hang-23)
+nn(Lobangs-26, Cheng-24)
+nn(Lobangs-26, Pai-25)
+dep(called-21, Lobangs-26)
+
+
+(ROOT
+  (NP
+    (NP (RB hence) (DT the) (NN title))
+    (PP (IN for)
+      (NP
+        (NP (NN today) (POS 's))
+        (NN post)))
+    (. .)))
+
+
+advmod(title-3, hence-1)
+det(title-3, the-2)
+root(ROOT-0, title-3)
+prep(title-3, for-4)
+poss(post-7, today-5)
+possessive(today-5, 's-6)
+pobj(for-4, post-7)
+
+
+(ROOT
+  (PP (IN For)
+    (NP
+      (NP (DT the) (NN benefit))
+      (PP (IN of)
+        (NP
+          (NP (DT those))
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP (VBP do) (RB n't)
+                (VP (VB understand)
+                  (NP (DT the) (JJ above) (NN phrase))))))))
+      (, ,))))
+
+
+root(ROOT-0, For-1)
+det(benefit-3, the-2)
+pobj(For-1, benefit-3)
+prep(benefit-3, of-4)
+pobj(of-4, those-5)
+nsubj(understand-9, who-6)
+aux(understand-9, do-7)
+neg(understand-9, n't-8)
+rcmod(those-5, understand-9)
+det(phrase-12, the-10)
+amod(phrase-12, above-11)
+dobj(understand-9, phrase-12)
+
+
+(ROOT
+  (S
+    (NP (WDT which))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (JJ typical) (NNP Singaporean) (NN fusion))
+        (PP (IN of)
+          (NP (NNP Hokkien)
+            (CC and)
+            (NNP Malay) (NNS words)))))
+    (, ,)))
+
+
+nsubj(fusion-6, which-1)
+cop(fusion-6, is-2)
+det(fusion-6, a-3)
+amod(fusion-6, typical-4)
+nn(fusion-6, Singaporean-5)
+root(ROOT-0, fusion-6)
+prep(fusion-6, of-7)
+nn(words-11, Hokkien-8)
+cc(Hokkien-8, and-9)
+conj(Hokkien-8, Malay-10)
+pobj(of-7, words-11)
+
+
+(ROOT
+  (S
+    (S (`` ``)
+      (NP (NNP Hang) (NNP Cheng) (NNP Pai))
+      ('' '')
+      (VP (VBZ means)
+        (NP (`` ``)
+          (NP (NNP Bad) (NNP Situation))
+          ('' '')
+          (PP (IN in)
+            (NP (NNP Hokkien))))))
+    (CC and)
+    (S
+      (NP (`` ``) (NNP Lobang) ('' '') (RB literally))
+      (VP (VBZ means)
+        (NP
+          (NP (DT a) (NN hole))
+          (PP (IN in)
+            (NP (NNP Malay))))))
+    (. .)))
+
+
+nn(Pai-4, Hang-2)
+nn(Pai-4, Cheng-3)
+nsubj(means-6, Pai-4)
+root(ROOT-0, means-6)
+nn(Situation-9, Bad-8)
+dobj(means-6, Situation-9)
+prep(Situation-9, in-11)
+pobj(in-11, Hokkien-12)
+cc(means-6, and-13)
+nsubj(means-18, Lobang-15)
+advmod(Lobang-15, literally-17)
+conj(means-6, means-18)
+det(hole-20, a-19)
+dobj(means-18, hole-20)
+prep(hole-20, in-21)
+pobj(in-21, Malay-22)
+
+
+(ROOT
+  (SBARQ (CC But)
+    (WHADVP (WRB how))
+    (SQ (MD can)
+      (NP (DT a) (`` ``) (NN hole) ('' ''))
+      (VP (VB help)
+        (NP (PRP you))
+        (UCP
+          (PP (IN in)
+            (NP (DT a) (JJ bad) (NN situation)))
+          (CC and)
+          (SBAR
+            (WHADVP (WRB how))
+            (S
+              (VP (VBD did)
+                (SBAR
+                  (S
+                    (NP (DT the) (NN word) (`` ``) (NN Lobang) ('' ''))
+                    (VP (VBP come)
+                      (S
+                        (VP (TO to)
+                          (VP (VB mean)
+                            (NP
+                              (NP (DT some) (NN sort))
+                              (PP (IN of)
+                                (NP (NN tip))))
+                            (PP (RP off)
+                              (PP (IN for)
+                                (NP (DT a) (JJ great) (NN deal))))))))))))))))
+    (. ?)))
+
+
+cc(help-8, But-1)
+advmod(help-8, how-2)
+aux(help-8, can-3)
+det(hole-6, a-4)
+nsubj(help-8, hole-6)
+root(ROOT-0, help-8)
+dobj(help-8, you-9)
+dep(help-8, in-10)
+det(situation-13, a-11)
+amod(situation-13, bad-12)
+pobj(in-10, situation-13)
+cc(in-10, and-14)
+advmod(did-16, how-15)
+conj(in-10, did-16)
+det(Lobang-20, the-17)
+nn(Lobang-20, word-18)
+nsubj(come-22, Lobang-20)
+ccomp(did-16, come-22)
+aux(mean-24, to-23)
+xcomp(come-22, mean-24)
+det(sort-26, some-25)
+dobj(mean-24, sort-26)
+prep(sort-26, of-27)
+pobj(of-27, tip-28)
+prep(mean-24, off-29)
+prep(off-29, for-30)
+det(deal-33, a-31)
+amod(deal-33, great-32)
+pobj(for-30, deal-33)
+
+

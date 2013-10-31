@@ -1,0 +1,281 @@
+(ROOT
+  (SINV
+    (ADVP (RB Just))
+    (VP (VBD came)
+      (PP (IN across)
+        (NP
+          (NP (DT this) (NN study))
+          (VP (VBN conducted)
+            (PP (IN by)
+              (NP (NNP Electrolux)))
+            (PP (IN on)
+              (NP (DT the) (NN eating)))))))
+    (NP
+      (NP (NNS patterns))
+      (PP (IN of)
+        (NP (NNPS Asians))))
+    (. .)))
+
+
+advmod(came-2, Just-1)
+root(ROOT-0, came-2)
+prep(came-2, across-3)
+det(study-5, this-4)
+pobj(across-3, study-5)
+partmod(study-5, conducted-6)
+prep(conducted-6, by-7)
+pobj(by-7, Electrolux-8)
+prep(conducted-6, on-9)
+det(eating-11, the-10)
+pobj(on-9, eating-11)
+nsubj(came-2, patterns-12)
+prep(patterns-12, of-13)
+pobj(of-13, Asians-14)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD stated)
+      (NP (DT that)))
+    (: :)))
+
+
+nsubj(stated-2, It-1)
+root(ROOT-0, stated-2)
+dobj(stated-2, that-3)
+
+
+(ROOT
+  (S ('' '')
+    (NP (NNP Meal) (NNS decisions))
+    (ADVP (RB in))
+    (PRN
+      (NP (NNP Indonesia)
+        (CC and)
+        (NNP Singapore))
+      (VP (VBP are)))
+    (NP (RB also))
+    (ADVP (RB largely))
+    (VP (VBD determined)
+      (PP (IN by)
+        (NP
+          (NP (DT the) (NN mother))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (NN household))
+              (: --)
+              (ADJP (CD 24) (NN %)))))))))
+
+
+nn(decisions-3, Meal-2)
+nsubj(determined-11, decisions-3)
+advmod(determined-11, in-4)
+nsubj(are-8, Indonesia-5)
+cc(Indonesia-5, and-6)
+conj(Indonesia-5, Singapore-7)
+parataxis(determined-11, are-8)
+nsubj(determined-11, also-9)
+advmod(determined-11, largely-10)
+root(ROOT-0, determined-11)
+prep(determined-11, by-12)
+det(mother-14, the-13)
+pobj(by-12, mother-14)
+prep(mother-14, of-15)
+det(household-17, the-16)
+pobj(of-15, household-17)
+number(%-20, 24-19)
+amod(household-17, %-20)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (IN of) (JJ Indonesian) (NNS respondents))
+      (PRN (: --)
+        (NP
+          (NP
+            (QP (JJR more) (IN than)
+              (NP (DT any) (JJ other) (NN group))))
+          (PP (IN in)
+            (NP (DT the) (NN region))))
+        (: --)))
+    (VP (VBD said)
+      (SBAR (IN that)
+        (S
+          (NP (DT the) (NN mother))
+          (VP (VBZ is)
+            (NP (DT the) (JJ main) (NN meal) (NN decision-maker))))))
+    (, ,)))
+
+
+amod(respondents-3, of-1)
+amod(respondents-3, Indonesian-2)
+nsubj(said-14, respondents-3)
+quantmod(than-6, more-5)
+dep(respondents-3, than-6)
+det(group-9, any-7)
+amod(group-9, other-8)
+dep(than-6, group-9)
+prep(than-6, in-10)
+det(region-12, the-11)
+pobj(in-10, region-12)
+root(ROOT-0, said-14)
+mark(decision-maker-22, that-15)
+det(mother-17, the-16)
+nsubj(decision-maker-22, mother-17)
+cop(decision-maker-22, is-18)
+det(decision-maker-22, the-19)
+amod(decision-maker-22, main-20)
+nn(decision-maker-22, meal-21)
+ccomp(said-14, decision-maker-22)
+
+
+(ROOT
+  (PP (IN while)
+    (NP (CD 20) (NN %))))
+
+
+root(ROOT-0, while-1)
+num(%-3, 20-2)
+pobj(while-1, %-3)
+
+
+(ROOT
+  (S
+    (X (IN of))
+    (NP
+      (NP (NNP Singaporeans))
+      (PRN (: --)
+        (NP
+          (NP (DT the) (JJ second) (JJS largest) (NN group))
+          (PP (IN in)
+            (NP (NNP Asia)))
+          (ADJP (JJ other)
+            (PP (IN than)
+              (NP (NNP Indonesians)))))
+        (: --)))
+    (VP (VBP agree))
+    (. .)))
+
+
+dep(agree-14, of-1)
+nsubj(agree-14, Singaporeans-2)
+det(group-7, the-4)
+amod(group-7, second-5)
+amod(group-7, largest-6)
+dep(Singaporeans-2, group-7)
+prep(group-7, in-8)
+pobj(in-8, Asia-9)
+amod(group-7, other-10)
+prep(other-10, than-11)
+pobj(than-11, Indonesians-12)
+root(ROOT-0, agree-14)
+
+
+(ROOT
+  (S (`` ``)
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP (VBP are))))
+    (NP (DT the) (NN reader))
+    (ADVP (IN of) (DT this))
+    (VP (VBD blog))
+    (, ,)))
+
+
+mark(are-4, If-2)
+nsubj(are-4, you-3)
+advcl(blog-9, are-4)
+det(reader-6, the-5)
+nsubj(blog-9, reader-6)
+advmod(blog-9, of-7)
+dep(of-7, this-8)
+root(ROOT-0, blog-9)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (VBZ is)
+      (ADJP
+        (ADJP (RBS most) (JJ likely))
+        (SBAR (IN that)
+          (S
+            (NP (PRP you))
+            (VP (MD will)
+              (VP (VB be)
+                (NP
+                  (NP (DT the) (NN one))
+                  (SBAR
+                    (WHNP (WP who))
+                    (S
+                      (VP (VBZ decides)
+                        (PP (IN for)
+                          (NP (DT the) (NN family)))
+                        (SBAR
+                          (WHADVP (WRB where))
+                          (S
+                            (VP (TO to)
+                              (VP (VB eat)
+                                (ADVP (JJ next))))))))))))))))
+    (. .)))
+
+
+nsubj(likely-4, it-1)
+cop(likely-4, is-2)
+advmod(likely-4, most-3)
+root(ROOT-0, likely-4)
+mark(one-10, that-5)
+nsubj(one-10, you-6)
+aux(one-10, will-7)
+cop(one-10, be-8)
+det(one-10, the-9)
+ccomp(likely-4, one-10)
+nsubj(decides-12, who-11)
+rcmod(one-10, decides-12)
+prep(decides-12, for-13)
+det(family-15, the-14)
+pobj(for-13, family-15)
+advmod(eat-18, where-16)
+aux(eat-18, to-17)
+xcomp(decides-12, eat-18)
+advmod(eat-18, next-19)
+
+
+(ROOT
+  (FRAG (RB So) (JJ ,)))
+
+
+root(ROOT-0, So-1)
+
+
+(ROOT
+  (SBARQ
+    (WHNP (WP who))
+    (SQ
+      (VP (VBZ makes)
+        (NP (DT the) (NN decision))
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (VP (TO to)
+              (VP (VB eat)
+                (PP (IN in)
+                  (NP (PRP$ your) (NN family)))))))))
+    (. ?)))
+
+
+nsubj(makes-2, who-1)
+root(ROOT-0, makes-2)
+det(decision-4, the-3)
+dobj(makes-2, decision-4)
+advmod(eat-7, where-5)
+aux(eat-7, to-6)
+xcomp(makes-2, eat-7)
+prep(eat-7, in-8)
+poss(family-10, your-9)
+pobj(in-8, family-10)
+
+

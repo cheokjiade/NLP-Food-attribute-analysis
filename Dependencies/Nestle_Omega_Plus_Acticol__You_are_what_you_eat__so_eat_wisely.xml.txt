@@ -1,0 +1,313 @@
+(ROOT
+  (S
+    (NP
+      (NP (CD One))
+      (PP (IN of)
+        (NP
+          (NP (DT the) (RBS most) (JJ common) (NNS questions))
+          (SBAR (IN that)
+            (S
+              (NP (PRP I))
+              (VP (VBP am)
+                (VP (VBN asked))))))))
+    (VP (VBZ is)
+      (SBAR
+        (WHADVP (WRB how))
+        (S
+          (NP (DT a) (NNP Doctor))
+          (VP (MD can)
+            (VP (VB be)
+              (NP
+                (NP (DT a) (NN foodie))
+                (PP (IN at)
+                  (NP (DT the) (JJ same) (NN time)))))))))
+    (. .)))
+
+
+nsubj(is-11, One-1)
+prep(One-1, of-2)
+det(questions-6, the-3)
+advmod(questions-6, most-4)
+amod(questions-6, common-5)
+pobj(of-2, questions-6)
+mark(asked-10, that-7)
+nsubjpass(asked-10, I-8)
+auxpass(asked-10, am-9)
+dep(questions-6, asked-10)
+root(ROOT-0, is-11)
+advmod(foodie-18, how-12)
+det(Doctor-14, a-13)
+nsubj(foodie-18, Doctor-14)
+aux(foodie-18, can-15)
+cop(foodie-18, be-16)
+det(foodie-18, a-17)
+ccomp(is-11, foodie-18)
+prep(foodie-18, at-19)
+det(time-22, the-20)
+amod(time-22, same-21)
+pobj(at-19, time-22)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Well))
+    (, ,)))
+
+
+root(ROOT-0, Well-1)
+
+
+(ROOT
+  (UCP
+    (PP (RB just) (IN in)
+      (NP
+        (NP (NN case))
+        (SBAR
+          (S
+            (NP (PRP you))
+            (VP (VBP believe)
+              (SBAR (IN that)
+                (S
+                  (NP (DT all) (NNS Doctors))
+                  (VP (VBP are)
+                    (NP (JJ super) (NN health) (NNS conscious))))))))))
+    (CC and)
+    (S
+      (VP (VB count)
+        (NP (DT every) (NN calorie))
+        (SBAR (IN that)
+          (S
+            (NP (PRP they))
+            (VP (VBP eat))
+            (, ,)))))))
+
+
+advmod(in-2, just-1)
+root(ROOT-0, in-2)
+pobj(in-2, case-3)
+nsubj(believe-5, you-4)
+rcmod(case-3, believe-5)
+mark(conscious-12, that-6)
+det(Doctors-8, all-7)
+nsubj(conscious-12, Doctors-8)
+cop(conscious-12, are-9)
+amod(conscious-12, super-10)
+nn(conscious-12, health-11)
+ccomp(believe-5, conscious-12)
+cc(in-2, and-13)
+conj(in-2, count-14)
+det(calorie-16, every-15)
+dobj(count-14, calorie-16)
+mark(eat-19, that-17)
+nsubj(eat-19, they-18)
+ccomp(count-14, eat-19)
+
+
+(ROOT
+  (S
+    (VP (VB let)
+      (S
+        (NP (PRP me))
+        (VP (VB share)
+          (PP (IN with)
+            (NP
+              (NP (PRP you))
+              (NP (DT a) (NN secret)))))))
+    (. .)))
+
+
+root(ROOT-0, let-1)
+nsubj(share-3, me-2)
+ccomp(let-1, share-3)
+prep(share-3, with-4)
+pobj(with-4, you-5)
+det(secret-7, a-6)
+dep(you-5, secret-7)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP are) (RB not))
+    (. .)))
+
+
+nsubj(are-2, We-1)
+root(ROOT-0, are-2)
+neg(are-2, not-3)
+
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (NN fact)))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+pobj(In-1, fact-2)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (ADVP (RB just))
+      (VP (VBD came)
+        (ADVP (RB back))
+        (PP (IN from)
+          (NP (DT an) (JJ overseas) (NN Conference)))))
+    (CC and)
+    (S
+      (NP (PRP I))
+      (VP (MD can)
+        (VP (VB tell)
+          (NP (PRP you))
+          (SBAR (IN that)
+            (S
+              (NP (PRP we))
+              (ADVP (RB Doctors))
+              (VP (VBP love)
+                (NP (PRP$ our) (NN food))
+                (PP
+                  (ADVP (RB just))
+                  (IN like)
+                  (NP (NN everyone) (RB else)))))))))
+    (. .)))
+
+
+nsubj(came-3, I-1)
+advmod(came-3, just-2)
+root(ROOT-0, came-3)
+advmod(came-3, back-4)
+prep(came-3, from-5)
+det(Conference-8, an-6)
+amod(Conference-8, overseas-7)
+pobj(from-5, Conference-8)
+cc(came-3, and-9)
+nsubj(tell-12, I-10)
+aux(tell-12, can-11)
+conj(came-3, tell-12)
+dobj(tell-12, you-13)
+mark(love-17, that-14)
+nsubj(love-17, we-15)
+advmod(love-17, Doctors-16)
+ccomp(tell-12, love-17)
+poss(food-19, our-18)
+dobj(love-17, food-19)
+advmod(like-21, just-20)
+prep(love-17, like-21)
+pobj(like-21, everyone-22)
+advmod(everyone-22, else-23)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB However))
+    (ADVP (RB ,))))
+
+
+root(ROOT-0, However-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD would)
+      (VP (VB say)
+        (NP (DT that))
+        (PP (VBN compared)
+          (PP (TO to)
+            (NP (DT the) (JJ general) (NN public))))))
+    (, ,)))
+
+
+nsubj(say-3, I-1)
+aux(say-3, would-2)
+root(ROOT-0, say-3)
+dobj(say-3, that-4)
+prep(say-3, compared-5)
+pcomp(compared-5, to-6)
+det(public-9, the-7)
+amod(public-9, general-8)
+pobj(to-6, public-9)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT a) (JJR greater) (NN proportion))
+      (PP (IN of)
+        (NP (NNS Doctors))))
+    (VP (VBP are)
+      (ADJP (RBR more) (JJ conscious)
+        (PP (IN about)
+          (NP
+            (NP (DT the)
+              (ADJP (JJ nutritional))
+              (NN value))
+            (PP (IN of)
+              (SBAR
+                (WHNP (WP what))
+                (S
+                  (NP (PRP we))
+                  (VP (VBP eat)))))))))
+    (. .)))
+
+
+det(proportion-3, a-1)
+amod(proportion-3, greater-2)
+nsubj(conscious-8, proportion-3)
+prep(proportion-3, of-4)
+pobj(of-4, Doctors-5)
+cop(conscious-8, are-6)
+advmod(conscious-8, more-7)
+root(ROOT-0, conscious-8)
+prep(conscious-8, about-9)
+det(value-12, the-10)
+amod(value-12, nutritional-11)
+pobj(about-9, value-12)
+prep(value-12, of-13)
+dobj(eat-16, what-14)
+nsubj(eat-16, we-15)
+pcomp(of-13, eat-16)
+
+
+(ROOT
+  (S
+    (SBAR (IN Whether)
+      (S
+        (NP (DT that))
+        (VP (VBZ prevents)
+          (NP (PRP us))
+          (PP (IN from)
+            (S
+              (VP (VBG eating)
+                (NP
+                  (NP (DT a) (NN piece))
+                  (PP (IN of)
+                    (NP (JJ crunchy) (NN pork) (NN lard))))))))))
+    (VP (VBZ is)
+      (NP (DT another) (NN matter))
+      (ADVP (RB altogether)))
+    (. .)))
+
+
+mark(prevents-3, Whether-1)
+nsubj(prevents-3, that-2)
+csubj(matter-15, prevents-3)
+dobj(prevents-3, us-4)
+prep(prevents-3, from-5)
+pcomp(from-5, eating-6)
+det(piece-8, a-7)
+dobj(eating-6, piece-8)
+prep(piece-8, of-9)
+amod(lard-12, crunchy-10)
+nn(lard-12, pork-11)
+pobj(of-9, lard-12)
+cop(matter-15, is-13)
+det(matter-15, another-14)
+root(ROOT-0, matter-15)
+advmod(matter-15, altogether-16)
+
+

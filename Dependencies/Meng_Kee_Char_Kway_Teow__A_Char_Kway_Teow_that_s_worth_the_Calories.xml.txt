@@ -1,0 +1,272 @@
+(ROOT
+  (S
+    (NP (NNP Char) (NNP Kway) (NNP Teow))
+    (VP (VBZ is)
+      (NP
+        (NP (RB almost) (DT a) (JJ bad) (NN word))
+        (PP (IN in)
+          (NP (NNP Singapore)))))
+    (. .)))
+
+
+nn(Teow-3, Char-1)
+nn(Teow-3, Kway-2)
+nsubj(word-8, Teow-3)
+cop(word-8, is-4)
+advmod(word-8, almost-5)
+det(word-8, a-6)
+amod(word-8, bad-7)
+root(ROOT-0, word-8)
+prep(word-8, in-9)
+pobj(in-9, Singapore-10)
+
+
+(ROOT
+  (S
+    (VP (VB Ask))))
+
+
+root(ROOT-0, Ask-1)
+
+
+(ROOT
+  (S
+    (NP (NN anyone)
+      (S
+        (VP (TO to)
+          (VP (VB name)
+            (S
+              (NP (PRP you))
+              (NP
+                (NP (DT the) (JJS most) (JJ unhealthy) (NN hawker) (NN food))
+                (CC and)
+                (NP (NNP Char) (NNP Kway) (NNP Teow))))))))
+    (VP (MD will)
+      (ADVP (RB probably))
+      (VP (VB be)
+        (NP
+          (NP (CD one))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (NNS dishes))
+              (VP (VBN mentioned)))))))
+    (. .)))
+
+
+nsubj(one-17, anyone-1)
+aux(name-3, to-2)
+infmod(anyone-1, name-3)
+nsubj(food-9, you-4)
+det(food-9, the-5)
+amod(food-9, most-6)
+amod(food-9, unhealthy-7)
+nn(food-9, hawker-8)
+xcomp(name-3, food-9)
+cc(food-9, and-10)
+nn(Teow-13, Char-11)
+nn(Teow-13, Kway-12)
+conj(food-9, Teow-13)
+aux(one-17, will-14)
+advmod(one-17, probably-15)
+cop(one-17, be-16)
+root(ROOT-0, one-17)
+prep(one-17, of-18)
+det(dishes-20, the-19)
+pobj(of-18, dishes-20)
+partmod(dishes-20, mentioned-21)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (ADJP (JJ afterall)))
+    (, ,)))
+
+
+nsubj(afterall-3, It-1)
+cop(afterall-3, is-2)
+root(ROOT-0, afterall-3)
+
+
+(ROOT
+  (S
+    (NP (NN nothing))
+    (VP
+      (VP
+        (NP
+          (QP (JJR more) (IN than) (CD starch) (CD fried)))
+        (PP (IN in)
+          (NP (NN lard))))
+      (CC and)
+      (VP (VBD flavored)
+        (PP (IN with)
+          (NP
+            (NP (NN fish) (NN sauce))
+            (CC and)
+            (NP (JJ sweet) (JJ black) (NN sauce))))))
+    (. .)))
+
+
+nsubj(fried-5, nothing-1)
+mwe(than-3, more-2)
+quantmod(fried-5, than-3)
+number(fried-5, starch-4)
+root(ROOT-0, fried-5)
+prep(fried-5, in-6)
+pobj(in-6, lard-7)
+cc(fried-5, and-8)
+conj(fried-5, flavored-9)
+prep(flavored-9, with-10)
+nn(sauce-12, fish-11)
+pobj(with-10, sauce-12)
+cc(sauce-12, and-13)
+amod(sauce-16, sweet-14)
+amod(sauce-16, black-15)
+conj(sauce-12, sauce-16)
+
+
+(ROOT
+  (S (CC And)
+    (ADVP (RB then))
+    (NP (EX there))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (NN fear))
+        (PP (IN of)
+          (S
+            (VP (VBG contracting)
+              (NP (NNP Hepatitis) (NNP A))
+              (PP (IN from)
+                (S
+                  (VP (VBG eating)
+                    (NP
+                      (NP
+                        (ADJP (RB partially) (JJ cooked))
+                        (NNS cockles))
+                      (SBAR
+                        (WHNP (WDT which))
+                        (S
+                          (ADVP (RB really))
+                          (VP (VBZ puts)
+                            (NP
+                              (NP (DT another) (NN nail))
+                              (PP (IN in)
+                                (NP (DT the) (NN coffin))))))))))))))))
+    (. .)))
+
+
+cc(is-4, And-1)
+advmod(is-4, then-2)
+expl(is-4, there-3)
+root(ROOT-0, is-4)
+det(fear-6, the-5)
+nsubj(is-4, fear-6)
+prep(fear-6, of-7)
+pcomp(of-7, contracting-8)
+nn(A-10, Hepatitis-9)
+dobj(contracting-8, A-10)
+prep(contracting-8, from-11)
+pcomp(from-11, eating-12)
+advmod(cooked-14, partially-13)
+amod(cockles-15, cooked-14)
+dobj(eating-12, cockles-15)
+nsubj(puts-18, which-16)
+advmod(puts-18, really-17)
+rcmod(cockles-15, puts-18)
+det(nail-20, another-19)
+dobj(puts-18, nail-20)
+prep(nail-20, in-21)
+det(coffin-23, the-22)
+pobj(in-21, coffin-23)
+
+
+(ROOT
+  (S
+    (NP (RB Not) (JJ only))
+    (VP (VBZ is)
+      (NP (PRP it) (JJ unhealthy)))
+    (, ,)))
+
+
+neg(only-2, Not-1)
+nsubj(it-4, only-2)
+cop(it-4, is-3)
+root(ROOT-0, it-4)
+amod(it-4, unhealthy-5)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (MD can)
+      (ADVP (RB potentially))
+      (VP (VB get)
+        (NP (NNP Hep) (NNP A))
+        (PP (IN from)
+          (S
+            (VP (VBG eating)
+              (NP (PRP it))
+              (ADVP (RB as) (RB well)))))))
+    (. !)))
+
+
+nsubj(get-4, you-1)
+aux(get-4, can-2)
+advmod(get-4, potentially-3)
+root(ROOT-0, get-4)
+nn(A-6, Hep-5)
+dobj(get-4, A-6)
+prep(get-4, from-7)
+pcomp(from-7, eating-8)
+dobj(eating-8, it-9)
+advmod(well-11, as-10)
+advmod(eating-8, well-11)
+
+
+(ROOT
+  (INTJ (UH -LRB-)))
+
+
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD should)
+      (VP (VB get)
+        (ADJP (JJ vaccinated)
+          (PP (IN against)
+            (NP (NNP Hep) (NNP A))))
+        (SBAR (IN if)
+          (S
+            (NP (PRP you))
+            (ADVP (RB really))
+            (VP (VBP love)
+              (SBAR
+                (S
+                  (NP (PRP$ your) (NN cockles) (-RRB- -RRB-) (NN Link))
+                  (VP (VBD provided)
+                    (PP (IN by)
+                      (NP (NNP Sen)))))))))))))
+
+
+nsubj(vaccinated-4, You-1)
+aux(vaccinated-4, should-2)
+dep(vaccinated-4, get-3)
+root(ROOT-0, vaccinated-4)
+prep(vaccinated-4, against-5)
+nn(A-7, Hep-6)
+pobj(against-5, A-7)
+mark(love-11, if-8)
+nsubj(love-11, you-9)
+advmod(love-11, really-10)
+advcl(vaccinated-4, love-11)
+poss(Link-15, your-12)
+nn(Link-15, cockles-13)
+nsubj(provided-16, Link-15)
+ccomp(love-11, provided-16)
+prep(provided-16, by-17)
+pobj(by-17, Sen-18)
+
+

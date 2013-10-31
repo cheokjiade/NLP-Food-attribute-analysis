@@ -1,0 +1,446 @@
+(ROOT
+  (S
+    (NP (PRP$ My) (NN grandma))
+    (VP (VBD used)
+      (S
+        (VP (TO to)
+          (VP (VB say)
+            (SBAR (IN that)
+              (S
+                (NP (DT the) (NN way)
+                  (S
+                    (VP (TO to)
+                      (VP (VB pick)
+                        (PRT (RP up))
+                        (NP (NNS girls))))))
+                (VP (VBD was)
+                  (S
+                    (VP (TO to)
+                      (VP
+                        (VP
+                          (ADVP (RB accidentally))
+                          (VB bump)
+                          (NP (PRP them))
+                          (PP (IN onto)
+                            (NP (DT the) (NN ground))))
+                        (CC and)
+                        (ADVP (RB then))
+                        (VP (VB help)
+                          (NP (PRP them))
+                          (PRT (RP up)))))))))))))
+    (. !)))
+
+
+poss(grandma-2, My-1)
+nsubj(used-3, grandma-2)
+root(ROOT-0, used-3)
+aux(say-5, to-4)
+xcomp(used-3, say-5)
+mark(was-13, that-6)
+det(way-8, the-7)
+nsubj(was-13, way-8)
+aux(pick-10, to-9)
+infmod(way-8, pick-10)
+prt(pick-10, up-11)
+dobj(pick-10, girls-12)
+ccomp(say-5, was-13)
+aux(bump-16, to-14)
+advmod(bump-16, accidentally-15)
+xcomp(was-13, bump-16)
+dobj(bump-16, them-17)
+prep(bump-16, onto-18)
+det(ground-20, the-19)
+pobj(onto-18, ground-20)
+cc(bump-16, and-21)
+advmod(bump-16, then-22)
+conj(bump-16, help-23)
+dobj(help-23, them-24)
+prt(help-23, up-25)
+
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (ADVP (RB also))
+    (VP (VBD used)
+      (S
+        (VP (TO to)
+          (VP (VB say)
+            (SBAR (IN that)
+              (S
+                (NP (DT the) (NN way)
+                  (S
+                    (VP (TO to)
+                      (VP (VB see)
+                        (SBAR (IN if)
+                          (S
+                            (NP (DT a) (NN person))
+                            (VP (VBZ is)
+                              (NP
+                                (NP (DT the) (JJ real) (NN owner))
+                                (PP (IN of)
+                                  (NP (DT a) (JJ certain) (NN item)))))))))))
+                (VP (VBZ is)
+                  (S
+                    (VP (TO to)
+                      (VP (VB see)
+                        (SBAR (IN if)
+                          (S
+                            (NP (PRP it))
+                            (VP (VBZ sticks)
+                              (PP (TO to)
+                                (NP (PRP$ their) (NNS noses))))))))))))))))
+    (. !)))
+
+
+nsubj(used-3, She-1)
+advmod(used-3, also-2)
+root(ROOT-0, used-3)
+aux(say-5, to-4)
+xcomp(used-3, say-5)
+mark(is-22, that-6)
+det(way-8, the-7)
+nsubj(is-22, way-8)
+aux(see-10, to-9)
+infmod(way-8, see-10)
+mark(owner-17, if-11)
+det(person-13, a-12)
+nsubj(owner-17, person-13)
+cop(owner-17, is-14)
+det(owner-17, the-15)
+amod(owner-17, real-16)
+advcl(see-10, owner-17)
+prep(owner-17, of-18)
+det(item-21, a-19)
+amod(item-21, certain-20)
+pobj(of-18, item-21)
+ccomp(say-5, is-22)
+aux(see-24, to-23)
+xcomp(is-22, see-24)
+mark(sticks-27, if-25)
+nsubj(sticks-27, it-26)
+advcl(see-24, sticks-27)
+prep(sticks-27, to-28)
+poss(noses-30, their-29)
+pobj(to-28, noses-30)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP guess)
+      (SBAR (IN that)
+        (S
+          (VP (VBD was)
+            (NP
+              (NP (PRP$ her) (NN way))
+              (PP (IN of)
+                (S
+                  (VP (VB tell)
+                    (NP (PRP me))
+                    (SBAR (IN that)
+                      (S
+                        (NP (NN nothing))
+                        (VP (VBD belonged)
+                          (PP (TO to)
+                            (NP (PRP me))))))))))))))
+    (. !)))
+
+
+nsubj(guess-2, I-1)
+root(ROOT-0, guess-2)
+mark(way-6, that-3)
+cop(way-6, was-4)
+poss(way-6, her-5)
+ccomp(guess-2, way-6)
+prep(way-6, of-7)
+pcomp(of-7, tell-8)
+dobj(tell-8, me-9)
+mark(belonged-12, that-10)
+nsubj(belonged-12, nothing-11)
+ccomp(tell-8, belonged-12)
+prep(belonged-12, to-13)
+pobj(to-13, me-14)
+
+
+(ROOT
+  (SQ (VBP Do)
+    (NP (PRP you))
+    (VP (VB have)
+      (NP (DT a) (NN photo))
+      (PP (IN with)
+        (NP (DT a) (NN grandmother) (NN story)))
+      (S
+        (VP (TO to)
+          (VP (VB tell)))))
+    (. ?)))
+
+
+aux(have-3, Do-1)
+nsubj(have-3, you-2)
+root(ROOT-0, have-3)
+det(photo-5, a-4)
+dobj(have-3, photo-5)
+prep(have-3, with-6)
+det(story-9, a-7)
+nn(story-9, grandmother-8)
+pobj(with-6, story-9)
+aux(tell-11, to-10)
+xcomp(have-3, tell-11)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ sure)
+        (SBAR
+          (S
+            (NP (PRP you))
+            (VP (VBP do))))))
+    (. !)))
+
+
+nsubj(sure-3, I-1)
+cop(sure-3, am-2)
+root(ROOT-0, sure-3)
+nsubj(do-5, you-4)
+ccomp(sure-3, do-5)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Better)
+      (ADVP (RB still)))
+    (, ,)))
+
+
+root(ROOT-0, Better-1)
+pcomp(Better-1, still-2)
+
+
+(ROOT
+  (SBAR (IN if)
+    (S
+      (NP (NN grandma)
+        (CC or)
+        (NN grandpa))
+      (VP (VBP are)
+        (ADVP (RB still))
+        (ADVP (RB around)))
+      (, ,))))
+
+
+mark(are-5, if-1)
+nsubj(are-5, grandma-2)
+cc(grandma-2, or-3)
+conj(grandma-2, grandpa-4)
+root(ROOT-0, are-5)
+advmod(are-5, still-6)
+advmod(are-5, around-7)
+
+
+(ROOT
+  (S
+    (VP (VB bring)
+      (NP (PRP them))
+      (ADVP (RB down)
+        (PP (TO to)
+          (NP (NNP Chye) (NNP Seng) (NNP Huat) (NNP Hardware) (NNP Coffee) (NNP House))))
+      (PP (IN for)
+        (NP
+          (NP (DT a) (JJ free) (NN cup))
+          (PP (IN of)
+            (NP
+              (NP (NN coffee))
+              (PP (IN on)
+                (NP (CD 10)))
+              (NP (NNP Nov) (CD 2012)))))))
+    (. !)))
+
+
+root(ROOT-0, bring-1)
+dobj(bring-1, them-2)
+advmod(bring-1, down-3)
+prep(down-3, to-4)
+nn(House-10, Chye-5)
+nn(House-10, Seng-6)
+nn(House-10, Huat-7)
+nn(House-10, Hardware-8)
+nn(House-10, Coffee-9)
+pobj(to-4, House-10)
+prep(bring-1, for-11)
+det(cup-14, a-12)
+amod(cup-14, free-13)
+pobj(for-11, cup-14)
+prep(cup-14, of-15)
+pobj(of-15, coffee-16)
+prep(coffee-16, on-17)
+pobj(on-17, 10-18)
+dep(coffee-16, Nov-19)
+num(Nov-19, 2012-20)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP want)
+      (S
+        (VP (TO to)
+          (VP (VB hear)))))
+    (, ,)))
+
+
+nsubj(want-2, We-1)
+root(ROOT-0, want-2)
+aux(hear-4, to-3)
+xcomp(want-2, hear-4)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NN record))
+      (CC and)
+      (NP (RB perhaps) (RB even) (JJ video)))
+    (VP (VBP tape)
+      (NP (PRP$ their) (NNS stories))
+      (PP (IN for)
+        (NP (DT the) (NNP Singapore) (NNP Memory) (NNP Project))))
+    (. !)))
+
+
+nsubj(tape-6, record-1)
+cc(record-1, and-2)
+advmod(video-5, perhaps-3)
+advmod(video-5, even-4)
+conj(record-1, video-5)
+root(ROOT-0, tape-6)
+poss(stories-8, their-7)
+dobj(tape-6, stories-8)
+prep(tape-6, for-9)
+det(Project-13, the-10)
+nn(Project-13, Singapore-11)
+nn(Project-13, Memory-12)
+pobj(for-9, Project-13)
+
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBZ 's)
+      (VP (VBG going)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (UCP
+                (NP
+                  (NP (NNS lots))
+                  (PP (IN of)
+                    (NP (NNS giveaways))))
+                (CC and)
+                (SBAR (IN if)
+                  (S
+                    (NP (PRP$ your) (NN grandma))
+                    (VP (VBZ has)
+                      (NP
+                        (NP (DT some) (NN food) (NNS memories))
+                        (PP (IN of)
+                          (NP
+                            (NP (NNP Bak) (NNP Kut) (NNP Teh))
+                            (CC or)
+                            (NP (NNP Hock) (NNP Lam) (NNP Street))))))))))))))
+    (, ,)))
+
+
+expl(going-3, There-1)
+aux(going-3, 's-2)
+root(ROOT-0, going-3)
+aux(lots-6, to-4)
+cop(lots-6, be-5)
+xcomp(going-3, lots-6)
+prep(lots-6, of-7)
+pobj(of-7, giveaways-8)
+cc(lots-6, and-9)
+mark(has-13, if-10)
+poss(grandma-12, your-11)
+nsubj(has-13, grandma-12)
+conj(lots-6, has-13)
+det(memories-16, some-14)
+nn(memories-16, food-15)
+dobj(has-13, memories-16)
+prep(memories-16, of-17)
+nn(Teh-20, Bak-18)
+nn(Teh-20, Kut-19)
+pobj(of-17, Teh-20)
+cc(Teh-20, or-21)
+nn(Street-24, Hock-22)
+nn(Street-24, Lam-23)
+conj(Teh-20, Street-24)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP want)
+      (S
+        (VP (TO to)
+          (VP (VB chat)
+            (PP (IN with)
+              (NP (PRP her)))))))
+    (. !)))
+
+
+nsubj(want-2, I-1)
+root(ROOT-0, want-2)
+aux(chat-4, to-3)
+xcomp(want-2, chat-4)
+prep(chat-4, with-5)
+pobj(with-5, her-6)
+
+
+(ROOT
+  (FRAG (RB So) (JJ ,)))
+
+
+root(ROOT-0, So-1)
+
+
+(ROOT
+  (NP
+    (NP (PRP you))
+    (VP (VBG planning)
+      (S
+        (VP (TO to)
+          (VP (VB come)))))
+    (. ?)))
+
+
+root(ROOT-0, you-1)
+partmod(you-1, planning-2)
+aux(come-4, to-3)
+xcomp(planning-2, come-4)
+
+
+(ROOT
+  (NP (CD Register) (RB here) (. .)))
+
+
+root(ROOT-0, Register-1)
+advmod(Register-1, here-2)
+
+
+(ROOT
+  (S
+    (VP (VB See)
+      (S
+        (NP (PRP you))
+        (NP (EX there))))
+    (. !)))
+
+
+root(ROOT-0, See-1)
+nsubj(there-3, you-2)
+xcomp(See-1, there-3)
+
+

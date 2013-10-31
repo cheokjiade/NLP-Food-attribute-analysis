@@ -1,0 +1,208 @@
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (JJ popular))
+        (VP (VBG saying)
+          (PP (IN amongst)
+            (NP (DT the) (NNPS Hokkiens)))
+          (SBAR (IN that)
+            (S
+              (NP (NNP Teochews))
+              (VP (VBP are)
+                (ADVP (RB very)
+                  (NP
+                    (NP (`` ``) (NNP Hao) (NNP Lian) ('' ''))
+                    (PRN (-LRB- -LRB-)
+                      (NP (NNP Proud))
+                      (-RRB- -RRB-))))))))))
+    (. .)))
+
+
+expl(is-2, There-1)
+root(ROOT-0, is-2)
+det(popular-4, a-3)
+nsubj(is-2, popular-4)
+partmod(popular-4, saying-5)
+prep(saying-5, amongst-6)
+det(Hokkiens-8, the-7)
+pobj(amongst-6, Hokkiens-8)
+mark(are-11, that-9)
+nsubj(are-11, Teochews-10)
+ccomp(saying-5, are-11)
+advmod(are-11, very-12)
+nn(Lian-15, Hao-14)
+pobj(very-12, Lian-15)
+appos(Lian-15, Proud-18)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Well))
+    (, ,)))
+
+
+root(ROOT-0, Well-1)
+
+
+(ROOT
+  (SBAR
+    (WHADVP (WRB when))
+    (S
+      (NP (PRP you))
+      (VP (VBP meet)
+        (NP
+          (NP (DT a) (NN hawker))
+          (PP (IN like)
+            (NP (DT the) (NNP Mr) (NNP Sim) (, ,))))))))
+
+
+advmod(meet-3, when-1)
+nsubj(meet-3, you-2)
+root(ROOT-0, meet-3)
+det(hawker-5, a-4)
+dobj(meet-3, hawker-5)
+prep(hawker-5, like-6)
+det(Sim-9, the-7)
+nn(Sim-9, Mr-8)
+pobj(like-6, Sim-9)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP
+      (VP (MD ca) (RB n't)
+        (VP (VB help)))
+      (CC but)
+      (VP (VBP agree)
+        (SBAR (IN that)
+          (S
+            (NP (EX there))
+            (VP (VBZ is)
+              (NP
+                (NP (DT some) (NN element))
+                (PP (IN of)
+                  (NP
+                    (NP (NN truth))
+                    (PP (IN in)
+                      (NP (PRP it)))))))))))
+    (. .)))
+
+
+nsubj(help-4, you-1)
+aux(help-4, ca-2)
+neg(help-4, n't-3)
+root(ROOT-0, help-4)
+cc(help-4, but-5)
+conj(help-4, agree-6)
+mark(is-9, that-7)
+expl(is-9, there-8)
+ccomp(agree-6, is-9)
+det(element-11, some-10)
+nsubj(is-9, element-11)
+prep(element-11, of-12)
+pobj(of-12, truth-13)
+prep(truth-13, in-14)
+pobj(in-14, it-15)
+
+
+(ROOT
+  (S
+    (VP (VBG Having)
+      (VP (VBN blogged)
+        (ADVP (RB so))
+        (NP (JJ many) (NN hawker) (NNS stalls))
+        (, ,)))))
+
+
+aux(blogged-2, Having-1)
+root(ROOT-0, blogged-2)
+advmod(blogged-2, so-3)
+amod(stalls-6, many-4)
+nn(stalls-6, hawker-5)
+dobj(blogged-2, stalls-6)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (VBZ is)
+      (ADJP (JJ inevitable))
+      (SBAR (IN that)
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP I))
+          (VP (VBP chance)
+            (PP (IN upon)
+              (NP
+                (NP (DT a) (NN hawker))
+                (SBAR
+                  (WHNP (WDT that))
+                  (S
+                    (VP (VBZ is)
+                      (NP
+                        (NP (DT a) (NN bit))
+                        (PP (IN of)
+                          (NP (DT a) (NNP Food) (NNP Nazi)))))))))))))
+    (, ,)))
+
+
+nsubj(inevitable-3, it-1)
+cop(inevitable-3, is-2)
+root(ROOT-0, inevitable-3)
+mark(chance-7, that-4)
+advmod(chance-7, when-5)
+nsubj(chance-7, I-6)
+ccomp(inevitable-3, chance-7)
+prep(chance-7, upon-8)
+det(hawker-10, a-9)
+pobj(upon-8, hawker-10)
+nsubj(bit-14, that-11)
+cop(bit-14, is-12)
+det(bit-14, a-13)
+rcmod(hawker-10, bit-14)
+prep(bit-14, of-15)
+det(Nazi-18, a-16)
+nn(Nazi-18, Food-17)
+pobj(of-15, Nazi-18)
+
+
+(ROOT
+  (S
+    (NP (EX there))
+    (VP (VBZ is)
+      (NP (DT a)
+        (ADJP (RB very) (JJ big))
+        (NN chance))
+      (SBAR (IN that)
+        (S
+          (NP (PRP he))
+          (VP (MD would)
+            (VP (VB turn)
+              (PRT (RP out))
+              (S
+                (VP (TO to)
+                  (VP (VB be)
+                    (NP (DT a) (NNP Teochew))))))))))
+    (. .)))
+
+
+expl(is-2, there-1)
+root(ROOT-0, is-2)
+det(chance-6, a-3)
+advmod(big-5, very-4)
+amod(chance-6, big-5)
+nsubj(is-2, chance-6)
+mark(turn-10, that-7)
+nsubj(turn-10, he-8)
+aux(turn-10, would-9)
+ccomp(is-2, turn-10)
+prt(turn-10, out-11)
+aux(Teochew-15, to-12)
+cop(Teochew-15, be-13)
+det(Teochew-15, a-14)
+xcomp(turn-10, Teochew-15)
+
+

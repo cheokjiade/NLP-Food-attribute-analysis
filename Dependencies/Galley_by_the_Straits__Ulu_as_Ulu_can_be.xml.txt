@@ -1,0 +1,215 @@
+(ROOT
+  (S
+    (NP (DT This) (NN restaurant))
+    (VP (VBZ is)
+      (VP (VBN closed)
+        (S
+          (VP (VB Have)
+            (S
+              (NP (PRP you))
+              (VP
+                (VP
+                  (ADVP (RB ever))
+                  (VBD stood)
+                  (PP (IN at)
+                    (NP
+                      (NP (DT the) (NN foyer))
+                      (PP (IN of)
+                        (NP
+                          (NP (NNP HDB) (NNP Hub))
+                          (PP (IN in)
+                            (NP (NNP Toa) (NNP Payoh))))))))
+                (CC and)
+                (VP (VBD looked)
+                  (PP (IN at)
+                    (NP
+                      (NP (PRP$ their) (NN map))
+                      (PP (IN of)
+                        (NP (NNP Singapore))))))))))))
+    (. ?)))
+
+
+det(restaurant-2, This-1)
+nsubjpass(closed-4, restaurant-2)
+auxpass(closed-4, is-3)
+root(ROOT-0, closed-4)
+ccomp(closed-4, Have-5)
+nsubj(stood-8, you-6)
+advmod(stood-8, ever-7)
+ccomp(Have-5, stood-8)
+prep(stood-8, at-9)
+det(foyer-11, the-10)
+pobj(at-9, foyer-11)
+prep(foyer-11, of-12)
+nn(Hub-14, HDB-13)
+pobj(of-12, Hub-14)
+prep(Hub-14, in-15)
+nn(Payoh-17, Toa-16)
+pobj(in-15, Payoh-17)
+cc(stood-8, and-18)
+conj(stood-8, looked-19)
+prep(looked-19, at-20)
+poss(map-22, their-21)
+pobj(at-20, map-22)
+prep(map-22, of-23)
+pobj(of-23, Singapore-24)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (MD can)
+      (VP
+        (VP (VB be)
+          (ADJP (RB quite) (JJ unsettling)
+            (S
+              (VP (TO to)
+                (VP (VB see)
+                  (NP
+                    (NP (PDT all) (DT the) (NN housing) (NNS estates))
+                    (VP
+                      (VP (VBG taking)
+                        (ADVP (RB up) (RB much))
+                        (PP (IN of)
+                          (NP (PRP$ our) (NN island))))
+                      (CC and)
+                      (VP (VBG identifying)
+                        (NP (PDT all) (DT the) (NNS places)))))))))
+          (SBAR (IN that)
+            (S
+              (NP (PRP you))
+              (VP (VBP know)))))
+        (CC and)
+        (VP (VB have)
+          (VP (VBN been)
+            (PP (TO to))))))
+    (. .)))
+
+
+nsubj(unsettling-5, It-1)
+aux(unsettling-5, can-2)
+cop(unsettling-5, be-3)
+advmod(unsettling-5, quite-4)
+root(ROOT-0, unsettling-5)
+aux(see-7, to-6)
+xcomp(unsettling-5, see-7)
+predet(estates-11, all-8)
+det(estates-11, the-9)
+nn(estates-11, housing-10)
+dobj(see-7, estates-11)
+dep(estates-11, taking-12)
+advmod(much-14, up-13)
+advmod(taking-12, much-14)
+prep(taking-12, of-15)
+poss(island-17, our-16)
+pobj(of-15, island-17)
+cc(taking-12, and-18)
+conj(taking-12, identifying-19)
+predet(places-22, all-20)
+det(places-22, the-21)
+dobj(identifying-19, places-22)
+mark(know-25, that-23)
+nsubj(know-25, you-24)
+ccomp(unsettling-5, know-25)
+cc(unsettling-5, and-26)
+aux(been-28, have-27)
+conj(unsettling-5, been-28)
+prep(been-28, to-29)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP guess)
+      (S
+        (NP (PRP we))
+        (RB all)
+        (VP (VB know)
+          (SBAR
+            (SBAR (IN that)
+              (S
+                (NP (NNP Singapore))
+                (VP (VBZ is)
+                  (NP (DT a) (JJ small) (NN island)))))
+            (CC and)
+            (SBAR (IN that)
+              (S
+                (NP (NN space))
+                (VP (VBZ is)
+                  (NP (DT a) (NN premium)))))))))
+    (. .)))
+
+
+nsubj(guess-2, I-1)
+root(ROOT-0, guess-2)
+nsubj(know-5, we-3)
+advmod(know-5, all-4)
+ccomp(guess-2, know-5)
+mark(island-11, that-6)
+nsubj(island-11, Singapore-7)
+cop(island-11, is-8)
+det(island-11, a-9)
+amod(island-11, small-10)
+ccomp(know-5, island-11)
+cc(island-11, and-12)
+mark(premium-17, that-13)
+nsubj(premium-17, space-14)
+cop(premium-17, is-15)
+det(premium-17, a-16)
+conj(island-11, premium-17)
+
+
+(ROOT
+  (S (CC But)
+    (S
+      (VP (TO to)
+        (VP (VB see)
+          (SBAR
+            (WHADJP (RB just) (WRB how) (JJ many))
+            (S
+              (NP (JJ green) (NNS patches))
+              (VP (VBP are)
+                (VP (VBN left)
+                  (PP (IN on)
+                    (NP (PRP$ our) (NN island))))))))))
+    (VP (VBZ makes)
+      (SBAR
+        (S
+          (NP (PRP you))
+          (ADVP (RB really))
+          (VP (VBP realize)
+            (SBAR (IN that)
+              (S
+                (NP (PRP$ our) (NN space))
+                (VP (VBZ is)
+                  (ADVP (RB indeed))
+                  (ADJP (RB very) (JJ limited)))))))))
+    (. .)))
+
+
+cc(makes-14, But-1)
+aux(see-3, to-2)
+csubj(makes-14, see-3)
+advmod(many-6, just-4)
+advmod(many-6, how-5)
+dep(left-10, many-6)
+amod(patches-8, green-7)
+nsubjpass(left-10, patches-8)
+auxpass(left-10, are-9)
+ccomp(see-3, left-10)
+prep(left-10, on-11)
+poss(island-13, our-12)
+pobj(on-11, island-13)
+root(ROOT-0, makes-14)
+nsubj(realize-17, you-15)
+advmod(realize-17, really-16)
+ccomp(makes-14, realize-17)
+mark(limited-24, that-18)
+poss(space-20, our-19)
+nsubj(limited-24, space-20)
+cop(limited-24, is-21)
+advmod(limited-24, indeed-22)
+advmod(limited-24, very-23)
+ccomp(realize-17, limited-24)
+
+

@@ -1,0 +1,106 @@
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (VP (VBN said)
+        (NP
+          (NP (DT that))
+          (PP (IN of)
+            (NP
+              (NP (PDT all) (DT the) (JJ major) (NNS cuisines))
+              (PP (IN of)
+                (NP (NNP China))))))))
+    (, ,)))
+
+
+nsubjpass(said-3, It-1)
+auxpass(said-3, is-2)
+root(ROOT-0, said-3)
+dobj(said-3, that-4)
+prep(that-4, of-5)
+predet(cuisines-9, all-6)
+det(cuisines-9, the-7)
+amod(cuisines-9, major-8)
+pobj(of-5, cuisines-9)
+prep(cuisines-9, of-10)
+pobj(of-10, China-11)
+
+
+(ROOT
+  (S
+    (NP (NNP Teochew) (NN food))
+    (VP (VBZ is)
+      (ADVP (RB probably))
+      (NP
+        (NP (DT the)
+          (ADJP (RBS most) (JJ suitable)))
+        (PP (IN for)
+          (NP (DT the) (JJ Japanese) (NN palate)))))
+    (. .)))
+
+
+nn(food-2, Teochew-1)
+nsubj(suitable-7, food-2)
+cop(suitable-7, is-3)
+advmod(suitable-7, probably-4)
+det(suitable-7, the-5)
+advmod(suitable-7, most-6)
+root(ROOT-0, suitable-7)
+prep(suitable-7, for-8)
+det(palate-11, the-9)
+amod(palate-11, Japanese-10)
+pobj(for-8, palate-11)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN emphasis))
+      (PP (IN on)
+        (NP
+          (NP
+            (NP (NN freshness))
+            (PP (IN of)
+              (NP (NN seafood))))
+          (CC and)
+          (NP
+            (NP (DT the) (NN use))
+            (PP (IN of)
+              (NP (JJ simple) (NNS flavors))))))
+      (S
+        (VP (TO to)
+          (VP (VB highlight)
+            (NP
+              (NP (DT the) (JJ original) (NN flavor))
+              (PP (IN of)
+                (NP (DT the) (NN produce))))))))
+    (VP (VBZ is)
+      (ADJP (RB very) (JJ similar)))
+    (. .)))
+
+
+det(emphasis-2, The-1)
+nsubj(similar-23, emphasis-2)
+prep(emphasis-2, on-3)
+pobj(on-3, freshness-4)
+prep(freshness-4, of-5)
+pobj(of-5, seafood-6)
+cc(freshness-4, and-7)
+det(use-9, the-8)
+conj(freshness-4, use-9)
+prep(use-9, of-10)
+amod(flavors-12, simple-11)
+pobj(of-10, flavors-12)
+aux(highlight-14, to-13)
+infmod(emphasis-2, highlight-14)
+det(flavor-17, the-15)
+amod(flavor-17, original-16)
+dobj(highlight-14, flavor-17)
+prep(flavor-17, of-18)
+det(produce-20, the-19)
+pobj(of-18, produce-20)
+cop(similar-23, is-21)
+advmod(similar-23, very-22)
+root(ROOT-0, similar-23)
+
+

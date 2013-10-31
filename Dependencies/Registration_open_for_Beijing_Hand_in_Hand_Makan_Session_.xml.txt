@@ -1,0 +1,45 @@
+(ROOT
+  (NP
+    (NP (NNS Thanks))
+    (PP (IN for)
+      (NP (DT the) (JJ enthusiastic) (NN support)))
+    (. .)))
+
+
+root(ROOT-0, Thanks-1)
+prep(Thanks-1, for-2)
+det(support-5, the-3)
+amod(support-5, enthusiastic-4)
+pobj(for-2, support-5)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (ADVP (RB still))
+      (VP (VB write)
+        (PRT (RP in))
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (VP (VBN placed)
+                (PP (IN on)
+                  (NP (DT the) (VBG waiting) (NN list)))))))))
+    (. .)))
+
+
+nsubj(write-4, You-1)
+aux(write-4, can-2)
+advmod(write-4, still-3)
+root(ROOT-0, write-4)
+prt(write-4, in-5)
+aux(placed-8, to-6)
+auxpass(placed-8, be-7)
+xcomp(write-4, placed-8)
+prep(placed-8, on-9)
+det(list-12, the-10)
+amod(list-12, waiting-11)
+pobj(on-9, list-12)
+
+

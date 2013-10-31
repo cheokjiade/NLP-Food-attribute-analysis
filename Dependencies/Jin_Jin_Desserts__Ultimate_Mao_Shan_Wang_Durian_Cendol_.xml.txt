@@ -1,0 +1,897 @@
+(ROOT
+  (S
+    (NP (TO To))
+    (VP (VBP make)
+      (NP (DT the) (NNP Ultimate) (NNP Cendol)))
+    (, ,)))
+
+
+nsubj(make-2, To-1)
+root(ROOT-0, make-2)
+det(Cendol-5, the-3)
+nn(Cendol-5, Ultimate-4)
+dobj(make-2, Cendol-5)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD managed)
+      (S
+        (VP (TO to)
+          (VP (VB pull)
+            (PRT (RP together))
+            (NP (CD two) (JJ very) (JJ passionate) (NNS individuals))))))
+    (. .)))
+
+
+nsubj(managed-2, I-1)
+root(ROOT-0, managed-2)
+aux(pull-4, to-3)
+xcomp(managed-2, pull-4)
+prt(pull-4, together-5)
+num(individuals-9, two-6)
+amod(individuals-9, very-7)
+amod(individuals-9, passionate-8)
+dobj(pull-4, individuals-9)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Calvin) (NNP Ho))
+      (PP (IN from)
+        (NP
+          (NP (NNP Jin) (NNP Jin) (NNP Desserts))
+          (PP (IN at)
+            (NP (NNP ABC) (NNPS Brickworks))))))
+    (VP (VBZ makes))
+    (, ,)))
+
+
+nn(Ho-2, Calvin-1)
+nsubj(makes-10, Ho-2)
+prep(Ho-2, from-3)
+nn(Desserts-6, Jin-4)
+nn(Desserts-6, Jin-5)
+pobj(from-3, Desserts-6)
+prep(Desserts-6, at-7)
+nn(Brickworks-9, ABC-8)
+pobj(at-7, Brickworks-9)
+root(ROOT-0, makes-10)
+
+
+(ROOT
+  (SBAR
+    (WHNP (WP what))
+    (S
+      (NP (PRP I))
+      (VP (VBP consider)
+        (NP
+          (NP (CD one))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (JJS best))
+              (, ,))))))))
+
+
+dobj(consider-3, what-1)
+nsubj(consider-3, I-2)
+root(ROOT-0, consider-3)
+dobj(consider-3, one-4)
+prep(one-4, of-5)
+det(best-7, the-6)
+pobj(of-5, best-7)
+
+
+(ROOT
+  (FRAG (IN if) (RB not)
+    (NP (DT the) (JJS best) (NN Cendol))
+    (PP (IN in)
+      (NP (NNP Singapore)))
+    (. .)))
+
+
+root(ROOT-0, if-1)
+neg(if-1, not-2)
+det(Cendol-5, the-3)
+amod(Cendol-5, best-4)
+dep(if-1, Cendol-5)
+prep(if-1, in-6)
+pobj(in-6, Singapore-7)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP love)
+      (NP (PRP$ his) (JJ thick)))
+    (, ,)))
+
+
+nsubj(love-2, I-1)
+root(ROOT-0, love-2)
+poss(thick-4, his-3)
+dobj(love-2, thick-4)
+
+
+(ROOT
+  (S
+    (VP (VB treacle)
+      (PP (IN like)
+        (NP
+          (NP (NN gula) (NN melaka)
+            (CC and)
+            (JJ fresh) (NN coconut) (NN milk))
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (VBZ is)
+                (ADVP (RB always))
+                (NP (DT a) (NN joy)
+                  (S
+                    (VP (TO to)
+                      (VP (VB eat)))))))))))
+    (. .)))
+
+
+root(ROOT-0, treacle-1)
+prep(treacle-1, like-2)
+nn(melaka-4, gula-3)
+pobj(like-2, melaka-4)
+cc(melaka-4, and-5)
+amod(milk-8, fresh-6)
+nn(milk-8, coconut-7)
+conj(melaka-4, milk-8)
+nsubj(joy-13, which-9)
+cop(joy-13, is-10)
+advmod(joy-13, always-11)
+det(joy-13, a-12)
+rcmod(melaka-4, joy-13)
+aux(eat-15, to-14)
+infmod(joy-13, eat-15)
+
+
+(ROOT
+  (S
+    (NP (DT The) (JJ other) (NN guy))
+    (VP (VBZ is)
+      (NP
+        (NP (NNP Ah) (NNP Chiang))
+        (PP (IN of)
+          (NP
+            (NP (NNP 818) (NNP Durian) (NNP Trading))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBZ produces)
+                  (NP (DT the) (JJS best)
+                    (NP (NNP Mao) (NNP Shan) (NNP Wang))
+                    (NN pulp)))))))))
+    (. .)))
+
+
+det(guy-3, The-1)
+amod(guy-3, other-2)
+nsubj(Chiang-6, guy-3)
+cop(Chiang-6, is-4)
+nn(Chiang-6, Ah-5)
+root(ROOT-0, Chiang-6)
+prep(Chiang-6, of-7)
+nn(Trading-10, 818-8)
+nn(Trading-10, Durian-9)
+pobj(of-7, Trading-10)
+nsubj(produces-12, who-11)
+rcmod(Trading-10, produces-12)
+det(pulp-18, the-13)
+amod(pulp-18, best-14)
+nn(Wang-17, Mao-15)
+nn(Wang-17, Shan-16)
+nn(pulp-18, Wang-17)
+dobj(produces-12, pulp-18)
+
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBZ owns)
+      (NP (PRP$ his) (JJ own) (NN plantation))
+      (PP (IN in)
+        (NP (NNP Bentong))))
+    (, ,)))
+
+
+nsubj(owns-2, He-1)
+root(ROOT-0, owns-2)
+poss(plantation-5, his-3)
+amod(plantation-5, own-4)
+dobj(owns-2, plantation-5)
+prep(owns-2, in-6)
+pobj(in-6, Bentong-7)
+
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP
+          (ADJP (JJ Pahang)
+            (CC and)
+            (RB so))
+          (NNS imports))
+        (NP (RB only) (DT the) (JJS best)))
+      (NP (NNP Mao) (NNP Shan) (NNP Wang)))
+    (VP (VBZ durians)
+      (PP (TO to)
+        (NP (PRP$ his) (NN shop) (NN daily))))
+    (. .)))
+
+
+amod(imports-4, Pahang-1)
+cc(Pahang-1, and-2)
+advmod(Pahang-1, so-3)
+nsubj(durians-11, imports-4)
+advmod(best-7, only-5)
+det(best-7, the-6)
+dep(imports-4, best-7)
+nn(Wang-10, Mao-8)
+nn(Wang-10, Shan-9)
+dep(imports-4, Wang-10)
+root(ROOT-0, durians-11)
+prep(durians-11, to-12)
+poss(daily-15, his-13)
+nn(daily-15, shop-14)
+pobj(to-12, daily-15)
+
+
+(ROOT
+  (FRAG
+    (PP
+      (ADVP (RB Then))
+      (IN at)
+      (NP
+        (NP (DT the) (NN end))
+        (PP (IN of)
+          (NP (DT the) (NN day)))))
+    (, ,)))
+
+
+advmod(at-2, Then-1)
+root(ROOT-0, at-2)
+det(end-4, the-3)
+pobj(at-2, end-4)
+prep(end-4, of-5)
+det(day-7, the-6)
+pobj(of-5, day-7)
+
+
+(ROOT
+  (S
+    (NP (WDT whatever))
+    (VP (VBZ Durians)
+      (SBAR
+        (WHNP (WDT which))
+        (S
+          (VP (VBP are)
+            (ADVP (RB still))
+            (VP (VBN left)
+              (SBAR
+                (S
+                  (S
+                    (NP (JJ unsold))
+                    (VP (VBZ is)
+                      (VP (VBN dehusked))))
+                  (CC and)
+                  (S
+                    (NP (DT the) (NN pulp))
+                    (ADJP (RB immediately) (JJ frozen))))))))))
+    (. .)))
+
+
+nsubj(Durians-2, whatever-1)
+root(ROOT-0, Durians-2)
+nsubjpass(left-6, which-3)
+auxpass(left-6, are-4)
+advmod(left-6, still-5)
+ccomp(Durians-2, left-6)
+nsubjpass(dehusked-9, unsold-7)
+auxpass(dehusked-9, is-8)
+dep(left-6, dehusked-9)
+cc(dehusked-9, and-10)
+det(pulp-12, the-11)
+dep(frozen-14, pulp-12)
+advmod(frozen-14, immediately-13)
+conj(dehusked-9, frozen-14)
+
+
+(ROOT
+  (S (IN So)
+    (NP
+      (NP (DT the) (JJ Durian) (NN pulp))
+      (SBAR
+        (S
+          (NP (PRP we))
+          (VP (VBP are)
+            (VP (VBG getting)
+              (PP (IN for)
+                (NP (DT the) (NNP Ultimate) (NNP Hawker) (NNP Fest))))))))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (JJS best) (NN quality))
+        (SBAR (IN that)
+          (S
+            (NP (PRP we))
+            (VP (MD can)
+              (VP (VB get)
+                (NP (PRP$ our) (NNS hands))
+                (PRT (RP on))))))))
+    (. .)))
+
+
+dep(quality-16, So-1)
+det(pulp-4, the-2)
+amod(pulp-4, Durian-3)
+nsubj(quality-16, pulp-4)
+nsubj(getting-7, we-5)
+aux(getting-7, are-6)
+rcmod(pulp-4, getting-7)
+prep(getting-7, for-8)
+det(Fest-12, the-9)
+nn(Fest-12, Ultimate-10)
+nn(Fest-12, Hawker-11)
+pobj(for-8, Fest-12)
+cop(quality-16, is-13)
+det(quality-16, the-14)
+amod(quality-16, best-15)
+root(ROOT-0, quality-16)
+mark(get-20, that-17)
+nsubj(get-20, we-18)
+aux(get-20, can-19)
+dep(quality-16, get-20)
+poss(hands-22, our-21)
+dobj(get-20, hands-22)
+prt(get-20, on-23)
+
+
+(ROOT
+  (NP
+    (NP (NNP Marry))
+    (NP
+      (NP (DT the) (NNP Durian))
+      (CC and)
+      (NP (DT the) (NNP Cendol) (NNP together)
+        (CC and)
+        (NNP POW) (NNP !!)))
+    (. .)))
+
+
+root(ROOT-0, Marry-1)
+det(Durian-3, the-2)
+dep(Marry-1, Durian-3)
+cc(Durian-3, and-4)
+det(together-7, the-5)
+nn(together-7, Cendol-6)
+conj(Durian-3, together-7)
+cc(together-7, and-8)
+nn(!!-10, POW-9)
+conj(together-7, !!-10)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP (DT the) (NNP Ultimate) (NNP Hawker) (NNP Fest))
+          (VP (VBZ is)
+            (VP (VBG going)
+              (S
+                (VP (TO to)
+                  (VP (VB be)
+                    (NP
+                      (NP (DT the) (JJ only) (NN time))
+                      (SBAR
+                        (S
+                          (NP (PRP you))
+                          (VP (VBP are)
+                            (VP (VBG going)
+                              (S
+                                (VP (TO to)
+                                  (VP (VB be)
+                                    (ADJP (JJ able)
+                                      (S
+                                        (VP (TO to)
+                                          (VP (VB try)
+                                            (NP (DT this))
+                                            (SBAR (IN as)
+                                              (S
+                                                (NP (DT the) (NN cost))
+                                                (VP (VBZ is)
+                                                  (ADJP (RB too) (JJ prohibitive)
+                                                    (PP (IN for)
+                                                      (NP (NNP Calvin))))
+                                                  (S
+                                                    (VP (TO to)
+                                                      (VP (VB serve)
+                                                        (PP (IN at)
+                                                          (NP
+                                                            (NP (PRP$ his) (NN stall))
+                                                            (PP (IN on)
+                                                              (NP (JJ normal) (NNS days)))))))))))))))))))))))))))))))
+    (. .)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+det(Fest-6, the-3)
+nn(Fest-6, Ultimate-4)
+nn(Fest-6, Hawker-5)
+nsubj(going-8, Fest-6)
+aux(going-8, is-7)
+ccomp(think-2, going-8)
+aux(time-13, to-9)
+cop(time-13, be-10)
+det(time-13, the-11)
+amod(time-13, only-12)
+xcomp(going-8, time-13)
+nsubj(going-16, you-14)
+aux(going-16, are-15)
+rcmod(time-13, going-16)
+aux(able-19, to-17)
+cop(able-19, be-18)
+xcomp(going-16, able-19)
+aux(try-21, to-20)
+xcomp(able-19, try-21)
+dobj(try-21, this-22)
+mark(prohibitive-28, as-23)
+det(cost-25, the-24)
+nsubj(prohibitive-28, cost-25)
+cop(prohibitive-28, is-26)
+advmod(prohibitive-28, too-27)
+advcl(try-21, prohibitive-28)
+prep(prohibitive-28, for-29)
+pobj(for-29, Calvin-30)
+aux(serve-32, to-31)
+xcomp(prohibitive-28, serve-32)
+prep(serve-32, at-33)
+poss(stall-35, his-34)
+pobj(at-33, stall-35)
+prep(stall-35, on-36)
+amod(days-38, normal-37)
+pobj(on-36, days-38)
+
+
+(ROOT
+  (SBARQ (CC But)
+    (WHNP (WP who))
+    (SQ
+      (VP (VBZ knows)))
+    (. ?)))
+
+
+cc(knows-3, But-1)
+nsubj(knows-3, who-2)
+root(ROOT-0, knows-3)
+
+
+(ROOT
+  (FRAG
+    (PP
+      (ADVP (RB Maybe))
+      (IN after)
+      (NP (DT the) (NN event)))
+    (, ,)))
+
+
+advmod(after-2, Maybe-1)
+root(ROOT-0, after-2)
+det(event-4, the-3)
+pobj(after-2, event-4)
+
+
+(ROOT
+  (S
+    (NP (EX there))
+    (VP (VBZ is)
+      (NP (DT a) (NN chance))
+      (SBAR (IN that)
+        (S
+          (NP (PRP it))
+          (VP (VBZ becomes)
+            (NP (DT a) (JJ regular) (NN item))
+            (PP (IN at)
+              (NP (PRP$ his) (NN stall)))))))
+    (. ?)))
+
+
+expl(is-2, there-1)
+root(ROOT-0, is-2)
+det(chance-4, a-3)
+nsubj(is-2, chance-4)
+mark(item-10, that-5)
+nsubj(item-10, it-6)
+cop(item-10, becomes-7)
+det(item-10, a-8)
+amod(item-10, regular-9)
+ccomp(is-2, item-10)
+prep(item-10, at-11)
+poss(stall-13, his-12)
+pobj(at-11, stall-13)
+
+
+(ROOT
+  (S
+    (NP (DT That))
+    (VP (MD will)
+      (ADVP (RB really))
+      (VP (VB depend)
+        (PP (IN on)
+          (NP (PRP$ your) (NN response)))
+        (PP (TO to)
+          (NP
+            (NP (DT the) (NN dish))
+            (PP (IN at)
+              (NP (DT the) (NNP Ultimate) (NNP Hawker) (NNP Fest)))))))
+    (. !)))
+
+
+nsubj(depend-4, That-1)
+aux(depend-4, will-2)
+advmod(depend-4, really-3)
+root(ROOT-0, depend-4)
+prep(depend-4, on-5)
+poss(response-7, your-6)
+pobj(on-5, response-7)
+prep(depend-4, to-8)
+det(dish-10, the-9)
+pobj(to-8, dish-10)
+prep(dish-10, at-11)
+det(Fest-15, the-12)
+nn(Fest-15, Ultimate-13)
+nn(Fest-15, Hawker-14)
+pobj(at-11, Fest-15)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Besides)
+      (NP (DT the) (NNP Cendol)))
+    (, ,)))
+
+
+root(ROOT-0, Besides-1)
+det(Cendol-3, the-2)
+pobj(Besides-1, Cendol-3)
+
+
+(ROOT
+  (S
+    (NP (NNP Jin) (NNP Jin) (NNP Desserts))
+    (VP (MD will)
+      (ADVP (RB also))
+      (VP (VB be)
+        (VP (VBG serving)
+          (NP (PRP$ their) (NN signature))
+          (NP
+            (NP (NNP Gangster) (NNP Ice))
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (VP (VBZ is)
+                  (NP
+                    (NP (NNP Durian))
+                    (PRN (-LRB- -LRB-)
+                      (NP (NNP Liu) (NNP Lian))
+                      (-RRB- -RRB-))
+                    (VP (VBN paired)
+                      (PP (IN with)
+                        (NP
+                          (NP (NNP Mango))
+                          (PRN (-LRB- -LRB-)
+                            (NP (NNP Mang) (NNP Guo))
+                            (-RRB- -RRB-)))))))))))))
+    (. .)))
+
+
+nn(Desserts-3, Jin-1)
+nn(Desserts-3, Jin-2)
+nsubj(serving-7, Desserts-3)
+aux(serving-7, will-4)
+advmod(serving-7, also-5)
+aux(serving-7, be-6)
+root(ROOT-0, serving-7)
+poss(signature-9, their-8)
+dep(serving-7, signature-9)
+nn(Ice-11, Gangster-10)
+dobj(serving-7, Ice-11)
+nsubj(Durian-14, which-12)
+cop(Durian-14, is-13)
+rcmod(Ice-11, Durian-14)
+nn(Lian-17, Liu-16)
+appos(Durian-14, Lian-17)
+partmod(Durian-14, paired-19)
+prep(paired-19, with-20)
+pobj(with-20, Mango-21)
+nn(Guo-24, Mang-23)
+appos(Mango-21, Guo-24)
+
+
+(ROOT
+  (S
+    (NP (NNP Liu) (NNP Lian) (NNP +) (NNP Mang) (NNP Guo))
+    (VP (SYM =)
+      (NP (NNP Liu) (NNP Mang) (NNP =) (NNP Gangster)))
+    (. .)))
+
+
+nn(Guo-5, Liu-1)
+nn(Guo-5, Lian-2)
+nn(Guo-5, +-3)
+nn(Guo-5, Mang-4)
+nsubj(Gangster-10, Guo-5)
+dep(Gangster-10, =-6)
+nn(Gangster-10, Liu-7)
+nn(Gangster-10, Mang-8)
+nn(Gangster-10, =-9)
+root(ROOT-0, Gangster-10)
+
+
+(ROOT
+  (SQ
+    (VP (VB Get)
+      (NP (PRP it)))
+    (. ?)))
+
+
+root(ROOT-0, Get-1)
+dobj(Get-1, it-2)
+
+
+(ROOT
+  (FRAG
+    (PP (IN During)
+      (NP (DT the) (NNP Ultimate) (NNP Hawker) (NNP Fest)))
+    (, ,)))
+
+
+root(ROOT-0, During-1)
+det(Fest-5, the-2)
+nn(Fest-5, Ultimate-3)
+nn(Fest-5, Hawker-4)
+pobj(During-1, Fest-5)
+
+
+(ROOT
+  (S
+    (NP (NNP Calvin))
+    (VP (MD will)
+      (VP (VB be)
+        (VP
+          (VP (VBG procuring)
+            (NP (DT the) (JJS best) (NNPS Mangoes)))
+          (CC and)
+          (VP (VBG pairing)
+            (NP (PRP it))
+            (PP (IN with)
+              (NP
+                (NP (NNP 818) (NNP Trading) (POS 's))
+                (NNP Mao) (NNP Shan) (NNP Wang)))))))
+    (. !)))
+
+
+nsubj(procuring-4, Calvin-1)
+aux(procuring-4, will-2)
+aux(procuring-4, be-3)
+root(ROOT-0, procuring-4)
+det(Mangoes-7, the-5)
+amod(Mangoes-7, best-6)
+dobj(procuring-4, Mangoes-7)
+cc(procuring-4, and-8)
+conj(procuring-4, pairing-9)
+dobj(pairing-9, it-10)
+prep(pairing-9, with-11)
+nn(Trading-13, 818-12)
+poss(Wang-17, Trading-13)
+possessive(Trading-13, 's-14)
+nn(Wang-17, Mao-15)
+nn(Wang-17, Shan-16)
+pobj(with-11, Wang-17)
+
+
+(ROOT
+  (S (RB So)
+    (VP (VB look)
+      (PRT (RP out))
+      (PP (IN for)
+        (NP
+          (NP (NNP Jin) (NNP Jin) (NNP Dessert))
+          (PP (IN at)
+            (NP (DT the) (NNP Ultimate) (NNP Hawker) (NNP Fest))))))
+    (. !)))
+
+
+advmod(look-2, So-1)
+root(ROOT-0, look-2)
+prt(look-2, out-3)
+prep(look-2, for-4)
+nn(Dessert-7, Jin-5)
+nn(Dessert-7, Jin-6)
+pobj(for-4, Dessert-7)
+prep(Dessert-7, at-8)
+det(Fest-12, the-9)
+nn(Fest-12, Ultimate-10)
+nn(Fest-12, Hawker-11)
+pobj(at-8, Fest-12)
+
+
+(ROOT
+  (FRAG
+    (PP
+      (PP (TO To)
+        (NP (JJ buy) (NNS tickets)))
+      (PP (TO to)
+        (NP (DT the) (NNP Ultimate) (NNP Hawker) (NNP Fest))))
+    (, ,)))
+
+
+root(ROOT-0, To-1)
+amod(tickets-3, buy-2)
+pobj(To-1, tickets-3)
+prep(To-1, to-4)
+det(Fest-8, the-5)
+nn(Fest-8, Ultimate-6)
+nn(Fest-8, Hawker-7)
+pobj(to-4, Fest-8)
+
+
+(ROOT
+  (S
+    (VP (VB please)
+      (NP
+        (NP (NN visit))
+        (VP (VBG http://www.touch.org.sg)
+          (NP (NNP ) (NNP Venue)))))
+    (: :)))
+
+
+root(ROOT-0, please-1)
+dobj(please-1, visit-2)
+partmod(visit-2, http://www.touch.org.sg-3)
+nn(Venue-5, -4)
+dobj(http://www.touch.org.sg-3, Venue-5)
+
+
+(ROOT
+  (NP (NNP Millenia) (NNP Walk) (NNP Date) (: :)))
+
+
+nn(Date-3, Millenia-1)
+nn(Date-3, Walk-2)
+root(ROOT-0, Date-3)
+
+
+(ROOT
+  (NP (NNP 20) (NNP Oct) (NNP 2012) (NNP Time) (: :)))
+
+
+nn(Time-4, 20-1)
+nn(Time-4, Oct-2)
+nn(Time-4, 2012-3)
+root(ROOT-0, Time-4)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS 5pm))
+      (PP (TO to)
+        (NP (JJ 10pm) (NNS Tickets))))
+    (VP
+      (VP
+        (ADVP (RB now)
+          (PP (IN on)
+            (NP
+              (NP (NN sale))
+              (PP (IN at)
+                (NP (NNP Millenia))))))
+        (VBP Walk))
+      (CC and)
+      (VP (MD will)
+        (ADVP (RB also))
+        (VP (VB be)
+          (PP (IN on)
+            (NP
+              (NP (NN sale))
+              (PP (IN on)
+                (NP
+                  (NP (DT the) (NN day))
+                  (PP (IN of)
+                    (NP
+                      (NP (DT the) (NN festival))
+                      (NP (JJ Many) (NNS thanks))))))))
+          (PP (TO to)
+            (NP
+              (NP (NNP Jin) (NNP Jin) (NNP Desserts))
+              (CC and)
+              (NP
+                (NP (CD 818) (NN Trading))
+                (SBAR
+                  (WHNP (WP who))
+                  (S
+                    (VP (VBP are)
+                      (VP (VBG contributing)
+                        (PP (TO to)
+                          (NP
+                            (NP (DT the) (NN work))
+                            (PP (IN of)
+                              (NP (NNP Touch) (NNP Community) (NNPS Services)))))))))))))))
+    (. !)))
+
+
+nsubj(Walk-10, 5pm-1)
+prep(5pm-1, to-2)
+amod(Tickets-4, 10pm-3)
+pobj(to-2, Tickets-4)
+advmod(Walk-10, now-5)
+prep(now-5, on-6)
+pobj(on-6, sale-7)
+prep(sale-7, at-8)
+pobj(at-8, Millenia-9)
+root(ROOT-0, Walk-10)
+cc(Walk-10, and-11)
+aux(be-14, will-12)
+advmod(be-14, also-13)
+conj(Walk-10, be-14)
+prep(be-14, on-15)
+pobj(on-15, sale-16)
+prep(sale-16, on-17)
+det(day-19, the-18)
+pobj(on-17, day-19)
+prep(day-19, of-20)
+det(festival-22, the-21)
+pobj(of-20, festival-22)
+amod(thanks-24, Many-23)
+dep(festival-22, thanks-24)
+prep(be-14, to-25)
+nn(Desserts-28, Jin-26)
+nn(Desserts-28, Jin-27)
+pobj(to-25, Desserts-28)
+cc(Desserts-28, and-29)
+num(Trading-31, 818-30)
+conj(Desserts-28, Trading-31)
+nsubj(contributing-34, who-32)
+aux(contributing-34, are-33)
+rcmod(Trading-31, contributing-34)
+prep(contributing-34, to-35)
+det(work-37, the-36)
+pobj(to-35, work-37)
+prep(work-37, of-38)
+nn(Services-41, Touch-39)
+nn(Services-41, Community-40)
+pobj(of-38, Services-41)
+
+
+(ROOT
+  (NP
+    (NP (NNP Jin) (NNP Jin) (NNP Desserts) (NNP ABC) (NNP Brickworks) (NNP Food) (NNP Centre) (NNP Stall))
+    (NP
+      (NP (CD 20) (NNS 12pm))
+      (PP (TO to)
+        (NP (CD 12mn))))))
+
+
+nn(Stall-8, Jin-1)
+nn(Stall-8, Jin-2)
+nn(Stall-8, Desserts-3)
+nn(Stall-8, ABC-4)
+nn(Stall-8, Brickworks-5)
+nn(Stall-8, Food-6)
+nn(Stall-8, Centre-7)
+root(ROOT-0, Stall-8)
+num(12pm-10, 20-9)
+dep(Stall-8, 12pm-10)
+prep(12pm-10, to-11)
+pobj(to-11, 12mn-12)
+
+

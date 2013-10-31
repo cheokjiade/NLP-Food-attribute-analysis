@@ -1,0 +1,86 @@
+(ROOT
+  (NP
+    (NP (PRP$ My) (NN appearance))
+    (PP (IN with)
+      (NP (NNP Adrian) (NNP Pang)))
+    (PP (IN on) (`` ``)
+      (NP (NNP Chasing) (NNPS Happiness))
+      ('' ''))
+    (. .)))
+
+
+poss(appearance-2, My-1)
+root(ROOT-0, appearance-2)
+prep(appearance-2, with-3)
+nn(Pang-5, Adrian-4)
+pobj(with-3, Pang-5)
+prep(appearance-2, on-6)
+nn(Happiness-9, Chasing-8)
+pobj(on-6, Happiness-9)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VB discuss)
+      (PP (IN about)
+        (SBAR
+          (WHADVP (WRB how))
+          (S
+            (NP (NN food))
+            (VP (MD can)
+              (VP (VB make)
+                (S
+                  (NP (PRP you))
+                  (ADJP (JJ happy)))))))))
+    (. !)))
+
+
+nsubj(discuss-2, We-1)
+root(ROOT-0, discuss-2)
+prep(discuss-2, about-3)
+advmod(make-7, how-4)
+nsubj(make-7, food-5)
+aux(make-7, can-6)
+pcomp(about-3, make-7)
+nsubj(happy-9, you-8)
+xcomp(make-7, happy-9)
+
+
+(ROOT
+  (S
+    (NP (NNP First))
+    (VP (VBD aired)
+      (PP (IN on)
+        (NP (CD 29)))
+      (NP (NNP Dec) (CD 2012)))
+    (. .)))
+
+
+nsubj(aired-2, First-1)
+root(ROOT-0, aired-2)
+prep(aired-2, on-3)
+pobj(on-3, 29-4)
+dobj(aired-2, Dec-5)
+num(Dec-5, 2012-6)
+
+
+(ROOT
+  (NP
+    (NP (NNS Thanks))
+    (PP (TO to)
+      (NP (NNP Sen)))
+    (PP (IN for)
+      (NP (DT the) (JJ video) (NN upload)))
+    (. !)))
+
+
+root(ROOT-0, Thanks-1)
+prep(Thanks-1, to-2)
+pobj(to-2, Sen-3)
+prep(Thanks-1, for-4)
+det(upload-7, the-5)
+amod(upload-7, video-6)
+pobj(for-4, upload-7)
+
+

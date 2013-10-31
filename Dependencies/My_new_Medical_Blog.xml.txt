@@ -1,0 +1,394 @@
+(ROOT
+  (S
+    (NP (NN ear))
+    (VP (VBP ieatishootipost)
+      (NP (NNS readers)))
+    (, ,)))
+
+
+nsubj(ieatishootipost-2, ear-1)
+root(ROOT-0, ieatishootipost-2)
+dobj(ieatishootipost-2, readers-3)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB just))
+    (VP (VBP want)
+      (S
+        (VP (TO to)
+          (VP (VB let)
+            (S
+              (NP (PRP you))
+              (VP (VB know)
+                (SBAR (IN that)
+                  (S
+                    (NP (PRP I))
+                    (VP (VBP have)
+                      (VP (VBN decided)
+                        (S
+                          (VP (TO to)
+                            (VP (VB start)
+                              (NP (DT a) (NNP Medical) (NNP Blogsite))
+                              (SBAR
+                                (WHADVP (WRB where))
+                                (S
+                                  (NP (PRP I))
+                                  (VP (MD can)
+                                    (VP (VB post)
+                                      (NP (NNP Health) (JJ related) (NNS blogs)))))))))))))))))))
+    (. .)))
+
+
+nsubj(want-3, I-1)
+advmod(want-3, just-2)
+root(ROOT-0, want-3)
+aux(let-5, to-4)
+xcomp(want-3, let-5)
+nsubj(know-7, you-6)
+ccomp(let-5, know-7)
+mark(decided-11, that-8)
+nsubj(decided-11, I-9)
+aux(decided-11, have-10)
+ccomp(know-7, decided-11)
+aux(start-13, to-12)
+xcomp(decided-11, start-13)
+det(Blogsite-16, a-14)
+nn(Blogsite-16, Medical-15)
+dobj(start-13, Blogsite-16)
+advmod(post-20, where-17)
+nsubj(post-20, I-18)
+aux(post-20, can-19)
+advcl(start-13, post-20)
+nn(blogs-23, Health-21)
+amod(blogs-23, related-22)
+dobj(post-20, blogs-23)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ My) (NN idea))
+      (PP (IN for)
+        (NP (DT the) (NN site))))
+    (VP (VBZ is)
+      (SBAR (IN that)
+        (S
+          (VP (VBZ is)
+            (VP (MD would))))))
+    (: :)))
+
+
+poss(idea-2, My-1)
+nsubj(is-6, idea-2)
+prep(idea-2, for-3)
+det(site-5, the-4)
+pobj(for-3, site-5)
+root(ROOT-0, is-6)
+mark(would-9, that-7)
+aux(would-9, is-8)
+ccomp(is-6, would-9)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 1))
+    (. .)))
+
+
+root(ROOT-0, 1-1)
+
+
+(ROOT
+  (S
+    (VP (VB Serve)
+      (PP (IN as)
+        (NP
+          (NP (DT a) (NN platform))
+          (PP (IN for)
+            (NP (PRP me)))))
+      (S
+        (VP (TO to)
+          (VP (VB communicate)
+            (PP (IN with)
+              (NP (PRP$ my) (NNS patients)))
+            (PP (IN in)
+              (PP (IN between)
+                (NP (NNS visits))))))))
+    (. .)))
+
+
+root(ROOT-0, Serve-1)
+prep(Serve-1, as-2)
+det(platform-4, a-3)
+pobj(as-2, platform-4)
+prep(platform-4, for-5)
+pobj(for-5, me-6)
+aux(communicate-8, to-7)
+xcomp(Serve-1, communicate-8)
+prep(communicate-8, with-9)
+poss(patients-11, my-10)
+pobj(with-9, patients-11)
+prep(communicate-8, in-12)
+pcomp(in-12, between-13)
+pobj(between-13, visits-14)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 2))
+    (. .)))
+
+
+root(ROOT-0, 2-1)
+
+
+(ROOT
+  (S
+    (VP (VB Provide)
+      (NP (JJ current) (NN information))
+      (PP (IN about)
+        (NP
+          (NP (NN health) (VBN related) (NNS issues))
+          (PP (IN in)
+            (NP (NNP Singapore) (CD 3))))))
+    (. .)))
+
+
+root(ROOT-0, Provide-1)
+amod(information-3, current-2)
+dobj(Provide-1, information-3)
+prep(Provide-1, about-4)
+nn(issues-7, health-5)
+amod(issues-7, related-6)
+pobj(about-4, issues-7)
+prep(issues-7, in-8)
+pobj(in-8, Singapore-9)
+num(Singapore-9, 3-10)
+
+
+(ROOT
+  (S
+    (VP (VB Be)
+      (VP
+        (PP (IN in)
+          (NP
+            (NP (DT the) (JJ same) (NN tongue))
+            (PP (IN in)
+              (NP
+                (NP (NN cheek) (NN style))
+                (PP (IN as)
+                  (NP (DT this) (NN blogsite)))))))
+        (SBAR (RB so) (IN that)
+          (S
+            (NP (PRP you))
+            (VP (VBP get)
+              (NP (DT a) (NN look))
+              (PP (IN into)
+                (NP
+                  (NP (DT the) (NN life))
+                  (PP (IN of)
+                    (NP (DT a) (JJ common) (NN garden) (NN variety) (JJ everyday) (NNP Family) (NNP Doctor)))))
+              (PP (IN in)
+                (NP (NNP Singapore))))))))
+    (. .)))
+
+
+aux(in-2, Be-1)
+root(ROOT-0, in-2)
+det(tongue-5, the-3)
+amod(tongue-5, same-4)
+pobj(in-2, tongue-5)
+prep(tongue-5, in-6)
+nn(style-8, cheek-7)
+pobj(in-6, style-8)
+prep(style-8, as-9)
+det(blogsite-11, this-10)
+pobj(as-9, blogsite-11)
+advmod(get-15, so-12)
+mark(get-15, that-13)
+nsubj(get-15, you-14)
+advcl(in-2, get-15)
+det(look-17, a-16)
+dobj(get-15, look-17)
+prep(get-15, into-18)
+det(life-20, the-19)
+pobj(into-18, life-20)
+prep(life-20, of-21)
+det(Doctor-28, a-22)
+amod(Doctor-28, common-23)
+nn(Doctor-28, garden-24)
+nn(Doctor-28, variety-25)
+amod(Doctor-28, everyday-26)
+nn(Doctor-28, Family-27)
+pobj(of-21, Doctor-28)
+prep(get-15, in-29)
+pobj(in-29, Singapore-30)
+
+
+(ROOT
+  (SBAR (IN As)
+    (S
+      (NP (PRP I))
+      (VP (VBP have)
+        (ADVP (RB only))
+        (VP
+          (ADVP (RB just))
+          (VBN started)
+          (NP (DT the) (NN blog))))
+      (, ,))))
+
+
+mark(started-6, As-1)
+nsubj(started-6, I-2)
+aux(started-6, have-3)
+advmod(started-6, only-4)
+advmod(started-6, just-5)
+root(ROOT-0, started-6)
+det(blog-8, the-7)
+dobj(started-6, blog-8)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (VP (VBG searching)
+        (PP (IN for)
+          (NP
+            (NP (NNS ideas))
+            (PP (IN about)
+              (SBAR
+                (SBAR
+                  (WHNP (WP what))
+                  (S
+                    (NP (DT the) (NN site))
+                    (VP (MD should)
+                      (VP (VB be)
+                        (ADJP (IN about))))))
+                (CC and)
+                (SBAR
+                  (WHNP (WP what))
+                  (S
+                    (NP (PRP you))
+                    (ADVP (DT all))
+                    (VP (MD will)
+                      (VP
+                        (VP (VB find)
+                          (ADJP (JJ interesting)))
+                        (CC and)
+                        (VP (VB expect)
+                          (PRT (RP out))
+                          (PP (IN of)
+                            (NP
+                              (NP (DT a) (NNP Medical) (NNP Blog))
+                              (PP (IN like)
+                                (NP (DT this))))))))))))))))
+    (. .)))
+
+
+nsubj(searching-3, I-1)
+aux(searching-3, am-2)
+root(ROOT-0, searching-3)
+prep(searching-3, for-4)
+pobj(for-4, ideas-5)
+prep(ideas-5, about-6)
+dobj(about-12, what-7)
+det(site-9, the-8)
+nsubj(about-12, site-9)
+aux(about-12, should-10)
+cop(about-12, be-11)
+pcomp(about-6, about-12)
+cc(about-12, and-13)
+dobj(find-18, what-14)
+nsubj(find-18, you-15)
+advmod(find-18, all-16)
+aux(find-18, will-17)
+conj(about-12, find-18)
+acomp(find-18, interesting-19)
+cc(find-18, and-20)
+conj(find-18, expect-21)
+prt(expect-21, out-22)
+prep(expect-21, of-23)
+det(Blog-26, a-24)
+nn(Blog-26, Medical-25)
+pobj(of-23, Blog-26)
+prep(Blog-26, like-27)
+pobj(like-27, this-28)
+
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (S
+          (NP (PRP you))
+          (VP (VBP have)
+            (NP (DT any) (NNS ideas))))
+        (S
+          (INTJ (VB please))
+          (VP
+            (VP (VB write)
+              (PRT (RP in)))
+            (CC and)
+            (VP (VB let))))))
+    (NP (PRP me))
+    (VP (VBP know))
+    (. !)))
+
+
+mark(have-3, If-1)
+nsubj(have-3, you-2)
+advcl(know-12, have-3)
+det(ideas-5, any-4)
+dobj(have-3, ideas-5)
+discourse(write-7, please-6)
+parataxis(have-3, write-7)
+prt(write-7, in-8)
+cc(write-7, and-9)
+conj(write-7, let-10)
+nsubj(know-12, me-11)
+root(ROOT-0, know-12)
+
+
+(ROOT
+  (S
+    (VP (VB Click)
+      (ADVP (RB here))
+      (S
+        (VP (TO to)
+          (VP (VB see)
+            (NP (PRP$ my) (JJ new) (NN site))))))
+    (. !)))
+
+
+root(ROOT-0, Click-1)
+advmod(Click-1, here-2)
+aux(see-4, to-3)
+xcomp(Click-1, see-4)
+poss(site-7, my-5)
+amod(site-7, new-6)
+dobj(see-4, site-7)
+
+
+(ROOT
+  (S
+    (ADVP (RB Really))
+    (VP (VB appreciate)
+      (NP (PRP$ your) (JJ continual) (NN support))
+      (PP (IN for)
+        (NP (DT this) (NN blogsite))))
+    (. !)))
+
+
+advmod(appreciate-2, Really-1)
+root(ROOT-0, appreciate-2)
+poss(support-5, your-3)
+amod(support-5, continual-4)
+dobj(appreciate-2, support-5)
+prep(appreciate-2, for-6)
+det(blogsite-8, this-7)
+pobj(for-6, blogsite-8)
+
+

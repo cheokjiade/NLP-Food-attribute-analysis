@@ -1,0 +1,725 @@
+(ROOT
+  (FRAG
+    (PP (IN After)
+      (NP
+        (NP (CD 3) (NNS months))
+        (PP (IN of)
+          (NP (NN planning)))))
+    (, ,)))
+
+
+root(ROOT-0, After-1)
+num(months-3, 3-2)
+pobj(After-1, months-3)
+prep(months-3, of-4)
+pobj(of-4, planning-5)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NNP Ultimate) (NNP Hawker) (NNP Fest))
+    (VP (VBZ is)
+      (ADVP (RB finally))
+      (PP (IN upon)
+        (NP (PRP us))
+        (NP (JJ !!) (NN Today))))
+    (, ,)))
+
+
+det(Fest-4, the-1)
+nn(Fest-4, Ultimate-2)
+nn(Fest-4, Hawker-3)
+nsubj(is-5, Fest-4)
+root(ROOT-0, is-5)
+advmod(is-5, finally-6)
+prep(is-5, upon-7)
+pobj(upon-7, us-8)
+amod(Today-10, !!-9)
+tmod(upon-7, Today-10)
+
+
+(ROOT
+  (S
+    (NP (PDT all) (DT the) (NNS hawkers))
+    (VP (MD will)
+      (VP (VB be)
+        (VP (VBG going)
+          (PRT (RP down))
+          (PP (TO to)
+            (NP (NNP Millenia) (NNP Walk)))
+          (S
+            (VP (TO to)
+              (VP (VB set)
+                (PRT (RP up))
+                (NP (PRP$ their) (NNS stalls))))))))
+    (. .)))
+
+
+predet(hawkers-3, all-1)
+det(hawkers-3, the-2)
+nsubj(going-6, hawkers-3)
+aux(going-6, will-4)
+aux(going-6, be-5)
+root(ROOT-0, going-6)
+prt(going-6, down-7)
+prep(going-6, to-8)
+nn(Walk-10, Millenia-9)
+pobj(to-8, Walk-10)
+aux(set-12, to-11)
+xcomp(going-6, set-12)
+prt(set-12, up-13)
+poss(stalls-15, their-14)
+dobj(set-12, stalls-15)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP They))
+      (VP (VBP have) (RB all)
+        (VP (VBN been)
+          (VP (VBG working)
+            (ADJP (RB very) (JJ hard))
+            (S
+              (VP (TO to)
+                (VP (VB come)
+                  (PRT (RP up))
+                  (PP (IN with)
+                    (NP
+                      (NP (DT the) (NNP Ultimate) (NNS versions))
+                      (PP (IN of)
+                        (NP (PRP$ their) (NNS dishes))))))))))))
+    (CC and)
+    (S
+      (NP
+        (NP (RB now))
+        (SBAR
+          (WHNP (WP what))
+          (S
+            (VP (VBZ remains)))))
+      (VP (VBZ is)
+        (SBAR (IN for)
+          (S
+            (NP (PRP YOU))
+            (VP (TO to)
+              (VP (VB be)
+                (NP (DT the) (NN judge))))))))
+    (. !)))
+
+
+nsubj(working-5, They-1)
+aux(working-5, have-2)
+advmod(working-5, all-3)
+aux(working-5, been-4)
+root(ROOT-0, working-5)
+advmod(hard-7, very-6)
+acomp(working-5, hard-7)
+aux(come-9, to-8)
+xcomp(working-5, come-9)
+prt(come-9, up-10)
+prep(come-9, with-11)
+det(versions-14, the-12)
+nn(versions-14, Ultimate-13)
+pobj(with-11, versions-14)
+prep(versions-14, of-15)
+poss(dishes-17, their-16)
+pobj(of-15, dishes-17)
+cc(working-5, and-18)
+nsubj(is-22, now-19)
+nsubj(remains-21, what-20)
+rcmod(now-19, remains-21)
+conj(working-5, is-22)
+mark(judge-28, for-23)
+nsubj(judge-28, YOU-24)
+aux(judge-28, to-25)
+cop(judge-28, be-26)
+det(judge-28, the-27)
+advcl(is-22, judge-28)
+
+
+(ROOT
+  (SBARQ
+    (WHADJP (WRB How)
+      (ADJP (RB tok) (JJ kong)))
+    (SQ (MD can)
+      (NP (NNP Hokkien) (NNP Mee))
+      (VP (VB get)))
+    (. ?)))
+
+
+advmod(kong-3, How-1)
+advmod(kong-3, tok-2)
+dep(get-7, kong-3)
+aux(get-7, can-4)
+nn(Mee-6, Hokkien-5)
+nsubj(get-7, Mee-6)
+root(ROOT-0, get-7)
+
+
+(ROOT
+  (SQ (NNP Does)
+    (NP (NN Beef) (NNP Kway) (NNP Teow))
+    (VP (VB taste)
+      (ADVP (RBR better))
+      (PP (IN with)
+        (NP (NNP Wagyu) (NNP Beef))))
+    (. ?)))
+
+
+dep(taste-5, Does-1)
+nn(Teow-4, Beef-2)
+nn(Teow-4, Kway-3)
+nsubj(taste-5, Teow-4)
+root(ROOT-0, taste-5)
+advmod(taste-5, better-6)
+prep(taste-5, with-7)
+nn(Beef-9, Wagyu-8)
+pobj(with-7, Beef-9)
+
+
+(ROOT
+  (SQ (MD Will)
+    (NP
+      (NP (PRP$ our)
+        (ADJP (RB specially) (JJ bred))
+        (NNS chickens))
+      (PP (IN from)
+        (NP (NNP JB))))
+    (VP (VB bring)
+      (NP
+        (NP
+          (NP (NNP Tian) (NNP Tian) (POS 's))
+          (NNP Chicken) (NNP Rice))
+        (PP (TO to)
+          (NP (DT the) (JJ next) (NN level)))))
+    (. ?)))
+
+
+aux(bring-8, Will-1)
+poss(chickens-5, our-2)
+advmod(bred-4, specially-3)
+amod(chickens-5, bred-4)
+nsubj(bring-8, chickens-5)
+prep(chickens-5, from-6)
+pobj(from-6, JB-7)
+root(ROOT-0, bring-8)
+nn(Tian-10, Tian-9)
+poss(Rice-13, Tian-10)
+possessive(Tian-10, 's-11)
+nn(Rice-13, Chicken-12)
+dobj(bring-8, Rice-13)
+prep(Rice-13, to-14)
+det(level-17, the-15)
+amod(level-17, next-16)
+pobj(to-14, level-17)
+
+
+(ROOT
+  (SQ (MD Will)
+    (NP
+      (NP (NNP Chef) (NNP William) (NNP Soh) (POS 's))
+      (NP (NN heritage) (NN carrot) (NN cake)))
+    (VP (VB measure)
+      (PRT (RP up)))
+    (. ?)))
+
+
+aux(measure-9, Will-1)
+nn(Soh-4, Chef-2)
+nn(Soh-4, William-3)
+nsubj(measure-9, Soh-4)
+possessive(Soh-4, 's-5)
+nn(cake-8, heritage-6)
+nn(cake-8, carrot-7)
+dep(Soh-4, cake-8)
+root(ROOT-0, measure-9)
+prt(measure-9, up-10)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Well))
+    (, ,)))
+
+
+root(ROOT-0, Well-1)
+
+
+(ROOT
+  (S
+    (S
+      (NP (EX there))
+      (VP (VBZ is)
+        (NP (RB only) (CD one) (NN way))
+        (S
+          (VP (TO to)
+            (VP (VB find)
+              (PRT (RP out)))))))
+    (CC and)
+    (S
+      (NP (DT that))
+      (VP (VBZ is)
+        (S
+          (VP (TO to)
+            (VP (VB come)
+              (PRT (RP down))
+              (PP (TO to)
+                (NP (NNP Millenia) (NNP Walk))))))))
+    (. !)))
+
+
+expl(is-2, there-1)
+root(ROOT-0, is-2)
+advmod(way-5, only-3)
+num(way-5, one-4)
+nsubj(is-2, way-5)
+aux(find-7, to-6)
+xcomp(is-2, find-7)
+prt(find-7, out-8)
+cc(is-2, and-9)
+nsubj(is-11, that-10)
+conj(is-2, is-11)
+aux(come-13, to-12)
+xcomp(is-11, come-13)
+prt(come-13, down-14)
+prep(come-13, to-15)
+nn(Walk-17, Millenia-16)
+pobj(to-15, Walk-17)
+
+
+(ROOT
+  (S
+    (NP (NNS Tickets))
+    (VP (MD will)
+      (VP (VB be)
+        (PP (IN on)
+          (NP (NN sale)))))
+    (. .)))
+
+
+nsubj(be-3, Tickets-1)
+aux(be-3, will-2)
+root(ROOT-0, be-3)
+prep(be-3, on-4)
+pobj(on-4, sale-5)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT Each) (NN sheet))
+      (PP (IN of)
+        (NP (NNS coupons))))
+    (VP (VBZ is)
+      (ADJP (IN worth) (JJ $)))))
+
+
+det(sheet-2, Each-1)
+nsubj($-7, sheet-2)
+prep(sheet-2, of-3)
+pobj(of-3, coupons-4)
+cop($-7, is-5)
+dep($-7, worth-6)
+root(ROOT-0, $-7)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (CD 50))
+      (CC and)
+      (NP (RB there)))
+    (VP (VBZ is)
+      (NP (DT no) (NN entrance) (NN fee)))
+    (. .)))
+
+
+nsubj(fee-7, 50-1)
+cc(50-1, and-2)
+conj(50-1, there-3)
+cop(fee-7, is-4)
+det(fee-7, no-5)
+nn(fee-7, entrance-6)
+root(ROOT-0, fee-7)
+
+
+(ROOT
+  (VP
+    (ADVP (RB Just))
+    (VBN come)
+    (PP (IN by)
+      (NP (DT this) (NN afternoon)))
+    (, ,)))
+
+
+advmod(come-2, Just-1)
+root(ROOT-0, come-2)
+prep(come-2, by-3)
+det(afternoon-5, this-4)
+pobj(by-3, afternoon-5)
+
+
+(ROOT
+  (S
+    (VP (VB buy)
+      (NP (DT some))
+      (NP (NNS coupons))
+      (, ,))))
+
+
+root(ROOT-0, buy-1)
+iobj(buy-1, some-2)
+dobj(buy-1, coupons-3)
+
+
+(ROOT
+  (S
+    (NP (NN go))
+    (VP (VBZ shopping))
+    (, ,)))
+
+
+nsubj(shopping-2, go-1)
+root(ROOT-0, shopping-2)
+
+
+(ROOT
+  (S
+    (VP (VB come)
+      (S
+        (NP (NNP and))
+        (VP (VB eat))
+        (, ,)))))
+
+
+root(ROOT-0, come-1)
+nsubj(eat-3, and-2)
+ccomp(come-1, eat-3)
+
+
+(ROOT
+  (S
+    (NP (NN go))
+    (VP (VBZ shopping))
+    (, ,)))
+
+
+nsubj(shopping-2, go-1)
+root(ROOT-0, shopping-2)
+
+
+(ROOT
+  (S
+    (VP (VB eat)
+      (S
+        (NP (DT some))
+        (ADJP (JJR more))))
+    (. !)))
+
+
+root(ROOT-0, eat-1)
+nsubj(more-3, some-2)
+xcomp(eat-1, more-3)
+
+
+(ROOT
+  (FRAG
+    (S
+      (ADJP
+        (ADJP (JJ Free))
+        (CC and)
+        (ADJP (JJ easy))
+        (, ,)))))
+
+
+root(ROOT-0, Free-1)
+cc(Free-1, and-2)
+conj(Free-1, easy-3)
+
+
+(ROOT
+  (S
+    (NP (NN anyone))
+    (VP (MD can)
+      (VP (VB come)))
+    (. !)))
+
+
+nsubj(come-3, anyone-1)
+aux(come-3, can-2)
+root(ROOT-0, come-3)
+
+
+(ROOT
+  (S
+    (VP (VB See)
+      (S
+        (NP (PRP you))
+        (NP (EX there))))
+    (. !)))
+
+
+root(ROOT-0, See-1)
+nsubj(there-3, you-2)
+xcomp(See-1, there-3)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ Many) (NNS thanks))
+      (PP (TO to)
+        (NP (PRP$ our) (JJ main) (NN sponsor) (NN Millenia))))
+    (VP (VBP Walk)
+      (PP (IN for)
+        (S
+          (VP (VBG hosting)
+            (NP (DT the) (NN event))))))
+    (. !)))
+
+
+amod(thanks-2, Many-1)
+nsubj(Walk-8, thanks-2)
+prep(thanks-2, to-3)
+poss(Millenia-7, our-4)
+amod(Millenia-7, main-5)
+nn(Millenia-7, sponsor-6)
+pobj(to-3, Millenia-7)
+root(ROOT-0, Walk-8)
+prep(Walk-8, for-9)
+pcomp(for-9, hosting-10)
+det(event-12, the-11)
+dobj(hosting-10, event-12)
+
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP
+      (VP (VBP have)
+        (ADVP (RB very) (RB generously))
+        (VP (VBN closed)
+          (NP
+            (NP (DT the) (NN carpark))
+            (PP (IN between)
+              (NP
+                (NP (NNP Conrad) (NNP Hotel))
+                (CC and)
+                (NP (DT the) (NN shopping) (NN center)))))
+          (PP (IN for)
+            (NP (DT the) (NN event)))))
+      (CC and)
+      (VP (VBP have)
+        (ADVP (RB also))
+        (VP (VBN been)
+          (VP (VBG helping)
+            (NP (PRP us))
+            (PP (IN with)
+              (NP (DT the) (NN promotion)))))))
+    (. !)))
+
+
+nsubj(closed-5, They-1)
+aux(closed-5, have-2)
+advmod(generously-4, very-3)
+advmod(closed-5, generously-4)
+root(ROOT-0, closed-5)
+det(carpark-7, the-6)
+dobj(closed-5, carpark-7)
+prep(carpark-7, between-8)
+nn(Hotel-10, Conrad-9)
+pobj(between-8, Hotel-10)
+cc(Hotel-10, and-11)
+det(center-14, the-12)
+nn(center-14, shopping-13)
+conj(Hotel-10, center-14)
+prep(closed-5, for-15)
+det(event-17, the-16)
+pobj(for-15, event-17)
+cc(closed-5, and-18)
+aux(helping-22, have-19)
+advmod(helping-22, also-20)
+aux(helping-22, been-21)
+conj(closed-5, helping-22)
+dobj(helping-22, us-23)
+prep(helping-22, with-24)
+det(promotion-26, the-25)
+pobj(with-24, promotion-26)
+
+
+(ROOT
+  (S
+    (NP (DT This) (NN event))
+    (VP (MD would) (RB not)
+      (VP (VB have)
+        (S
+          (VP
+            (VP (VB happen)
+              (SBAR (IN if)
+                (S
+                  (NP
+                    (NP (NNS people))
+                    (PP (IN like)
+                      (NP (NNP Esther))))
+                  (VP (VBD did) (RB not)
+                    (VP (VB catch)
+                      (NP
+                        (NP (DT the) (NN vision))
+                        (PP (IN of)
+                          (SBAR
+                            (WHNP (WP what))
+                            (S
+                              (NP (PRP we))
+                              (VP (VBP are)
+                                (VP (VBG doing))))))))))))
+            (CC and)
+            (VP (VB come)
+              (PP (IN alongside)))))
+        (S
+          (VP (TO to)
+            (VP (VB support)
+              (NP (PRP us))
+              (PP (IN at)
+                (NP (DT the)
+                  (ADJP (RBS most) (JJ critical))
+                  (NN moment))))))))
+    (. !)))
+
+
+det(event-2, This-1)
+nsubj(have-5, event-2)
+aux(have-5, would-3)
+neg(have-5, not-4)
+root(ROOT-0, have-5)
+ccomp(have-5, happen-6)
+mark(catch-13, if-7)
+nsubj(catch-13, people-8)
+prep(people-8, like-9)
+pobj(like-9, Esther-10)
+aux(catch-13, did-11)
+neg(catch-13, not-12)
+advcl(happen-6, catch-13)
+det(vision-15, the-14)
+dobj(catch-13, vision-15)
+prep(vision-15, of-16)
+dobj(doing-20, what-17)
+nsubj(doing-20, we-18)
+aux(doing-20, are-19)
+pcomp(of-16, doing-20)
+cc(happen-6, and-21)
+conj(happen-6, come-22)
+prep(come-22, alongside-23)
+aux(support-25, to-24)
+xcomp(have-5, support-25)
+dobj(support-25, us-26)
+prep(support-25, at-27)
+det(moment-31, the-28)
+advmod(critical-30, most-29)
+amod(moment-31, critical-30)
+pobj(at-27, moment-31)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ 's)
+      (ADJP (NN nothing) (JJ short)
+        (PP (IN of)
+          (NP (DT a) (NN miracle)))))
+    (. !)))
+
+
+nsubj(short-4, It-1)
+cop(short-4, 's-2)
+npadvmod(short-4, nothing-3)
+root(ROOT-0, short-4)
+prep(short-4, of-5)
+det(miracle-7, a-6)
+pobj(of-5, miracle-7)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT Each) (NN coupon) (NN sheet))
+      (SBAR (IN that)
+        (S
+          (NP (PRP you))
+          (VP (VBP buy)))))
+    (VP (MD will)
+      (VP (VB entitle)
+        (NP (PRP you))
+        (PP (TO to)
+          (NP (DT a) (NN $)))))))
+
+
+det(sheet-3, Each-1)
+nn(sheet-3, coupon-2)
+nsubj(entitle-8, sheet-3)
+mark(buy-6, that-4)
+nsubj(buy-6, you-5)
+dep(sheet-3, buy-6)
+aux(entitle-8, will-7)
+root(ROOT-0, entitle-8)
+dobj(entitle-8, you-9)
+prep(entitle-8, to-10)
+det($-12, a-11)
+pobj(to-10, $-12)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (CD 10) (NNP F&B) (NN coupon))
+      (PP (IN at)
+        (NP (NNP Millenia))))
+    (VP (VBP Walk))
+    (. !)))
+
+
+num(coupon-3, 10-1)
+nn(coupon-3, F&B-2)
+nsubj(Walk-6, coupon-3)
+prep(coupon-3, at-4)
+pobj(at-4, Millenia-5)
+root(ROOT-0, Walk-6)
+
+
+(ROOT
+  (S (RB So)
+    (VP
+      (VP (VB remember)
+        (S
+          (VP (TO to)
+            (VP (VB fill)
+              (PRT (RP up))
+              (NP (PRP$ your) (NNS particulars))))))
+      (CC and)
+      (VP (VB exchange)
+        (NP (PRP them))
+        (PP (IN for)
+          (NP
+            (NP (NNS coupons))
+            (PP (IN at)
+              (NP (DT the) (VBG ticketing) (NN desk)))))))
+    (. !)))
+
+
+advmod(remember-2, So-1)
+root(ROOT-0, remember-2)
+aux(fill-4, to-3)
+xcomp(remember-2, fill-4)
+prt(fill-4, up-5)
+poss(particulars-7, your-6)
+dobj(fill-4, particulars-7)
+cc(remember-2, and-8)
+conj(remember-2, exchange-9)
+dobj(exchange-9, them-10)
+prep(exchange-9, for-11)
+pobj(for-11, coupons-12)
+prep(coupons-12, at-13)
+det(desk-16, the-14)
+amod(desk-16, ticketing-15)
+pobj(at-13, desk-16)
+
+

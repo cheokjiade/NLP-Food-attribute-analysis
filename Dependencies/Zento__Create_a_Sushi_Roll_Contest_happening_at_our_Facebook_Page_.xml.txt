@@ -1,0 +1,138 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP
+      (VP (VBP have)
+        (VP (VBN been)
+          (ADJP (JJ busy))
+          (S
+            (VP (VBG thinking)
+              (PP (IN of)
+                (NP
+                  (NP (DT all) (NNS sorts))
+                  (PP (IN of)
+                    (NP (NN fun) (NNS things)))))))
+          (S
+            (VP (TO to)
+              (VP (VB do)
+                (PRT (RP over))
+                (PP (IN at)
+                  (NP (PRP$ our) (NNP Facebook) (NN fanpage))))))))
+      (CC and)
+      (ADVP (RB here))
+      (VP (VBZ is)
+        (NP (PRP$ my) (JJS latest) (NN idea))))
+    (. .)))
+
+
+nsubj(busy-4, I-1)
+aux(busy-4, have-2)
+cop(busy-4, been-3)
+root(ROOT-0, busy-4)
+xcomp(busy-4, thinking-5)
+prep(thinking-5, of-6)
+det(sorts-8, all-7)
+pobj(of-6, sorts-8)
+prep(sorts-8, of-9)
+nn(things-11, fun-10)
+pobj(of-9, things-11)
+aux(do-13, to-12)
+xcomp(busy-4, do-13)
+prt(do-13, over-14)
+prep(do-13, at-15)
+poss(fanpage-18, our-16)
+nn(fanpage-18, Facebook-17)
+pobj(at-15, fanpage-18)
+cc(busy-4, and-19)
+advmod(busy-4, here-20)
+cop(idea-24, is-21)
+poss(idea-24, my-22)
+amod(idea-24, latest-23)
+conj(busy-4, idea-24)
+
+
+(ROOT
+  (PP (IN As)
+    (NP (DT a) (NN blogger))))
+
+
+root(ROOT-0, As-1)
+det(blogger-3, a-2)
+pobj(As-1, blogger-3)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB sometimes))
+    (VP (VBP get)
+      (S
+        (VP (TO to)
+          (VP (VB do)
+            (NP (NN fun) (NNS things))
+            (PP (IN like)
+              (S
+                (VP (VBG designing)
+                  (NP (DT a) (JJ new) (NN item))
+                  (PP (IN for)
+                    (NP (NNS restaurants))))))))))
+    (, ,)))
+
+
+nsubj(get-3, I-1)
+advmod(get-3, sometimes-2)
+root(ROOT-0, get-3)
+aux(do-5, to-4)
+xcomp(get-3, do-5)
+nn(things-7, fun-6)
+dobj(do-5, things-7)
+prep(do-5, like-8)
+pcomp(like-8, designing-9)
+det(item-12, a-10)
+amod(item-12, new-11)
+dobj(designing-9, item-12)
+prep(designing-9, for-13)
+pobj(for-13, restaurants-14)
+
+
+(ROOT
+  (FRAG
+    (PP (IN like)
+      (NP
+        (NP (DT the) (JJ ieat) (NN Superburger))
+        (PP (IN for)
+          (NP (NN example)))))
+    (, ,)))
+
+
+root(ROOT-0, like-1)
+det(Superburger-4, the-2)
+amod(Superburger-4, ieat-3)
+pobj(like-1, Superburger-4)
+prep(Superburger-4, for-5)
+pobj(for-5, example-6)
+
+
+(ROOT
+  (S
+    (NP (WDT which))
+    (VP (VBZ is)
+      (ADVP (RB now))
+      (NP
+        (NP (DT a) (JJ standard) (NN item))
+        (PP (IN in)
+          (NP (NNP Astons) (NNS restaurants)))))
+    (. .)))
+
+
+nsubj(item-6, which-1)
+cop(item-6, is-2)
+advmod(item-6, now-3)
+det(item-6, a-4)
+amod(item-6, standard-5)
+root(ROOT-0, item-6)
+prep(item-6, in-7)
+nn(restaurants-9, Astons-8)
+pobj(in-7, restaurants-9)
+
+

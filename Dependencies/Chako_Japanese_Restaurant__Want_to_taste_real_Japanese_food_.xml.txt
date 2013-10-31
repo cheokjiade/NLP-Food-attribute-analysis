@@ -1,0 +1,569 @@
+(ROOT
+  (S
+    (NP (DT This) (NN stall))
+    (VP (VBZ is)
+      (ADJP (JJ closed))
+      (SBAR
+        (SBAR
+          (S
+            (NP (JJ Japanese) (NN cuisine))
+            (VP (VBZ has)
+              (ADVP (RB really))
+              (VP (VBN taken)
+                (PRT (RP off))
+                (PP (IN in)
+                  (NP (NNP Singapore)))
+                (PP (IN in)
+                  (NP (DT a)
+                    (ADJP (RB very) (JJ big))
+                    (NN way)))))))
+        (CC and)
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBZ means)
+              (SBAR (IN that)
+                (S
+                  (NP (PRP you))
+                  (VP (MD can)
+                    (VP (VB find)
+                      (NP (JJ Japanese) (NN food))
+                      (ADVP (RB almost) (RB everywhere))
+                      (ADVP (RB nowadays)))))))))))
+    (. .)))
+
+
+det(stall-2, This-1)
+nsubj(closed-4, stall-2)
+cop(closed-4, is-3)
+root(ROOT-0, closed-4)
+amod(cuisine-6, Japanese-5)
+nsubj(taken-9, cuisine-6)
+aux(taken-9, has-7)
+advmod(taken-9, really-8)
+dep(closed-4, taken-9)
+prt(taken-9, off-10)
+prep(taken-9, in-11)
+pobj(in-11, Singapore-12)
+prep(taken-9, in-13)
+det(way-17, a-14)
+advmod(big-16, very-15)
+amod(way-17, big-16)
+pobj(in-13, way-17)
+cc(taken-9, and-18)
+nsubj(means-20, that-19)
+conj(taken-9, means-20)
+mark(find-24, that-21)
+nsubj(find-24, you-22)
+aux(find-24, can-23)
+ccomp(means-20, find-24)
+amod(food-26, Japanese-25)
+dobj(find-24, food-26)
+advmod(everywhere-28, almost-27)
+advmod(find-24, everywhere-28)
+advmod(find-24, nowadays-29)
+
+
+(ROOT
+  (S
+    (NP (DT That))
+    (VP (VBZ is)
+      (NP (DT the) (JJ good) (NN thing)))
+    (. .)))
+
+
+nsubj(thing-5, That-1)
+cop(thing-5, is-2)
+det(thing-5, the-3)
+amod(thing-5, good-4)
+root(ROOT-0, thing-5)
+
+
+(ROOT
+  (S
+    (NP (DT The) (JJ bad) (NN thing))
+    (VP (VBZ is)
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (DT a) (NN lot))
+            (PP (IN of)
+              (NP
+                (NP (DT the) (JJ Japanese) (NN food))
+                (SBAR (IN that)
+                  (S
+                    (NP (PRP we))
+                    (VP (VBP eat)
+                      (ADVP (RB really))))))))
+          (VP (VBZ comes)
+            (PRT (RP out))
+            (PP (IN of)
+              (NP (DT a) (NN packet)))))))
+    (. .)))
+
+
+det(thing-3, The-1)
+amod(thing-3, bad-2)
+nsubj(is-4, thing-3)
+root(ROOT-0, is-4)
+mark(comes-16, that-5)
+det(lot-7, a-6)
+nsubj(comes-16, lot-7)
+prep(lot-7, of-8)
+det(food-11, the-9)
+amod(food-11, Japanese-10)
+pobj(of-8, food-11)
+mark(eat-14, that-12)
+nsubj(eat-14, we-13)
+dep(food-11, eat-14)
+advmod(eat-14, really-15)
+ccomp(is-4, comes-16)
+prt(comes-16, out-17)
+prep(comes-16, of-18)
+det(packet-20, a-19)
+pobj(of-18, packet-20)
+
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are)
+      (PP (IN of)
+        (NP (NN course)))
+      (NP
+        (NP (DT the) (JJ high) (NN class) (JJ Japanese) (NNS restaurants))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBP employ)
+              (NP
+                (NP (JJ Japanese) (NNS Chefs))
+                (SBAR
+                  (WHNP (WP who))
+                  (S
+                    (ADVP (RB actually))
+                    (VP
+                      (VP (VB prepare)
+                        (NP (DT the) (NNS sauces)))
+                      (CC and)
+                      (VP (VB cook)
+                        (NP (DT the) (NN food))))))))))))
+    (, ,)))
+
+
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+prep(are-2, of-3)
+pobj(of-3, course-4)
+det(restaurants-9, the-5)
+amod(restaurants-9, high-6)
+nn(restaurants-9, class-7)
+amod(restaurants-9, Japanese-8)
+nsubj(are-2, restaurants-9)
+nsubj(employ-11, which-10)
+rcmod(restaurants-9, employ-11)
+amod(Chefs-13, Japanese-12)
+dobj(employ-11, Chefs-13)
+nsubj(prepare-16, who-14)
+advmod(prepare-16, actually-15)
+rcmod(Chefs-13, prepare-16)
+det(sauces-18, the-17)
+dobj(prepare-16, sauces-18)
+cc(prepare-16, and-19)
+conj(prepare-16, cook-20)
+det(food-22, the-21)
+dobj(cook-20, food-22)
+
+
+(ROOT
+  (S (CC but)
+    (ADVP (RB there))
+    (VP (VBP are)
+      (NP
+        (NP (NNS others))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBP employ)
+              (NP
+                (NP (NNS people))
+                (SBAR
+                  (WHNP (WP who))
+                  (S
+                    (VP (VBP know)
+                      (ADJP (RB very) (JJ little))
+                      (PP (IN of)
+                        (NP (JJ Japanese) (NN cuisine))))))))))))
+    (, ,)))
+
+
+cc(others-4, but-1)
+advmod(others-4, there-2)
+cop(others-4, are-3)
+root(ROOT-0, others-4)
+nsubj(employ-6, who-5)
+rcmod(others-4, employ-6)
+dobj(employ-6, people-7)
+nsubj(know-9, who-8)
+rcmod(people-7, know-9)
+advmod(little-11, very-10)
+acomp(know-9, little-11)
+prep(know-9, of-12)
+amod(cuisine-14, Japanese-13)
+pobj(of-12, cuisine-14)
+
+
+(ROOT
+  (S
+    (VP (VB give)
+      (NP (PRP them))
+      (NP (DT a) (NN pan))
+      (, ,))))
+
+
+root(ROOT-0, give-1)
+iobj(give-1, them-2)
+det(pan-4, a-3)
+dobj(give-1, pan-4)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT some) (NN chicken))
+      (CC and)
+      (NP
+        (NP (DT a) (NN bottle))
+        (PP (IN of)
+          (NP (NNS teriyaki)))))
+    (VP
+      (VP (VBZ sauce))
+      (CC and)
+      (VP (VB get)
+        (S
+          (NP (PRP them))
+          (VP (TO to)
+            (VP (VB produce)
+              (NP (DT some) (JJ Japanese) (JJ like) (NN food)))))))
+    (. .)))
+
+
+det(chicken-2, some-1)
+nsubj(sauce-8, chicken-2)
+cc(chicken-2, and-3)
+det(bottle-5, a-4)
+conj(chicken-2, bottle-5)
+prep(bottle-5, of-6)
+pobj(of-6, teriyaki-7)
+root(ROOT-0, sauce-8)
+cc(sauce-8, and-9)
+conj(sauce-8, get-10)
+nsubj(produce-13, them-11)
+aux(produce-13, to-12)
+xcomp(get-10, produce-13)
+det(food-17, some-14)
+amod(food-17, Japanese-15)
+amod(food-17, like-16)
+dobj(produce-13, food-17)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Hey))
+    (, ,)))
+
+
+root(ROOT-0, Hey-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (NP
+        (NP (CD one))
+        (PP (IN of)
+          (NP
+            (NP (DT those) (NNS fellas))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBZ has)
+                  (NP
+                    (NP (DT a) (NN couple))
+                    (PP (IN of)
+                      (NP
+                        (NP (NNS kids))
+                        (SBAR
+                          (WHNP (WP who))
+                          (S
+                            (ADVP (RB simply))
+                            (VP (VBP adore)
+                              (NP (JJ Japanese) (NN food)))))))))))))))
+    (, ,)))
+
+
+nsubj(one-3, I-1)
+cop(one-3, am-2)
+root(ROOT-0, one-3)
+prep(one-3, of-4)
+det(fellas-6, those-5)
+pobj(of-4, fellas-6)
+nsubj(has-8, who-7)
+rcmod(fellas-6, has-8)
+det(couple-10, a-9)
+dobj(has-8, couple-10)
+prep(couple-10, of-11)
+pobj(of-11, kids-12)
+nsubj(adore-15, who-13)
+advmod(adore-15, simply-14)
+rcmod(kids-12, adore-15)
+amod(food-17, Japanese-16)
+dobj(adore-15, food-17)
+
+
+(ROOT
+  (S (IN so)
+    (NP (PRP I))
+    (VP (VBP do)
+      (VP (VB subject)
+        (NP (PRP myself))
+        (PP (TO to)
+          (NP
+            (NP (DT the) (`` ``) (NN out))
+            (PP (IN of)
+              (NP (DT a) (NN bottle)))))
+        ('' '')
+        (NP (NNP Teriyaki) (NNP Chicken))
+        (ADVP (RB quite) (RB often))))
+    (. .)))
+
+
+dep(subject-4, so-1)
+nsubj(subject-4, I-2)
+aux(subject-4, do-3)
+root(ROOT-0, subject-4)
+dobj(subject-4, myself-5)
+prep(subject-4, to-6)
+det(out-9, the-7)
+pobj(to-6, out-9)
+prep(out-9, of-10)
+det(bottle-12, a-11)
+pobj(of-10, bottle-12)
+nn(Chicken-15, Teriyaki-14)
+dobj(subject-4, Chicken-15)
+advmod(often-17, quite-16)
+advmod(subject-4, often-17)
+
+
+(ROOT
+  (INTJ (UH Heck) (UH ,)))
+
+
+root(ROOT-0, Heck-1)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (ADVP (RB sometimes))
+      (VP (VB cook)
+        (S
+          (NP (PRP it))
+          (NP
+            (NP (PRP myself))
+            (PP (IN at)
+              (NP (NN home)))))))
+    (CC and)
+    (S
+      (NP (PRP I))
+      (VP (VBP do)
+        (SBAR
+          (S
+            (VP (VBP think)
+              (SBAR (IN that)
+                (S
+                  (NP
+                    (NP (DT the) (`` ``) (NN out))
+                    (PP (IN of)
+                      (NP (DT a) (NN bottle) (NNP Teriyaki) (NNP Chicken))))
+                  (VP (VBZ is)
+                    (ADVP (RB still))
+                    (ADJP (RB pretty) (JJ tasty))))))))))
+    (. .)))
+
+
+nsubj(cook-3, I-1)
+advmod(cook-3, sometimes-2)
+root(ROOT-0, cook-3)
+nsubj(myself-5, it-4)
+xcomp(cook-3, myself-5)
+prep(myself-5, at-6)
+pobj(at-6, home-7)
+cc(cook-3, and-8)
+nsubj(do-10, I-9)
+conj(cook-3, do-10)
+ccomp(do-10, think-11)
+mark(tasty-24, that-12)
+det(out-15, the-13)
+nsubj(tasty-24, out-15)
+prep(out-15, of-16)
+det(Chicken-20, a-17)
+nn(Chicken-20, bottle-18)
+nn(Chicken-20, Teriyaki-19)
+pobj(of-16, Chicken-20)
+cop(tasty-24, is-21)
+advmod(tasty-24, still-22)
+advmod(tasty-24, pretty-23)
+ccomp(think-11, tasty-24)
+
+
+(ROOT
+  (S (CC But)
+    (SBAR
+      (WHNP (WP what))
+      (S
+        (VP (VBG eating)
+          (NP (PDT all) (DT these) (JJ quasi) (JJ Japanese) (NN food)))))
+    (VP (VBZ has)
+      (VP (VBN done)
+        (SBAR (IN for)
+          (S
+            (NP (PRP me))
+            (VP (VBD was)
+              (S
+                (VP (TO to)
+                  (VP (VB arouse)
+                    (NP (NN curiosity))
+                    (PP (IN over)
+                      (SBAR
+                        (WHNP (WP what))
+                        (S
+                          (NP (JJ real) (JJ Japanese) (NN food))
+                          (VP (MD should)
+                            (VP (VB taste)
+                              (PP (IN like)))))))))))))))
+    (. .)))
+
+
+cc(done-10, But-1)
+nsubj(eating-3, what-2)
+csubj(done-10, eating-3)
+predet(food-8, all-4)
+det(food-8, these-5)
+amod(food-8, quasi-6)
+amod(food-8, Japanese-7)
+dobj(eating-3, food-8)
+aux(done-10, has-9)
+root(ROOT-0, done-10)
+mark(was-13, for-11)
+nsubj(was-13, me-12)
+advcl(done-10, was-13)
+aux(arouse-15, to-14)
+xcomp(was-13, arouse-15)
+dobj(arouse-15, curiosity-16)
+prep(arouse-15, over-17)
+pobj(like-24, what-18)
+amod(food-21, real-19)
+amod(food-21, Japanese-20)
+nsubj(taste-23, food-21)
+aux(taste-23, should-22)
+pcomp(over-17, taste-23)
+prep(taste-23, like-24)
+
+
+(ROOT
+  (S
+    (SBAR
+      (WHNP (WP What))
+      (S
+        (NP (PRP I))
+        (VP (MD would)
+          (ADVP (RB really))
+          (VP (VB like)))))
+    (VP (VBZ is)
+      (S
+        (VP (TO to)
+          (VP (VB be)
+            (ADJP (JJ able)
+              (S
+                (VP (TO to)
+                  (VP (VB experience)
+                    (S
+                      (VP (VBG eating)
+                        (NP (DT a) (JJ homecooked) (NN meal))
+                        (PP (IN at)
+                          (NP (DT a) (JJ Japanese) (NN home)))))))))))))
+    (. .)))
+
+
+dobj(like-5, What-1)
+nsubj(like-5, I-2)
+aux(like-5, would-3)
+advmod(like-5, really-4)
+csubj(is-6, like-5)
+root(ROOT-0, is-6)
+aux(able-9, to-7)
+cop(able-9, be-8)
+xcomp(is-6, able-9)
+aux(experience-11, to-10)
+xcomp(able-9, experience-11)
+xcomp(experience-11, eating-12)
+det(meal-15, a-13)
+amod(meal-15, homecooked-14)
+dobj(eating-12, meal-15)
+prep(eating-12, at-16)
+det(home-19, a-17)
+amod(home-19, Japanese-18)
+pobj(at-16, home-19)
+
+
+(ROOT
+  (NP (VB Note) (: :)))
+
+
+root(ROOT-0, Note-1)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ does)
+      (VP (VB help)
+        (S
+          (VP (TO to)
+            (VP (VB order)
+              (SBAR (IN before)
+                (S
+                  (NP (PRP you))
+                  (VP (VBP go)
+                    (SBAR (CC but)
+                      (S
+                        (NP (PRP you))
+                        (VP (MD will)
+                          (ADVP (RB still))
+                          (VP (VB have)
+                            (S
+                              (VP (TO to)
+                                (VP (VB wait))))))))))))))))
+    (. .)))
+
+
+nsubj(help-3, It-1)
+aux(help-3, does-2)
+root(ROOT-0, help-3)
+aux(order-5, to-4)
+xcomp(help-3, order-5)
+mark(go-8, before-6)
+nsubj(go-8, you-7)
+advcl(order-5, go-8)
+cc(have-13, but-9)
+nsubj(have-13, you-10)
+aux(have-13, will-11)
+advmod(have-13, still-12)
+ccomp(go-8, have-13)
+aux(wait-15, to-14)
+xcomp(have-13, wait-15)
+
+

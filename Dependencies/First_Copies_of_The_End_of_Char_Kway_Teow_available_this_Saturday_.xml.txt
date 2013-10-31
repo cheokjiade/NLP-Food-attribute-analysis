@@ -1,0 +1,242 @@
+(ROOT
+  (FRAG
+    (NP (NNS Thanks))
+    (ADJP
+      (ADJP (RB so) (JJ much))
+      (PP (IN for)
+        (NP
+          (NP (PDT all) (PRP$ your) (NN support))
+          (PP (IN for)
+            (NP (PRP$ my) (VBG upcoming) (NN book)))))
+      (. !))))
+
+
+root(ROOT-0, Thanks-1)
+advmod(much-3, so-2)
+dep(Thanks-1, much-3)
+prep(much-3, for-4)
+predet(support-7, all-5)
+poss(support-7, your-6)
+pobj(for-4, support-7)
+prep(support-7, for-8)
+poss(book-11, my-9)
+amod(book-11, upcoming-10)
+pobj(for-8, book-11)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NN book))
+    (VP (MD will)
+      (VP (VB be)
+        (VP
+          (ADVP (RB officially))
+          (VBN launched)
+          (NP (DT this) (NNP Saturday)))))
+    (, ,)))
+
+
+det(book-2, The-1)
+nsubjpass(launched-6, book-2)
+aux(launched-6, will-3)
+auxpass(launched-6, be-4)
+advmod(launched-6, officially-5)
+root(ROOT-0, launched-6)
+det(Saturday-8, this-7)
+tmod(launched-6, Saturday-8)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (CD 18) (NNS Dec))
+      (CC and)
+      (NP (PRP I)))
+    (VP (MD will)
+      (VP (VB be)
+        (PP (IN at)
+          (NP
+            (NP (NNP Littered))
+            (PP (IN with)
+              (NP
+                (NP (NNS Books))
+                (PP (IN at)
+                  (NP (NNP 20) (NNP Duxton) (NNP Road)))))))
+        (S
+          (VP (TO to)
+            (VP (VB talk)
+              (PP (IN about)
+                (NP (DT the) (NN book))))))))
+    (. .)))
+
+
+num(Dec-2, 18-1)
+nsubj(be-6, Dec-2)
+cc(Dec-2, and-3)
+conj(Dec-2, I-4)
+aux(be-6, will-5)
+root(ROOT-0, be-6)
+prep(be-6, at-7)
+pobj(at-7, Littered-8)
+prep(Littered-8, with-9)
+pobj(with-9, Books-10)
+prep(Books-10, at-11)
+nn(Road-14, 20-12)
+nn(Road-14, Duxton-13)
+pobj(at-11, Road-14)
+aux(talk-16, to-15)
+xcomp(be-6, talk-16)
+prep(talk-16, about-17)
+det(book-19, the-18)
+pobj(about-17, book-19)
+
+
+(ROOT
+  (SBAR (RB Even) (IN if)
+    (S
+      (NP (PRP you))
+      (VP (MD ca) (RB n't)
+        (VP (VB attend)
+          (NP (DT the) (NN talk))))
+      (, ,))))
+
+
+advmod(attend-6, Even-1)
+mark(attend-6, if-2)
+nsubj(attend-6, you-3)
+aux(attend-6, ca-4)
+neg(attend-6, n't-5)
+root(ROOT-0, attend-6)
+det(talk-8, the-7)
+dobj(attend-6, talk-8)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (MD can)
+      (ADVP (RB still))
+      (VP (VB drop)
+        (PRT (RP in))
+        (PP (IN between)
+          (NP (CD 7pm)
+            (CC and)
+            (CD 9pm)))
+        (S
+          (VP (TO to)
+            (VP (VB pick)
+              (PRT (RP up))
+              (NP
+                (NP (JJ autographed) (NNS copies))
+                (PP (IN of)
+                  (NP (DT the) (NN book)))))))))
+    (. .)))
+
+
+nsubj(drop-4, you-1)
+aux(drop-4, can-2)
+advmod(drop-4, still-3)
+root(ROOT-0, drop-4)
+prt(drop-4, in-5)
+prep(drop-4, between-6)
+pobj(between-6, 7pm-7)
+cc(7pm-7, and-8)
+conj(7pm-7, 9pm-9)
+aux(pick-11, to-10)
+xcomp(drop-4, pick-11)
+prt(pick-11, up-12)
+amod(copies-14, autographed-13)
+dobj(pick-11, copies-14)
+prep(copies-14, of-15)
+det(book-17, the-16)
+pobj(of-15, book-17)
+
+
+(ROOT
+  (SQ (CC But)
+    (FRAG
+      (ADVP (RB better))
+      (SBAR
+        (ADVP (RB still))
+        (IN if)
+        (S
+          (NP (PRP you))
+          (VP (MD can)
+            (VP (VB get)
+              (S
+                (NP (DT the) (NNS tickets))
+                (VP (TO to)
+                  (VP (VB join)
+                    (NP (PRP us))
+                    (PP (IN for)
+                      (NP
+                        (NP (NN wine))
+                        (CC and)
+                        (NP (NNP Bak) (NNP Kwa))))))))))))
+    (. !)))
+
+
+root(ROOT-0, But-1)
+dep(But-1, better-2)
+advmod(get-7, still-3)
+mark(get-7, if-4)
+nsubj(get-7, you-5)
+aux(get-7, can-6)
+dep(better-2, get-7)
+det(tickets-9, the-8)
+nsubj(join-11, tickets-9)
+aux(join-11, to-10)
+xcomp(get-7, join-11)
+dobj(join-11, us-12)
+prep(join-11, for-13)
+pobj(for-13, wine-14)
+cc(wine-14, and-15)
+nn(Kwa-17, Bak-16)
+conj(wine-14, Kwa-17)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB register)
+        (PP (IN by)
+          (S
+            (VP (VBG clicking)
+              (NP (DT this) (NN link)))))))
+    (. .)))
+
+
+nsubj(register-3, You-1)
+aux(register-3, can-2)
+root(ROOT-0, register-3)
+prep(register-3, by-4)
+pcomp(by-4, clicking-5)
+det(link-7, this-6)
+dobj(clicking-5, link-7)
+
+
+(ROOT
+  (S
+    (VP (VB See)
+      (S
+        (NP (PRP you))
+        (NP (DT this) (NNP Saturday))))
+    (. !)))
+
+
+root(ROOT-0, See-1)
+nsubj(Saturday-4, you-2)
+det(Saturday-4, this-3)
+xcomp(See-1, Saturday-4)
+
+
+(ROOT
+  (NP (NNP View) (NNP Larger) (NNP Map)))
+
+
+nn(Map-3, View-1)
+nn(Map-3, Larger-2)
+root(ROOT-0, Map-3)
+
+

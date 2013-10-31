@@ -1,0 +1,206 @@
+(ROOT
+  (S
+    (NP (DT This) (NN stall))
+    (VP (VBZ is)
+      (ADJP (JJ closed)))
+    (. .)))
+
+
+det(stall-2, This-1)
+nsubj(closed-4, stall-2)
+cop(closed-4, is-3)
+root(ROOT-0, closed-4)
+
+
+(ROOT
+  (SBARQ
+    (WHNP (WDT Which)
+      (NP (NNP NUS) (NNP Alumni)))
+    (SQ
+      (VP (VBZ has) (RB n't)
+        (VP (VBN been)
+          (PP (TO to)
+            (NP (NNP Fong) (NNP Seng) (NNP Nasi) (NNP Lemak))))))
+    (. ?)))
+
+
+det(Alumni-3, Which-1)
+nn(Alumni-3, NUS-2)
+nsubj(been-6, Alumni-3)
+aux(been-6, has-4)
+neg(been-6, n't-5)
+root(ROOT-0, been-6)
+prep(been-6, to-7)
+nn(Lemak-11, Fong-8)
+nn(Lemak-11, Seng-9)
+nn(Lemak-11, Nasi-10)
+pobj(to-7, Lemak-11)
+
+
+(ROOT
+  (S
+    (NP (DT Some) (NNS places))
+    (ADVP (RB just))
+    (VP (VBP have)
+      (NP (DT the) (JJS best) (NN location)))
+    (. .)))
+
+
+det(places-2, Some-1)
+nsubj(have-4, places-2)
+advmod(have-4, just-3)
+root(ROOT-0, have-4)
+det(location-7, the-5)
+amod(location-7, best-6)
+dobj(have-4, location-7)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am) (RB not)
+      (NP (DT a) (NNP NUS) (NNP Alumni)))
+    (, ,)))
+
+
+nsubj(Alumni-6, I-1)
+cop(Alumni-6, am-2)
+neg(Alumni-6, not-3)
+det(Alumni-6, a-4)
+nn(Alumni-6, NUS-5)
+root(ROOT-0, Alumni-6)
+
+
+(ROOT
+  (S (CC but)
+    (NP (PRP I))
+    (VP (MD can)
+      (VP (VB imagine)
+        (NP (DT the) (NN scenario))))
+    (. .)))
+
+
+cc(imagine-4, but-1)
+nsubj(imagine-4, I-2)
+aux(imagine-4, can-3)
+root(ROOT-0, imagine-4)
+det(scenario-6, the-5)
+dobj(imagine-4, scenario-6)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP
+      (VP (VBP live)
+        (PP (IN in)
+          (NP (DT the) (NNP Hostel))))
+      (CC and)
+      (VP (VBP have)
+        (VP (VBN been)
+          (VP (VBG mugging)
+            (PP (IN for)
+              (NP (DT an) (NN exam)))))))
+    (. .)))
+
+
+nsubj(live-2, You-1)
+root(ROOT-0, live-2)
+prep(live-2, in-3)
+det(Hostel-5, the-4)
+pobj(in-3, Hostel-5)
+cc(live-2, and-6)
+aux(mugging-9, have-7)
+aux(mugging-9, been-8)
+conj(live-2, mugging-9)
+prep(mugging-9, for-10)
+det(exam-12, an-11)
+pobj(for-10, exam-12)
+
+
+(ROOT
+  (S
+    (ADVP (RB Suddenly))
+    (NP (PRP you))
+    (VP (VBP feel)
+      (NP (PRP$ your) (JJ tummy) (NN rumbling)))
+    (. .)))
+
+
+advmod(feel-3, Suddenly-1)
+nsubj(feel-3, you-2)
+root(ROOT-0, feel-3)
+poss(rumbling-6, your-4)
+amod(rumbling-6, tummy-5)
+dobj(feel-3, rumbling-6)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP
+      (VP (VBP look)
+        (PRT (RP up)))
+      (CC and)
+      (VP
+        (NP (PRP$ its) (NNS 2am))
+        (PP (IN in)
+          (NP (DT the) (NN morning)))))
+    (. .)))
+
+
+nsubj(look-2, You-1)
+root(ROOT-0, look-2)
+prt(look-2, up-3)
+cc(look-2, and-4)
+poss(2am-6, its-5)
+conj(look-2, 2am-6)
+prep(2am-6, in-7)
+det(morning-9, the-8)
+pobj(in-7, morning-9)
+
+
+(ROOT
+  (S
+    (NP (NNP No))
+    (VP (VBZ worries))
+    (, ,)))
+
+
+nsubj(worries-2, No-1)
+root(ROOT-0, worries-2)
+
+
+(ROOT
+  (S
+    (NP (EX there))
+    (VP (VBZ is)
+      (ADVP (RB always))
+      (NP
+        (NP (NNP Fong) (NNP Seng) (NNP Nasi) (NNP Lemak))
+        (ADVP (RB down)
+          (NP (DT the) (NN road)))))
+    (. !)))
+
+
+expl(is-2, there-1)
+root(ROOT-0, is-2)
+advmod(is-2, always-3)
+nn(Lemak-7, Fong-4)
+nn(Lemak-7, Seng-5)
+nn(Lemak-7, Nasi-6)
+nsubj(is-2, Lemak-7)
+advmod(Lemak-7, down-8)
+det(road-10, the-9)
+pobj(down-8, road-10)
+
+
+(ROOT
+  (S
+    (VP (VB Hurrah))
+    (. .)))
+
+
+root(ROOT-0, Hurrah-1)
+
+

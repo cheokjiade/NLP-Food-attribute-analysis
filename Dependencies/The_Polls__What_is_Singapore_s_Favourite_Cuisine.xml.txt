@@ -1,0 +1,365 @@
+(ROOT
+  (NP (RB Just) (DT a) (NN reminder)
+    (SBAR
+      (S
+        (VP (TO to)
+          (VP (VB nominate)
+            (NP (PRP$ your) (JJ favorite) (NN cuisine))))))
+    (. .)))
+
+
+advmod(reminder-3, Just-1)
+det(reminder-3, a-2)
+root(ROOT-0, reminder-3)
+aux(nominate-5, to-4)
+infmod(reminder-3, nominate-5)
+poss(cuisine-8, your-6)
+amod(cuisine-8, favorite-7)
+dobj(nominate-5, cuisine-8)
+
+
+(ROOT
+  (S
+    (NP (NNS Nominations))
+    (VP (MD will)
+      (VP (VB close)
+        (PP (IN by)
+          (NP
+            (NP (DT the) (NN end))
+            (PP (IN of)
+              (NP (DT the) (NN week)))))))
+    (. .)))
+
+
+nsubj(close-3, Nominations-1)
+aux(close-3, will-2)
+root(ROOT-0, close-3)
+prep(close-3, by-4)
+det(end-6, the-5)
+pobj(by-4, end-6)
+prep(end-6, of-7)
+det(week-9, the-8)
+pobj(of-7, week-9)
+
+
+(ROOT
+  (FRAG
+    (PP (IN For)
+      (NP (PRP$ our) (JJ next) (NN poll)))
+    (, ,)))
+
+
+root(ROOT-0, For-1)
+poss(poll-4, our-2)
+amod(poll-4, next-3)
+pobj(For-1, poll-4)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP
+      (VP (VBD thought)
+        (SBAR
+          (S
+            (NP (PRP it))
+            (VP (MD would)
+              (VP (VB be)
+                (ADJP (JJ interesting)
+                  (S
+                    (VP (TO to)
+                      (VP (VB see)
+                        (SBAR (IN if)
+                          (S
+                            (NP
+                              (NP (NNP Singaporean) (POS 's))
+                              (JJ favorite) (NN cuisine))
+                            (VP (VBZ is)
+                              (ADVP (RB indeed))
+                              (NP (NNP Singapore) (NN food))))))))))))))
+      (CC or)
+      (VP (VBP are)
+        (NP
+          (NP (NNP Sinagaporeans) (RB really) (NNPS Cosmopolitan))
+          (PP (IN in)
+            (NP (NN character)))))
+      (S
+        (VP (VBG going)
+          (PP (IN for)
+            (NP (NNP Japanese))))))
+    (, ,)))
+
+
+nsubj(thought-2, I-1)
+root(ROOT-0, thought-2)
+nsubj(interesting-6, it-3)
+aux(interesting-6, would-4)
+cop(interesting-6, be-5)
+ccomp(thought-2, interesting-6)
+aux(see-8, to-7)
+xcomp(interesting-6, see-8)
+mark(food-17, if-9)
+poss(cuisine-13, Singaporean-10)
+possessive(Singaporean-10, 's-11)
+amod(cuisine-13, favorite-12)
+nsubj(food-17, cuisine-13)
+cop(food-17, is-14)
+advmod(food-17, indeed-15)
+nn(food-17, Singapore-16)
+advcl(see-8, food-17)
+cc(thought-2, or-18)
+cop(Cosmopolitan-22, are-19)
+nn(Cosmopolitan-22, Sinagaporeans-20)
+advmod(Cosmopolitan-22, really-21)
+conj(thought-2, Cosmopolitan-22)
+prep(Cosmopolitan-22, in-23)
+pobj(in-23, character-24)
+xcomp(thought-2, going-25)
+prep(going-25, for-26)
+pobj(for-26, Japanese-27)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Indian))
+    (, ,)))
+
+
+root(ROOT-0, Indian-1)
+
+
+(ROOT
+  (NP (NNP Shanghainese) (NNP ,)))
+
+
+nn(,-2, Shanghainese-1)
+
+
+(ROOT
+  (FRAG
+    (PP (JJ Korean))
+    (, ,)))
+
+
+root(ROOT-0, Korean-1)
+
+
+(ROOT
+  (FRAG
+    (NP
+      (NP (NNP French))
+      (CC or)
+      (NP (JJ Italian) (NN cuisine)))
+    (. ?)))
+
+
+root(ROOT-0, French-1)
+cc(French-1, or-2)
+amod(cuisine-4, Italian-3)
+conj(French-1, cuisine-4)
+
+
+(ROOT
+  (FRAG
+    (PP (IN From)
+      (NP
+        (NP (NNS comments))
+        (PP (IN in)
+          (NP (PRP$ our) (NN Forum)))))
+    (, ,)))
+
+
+root(ROOT-0, From-1)
+pobj(From-1, comments-2)
+prep(comments-2, in-3)
+poss(Forum-5, our-4)
+pobj(in-3, Forum-5)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (MD would)
+      (VP (VB seem)
+        (SBAR (IN that)
+          (S
+            (NP (JJ Japanese)
+              (CC and)
+              (JJ Italian) (NNS cuisines))
+            (VP (VBP seem)
+              (S
+                (VP (TO to)
+                  (VP (VB be)
+                    (ADJP (RB quite) (JJ popular)
+                      (PP (IN amongst)
+                        (NP (PRP$ our) (NNS readers))))))))))))
+    (. .)))
+
+
+nsubj(seem-3, it-1)
+aux(seem-3, would-2)
+root(ROOT-0, seem-3)
+mark(seem-9, that-4)
+amod(cuisines-8, Japanese-5)
+cc(Japanese-5, and-6)
+conj(Japanese-5, Italian-7)
+nsubj(seem-9, cuisines-8)
+ccomp(seem-3, seem-9)
+aux(popular-13, to-10)
+cop(popular-13, be-11)
+advmod(popular-13, quite-12)
+xcomp(seem-9, popular-13)
+prep(popular-13, amongst-14)
+poss(readers-16, our-15)
+pobj(amongst-14, readers-16)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB read)
+        (NP (DT the) (NNS comments))
+        (ADVP (RB here))
+        (ADVP (RB So))
+        (VB tell)
+        (NP (PRP us))
+        (SBAR
+          (WHNP (WP what))
+          (S
+            (NP (PRP$ your) (JJ favorite) (NN cuisine))
+            (VP (VBZ is))))))
+    (. !)))
+
+
+nsubj(read-3, You-1)
+aux(read-3, can-2)
+root(ROOT-0, read-3)
+det(comments-5, the-4)
+dobj(read-3, comments-5)
+advmod(read-3, here-6)
+advmod(read-3, So-7)
+dep(read-3, tell-8)
+dobj(read-3, us-9)
+dobj(is-14, what-10)
+poss(cuisine-13, your-11)
+amod(cuisine-13, favorite-12)
+nsubj(is-14, cuisine-13)
+dep(read-3, is-14)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB nominate)
+        (PRT (RP up))
+        (PP (TO to)
+          (NP (CD 3) (NNS cuisines)))))
+    (. .)))
+
+
+nsubj(nominate-3, You-1)
+aux(nominate-3, can-2)
+root(ROOT-0, nominate-3)
+prt(nominate-3, up-4)
+prep(nominate-3, to-5)
+num(cuisines-7, 3-6)
+pobj(to-5, cuisines-7)
+
+
+(ROOT
+  (S
+    (NP (NNP Do))
+    (VP (VBP remember)
+      (SBAR (IN that)
+        (S
+          (NP (PRP you))
+          (VP (VBP have)
+            (S
+              (VP (TO to)
+                (VP (VB nominate)
+                  (NP (NNP Local) (NNP Singapore) (NNP Cuisine))
+                  (ADVP
+                    (ADVP (RB as) (RB well))
+                    (SBAR (IN if)
+                      (S
+                        (NP (PRP it))
+                        (VP (VBZ is)
+                          (NP
+                            (NP (PRP$ your) (NN top))
+                            (NP (CD 3))))))))))))))
+    (. .)))
+
+
+nsubj(remember-2, Do-1)
+root(ROOT-0, remember-2)
+mark(have-5, that-3)
+nsubj(have-5, you-4)
+ccomp(remember-2, have-5)
+aux(nominate-7, to-6)
+xcomp(have-5, nominate-7)
+nn(Cuisine-10, Local-8)
+nn(Cuisine-10, Singapore-9)
+dobj(nominate-7, Cuisine-10)
+advmod(well-12, as-11)
+advmod(nominate-7, well-12)
+mark(top-17, if-13)
+nsubj(top-17, it-14)
+cop(top-17, is-15)
+poss(top-17, your-16)
+dep(well-12, top-17)
+dep(top-17, 3-18)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD will)
+      (VP (VB start)))
+    (: :)))
+
+
+nsubj(start-3, I-1)
+aux(start-3, will-2)
+root(ROOT-0, start-3)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 1))
+    (. .)))
+
+
+root(ROOT-0, 1-1)
+
+
+(ROOT
+  (S
+    (NP (NNP Local) (NNP Singaporean))
+    (VP (VBZ Cuisine)
+      (NP (CD 2)))
+    (. .)))
+
+
+nn(Singaporean-2, Local-1)
+nsubj(Cuisine-3, Singaporean-2)
+root(ROOT-0, Cuisine-3)
+dobj(Cuisine-3, 2-4)
+
+
+(ROOT
+  (NP (NNP Chinese) (NNP 3) (. .)))
+
+
+nn(3-2, Chinese-1)
+root(ROOT-0, 3-2)
+
+
+(ROOT
+  (NP (NNP Japanese)))
+
+
+root(ROOT-0, Japanese-1)
+
+

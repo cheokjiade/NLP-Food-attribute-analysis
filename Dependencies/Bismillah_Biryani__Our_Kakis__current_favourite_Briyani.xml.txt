@@ -1,0 +1,252 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP
+            (NP (CD one))
+            (PP (IN of)
+              (NP
+                (NP (DT the)
+                  (ADJP (RBS most) (JJ gratifying))
+                  (NNS aspects))
+                (PP (IN of)
+                  (S
+                    (VP (VBG being)
+                      (NP (DT a) (NN foodie))))))))
+          (VP (VBZ is)
+            (SBAR
+              (SBAR
+                (WHADVP (WRB when))
+                (S
+                  (NP (PRP you))
+                  (VP (VBP discover)
+                    (S
+                      (NP (NN something))
+                      (ADJP (JJ tasty))
+                      (SBAR
+                        (WHNP (WDT which))
+                        (S
+                          (NP (PRP$ your) (NNS kakis))
+                          (VP (VBP have) (RB not)
+                            (VP (VBN tried)
+                              (ADVP (RB before))))))))))
+              (CC and)
+              (SBAR
+                (WHADVP (WRB when))
+                (S
+                  (NP (PRP you))
+                  (VP (VBP bring)
+                    (S
+                      (NP (PRP them))
+                      (VP (TO to)
+                        (VP (VB try)
+                          (NP (PRP it)))))))))))))
+    (, ,)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+nsubj(is-13, one-3)
+prep(one-3, of-4)
+det(aspects-8, the-5)
+advmod(gratifying-7, most-6)
+amod(aspects-8, gratifying-7)
+pobj(of-4, aspects-8)
+prep(aspects-8, of-9)
+cop(foodie-12, being-10)
+det(foodie-12, a-11)
+pcomp(of-9, foodie-12)
+ccomp(think-2, is-13)
+advmod(discover-16, when-14)
+nsubj(discover-16, you-15)
+dep(is-13, discover-16)
+nsubj(tried-24, something-17)
+dep(tried-24, tasty-18)
+dobj(tried-24, which-19)
+poss(kakis-21, your-20)
+nsubj(tried-24, kakis-21)
+aux(tried-24, have-22)
+neg(tried-24, not-23)
+xcomp(discover-16, tried-24)
+advmod(tried-24, before-25)
+cc(discover-16, and-26)
+advmod(bring-29, when-27)
+nsubj(bring-29, you-28)
+conj(discover-16, bring-29)
+nsubj(try-32, them-30)
+aux(try-32, to-31)
+xcomp(bring-29, try-32)
+dobj(try-32, it-33)
+
+
+(ROOT
+  (S
+    (NP (PRP they))
+    (VP (VB congratulate)
+      (NP (PRP you))
+      (PP (IN for)
+        (S
+          (VP (VBG having)
+            (VP (VBN discovered) (`` ``)
+              (S
+                (NP (DT the))
+                (VP (VB find)
+                  (PP (IN of)
+                    (NP (DT the) (NN century)))))
+              ('' ''))))))
+    (. .)))
+
+
+nsubj(congratulate-2, they-1)
+root(ROOT-0, congratulate-2)
+dobj(congratulate-2, you-3)
+prep(congratulate-2, for-4)
+aux(discovered-6, having-5)
+pcomp(for-4, discovered-6)
+nsubj(find-9, the-8)
+ccomp(discovered-6, find-9)
+prep(find-9, of-10)
+det(century-12, the-11)
+pobj(of-10, century-12)
+
+
+(ROOT
+  (FRAG
+    (PP (IN OK))
+    (, ,)))
+
+
+root(ROOT-0, OK-1)
+
+
+(ROOT
+  (S
+    (NP (PRP they))
+    (VP (VBD did) (RB not)
+      (ADVP (RB actually))
+      (VP (VB say)
+        (S (`` ``)
+          (NP (DT the))
+          (VP (VBP find)
+            (PP (IN of)
+              (NP (DT the) (NN century))))
+          ('' ''))))
+    (, ,)))
+
+
+nsubj(say-5, they-1)
+aux(say-5, did-2)
+neg(say-5, not-3)
+advmod(say-5, actually-4)
+root(ROOT-0, say-5)
+nsubj(find-8, the-7)
+ccomp(say-5, find-8)
+prep(find-8, of-9)
+det(century-11, the-10)
+pobj(of-9, century-11)
+
+
+(ROOT
+  (FRAG (CC but)
+    (RB maybe)
+    (NP
+      (NP (NN something) (NN close))
+      (PP (IN like) (`` ``)
+        (S
+          (VP (VB find)
+            (PP (IN of)
+              (NP (DT the) (NN year)))))
+        ('' '')))
+    (. .)))
+
+
+cc(maybe-2, but-1)
+root(ROOT-0, maybe-2)
+nn(close-4, something-3)
+dep(maybe-2, close-4)
+prep(close-4, like-5)
+dep(like-5, find-7)
+prep(find-7, of-8)
+det(year-10, the-9)
+pobj(of-8, year-10)
+
+
+(ROOT
+  (NP (NNP Granted) (NNP ,)))
+
+
+nn(,-2, Granted-1)
+
+
+(ROOT
+  (S
+    (NP (NNP Bismillah) (NNP Biryani))
+    (VP (MD might)
+      (ADVP (RB already))
+      (VP (VB have)
+        (VP (VBN been)
+          (VP
+            (ADVP (RB quite) (RB well))
+            (VBN known)))))
+    (, ,)))
+
+
+nn(Biryani-2, Bismillah-1)
+nsubjpass(known-9, Biryani-2)
+aux(known-9, might-3)
+advmod(known-9, already-4)
+aux(known-9, have-5)
+auxpass(known-9, been-6)
+advmod(well-8, quite-7)
+advmod(known-9, well-8)
+root(ROOT-0, known-9)
+
+
+(ROOT
+  (S (CC but)
+    (ADVP (IN at) (JJS least))
+    (VP (VBZ amongst)
+      (NP
+        (NP (PRP$ our) (NN group))
+        (PP (IN of)
+          (NP (JJ seasoned) (NNS Kakis)))))
+    (, ,)))
+
+
+cc(amongst-4, but-1)
+advmod(amongst-4, at-2)
+pobj(at-2, least-3)
+root(ROOT-0, amongst-4)
+poss(group-6, our-5)
+dobj(amongst-4, group-6)
+prep(group-6, of-7)
+amod(Kakis-9, seasoned-8)
+pobj(of-7, Kakis-9)
+
+
+(ROOT
+  (S
+    (NP (PRP they))
+    (ADVP (RB sure))
+    (VP (VBP have) (RB n't)
+      (VP (VBN heard)
+        (PP (IN about)
+          (NP (PRP it)))
+        (PP (IN until)
+          (NP (RB now)))))
+    (. .)))
+
+
+nsubj(heard-5, they-1)
+advmod(heard-5, sure-2)
+aux(heard-5, have-3)
+neg(heard-5, n't-4)
+root(ROOT-0, heard-5)
+prep(heard-5, about-6)
+pobj(about-6, it-7)
+prep(heard-5, until-8)
+pobj(until-8, now-9)
+
+

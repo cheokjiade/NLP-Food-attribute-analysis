@@ -1,0 +1,204 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD can)
+      (ADVP (RB just))
+      (VP (VB imagine)
+        (NP
+          (NP (DT the) (JJ first) (NN time))
+          (SBAR
+            (S
+              (NP (DT the) (NN cavemen))
+              (VP (VBD discovered)
+                (SBAR (IN that)
+                  (S
+                    (NP (NN meat))
+                    (VP (VBZ tastes)
+                      (ADVP (RBR better))
+                      (PP (IN after)
+                        (S
+                          (VP (VBG roasting)
+                            (NP (PRP it))
+                            (PP (IN over)
+                              (NP (DT an) (JJ open) (NN fire)))))))))))))))
+    (. .)))
+
+
+nsubj(imagine-4, I-1)
+aux(imagine-4, can-2)
+advmod(imagine-4, just-3)
+root(ROOT-0, imagine-4)
+det(time-7, the-5)
+amod(time-7, first-6)
+dobj(imagine-4, time-7)
+det(cavemen-9, the-8)
+nsubj(discovered-10, cavemen-9)
+rcmod(time-7, discovered-10)
+mark(tastes-13, that-11)
+nsubj(tastes-13, meat-12)
+ccomp(discovered-10, tastes-13)
+advmod(tastes-13, better-14)
+prep(tastes-13, after-15)
+pcomp(after-15, roasting-16)
+dobj(roasting-16, it-17)
+prep(roasting-16, over-18)
+det(fire-21, an-19)
+amod(fire-21, open-20)
+pobj(over-18, fire-21)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (MD must)
+      (VP (VB have)
+        (VP (VBN been)
+          (NP
+            (NP (NN something))
+            (PP (IN like)
+              (NP (DT this) (NN steak)))))))
+    (. .)))
+
+
+nsubj(something-5, It-1)
+aux(something-5, must-2)
+aux(something-5, have-3)
+cop(something-5, been-4)
+root(ROOT-0, something-5)
+prep(something-5, like-6)
+det(steak-8, this-7)
+pobj(like-6, steak-8)
+
+
+(ROOT
+  (S
+    (VP (VBN Charred)
+      (PP (IN on)
+        (NP (DT the) (NN outside)))
+      (, ,))))
+
+
+root(ROOT-0, Charred-1)
+prep(Charred-1, on-2)
+det(outside-4, the-3)
+pobj(on-2, outside-4)
+
+
+(ROOT
+  (FRAG
+    (ADJP
+      (ADJP (NN medium) (JJ rare))
+      (PP (IN on)
+        (NP (DT the) (NN inside))))
+    (. .)))
+
+
+npadvmod(rare-2, medium-1)
+root(ROOT-0, rare-2)
+prep(rare-2, on-3)
+det(inside-5, the-4)
+pobj(on-3, inside-5)
+
+
+(ROOT
+  (S
+    (NP (NNP Tender)
+      (CC and)
+      (NNP oh))
+    (ADJP (RB so) (JJ juicy))
+    (. .)))
+
+
+dep(juicy-5, Tender-1)
+cc(Tender-1, and-2)
+conj(Tender-1, oh-3)
+advmod(juicy-5, so-4)
+root(ROOT-0, juicy-5)
+
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBZ 's)
+      (NP
+        (NP (NN nothing))
+        (PP (IN like)
+          (NP (DT a) (VBN charred) (NN steak)
+            (S
+              (VP (TO to)
+                (VP (VB bring)
+                  (PRT (RP out))
+                  (NP
+                    (NP (DT the) (NN caveman))
+                    (PP (IN in)
+                      (NP (PRP you)))))))))))
+    (. .)))
+
+
+expl('s-2, There-1)
+root(ROOT-0, 's-2)
+nsubj('s-2, nothing-3)
+prep(nothing-3, like-4)
+det(steak-7, a-5)
+amod(steak-7, charred-6)
+pobj(like-4, steak-7)
+aux(bring-9, to-8)
+infmod(steak-7, bring-9)
+prt(bring-9, out-10)
+det(caveman-12, the-11)
+dobj(bring-9, caveman-12)
+prep(caveman-12, in-13)
+pobj(in-13, you-14)
+
+
+(ROOT
+  (S (`` ``)
+    (VP (VB Captain)
+      (NP (NNP Cavemaaaaaannn)))
+    (. !)))
+
+
+root(ROOT-0, Captain-2)
+dobj(Captain-2, Cavemaaaaaannn-3)
+
+
+(ROOT
+  (NP (FW '') (. .)))
+
+
+
+
+(ROOT
+  (NP (NNP Ahem) (NNP ,)))
+
+
+nn(,-2, Ahem-1)
+
+
+(ROOT
+  (FRAG
+    (PP (IN sorry))
+    (, ,)))
+
+
+root(ROOT-0, sorry-1)
+
+
+(ROOT
+  (S (CC but)
+    (NP (PRP I))
+    (VP (VBP get)
+      (ADJP (JJ excited))
+      (PP (IN about)
+        (NP (NNS steaks))))
+    (. .)))
+
+
+cc(excited-4, but-1)
+nsubj(excited-4, I-2)
+dep(excited-4, get-3)
+root(ROOT-0, excited-4)
+prep(excited-4, about-5)
+pobj(about-5, steaks-6)
+
+

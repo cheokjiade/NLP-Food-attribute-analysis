@@ -1,0 +1,289 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP (NN everyone))
+          (VP (VBD had)
+            (NP
+              (NP (DT a) (JJ great) (NN afternoon))
+              (VP (VBG learning)
+                (PP (IN about)
+                  (SBAR
+                    (WHADVP (WRB how))
+                    (S
+                      (NP
+                        (NP (DT the) (JJ different) (NNS flavors))
+                        (PP (IN of)
+                          (NP (NN ice) (NN cream))))
+                      (VP (VBD were)
+                        (VP (VBN inspired))))))))))))
+    (. .)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+nsubj(had-4, everyone-3)
+ccomp(think-2, had-4)
+det(afternoon-7, a-5)
+amod(afternoon-7, great-6)
+dobj(had-4, afternoon-7)
+partmod(afternoon-7, learning-8)
+prep(learning-8, about-9)
+advmod(inspired-18, how-10)
+det(flavors-13, the-11)
+amod(flavors-13, different-12)
+nsubjpass(inspired-18, flavors-13)
+prep(flavors-13, of-14)
+nn(cream-16, ice-15)
+pobj(of-14, cream-16)
+auxpass(inspired-18, were-17)
+pcomp(about-9, inspired-18)
+
+
+(ROOT
+  (NP
+    (NP (NNS Towards))
+    (NP
+      (NP (DT the) (NN end))
+      (PP (IN of)
+        (NP
+          (NP (DT the) (NNS sessions))
+          (, ,))))))
+
+
+root(ROOT-0, Towards-1)
+det(end-3, the-2)
+dep(Towards-1, end-3)
+prep(end-3, of-4)
+det(sessions-6, the-5)
+pobj(of-4, sessions-6)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (ADVP (DT all))
+    (VP (VBD had)
+      (NP
+        (NP (NN fun))
+        (PP (IN with)
+          (NP
+            (NP (DT the) (NNP Super) (NNP Sour) (NNP Lemon) (NN flavor))
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (VP
+                  (VP (VBD got)
+                    (NP
+                      (NP (NN everyone) (POS 's))
+                      (NN hair) (NN standing)))
+                  (CC and)
+                  (VP (VBZ faces)
+                    (S
+                      (VP (VBG cringing)))))))))))
+    (. .)))
+
+
+nsubj(had-3, we-1)
+advmod(had-3, all-2)
+root(ROOT-0, had-3)
+dobj(had-3, fun-4)
+prep(fun-4, with-5)
+det(flavor-10, the-6)
+nn(flavor-10, Super-7)
+nn(flavor-10, Sour-8)
+nn(flavor-10, Lemon-9)
+pobj(with-5, flavor-10)
+nsubj(got-12, which-11)
+rcmod(flavor-10, got-12)
+poss(standing-16, everyone-13)
+possessive(everyone-13, 's-14)
+nn(standing-16, hair-15)
+dobj(got-12, standing-16)
+cc(got-12, and-17)
+conj(got-12, faces-18)
+xcomp(faces-18, cringing-19)
+
+
+(ROOT
+  (S
+    (NP (NN Everyone))
+    (VP (VBD had)
+      (S
+        (VP (TO to)
+          (VP (VB sign)
+            (NP (DT an) (JJ indemnity) (NN form))
+            (SBAR (IN before)
+              (S
+                (NP (PRP they))
+                (VP (VBP are)
+                  (VP (VBN allowed)
+                    (S
+                      (VP (TO to)
+                        (VP (VB taste)
+                          (NP (DT the) (NN ice) (NN cream)))))))))))))
+    (. .)))
+
+
+nsubj(had-2, Everyone-1)
+root(ROOT-0, had-2)
+aux(sign-4, to-3)
+xcomp(had-2, sign-4)
+det(form-7, an-5)
+amod(form-7, indemnity-6)
+dobj(sign-4, form-7)
+mark(allowed-11, before-8)
+nsubjpass(allowed-11, they-9)
+auxpass(allowed-11, are-10)
+advcl(sign-4, allowed-11)
+aux(taste-13, to-12)
+xcomp(allowed-11, taste-13)
+det(cream-16, the-14)
+nn(cream-16, ice-15)
+dobj(taste-13, cream-16)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (ADVP (RB also))
+    (VP (VBD had)
+      (NP
+        (NP (JJ medical) (NN staff))
+        (PP (IN on)
+          (NP
+            (NP (NN hand) (RB just))
+            (PP (IN in)
+              (NP (NN case)))))))
+    (. .)))
+
+
+nsubj(had-3, We-1)
+advmod(had-3, also-2)
+root(ROOT-0, had-3)
+amod(staff-5, medical-4)
+dobj(had-3, staff-5)
+prep(staff-5, on-6)
+pobj(on-6, hand-7)
+advmod(hand-7, just-8)
+prep(hand-7, in-9)
+pobj(in-9, case-10)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Oh))
+    (, ,)))
+
+
+root(ROOT-0, Oh-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am) (RB not)
+      (VP (VBG referring)
+        (PP (TO to)
+          (NP (PRP myself)))))
+    (. .)))
+
+
+nsubj(referring-4, I-1)
+aux(referring-4, am-2)
+neg(referring-4, not-3)
+root(ROOT-0, referring-4)
+prep(referring-4, to-5)
+pobj(to-5, myself-6)
+
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBD were)
+      (NP
+        (NP (CD three) (JJ other) (NNS doctors))
+        (ADJP (JJ present)
+          (PP (IN in)
+            (NP
+              (NP (DT the) (JJ first) (NN session))
+              (CC and)
+              (NP (CD one))))))
+      (PP (IN in)
+        (NP (DT the) (NN second))))
+    (. .)))
+
+
+expl(were-2, There-1)
+root(ROOT-0, were-2)
+num(doctors-5, three-3)
+amod(doctors-5, other-4)
+nsubj(were-2, doctors-5)
+amod(doctors-5, present-6)
+prep(present-6, in-7)
+det(session-10, the-8)
+amod(session-10, first-9)
+pobj(in-7, session-10)
+cc(session-10, and-11)
+conj(session-10, one-12)
+prep(were-2, in-13)
+det(second-15, the-14)
+pobj(in-13, second-15)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ Good) (NN thing))
+      (SBAR
+        (S
+          (NP (PRP we))
+          (VP (VBD did) (RB not)
+            (VP (VB have)
+              (S
+                (VP (TO to)
+                  (VP (VB perform)
+                    (S
+                      (NP (NNP CPR))
+                      (VP (VBG seeing)
+                        (SBAR (IN that)
+                          (S
+                            (NP (PRP we))
+                            (VP (VBD were)
+                              (VP (VBG mixing)))))))))))))))
+    (VP (VBZ durians)
+      (NP (NN ice) (NN cream)
+        (CC and)
+        (NN ice) (NNS creams))
+      (PP (IN with)
+        (NP (JJ hard) (NN liquor))))
+    (. !)))
+
+
+amod(thing-2, Good-1)
+nsubj(durians-15, thing-2)
+nsubj(have-6, we-3)
+aux(have-6, did-4)
+neg(have-6, not-5)
+rcmod(thing-2, have-6)
+aux(perform-8, to-7)
+xcomp(have-6, perform-8)
+nsubj(seeing-10, CPR-9)
+dep(perform-8, seeing-10)
+mark(mixing-14, that-11)
+nsubj(mixing-14, we-12)
+aux(mixing-14, were-13)
+ccomp(seeing-10, mixing-14)
+root(ROOT-0, durians-15)
+nn(cream-17, ice-16)
+dobj(durians-15, cream-17)
+cc(cream-17, and-18)
+nn(creams-20, ice-19)
+conj(cream-17, creams-20)
+prep(durians-15, with-21)
+amod(liquor-23, hard-22)
+pobj(with-21, liquor-23)
+
+

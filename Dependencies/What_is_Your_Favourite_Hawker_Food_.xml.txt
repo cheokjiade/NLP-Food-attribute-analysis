@@ -1,0 +1,233 @@
+(ROOT
+  (FRAG
+    (PP (IN For)
+      (NP (DT the) (JJ next) (NN poll)))
+    (, ,)))
+
+
+root(ROOT-0, For-1)
+det(poll-4, the-2)
+amod(poll-4, next-3)
+pobj(For-1, poll-4)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (VP (MD will)
+      (VP (VB try)
+        (S
+          (VP (TO to)
+            (VP (VB find)
+              (PRT (RP out))
+              (SBAR (IN if)
+                (S
+                  (NP (RB there) (WDT which))
+                  (VP (VBZ is)
+                    (NP (DT the) (NN number) (NN one))))))))))
+    (, ,)))
+
+
+nsubj(try-3, we-1)
+aux(try-3, will-2)
+root(ROOT-0, try-3)
+aux(find-5, to-4)
+xcomp(try-3, find-5)
+prt(find-5, out-6)
+mark(one-13, if-7)
+advmod(which-9, there-8)
+nsubj(one-13, which-9)
+cop(one-13, is-10)
+det(one-13, the-11)
+nn(one-13, number-12)
+advcl(find-5, one-13)
+
+
+(ROOT
+  (S
+    (NP
+      (ADJP (RBS most) (JJ favorite))
+      (NN hawker))
+    (VP (VBZ dish)
+      (PP (IN amongst)
+        (NP (PRP$ our) (NNS readers))))
+    (. .)))
+
+
+advmod(favorite-2, most-1)
+amod(hawker-3, favorite-2)
+nsubj(dish-4, hawker-3)
+root(ROOT-0, dish-4)
+prep(dish-4, amongst-5)
+poss(readers-7, our-6)
+pobj(amongst-5, readers-7)
+
+
+(ROOT
+  (SBAR (IN Since)
+    (S
+      (NP (EX there))
+      (VP (VBP are)
+        (ADVP (RB so))
+        (NP (JJ many) (NNS dishes)))
+      (, ,))))
+
+
+mark(are-3, Since-1)
+expl(are-3, there-2)
+root(ROOT-0, are-3)
+advmod(are-3, so-4)
+amod(dishes-6, many-5)
+nsubj(are-3, dishes-6)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD would)
+      (VP (VB like)
+        (S
+          (NP (PRP you))
+          (RB all)
+          (VP (VB nominate)
+            (NP (PRP$ your) (JJ favorite) (NN fare))))))
+    (. .)))
+
+
+nsubj(like-3, I-1)
+aux(like-3, would-2)
+root(ROOT-0, like-3)
+nsubj(nominate-6, you-4)
+advmod(nominate-6, all-5)
+ccomp(like-3, nominate-6)
+poss(fare-9, your-7)
+amod(fare-9, favorite-8)
+dobj(nominate-6, fare-9)
+
+
+(ROOT
+  (S
+    (PP (IN From)
+      (NP (RB there)))
+    (NP (PRP we))
+    (VP (MD will)
+      (VP (VB narrow)
+        (PRT (RP down))
+        (PP (TO to)
+          (NP (DT the) (JJ top) (CD 10) (NNS nominees)))
+        (SBAR (IN before)
+          (S
+            (NP (PRP we))
+            (VP (VBP start)
+              (NP (DT the) (NNS polls)))))))
+    (. .)))
+
+
+prep(narrow-5, From-1)
+pobj(From-1, there-2)
+nsubj(narrow-5, we-3)
+aux(narrow-5, will-4)
+root(ROOT-0, narrow-5)
+prt(narrow-5, down-6)
+prep(narrow-5, to-7)
+det(nominees-11, the-8)
+amod(nominees-11, top-9)
+num(nominees-11, 10-10)
+pobj(to-7, nominees-11)
+mark(start-14, before-12)
+nsubj(start-14, we-13)
+advcl(narrow-5, start-14)
+det(polls-16, the-15)
+dobj(start-14, polls-16)
+
+
+(ROOT
+  (FRAG
+    (PP (IN OK)
+      (NP (NNS people)))
+    (, ,)))
+
+
+root(ROOT-0, OK-1)
+pobj(OK-1, people-2)
+
+
+(ROOT
+  (S
+    (INTJ (VB please))
+    (VP (VB write)
+      (PRT (RP in))
+      (S
+        (VP (TO to)
+          (VP (VB nominate)
+            (NP (PRP$ your) (JJ favorite) (NN hawker) (NN dish))))))
+    (. !)))
+
+
+discourse(write-2, please-1)
+root(ROOT-0, write-2)
+prt(write-2, in-3)
+aux(nominate-5, to-4)
+xcomp(write-2, nominate-5)
+poss(dish-9, your-6)
+amod(dish-9, favorite-7)
+nn(dish-9, hawker-8)
+dobj(nominate-5, dish-9)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD may)
+      (VP (VB nominate)
+        (PRT (RP up))
+        (PP (TO to)
+          (NP (CD 3) (NNS dishes)))))
+    (. !)))
+
+
+nsubj(nominate-3, You-1)
+aux(nominate-3, may-2)
+root(ROOT-0, nominate-3)
+prt(nominate-3, up-4)
+prep(nominate-3, to-5)
+num(dishes-7, 3-6)
+pobj(to-5, dishes-7)
+
+
+(ROOT
+  (NP
+    (NP (PRP$ My) (JJ top) (NNP 3))
+    (VP (VBP are))
+    (: :)))
+
+
+poss(3-3, My-1)
+amod(3-3, top-2)
+root(ROOT-0, 3-3)
+dep(3-3, are-4)
+
+
+(ROOT
+  (S
+    (NP (NNP Hokkien))
+    (VP (VBZ Mee))
+    (, ,)))
+
+
+nsubj(Mee-2, Hokkien-1)
+root(ROOT-0, Mee-2)
+
+
+(ROOT
+  (NP (NNP Satay)
+    (CC and)
+    (NNP Char) (NNP Siew) (. !)))
+
+
+nn(Siew-4, Satay-1)
+cc(Satay-1, and-2)
+conj(Satay-1, Char-3)
+root(ROOT-0, Siew-4)
+
+

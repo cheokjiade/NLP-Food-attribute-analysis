@@ -1,0 +1,398 @@
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNS results))
+      (PP (IN for)
+        (NP
+          (NP (NNP Singapore) (POS 's))
+          (JJ favorite) (NN dessert))))
+    (VP (VBP are)
+      (PP (IN in)))
+    (. !)))
+
+
+det(results-2, The-1)
+nsubj(are-8, results-2)
+prep(results-2, for-3)
+poss(dessert-7, Singapore-4)
+possessive(Singapore-4, 's-5)
+amod(dessert-7, favorite-6)
+pobj(for-3, dessert-7)
+root(ROOT-0, are-8)
+prep(are-8, in-9)
+
+
+(ROOT
+  (NP
+    (NP (NNS Thanks))
+    (PP (TO to)
+      (NP
+        (NP (DT the) (CD 110) (NNS people))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBD wrote)
+              (PRT (RP in))
+              (PP (IN with)
+                (NP (PRP$ their) (NNS nominations))))))))
+    (. .)))
+
+
+root(ROOT-0, Thanks-1)
+prep(Thanks-1, to-2)
+det(people-5, the-3)
+num(people-5, 110-4)
+pobj(to-2, people-5)
+nsubj(wrote-7, who-6)
+rcmod(people-5, wrote-7)
+prt(wrote-7, in-8)
+prep(wrote-7, with-9)
+poss(nominations-11, their-10)
+pobj(with-9, nominations-11)
+
+
+(ROOT
+  (S
+    (ADVP (RB Here))
+    (ADVP (RB then))
+    (VP (VBP are)
+      (NP
+        (NP (DT the) (JJ top) (CD 8))
+        (PP (IN in)
+          (NP (DT no) (JJ particular) (NN order)))))
+    (: :)))
+
+
+advmod(8-6, Here-1)
+advmod(8-6, then-2)
+cop(8-6, are-3)
+det(8-6, the-4)
+amod(8-6, top-5)
+root(ROOT-0, 8-6)
+prep(8-6, in-7)
+det(order-10, no-8)
+amod(order-10, particular-9)
+pobj(in-7, order-10)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 1))
+    (. .)))
+
+
+root(ROOT-0, 1-1)
+
+
+(ROOT
+  (NP
+    (NP (NNP Cheng) (NNP Tng))
+    (NP (CD 2))
+    (. .)))
+
+
+nn(Tng-2, Cheng-1)
+root(ROOT-0, Tng-2)
+dep(Tng-2, 2-3)
+
+
+(ROOT
+  (S
+    (NP (NNP Bean))
+    (VP (VBD Curd)
+      (NP (CD 3)))
+    (. .)))
+
+
+nsubj(Curd-2, Bean-1)
+root(ROOT-0, Curd-2)
+dobj(Curd-2, 3-3)
+
+
+(ROOT
+  (S
+    (VP (VB Yam)
+      (NP (NNP Paste) (CD 4)))
+    (. .)))
+
+
+root(ROOT-0, Yam-1)
+dobj(Yam-1, Paste-2)
+num(Paste-2, 4-3)
+
+
+(ROOT
+  (NP
+    (NP (NNP Sesame) (NNP Paste))
+    (NP (CD 5))
+    (. .)))
+
+
+nn(Paste-2, Sesame-1)
+root(ROOT-0, Paste-2)
+dep(Paste-2, 5-3)
+
+
+(ROOT
+  (S
+    (INTJ (UH Ah))
+    (VP (VB Balling)
+      (NP (CD 6)))
+    (. .)))
+
+
+discourse(Balling-2, Ah-1)
+root(ROOT-0, Balling-2)
+dobj(Balling-2, 6-3)
+
+
+(ROOT
+  (NP
+    (NP (NNP Ice) (NNP Kachang))
+    (NP (CD 7))
+    (. .)))
+
+
+nn(Kachang-2, Ice-1)
+root(ROOT-0, Kachang-2)
+dep(Kachang-2, 7-3)
+
+
+(ROOT
+  (S
+    (VP (VB Chendol)
+      (NP (CD 8)))
+    (. .)))
+
+
+root(ROOT-0, Chendol-1)
+dobj(Chendol-1, 8-2)
+
+
+(ROOT
+  (S
+    (NP (NNP Tau) (NNP Suan) (NN Everyone))
+    (VP (VBZ gets)
+      (S
+        (VP (TO to)
+          (VP (VB choose)
+            (NP
+              (NP (CD 3))
+              (PP (IN of)
+                (NP (PRP$ their) (JJ favorite) (NNS desserts))))))))
+    (. .)))
+
+
+nn(Everyone-3, Tau-1)
+nn(Everyone-3, Suan-2)
+nsubj(gets-4, Everyone-3)
+root(ROOT-0, gets-4)
+aux(choose-6, to-5)
+xcomp(gets-4, choose-6)
+dobj(choose-6, 3-7)
+prep(3-7, of-8)
+poss(desserts-11, their-9)
+amod(desserts-11, favorite-10)
+pobj(of-8, desserts-11)
+
+
+(ROOT
+  (NP (JJ Last) (NN year) (NNS ,)))
+
+
+amod(,-3, Last-1)
+nn(,-3, year-2)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT a) (NN lot))
+      (PP (IN of)
+        (NP (NNS people))))
+    (VP (VBD were)
+      (VP (VBN surprised)
+        (SBAR (IN that)
+          (S
+            (NP (NNP Hokkien) (NNP Mee))
+            (VP (VBD edged)
+              (PRT (RP out))
+              (NP
+                (NP (NNP Chicken) (NNP Rice))
+                (PP (IN as)
+                  (NP
+                    (NP (NNP Singapore) (POS 's))
+                    (JJ favorite) (NNP Hawker) (NNP Food)))))))))
+    (. .)))
+
+
+det(lot-2, a-1)
+nsubjpass(surprised-6, lot-2)
+prep(lot-2, of-3)
+pobj(of-3, people-4)
+auxpass(surprised-6, were-5)
+root(ROOT-0, surprised-6)
+mark(edged-10, that-7)
+nn(Mee-9, Hokkien-8)
+nsubj(edged-10, Mee-9)
+ccomp(surprised-6, edged-10)
+prt(edged-10, out-11)
+nn(Rice-13, Chicken-12)
+dobj(edged-10, Rice-13)
+prep(Rice-13, as-14)
+poss(Food-19, Singapore-15)
+possessive(Singapore-15, 's-16)
+amod(Food-19, favorite-17)
+nn(Food-19, Hawker-18)
+pobj(as-14, Food-19)
+
+
+(ROOT
+  (SQ (MD Will)
+    (NP (EX there))
+    (VP (VB be)
+      (NP
+        (NP (DT any) (NNS surprises))
+        (PP (IN in)
+          (NP (DT the) (NNP Dessert) (NN category)))))
+    (. ?)))
+
+
+aux(be-3, Will-1)
+expl(be-3, there-2)
+root(ROOT-0, be-3)
+det(surprises-5, any-4)
+dep(be-3, surprises-5)
+prep(surprises-5, in-6)
+det(category-9, the-7)
+nn(category-9, Dessert-8)
+pobj(in-6, category-9)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NNS Polls))
+    (VP (VBP are)
+      (ADVP (RB now))
+      (VP (VBN opened)))
+    (. .)))
+
+
+det(Polls-2, The-1)
+nsubjpass(opened-5, Polls-2)
+auxpass(opened-5, are-3)
+advmod(opened-5, now-4)
+root(ROOT-0, opened-5)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB pick)
+        (NP
+          (NP (PRP$ your) (JJ top) (CD 3) (NNS desserts))
+          (PP (IN from)
+            (NP (DT the) (NN polling) (NN widget))))
+        (PP (IN in)
+          (NP (DT the) (JJ right) (NN column)))))
+    (. .)))
+
+
+nsubj(pick-3, You-1)
+aux(pick-3, can-2)
+root(ROOT-0, pick-3)
+poss(desserts-7, your-4)
+amod(desserts-7, top-5)
+num(desserts-7, 3-6)
+dobj(pick-3, desserts-7)
+prep(desserts-7, from-8)
+det(widget-11, the-9)
+nn(widget-11, polling-10)
+pobj(from-8, widget-11)
+prep(pick-3, in-12)
+det(column-15, the-13)
+amod(column-15, right-14)
+pobj(in-12, column-15)
+
+
+(ROOT
+  (FRAG (RB So) (JJ ,)))
+
+
+root(ROOT-0, So-1)
+
+
+(ROOT
+  (SBARQ
+    (WHNP (WP what))
+    (SQ (VBP are)
+      (NP
+        (NP (PRP$ your) (NNS predictions))
+        (PP (IN for)
+          (NP
+            (NP (NNP Singapore) (POS 's))
+            (JJ favorite) (NN dessert)))))
+    (. ?)))
+
+
+attr(are-2, what-1)
+root(ROOT-0, are-2)
+poss(predictions-4, your-3)
+nsubj(are-2, predictions-4)
+prep(predictions-4, for-5)
+poss(dessert-9, Singapore-6)
+possessive(Singapore-6, 's-7)
+amod(dessert-9, favorite-8)
+pobj(for-5, dessert-9)
+
+
+(ROOT
+  (S
+    (NP (NNS Thanks))
+    (VP (TO to)
+      (VP (VB holydrummer)
+        (PP (IN for)
+          (S
+            (VP (VBG consolidating)
+              (NP (DT the) (NNS numbers))
+              (PP (IN for)
+                (NP (PRP me))))))))
+    (. .)))
+
+
+nsubj(holydrummer-3, Thanks-1)
+aux(holydrummer-3, to-2)
+root(ROOT-0, holydrummer-3)
+prep(holydrummer-3, for-4)
+pcomp(for-4, consolidating-5)
+det(numbers-7, the-6)
+dobj(consolidating-5, numbers-7)
+prep(consolidating-5, for-8)
+pobj(for-8, me-9)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB have)
+        (NP
+          (NP (DT a) (NN look))
+          (PP (IN at)
+            (NP (PDT all) (DT the) (NNS nominations))))
+        (ADVP (RB here))))))
+
+
+nsubj(have-3, You-1)
+aux(have-3, can-2)
+root(ROOT-0, have-3)
+det(look-5, a-4)
+dobj(have-3, look-5)
+prep(look-5, at-6)
+predet(nominations-9, all-7)
+det(nominations-9, the-8)
+pobj(at-6, nominations-9)
+advmod(have-3, here-10)
+
+

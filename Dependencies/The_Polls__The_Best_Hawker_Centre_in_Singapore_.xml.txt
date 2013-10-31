@@ -1,0 +1,152 @@
+(ROOT
+  (NP
+    (NP (NNS Thanks))
+    (PP (TO to)
+      (NP
+        (NP (NN everyone))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBD wrote)
+              (PRT (RP in))
+              (PP (IN with)
+                (NP (PRP$ your) (NNS nominations))))))))
+    (. !)))
+
+
+root(ROOT-0, Thanks-1)
+prep(Thanks-1, to-2)
+pobj(to-2, everyone-3)
+nsubj(wrote-5, who-4)
+rcmod(everyone-3, wrote-5)
+prt(wrote-5, in-6)
+prep(wrote-5, with-7)
+poss(nominations-9, your-8)
+pobj(with-7, nominations-9)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP
+      (VP (VBD took)
+        (NP (DT a) (NN while))
+        (S
+          (VP (TO to)
+            (VP (VB count)
+              (NP (PDT all) (DT the) (NNS nominees))))))
+      (CC but)
+      (VP
+        (ADVP (RB here))
+        (VBP are)
+        (NP
+          (NP (DT the) (JJ Top) (CD Ten) (NNP Hawker) (NNS Centres))
+          (PP (IN as)
+            (NP
+              (NP (NNP nominated))
+              (PP (IN by)
+                (NP (PRP$ our) (NNS readers))))))))
+    (: :)))
+
+
+nsubj(took-2, It-1)
+root(ROOT-0, took-2)
+det(while-4, a-3)
+dobj(took-2, while-4)
+aux(count-6, to-5)
+xcomp(took-2, count-6)
+predet(nominees-9, all-7)
+det(nominees-9, the-8)
+dobj(count-6, nominees-9)
+cc(took-2, but-10)
+advmod(Centres-17, here-11)
+cop(Centres-17, are-12)
+det(Centres-17, the-13)
+amod(Centres-17, Top-14)
+num(Centres-17, Ten-15)
+nn(Centres-17, Hawker-16)
+conj(took-2, Centres-17)
+prep(Centres-17, as-18)
+pobj(as-18, nominated-19)
+prep(nominated-19, by-20)
+poss(readers-22, our-21)
+pobj(by-20, readers-22)
+
+
+(ROOT
+  (NP
+    (NP (NNP Old) (NNP Airport) (NNP Road) (NNP Maxwell) (NNP Road) (NNP Chinatown))
+    (PRN (-LRB- -LRB-)
+      (NP (NNP Smith) (NNP St))
+      (-RRB- -RRB-))
+    (NP (NNP Chomp) (NNP Chomp) (NNP Tiong) (NNP Bahru) (NNP Whampoa) (NNP Hong) (NNP Lim) (NNP Changi) (NNP Village) (NNP East) (NNP Coast) (NNP Lagoon) (NNP Ghim) (NNP Moh))))
+
+
+nn(Chinatown-6, Old-1)
+nn(Chinatown-6, Airport-2)
+nn(Chinatown-6, Road-3)
+nn(Chinatown-6, Maxwell-4)
+nn(Chinatown-6, Road-5)
+root(ROOT-0, Chinatown-6)
+nn(St-9, Smith-8)
+appos(Chinatown-6, St-9)
+nn(Moh-24, Chomp-11)
+nn(Moh-24, Chomp-12)
+nn(Moh-24, Tiong-13)
+nn(Moh-24, Bahru-14)
+nn(Moh-24, Whampoa-15)
+nn(Moh-24, Hong-16)
+nn(Moh-24, Lim-17)
+nn(Moh-24, Changi-18)
+nn(Moh-24, Village-19)
+nn(Moh-24, East-20)
+nn(Moh-24, Coast-21)
+nn(Moh-24, Lagoon-22)
+nn(Moh-24, Ghim-23)
+dep(Chinatown-6, Moh-24)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NNS Polls))
+    (VP (VBP are)
+      (VP (VBN opened)))
+    (. !)))
+
+
+det(Polls-2, The-1)
+nsubjpass(opened-4, Polls-2)
+auxpass(opened-4, are-3)
+root(ROOT-0, opened-4)
+
+
+(ROOT
+  (S
+    (NP (NNP May))
+    (NP (DT the) (JJS best) (NNP Hawker) (NN Centre))
+    (VP (VBP win))
+    (. !)))
+
+
+tmod(win-6, May-1)
+det(Centre-5, the-2)
+amod(Centre-5, best-3)
+nn(Centre-5, Hawker-4)
+nsubj(win-6, Centre-5)
+root(ROOT-0, win-6)
+
+
+(ROOT
+  (S
+    (NP (NN Everyone))
+    (VP (VBZ gets)
+      (NP (CD three) (NNS votes)))
+    (. !)))
+
+
+nsubj(gets-2, Everyone-1)
+root(ROOT-0, gets-2)
+num(votes-4, three-3)
+dobj(gets-2, votes-4)
+
+

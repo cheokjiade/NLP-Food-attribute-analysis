@@ -1,0 +1,167 @@
+(ROOT
+  (S
+    (NP (PRP$ Our) (NNP Sandakan) (NNP Makan) (NNP Missions))
+    (VP (VBP are)
+      (VP (VBN featured)
+        (PP (IN on)
+          (NP (NNP TakeMeToTravel) (NN website)))))
+    (. .)))
+
+
+poss(Missions-4, Our-1)
+nn(Missions-4, Sandakan-2)
+nn(Missions-4, Makan-3)
+nsubjpass(featured-6, Missions-4)
+auxpass(featured-6, are-5)
+root(ROOT-0, featured-6)
+prep(featured-6, on-7)
+nn(website-9, TakeMeToTravel-8)
+pobj(on-7, website-9)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB read)
+        (NP (DT the) (NN story))
+        (PP (IN by)
+          (S
+            (VP (VBG clicking)
+              (NP (DT this) (NN link)))))))
+    (: :)))
+
+
+nsubj(read-3, You-1)
+aux(read-3, can-2)
+root(ROOT-0, read-3)
+det(story-5, the-4)
+dobj(read-3, story-5)
+prep(read-3, by-6)
+pcomp(by-6, clicking-7)
+det(link-9, this-8)
+dobj(clicking-7, link-9)
+
+
+(ROOT
+  (S
+    (VP (VB TakeMeToTravel))
+    (. .)))
+
+
+root(ROOT-0, TakeMeToTravel-1)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP We))
+      (VP (VBP have)
+        (NP
+          (NP (DT a) (NN team))
+          (PP (IN of)
+            (NP (CD 19)))
+          (VP (VBG heading)
+            (PP (TO to)
+              (NP (NNP Sandakan)))
+            (NP (DT this) (NNP Thursday))
+            (S
+              (VP (TO to)
+                (VP (VB bring)
+                  (NP (PRP$ your) (NNS blessings)))))))))
+    (CC and)
+    (S
+      (NP (JJS best))
+      (VP
+        (VP (VBZ wishes)
+          (PP (TO to)
+            (NP
+              (NP (DT the) (NNS kids))
+              (ADVP (RB there)))))
+        (CC and)
+        (VP (MD will)
+          (VP (VB be)
+            (VP (VBG visiting)
+              (NP
+                (NP (DT some) (JJ new) (NNS schools))
+                (SBAR
+                  (WHNP (WDT which))
+                  (S
+                    (VP (VBP have)
+                      (VP (VBN been)
+                        (VP (VBN built)
+                          (PP (IN through)
+                            (NP (PRP$ your) (NNS donations))))))))))))))
+    (. !)))
+
+
+nsubj(have-2, We-1)
+root(ROOT-0, have-2)
+det(team-4, a-3)
+dobj(have-2, team-4)
+prep(team-4, of-5)
+pobj(of-5, 19-6)
+partmod(team-4, heading-7)
+prep(heading-7, to-8)
+pobj(to-8, Sandakan-9)
+det(Thursday-11, this-10)
+tmod(heading-7, Thursday-11)
+aux(bring-13, to-12)
+xcomp(heading-7, bring-13)
+poss(blessings-15, your-14)
+dobj(bring-13, blessings-15)
+cc(have-2, and-16)
+nsubj(wishes-18, best-17)
+conj(have-2, wishes-18)
+prep(wishes-18, to-19)
+det(kids-21, the-20)
+pobj(to-19, kids-21)
+advmod(kids-21, there-22)
+cc(wishes-18, and-23)
+aux(visiting-26, will-24)
+aux(visiting-26, be-25)
+conj(wishes-18, visiting-26)
+det(schools-29, some-27)
+amod(schools-29, new-28)
+dobj(visiting-26, schools-29)
+nsubjpass(built-33, which-30)
+aux(built-33, have-31)
+auxpass(built-33, been-32)
+rcmod(schools-29, built-33)
+prep(built-33, through-34)
+poss(donations-36, your-35)
+pobj(through-34, donations-36)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS Thanks))
+      (PP (IN for)
+        (NP (PDT all) (PRP$ your) (NN support))))
+    (VP (VBP do)
+      (VP (VB remember)
+        (S
+          (VP (TO to)
+            (VP (VB keep)
+              (NP (PRP us))
+              (PP (IN in)
+                (NP (PRP$ your) (NNS prayers))))))))
+    (. !)))
+
+
+nsubj(remember-7, Thanks-1)
+prep(Thanks-1, for-2)
+predet(support-5, all-3)
+poss(support-5, your-4)
+pobj(for-2, support-5)
+aux(remember-7, do-6)
+root(ROOT-0, remember-7)
+aux(keep-9, to-8)
+xcomp(remember-7, keep-9)
+dobj(keep-9, us-10)
+prep(keep-9, in-11)
+poss(prayers-13, your-12)
+pobj(in-11, prayers-13)
+
+

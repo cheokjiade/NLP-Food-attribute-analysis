@@ -1,0 +1,311 @@
+(ROOT
+  (S
+    (S
+      (NP (DT This) (VBG dumpling) (NN stall))
+      (VP (VBZ is)
+        (NP
+          (NP (CD one))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (NNS favorites))
+              (PP (IN of)))))))
+    (CC and)
+    (S
+      (NP (PRP they))
+      (VP (VBP sell)
+        (NP
+          (NP
+            (NP
+              (NP (JJ traditional) (NNP Hokkien) (NNP Style) (NNPS Dumplings))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP Changs))
+                (-RRB- -RRB-)))
+            (PP (IN with)
+              (NP (JJ salted) (NNS eggs))))
+          (CONJP (RB as) (RB well) (IN as))
+          (NP (NNP Nonya) (NNP Changs)))))
+    (. .)))
+
+
+det(stall-3, This-1)
+amod(stall-3, dumpling-2)
+nsubj(one-5, stall-3)
+cop(one-5, is-4)
+root(ROOT-0, one-5)
+prep(one-5, of-6)
+det(favorites-8, the-7)
+pobj(of-6, favorites-8)
+prep(favorites-8, of-9)
+cc(one-5, and-10)
+nsubj(sell-12, they-11)
+conj(one-5, sell-12)
+amod(Dumplings-16, traditional-13)
+nn(Dumplings-16, Hokkien-14)
+nn(Dumplings-16, Style-15)
+dobj(sell-12, Dumplings-16)
+appos(Dumplings-16, Changs-18)
+prep(Dumplings-16, with-20)
+amod(eggs-22, salted-21)
+pobj(with-20, eggs-22)
+advmod(well-24, as-23)
+cc(Dumplings-16, well-24)
+mwe(well-24, as-25)
+nn(Changs-27, Nonya-26)
+conj(Dumplings-16, Changs-27)
+
+
+(ROOT
+  (FRAG
+    (PP (IN For)
+      (NP (PRP me)))
+    (, ,)))
+
+
+root(ROOT-0, For-1)
+pobj(For-1, me-2)
+
+
+(ROOT
+  (S
+    (NP (DT any) (NNS dumplings))
+    (VP (VBP are)
+      (ADVP (RB now))
+      (VP (VBN measured)
+        (PP (IN against)
+          (NP
+            (NP (DT the) (NNP Gold) (NNP Standard))
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (VP (VBZ is)
+                  (NP
+                    (NP (NNP Hoo) (NNP Kee))
+                    (PP (IN over)
+                      (PP (IN at)
+                        (NP (NNP Amoy) (NNP Street) (NNP FC))))))))))))
+    (, ,)))
+
+
+det(dumplings-2, any-1)
+nsubjpass(measured-5, dumplings-2)
+auxpass(measured-5, are-3)
+advmod(measured-5, now-4)
+root(ROOT-0, measured-5)
+prep(measured-5, against-6)
+det(Standard-9, the-7)
+nn(Standard-9, Gold-8)
+pobj(against-6, Standard-9)
+nsubj(Kee-13, which-10)
+cop(Kee-13, is-11)
+nn(Kee-13, Hoo-12)
+rcmod(Standard-9, Kee-13)
+prep(Kee-13, over-14)
+pcomp(over-14, at-15)
+nn(FC-18, Amoy-16)
+nn(FC-18, Street-17)
+pobj(at-15, FC-18)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB so))
+    (SBAR (IN though)
+      (S
+        (NP (PRP they))
+        (VP (VBP are)
+          (NP (JJ excellent) (NNS dumplings)))
+        (, ,)))))
+
+
+root(ROOT-0, so-1)
+mark(dumplings-6, though-2)
+nsubj(dumplings-6, they-3)
+cop(dumplings-6, are-4)
+amod(dumplings-6, excellent-5)
+dep(so-1, dumplings-6)
+
+
+(ROOT
+  (S
+    (NP (PRP they))
+    (ADVP (RB still))
+    (VP (VBP lack)
+      (NP
+        (NP (DT that) (NNP X) (NN factor))
+        (PP (IN of)
+          (NP (NNP Hoo) (NNP Kee)))))
+    (. .)))
+
+
+nsubj(lack-3, they-1)
+advmod(lack-3, still-2)
+root(ROOT-0, lack-3)
+det(factor-6, that-4)
+nn(factor-6, X-5)
+dobj(lack-3, factor-6)
+prep(factor-6, of-7)
+nn(Kee-9, Hoo-8)
+pobj(of-7, Kee-9)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB However))
+    (ADVP (RB ,))))
+
+
+root(ROOT-0, However-1)
+
+
+(ROOT
+  (PP (IN unlike)
+    (NP
+      (NP (NNP Hoo) (NNP Kee))
+      (SBAR
+        (WHNP (WDT which))
+        (S
+          (ADVP (RB essentially))
+          (VP (VBZ sells)
+            (NP
+              (NP (CD one) (NN flavor))
+              (PP (IN of)
+                (NP
+                  (NP (NNP Bak) (NNP Chang))
+                  (PP (IN with)
+                    (NP (JJ optional) (NNS extras))))))))
+        (, ,)))))
+
+
+root(ROOT-0, unlike-1)
+nn(Kee-3, Hoo-2)
+pobj(unlike-1, Kee-3)
+nsubj(sells-6, which-4)
+advmod(sells-6, essentially-5)
+rcmod(Kee-3, sells-6)
+num(flavor-8, one-7)
+dobj(sells-6, flavor-8)
+prep(flavor-8, of-9)
+nn(Chang-11, Bak-10)
+pobj(of-9, Chang-11)
+prep(Chang-11, with-12)
+amod(extras-14, optional-13)
+pobj(with-12, extras-14)
+
+
+(ROOT
+  (S
+    (NP (DT this) (NN one))
+    (VP (VBZ sells)
+      (NP
+        (NP (JJR more) (NN tradtional) (NNS flavors))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBP include)
+              (NP (DT the) (NNP Nonya) (NN variety)))))))
+    (. .)))
+
+
+det(one-2, this-1)
+nsubj(sells-3, one-2)
+root(ROOT-0, sells-3)
+amod(flavors-6, more-4)
+nn(flavors-6, tradtional-5)
+dobj(sells-3, flavors-6)
+nsubj(include-8, which-7)
+rcmod(flavors-6, include-8)
+det(variety-11, the-9)
+nn(variety-11, Nonya-10)
+dobj(include-8, variety-11)
+
+
+(ROOT
+  (S
+    (NP (NN Someone))
+    (ADVP (RB actually))
+    (VP (VBD did)
+      (VP (VB recommend)
+        (NP (DT the) (NNP Nonya) (NNP Chang))))
+    (, ,)))
+
+
+nsubj(recommend-4, Someone-1)
+advmod(recommend-4, actually-2)
+aux(recommend-4, did-3)
+root(ROOT-0, recommend-4)
+det(Chang-7, the-5)
+nn(Chang-7, Nonya-6)
+dobj(recommend-4, Chang-7)
+
+
+(ROOT
+  (S (CC but)
+    (NP (PRP I))
+    (VP (VBD did) (RB not)
+      (VP (VBN managed)
+        (S
+          (VP (VB try)
+            (NP (PRP it))))))
+    (. .)))
+
+
+cc(managed-5, but-1)
+nsubj(managed-5, I-2)
+aux(managed-5, did-3)
+neg(managed-5, not-4)
+root(ROOT-0, managed-5)
+ccomp(managed-5, try-6)
+dobj(try-6, it-7)
+
+
+(ROOT
+  (NP
+    (NP
+      (ADVP (RB Certainly))
+      (DT a)
+      (ADJP (RB very) (JJ good))
+      (JJ traditional) (NN Hokkien))
+    (NP
+      (NP (NN style))
+      (NP (NNP Bak) (NNP Chang)))
+    (. .)))
+
+
+advmod(Hokkien-6, Certainly-1)
+det(Hokkien-6, a-2)
+advmod(good-4, very-3)
+amod(Hokkien-6, good-4)
+amod(Hokkien-6, traditional-5)
+root(ROOT-0, Hokkien-6)
+dep(Hokkien-6, style-7)
+nn(Chang-9, Bak-8)
+dep(style-7, Chang-9)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD will)
+      (VP (VB need)
+        (S
+          (VP (TO to)
+            (VP (VB return)
+              (S
+                (VP (TO to)
+                  (VP (VB try)
+                    (NP (PRP$ their) (NNP Nonya) (NNP Chang))))))))))
+    (. .)))
+
+
+nsubj(need-3, I-1)
+aux(need-3, will-2)
+root(ROOT-0, need-3)
+aux(return-5, to-4)
+xcomp(need-3, return-5)
+aux(try-7, to-6)
+xcomp(return-5, try-7)
+poss(Chang-10, their-8)
+nn(Chang-10, Nonya-9)
+dobj(try-7, Chang-10)
+
+

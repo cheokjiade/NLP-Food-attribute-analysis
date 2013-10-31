@@ -1,0 +1,273 @@
+(ROOT
+  (S (CC So)
+    (NP
+      (NP (DT the) (NN majority))
+      (PP (IN of)
+        (NP (NNP Singaporeans))))
+    (ADVP (RB still))
+    (VP (VBP like)
+      (NP (PRP$ our) (JJ local) (NN food)))
+    (. !)))
+
+
+cc(like-7, So-1)
+det(majority-3, the-2)
+nsubj(like-7, majority-3)
+prep(majority-3, of-4)
+pobj(of-4, Singaporeans-5)
+advmod(like-7, still-6)
+root(ROOT-0, like-7)
+poss(food-10, our-8)
+amod(food-10, local-9)
+dobj(like-7, food-10)
+
+
+(ROOT
+  (PP (IN Of)
+    (NP
+      (NP (DT the) (CD 1320) (NNS people))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBD voted)))
+        (, ,)))))
+
+
+root(ROOT-0, Of-1)
+det(people-4, the-2)
+num(people-4, 1320-3)
+pobj(Of-1, people-4)
+nsubj(voted-6, who-5)
+rcmod(people-4, voted-6)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NN majority))
+    (VP (VBZ -LRB-)
+      (NP (CD 68.5) (NN %)))))
+
+
+det(majority-2, the-1)
+nsubj(-LRB--3, majority-2)
+num(%-5, 68.5-4)
+dobj(-LRB--3, %-5)
+
+
+(ROOT
+  (S
+    (NP (NNP -RRB-))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (NP (PRP they))
+          (ADVP (RB still))
+          (VP (VBP prefer)
+            (NP (NNP Singapore) (NN food))))))
+    (. .)))
+
+
+root(ROOT-0, said-2)
+nsubj(prefer-5, they-3)
+advmod(prefer-5, still-4)
+ccomp(said-2, prefer-5)
+nn(food-7, Singapore-6)
+dobj(prefer-5, food-7)
+
+
+(ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ
+      (VP (VBD was)
+        (ADJP (JJ surprising)
+          (SBAR (IN though)
+            (S
+              (VP (VBD was)
+                (SBAR
+                  (WHADVP (WRB how))
+                  (S
+                    (VP
+                      (ADVP (JJ popular)
+                        (NP (JJ Japanese) (NN food)))
+                      (VBZ is) (-LRB- -LRB-)
+                      (NP (CD 53) (NN %)))))))))))))
+
+
+nsubj(surprising-3, What-1)
+cop(surprising-3, was-2)
+root(ROOT-0, surprising-3)
+mark(was-5, though-4)
+ccomp(surprising-3, was-5)
+advmod(%-13, how-6)
+advmod(%-13, popular-7)
+amod(food-9, Japanese-8)
+dep(popular-7, food-9)
+cop(%-13, is-10)
+num(%-13, 53-12)
+ccomp(was-5, %-13)
+
+
+(ROOT
+  (FRAG
+    (PP (IN -RRB-))
+    (, ,)))
+
+
+
+
+(ROOT
+  (NP
+    (NP (NNP surpassing) (NNP Chinese\/Cantonese) (NNP Cuisine))
+    (PRN (-LRB- -LRB-)
+      (NP (NNP 32.2))
+      (-RRB- -RRB-))
+    (PP (IN by)
+      (NP (PDT quite) (DT a) (JJ significant) (NN margin)))
+    (. .)))
+
+
+nn(Cuisine-3, surpassing-1)
+nn(Cuisine-3, Chinese\/Cantonese-2)
+root(ROOT-0, Cuisine-3)
+appos(Cuisine-3, 32.2-5)
+prep(Cuisine-3, by-7)
+predet(margin-11, quite-8)
+det(margin-11, a-9)
+amod(margin-11, significant-10)
+pobj(by-7, margin-11)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Of)
+      (NP (DT the) (JJ European) (NN cuisine)))
+    (, ,)))
+
+
+root(ROOT-0, Of-1)
+det(cuisine-4, the-2)
+amod(cuisine-4, European-3)
+pobj(Of-1, cuisine-4)
+
+
+(ROOT
+  (S
+    (VP
+      (ADVP (RB Italian))
+      (VB cuisine) (-LRB- -LRB-)
+      (NP (CD 13.5) (NN %)))))
+
+
+advmod(cuisine-2, Italian-1)
+root(ROOT-0, cuisine-2)
+num(%-5, 13.5-4)
+dobj(cuisine-2, %-5)
+
+
+(ROOT
+  (S
+    (NP (NNP -RRB-))
+    (VP (VBD was)
+      (NP (DT the)
+        (ADJP (RBS most) (JJ popular))))
+    (. .)))
+
+
+cop(popular-5, was-2)
+det(popular-5, the-3)
+advmod(popular-5, most-4)
+root(ROOT-0, popular-5)
+
+
+(ROOT
+  (S
+    (NP (JJR More) (NNS people))
+    (VP (MD would)
+      (VP
+        (ADVP (RB choose))
+        (VBN Thai) (-LRB- -LRB-)
+        (NP (CD 10) (NN %))))))
+
+
+amod(people-2, More-1)
+nsubj(Thai-5, people-2)
+aux(Thai-5, would-3)
+advmod(Thai-5, choose-4)
+root(ROOT-0, Thai-5)
+num(%-8, 10-7)
+dobj(Thai-5, %-8)
+
+
+(ROOT
+  (S
+    (VP
+      (ADVP (RB -RRB-) (RB over))
+      (VB French\/European) (-LRB- -LRB-)
+      (NP (CD 5) (NN %)))))
+
+
+advmod(French\/European-3, over-2)
+root(ROOT-0, French\/European-3)
+num(%-6, 5-5)
+dobj(French\/European-3, %-6)
+
+
+(ROOT
+  (NP (JJ -RRB-) (NN cuisine) (. .)))
+
+
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB So))
+    (SBAR (IN if)
+      (S
+        (NP (PRP you))
+        (VP (VBP are)
+          (VP (VBG planning)
+            (S
+              (VP (TO to)
+                (VP (VB open)
+                  (NP (DT a) (JJ foreign) (NN cuisine) (NN restaurant)))))))
+        (, ,)))))
+
+
+root(ROOT-0, So-1)
+mark(planning-5, if-2)
+nsubj(planning-5, you-3)
+aux(planning-5, are-4)
+dep(So-1, planning-5)
+aux(open-7, to-6)
+xcomp(planning-5, open-7)
+det(restaurant-11, a-8)
+amod(restaurant-11, foreign-9)
+nn(restaurant-11, cuisine-10)
+dobj(open-7, restaurant-11)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (ADVP (RB best) (RB bet))
+    (VP (VBZ is)
+      (S
+        (VP (TO to)
+          (VP (VB go)
+            (PP (IN with)
+              (NP (DT the) (NNPS Japanese)))))))
+    (. !)))
+
+
+nsubj(is-4, you-1)
+advmod(bet-3, best-2)
+advmod(is-4, bet-3)
+root(ROOT-0, is-4)
+aux(go-6, to-5)
+xcomp(is-4, go-6)
+prep(go-6, with-7)
+det(Japanese-9, the-8)
+pobj(with-7, Japanese-9)
+
+

@@ -1,0 +1,383 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP admit)
+      (SBAR (IN that)
+        (S
+          (NP (PRP I))
+          (VP (VBP am)))))
+    (NP (DT a)
+      (ADJP (RB very) (JJ poor))
+      (NNP Orh) (NNP Luak)
+      (PRN (-LRB- -LRB-)
+        (NP (NNP Oyster) (NNP Omelette))
+        (-RRB- -RRB-))
+      (NNP Afficianado))
+    (. .)))
+
+
+nsubj(admit-2, I-1)
+root(ROOT-0, admit-2)
+mark(am-5, that-3)
+nsubj(am-5, I-4)
+ccomp(admit-2, am-5)
+det(Afficianado-15, a-6)
+advmod(poor-8, very-7)
+amod(Afficianado-15, poor-8)
+nn(Afficianado-15, Orh-9)
+nn(Afficianado-15, Luak-10)
+nn(Omelette-13, Oyster-12)
+appos(Afficianado-15, Omelette-13)
+dep(admit-2, Afficianado-15)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP do) (RB n't)
+      (ADVP (RB actually))
+      (VP (VB enjoy)
+        (NP (DT the) (NN oyster))
+        (ADVP (RB that) (RB much))))
+    (. .)))
+
+
+nsubj(enjoy-5, I-1)
+aux(enjoy-5, do-2)
+neg(enjoy-5, n't-3)
+advmod(enjoy-5, actually-4)
+root(ROOT-0, enjoy-5)
+det(oyster-7, the-6)
+dobj(enjoy-5, oyster-7)
+advmod(much-9, that-8)
+advmod(enjoy-5, much-9)
+
+
+(ROOT
+  (SBAR
+    (WHNP (WP What))
+    (S
+      (NP (PRP I))
+      (VP (VBP like))
+      (, ,))))
+
+
+dobj(like-3, What-1)
+nsubj(like-3, I-2)
+root(ROOT-0, like-3)
+
+
+(ROOT
+  (NP
+    (NP (NN horror))
+    (PP (IN of)
+      (NP
+        (NP (NNS horrors))
+        (, ,)))))
+
+
+root(ROOT-0, horror-1)
+prep(horror-1, of-2)
+pobj(of-2, horrors-3)
+
+
+(ROOT
+  (SQ (VBZ is)
+    (NP
+      (NP
+        (ADVP (RB actually))
+        (DT the) (NN egg))
+      (CC and)
+      (NP (DT the) (JJ sticky) (NN gooey)))
+    (ADJP (JJ paste))
+    (. !)))
+
+
+cop(paste-9, is-1)
+advmod(egg-4, actually-2)
+det(egg-4, the-3)
+nsubj(paste-9, egg-4)
+cc(egg-4, and-5)
+det(gooey-8, the-6)
+amod(gooey-8, sticky-7)
+conj(egg-4, gooey-8)
+root(ROOT-0, paste-9)
+
+
+(ROOT
+  (S (IN So)
+    (NP (NNP Orh) (NNP Luak))
+    (VP (VBZ has) (RB not)
+      (VP (VBN been)
+        (NP (DT a) (JJ regular) (NN item))
+        (PP (IN on)
+          (NP
+            (NP (PRP$ my) (NN list))
+            (PP (IN of)
+              (NP (NNS foods)))))
+        (S
+          (VP (TO to)
+            (VP (VB eat))))))
+    (. .)))
+
+
+dep(item-9, So-1)
+nn(Luak-3, Orh-2)
+nsubj(item-9, Luak-3)
+aux(item-9, has-4)
+neg(item-9, not-5)
+cop(item-9, been-6)
+det(item-9, a-7)
+amod(item-9, regular-8)
+root(ROOT-0, item-9)
+prep(item-9, on-10)
+poss(list-12, my-11)
+pobj(on-10, list-12)
+prep(list-12, of-13)
+pobj(of-13, foods-14)
+aux(eat-16, to-15)
+xcomp(item-9, eat-16)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (VP (VBG including)
+        (NP (DT this) (JJ particular) (NN stall))
+        (SBAR (IN because)
+          (S
+            (NP (PRP it))
+            (VP (VBZ is)
+              (NP
+                (NP (JJ first))
+                (PP (IN of)
+                  (NP (DT all) (NNP Halal)))))))))
+    (, ,)))
+
+
+nsubj(including-3, I-1)
+aux(including-3, am-2)
+root(ROOT-0, including-3)
+det(stall-6, this-4)
+amod(stall-6, particular-5)
+dobj(including-3, stall-6)
+mark(first-10, because-7)
+nsubj(first-10, it-8)
+cop(first-10, is-9)
+advcl(including-3, first-10)
+prep(first-10, of-11)
+det(Halal-13, all-12)
+pobj(of-11, Halal-13)
+
+
+(ROOT
+  (S
+    (S
+      (NP (WDT which))
+      (VP (VBZ is)
+        (ADJP (RB quite) (JJ uncommon)
+          (CC and)
+          (JJ secondly)
+          (SBAR (IN because)
+            (S
+              (NP (DT this))
+              (VP (VBZ is)
+                (NP
+                  (NP (NNP Orh) (NNP Luak))
+                  (SBAR
+                    (WHNP (WDT that))
+                    (S
+                      (VP (VBZ is) (RB not)
+                        (ADJP (RB too) (JJ oily))))))))))))
+    (CC and)
+    (ADVP (RB finally))
+    (S
+      (NP (PRP it))
+      (ADVP (RB actually))
+      (VP (VBZ tastes)
+        (ADJP (RB quite) (JJ good))))
+    (. .)))
+
+
+nsubj(uncommon-4, which-1)
+cop(uncommon-4, is-2)
+advmod(uncommon-4, quite-3)
+root(ROOT-0, uncommon-4)
+cc(uncommon-4, and-5)
+conj(uncommon-4, secondly-6)
+mark(Luak-11, because-7)
+nsubj(Luak-11, this-8)
+cop(Luak-11, is-9)
+nn(Luak-11, Orh-10)
+ccomp(uncommon-4, Luak-11)
+nsubj(oily-16, that-12)
+cop(oily-16, is-13)
+neg(oily-16, not-14)
+advmod(oily-16, too-15)
+rcmod(Luak-11, oily-16)
+cc(uncommon-4, and-17)
+advmod(uncommon-4, finally-18)
+nsubj(tastes-21, it-19)
+advmod(tastes-21, actually-20)
+ccomp(uncommon-4, tastes-21)
+advmod(good-23, quite-22)
+acomp(tastes-21, good-23)
+
+
+(ROOT
+  (S
+    (SBAR
+      (WHNP (WP What))
+      (S
+        (NP (PRP I))
+        (VP (VBP like))))
+    (VP (VBZ is)
+      (SBAR (IN that)
+        (S
+          (NP (PRP they))
+          (VP (VBD managed)
+            (S
+              (VP (TO to)
+                (VP (VB get)
+                  (NP (DT the) (NN paste)
+                    (S
+                      (VP (TO to)
+                        (VP (VB be)
+                          (ADJP (RB really) (JJ nice)
+                            (CC and)
+                            (JJ crispy)))))))))))))
+    (. .)))
+
+
+dobj(like-3, What-1)
+nsubj(like-3, I-2)
+csubj(is-4, like-3)
+root(ROOT-0, is-4)
+mark(managed-7, that-5)
+nsubj(managed-7, they-6)
+ccomp(is-4, managed-7)
+aux(get-9, to-8)
+xcomp(managed-7, get-9)
+det(paste-11, the-10)
+dobj(get-9, paste-11)
+aux(nice-15, to-12)
+cop(nice-15, be-13)
+advmod(nice-15, really-14)
+infmod(paste-11, nice-15)
+cc(nice-15, and-16)
+conj(nice-15, crispy-17)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NNS oysters))
+    (VP (VBP are)
+      (ADJP
+        (ADJP
+          (NP (DT a) (NN tad))
+          (JJ tiny))
+        (SBAR (IN so)
+          (S
+            (NP (PRP$ our) (NNP Orh) (NNP Luak) (NNS afficianados))
+            (VP (MD would)
+              (ADVP (RB probably))
+              (RB not)
+              (VP (VB look)
+                (ADVP (RB favourably))
+                (PP (IN on)
+                  (NP (PRP it)))))))))
+    (. .)))
+
+
+det(oysters-2, The-1)
+nsubj(tiny-6, oysters-2)
+cop(tiny-6, are-3)
+det(tad-5, a-4)
+npadvmod(tiny-6, tad-5)
+root(ROOT-0, tiny-6)
+mark(look-15, so-7)
+poss(afficianados-11, our-8)
+nn(afficianados-11, Orh-9)
+nn(afficianados-11, Luak-10)
+nsubj(look-15, afficianados-11)
+aux(look-15, would-12)
+advmod(look-15, probably-13)
+neg(look-15, not-14)
+ccomp(tiny-6, look-15)
+advmod(look-15, favourably-16)
+prep(look-15, on-17)
+pobj(on-17, it-18)
+
+
+(ROOT
+  (NP
+    (NP (NNP Good))
+    (PP (IN for)
+      (NP
+        (NP (DT those))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBP take)
+              (NP
+                (NP (JJ Halal) (NN food))
+                (CC and)
+                (ADVP (RB also))
+                (NP (DT those)))
+              (PP
+                (PP (IN like)
+                  (NP
+                    (NP (PRP me))
+                    (SBAR
+                      (WHNP (WP who))
+                      (S
+                        (VP (VBP like)
+                          (NP
+                            (NP (RB just) (DT the) (NN egg))
+                            (CC and)
+                            (NP (NN paste))))))))
+                (CC and)
+                (PP (IN at)
+                  (NP
+                    (NP (DT the) (JJ same) (NN time))
+                    (VP (VBG trying)
+                      (S
+                        (VP (TO to)
+                          (VP (VB limit)
+                            (NP (PRP$ their) (NN cholesterol) (NN intake))))))))))))))
+    (. .)))
+
+
+root(ROOT-0, Good-1)
+prep(Good-1, for-2)
+pobj(for-2, those-3)
+nsubj(take-5, who-4)
+rcmod(those-3, take-5)
+amod(food-7, Halal-6)
+dobj(take-5, food-7)
+cc(food-7, and-8)
+advmod(food-7, also-9)
+conj(food-7, those-10)
+prep(take-5, like-11)
+pobj(like-11, me-12)
+nsubj(like-14, who-13)
+rcmod(me-12, like-14)
+advmod(egg-17, just-15)
+det(egg-17, the-16)
+dobj(like-14, egg-17)
+cc(egg-17, and-18)
+conj(egg-17, paste-19)
+cc(like-11, and-20)
+conj(like-11, at-21)
+det(time-24, the-22)
+amod(time-24, same-23)
+pobj(at-21, time-24)
+partmod(time-24, trying-25)
+aux(limit-27, to-26)
+xcomp(trying-25, limit-27)
+poss(intake-30, their-28)
+nn(intake-30, cholesterol-29)
+dobj(limit-27, intake-30)
+
+

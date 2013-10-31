@@ -1,0 +1,328 @@
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBZ is)
+      (NP
+        (NP (NN something))
+        (ADJP (RB very) (JJ romantic))
+        (PP (IN about)
+          (NP (NNP Kelongs)))))
+    (. .)))
+
+
+expl(is-2, There-1)
+root(ROOT-0, is-2)
+nsubj(is-2, something-3)
+advmod(romantic-5, very-4)
+amod(something-3, romantic-5)
+prep(something-3, about-6)
+pobj(about-6, Kelongs-7)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP guess)
+      (SBAR (IN if)
+        (S
+          (NP (PRP you))
+          (VP (VBD were)
+            (NP
+              (NP (DT a) (NN child))
+              (VP (VBG growing)
+                (PRT (RP up))
+                (PP (IN in)
+                  (NP (DT the) (CD 70) (NNS 's)))))))))
+    (, ,)))
+
+
+nsubj(guess-2, I-1)
+root(ROOT-0, guess-2)
+mark(child-7, if-3)
+nsubj(child-7, you-4)
+cop(child-7, were-5)
+det(child-7, a-6)
+advcl(guess-2, child-7)
+partmod(child-7, growing-8)
+prt(growing-8, up-9)
+prep(growing-8, in-10)
+det('s-13, the-11)
+num('s-13, 70-12)
+pobj(in-10, 's-13)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (MD will)
+      (ADVP (RB still))
+      (VP (VB remember)
+        (S
+          (VP (VBG seeing)
+            (NP (DT the) (NNPS Kelongs))
+            (ADVP (RB offshore))
+            (ADVP (RB especially))))
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (PRP you))
+            (VP (VBP travel)
+              (PP (TO to)
+                (NP
+                  (NP (NNP Changi) (NN beach))
+                  (PP (IN for)
+                    (NP (DT that) (NN family) (NN day)))))
+              (ADVP (IN out)
+                (PP (IN at)
+                  (NP (DT the) (NN beach)))))))))
+    (. .)))
+
+
+nsubj(remember-4, you-1)
+aux(remember-4, will-2)
+advmod(remember-4, still-3)
+root(ROOT-0, remember-4)
+xcomp(remember-4, seeing-5)
+det(Kelongs-7, the-6)
+dobj(seeing-5, Kelongs-7)
+advmod(seeing-5, offshore-8)
+advmod(seeing-5, especially-9)
+advmod(travel-12, when-10)
+nsubj(travel-12, you-11)
+advcl(remember-4, travel-12)
+prep(travel-12, to-13)
+nn(beach-15, Changi-14)
+pobj(to-13, beach-15)
+prep(beach-15, for-16)
+det(day-19, that-17)
+nn(day-19, family-18)
+pobj(for-16, day-19)
+advmod(travel-12, out-20)
+prep(out-20, at-21)
+det(beach-23, the-22)
+pobj(at-21, beach-23)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Nowadays))
+    (, ,)))
+
+
+root(ROOT-0, Nowadays-1)
+
+
+(ROOT
+  (S
+    (NP (DT the) (JJ traditional) (NNS Kelongs))
+    (VP (VBD built)
+      (PP (IN on)
+        (NP
+          (NP (NNS stilts))
+          (SBAR
+            (S
+              (VP (VBP have)
+                (ADVP (DT all)
+                  (CC but))
+                (VP (VBN disappeared))))))))
+    (, ,)))
+
+
+det(Kelongs-3, the-1)
+amod(Kelongs-3, traditional-2)
+nsubj(built-4, Kelongs-3)
+root(ROOT-0, built-4)
+prep(built-4, on-5)
+pobj(on-5, stilts-6)
+aux(disappeared-10, have-7)
+dep(but-9, all-8)
+advmod(disappeared-10, but-9)
+rcmod(stilts-6, disappeared-10)
+
+
+(ROOT
+  (S (IN so)
+    (NP (PRP$ my) (NNS kids))
+    (VP (VBP have)
+      (NP
+        (NP (DT no) (NN idea))
+        (SBAR
+          (WHNP (WP what))
+          (S
+            (NP (DT a) (NNP Kelong))
+            (VP (VBZ is))))))
+    (. .)))
+
+
+dep(have-4, so-1)
+poss(kids-3, my-2)
+nsubj(have-4, kids-3)
+root(ROOT-0, have-4)
+det(idea-6, no-5)
+dobj(have-4, idea-6)
+dobj(is-10, what-7)
+det(Kelong-9, a-8)
+nsubj(is-10, Kelong-9)
+rcmod(idea-6, is-10)
+
+
+(ROOT
+  (S (CC But)
+    (NP (DT that))
+    (VP (VBZ does) (RB n't)
+      (VP (VB mean)
+        (SBAR
+          (S
+            (NP (EX there))
+            (VP (VBP are)
+              (NP
+                (NP (DT no) (NNPS Kelongs))
+                (PP (IN in)
+                  (NP (NNP Singapore)))))))))
+    (. .)))
+
+
+cc(mean-5, But-1)
+nsubj(mean-5, that-2)
+aux(mean-5, does-3)
+neg(mean-5, n't-4)
+root(ROOT-0, mean-5)
+expl(are-7, there-6)
+ccomp(mean-5, are-7)
+det(Kelongs-9, no-8)
+nsubj(are-7, Kelongs-9)
+prep(Kelongs-9, in-10)
+pobj(in-10, Singapore-11)
+
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (NN fact)))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+pobj(In-1, fact-2)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NNP AVA))
+    (VP (VBZ has)
+      (VP (VBN been)
+        (VP (VBG encouraging)
+          (NP
+            (NP (NN aquaculture))
+            (PP (IN in)
+              (NP (NNP Singapore)))))))
+    (, ,)))
+
+
+det(AVA-2, the-1)
+nsubj(encouraging-5, AVA-2)
+aux(encouraging-5, has-3)
+aux(encouraging-5, been-4)
+root(ROOT-0, encouraging-5)
+dobj(encouraging-5, aquaculture-6)
+prep(aquaculture-6, in-7)
+pobj(in-7, Singapore-8)
+
+
+(ROOT
+  (S (CC and)
+    (NP (NNP Kelongs))
+    (VP (VBP are)
+      (VP (VBG being)
+        (VP (VBN leased)
+          (PRT (RP out))
+          (PP (TO to)
+            (NP (JJ private) (NNS enterprises))))))
+    (. .)))
+
+
+cc(leased-5, and-1)
+nsubjpass(leased-5, Kelongs-2)
+aux(leased-5, are-3)
+auxpass(leased-5, being-4)
+root(ROOT-0, leased-5)
+prt(leased-5, out-6)
+prep(leased-5, to-7)
+amod(enterprises-9, private-8)
+pobj(to-7, enterprises-9)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NN reason))
+    (SBAR (IN that)
+      (S
+        (NP (PRP you))
+        (VP (VBP do) (RB n't)
+          (VP (VB realize)
+            (SBAR (IN that)
+              (S
+                (NP (EX there))
+                (VP (VBP are)
+                  (ADVP (RB still)))))))))
+    (NP (NNP Kelongs))
+    (ADVP (RB around))
+    (VP (VBZ is)
+      (SBAR (IN that) (IN since)
+        (S
+          (NP (PRP they))
+          (VP (VBP are)
+            (ADVP (RB no) (RB longer))
+            (VP (VBN built)
+              (PP (IN on)
+                (NP (NNS stilts))))))))
+    (, ,)))
+
+
+det(reason-2, The-1)
+nsubj(is-14, reason-2)
+mark(realize-7, that-3)
+nsubj(realize-7, you-4)
+aux(realize-7, do-5)
+neg(realize-7, n't-6)
+advcl(is-14, realize-7)
+mark(are-10, that-8)
+expl(are-10, there-9)
+ccomp(realize-7, are-10)
+advmod(are-10, still-11)
+nsubj(is-14, Kelongs-12)
+advmod(is-14, around-13)
+root(ROOT-0, is-14)
+mark(built-21, that-15)
+mark(built-21, since-16)
+nsubjpass(built-21, they-17)
+auxpass(built-21, are-18)
+advmod(longer-20, no-19)
+advmod(built-21, longer-20)
+advcl(is-14, built-21)
+prep(built-21, on-22)
+pobj(on-22, stilts-23)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (VBZ is) (RB not)
+      (ADJP (RB as) (JJ easy)
+        (S
+          (VP (TO to)
+            (VP (VB spot)
+              (NP (PRP them)))))))
+    (. .)))
+
+
+nsubj(easy-5, it-1)
+cop(easy-5, is-2)
+neg(easy-5, not-3)
+advmod(easy-5, as-4)
+root(ROOT-0, easy-5)
+aux(spot-7, to-6)
+xcomp(easy-5, spot-7)
+dobj(spot-7, them-8)
+
+

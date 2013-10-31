@@ -1,0 +1,456 @@
+(ROOT
+  (S
+    (NP (NNP Health) (JJ conscious) (NNS foodies))
+    (VP (MD can)
+      (VP (VB rejoice)
+        (PP (IN with)
+          (NP
+            (NP (DT this) (NNP Healthier) (NNP Choice) (NNP Hokkien) (NNP Mee))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (ADVP (RB still))
+                (VP (VBZ tastes)
+                  (ADJP (JJ good) (RB enough)
+                    (S
+                      (VP (TO to)
+                        (VP (VB satisfy)
+                          (NP (DT that) (NNP Hokkien) (NNP Mee) (NNP Crave)))))))))))))
+    (. .)))
+
+
+nn(foodies-3, Health-1)
+amod(foodies-3, conscious-2)
+nsubj(rejoice-5, foodies-3)
+aux(rejoice-5, can-4)
+root(ROOT-0, rejoice-5)
+prep(rejoice-5, with-6)
+det(Mee-11, this-7)
+nn(Mee-11, Healthier-8)
+nn(Mee-11, Choice-9)
+nn(Mee-11, Hokkien-10)
+pobj(with-6, Mee-11)
+nsubj(tastes-14, that-12)
+advmod(tastes-14, still-13)
+rcmod(Mee-11, tastes-14)
+acomp(tastes-14, good-15)
+advmod(good-15, enough-16)
+aux(satisfy-18, to-17)
+xcomp(good-15, satisfy-18)
+det(Crave-22, that-19)
+nn(Crave-22, Hokkien-20)
+nn(Crave-22, Mee-21)
+dobj(satisfy-18, Crave-22)
+
+
+(ROOT
+  (S
+    (NP (NNP Guang) (NNP Fa))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (NN spinoff))
+        (PP (IN from)
+          (NP (NNP Newton) (NNP Hokkien) (NNP Mee)))))
+    (, ,)))
+
+
+nn(Fa-2, Guang-1)
+nsubj(spinoff-5, Fa-2)
+cop(spinoff-5, is-3)
+det(spinoff-5, a-4)
+root(ROOT-0, spinoff-5)
+prep(spinoff-5, from-6)
+nn(Mee-9, Newton-7)
+nn(Mee-9, Hokkien-8)
+pobj(from-6, Mee-9)
+
+
+(ROOT
+  (S
+    (NP (NNP and))
+    (VP (VBZ is)
+      (VP (VBN run)
+        (PP (IN by)
+          (NP (DT the) (NN son-in-law)))))
+    (. .)))
+
+
+nsubjpass(run-3, and-1)
+auxpass(run-3, is-2)
+root(ROOT-0, run-3)
+prep(run-3, by-4)
+det(son-in-law-6, the-5)
+pobj(by-4, son-in-law-6)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NNS stallowners))
+    (VP (VBP tell)
+      (NP (PRP me))
+      (SBAR (IN that) (IN since)
+        (S
+          (NP (PRP they))
+          (VP (VBP are)
+            (VP (VBG serving)
+              (NP
+                (NP (DT the) (VBG aging) (NN population))
+                (PP (IN in)
+                  (NP (DT the) (NN area)))))))))
+    (, ,)))
+
+
+det(stallowners-2, The-1)
+nsubj(tell-3, stallowners-2)
+root(ROOT-0, tell-3)
+dobj(tell-3, me-4)
+mark(serving-9, that-5)
+mark(serving-9, since-6)
+nsubj(serving-9, they-7)
+aux(serving-9, are-8)
+advcl(tell-3, serving-9)
+det(population-12, the-10)
+amod(population-12, aging-11)
+dobj(serving-9, population-12)
+prep(population-12, in-13)
+det(area-15, the-14)
+pobj(in-13, area-15)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (JJS most))
+      (WHPP (IN of)
+        (WHNP (WP whom))))
+    (VP (VBP like)
+      (NP
+        (NP (NN food))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBZ has)
+              (NP
+                (NP (JJR less) (NN oil))
+                (CC and)
+                (NP (NN salt)))))))
+      (PRN (-LRB- -LRB-)
+        (CC or)
+        (VP
+          (ADVP (IN at) (JJS least))
+          (VBP have)
+          (VP (VBN been)
+            (VP (VBN advised)
+              (PP (IN by)
+                (NP (PRP$ their) (NNS doctors))))))
+        (-RRB- -RRB-)))
+    (, ,)))
+
+
+nsubj(like-4, most-1)
+prep(most-1, of-2)
+pobj(of-2, whom-3)
+root(ROOT-0, like-4)
+dobj(like-4, food-5)
+nsubj(has-7, that-6)
+rcmod(food-5, has-7)
+amod(oil-9, less-8)
+dobj(has-7, oil-9)
+cc(oil-9, and-10)
+conj(oil-9, salt-11)
+cc(advised-18, or-13)
+advmod(advised-18, at-14)
+pobj(at-14, least-15)
+aux(advised-18, have-16)
+auxpass(advised-18, been-17)
+dep(like-4, advised-18)
+prep(advised-18, by-19)
+poss(doctors-21, their-20)
+pobj(by-19, doctors-21)
+
+
+(ROOT
+  (S
+    (NP (PRP they))
+    (VP (VBP have)
+      (S
+        (VP (TO to)
+          (VP (VB cater)
+            (PP (IN for)
+              (NP (DT the) (JJ local) (NN populace)))))))
+    (. .)))
+
+
+nsubj(have-2, they-1)
+root(ROOT-0, have-2)
+aux(cater-4, to-3)
+xcomp(have-2, cater-4)
+prep(cater-4, for-5)
+det(populace-8, the-6)
+amod(populace-8, local-7)
+pobj(for-5, populace-8)
+
+
+(ROOT
+  (FRAG (RB So)
+    (PP (IN over)
+      (NP
+        (NP (RB here))
+        (SBAR
+          (S
+            (NP (PRP they))
+            (VP (VBP use)
+              (NP (CD 20) (NN %)))))))))
+
+
+root(ROOT-0, So-1)
+prep(So-1, over-2)
+pobj(over-2, here-3)
+nsubj(use-5, they-4)
+rcmod(here-3, use-5)
+num(%-7, 20-6)
+dobj(use-5, %-7)
+
+
+(ROOT
+  (S
+    (PP (IN of)
+      (NP (DT the) (NN lard)))
+    (NP (PRP they))
+    (VP (VBP use)
+      (PP (IN at)
+        (NP
+          (NP (NNP Newton))
+          (CC and)
+          (NP (CD 20) (NN %)))))))
+
+
+prep(use-5, of-1)
+det(lard-3, the-2)
+pobj(of-1, lard-3)
+nsubj(use-5, they-4)
+root(ROOT-0, use-5)
+prep(use-5, at-6)
+pobj(at-6, Newton-7)
+cc(Newton-7, and-8)
+num(%-10, 20-9)
+conj(Newton-7, %-10)
+
+
+(ROOT
+  (NP
+    (NP (JJR less))
+    (NP (NNP Soy) (NNP Sauce))
+    (. .)))
+
+
+root(ROOT-0, less-1)
+nn(Sauce-3, Soy-2)
+dep(less-1, Sauce-3)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NN result))
+    (VP (VBZ is)
+      (NP (DT a) (JJ healthier) (NNP Hokkien) (NNP Mee)))
+    (, ,)))
+
+
+det(result-2, The-1)
+nsubj(Mee-7, result-2)
+cop(Mee-7, is-3)
+det(Mee-7, a-4)
+amod(Mee-7, healthier-5)
+nn(Mee-7, Hokkien-6)
+root(ROOT-0, Mee-7)
+
+
+(ROOT
+  (S
+    (NP (DT that))
+    (ADVP (RB still))
+    (VP (VBD managed)
+      (S
+        (VP (TO to)
+          (VP (VB titillate)
+            (NP (PRP$ our) (NNS tastebuds))
+            (ADVP (RB enough)
+              (PP (IN for)
+                (NP (PRP us))))
+            (S
+              (VP (TO to)
+                (VP (VB finish)
+                  (NP (DT the) (JJ whole) (NN plate)))))))))
+    (. .)))
+
+
+nsubj(managed-3, that-1)
+advmod(managed-3, still-2)
+root(ROOT-0, managed-3)
+aux(titillate-5, to-4)
+xcomp(managed-3, titillate-5)
+poss(tastebuds-7, our-6)
+dobj(titillate-5, tastebuds-7)
+advmod(titillate-5, enough-8)
+prep(enough-8, for-9)
+pobj(for-9, us-10)
+aux(finish-12, to-11)
+xcomp(titillate-5, finish-12)
+det(plate-15, the-13)
+amod(plate-15, whole-14)
+dobj(finish-12, plate-15)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB see)
+        (SBAR (IN that)
+          (S
+            (NP (DT the) (NN style))
+            (VP (VBZ is)
+              (ADJP (JJ akin)
+                (PP (TO to)
+                  (NP
+                    (NP (DT the) (JJ old) (`` ``) (NNP Lor) (NNP Chor) ('' '') (NN mee) (NN style))
+                    (SBAR
+                      (WHNP (WDT which))
+                      (S
+                        (VP (VBZ is)
+                          (NP (JJR darker)))))))))))))
+    (, ,)))
+
+
+nsubj(see-3, You-1)
+aux(see-3, can-2)
+root(ROOT-0, see-3)
+mark(akin-8, that-4)
+det(style-6, the-5)
+nsubj(akin-8, style-6)
+cop(akin-8, is-7)
+ccomp(see-3, akin-8)
+prep(akin-8, to-9)
+det(style-17, the-10)
+amod(style-17, old-11)
+nn(style-17, Lor-13)
+nn(style-17, Chor-14)
+nn(style-17, mee-16)
+pobj(to-9, style-17)
+nsubj(darker-20, which-18)
+cop(darker-20, is-19)
+rcmod(style-17, darker-20)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NN moist))
+      (CONJP (CC but)
+        (RB not))
+      (NP
+        (NP (NN gooey))
+        (CC and)
+        (NP (PRP they))))
+    (VP (VBP use)
+      (S
+        (NP
+          (NP (JJ thin) (NN bee) (NN hoon))
+          (PP (RB rather)
+            (ADVP (RB then))))
+        (NP
+          (NP (DT the) (JJR thicker) (JJ laksa) (NN bee) (NN hoon))
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (VBZ gives)
+                (NP (JJR more) (NN bite))
+                (PP (TO to)
+                  (NP (DT each) (NN mouthful)))))))))
+    (. .)))
+
+
+nsubj(use-7, moist-1)
+cc(not-3, but-2)
+cc(moist-1, not-3)
+conj(moist-1, gooey-4)
+cc(gooey-4, and-5)
+conj(gooey-4, they-6)
+root(ROOT-0, use-7)
+amod(hoon-10, thin-8)
+nn(hoon-10, bee-9)
+nsubj(hoon-17, hoon-10)
+prep(hoon-10, rather-11)
+dep(rather-11, then-12)
+det(hoon-17, the-13)
+amod(hoon-17, thicker-14)
+amod(hoon-17, laksa-15)
+nn(hoon-17, bee-16)
+xcomp(use-7, hoon-17)
+nsubj(gives-19, which-18)
+rcmod(hoon-17, gives-19)
+amod(bite-21, more-20)
+dobj(gives-19, bite-21)
+prep(gives-19, to-22)
+det(mouthful-24, each-23)
+pobj(to-22, mouthful-24)
+
+
+(ROOT
+  (NP
+    (NP (NNP Conclusion) (NNP Surprisingly))
+    (ADJP (JJ good)
+      (PP (IN for)
+        (NP
+          (NP (DT a) (NNP Hokkien) (NNP Mee))
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (VBZ is)
+                (ADJP
+                  (ADJP (JJR lower))
+                  (PP (IN on)
+                    (NP (JJ saturated) (NNS fats)
+                      (CC and)
+                      (NN salt))))))))))
+    (. !)))
+
+
+nn(Surprisingly-2, Conclusion-1)
+root(ROOT-0, Surprisingly-2)
+amod(Surprisingly-2, good-3)
+prep(good-3, for-4)
+det(Mee-7, a-5)
+nn(Mee-7, Hokkien-6)
+pobj(for-4, Mee-7)
+nsubj(lower-10, which-8)
+cop(lower-10, is-9)
+rcmod(Mee-7, lower-10)
+prep(lower-10, on-11)
+amod(fats-13, saturated-12)
+pobj(on-11, fats-13)
+cc(fats-13, and-14)
+conj(fats-13, salt-15)
+
+
+(ROOT
+  (NP
+    (NP (NNP Guang) (NNP Fa) (NNP Hokkien) (NNP Prawn) (NNP Mee) (NNP Northbridge) (NNP Food) (NNP Centre))
+    (NP (# #) (CD 01-109))
+    (NP (JJ 11am-9pm))))
+
+
+nn(Centre-8, Guang-1)
+nn(Centre-8, Fa-2)
+nn(Centre-8, Hokkien-3)
+nn(Centre-8, Prawn-4)
+nn(Centre-8, Mee-5)
+nn(Centre-8, Northbridge-6)
+nn(Centre-8, Food-7)
+root(ROOT-0, Centre-8)
+dep(01-109-10, #-9)
+dep(Centre-8, 01-109-10)
+dep(Centre-8, 11am-9pm-11)
+
+

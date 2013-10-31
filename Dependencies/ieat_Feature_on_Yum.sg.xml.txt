@@ -1,0 +1,155 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD was)
+      (VP (VBN featured)
+        (PP (IN on)
+          (NP (NNP Yum)))))
+    (. .)))
+
+
+nsubjpass(featured-3, I-1)
+auxpass(featured-3, was-2)
+root(ROOT-0, featured-3)
+prep(featured-3, on-4)
+pobj(on-4, Yum-5)
+
+
+(ROOT
+  (NP (NN sg) (. !)))
+
+
+root(ROOT-0, sg-1)
+
+
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB read))))
+    (VP (VBP please)
+      (NP (NN click))
+      (PP
+        (ADVP (RB here))
+        (RB Just)
+        (NP (CD one) (JJ little) (NN clarification))))
+    (. .)))
+
+
+aux(read-2, To-1)
+csubj(please-3, read-2)
+root(ROOT-0, please-3)
+dobj(please-3, click-4)
+prep(please-3, here-5)
+advmod(here-5, Just-6)
+num(clarification-9, one-7)
+amod(clarification-9, little-8)
+pobj(here-5, clarification-9)
+
+
+(ROOT
+  (ADJP (JJ Contrary)
+    (PP (TO to)
+      (SBAR
+        (WHNP (WP what))
+        (S
+          (NP (DT the) (NN article))
+          (VP (VBZ says))
+          (, ,))))))
+
+
+root(ROOT-0, Contrary-1)
+prep(Contrary-1, to-2)
+dobj(says-6, what-3)
+det(article-5, the-4)
+nsubj(says-6, article-5)
+pcomp(to-2, says-6)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP
+      (VP (VBP do)
+        (VP (VB know)
+          (SBAR
+            (WHADVP (WRB how))
+            (S
+              (VP (TO to)
+                (VP (VB cook)))))))
+      (CC and)
+      (VP (VBD used)
+        (S
+          (VP (TO to)
+            (VP (VB cook)
+              (ADVP (RB regularly))
+              (PP (IN in)
+                (NP (DT the) (NN past))))))))
+    (. .)))
+
+
+nsubj(know-3, I-1)
+aux(know-3, do-2)
+root(ROOT-0, know-3)
+advmod(cook-6, how-4)
+aux(cook-6, to-5)
+ccomp(know-3, cook-6)
+cc(know-3, and-7)
+conj(know-3, used-8)
+aux(cook-10, to-9)
+xcomp(used-8, cook-10)
+advmod(cook-10, regularly-11)
+prep(cook-10, in-12)
+det(past-14, the-13)
+pobj(in-12, past-14)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB However))
+    (ADVP (RB ,))))
+
+
+root(ROOT-0, However-1)
+
+
+(ROOT
+  (SBAR (IN since)
+    (S
+      (NP (PRP I))
+      (VP (VBP am)
+        (VP (VBG working)
+          (ADJP (RBS most) (JJ evenings))
+          (ADVP (RB now))
+          (, ,))))))
+
+
+mark(working-4, since-1)
+nsubj(working-4, I-2)
+aux(working-4, am-3)
+root(ROOT-0, working-4)
+advmod(evenings-6, most-5)
+acomp(working-4, evenings-6)
+advmod(working-4, now-7)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NN maid))
+    (VP (VBZ does)
+      (NP
+        (NP (JJS most))
+        (PP (IN of)
+          (NP (DT the) (NN cooking)))))
+    (. .)))
+
+
+det(maid-2, the-1)
+nsubj(does-3, maid-2)
+root(ROOT-0, does-3)
+dobj(does-3, most-4)
+prep(most-4, of-5)
+det(cooking-7, the-6)
+pobj(of-5, cooking-7)
+
+

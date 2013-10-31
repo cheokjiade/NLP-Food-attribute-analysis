@@ -1,0 +1,324 @@
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP know)
+      (S
+        (NP (PRP we))
+        (RB all)
+        (VP (VB take)
+          (NP (NNS chopsticks))
+          (PP (IN for)
+            (S
+              (VP (JJ granted)))))))
+    (. .)))
+
+
+nsubj(know-2, You-1)
+root(ROOT-0, know-2)
+nsubj(take-5, we-3)
+advmod(take-5, all-4)
+ccomp(know-2, take-5)
+dobj(take-5, chopsticks-6)
+prep(take-5, for-7)
+pcomp(for-7, granted-8)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (NP
+        (NP (PDT such) (DT a) (NN part))
+        (PP (IN of)
+          (NP (PRP$ our) (JJ Chinese) (NN culture))))
+      (SBAR (IN that)
+        (S
+          (NP (PRP we))
+          (VP (VBP do) (RB n't)
+            (ADVP (RB even))
+            (VP (VB bother)
+              (S
+                (VP (TO to)
+                  (VP (VB teach)
+                    (NP (PRP$ our) (NNS kids))
+                    (SBAR
+                      (WHADVP (WRB how))
+                      (S
+                        (VP (TO to)
+                          (VP (VB hold)
+                            (NP (PRP$ their) (NNS chopsticks))))))))))))))
+    (. .)))
+
+
+nsubj(part-5, It-1)
+cop(part-5, is-2)
+predet(part-5, such-3)
+det(part-5, a-4)
+root(ROOT-0, part-5)
+prep(part-5, of-6)
+poss(culture-9, our-7)
+amod(culture-9, Chinese-8)
+pobj(of-6, culture-9)
+mark(bother-15, that-10)
+nsubj(bother-15, we-11)
+aux(bother-15, do-12)
+neg(bother-15, n't-13)
+advmod(bother-15, even-14)
+ccomp(part-5, bother-15)
+aux(teach-17, to-16)
+xcomp(bother-15, teach-17)
+poss(kids-19, our-18)
+dobj(teach-17, kids-19)
+advmod(hold-22, how-20)
+aux(hold-22, to-21)
+xcomp(teach-17, hold-22)
+poss(chopsticks-24, their-23)
+dobj(hold-22, chopsticks-24)
+
+
+(ROOT
+  (SBAR
+    (WHADJP (WRB How) (JJ many)
+      (PP (IN of)
+        (NP (PRP you))))
+    (S
+      (S
+        (VP
+          (ADVP (RB actually))
+          (VB remember)
+          (NP (PRP$ your) (NN father))
+          (S
+            (VP (VBG sitting)
+              (NP (PRP you))
+              (ADVP (RB down)
+                (NP (CD one) (NN day)))))))
+      (CC and)
+      (S
+        (VP (VBG saying)
+          (PP (TO to)
+            (NP (PRP you))))
+        (, ,)))))
+
+
+advmod(many-2, How-1)
+dep(remember-6, many-2)
+prep(many-2, of-3)
+pobj(of-3, you-4)
+advmod(remember-6, actually-5)
+root(ROOT-0, remember-6)
+poss(father-8, your-7)
+dobj(remember-6, father-8)
+xcomp(remember-6, sitting-9)
+dobj(sitting-9, you-10)
+advmod(sitting-9, down-11)
+num(day-13, one-12)
+pobj(down-11, day-13)
+cc(remember-6, and-14)
+conj(remember-6, saying-15)
+prep(saying-15, to-16)
+pobj(to-16, you-17)
+
+
+(ROOT
+  (FRAG
+    (PP (IN ``)
+      (NP (NNP Son)))
+    (, ,)))
+
+
+pobj(``-1, Son-2)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB now))
+    (SBAR (IN that)
+      (S
+        (NP (PRP you))
+        (VP (VBP have)
+          (VP (VBN come)
+            (PP (IN of)
+              (NP (NN age)))
+            (, ,)))))))
+
+
+root(ROOT-0, now-1)
+mark(come-5, that-2)
+nsubj(come-5, you-3)
+aux(come-5, have-4)
+dep(now-1, come-5)
+prep(come-5, of-6)
+pobj(of-6, age-7)
+
+
+(ROOT
+  (S
+    (NP (NN daddy))
+    (VP (VBZ is)
+      (VP (VBG going)
+        (S
+          (VP (TO to)
+            (VP (VB show)
+              (NP (PRP you))
+              (SBAR
+                (WHADVP (WRB how))
+                (S
+                  (VP (TO to)
+                    (VP (VB hold)
+                      (NP
+                        (NP (DT a) (NN pair))
+                        (PP (IN of)
+                          (NP (NNS chopsticks)))
+                        ('' '')))))))))))
+    (. ?)))
+
+
+nsubj(going-3, daddy-1)
+aux(going-3, is-2)
+root(ROOT-0, going-3)
+aux(show-5, to-4)
+xcomp(going-3, show-5)
+dobj(show-5, you-6)
+advmod(hold-9, how-7)
+aux(hold-9, to-8)
+xcomp(show-5, hold-9)
+det(pair-11, a-10)
+dobj(hold-9, pair-11)
+prep(pair-11, of-12)
+pobj(of-12, chopsticks-13)
+
+
+(ROOT
+  (FRAG
+    (PP (IN No))
+    (, ,)))
+
+
+root(ROOT-0, No-1)
+
+
+(ROOT
+  (FRAG
+    (PP
+      (ADVP (RBR more) (RB often))
+      (IN than)
+      (NP (RB not)))
+    (, ,)))
+
+
+advmod(often-2, more-1)
+advmod(than-3, often-2)
+root(ROOT-0, than-3)
+pobj(than-3, not-4)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (ADVP (RB all) (RB just))
+    (VP
+      (VP (VBP pick)
+        (PRT (RP up))
+        (NP
+          (NP (DT a) (NN pair))
+          (PP (IN of)
+            (NP
+              (NP (NNS chopsticks))
+              (NP (CD one) (NN day))))))
+      (CC and)
+      (VP (VBD started)
+        (S
+          (VP (VBG using)
+            (NP (PRP them))))))
+    (. .)))
+
+
+nsubj(pick-4, we-1)
+advmod(just-3, all-2)
+advmod(pick-4, just-3)
+root(ROOT-0, pick-4)
+prt(pick-4, up-5)
+det(pair-7, a-6)
+dobj(pick-4, pair-7)
+prep(pair-7, of-8)
+pobj(of-8, chopsticks-9)
+num(day-11, one-10)
+dep(chopsticks-9, day-11)
+cc(pick-4, and-12)
+conj(pick-4, started-13)
+xcomp(started-13, using-14)
+dobj(using-14, them-15)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Unfortunately))
+    (, ,)))
+
+
+root(ROOT-0, Unfortunately-1)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (VBZ is)
+      (PP (IN for)
+        (NP
+          (NP (DT that) (NN reason))
+          (PP (IN that)
+            (NP
+              (NP (DT a) (NN lot))
+              (PP (IN of)
+                (NP (NNS people))))))))
+    (, ,)))
+
+
+nsubj(is-2, it-1)
+root(ROOT-0, is-2)
+prep(is-2, for-3)
+det(reason-5, that-4)
+pobj(for-3, reason-5)
+prep(reason-5, that-6)
+det(lot-8, a-7)
+pobj(that-6, lot-8)
+prep(lot-8, of-9)
+pobj(of-9, people-10)
+
+
+(ROOT
+  (S
+    (NP (PRP myself))
+    (VP (VBD included))
+    (, ,)))
+
+
+nsubj(included-2, myself-1)
+root(ROOT-0, included-2)
+
+
+(ROOT
+  (S
+    (VP (VBN ended)
+      (PRT (RP up))
+      (NP
+        (NP (VBG holding) (NNS chopsticks))
+        (VP (VBN crossed)
+          (PP (IN like)
+            (ADVP
+              (NP (DT the) (NN photo))
+              (IN above))))))
+    (. !)))
+
+
+root(ROOT-0, ended-1)
+prt(ended-1, up-2)
+amod(chopsticks-4, holding-3)
+dobj(ended-1, chopsticks-4)
+partmod(chopsticks-4, crossed-5)
+prep(crossed-5, like-6)
+det(photo-8, the-7)
+npadvmod(above-9, photo-8)
+pcomp(like-6, above-9)
+
+

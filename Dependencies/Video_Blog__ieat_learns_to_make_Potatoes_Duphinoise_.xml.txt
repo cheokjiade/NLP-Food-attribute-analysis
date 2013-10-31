@@ -1,0 +1,124 @@
+(ROOT
+  (S
+    (NP (RB Here))
+    (VP (VBZ 's)
+      (NP
+        (NP (DT a) (JJ simple) (NN potato) (NN dish))
+        (SBAR
+          (S
+            (NP (PRP you))
+            (VP (MD can)
+              (VP (VB whip)
+                (PRT (RP up))
+                (SBAR (IN that)
+                  (S
+                    (VP (VBZ is)
+                      (ADJP
+                        (ADJP (JJ delicious))
+                        (CC and)
+                        (ADJP (RB so) (JJ easy)))
+                      (S
+                        (VP (TO to)
+                          (VP (VB make)))))))))))))
+    (. !)))
+
+
+nsubj(dish-6, Here-1)
+cop(dish-6, 's-2)
+det(dish-6, a-3)
+amod(dish-6, simple-4)
+nn(dish-6, potato-5)
+root(ROOT-0, dish-6)
+nsubj(whip-9, you-7)
+aux(whip-9, can-8)
+rcmod(dish-6, whip-9)
+prt(whip-9, up-10)
+mark(delicious-13, that-11)
+cop(delicious-13, is-12)
+ccomp(whip-9, delicious-13)
+cc(delicious-13, and-14)
+advmod(easy-16, so-15)
+conj(delicious-13, easy-16)
+aux(make-18, to-17)
+xcomp(delicious-13, make-18)
+
+
+(ROOT
+  (NP (NNP BTW) (NNP ,)))
+
+
+nn(,-2, BTW-1)
+
+
+(ROOT
+  (S
+    (NP (NNP Chef) (NNP Tim))
+    (VP (VBZ has)
+      (ADVP (RB just))
+      (VP (VBN joined)
+        (NP
+          (NP (NNP WineGarage))
+          (PP (IN as)
+            (NP (PRP$ their) (NN head) (NN chef))))))
+    (. .)))
+
+
+nn(Tim-2, Chef-1)
+nsubj(joined-5, Tim-2)
+aux(joined-5, has-3)
+advmod(joined-5, just-4)
+root(ROOT-0, joined-5)
+dobj(joined-5, WineGarage-6)
+prep(WineGarage-6, as-7)
+poss(chef-10, their-8)
+nn(chef-10, head-9)
+pobj(as-7, chef-10)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB So))
+    (SBAR (IN if)
+      (S
+        (NP (PRP you))
+        (VP (VBP want)
+          (S
+            (VP (TO to)
+              (VP (VB taste)
+                (NP (PRP$ his) (NN food) (JJ first) (NN hand))))))
+        (, ,)))))
+
+
+root(ROOT-0, So-1)
+mark(want-4, if-2)
+nsubj(want-4, you-3)
+dep(So-1, want-4)
+aux(taste-6, to-5)
+xcomp(want-4, taste-6)
+poss(hand-10, his-7)
+nn(hand-10, food-8)
+amod(hand-10, first-9)
+dobj(taste-6, hand-10)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (VBP know)
+      (SBAR
+        (WHADVP (WRB where))
+        (S
+          (VP (TO to)
+            (VP (VB find)
+              (NP (PRP him)))))))
+    (. !)))
+
+
+nsubj(know-2, you-1)
+root(ROOT-0, know-2)
+advmod(find-5, where-3)
+aux(find-5, to-4)
+xcomp(know-2, find-5)
+dobj(find-5, him-6)
+
+

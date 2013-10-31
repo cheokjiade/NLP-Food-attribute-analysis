@@ -1,0 +1,336 @@
+(ROOT
+  (NP
+    (NP (NNS Thanks))
+    (PP (TO to)
+      (NP (NNP Sen)))
+    (PP (IN for)
+      (NP (DT the) (NN upload)))
+    (. !)))
+
+
+root(ROOT-0, Thanks-1)
+prep(Thanks-1, to-2)
+pobj(to-2, Sen-3)
+prep(Thanks-1, for-4)
+det(upload-6, the-5)
+pobj(for-4, upload-6)
+
+
+(ROOT
+  (S
+    (NP (RB Here))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (NN snippet))
+        (PP (IN on)
+          (NP (NNP Foodage) (NN yesterday) (NN night)))))
+    (. .)))
+
+
+nsubj(snippet-4, Here-1)
+cop(snippet-4, is-2)
+det(snippet-4, the-3)
+root(ROOT-0, snippet-4)
+prep(snippet-4, on-5)
+nn(night-8, Foodage-6)
+nn(night-8, yesterday-7)
+pobj(on-5, night-8)
+
+
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (JJ last) (NN episode))
+        (PP (IN of)
+          (NP (NNP Foodage)))))
+    (, ,)))
+
+
+nsubj(episode-5, This-1)
+cop(episode-5, is-2)
+det(episode-5, the-3)
+amod(episode-5, last-4)
+root(ROOT-0, episode-5)
+prep(episode-5, of-6)
+pobj(of-6, Foodage-7)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT a) (NN series))
+      (SBAR
+        (WHNP (WDT that))
+        (S
+          (VP (VBD traces)
+            (NP
+              (NP (DT the) (NN history))
+              (PP (IN of)
+                (NP (NNP Singapore))))
+            (PP (IN through)
+              (NP (NN food)))
+            (PP (IN from)
+              (NP (DT the) (CD 50)))))))
+    (VP (VBZ 's)
+      (PP (IN till)
+        (NP (NN today))))
+    (. .)))
+
+
+det(series-2, a-1)
+nsubj('s-14, series-2)
+nsubj(traces-4, that-3)
+rcmod(series-2, traces-4)
+det(history-6, the-5)
+dobj(traces-4, history-6)
+prep(history-6, of-7)
+pobj(of-7, Singapore-8)
+prep(traces-4, through-9)
+pobj(through-9, food-10)
+prep(traces-4, from-11)
+det(50-13, the-12)
+pobj(from-11, 50-13)
+root(ROOT-0, 's-14)
+prep('s-14, till-15)
+pobj(till-15, today-16)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ Last) (NN night) (POS 's))
+      (NN episode))
+    (VP (VBD dealt)
+      (PP (IN with)
+        (NP
+          (NP (DT the) (JJ current) (NN food) (NN scene))
+          (SBAR
+            (WHPP (IN in)
+              (WHNP (WDT which)))
+            (S
+              (NP (NN blogging))
+              (VP (VBZ plays)
+                (NP (DT a) (JJ big) (NN role))))))))
+    (. .)))
+
+
+amod(night-2, Last-1)
+poss(episode-4, night-2)
+possessive(night-2, 's-3)
+nsubj(dealt-5, episode-4)
+root(ROOT-0, dealt-5)
+prep(dealt-5, with-6)
+det(scene-10, the-7)
+amod(scene-10, current-8)
+nn(scene-10, food-9)
+pobj(with-6, scene-10)
+prep(plays-14, in-11)
+pobj(in-11, which-12)
+nsubj(plays-14, blogging-13)
+rcmod(scene-10, plays-14)
+det(role-17, a-15)
+amod(role-17, big-16)
+dobj(plays-14, role-17)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB really))
+    (VP (VBD enjoyed)
+      (S
+        (VP
+          (VP (VBG watching)
+            (NP (PRP it)))
+          (CC and)
+          (VP (VBG learning)
+            (PP (IN about)
+              (NP
+                (NP (DT the) (NN history))
+                (PP (IN of)
+                  (NP (NNP Singapore) (NN food)))))))))
+    (. .)))
+
+
+nsubj(enjoyed-3, I-1)
+advmod(enjoyed-3, really-2)
+root(ROOT-0, enjoyed-3)
+ccomp(enjoyed-3, watching-4)
+dobj(watching-4, it-5)
+cc(watching-4, and-6)
+conj(watching-4, learning-7)
+prep(learning-7, about-8)
+det(history-10, the-9)
+pobj(about-8, history-10)
+prep(history-10, of-11)
+nn(food-13, Singapore-12)
+pobj(of-11, food-13)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The)
+        (ADJP (JJ black)
+          (CC and)
+          (JJ white))
+        (NN footage))
+      (PP (IN of)
+        (NP (PRP$ our) (NNS hawkers))))
+    (VP (VBP are)
+      (NP (JJ precious) (NNS archives))
+      (SBAR (IN that)
+        (S
+          (NP (PRP you))
+          (VP (VBP do) (RB n't)
+            (ADVP (RB often))
+            (VP (VB get)
+              (S
+                (VP (TO to)
+                  (VP (VB see)))))))))
+    (. !)))
+
+
+det(footage-5, The-1)
+amod(footage-5, black-2)
+cc(black-2, and-3)
+conj(black-2, white-4)
+nsubj(archives-11, footage-5)
+prep(footage-5, of-6)
+poss(hawkers-8, our-7)
+pobj(of-6, hawkers-8)
+cop(archives-11, are-9)
+amod(archives-11, precious-10)
+root(ROOT-0, archives-11)
+mark(get-17, that-12)
+nsubj(get-17, you-13)
+aux(get-17, do-14)
+neg(get-17, n't-15)
+advmod(get-17, often-16)
+ccomp(archives-11, get-17)
+aux(see-19, to-18)
+xcomp(get-17, see-19)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (VBD missed)
+        (NP (DT the) (NN series)))
+      (, ,))))
+
+
+mark(missed-3, If-1)
+nsubj(missed-3, you-2)
+root(ROOT-0, missed-3)
+det(series-5, the-4)
+dobj(missed-3, series-5)
+
+
+(ROOT
+  (S
+    (VP (VB do)
+      (VP (VB write)
+        (PRT (RP in))
+        (S
+          (VP (TO to)
+            (VP (VB Mediacorp)
+              (S
+                (VP (TO to)
+                  (VP (VB ask)
+                    (S
+                      (NP (PRP them))
+                      (VP (TO to)
+                        (VP (VB do)
+                          (NP (DT a) (NN rerun)))))))))))))
+    (. !)))
+
+
+aux(write-2, do-1)
+root(ROOT-0, write-2)
+prt(write-2, in-3)
+aux(Mediacorp-5, to-4)
+xcomp(write-2, Mediacorp-5)
+aux(ask-7, to-6)
+xcomp(Mediacorp-5, ask-7)
+nsubj(do-10, them-8)
+aux(do-10, to-9)
+xcomp(ask-7, do-10)
+det(rerun-12, a-11)
+dobj(do-10, rerun-12)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Again))
+    (, ,)))
+
+
+root(ROOT-0, Again-1)
+
+
+(ROOT
+  (NP
+    (NP (NNS thanks))
+    (PP (TO to)
+      (NP
+        (NP
+          (NP (NN everyone))
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP (VBD took)
+                (NP (NN part))
+                (PP
+                  (PP (IN in)
+                    (NP (DT the) (NN filming)))
+                  (CC and)
+                  (PP (TO to)
+                    (NP (PDT all) (PRP$ my) (NNS kakis))))))))
+        (CC and)
+        (NP
+          (NP (NNS supporters))
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP (VBD made)
+                (NP
+                  (NP (DT the) (NN blog))
+                  (SBAR
+                    (WHNP (WP what))
+                    (S
+                      (NP (PRP it))
+                      (VP (VBZ is)
+                        (NP (NN today))))))))))))
+    (. .)))
+
+
+root(ROOT-0, thanks-1)
+prep(thanks-1, to-2)
+pobj(to-2, everyone-3)
+nsubj(took-5, who-4)
+rcmod(everyone-3, took-5)
+dobj(took-5, part-6)
+prep(took-5, in-7)
+det(filming-9, the-8)
+pobj(in-7, filming-9)
+cc(in-7, and-10)
+conj(in-7, to-11)
+predet(kakis-14, all-12)
+poss(kakis-14, my-13)
+pobj(to-11, kakis-14)
+cc(everyone-3, and-15)
+conj(everyone-3, supporters-16)
+nsubj(made-18, who-17)
+rcmod(supporters-16, made-18)
+det(blog-20, the-19)
+dobj(made-18, blog-20)
+dobj(today-24, what-21)
+nsubj(today-24, it-22)
+cop(today-24, is-23)
+rcmod(blog-20, today-24)
+
+

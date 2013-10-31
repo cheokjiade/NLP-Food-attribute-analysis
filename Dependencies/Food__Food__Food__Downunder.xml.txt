@@ -1,0 +1,227 @@
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (ADVP (RB really))
+      (ADJP (RB too) (JJ bad))
+      (SBAR (IN that)
+        (S
+          (NP (PRP I))
+          (VP
+            (ADVP (RB only))
+            (VBG starting)
+            (ADJP (JJ blogging)
+              (PP (IN about)
+                (NP (NN food))))
+            (ADVP (RB recently))))))
+    (. .)))
+
+
+nsubj(bad-5, It-1)
+cop(bad-5, is-2)
+advmod(bad-5, really-3)
+advmod(bad-5, too-4)
+root(ROOT-0, bad-5)
+mark(starting-9, that-6)
+nsubj(starting-9, I-7)
+advmod(starting-9, only-8)
+ccomp(bad-5, starting-9)
+acomp(starting-9, blogging-10)
+prep(blogging-10, about-11)
+pobj(about-11, food-12)
+advmod(starting-9, recently-13)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD should)
+      (VP (VB have)
+        (VP (VBN started)
+          (ADVP (RB back))
+          (SBAR
+            (WHADVP (WRB when))
+            (S
+              (NP (PRP I))
+              (VP (VBD was)
+                (VP (VBG living)
+                  (PRT (RP down))
+                  (PP (IN under)))))))))
+    (. .)))
+
+
+nsubj(started-4, I-1)
+aux(started-4, should-2)
+aux(started-4, have-3)
+root(ROOT-0, started-4)
+advmod(started-4, back-5)
+advmod(living-9, when-6)
+nsubj(living-9, I-7)
+aux(living-9, was-8)
+advcl(started-4, living-9)
+prt(living-9, down-10)
+prep(living-9, under-11)
+
+
+(ROOT
+  (FRAG
+    (PP (IN OK))
+    (, ,)))
+
+
+root(ROOT-0, OK-1)
+
+
+(ROOT
+  (S
+    (S
+      (NP (NN blogging))
+      (VP (VBD was) (RB n't)
+        (PP (IN around)
+          (NP (RB then)))))
+    (CC and)
+    (S
+      (NP (DT neither))
+      (VP (VBD was)
+        (NP (DT the) (NN internet))
+        (SBAR (IN so)
+          (S
+            (NP (PRP I))
+            (VP (VBP guess)
+              (SBAR
+                (S
+                  (NP
+                    (NP (NNS people))
+                    (PP (IN in)
+                      (NP (DT those) (NNS days))))
+                  (VP (MD must)
+                    (VP (VB have)
+                      (VP (VBN kept)
+                        (NP
+                          (NP (DT a) (NN food) (NN diary))
+                          (PP (IN of)
+                            (NP (NNS sorts))))))))))))))
+    (. .)))
+
+
+nsubj(was-2, blogging-1)
+root(ROOT-0, was-2)
+neg(was-2, n't-3)
+prep(was-2, around-4)
+pobj(around-4, then-5)
+cc(was-2, and-6)
+nsubj(internet-10, neither-7)
+cop(internet-10, was-8)
+det(internet-10, the-9)
+conj(was-2, internet-10)
+mark(guess-13, so-11)
+nsubj(guess-13, I-12)
+advcl(internet-10, guess-13)
+nsubj(kept-20, people-14)
+prep(people-14, in-15)
+det(days-17, those-16)
+pobj(in-15, days-17)
+aux(kept-20, must-18)
+aux(kept-20, have-19)
+ccomp(guess-13, kept-20)
+det(diary-23, a-21)
+nn(diary-23, food-22)
+dobj(kept-20, diary-23)
+prep(diary-23, of-24)
+pobj(of-24, sorts-25)
+
+
+(ROOT
+  (NP (NNP Gosh) (NNP ,)))
+
+
+nn(,-2, Gosh-1)
+
+
+(ROOT
+  (NP
+    (NP
+      (NP (DT those))
+      (SBAR
+        (WHADVP (WRB where))
+        (S
+          (NP
+            (NP (DT the) (NNS days))
+            (SBAR
+              (WHADVP (WRB when))
+              (S
+                (NP (PRP you))
+                (VP (VBD had)
+                  (S
+                    (VP (TO to)
+                      (VP (VB ring)
+                        (NP (PRP$ your) (NNS friends)))))))))
+          (VP (TO to)
+            (VP (VB ask)
+              (PP (IN for)
+                (NP (NNS recommendations))))))))
+    (PP (IN about)
+      (SBAR
+        (WHADVP (WRB where))
+        (S
+          (VP (TO to)
+            (VP (VB eat))))))
+    (. !)))
+
+
+root(ROOT-0, those-1)
+advmod(ask-13, where-2)
+det(days-4, the-3)
+nsubj(ask-13, days-4)
+advmod(had-7, when-5)
+nsubj(had-7, you-6)
+rcmod(days-4, had-7)
+aux(ring-9, to-8)
+xcomp(had-7, ring-9)
+poss(friends-11, your-10)
+dobj(ring-9, friends-11)
+aux(ask-13, to-12)
+infmod(those-1, ask-13)
+prep(ask-13, for-14)
+pobj(for-14, recommendations-15)
+prep(those-1, about-16)
+advmod(eat-19, where-17)
+aux(eat-19, to-18)
+pcomp(about-16, eat-19)
+
+
+(ROOT
+  (S (CC And)
+    (ADVP (RB sometimes))
+    (NP (PRP you))
+    (VP (MD could) (RB n't)
+      (VP (VB reach)
+        (SBAR
+          (S
+            (NP (PRP them))
+            (VP (VBP cos)
+              (SBAR
+                (S
+                  (NP (JJ mobile) (NNS phones))
+                  (VP (VBD were) (RB n't)
+                    (ADJP (RB readily) (JJ available) (RB too))))))))))
+    (. .)))
+
+
+cc(reach-6, And-1)
+advmod(reach-6, sometimes-2)
+nsubj(reach-6, you-3)
+aux(reach-6, could-4)
+neg(reach-6, n't-5)
+root(ROOT-0, reach-6)
+nsubj(cos-8, them-7)
+ccomp(reach-6, cos-8)
+amod(phones-10, mobile-9)
+nsubj(available-14, phones-10)
+cop(available-14, were-11)
+neg(available-14, n't-12)
+advmod(available-14, readily-13)
+ccomp(cos-8, available-14)
+advmod(available-14, too-15)
+
+

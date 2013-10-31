@@ -1,0 +1,240 @@
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ My) (JJ first) (NN introduction))
+      (PP (TO to)
+        (NP (DT the) (NNP BBQ) (NNP Stingray))))
+    (VP (VBD was)
+      (PP (IN during)
+        (NP
+          (NP (PRP$ my) (JJ dating) (NNS days))
+          (PP (IN in)
+            (NP (NNP RJC))))))
+    (. .)))
+
+
+poss(introduction-3, My-1)
+amod(introduction-3, first-2)
+nsubj(was-8, introduction-3)
+prep(introduction-3, to-4)
+det(Stingray-7, the-5)
+nn(Stingray-7, BBQ-6)
+pobj(to-4, Stingray-7)
+root(ROOT-0, was-8)
+prep(was-8, during-9)
+poss(days-12, my-10)
+amod(days-12, dating-11)
+pobj(during-9, days-12)
+prep(days-12, in-13)
+pobj(in-13, RJC-14)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB never))
+    (VP (VBD used)
+      (S
+        (VP (TO to)
+          (VP (VB like)
+            (NP (NN seafood))
+            (SBAR (IN until)
+              (S
+                (NP (PRP I))
+                (VP (VBD met)
+                  (NP (NNP Amagada)))))))))
+    (. .)))
+
+
+nsubj(used-3, I-1)
+neg(used-3, never-2)
+root(ROOT-0, used-3)
+aux(like-5, to-4)
+xcomp(used-3, like-5)
+dobj(like-5, seafood-6)
+mark(met-9, until-7)
+nsubj(met-9, I-8)
+advcl(like-5, met-9)
+dobj(met-9, Amagada-10)
+
+
+(ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (S
+      (VP (TO to)
+        (VP (VB do))))
+    (. ?)))
+
+
+dep(do-3, What-1)
+aux(do-3, to-2)
+root(ROOT-0, do-3)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP You))
+      (VP (VBP want)
+        (S
+          (VP (TO to)
+            (VP (VB impress)
+              (NP (PRP$ your) (JJ potential) (NNS in-laws)))))))
+    (NP (PRP you))
+    (VP (VBP need)
+      (S
+        (VP (TO to)
+          (VP (VB put)
+            (PP (IN in)
+              (NP
+                (NP (DT the) (NN effort))
+                (SBAR
+                  (WHNP (WDT which))
+                  (S
+                    (VP (VBZ includes)
+                      (S
+                        (VP
+                          (VP (VBG enjoying)
+                            (SBAR
+                              (WHNP (WP what))
+                              (S
+                                (NP
+                                  (NP (DT the) (NN girlfriend) (POS 's))
+                                  (NN family))
+                                (VP (VBZ likes)))))
+                          (CONJP (RB as) (RB well) (IN as))
+                          (VP (VBG washing)
+                            (NP (DT the) (NNS windows))
+                            (PP (IN before)
+                              (NP (JJ Chinese) (NNP New) (NN Year)))))))))))))))
+    (. .)))
+
+
+nsubj(want-2, You-1)
+dep(need-9, want-2)
+aux(impress-4, to-3)
+xcomp(want-2, impress-4)
+poss(in-laws-7, your-5)
+amod(in-laws-7, potential-6)
+dobj(impress-4, in-laws-7)
+nsubj(need-9, you-8)
+root(ROOT-0, need-9)
+aux(put-11, to-10)
+xcomp(need-9, put-11)
+prep(put-11, in-12)
+det(effort-14, the-13)
+pobj(in-12, effort-14)
+nsubj(includes-16, which-15)
+rcmod(effort-14, includes-16)
+ccomp(includes-16, enjoying-17)
+dobj(likes-23, what-18)
+det(girlfriend-20, the-19)
+poss(family-22, girlfriend-20)
+possessive(girlfriend-20, 's-21)
+nsubj(likes-23, family-22)
+ccomp(enjoying-17, likes-23)
+advmod(well-25, as-24)
+cc(enjoying-17, well-25)
+mwe(well-25, as-26)
+conj(enjoying-17, washing-27)
+det(windows-29, the-28)
+dobj(washing-27, windows-29)
+prep(washing-27, before-30)
+amod(Year-33, Chinese-31)
+nn(Year-33, New-32)
+pobj(before-30, Year-33)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Yeah))
+    (, ,)))
+
+
+root(ROOT-0, Yeah-1)
+
+
+(ROOT
+  (S
+    (NP (NNP PM) (NNP Lee))
+    (VP (MD might)
+      (VP (VB be)
+        (NP
+          (NP (NNP Singapore) (POS 's))
+          (NN love) (NN guru))))
+    (, ,)))
+
+
+nn(Lee-2, PM-1)
+nsubj(guru-8, Lee-2)
+aux(guru-8, might-3)
+cop(guru-8, be-4)
+poss(guru-8, Singapore-5)
+possessive(Singapore-5, 's-6)
+nn(guru-8, love-7)
+root(ROOT-0, guru-8)
+
+
+(ROOT
+  (S (CC but)
+    (NP (PRP I))
+    (ADVP (RB also))
+    (VP (VBP have)
+      (NP (DT a) (JJ few) (NNS tips))
+      (PP (IN up)
+        (NP
+          (NP (PRP$ my) (NNS sleeves))
+          (-LRB- -LRB-)
+          (PP (IN besides)
+            (NP (NN buying)))
+          (ADVP (RB $)))))))
+
+
+cc(have-4, but-1)
+nsubj(have-4, I-2)
+advmod(have-4, also-3)
+root(ROOT-0, have-4)
+det(tips-7, a-5)
+amod(tips-7, few-6)
+dobj(have-4, tips-7)
+prep(have-4, up-8)
+poss(sleeves-10, my-9)
+pobj(up-8, sleeves-10)
+prep(sleeves-10, besides-12)
+pobj(besides-12, buying-13)
+advmod(sleeves-10, $-14)
+
+
+(ROOT
+  (S
+    (NP (NNP 228) (NNP mooncakes) (-RRB- -RRB-) (NNP and))
+    (VP (VBP have)
+      (NP
+        (NP (CD two) (NNS kids))
+        (SBAR
+          (S
+            (VP (TO to)
+              (VP (VB prove)
+                (NP (PRP it))
+                (SBAR (IN that)
+                  (S
+                    (NP (PRP it))
+                    (VP (VBZ works))))))))))
+    (. .)))
+
+
+nn(and-4, 228-1)
+nn(and-4, mooncakes-2)
+nsubj(have-5, and-4)
+root(ROOT-0, have-5)
+num(kids-7, two-6)
+dobj(have-5, kids-7)
+aux(prove-9, to-8)
+infmod(kids-7, prove-9)
+dobj(prove-9, it-10)
+mark(works-13, that-11)
+nsubj(works-13, it-12)
+ccomp(prove-9, works-13)
+
+

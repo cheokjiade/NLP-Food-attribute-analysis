@@ -1,0 +1,222 @@
+(ROOT
+  (FRAG
+    (PP (IN OK))
+    (, ,)))
+
+
+root(ROOT-0, OK-1)
+
+
+(ROOT
+  (S
+    (NP (DT the) (JJ current) (NN score))
+    (VP (VBZ is)
+      (NP (NNP Singapore) (CD 2)))
+    (, ,)))
+
+
+det(score-3, the-1)
+amod(score-3, current-2)
+nsubj(Singapore-5, score-3)
+cop(Singapore-5, is-4)
+root(ROOT-0, Singapore-5)
+num(Singapore-5, 2-6)
+
+
+(ROOT
+  (NP (NNS Penang) (CD 1) (. .)))
+
+
+root(ROOT-0, Penang-1)
+num(Penang-1, 1-2)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP are)
+      (VP (VBG going)
+        (S
+          (VP (TO to)
+            (VP (VB compare)
+              (NP
+                (NP (CD three) (JJR more) (NNS dishes))
+                (PP (IN in)
+                  (NP (DT this) (NN post)))))))))
+    (. .)))
+
+
+nsubj(going-3, We-1)
+aux(going-3, are-2)
+root(ROOT-0, going-3)
+aux(compare-5, to-4)
+xcomp(going-3, compare-5)
+num(dishes-8, three-6)
+amod(dishes-8, more-7)
+dobj(compare-5, dishes-8)
+prep(dishes-8, in-9)
+det(post-11, this-10)
+pobj(in-9, post-11)
+
+
+(ROOT
+  (S
+    (NP (DT The) (JJ first) (NN one))
+    (VP (VBZ is)
+      (NP (DT the) (NNP Char) (NNP Siew)
+        (CC and)
+        (NNP Sio) (NNP Bak)))
+    (. .)))
+
+
+det(one-3, The-1)
+amod(one-3, first-2)
+nsubj(Siew-7, one-3)
+cop(Siew-7, is-4)
+det(Siew-7, the-5)
+nn(Siew-7, Char-6)
+root(ROOT-0, Siew-7)
+cc(Siew-7, and-8)
+nn(Bak-10, Sio-9)
+conj(Siew-7, Bak-10)
+
+
+(ROOT
+  (SBAR
+    (WHADVP (WRB When))
+    (S
+      (NP (PRP it))
+      (VP (VBZ comes)
+        (PP (TO to)
+          (NP
+            (NP (NNP Char) (NNP Siew))
+            (, ,)))))))
+
+
+advmod(comes-3, When-1)
+nsubj(comes-3, it-2)
+root(ROOT-0, comes-3)
+prep(comes-3, to-4)
+nn(Siew-6, Char-5)
+pobj(to-4, Siew-6)
+
+
+(ROOT
+  (S
+    (NP (EX there))
+    (VP (VBZ is)
+      (UCP
+        (NP
+          (NP
+            (NP (CD one) (JJ undisputed) (NN champion))
+            (PP (IN of)
+              (NP (NNP Char) (NNP Siew))))
+          (CC and)
+          (NP
+            (NP (NNP Sio) (NNP Bak))
+            (PP (IN in)
+              (NP (NNP Penang)))))
+        (CC and)
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBZ is)
+              (NP
+                (NP (DT the) (NN one))
+                (PP (IN at)
+                  (NP (NNP Sky) (NN restaurant)))))))))
+    (. .)))
+
+
+expl(is-2, there-1)
+root(ROOT-0, is-2)
+num(champion-5, one-3)
+amod(champion-5, undisputed-4)
+nsubj(is-2, champion-5)
+prep(champion-5, of-6)
+nn(Siew-8, Char-7)
+pobj(of-6, Siew-8)
+cc(champion-5, and-9)
+nn(Bak-11, Sio-10)
+conj(champion-5, Bak-11)
+prep(Bak-11, in-12)
+pobj(in-12, Penang-13)
+cc(champion-5, and-14)
+nsubj(one-18, that-15)
+cop(one-18, is-16)
+det(one-18, the-17)
+conj(champion-5, one-18)
+prep(one-18, at-19)
+nn(restaurant-21, Sky-20)
+pobj(at-19, restaurant-21)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD was)
+      (VP (VBN told)
+        (PP (IN by)
+          (NP (PRP$ our) (JJ resident) (NN food) (NN blogger)))))
+    (, ,)))
+
+
+nsubjpass(told-3, I-1)
+auxpass(told-3, was-2)
+root(ROOT-0, told-3)
+prep(told-3, by-4)
+poss(blogger-8, our-5)
+amod(blogger-8, resident-6)
+nn(blogger-8, food-7)
+pobj(by-4, blogger-8)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP CK) (NNP Lam))
+      (SBAR (IN that)
+        (S
+          (S
+            (NP (PRP they))
+            (VP (VBP start)
+              (S
+                (VP (VBG selling)
+                  (NP (PRP$ their) (NNP Char) (NNP Siew))
+                  (PP (IN at)
+                    (NP (RB around) (CD 11.30) (RB am)))))))
+          (CC and)
+          (S
+            (NP (PRP it))
+            (VP (VBZ gets))))))
+    (VP (VBD sold)
+      (PRT (RP out))
+      (PP (IN by)
+        (PP (IN around)
+          (NP (CD 2pm)))))
+    (. .)))
+
+
+nn(Lam-2, CK-1)
+nsubj(sold-17, Lam-2)
+mark(start-5, that-3)
+nsubj(start-5, they-4)
+dep(Lam-2, start-5)
+xcomp(start-5, selling-6)
+poss(Siew-9, their-7)
+nn(Siew-9, Char-8)
+dobj(selling-6, Siew-9)
+prep(selling-6, at-10)
+advmod(11.30-12, around-11)
+pobj(at-10, 11.30-12)
+advmod(11.30-12, am-13)
+cc(start-5, and-14)
+nsubj(gets-16, it-15)
+conj(start-5, gets-16)
+root(ROOT-0, sold-17)
+prt(sold-17, out-18)
+prep(sold-17, by-19)
+pcomp(by-19, around-20)
+pobj(around-20, 2pm-21)
+
+

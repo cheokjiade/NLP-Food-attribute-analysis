@@ -1,0 +1,240 @@
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN total))
+      (PP (IN of)
+        (NP (CD 572) (NNS votes))))
+    (VP (VBD were)
+      (VP (VBN cast)))
+    (. .)))
+
+
+det(total-2, A-1)
+nsubjpass(cast-7, total-2)
+prep(total-2, of-3)
+num(votes-5, 572-4)
+pobj(of-3, votes-5)
+auxpass(cast-7, were-6)
+root(ROOT-0, cast-7)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NNS results))
+    (VP (VBP are)
+      (ADJP (RB very) (JJ promising)))
+    (. .)))
+
+
+det(results-2, The-1)
+nsubj(promising-5, results-2)
+cop(promising-5, are-3)
+advmod(promising-5, very-4)
+root(ROOT-0, promising-5)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNP National) (NNP Averages) (NNP corresponding))
+      (PP (TO to)
+        (NP (DT the) (CD 4) (NNS categories))))
+    (VP (VBP are)
+      (NP (CD 9) (NN %)))))
+
+
+det(corresponding-4, The-1)
+nn(corresponding-4, National-2)
+nn(corresponding-4, Averages-3)
+nsubj(%-11, corresponding-4)
+prep(corresponding-4, to-5)
+det(categories-8, the-6)
+num(categories-8, 4-7)
+pobj(to-5, categories-8)
+cop(%-11, are-9)
+num(%-11, 9-10)
+root(ROOT-0, %-11)
+
+
+(ROOT
+  (FRAG
+    (NP
+      (NP
+        (NP
+          (QP (JJR less) (IN than) (CD 18.5)))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP Underweight))
+          (-RRB- -RRB-)))
+      (NP (CD 42) (NN %)))))
+
+
+mwe(than-2, less-1)
+quantmod(18.5-3, than-2)
+root(ROOT-0, 18.5-3)
+appos(18.5-3, Underweight-5)
+num(%-8, 42-7)
+dep(18.5-3, %-8)
+
+
+(ROOT
+  (NP
+    (NP (CD 18.5) (TO to) (CD 23))
+    (PRN (-LRB- -LRB-)
+      (NP (NNP Healthy))
+      (-RRB- -RRB-))
+    (NP (CD 35) (NN %))))
+
+
+num(23-3, 18.5-1)
+dep(23-3, to-2)
+root(ROOT-0, 23-3)
+appos(23-3, Healthy-5)
+num(%-8, 35-7)
+dep(23-3, %-8)
+
+
+(ROOT
+  (NP
+    (NP (CD 23) (TO to) (CD 27.5))
+    (PRN (-LRB- -LRB-)
+      (NP (NNP Overweight))
+      (-RRB- -RRB-))
+    (NP (CD 14) (NN %))))
+
+
+num(27.5-3, 23-1)
+dep(27.5-3, to-2)
+root(ROOT-0, 27.5-3)
+appos(27.5-3, Overweight-5)
+num(%-8, 14-7)
+dep(27.5-3, %-8)
+
+
+(ROOT
+  (NP
+    (NP (RB over) (CD 27.5))
+    (PRN (-LRB- -LRB-)
+      (NP (NNP Obese))
+      (-RRB- -RRB-))))
+
+
+advmod(27.5-2, over-1)
+root(ROOT-0, 27.5-2)
+appos(27.5-2, Obese-4)
+
+
+(ROOT
+  (S
+    (NP (DT That))
+    (VP (VBZ means)
+      (SBAR (IN that)
+        (S
+          (NP (EX there))
+          (VP (VBP are)
+            (NP
+              (NP (JJR more) (NNS readers))
+              (PP (IN in)
+                (NP
+                  (NP (DT the) (JJ healthy) (NN weight) (NN range))
+                  (CC and)
+                  (NP
+                    (ADJP (JJR less)
+                      (PP (IN in)
+                        (NP
+                          (NP (DT the) (JJ unhealthy) (NN range))
+                          (PP (IN than)
+                            (NP
+                              (NP (DT the) (NNP National) (NN average) (NN !!))
+                              (VP
+                                (ADVP (RB Well))
+                                (VBN done)))))))
+                    (NNS Foodies)))))))))
+    (. !)))
+
+
+nsubj(means-2, That-1)
+root(ROOT-0, means-2)
+mark(are-5, that-3)
+expl(are-5, there-4)
+ccomp(means-2, are-5)
+amod(readers-7, more-6)
+nsubj(are-5, readers-7)
+prep(readers-7, in-8)
+det(range-12, the-9)
+amod(range-12, healthy-10)
+nn(range-12, weight-11)
+pobj(in-8, range-12)
+cc(range-12, and-13)
+amod(Foodies-26, less-14)
+prep(less-14, in-15)
+det(range-18, the-16)
+amod(range-18, unhealthy-17)
+pobj(in-15, range-18)
+prep(range-18, than-19)
+det(!!-23, the-20)
+nn(!!-23, National-21)
+nn(!!-23, average-22)
+pobj(than-19, !!-23)
+advmod(done-25, Well-24)
+partmod(!!-23, done-25)
+conj(range-12, Foodies-26)
+
+
+(ROOT
+  (FRAG
+    (NP
+      (NP (DT Those))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBP are)
+            (ADJP (JJ overweight))))))
+    (. .)))
+
+
+root(ROOT-0, Those-1)
+nsubj(overweight-4, who-2)
+cop(overweight-4, are-3)
+rcmod(Those-1, overweight-4)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP know)
+      (SBAR
+        (WHNP (WP what))
+        (S
+          (VP (TO to)
+            (VP (VB do)
+              (NP (NN lah)))))))
+    (. !)))
+
+
+nsubj(know-2, You-1)
+root(ROOT-0, know-2)
+nsubj(do-5, what-3)
+aux(do-5, to-4)
+ccomp(know-2, do-5)
+dobj(do-5, lah-6)
+
+
+(ROOT
+  (FRAG
+    (NP (NN Link))
+    (S
+      (VP (TO to)
+        (VP (VB HPB)
+          (NP (NN article))
+          (PP (IN on)
+            (NP (NN obesity))))))))
+
+
+root(ROOT-0, Link-1)
+aux(HPB-3, to-2)
+dep(Link-1, HPB-3)
+dobj(HPB-3, article-4)
+prep(HPB-3, on-5)
+pobj(on-5, obesity-6)
+
+

@@ -1,0 +1,208 @@
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (ADVP (RB reportedly))
+      (NP
+        (NP (DT the)
+          (ADJP (RBS most) (JJ successful))
+          (NN hawker))
+        (PP (IN in)
+          (NP (NNP Singapore))))
+      (PP (IN with)
+        (NP
+          (NP (JJ monthly) (NNS sales))
+          (PP (IN of)
+            (NP (NNP $))))))))
+
+
+nsubj(hawker-7, This-1)
+cop(hawker-7, is-2)
+advmod(hawker-7, reportedly-3)
+det(hawker-7, the-4)
+advmod(successful-6, most-5)
+amod(hawker-7, successful-6)
+root(ROOT-0, hawker-7)
+prep(hawker-7, in-8)
+pobj(in-8, Singapore-9)
+prep(hawker-7, with-10)
+amod(sales-12, monthly-11)
+pobj(with-10, sales-12)
+prep(sales-12, of-13)
+pobj(of-13, $-14)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (CD 139,200))
+      (CC or)
+      (ADVP (IN at) (JJS least))
+      (NP (DT that)))
+    (VP (VBZ is)
+      (SBAR
+        (WHNP (WP what))
+        (S
+          (NP (NNP Mr) (NNP Lee))
+          (VP (VBD declared)
+            (PP (IN in)
+              (NP
+                (NP (JJ last) (NN year) (POS 's))
+                (NN newspaper) (NN report)))))))
+    (. .)))
+
+
+nsubj(is-6, 139,200-1)
+cc(139,200-1, or-2)
+advmod(139,200-1, at-3)
+pobj(at-3, least-4)
+conj(139,200-1, that-5)
+root(ROOT-0, is-6)
+dobj(declared-10, what-7)
+nn(Lee-9, Mr-8)
+nsubj(declared-10, Lee-9)
+ccomp(is-6, declared-10)
+prep(declared-10, in-11)
+amod(year-13, last-12)
+poss(report-16, year-13)
+possessive(year-13, 's-14)
+nn(report-16, newspaper-15)
+pobj(in-11, report-16)
+
+
+(ROOT
+  (SBARQ (RB So)
+    (WHNP (WP what))
+    (SQ (VBZ is)
+      (NP
+        (NP (PRP it))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBZ makes)
+              (S
+                (NP (DT a) (NN hawker))
+                (ADJP (RB so) (JJ successful))))))))
+    (. ?)))
+
+
+advmod(is-3, So-1)
+attr(is-3, what-2)
+root(ROOT-0, is-3)
+nsubj(is-3, it-4)
+nsubj(makes-6, that-5)
+rcmod(it-4, makes-6)
+det(hawker-8, a-7)
+nsubj(successful-10, hawker-8)
+advmod(successful-10, so-9)
+xcomp(makes-6, successful-10)
+
+
+(ROOT
+  (S
+    (NP (PRP$ Your) (JJ first) (NN response))
+    (VP (MD might)
+      (VP (VB be)
+        (SBAR (IN that)
+          (S
+            (NP (DT the) (NN food))
+            (VP (MD must)
+              (VP (VB be)
+                (ADJP (IN out)
+                  (PP (IN of)
+                    (NP (DT this) (NN world))))))))))
+    (. .)))
+
+
+poss(response-3, Your-1)
+amod(response-3, first-2)
+nsubj(be-5, response-3)
+aux(be-5, might-4)
+root(ROOT-0, be-5)
+mark(out-11, that-6)
+det(food-8, the-7)
+nsubj(out-11, food-8)
+aux(out-11, must-9)
+cop(out-11, be-10)
+ccomp(be-5, out-11)
+prep(out-11, of-12)
+det(world-14, this-13)
+pobj(of-12, world-14)
+
+
+(ROOT
+  (S (CC But)
+    (PP (IN in)
+      (NP (PRP$ my) (NN experience)))
+    (NP (DT that))
+    (VP (VBZ is) (RB not)
+      (ADVP (RB always))
+      (NP (DT the) (NN case)))
+    (. .)))
+
+
+cc(case-10, But-1)
+prep(case-10, in-2)
+poss(experience-4, my-3)
+pobj(in-2, experience-4)
+nsubj(case-10, that-5)
+cop(case-10, is-6)
+neg(case-10, not-7)
+advmod(case-10, always-8)
+det(case-10, the-9)
+root(ROOT-0, case-10)
+
+
+(ROOT
+  (S
+    (NP (JJ Other) (NNS factors))
+    (VP (VBP like)
+      (NP (NN location)))
+    (, ,)))
+
+
+amod(factors-2, Other-1)
+nsubj(like-3, factors-2)
+root(ROOT-0, like-3)
+dobj(like-3, location-4)
+
+
+(ROOT
+  (S
+    (VP (VB ease)
+      (PP (IN of)
+        (NP (NN parking))
+        (, ,)))))
+
+
+root(ROOT-0, ease-1)
+prep(ease-1, of-2)
+pobj(of-2, parking-3)
+
+
+(ROOT
+  (S
+    (NP (NN service)
+      (CC and)
+      (NN price))
+    (ADVP (RB also))
+    (VP (VBP have)
+      (NP (DT a) (JJ big) (NN part)
+        (S
+          (VP (TO to)
+            (VP (VB play))))))
+    (. .)))
+
+
+nsubj(have-5, service-1)
+cc(service-1, and-2)
+conj(service-1, price-3)
+advmod(have-5, also-4)
+root(ROOT-0, have-5)
+det(part-8, a-6)
+amod(part-8, big-7)
+dobj(have-5, part-8)
+aux(play-10, to-9)
+infmod(part-8, play-10)
+
+

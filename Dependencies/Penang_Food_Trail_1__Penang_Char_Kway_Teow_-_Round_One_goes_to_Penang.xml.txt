@@ -1,0 +1,217 @@
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBD wasted)
+      (NP (DT no) (NN time)
+        (S
+          (VP (TO to)
+            (VP (VB get)
+              (PP (TO to)
+                (NP (PRP$ our) (JJ first) (NN food) (NN stall))))))))
+    (. .)))
+
+
+nsubj(wasted-2, We-1)
+root(ROOT-0, wasted-2)
+det(time-4, no-3)
+dobj(wasted-2, time-4)
+aux(get-6, to-5)
+infmod(time-4, get-6)
+prep(get-6, to-7)
+poss(stall-11, our-8)
+amod(stall-11, first-9)
+nn(stall-11, food-10)
+pobj(to-7, stall-11)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD had)
+      (NP
+        (NP (JJ skipped) (NN breakfast))
+        (CC and)
+        (NP (DT the) (JJ inflight) (NN meal))))
+    (, ,)))
+
+
+nsubj(had-2, I-1)
+root(ROOT-0, had-2)
+amod(breakfast-4, skipped-3)
+dobj(had-2, breakfast-4)
+cc(breakfast-4, and-5)
+det(meal-8, the-6)
+amod(meal-8, inflight-7)
+conj(breakfast-4, meal-8)
+
+
+(ROOT
+  (S
+    (ADVP (RB so)
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP we))
+          (VP (VBD touched)
+            (PRT (RP down))
+            (PP (IN in)
+              (NP (NNP Penang)))))))
+    (NP (PRP we))
+    (VP (VBD headed)
+      (ADVP (RB straight))
+      (PP (IN for)
+        (NP (DT some) (NNP Penang) (NNP Char) (NNP Kway) (NNP Teow))))
+    (. .)))
+
+
+advmod(headed-9, so-1)
+advmod(touched-4, when-2)
+nsubj(touched-4, we-3)
+dep(so-1, touched-4)
+prt(touched-4, down-5)
+prep(touched-4, in-6)
+pobj(in-6, Penang-7)
+nsubj(headed-9, we-8)
+root(ROOT-0, headed-9)
+advmod(headed-9, straight-10)
+prep(headed-9, for-11)
+det(Teow-16, some-12)
+nn(Teow-16, Penang-13)
+nn(Teow-16, Char-14)
+nn(Teow-16, Kway-15)
+pobj(for-11, Teow-16)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP$ Our) (JJ first) (NN photostop))
+      (VP (VBD was)
+        (NP
+          (NP (DT the) (NNP Temple))
+          (PP (IN of)
+            (NP (DT the) (NNP Reclining) (NNP Buddha))))))
+    (CC and)
+    (S
+      (NP (PRP$ our) (NNP Tour) (NNP Guide))
+      (VP (VBD told)
+        (NP (PRP us))
+        (SBAR (IN that)
+          (S
+            (PP (RB just)
+              (PP (IN around)
+                (NP (DT the) (NN corner))))
+            (NP (EX there))
+            (VP (VBD was)
+              (NP (DT a) (JJ famous) (NNP Char) (NNP Kway) (NNP Teow) (NNP Stall)))))))
+    (. .)))
+
+
+poss(photostop-3, Our-1)
+amod(photostop-3, first-2)
+nsubj(Temple-6, photostop-3)
+cop(Temple-6, was-4)
+det(Temple-6, the-5)
+root(ROOT-0, Temple-6)
+prep(Temple-6, of-7)
+det(Buddha-10, the-8)
+nn(Buddha-10, Reclining-9)
+pobj(of-7, Buddha-10)
+cc(Temple-6, and-11)
+poss(Guide-14, our-12)
+nn(Guide-14, Tour-13)
+nsubj(told-15, Guide-14)
+conj(Temple-6, told-15)
+dobj(told-15, us-16)
+mark(was-23, that-17)
+advmod(around-19, just-18)
+prep(was-23, around-19)
+det(corner-21, the-20)
+pobj(around-19, corner-21)
+expl(was-23, there-22)
+ccomp(told-15, was-23)
+det(Stall-29, a-24)
+amod(Stall-29, famous-25)
+nn(Stall-29, Char-26)
+nn(Stall-29, Kway-27)
+nn(Stall-29, Teow-28)
+nsubj(was-23, Stall-29)
+
+
+(ROOT
+  (FRAG (RB So) (JJ ,)))
+
+
+root(ROOT-0, So-1)
+
+
+(ROOT
+  (SBAR (IN while)
+    (S
+      (NP (DT the) (NNS others))
+      (VP (VBD were)
+        (ADJP (JJ busy)
+          (S
+            (VP (VBG photographing)
+              (PP (IN at)
+                (NP (DT the) (NN temple) (NNS grounds)))))))
+      (, ,))))
+
+
+mark(busy-5, while-1)
+det(others-3, the-2)
+nsubj(busy-5, others-3)
+cop(busy-5, were-4)
+root(ROOT-0, busy-5)
+dep(busy-5, photographing-6)
+prep(photographing-6, at-7)
+det(grounds-10, the-8)
+nn(grounds-10, temple-9)
+pobj(at-7, grounds-10)
+
+
+(ROOT
+  (S
+    (NP (NNP Wahcow)
+      (CC and)
+      (PRP I))
+    (VP (VBD met)
+      (PRT (RP up))
+      (PP (IN with)
+        (NP (NNP Penang) (NNP Blogger))))
+    (, ,)))
+
+
+nsubj(met-4, Wahcow-1)
+cc(Wahcow-1, and-2)
+conj(Wahcow-1, I-3)
+root(ROOT-0, met-4)
+prt(met-4, up-5)
+prep(met-4, with-6)
+nn(Blogger-8, Penang-7)
+pobj(with-6, Blogger-8)
+
+
+(ROOT
+  (S
+    (NP (NNP CK))
+    (VP (VBN Lam)
+      (CC and)
+      (VBN headed)
+      (PP (IN for)
+        (NP (DT the) (NNP Char) (NNP Kway) (NNP Teow) (NN stall))))
+    (. .)))
+
+
+nsubj(Lam-2, CK-1)
+root(ROOT-0, Lam-2)
+cc(Lam-2, and-3)
+conj(Lam-2, headed-4)
+prep(Lam-2, for-5)
+det(stall-10, the-6)
+nn(stall-10, Char-7)
+nn(stall-10, Kway-8)
+nn(stall-10, Teow-9)
+pobj(for-5, stall-10)
+
+

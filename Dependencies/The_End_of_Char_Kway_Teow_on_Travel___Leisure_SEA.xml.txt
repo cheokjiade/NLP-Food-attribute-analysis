@@ -1,0 +1,259 @@
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN End))
+      (PP (IN of)
+        (NP (NNP Char) (NNP Kway) (NNP Teow))))
+    (VP (VBZ has)
+      (VP (VBN been)
+        (VP (VBN featured)
+          (PP (IN on)
+            (NP
+              (NP (NNP Travel))
+              (CC and)
+              (NP (NNP Leisure) (NNP South) (NNP East) (NNP Asia))))
+          (SBAR (IN as)
+            (S
+              (NP
+                (NP (NN part))
+                (PP (IN of)
+                  (NP
+                    (NP (DT the) (NN story))
+                    (PP (IN of)
+                      (NP (NNS bloggers))))))
+              (VP (VBD turned)
+                (NP (NNS authors))
+                (PP (IN in)
+                  (NP
+                    (NP (PRP$ our) (NN part))
+                    (PP (IN of)
+                      (NP (DT the) (NN world)))))))))))
+    (. !)))
+
+
+det(End-2, The-1)
+nsubjpass(featured-9, End-2)
+prep(End-2, of-3)
+nn(Teow-6, Char-4)
+nn(Teow-6, Kway-5)
+pobj(of-3, Teow-6)
+aux(featured-9, has-7)
+auxpass(featured-9, been-8)
+root(ROOT-0, featured-9)
+prep(featured-9, on-10)
+pobj(on-10, Travel-11)
+cc(Travel-11, and-12)
+nn(Asia-16, Leisure-13)
+nn(Asia-16, South-14)
+nn(Asia-16, East-15)
+conj(Travel-11, Asia-16)
+mark(turned-24, as-17)
+nsubj(turned-24, part-18)
+prep(part-18, of-19)
+det(story-21, the-20)
+pobj(of-19, story-21)
+prep(story-21, of-22)
+pobj(of-22, bloggers-23)
+advcl(featured-9, turned-24)
+dobj(turned-24, authors-25)
+prep(turned-24, in-26)
+poss(part-28, our-27)
+pobj(in-26, part-28)
+prep(part-28, of-29)
+det(world-31, the-30)
+pobj(of-29, world-31)
+
+
+(ROOT
+  (PP (IN In)
+    (NP
+      (NP (NN case))
+      (SBAR
+        (S
+          (NP (PRP you))
+          (VP (VBP have) (RB n't)
+            (ADVP (RB already))
+            (VP (VBN done)
+              (ADVP (RB so))))
+          (, ,))))))
+
+
+root(ROOT-0, In-1)
+pobj(In-1, case-2)
+nsubj(done-7, you-3)
+aux(done-7, have-4)
+neg(done-7, n't-5)
+advmod(done-7, already-6)
+rcmod(case-2, done-7)
+advmod(done-7, so-8)
+
+
+(ROOT
+  (PP (VBN please)
+    (NP
+      (NP (NNP remember))
+      (PP (TO to)
+        (NP (NN vote)))
+      (PP (IN for)
+        (NP (PRP$ my) (NN book)))
+      (`` ``))))
+
+
+root(ROOT-0, please-1)
+dep(please-1, remember-2)
+prep(remember-2, to-3)
+pobj(to-3, vote-4)
+prep(remember-2, for-5)
+poss(book-7, my-6)
+pobj(for-5, book-7)
+
+
+(ROOT
+  (NP
+    (NP (DT The) (NN End))
+    (PP (IN of)
+      (NP
+        (NP (NNP Char) (NNP Kway) (NNP Teow))
+        ('' '')
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBZ has)
+              (VP (VBN been)
+                (VP (VBN nominated)
+                  (PP (IN for)
+                    (NP (DT the) (JJ Popular) (NNS Readers) (POS '))))))))))))
+
+
+det(End-2, The-1)
+root(ROOT-0, End-2)
+prep(End-2, of-3)
+nn(Teow-6, Char-4)
+nn(Teow-6, Kway-5)
+pobj(of-3, Teow-6)
+nsubjpass(nominated-11, which-8)
+aux(nominated-11, has-9)
+auxpass(nominated-11, been-10)
+rcmod(Teow-6, nominated-11)
+prep(nominated-11, for-12)
+det(Readers-15, the-13)
+amod(Readers-15, Popular-14)
+pobj(for-12, Readers-15)
+
+
+(ROOT
+  (NP (NNS Choice) (CD Awards) (CD 2011) (. !)))
+
+
+root(ROOT-0, Choice-1)
+num(Choice-1, Awards-2)
+num(Choice-1, 2011-3)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP I))
+      (VP (VBP win))
+      (, ,))))
+
+
+mark(win-3, If-1)
+nsubj(win-3, I-2)
+root(ROOT-0, win-3)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP promise)
+      (S
+        (VP (TO to)
+          (VP (VB organize)
+            (S
+              (NP (DT a) (JJ big) (NNP Crab) (NNP Fest))
+              (VP (TO to)
+                (VP (VB celebrate)
+                  (ADVP (RB together))
+                  (PP (IN with)
+                    (NP (PRP you))))))))))
+    (. !)))
+
+
+nsubj(promise-2, I-1)
+root(ROOT-0, promise-2)
+aux(organize-4, to-3)
+xcomp(promise-2, organize-4)
+det(Fest-8, a-5)
+amod(Fest-8, big-6)
+nn(Fest-8, Crab-7)
+nsubj(celebrate-10, Fest-8)
+aux(celebrate-10, to-9)
+xcomp(organize-4, celebrate-10)
+advmod(celebrate-10, together-11)
+prep(celebrate-10, with-12)
+pobj(with-12, you-13)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT All))
+      (SBAR
+        (S
+          (NP (PRP you))
+          (VP (VBP need)
+            (S
+              (VP (TO to)
+                (VP (VB do))))))))
+    (VP (VBZ is)
+      (S
+        (VP (TO to)
+          (VP (VB click)
+            (PP (IN on)
+              (NP (DT this) (NN link)
+                (S
+                  (VP (TO to)
+                    (VP (VB vote)
+                      (PP (NN online)))))))))))
+    (. !)))
+
+
+nsubj(is-6, All-1)
+nsubj(need-3, you-2)
+rcmod(All-1, need-3)
+aux(do-5, to-4)
+xcomp(need-3, do-5)
+root(ROOT-0, is-6)
+aux(click-8, to-7)
+xcomp(is-6, click-8)
+prep(click-8, on-9)
+det(link-11, this-10)
+pobj(on-9, link-11)
+aux(vote-13, to-12)
+infmod(link-11, vote-13)
+prep(vote-13, online-14)
+
+
+(ROOT
+  (NP
+    (NP (NNS Thanks))
+    (PRN
+      (ADVP (RB !!))
+      (NP (NNP Sincerely))
+      (, ,))))
+
+
+root(ROOT-0, Thanks-1)
+dep(Sincerely-3, !!-2)
+dep(Thanks-1, Sincerely-3)
+
+
+(ROOT
+  (NP (NNP Leslie) (NNP Tay)))
+
+
+nn(Tay-2, Leslie-1)
+root(ROOT-0, Tay-2)
+
+

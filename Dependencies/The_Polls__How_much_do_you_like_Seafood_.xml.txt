@@ -1,0 +1,122 @@
+(ROOT
+  (S
+    (NP (NNP Just))
+    (VP
+      (VP (VBD posed)
+        (NP (DT this) (NN question))
+        (PP (IN on)
+          (NP (PRP$ our) (NN facebook) (NN page))))
+      (CC and)
+      (VP (VBD got)
+        (NP (DT a) (JJ tremendous) (NN response))))
+    (. .)))
+
+
+nsubj(posed-2, Just-1)
+root(ROOT-0, posed-2)
+det(question-4, this-3)
+dobj(posed-2, question-4)
+prep(posed-2, on-5)
+poss(page-8, our-6)
+nn(page-8, facebook-7)
+pobj(on-5, page-8)
+cc(posed-2, and-9)
+conj(posed-2, got-10)
+det(response-13, a-11)
+amod(response-13, tremendous-12)
+dobj(got-10, response-13)
+
+
+(ROOT
+  (S (CC So)
+    (NP (PRP I))
+    (VP (VBP am)
+      (VP (VBG posting)
+        (NP
+          (NP (DT this))
+          (PP (IN on)
+            (NP (DT the) (NN blog))))
+        (PP (IN in)
+          (NP (NN order)))
+        (S
+          (VP (TO to)
+            (VP (VB gauge)))
+          (, ,))))))
+
+
+cc(posting-4, So-1)
+nsubj(posting-4, I-2)
+aux(posting-4, am-3)
+root(ROOT-0, posting-4)
+dobj(posting-4, this-5)
+prep(this-5, on-6)
+det(blog-8, the-7)
+pobj(on-6, blog-8)
+prep(posting-4, in-9)
+pobj(in-9, order-10)
+aux(gauge-12, to-11)
+xcomp(posting-4, gauge-12)
+
+
+(ROOT
+  (S
+    (NP (RBR more))
+    (VP (VBZ precisely))
+    (, ,)))
+
+
+nsubj(precisely-2, more-1)
+root(ROOT-0, precisely-2)
+
+
+(ROOT
+  (SBAR
+    (WHADJP (WRB how) (JJ much))
+    (S
+      (NP (PRP$ our) (NNS foodies))
+      (ADVP (RB here))
+      (VP (VBP love)
+        (NP (NN seafood))))
+    (. .)))
+
+
+advmod(much-2, how-1)
+dep(love-6, much-2)
+poss(foodies-4, our-3)
+nsubj(love-6, foodies-4)
+advmod(love-6, here-5)
+root(ROOT-0, love-6)
+dobj(love-6, seafood-7)
+
+
+(ROOT
+  (S
+    (NP (RB So))
+    (VP (VBP tell)
+      (NP (PRP us)))
+    (, ,)))
+
+
+nsubj(tell-2, So-1)
+root(ROOT-0, tell-2)
+dobj(tell-2, us-3)
+
+
+(ROOT
+  (SBARQ
+    (WHADJP (WRB how) (JJ much))
+    (SQ (VBP do)
+      (NP (PRP you))
+      (VP (VB like)
+        (NP (NNP Seafood))))
+    (. ?)))
+
+
+advmod(much-2, how-1)
+dep(like-5, much-2)
+aux(like-5, do-3)
+nsubj(like-5, you-4)
+root(ROOT-0, like-5)
+dobj(like-5, Seafood-6)
+
+

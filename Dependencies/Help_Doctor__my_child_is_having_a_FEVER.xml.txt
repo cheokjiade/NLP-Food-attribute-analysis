@@ -1,0 +1,185 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (ADVP (RB just))
+      (VP (VBN published)
+        (NP (DT the) (JJ first))
+        (PP (IN in)
+          (NP
+            (NP (DT a) (NN series))
+            (PP (IN of)
+              (NP (NN targetted)))))
+        (PP (IN at)
+          (NP (NNS parents)))))
+    (. .)))
+
+
+nsubj(published-4, I-1)
+aux(published-4, have-2)
+advmod(published-4, just-3)
+root(ROOT-0, published-4)
+det(first-6, the-5)
+dobj(published-4, first-6)
+prep(published-4, in-7)
+det(series-9, a-8)
+pobj(in-7, series-9)
+prep(series-9, of-10)
+pobj(of-10, targetted-11)
+prep(published-4, at-12)
+pobj(at-12, parents-13)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP plan)
+      (S
+        (VP (TO to)
+          (VP (VB cover)
+            (NP
+              (NP (DT some))
+              (PP (IN of)
+                (NP
+                  (NP (DT the) (JJ common) (NNS things))
+                  (SBAR
+                    (WHNP (WDT that))
+                    (S
+                      (VP (VBZ affects)
+                        (NP (NNS kids))))))))))))
+    (, ,)))
+
+
+nsubj(plan-2, I-1)
+root(ROOT-0, plan-2)
+aux(cover-4, to-3)
+xcomp(plan-2, cover-4)
+dobj(cover-4, some-5)
+prep(some-5, of-6)
+det(things-9, the-7)
+amod(things-9, common-8)
+pobj(of-6, things-9)
+nsubj(affects-11, that-10)
+rcmod(things-9, affects-11)
+dobj(affects-11, kids-12)
+
+
+(ROOT
+  (S
+    (VP (VBG starting)
+      (PP (IN with)
+        (NP (NN fever))
+        (, ,)))))
+
+
+root(ROOT-0, starting-1)
+prep(starting-1, with-2)
+pobj(with-2, fever-3)
+
+
+(ROOT
+  (FRAG
+    (PP
+      (ADVP (RB then))
+      (IN to)
+      (NP (NN cough)))
+    (, ,)))
+
+
+advmod(to-2, then-1)
+root(ROOT-0, to-2)
+pobj(to-2, cough-3)
+
+
+(ROOT
+  (NP (NNP diarrhoea) (NNP ,)))
+
+
+nn(,-2, diarrhoea-1)
+
+
+(ROOT
+  (S
+    (VP (VB head)
+      (NP (FW injuries) (FW etc) (FW etc.)))
+    (. .)))
+
+
+root(ROOT-0, head-1)
+nn(etc.-4, injuries-2)
+nn(etc.-4, etc-3)
+dobj(head-1, etc.-4)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is) (RB not)
+      (VP (VBN meant)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (ADJP (JJ exhaustive)))))))
+    (, ,)))
+
+
+nsubjpass(meant-4, It-1)
+auxpass(meant-4, is-2)
+neg(meant-4, not-3)
+root(ROOT-0, meant-4)
+aux(exhaustive-7, to-5)
+cop(exhaustive-7, be-6)
+xcomp(meant-4, exhaustive-7)
+
+
+(ROOT
+  (NP
+    (NP (RB just) (DT some) (JJ simple) (NNS pointers))
+    (PP (TO to)
+      (NP (JJ empower) (NNS parents)))
+    (S
+      (VP (TO to)
+        (VP (VB manage)
+          (NP
+            (NP (PRP$ their) (NN child) (POS 's))
+            (NN illness)))))
+    (. .)))
+
+
+advmod(pointers-4, just-1)
+det(pointers-4, some-2)
+amod(pointers-4, simple-3)
+root(ROOT-0, pointers-4)
+prep(pointers-4, to-5)
+amod(parents-7, empower-6)
+pobj(to-5, parents-7)
+aux(manage-9, to-8)
+infmod(pointers-4, manage-9)
+poss(child-11, their-10)
+poss(illness-13, child-11)
+possessive(child-11, 's-12)
+dobj(manage-9, illness-13)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB read)
+        (NP (PRP it))
+        (PP (IN by)
+          (S
+            (VP (VBG clicking)
+              (ADVP (RB here)))))))
+    (. .)))
+
+
+nsubj(read-3, You-1)
+aux(read-3, can-2)
+root(ROOT-0, read-3)
+dobj(read-3, it-4)
+prep(read-3, by-5)
+pcomp(by-5, clicking-6)
+advmod(clicking-6, here-7)
+
+

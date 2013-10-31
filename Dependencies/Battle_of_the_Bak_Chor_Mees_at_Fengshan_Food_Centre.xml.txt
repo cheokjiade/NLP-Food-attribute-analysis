@@ -1,0 +1,393 @@
+(ROOT
+  (FRAG
+    (PP (IN Ok))
+    (, ,)))
+
+
+root(ROOT-0, Ok-1)
+
+
+(ROOT
+  (S
+    (NP (JJ many) (NNS people))
+    (VP (VBP know)
+      (PP (IN about)
+        (NP (DT this) (CD two) (NNP Bak) (NNP Chor) (NNP Mees)))
+      (PP (IN at)
+        (NP (NNP Fengshan) (NNP Food) (NNP Centre))))
+    (. .)))
+
+
+amod(people-2, many-1)
+nsubj(know-3, people-2)
+root(ROOT-0, know-3)
+prep(know-3, about-4)
+det(Mees-9, this-5)
+num(Mees-9, two-6)
+nn(Mees-9, Bak-7)
+nn(Mees-9, Chor-8)
+pobj(about-4, Mees-9)
+prep(know-3, at-10)
+nn(Centre-13, Fengshan-11)
+nn(Centre-13, Food-12)
+pobj(at-10, Centre-13)
+
+
+(ROOT
+  (SBARQ (CC But)
+    (WHNP (WDT which) (NN one))
+    (SQ (VBZ is)
+      (ADJP (JJR better)))
+    (. ?)))
+
+
+cc(better-5, But-1)
+det(one-3, which-2)
+attr(better-5, one-3)
+cop(better-5, is-4)
+root(ROOT-0, better-5)
+
+
+(ROOT
+  (SBAR (IN Before)
+    (S
+      (NP (PRP we))
+      (VP (VBD set)
+        (PRT (RP out))
+        (S
+          (VP (TO to)
+            (VP (VB answer)
+              (NP (DT that) (NN question)))))
+        (, ,)))))
+
+
+mark(set-3, Before-1)
+nsubj(set-3, we-2)
+root(ROOT-0, set-3)
+prt(set-3, out-4)
+aux(answer-6, to-5)
+xcomp(set-3, answer-6)
+det(question-8, that-7)
+dobj(answer-6, question-8)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT another) (JJ interesting) (NN thing))
+      (PP (IN of)
+        (NP (NN note))))
+    (VP (VBZ is)
+      (SBAR (IN that)
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP we))
+          (VP (VBP talk)
+            (PP (IN about)
+              (NP (NNP Bak) (NNP Chor) (NNP Mee)))))))
+    (, ,)))
+
+
+det(thing-3, another-1)
+amod(thing-3, interesting-2)
+nsubj(is-6, thing-3)
+prep(thing-3, of-4)
+pobj(of-4, note-5)
+root(ROOT-0, is-6)
+mark(talk-10, that-7)
+advmod(talk-10, when-8)
+nsubj(talk-10, we-9)
+ccomp(is-6, talk-10)
+prep(talk-10, about-11)
+nn(Mee-14, Bak-12)
+nn(Mee-14, Chor-13)
+pobj(about-11, Mee-14)
+
+
+(ROOT
+  (S
+    (NP (JJS most) (NNS people))
+    (VP (VBP refer)
+      (PP (TO to)
+        (NP
+          (NP (DT the) (JJ dry) (NN version))
+          (PP (IN with)
+            (NP (NN vinegar))))))
+    (, ,)))
+
+
+amod(people-2, most-1)
+nsubj(refer-3, people-2)
+root(ROOT-0, refer-3)
+prep(refer-3, to-4)
+det(version-7, the-5)
+amod(version-7, dry-6)
+pobj(to-4, version-7)
+prep(version-7, with-8)
+pobj(with-8, vinegar-9)
+
+
+(ROOT
+  (UCP
+    (NP (NNS chilli))
+    (CC and)
+    (SBAR (IN whether)
+      (S
+        (NP (PRP they))
+        (VP (VB want)
+          (NP (NN liver))
+          (CC or)
+          (RB not)))
+      (. .))))
+
+
+root(ROOT-0, chilli-1)
+cc(chilli-1, and-2)
+mark(want-5, whether-3)
+nsubj(want-5, they-4)
+conj(chilli-1, want-5)
+dobj(want-5, liver-6)
+cc(want-5, or-7)
+conj(want-5, not-8)
+
+
+(ROOT
+  (FRAG (CC But)
+    (ADVP (RB somehow))
+    (SBAR
+      (WHADVP (WRB when))
+      (S
+        (NP (PRP they))
+        (VP (VBP talk)
+          (PP (IN about)
+            (NP (DT the) (NNP Bak) (NNP Chor) (NNP Mee)))
+          (ADVP (RB here)))
+        (, ,)))))
+
+
+cc(somehow-2, But-1)
+root(ROOT-0, somehow-2)
+advmod(talk-5, when-3)
+nsubj(talk-5, they-4)
+dep(somehow-2, talk-5)
+prep(talk-5, about-6)
+det(Mee-10, the-7)
+nn(Mee-10, Bak-8)
+nn(Mee-10, Chor-9)
+pobj(about-6, Mee-10)
+advmod(talk-5, here-11)
+
+
+(ROOT
+  (S
+    (NP (NN everyone))
+    (VP (VBZ seems)
+      (S
+        (VP (TO to)
+          (VP (VB know)
+            (SBAR (IN that)
+              (S
+                (NP (PRP we))
+                (VP (VBP are)
+                  (VP (VBG referring)
+                    (PP (TO to)
+                      (NP
+                        (NP (DT the) (NN soup) (NN version))
+                        (PP (IN of)
+                          (NP (DT this) (NN dish)))))))))))))
+    (. .)))
+
+
+nsubj(seems-2, everyone-1)
+root(ROOT-0, seems-2)
+aux(know-4, to-3)
+xcomp(seems-2, know-4)
+mark(referring-8, that-5)
+nsubj(referring-8, we-6)
+aux(referring-8, are-7)
+ccomp(know-4, referring-8)
+prep(referring-8, to-9)
+det(version-12, the-10)
+nn(version-12, soup-11)
+pobj(to-9, version-12)
+prep(version-12, of-13)
+det(dish-15, this-14)
+pobj(of-13, dish-15)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (ADVP (RB almost))
+    (VP (VBP seem)
+      (SBAR (RB as) (IN if)
+        (S
+          (NP (DT this))
+          (VP (VBZ is)
+            (NP (DT the) (JJ only) (NN place)
+              (S
+                (VP (TO to)
+                  (VP (VB eat)
+                    (NP (NNP Bak) (NNP Chor) (NNP Mee) (NN soup))))))))))
+    (. .)))
+
+
+nsubj(seem-3, It-1)
+advmod(seem-3, almost-2)
+root(ROOT-0, seem-3)
+advmod(place-10, as-4)
+mark(place-10, if-5)
+nsubj(place-10, this-6)
+cop(place-10, is-7)
+det(place-10, the-8)
+amod(place-10, only-9)
+advcl(seem-3, place-10)
+aux(eat-12, to-11)
+infmod(place-10, eat-12)
+nn(soup-16, Bak-13)
+nn(soup-16, Chor-14)
+nn(soup-16, Mee-15)
+dobj(eat-12, soup-16)
+
+
+(ROOT
+  (S (RB So)
+    (VP (VB back)
+      (PP (TO to)
+        (NP
+          (NP (DT the) (NN question))
+          (PP (IN of)
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (VP (VBZ is)
+                  (ADJP (JJR better)))))))))
+    (. .)))
+
+
+advmod(back-2, So-1)
+root(ROOT-0, back-2)
+prep(back-2, to-3)
+det(question-5, the-4)
+pobj(to-3, question-5)
+prep(question-5, of-6)
+nsubj(better-9, which-7)
+cop(better-9, is-8)
+pcomp(of-6, better-9)
+
+
+(ROOT
+  (S
+    (S
+      (NP (DT Both) (NNS stores))
+      (VP (VBP have)
+        (VP (VBN got)
+          (NP
+            (NP (PRP$ its) (JJ fair) (NN share))
+            (PP (IN of)
+              (NP (NNS accolades)))))))
+    (CC but)
+    (S
+      (NP
+        (NP (DT the) (JJ inner) (NN stall))
+        (PRN (-LRB- -LRB-)
+          (NP (NN No.) (CD 7))
+          (-RRB- -RRB-)))
+      (VP (VBZ seems)
+        (S
+          (VP (TO to)
+            (VP (VB get)
+              (NP
+                (NP (DT a) (JJR longer) (NN queue))
+                (PP (IN of)
+                  (NP (NNS people)))))))))
+    (. .)))
+
+
+det(stores-2, Both-1)
+nsubj(got-4, stores-2)
+aux(got-4, have-3)
+root(ROOT-0, got-4)
+poss(share-7, its-5)
+amod(share-7, fair-6)
+dobj(got-4, share-7)
+prep(share-7, of-8)
+pobj(of-8, accolades-9)
+cc(got-4, but-10)
+det(stall-13, the-11)
+amod(stall-13, inner-12)
+nsubj(seems-18, stall-13)
+appos(stall-13, No.-15)
+num(No.-15, 7-16)
+conj(got-4, seems-18)
+aux(get-20, to-19)
+xcomp(seems-18, get-20)
+det(queue-23, a-21)
+amod(queue-23, longer-22)
+dobj(get-20, queue-23)
+prep(queue-23, of-24)
+pobj(of-24, people-25)
+
+
+(ROOT
+  (FRAG (RB So) (JJ ,)))
+
+
+root(ROOT-0, So-1)
+
+
+(ROOT
+  (SQ (VBZ is)
+    (NP
+      (NP (DT this) (DT a) (NN case))
+      (PP (IN of)
+        (NP (NNS people))))
+    (VP
+      (VP
+        (ADVP (RB simply))
+        (VBG following)
+        (NP (DT the) (NN crowd)))
+      (CC or)
+      (VP (VBZ is)
+        (ADJP (NN No.)
+          (SBAR
+            (S
+              (NP
+                (NP
+                  (NP (CD 7) (POS 's))
+                  (NNP Bak) (NNP Chor) (NNP Mee))
+                (ADJP
+                  (ADJP (RB really) (RB significantly) (JJR better))
+                  (PP (IN than)
+                    (NP (NNP No.) (CD 8)))))
+              (VP (VBZ 's)))))))
+    (. ?)))
+
+
+aux(following-8, is-1)
+predet(case-4, this-2)
+det(case-4, a-3)
+nsubj(following-8, case-4)
+prep(case-4, of-5)
+pobj(of-5, people-6)
+advmod(following-8, simply-7)
+root(ROOT-0, following-8)
+det(crowd-10, the-9)
+dobj(following-8, crowd-10)
+cc(following-8, or-11)
+cop(No.-13, is-12)
+conj(following-8, No.-13)
+poss(Mee-18, 7-14)
+possessive(7-14, 's-15)
+nn(Mee-18, Bak-16)
+nn(Mee-18, Chor-17)
+nsubj('s-25, Mee-18)
+advmod(better-21, really-19)
+advmod(better-21, significantly-20)
+amod(Mee-18, better-21)
+prep(better-21, than-22)
+pobj(than-22, No.-23)
+num(No.-23, 8-24)
+ccomp(No.-13, 's-25)
+
+

@@ -1,0 +1,370 @@
+(ROOT
+  (FRAG
+    (ADVP (RB Now))
+    (ADVP (RB ,))))
+
+
+root(ROOT-0, Now-1)
+
+
+(ROOT
+  (S
+    (NP (DT this) (NNP Teochew) (NN Kitchen))
+    (VP (VBD was)
+      (VP (VBN recommended)
+        (PP (IN by)
+          (NP
+            (NP (NNP Fashionfoodie))
+            (SBAR
+              (WHNP (WP who)))))))
+    (, ,)))
+
+
+det(Kitchen-3, this-1)
+nn(Kitchen-3, Teochew-2)
+nsubjpass(recommended-5, Kitchen-3)
+auxpass(recommended-5, was-4)
+root(ROOT-0, recommended-5)
+prep(recommended-5, by-6)
+pobj(by-6, Fashionfoodie-7)
+rcmod(Fashionfoodie-7, who-8)
+
+
+(ROOT
+  (SBAR (IN if)
+    (S
+      (NP (PRP you))
+      (VP
+        (ADVP (DT all))
+        (VBP remember))
+      (, ,))))
+
+
+mark(remember-4, if-1)
+nsubj(remember-4, you-2)
+advmod(remember-4, all-3)
+root(ROOT-0, remember-4)
+
+
+(ROOT
+  (S
+    (VP (VBZ is)
+      (NP
+        (NP (CD one))
+        (PP (IN of)
+          (NP
+            (NP (PRP$ our) (NNP Teochew) (NNP Ah) (NNPS Hias))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (ADVP (RB really))
+                (VP (VBZ loves)
+                  (NP (PRP$ his) (NNP Peh) (NNP Dou) (NNP Her)))))))))
+    (. .)))
+
+
+cop(one-2, is-1)
+root(ROOT-0, one-2)
+prep(one-2, of-3)
+poss(Hias-7, our-4)
+nn(Hias-7, Teochew-5)
+nn(Hias-7, Ah-6)
+pobj(of-3, Hias-7)
+nsubj(loves-10, who-8)
+advmod(loves-10, really-9)
+rcmod(Hias-7, loves-10)
+poss(Her-14, his-11)
+nn(Her-14, Peh-12)
+nn(Her-14, Dou-13)
+dobj(loves-10, Her-14)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB So))
+    (SBAR
+      (WHADVP (WRB when))
+      (S
+        (NP (PRP he))
+        (VP (VBD started)
+          (S
+            (VP (VBG going)
+              (PRT (RP on))
+              (PP (IN about)
+                (NP
+                  (NP (DT the) (NNP Braised) (NNP Duck)
+                    (CC and)
+                    (NNP Tua) (NNP Terng))
+                  (PRN (-LRB- -LRB-)
+                    (NP (JJ Large) (NNS intestines))
+                    (-RRB- -RRB-)))
+                (ADVP (RB here)))
+              (, ,))))))))
+
+
+root(ROOT-0, So-1)
+advmod(started-4, when-2)
+nsubj(started-4, he-3)
+dep(So-1, started-4)
+xcomp(started-4, going-5)
+prt(going-5, on-6)
+prep(going-5, about-7)
+det(Duck-10, the-8)
+nn(Duck-10, Braised-9)
+pobj(about-7, Duck-10)
+cc(Duck-10, and-11)
+nn(Terng-13, Tua-12)
+conj(Duck-10, Terng-13)
+amod(intestines-16, Large-15)
+appos(Duck-10, intestines-16)
+advmod(about-7, here-18)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD could)
+      (VP (VB feel)
+        (NP
+          (NP (DT a) (JJ strong) (NNP Swatow) (NN wind))
+          (VP (VBG blowing)
+            (NP (PRP me))
+            (PP (IN towards)
+              (NP (NNP Changi) (NNP Village)))))))
+    (. .)))
+
+
+nsubj(feel-3, I-1)
+aux(feel-3, could-2)
+root(ROOT-0, feel-3)
+det(wind-7, a-4)
+amod(wind-7, strong-5)
+nn(wind-7, Swatow-6)
+dobj(feel-3, wind-7)
+partmod(wind-7, blowing-8)
+dobj(blowing-8, me-9)
+prep(blowing-8, towards-10)
+nn(Village-12, Changi-11)
+pobj(towards-10, Village-12)
+
+
+(ROOT
+  (S
+    (NP (NNP Conclusion) (NNP I))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP
+            (NP (DT a) (NN lot))
+            (PP (IN of)
+              (NP (NNS people))))
+          (VP (VBP are)
+            (VP
+              (VP (VBG looking)
+                (PP (IN for)
+                  (NP (DT a) (NN place)))
+                (S
+                  (VP (TO to)
+                    (VP (VB go)
+                      (PP (IN for)
+                        (NP
+                          (NP (DT a) (JJ nice) (NN bowl))
+                          (PP (IN of)
+                            (NP (NNP Teochew) (NN porridge)))))))))
+              (CC and)
+              (VP (VBG being)
+                (PP (IN in)
+                  (NP (NNP Changi) (NNP Village)))))))))
+    (, ,)))
+
+
+nn(I-2, Conclusion-1)
+nsubj(think-3, I-2)
+root(ROOT-0, think-3)
+det(lot-5, a-4)
+nsubj(looking-9, lot-5)
+prep(lot-5, of-6)
+pobj(of-6, people-7)
+aux(looking-9, are-8)
+ccomp(think-3, looking-9)
+prep(looking-9, for-10)
+det(place-12, a-11)
+pobj(for-10, place-12)
+aux(go-14, to-13)
+xcomp(looking-9, go-14)
+prep(go-14, for-15)
+det(bowl-18, a-16)
+amod(bowl-18, nice-17)
+pobj(for-15, bowl-18)
+prep(bowl-18, of-19)
+nn(porridge-21, Teochew-20)
+pobj(of-19, porridge-21)
+cc(looking-9, and-22)
+conj(looking-9, being-23)
+prep(being-23, in-24)
+nn(Village-26, Changi-25)
+pobj(in-24, Village-26)
+
+
+(ROOT
+  (S
+    (NP (DT the) (`` ``) (NN ulu) ('' '') (NN atmosphere))
+    (VP (VBZ does)
+      (VP (VB add)
+        (PP (TO to)
+          (NP (DT the) (JJ whole) (NN experience)))))
+    (. .)))
+
+
+det(atmosphere-5, the-1)
+nn(atmosphere-5, ulu-3)
+nsubj(add-7, atmosphere-5)
+aux(add-7, does-6)
+root(ROOT-0, add-7)
+prep(add-7, to-8)
+det(experience-11, the-9)
+amod(experience-11, whole-10)
+pobj(to-8, experience-11)
+
+
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (NP (DT a) (JJ good) (NN place)
+        (S
+          (VP (TO to)
+            (VP (VB go)
+              (PP (IN with)
+                (NP (DT the) (NN family)
+                  (S
+                    (VP (TO to)
+                      (VP
+                        (VP (VB enjoy)
+                          (NP (DT a) (JJ few)
+                            (ADJP (RB typically) (JJ Teochew))
+                            (NNS dishes)))
+                        (CC and)
+                        (VP (VB decide)
+                          (SBAR (IN if)
+                            (S
+                              (NP (PRP you))
+                              (VP (MD would)
+                                (VP (VB like)
+                                  (S
+                                    (VP (TO to)
+                                      (VP
+                                        (VP (VB burn)
+                                          (NP
+                                            (NP (DT a) (NN hole))
+                                            (PP (IN in)
+                                              (NP (PRP$ your) (NN pocket)))))
+                                        (CC or)
+                                        (VP (VB keep)
+                                          (S
+                                            (NP (PRP$ your) (NNS pants))
+                                            (ADJP (JJ intact))))))))))))))))))))))
+    (. .)))
+
+
+nsubj(place-5, This-1)
+cop(place-5, is-2)
+det(place-5, a-3)
+amod(place-5, good-4)
+root(ROOT-0, place-5)
+aux(go-7, to-6)
+infmod(place-5, go-7)
+prep(go-7, with-8)
+det(family-10, the-9)
+pobj(with-8, family-10)
+aux(enjoy-12, to-11)
+infmod(family-10, enjoy-12)
+det(dishes-17, a-13)
+amod(dishes-17, few-14)
+advmod(Teochew-16, typically-15)
+amod(dishes-17, Teochew-16)
+dobj(enjoy-12, dishes-17)
+cc(enjoy-12, and-18)
+conj(enjoy-12, decide-19)
+mark(like-23, if-20)
+nsubj(like-23, you-21)
+aux(like-23, would-22)
+advcl(decide-19, like-23)
+aux(burn-25, to-24)
+xcomp(like-23, burn-25)
+det(hole-27, a-26)
+dobj(burn-25, hole-27)
+prep(hole-27, in-28)
+poss(pocket-30, your-29)
+pobj(in-28, pocket-30)
+cc(burn-25, or-31)
+conj(burn-25, keep-32)
+poss(pants-34, your-33)
+nsubj(intact-35, pants-34)
+xcomp(keep-32, intact-35)
+
+
+(ROOT
+  (NP (NNP Changi) (NNP Teochew) (NNP Kitchen) (NNP Blk)))
+
+
+nn(Blk-4, Changi-1)
+nn(Blk-4, Teochew-2)
+nn(Blk-4, Kitchen-3)
+root(ROOT-0, Blk-4)
+
+
+(ROOT
+  (NP
+    (NP
+      (NP (CD 5) (NNP Changi) (NNP Village) (NNP Road))
+      (NP (# #) (CD 01-2)))
+    (: --)))
+
+
+num(Road-4, 5-1)
+nn(Road-4, Changi-2)
+nn(Road-4, Village-3)
+root(ROOT-0, Road-4)
+dep(01-2-6, #-5)
+dep(Road-4, 01-2-6)
+
+
+(ROOT
+  (FRAG
+    (PP
+      (NP
+        (QP (CD 1) (CD S500005))
+        (QP (CD 65465482) (CD Open)))
+      (IN for)
+      (NP (NN lunch)))
+    (, ,)))
+
+
+number(S500005-2, 1-1)
+num(Open-4, S500005-2)
+number(Open-4, 65465482-3)
+npadvmod(for-5, Open-4)
+root(ROOT-0, for-5)
+pobj(for-5, lunch-6)
+
+
+(ROOT
+  (NP
+    (NP (NN dinner)
+      (CC and)
+      (NN supper))
+    (NP
+      (NP (NNP Recommended))
+      (PP (IN by)
+        (NP (NNP Fashionfoodie))))))
+
+
+root(ROOT-0, dinner-1)
+cc(dinner-1, and-2)
+conj(dinner-1, supper-3)
+dep(dinner-1, Recommended-4)
+prep(Recommended-4, by-5)
+pobj(by-5, Fashionfoodie-6)
+
+

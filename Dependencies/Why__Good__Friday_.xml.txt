@@ -1,0 +1,352 @@
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (NP
+        (NP (DT an) (JJ edited) (NN video) (NN clip))
+        (PP (IN from)
+          (NP
+            (NP (NNS scenes))
+            (PP (IN of)
+              (NP
+                (NP (DT the) (JJ Czech) (NN movie))
+                (`` ``)
+                (NP (JJS Most))
+                ('' '')))))))
+    (. .)))
+
+
+nsubj(clip-6, This-1)
+cop(clip-6, is-2)
+det(clip-6, an-3)
+amod(clip-6, edited-4)
+nn(clip-6, video-5)
+root(ROOT-0, clip-6)
+prep(clip-6, from-7)
+pobj(from-7, scenes-8)
+prep(scenes-8, of-9)
+det(movie-12, the-10)
+amod(movie-12, Czech-11)
+pobj(of-9, movie-12)
+dep(movie-12, Most-14)
+
+
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN story))
+      (VP (VBZ is)
+        (ADJP (JJ familiar))))
+    (CC but)
+    (S
+      (NP (PRP I))
+      (ADVP (RB never))
+      (VP (VBD realized)
+        (SBAR (IN that)
+          (S
+            (NP (PRP it))
+            (VP (VBD was)
+              (VP (VBN made)
+                (PP (IN into)
+                  (NP (DT a) (NN movie)))))))))
+    (. .)))
+
+
+det(story-2, The-1)
+nsubj(familiar-4, story-2)
+cop(familiar-4, is-3)
+root(ROOT-0, familiar-4)
+cc(familiar-4, but-5)
+nsubj(realized-8, I-6)
+neg(realized-8, never-7)
+conj(familiar-4, realized-8)
+mark(made-12, that-9)
+nsubjpass(made-12, it-10)
+auxpass(made-12, was-11)
+ccomp(realized-8, made-12)
+prep(made-12, into-13)
+det(movie-15, a-14)
+pobj(into-13, movie-15)
+
+
+(ROOT
+  (PP (IN For)
+    (NP
+      (NP (DT those))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBP do) (RB n't)
+            (VP (VB know)
+              (NP (DT the) (NN story))
+              (ADVP (RB yet)))))
+        (, ,)))))
+
+
+root(ROOT-0, For-1)
+pobj(For-1, those-2)
+nsubj(know-6, who-3)
+aux(know-6, do-4)
+neg(know-6, n't-5)
+rcmod(those-2, know-6)
+det(story-8, the-7)
+dobj(know-6, story-8)
+advmod(know-6, yet-9)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP do) (RB n't)
+      (VP (VB want)
+        (S
+          (VP (TO to)
+            (VP (VB spoil)
+              (NP (PRP it))
+              (PP (IN for)
+                (NP (PRP you))))))))
+    (, ,)))
+
+
+nsubj(want-4, I-1)
+aux(want-4, do-2)
+neg(want-4, n't-3)
+root(ROOT-0, want-4)
+aux(spoil-6, to-5)
+xcomp(want-4, spoil-6)
+dobj(spoil-6, it-7)
+prep(spoil-6, for-8)
+pobj(for-8, you-9)
+
+
+(ROOT
+  (S (RB so)
+    (VP
+      (VP
+        (ADVP (RB just))
+        (VB watch)
+        (NP (PRP it)))
+      (CC and)
+      (VP (VB tell)
+        (NP (PRP us))
+        (SBAR
+          (WHNP (WP what))
+          (S
+            (NP (PRP you))
+            (VP (VBP think))))))
+    (. .)))
+
+
+advmod(watch-3, so-1)
+advmod(watch-3, just-2)
+root(ROOT-0, watch-3)
+dobj(watch-3, it-4)
+cc(watch-3, and-5)
+conj(watch-3, tell-6)
+dobj(tell-6, us-7)
+dobj(think-10, what-8)
+nsubj(think-10, you-9)
+dep(tell-6, think-10)
+
+
+(ROOT
+  (FRAG
+    (PP (IN For)
+      (NP (PRP myself)))
+    (, ,)))
+
+
+root(ROOT-0, For-1)
+pobj(For-1, myself-2)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD can)
+      (ADVP (RB hardly))
+      (VP (VB bear)
+        (S
+          (VP (TO to)
+            (VP (VB think)
+              (SBAR
+                (WHNP (WP what))
+                (S
+                  (NP (PRP I))
+                  (VP (MD would)
+                    (VP (VB do)
+                      (PP (IN in)
+                        (NP
+                          (NP (DT a) (NN situation))
+                          (PP (IN like)
+                            (NP (DT this))))))))))))))
+    (. .)))
+
+
+nsubj(bear-4, I-1)
+aux(bear-4, can-2)
+advmod(bear-4, hardly-3)
+root(ROOT-0, bear-4)
+aux(think-6, to-5)
+xcomp(bear-4, think-6)
+dobj(do-10, what-7)
+nsubj(do-10, I-8)
+aux(do-10, would-9)
+ccomp(think-6, do-10)
+prep(do-10, in-11)
+det(situation-13, a-12)
+pobj(in-11, situation-13)
+prep(situation-13, like-14)
+pobj(like-14, this-15)
+
+
+(ROOT
+  (S
+    (NP (JJ Such))
+    (VP (VBZ is)
+      (NP
+        (NP
+          (NP (DT the) (NN extent))
+          (PRN (-LRB- -LRB-)
+            (CC and)
+            (ADJP (JJ beyond))
+            (-RRB- -RRB-)))
+        (PP (IN of)
+          (NP
+            (NP
+              (NP (NNP God) (POS 's))
+              (NN love))
+            (PP (IN for)
+              (NP (PRP us))))))
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP he))
+          (VP (VBD gave)
+            (NP (PRP$ his) (JJ only) (NNP Son))
+            (S
+              (VP (TO to)
+                (VP (VB die)
+                  (PP (IN on)
+                    (NP
+                      (NP (DT the) (NN cross))
+                      (PP (IN on)
+                        (NP (NNP Good) (NNP Friday))))))))))))
+    (. .)))
+
+
+nsubj(extent-4, Such-1)
+cop(extent-4, is-2)
+det(extent-4, the-3)
+root(ROOT-0, extent-4)
+cc(beyond-7, and-6)
+dep(extent-4, beyond-7)
+prep(extent-4, of-9)
+poss(love-12, God-10)
+possessive(God-10, 's-11)
+pobj(of-9, love-12)
+prep(love-12, for-13)
+pobj(for-13, us-14)
+advmod(gave-17, when-15)
+nsubj(gave-17, he-16)
+advcl(extent-4, gave-17)
+poss(Son-20, his-18)
+amod(Son-20, only-19)
+dobj(gave-17, Son-20)
+aux(die-22, to-21)
+xcomp(gave-17, die-22)
+prep(die-22, on-23)
+det(cross-25, the-24)
+pobj(on-23, cross-25)
+prep(cross-25, on-26)
+nn(Friday-28, Good-27)
+pobj(on-26, Friday-28)
+
+
+(ROOT
+  (S
+    (NP (DT A) (JJ huge) (NN price))
+    (VP (VBD was)
+      (VP (VBN paid)
+        (SBAR (RB so) (IN that)
+          (S
+            (NP (DT this) (NNP Friday))
+            (VP (MD can)
+              (VP (VB be) (`` ``)
+                (ADJP (JJ Good))
+                ('' '')
+                (PP (IN for)
+                  (NP (PRP us)))))))))
+    (. .)))
+
+
+det(price-3, A-1)
+amod(price-3, huge-2)
+nsubjpass(paid-5, price-3)
+auxpass(paid-5, was-4)
+root(ROOT-0, paid-5)
+advmod(Good-13, so-6)
+mark(Good-13, that-7)
+det(Friday-9, this-8)
+nsubj(Good-13, Friday-9)
+aux(Good-13, can-10)
+cop(Good-13, be-11)
+advcl(paid-5, Good-13)
+prep(Good-13, for-15)
+pobj(for-15, us-16)
+
+
+(ROOT
+  (S
+    (SBAR (IN Hope)
+      (S
+        (NP (PRP you))
+        (VP
+          (VP (VBP have)
+            (NP (DT a) (NNP blessed) (NNP Easter)))
+          (CC and)
+          (VP (MD may)))))
+    (NP (PRP you))
+    (VP (VBP come)
+      (S
+        (VP (TO to)
+          (VP (VB know)
+            (NP
+              (NP (DT the) (NN love))
+              (PP (IN of)
+                (NP (NNP God))))
+            (PP (IN in)
+              (NP (DT a)
+                (ADJP
+                  (ADJP (JJR deeper))
+                  (CC and)
+                  (ADJP (RBR more) (JJ meaningful)))
+                (NN way)))))))
+    (. .)))
+
+
+mark(have-3, Hope-1)
+nsubj(have-3, you-2)
+advcl(come-10, have-3)
+det(Easter-6, a-4)
+nn(Easter-6, blessed-5)
+dobj(have-3, Easter-6)
+cc(have-3, and-7)
+conj(have-3, may-8)
+nsubj(come-10, you-9)
+root(ROOT-0, come-10)
+aux(know-12, to-11)
+xcomp(come-10, know-12)
+det(love-14, the-13)
+dobj(know-12, love-14)
+prep(love-14, of-15)
+pobj(of-15, God-16)
+prep(know-12, in-17)
+det(way-23, a-18)
+amod(way-23, deeper-19)
+cc(deeper-19, and-20)
+advmod(meaningful-22, more-21)
+conj(deeper-19, meaningful-22)
+pobj(in-17, way-23)
+
+

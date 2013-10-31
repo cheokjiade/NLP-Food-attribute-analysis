@@ -1,0 +1,581 @@
+(ROOT
+  (S
+    (NP (DT The) (JJ Canon-ieat) (NN food) (NN photography) (NN workshop))
+    (VP (VBD attracted)
+      (NP
+        (NP (CD 50) (NNS participants))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBZ is)
+              (NP
+                (NP (DT the) (JJS largest) (NN turnout))
+                (PP (TO to)
+                  (NP (NN date)))))))))
+    (. .)))
+
+
+det(workshop-5, The-1)
+amod(workshop-5, Canon-ieat-2)
+nn(workshop-5, food-3)
+nn(workshop-5, photography-4)
+nsubj(attracted-6, workshop-5)
+root(ROOT-0, attracted-6)
+num(participants-8, 50-7)
+dobj(attracted-6, participants-8)
+nsubj(turnout-13, which-9)
+cop(turnout-13, is-10)
+det(turnout-13, the-11)
+amod(turnout-13, largest-12)
+rcmod(participants-8, turnout-13)
+prep(turnout-13, to-14)
+pobj(to-14, date-15)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP (PRP it))
+          (VP (VBZ reflects)
+            (NP
+              (NP (DT the) (VBG increasing) (NN popularity))
+              (PP (IN of)
+                (S
+                  (VP (VBG taking)
+                    (NP
+                      (NP (NNS pictures))
+                      (PP (IN of)
+                        (NP (NN food))))
+                    (SBAR (IN before)
+                      (S
+                        (NP (PRP we))
+                        (VP (VBP eat)
+                          (PP (TO to)
+                            (NP (NN upload)))
+                          (PP (IN onto)
+                            (NP (DT the) (NN internet))))))))))))))
+    (. .)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+nsubj(reflects-4, it-3)
+ccomp(think-2, reflects-4)
+det(popularity-7, the-5)
+amod(popularity-7, increasing-6)
+dobj(reflects-4, popularity-7)
+prep(popularity-7, of-8)
+pcomp(of-8, taking-9)
+dobj(taking-9, pictures-10)
+prep(pictures-10, of-11)
+pobj(of-11, food-12)
+mark(eat-15, before-13)
+nsubj(eat-15, we-14)
+advcl(taking-9, eat-15)
+prep(eat-15, to-16)
+pobj(to-16, upload-17)
+prep(eat-15, onto-18)
+det(internet-20, the-19)
+pobj(onto-18, internet-20)
+
+
+(ROOT
+  (S
+    (NP (NN Everyone))
+    (VP (VBZ loves)
+      (S
+        (VP (TO to)
+          (VP (VB make)
+            (NP (PRP$ their) (NNS friends) (NN drool))))))
+    (. !)))
+
+
+nsubj(loves-2, Everyone-1)
+root(ROOT-0, loves-2)
+aux(make-4, to-3)
+xcomp(loves-2, make-4)
+poss(drool-7, their-5)
+nn(drool-7, friends-6)
+dobj(make-4, drool-7)
+
+
+(ROOT
+  (NP
+    (NP (JJ Many) (NNS thanks))
+    (PP (TO to)
+      (NP (PDT all) (DT the) (NNS participants)
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBD signed)
+              (PRT (RP up))
+              (S
+                (VP (TO to)
+                  (VP (VB attend)
+                    (NP (DT the) (NN workshop))))))))))
+    (. !)))
+
+
+amod(thanks-2, Many-1)
+root(ROOT-0, thanks-2)
+prep(thanks-2, to-3)
+predet(participants-6, all-4)
+det(participants-6, the-5)
+pobj(to-3, participants-6)
+nsubj(signed-8, who-7)
+ccomp(participants-6, signed-8)
+prt(signed-8, up-9)
+aux(attend-11, to-10)
+xcomp(signed-8, attend-11)
+det(workshop-13, the-12)
+dobj(attend-11, workshop-13)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP We))
+      (VP (VBD ran)
+        (SBAR
+          (S
+            (NP (DT a) (NN competition)
+              (S
+                (VP (TO to)
+                  (VP (VB give)
+                    (NP (NN everyone))
+                    (NP
+                      (NP (DT a) (NN chance))
+                      (PP (IN at)
+                        (S
+                          (VP (VBG showing)
+                            (PRT (RP off))
+                            (NP (PRP$ their) (JJ new))))))))))
+            (VP (VBD found)
+              (NP (NNS skills)))))))
+    (CC and)
+    (S
+      (NP (PRP I))
+      (VP (VBP am)
+        (ADJP (RB very) (JJ happy)
+          (S
+            (VP (TO to)
+              (VP (VB present)
+                (NP (PRP$ our) (NNS winners))))))))
+    (. !)))
+
+
+nsubj(ran-2, We-1)
+root(ROOT-0, ran-2)
+det(competition-4, a-3)
+nsubj(found-15, competition-4)
+aux(give-6, to-5)
+infmod(competition-4, give-6)
+iobj(give-6, everyone-7)
+det(chance-9, a-8)
+dobj(give-6, chance-9)
+prep(chance-9, at-10)
+pcomp(at-10, showing-11)
+prt(showing-11, off-12)
+poss(new-14, their-13)
+dobj(showing-11, new-14)
+ccomp(ran-2, found-15)
+dobj(found-15, skills-16)
+cc(ran-2, and-17)
+nsubj(happy-21, I-18)
+cop(happy-21, am-19)
+advmod(happy-21, very-20)
+conj(ran-2, happy-21)
+aux(present-23, to-22)
+xcomp(happy-21, present-23)
+poss(winners-25, our-24)
+dobj(present-23, winners-25)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (MD would)
+        (VP (VB like)
+          (S
+            (VP (TO to)
+              (VP (VB attend)
+                (NP (DT the) (JJ next) (NN workshop)))))))
+      (, ,))))
+
+
+mark(like-4, If-1)
+nsubj(like-4, you-2)
+aux(like-4, would-3)
+root(ROOT-0, like-4)
+aux(attend-6, to-5)
+xcomp(like-4, attend-6)
+det(workshop-9, the-7)
+amod(workshop-9, next-8)
+dobj(attend-6, workshop-9)
+
+
+(ROOT
+  (S
+    (INTJ (VB please))
+    (VP (VB write)
+      (PP (TO to)))
+    (. .)))
+
+
+discourse(write-2, please-1)
+root(ROOT-0, write-2)
+prep(write-2, to-3)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (MD shall)
+      (VP (VB start)
+        (S
+          (VP (VBG organizing)
+            (NP (DT the) (JJ next) (NN one))))
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (EX there))
+            (VP (VBP are)
+              (NP (JJ enough) (NNS students)
+                (S
+                  (VP (TO to)
+                    (VP (VB make)
+                      (PRT (RP up))
+                      (NP (DT the) (NN class)))))))))))
+    (. .)))
+
+
+nsubj(start-3, We-1)
+aux(start-3, shall-2)
+root(ROOT-0, start-3)
+xcomp(start-3, organizing-4)
+det(one-7, the-5)
+amod(one-7, next-6)
+dobj(organizing-4, one-7)
+advmod(are-10, when-8)
+expl(are-10, there-9)
+advcl(start-3, are-10)
+amod(students-12, enough-11)
+nsubj(are-10, students-12)
+aux(make-14, to-13)
+infmod(students-12, make-14)
+prt(make-14, up-15)
+det(class-17, the-16)
+dobj(make-14, class-17)
+
+
+(ROOT
+  (S
+    (NP (NNP Well))
+    (VP (VBN done)
+      (NP (NN everyone)))
+    (. !)))
+
+
+nsubj(done-2, Well-1)
+root(ROOT-0, done-2)
+dobj(done-2, everyone-3)
+
+
+(ROOT
+  (S
+    (VP (VB Keep)
+      (NP (NN shooting)))
+    (. !)))
+
+
+root(ROOT-0, Keep-1)
+dobj(Keep-1, shooting-2)
+
+
+(ROOT
+  (S
+    (NP (NNP Carolyn))
+    (VP (VBZ has)
+      (VP (VBN made)
+        (NP
+          (NP
+            (ADJP (RB very) (JJ clever))
+            (NN use))
+          (PP (IN of)
+            (NP (DT the) (NN wire) (NN mesh))))
+        (PP (IN with)
+          (NP
+            (NP (DT a) (JJ shallow) (NN depth))
+            (PP (IN of)
+              (NP (NN field)))))
+        (S
+          (VP (TO to)
+            (VP (VB create)
+              (NP (DT a)
+                (ADJP (RB visually) (JJ stunning))
+                (NN photo)))))))
+    (. .)))
+
+
+nsubj(made-3, Carolyn-1)
+aux(made-3, has-2)
+root(ROOT-0, made-3)
+advmod(clever-5, very-4)
+amod(use-6, clever-5)
+dobj(made-3, use-6)
+prep(use-6, of-7)
+det(mesh-10, the-8)
+nn(mesh-10, wire-9)
+pobj(of-7, mesh-10)
+prep(made-3, with-11)
+det(depth-14, a-12)
+amod(depth-14, shallow-13)
+pobj(with-11, depth-14)
+prep(depth-14, of-15)
+pobj(of-15, field-16)
+aux(create-18, to-17)
+xcomp(made-3, create-18)
+det(photo-22, a-19)
+advmod(stunning-21, visually-20)
+amod(photo-22, stunning-21)
+dobj(create-18, photo-22)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN placement))
+      (PP (IN of)
+        (NP
+          (NP (DT the) (NN bun))
+          (PP (IN along)
+            (NP (DT the) (CD one) (JJ third) (NN line))))))
+    (VP (VBZ is)
+      (ADVP (RB nicely))
+      (VP (VBN balanced)
+        (PP (IN by)
+          (NP
+            (NP (DT the) (JJ diagonal) (NNS lines))
+            (CC and)
+            (NP
+              (NP (DT the) (JJ interesting) (NN effect))
+              (VP (VBN created)
+                (PP (IN by)
+                  (NP (DT the) (NN wire) (NN mesh)))))))))
+    (. .)))
+
+
+det(placement-2, The-1)
+nsubjpass(balanced-13, placement-2)
+prep(placement-2, of-3)
+det(bun-5, the-4)
+pobj(of-3, bun-5)
+prep(bun-5, along-6)
+det(line-10, the-7)
+num(line-10, one-8)
+amod(line-10, third-9)
+pobj(along-6, line-10)
+auxpass(balanced-13, is-11)
+advmod(balanced-13, nicely-12)
+root(ROOT-0, balanced-13)
+prep(balanced-13, by-14)
+det(lines-17, the-15)
+amod(lines-17, diagonal-16)
+pobj(by-14, lines-17)
+cc(lines-17, and-18)
+det(effect-21, the-19)
+amod(effect-21, interesting-20)
+conj(lines-17, effect-21)
+partmod(effect-21, created-22)
+prep(created-22, by-23)
+det(mesh-26, the-24)
+nn(mesh-26, wire-25)
+pobj(by-23, mesh-26)
+
+
+(ROOT
+  (S
+    (NP (NNP June))
+    (VP (VBZ has)
+      (ADVP (RB very) (RB cleverly))
+      (VP (VBN used)
+        (NP (DT the) (JJ red) (NNS cherries))
+        (S
+          (VP (TO to)
+            (VP (VB add)
+              (VP (VB complement)
+                (NP (DT the)
+                  (ADJP (JJ green)
+                    (CC and)
+                    (JJ yellow))
+                  (NN pastry))))))))
+    (. .)))
+
+
+nsubj(used-5, June-1)
+aux(used-5, has-2)
+advmod(cleverly-4, very-3)
+advmod(used-5, cleverly-4)
+root(ROOT-0, used-5)
+det(cherries-8, the-6)
+amod(cherries-8, red-7)
+dobj(used-5, cherries-8)
+aux(add-10, to-9)
+xcomp(used-5, add-10)
+xcomp(add-10, complement-11)
+det(pastry-16, the-12)
+amod(pastry-16, green-13)
+cc(green-13, and-14)
+conj(green-13, yellow-15)
+dobj(complement-11, pastry-16)
+
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP
+      (VP (VBZ has)
+        (VP (VBN applied)
+          (NP
+            (NP (DT the) (NN rule))
+            (PP (IN of)
+              (NP
+                (NP (NNS thirds))
+                (PP (IN in)
+                  (NP (PRP$ her) (NN composition))))))))
+      (CONJP (RB as) (RB well) (IN as))
+      (VP (VBG using)
+        (NP
+          (NP (DT the) (NN edge))
+          (PP (IN of)
+            (NP (DT the) (JJ lazy) (NN susan))))
+        (PP (IN as)
+          (NP (DT a) (NN diagonal)))
+        (S
+          (VP (TO to)
+            (VP (VB break)
+              (PRT (RP up))
+              (NP (DT the) (NN background)))))))
+    (. .)))
+
+
+nsubj(applied-3, She-1)
+aux(applied-3, has-2)
+root(ROOT-0, applied-3)
+det(rule-5, the-4)
+dobj(applied-3, rule-5)
+prep(rule-5, of-6)
+pobj(of-6, thirds-7)
+prep(thirds-7, in-8)
+poss(composition-10, her-9)
+pobj(in-8, composition-10)
+advmod(well-12, as-11)
+cc(applied-3, well-12)
+mwe(well-12, as-13)
+conj(applied-3, using-14)
+det(edge-16, the-15)
+dobj(using-14, edge-16)
+prep(edge-16, of-17)
+det(susan-20, the-18)
+amod(susan-20, lazy-19)
+pobj(of-17, susan-20)
+prep(using-14, as-21)
+det(diagonal-23, a-22)
+pobj(as-21, diagonal-23)
+aux(break-25, to-24)
+xcomp(using-14, break-25)
+prt(break-25, up-26)
+det(background-28, the-27)
+dobj(break-25, background-28)
+
+
+(ROOT
+  (S
+    (NP (NNP Raymond))
+    (VP (VBZ has)
+      (VP (VBN taken)
+        (NP
+          (NP (NN advantage))
+          (PP (IN of)
+            (NP (DT the) (JJ beautiful) (NN display) (NN dish))))
+        (SBAR (IN as)
+          (S
+            (NP
+              (NP (DT a) (NN backdrop))
+              (PP (IN for)
+                (NP (DT the) (JJ green) (NN banana))))
+            (VP (VBZ leaves))))))
+    (. .)))
+
+
+nsubj(taken-3, Raymond-1)
+aux(taken-3, has-2)
+root(ROOT-0, taken-3)
+dobj(taken-3, advantage-4)
+prep(advantage-4, of-5)
+det(dish-9, the-6)
+amod(dish-9, beautiful-7)
+nn(dish-9, display-8)
+pobj(of-5, dish-9)
+mark(leaves-17, as-10)
+det(backdrop-12, a-11)
+nsubj(leaves-17, backdrop-12)
+prep(backdrop-12, for-13)
+det(banana-16, the-14)
+amod(banana-16, green-15)
+pobj(for-13, banana-16)
+advcl(taken-3, leaves-17)
+
+
+(ROOT
+  (S
+    (VP
+      (VP
+        (ADVP (RB Again))
+        (VBG placing)
+        (NP
+          (NP (DT the) (NN subject))
+          (PP (VBG according)
+            (NP
+              (NP (DT the) (DT the) (NN rule))
+              (PP (IN of)
+                (NP (NNS thirds)))))))
+      (CC and)
+      (VP (VBG making)
+        (NP
+          (NP (NN use))
+          (PP (IN of)
+            (NP (DT the) (NN plate)
+              (S
+                (VP (TO to)
+                  (VP (VB create)
+                    (NP (JJ diagonal) (NNS lines))))))))))
+    (. .)))
+
+
+advmod(placing-2, Again-1)
+root(ROOT-0, placing-2)
+det(subject-4, the-3)
+dobj(placing-2, subject-4)
+prep(subject-4, according-5)
+predet(rule-8, the-6)
+det(rule-8, the-7)
+pobj(according-5, rule-8)
+prep(rule-8, of-9)
+pobj(of-9, thirds-10)
+cc(placing-2, and-11)
+conj(placing-2, making-12)
+dobj(making-12, use-13)
+prep(use-13, of-14)
+det(plate-16, the-15)
+pobj(of-14, plate-16)
+aux(create-18, to-17)
+infmod(plate-16, create-18)
+amod(lines-20, diagonal-19)
+dobj(create-18, lines-20)
+
+

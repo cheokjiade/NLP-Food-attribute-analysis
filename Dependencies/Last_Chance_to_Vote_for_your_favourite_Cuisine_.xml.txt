@@ -1,0 +1,87 @@
+(ROOT
+  (S
+    (NP (DT The) (NN voting) (NN station))
+    (VP (MD will)
+      (VP (VB close)
+        (PP (IN by)
+          (NP
+            (NP (DT the) (NN end))
+            (PP (IN of)
+              (NP (DT the) (NN week)))))))
+    (. !)))
+
+
+det(station-3, The-1)
+nn(station-3, voting-2)
+nsubj(close-5, station-3)
+aux(close-5, will-4)
+root(ROOT-0, close-5)
+prep(close-5, by-6)
+det(end-8, the-7)
+pobj(by-6, end-8)
+prep(end-8, of-9)
+det(week-11, the-10)
+pobj(of-9, week-11)
+
+
+(ROOT
+  (S (RB So)
+    (VP (VB do)
+      (VP (VB remember)
+        (S
+          (VP (TO to)
+            (VP (VB cast)
+              (NP (PRP$ your) (NN vote))
+              (PP (IN for)
+                (NP
+                  (NP (NNP Singapore) (POS 's))
+                  (JJ favorite) (NN cuisine))))))))
+    (. .)))
+
+
+advmod(remember-3, So-1)
+aux(remember-3, do-2)
+root(ROOT-0, remember-3)
+aux(cast-5, to-4)
+xcomp(remember-3, cast-5)
+poss(vote-7, your-6)
+dobj(cast-5, vote-7)
+prep(cast-5, for-8)
+poss(cuisine-12, Singapore-9)
+possessive(Singapore-9, 's-10)
+amod(cuisine-12, favorite-11)
+pobj(for-8, cuisine-12)
+
+
+(ROOT
+  (S
+    (NP (DT The) (VBG voting) (NN station))
+    (VP (VBZ is)
+      (PP (IN on)
+        (NP (DT the) (NN right) (NN column) (NNP -------) (-RRB- -RRB-) (NNP Read)))
+      (NP
+        (NP (DT the) (NNS details))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (NN post))
+            (ADVP (RB here))))))))
+
+
+det(station-3, The-1)
+amod(station-3, voting-2)
+nsubj(details-13, station-3)
+cop(details-13, is-4)
+prep(details-13, on-5)
+det(Read-11, the-6)
+nn(Read-11, right-7)
+nn(Read-11, column-8)
+nn(Read-11, --------9)
+pobj(on-5, Read-11)
+det(details-13, the-12)
+root(ROOT-0, details-13)
+prep(details-13, of-14)
+det(post-16, the-15)
+pobj(of-14, post-16)
+advmod(post-16, here-17)
+
+

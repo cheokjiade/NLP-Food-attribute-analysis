@@ -1,0 +1,69 @@
+(ROOT
+  (S
+    (NP (NNP Just))
+    (VP (VBD found)
+      (PRT (RP out))
+      (SBAR (IN that)
+        (S
+          (NP (PRP I))
+          (VP (VBD won)
+            (PP (IN in)
+              (NP
+                (NP (DT the) (NN category))
+                (PP (IN of) (`` ``)
+                  (NP (JJS Best) (NNS Blogs))
+                  ('' ''))))
+            (PP (IN under) (`` ``)
+              (S
+                (VP (VBG blog)
+                  (PP (IN with)
+                    (NP (DT the) (JJS best) (NN food) (NNS pictures))))))))))
+    (. !)))
+
+
+nsubj(found-2, Just-1)
+root(ROOT-0, found-2)
+prt(found-2, out-3)
+mark(won-6, that-4)
+nsubj(won-6, I-5)
+ccomp(found-2, won-6)
+prep(won-6, in-7)
+det(category-9, the-8)
+pobj(in-7, category-9)
+prep(category-9, of-10)
+amod(Blogs-13, Best-12)
+pobj(of-10, Blogs-13)
+prep(won-6, under-15)
+dep(under-15, blog-17)
+prep(blog-17, with-18)
+det(pictures-22, the-19)
+amod(pictures-22, best-20)
+nn(pictures-22, food-21)
+pobj(with-18, pictures-22)
+
+
+(ROOT
+  (NP (FW '') (. .)))
+
+
+
+
+(ROOT
+  (NP
+    (NP (JJ Many) (NNS thanks))
+    (PP (TO to)
+      (NP (NN everyone)))
+    (PP (IN for)
+      (NP (PRP$ your) (NN support)))
+    (. !)))
+
+
+amod(thanks-2, Many-1)
+root(ROOT-0, thanks-2)
+prep(thanks-2, to-3)
+pobj(to-3, everyone-4)
+prep(thanks-2, for-5)
+poss(support-7, your-6)
+pobj(for-5, support-7)
+
+

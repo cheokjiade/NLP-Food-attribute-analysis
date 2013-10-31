@@ -1,0 +1,313 @@
+(ROOT
+  (S
+    (NP (CD One) (NN thing))
+    (SBAR (IN that)
+      (S
+        (NP (PRP I))
+        (VP (VBP have)
+          (VP (VBN observed)
+            (PP (IN about)
+              (NP
+                (NP (JJS most))
+                (PP (IN of)
+                  (NP (DT the) (NNP Famous)))))))))
+    (NP (NNP Hawkers))
+    (ADVP (RB around))
+    (VP (VBZ is)
+      (NP (DT the) (NN fact))
+      (SBAR (IN that)
+        (S
+          (NP (PRP they))
+          (VP (VBP are)
+            (ADJP (JJ famous))
+            (SBAR (RB not) (RB just) (IN because)
+              (S
+                (NP (PRP$ their) (NN food))
+                (VP (VBZ is)
+                  (ADJP (JJ good)))))))))
+    (, ,)))
+
+
+num(thing-2, One-1)
+nsubj(fact-16, thing-2)
+mark(observed-6, that-3)
+nsubj(observed-6, I-4)
+aux(observed-6, have-5)
+advcl(fact-16, observed-6)
+prep(observed-6, about-7)
+pobj(about-7, most-8)
+prep(most-8, of-9)
+det(Famous-11, the-10)
+pobj(of-9, Famous-11)
+nsubj(fact-16, Hawkers-12)
+advmod(fact-16, around-13)
+cop(fact-16, is-14)
+det(fact-16, the-15)
+root(ROOT-0, fact-16)
+mark(famous-20, that-17)
+nsubj(famous-20, they-18)
+cop(famous-20, are-19)
+ccomp(fact-16, famous-20)
+dep(good-27, not-21)
+advmod(good-27, just-22)
+mark(good-27, because-23)
+poss(food-25, their-24)
+nsubj(good-27, food-25)
+cop(good-27, is-26)
+advcl(famous-20, good-27)
+
+
+(ROOT
+  (S (CC but)
+    (NP (PRP it))
+    (ADVP (RB also))
+    (VP (VBZ has)
+      (NP (DT a) (NN lot)
+        (S
+          (VP (TO to)
+            (VP (VB do)
+              (PP (IN with)
+                (NP (PRP$ their) (NN personality)
+                  (CC and)
+                  (NN PR) (NNS skills))))))))
+    (. .)))
+
+
+cc(has-4, but-1)
+nsubj(has-4, it-2)
+advmod(has-4, also-3)
+root(ROOT-0, has-4)
+det(lot-6, a-5)
+dobj(has-4, lot-6)
+aux(do-8, to-7)
+infmod(lot-6, do-8)
+prep(do-8, with-9)
+poss(personality-11, their-10)
+pobj(with-9, personality-11)
+cc(personality-11, and-12)
+nn(skills-14, PR-13)
+conj(personality-11, skills-14)
+
+
+(ROOT
+  (S
+    (VP (VB Take)
+      (PP (IN for)
+        (NP (NN instance)))
+      (S
+        (NP
+          (NP (DT this) (NNP Hokkien) (NNP Mee) (NN uncle))
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP (VBD was)
+                (VP (VBN handpicked)
+                  (S
+                    (VP (TO to)
+                      (VP (VB represent)
+                        (NP
+                          (NP (NNP Singapore) (NNP Hokkien) (NNP Mee))
+                          (PP (IN in)
+                            (NP (NNP New) (NNP York))))
+                        (PP (IN during)
+                          (NP
+                            (NP (DT the) (NNP Singapore) (NNP Day) (NNP Festivities))
+                            (PP (IN in)
+                              (NP (NNP April)))))))))))))))
+    (. .)))
+
+
+root(ROOT-0, Take-1)
+prep(Take-1, for-2)
+pobj(for-2, instance-3)
+det(uncle-7, this-4)
+nn(uncle-7, Hokkien-5)
+nn(uncle-7, Mee-6)
+dep(Take-1, uncle-7)
+nsubjpass(handpicked-10, who-8)
+auxpass(handpicked-10, was-9)
+rcmod(uncle-7, handpicked-10)
+aux(represent-12, to-11)
+xcomp(handpicked-10, represent-12)
+nn(Mee-15, Singapore-13)
+nn(Mee-15, Hokkien-14)
+dobj(represent-12, Mee-15)
+prep(Mee-15, in-16)
+nn(York-18, New-17)
+pobj(in-16, York-18)
+prep(represent-12, during-19)
+det(Festivities-23, the-20)
+nn(Festivities-23, Singapore-21)
+nn(Festivities-23, Day-22)
+pobj(during-19, Festivities-23)
+prep(Festivities-23, in-24)
+pobj(in-24, April-25)
+
+
+(ROOT
+  (S
+    (SBAR (IN Although)
+      (S
+        (NP (PRP I))
+        (VP (VBP use)
+          (S
+            (NP (DT the) (NN word))
+            (`` ``)
+            (ADJP (JJ handpicked))
+            ('' '')))))
+    (NP (PRP it))
+    (VP (VBZ does) (RB n't)
+      (ADVP (RB really))
+      (VP (VB mean)
+        (SBAR (IN that)
+          (S
+            (NP (PRP he))
+            (VP (VBZ fries)
+              (NP (DT the) (JJS best) (NNP Hokkien) (NNPS Mee))
+              (PP (IN in)
+                (NP
+                  (NP (NNP Singapore))
+                  (SBAR
+                    (WHNP (WDT which))
+                    (S
+                      (VP (VBZ is)
+                        (SBAR
+                          (WHADVP (WRB why))
+                          (S
+                            (NP (PRP he))
+                            (VP (VBD was) (`` ``)
+                              (ADJP (JJ handpicked))
+                              ('' ''))))))))))))))
+    (. .)))
+
+
+mark(use-3, Although-1)
+nsubj(use-3, I-2)
+advcl(mean-13, use-3)
+det(word-5, the-4)
+dep(handpicked-7, word-5)
+dep(use-3, handpicked-7)
+nsubj(mean-13, it-9)
+aux(mean-13, does-10)
+neg(mean-13, n't-11)
+advmod(mean-13, really-12)
+root(ROOT-0, mean-13)
+mark(fries-16, that-14)
+nsubj(fries-16, he-15)
+ccomp(mean-13, fries-16)
+det(Mee-20, the-17)
+amod(Mee-20, best-18)
+nn(Mee-20, Hokkien-19)
+dobj(fries-16, Mee-20)
+prep(fries-16, in-21)
+pobj(in-21, Singapore-22)
+nsubj(is-24, which-23)
+rcmod(Singapore-22, is-24)
+advmod(handpicked-29, why-25)
+nsubj(handpicked-29, he-26)
+cop(handpicked-29, was-27)
+advcl(is-24, handpicked-29)
+
+
+(ROOT
+  (S (CC But)
+    (NP
+      (NP (JJR more))
+      (PP (IN like)
+        (NP
+          (NP
+            (NP (DT a) (NN combination))
+            (PP (IN of)
+              (NP (PRP$ his) (NNP Hokkien) (NNP Mee) (JJ frying) (NN expertise))))
+          (CONJP (RB as) (RB well) (IN as))
+          (NP (RB enough)))))
+    (VP (VBP EQ)
+      (S
+        (VP (TO to)
+          (VP (VB understand)
+            (NP
+              (NP (DT the) (NN marketing) (NN potential))
+              (PP (IN of)
+                (S
+                  (VP (VBG taking)
+                    (NP (NN part))
+                    (PP (IN in)
+                      (NP (PDT such) (DT an) (NN event)))))))))))
+    (. .)))
+
+
+cc(EQ-16, But-1)
+nsubj(EQ-16, more-2)
+prep(more-2, like-3)
+det(combination-5, a-4)
+pobj(like-3, combination-5)
+prep(combination-5, of-6)
+poss(expertise-11, his-7)
+nn(expertise-11, Hokkien-8)
+nn(expertise-11, Mee-9)
+amod(expertise-11, frying-10)
+pobj(of-6, expertise-11)
+advmod(well-13, as-12)
+cc(combination-5, well-13)
+mwe(well-13, as-14)
+conj(combination-5, enough-15)
+root(ROOT-0, EQ-16)
+aux(understand-18, to-17)
+xcomp(EQ-16, understand-18)
+det(potential-21, the-19)
+nn(potential-21, marketing-20)
+dobj(understand-18, potential-21)
+prep(potential-21, of-22)
+pcomp(of-22, taking-23)
+dobj(taking-23, part-24)
+prep(taking-23, in-25)
+predet(event-28, such-26)
+det(event-28, an-27)
+pobj(in-25, event-28)
+
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB Why)
+      (ADJP (RB else)))
+    (SQ (MD would)
+      (NP (NN someone))
+      (VP (VB be)
+        (VP (VBN persuaded)
+          (S
+            (VP (TO to)
+              (VP (VB close)
+                (NP (DT the) (NN stall))
+                (PP (IN for)
+                  (NP (CD 2) (NNS weeks)))
+                (SBAR (IN in) (NN order)
+                  (S
+                    (VP (TO to)
+                      (VP (VB travel)
+                        (PP (TO to)
+                          (NP (NNP New) (NNP York)))))))))))))
+    (. ?)))
+
+
+advmod(persuaded-6, Why-1)
+dep(Why-1, else-2)
+aux(persuaded-6, would-3)
+nsubjpass(persuaded-6, someone-4)
+auxpass(persuaded-6, be-5)
+root(ROOT-0, persuaded-6)
+aux(close-8, to-7)
+xcomp(persuaded-6, close-8)
+det(stall-10, the-9)
+dobj(close-8, stall-10)
+prep(close-8, for-11)
+num(weeks-13, 2-12)
+pobj(for-11, weeks-13)
+mark(travel-17, in-14)
+dep(travel-17, order-15)
+aux(travel-17, to-16)
+advcl(close-8, travel-17)
+prep(travel-17, to-18)
+nn(York-20, New-19)
+pobj(to-18, York-20)
+
+

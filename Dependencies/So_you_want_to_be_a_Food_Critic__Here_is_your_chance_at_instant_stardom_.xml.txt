@@ -1,0 +1,854 @@
+(ROOT
+  (SBAR (IN As)
+    (S
+      (NP (PRP you))
+      (VP
+        (ADVP (DT all))
+        (VBP know))
+      (, ,))))
+
+
+mark(know-4, As-1)
+nsubj(know-4, you-2)
+advmod(know-4, all-3)
+root(ROOT-0, know-4)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (NP
+        (NP (DT a) (JJ regular) (NN column))
+        (PP (IN at)
+          (NP (NN insing.com)))
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (NP (PRP I))
+            (VP (VBP recommend)
+              (NP
+                (NP (PRP$ my) (NNS picks))
+                (PP (IN of)
+                  (NP
+                    (NP (DT the) (JJS best) (NN hawker) (NNS stalls))
+                    (PP (IN around)
+                      (NP (NNP Singapore)))))))))))
+    (. .)))
+
+
+nsubj(have-2, I-1)
+root(ROOT-0, have-2)
+det(column-5, a-3)
+amod(column-5, regular-4)
+dobj(have-2, column-5)
+prep(column-5, at-6)
+pobj(at-6, insing.com-7)
+advmod(recommend-10, where-8)
+nsubj(recommend-10, I-9)
+rcmod(column-5, recommend-10)
+poss(picks-12, my-11)
+dobj(recommend-10, picks-12)
+prep(picks-12, of-13)
+det(stalls-17, the-14)
+amod(stalls-17, best-15)
+nn(stalls-17, hawker-16)
+pobj(of-13, stalls-17)
+prep(stalls-17, around-18)
+pobj(around-18, Singapore-19)
+
+
+(ROOT
+  (S
+    (NP (NNP Insing))
+    (VP
+      (VP (VBZ is)
+        (ADJP (JJ intent)
+          (PP (IN on)
+            (S
+              (VP (VBG building)
+                (NP (PRP$ their) (NN site))
+                (PP (IN as)
+                  (NP
+                    (NP (DT a) (JJ veritable) (NN food) (NN directory))
+                    (PP (IN of)
+                      (NP (NNS restaurants)
+                        (CC and)
+                        (NN hawker) (NN food))))))))))
+      (CC and)
+      (VP (VBP have)
+        (VP (VBN asked)
+          (S
+            (NP (PRP me))
+            (VP (TO to)
+              (VP (VB be)
+                (VP (VBN involved)
+                  (PP (IN in)
+                    (NP
+                      (NP (PRP$ their) (NN hunt))
+                      (PP (IN for)
+                        (NP (PRP$ their) (JJ resident) (NNP Hawker) (NNP Food) (NN writer))))))))))))
+    (. .)))
+
+
+nsubj(intent-3, Insing-1)
+cop(intent-3, is-2)
+root(ROOT-0, intent-3)
+prep(intent-3, on-4)
+pcomp(on-4, building-5)
+poss(site-7, their-6)
+dobj(building-5, site-7)
+prep(building-5, as-8)
+det(directory-12, a-9)
+amod(directory-12, veritable-10)
+nn(directory-12, food-11)
+pobj(as-8, directory-12)
+prep(directory-12, of-13)
+pobj(of-13, restaurants-14)
+cc(restaurants-14, and-15)
+nn(food-17, hawker-16)
+conj(restaurants-14, food-17)
+cc(intent-3, and-18)
+aux(asked-20, have-19)
+conj(intent-3, asked-20)
+nsubjpass(involved-24, me-21)
+aux(involved-24, to-22)
+auxpass(involved-24, be-23)
+xcomp(asked-20, involved-24)
+prep(involved-24, in-25)
+poss(hunt-27, their-26)
+pobj(in-25, hunt-27)
+prep(hunt-27, for-28)
+poss(writer-33, their-29)
+amod(writer-33, resident-30)
+nn(writer-33, Hawker-31)
+nn(writer-33, Food-32)
+pobj(for-28, writer-33)
+
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP are)
+      (ADVP (RB now))
+      (VP (VBG organizing)
+        (NP (DT a) (NN competition)
+          (S
+            (VP (TO to)
+              (VP (VB find)
+                (S
+                  (NP (PRP$ their) (NNP Hawker) (NNP Food) (NN writer) (NN ala))
+                  (NP (`` ``) (JJ American) (NN Idol) ('' '') (NN style)))))))))
+    (. .)))
+
+
+nsubj(organizing-4, They-1)
+aux(organizing-4, are-2)
+advmod(organizing-4, now-3)
+root(ROOT-0, organizing-4)
+det(competition-6, a-5)
+dobj(organizing-4, competition-6)
+aux(find-8, to-7)
+infmod(competition-6, find-8)
+poss(ala-13, their-9)
+nn(ala-13, Hawker-10)
+nn(ala-13, Food-11)
+nn(ala-13, writer-12)
+nsubj(style-18, ala-13)
+amod(style-18, American-15)
+nn(style-18, Idol-16)
+xcomp(find-8, style-18)
+
+
+(ROOT
+  (S
+    (NP (DT The) (JJ new) (NNP Hawker) (NNP Food) (`` ``) (NNP Idol) ('' ''))
+    (VP (MD will)
+      (VP (VB win)
+        (NP (DT a) (NNP Canon) (NNP EOS) (CD 550D) (NNP DSLR) (NN worth) (NNS $))))))
+
+
+det(Idol-6, The-1)
+amod(Idol-6, new-2)
+nn(Idol-6, Hawker-3)
+nn(Idol-6, Food-4)
+nsubj(win-9, Idol-6)
+aux(win-9, will-8)
+root(ROOT-0, win-9)
+det($-16, a-10)
+nn($-16, Canon-11)
+nn($-16, EOS-12)
+num($-16, 550D-13)
+nn($-16, DSLR-14)
+nn($-16, worth-15)
+dobj(win-9, $-16)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (CD 1350))
+      (CC and)
+      (NP (DT a) (NN contract)
+        (S
+          (VP (TO to)
+            (VP (VB write)
+              (PP (IN for)
+                (NP (NNP Insing.com)))
+              (PP (IN for)
+                (NP
+                  (NP (CD 6) (NNS months))
+                  (SBAR
+                    (WHNP (WDT which))
+                    (S
+                      (VP (VBZ is)
+                        (ADJP (JJ worth))))))))))))
+    (VP (VBZ $))))
+
+
+nsubj($-15, 1350-1)
+cc(1350-1, and-2)
+det(contract-4, a-3)
+conj(1350-1, contract-4)
+aux(write-6, to-5)
+infmod(contract-4, write-6)
+prep(write-6, for-7)
+pobj(for-7, Insing.com-8)
+prep(write-6, for-9)
+num(months-11, 6-10)
+pobj(for-9, months-11)
+nsubj(worth-14, which-12)
+cop(worth-14, is-13)
+rcmod(months-11, worth-14)
+root(ROOT-0, $-15)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 6000))
+    (. .)))
+
+
+root(ROOT-0, 6000-1)
+
+
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (NP
+        (NP (DT an) (JJ excellent) (NN opportunity))
+        (PP (IN for)
+          (NP
+            (NP (VBG budding) (NN food) (NNS bloggers))
+            (CC or)
+            (NP (VBG aspiring) (NN food) (NNS writers)))))
+      (S
+        (VP (TO to)
+          (VP (VB gain)
+            (NP
+              (NP (JJ instant) (NN recognition))
+              (SBAR
+                (S (-LRB- -LRB-)
+                  (NP (PRP you))
+                  (VP (VBP are)
+                    (VP (VBG going)
+                      (S
+                        (VP (TO to)
+                          (VP (VB be)
+                            (VP (VBN read)
+                              (PP (IN by)
+                                (NP
+                                  (NP
+                                    (QP (CD 1) (CD million)))
+                                  (NP (DT each) (NN month)))))))))))))))))
+    (. !)))
+
+
+nsubj(opportunity-5, This-1)
+cop(opportunity-5, is-2)
+det(opportunity-5, an-3)
+amod(opportunity-5, excellent-4)
+root(ROOT-0, opportunity-5)
+prep(opportunity-5, for-6)
+amod(bloggers-9, budding-7)
+nn(bloggers-9, food-8)
+pobj(for-6, bloggers-9)
+cc(bloggers-9, or-10)
+amod(writers-13, aspiring-11)
+nn(writers-13, food-12)
+conj(bloggers-9, writers-13)
+aux(gain-15, to-14)
+xcomp(opportunity-5, gain-15)
+amod(recognition-17, instant-16)
+dobj(gain-15, recognition-17)
+nsubj(going-21, you-19)
+aux(going-21, are-20)
+rcmod(recognition-17, going-21)
+aux(read-24, to-22)
+auxpass(read-24, be-23)
+xcomp(going-21, read-24)
+prep(read-24, by-25)
+number(million-27, 1-26)
+pobj(by-25, million-27)
+det(month-29, each-28)
+dep(million-27, month-29)
+
+
+(ROOT
+  (UCP
+    (ADJP (JJ -RRB-))
+    (CC and)
+    (PP (IN at)
+      (NP
+        (NP (DT the) (JJ same) (NN time))
+        (SBAR
+          (S
+            (VP (VBP earn)
+              (NP
+                (NP (NN something))
+                (PP (IN in)
+                  (NP
+                    (NP (PRP$ their) (JJ free) (NN time))
+                    (-LRB- -LRB-)
+                    (NP (NNP Yes))
+                    (, ,)))))))))))
+
+
+cc(-RRB--1, and-2)
+conj(-RRB--1, at-3)
+det(time-6, the-4)
+amod(time-6, same-5)
+pobj(at-3, time-6)
+rcmod(time-6, earn-7)
+dobj(earn-7, something-8)
+prep(something-8, in-9)
+poss(time-12, their-10)
+amod(time-12, free-11)
+pobj(in-9, time-12)
+dep(time-12, Yes-14)
+
+
+(ROOT
+  (SBAR (IN as)
+    (S
+      (NP (PRP we))
+      (VP (VBP say)
+        (PP (IN in)
+          (NP (DT the) (NN army))))
+      (, ,))))
+
+
+mark(say-3, as-1)
+nsubj(say-3, we-2)
+root(ROOT-0, say-3)
+prep(say-3, in-4)
+det(army-6, the-5)
+pobj(in-4, army-6)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (VBZ 's) (`` ``)
+      (NP (JJ own) (NN time) (JJ own) (NN target))
+      ('' ''))
+    (-RRB- -RRB-) (. .)))
+
+
+nsubj(target-7, it-1)
+cop(target-7, 's-2)
+amod(target-7, own-4)
+nn(target-7, time-5)
+amod(target-7, own-6)
+root(ROOT-0, target-7)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (VBP are)
+        (ADVP (RB already))
+        (VP (VBG doing)
+          (NP (DT some) (JJ informal) (NN food) (NNS reviews))))
+      (, ,))))
+
+
+mark(doing-5, If-1)
+nsubj(doing-5, you-2)
+aux(doing-5, are-3)
+advmod(doing-5, already-4)
+root(ROOT-0, doing-5)
+det(reviews-9, some-6)
+amod(reviews-9, informal-7)
+nn(reviews-9, food-8)
+dobj(doing-5, reviews-9)
+
+
+(ROOT
+  (SBAR
+    (WHNP (WDT that))
+    (S
+      (VP (VBZ means)
+        (SBAR
+          (S
+            (NP (PRP you))
+            (VP (MD can)
+              (VP (VB get)
+                (NP (VBN paid) (NNS $))))))))))
+
+
+nsubj(means-2, that-1)
+root(ROOT-0, means-2)
+nsubj(get-5, you-3)
+aux(get-5, can-4)
+ccomp(means-2, get-5)
+amod($-7, paid-6)
+dobj(get-5, $-7)
+
+
+(ROOT
+  (FRAG
+    (NP
+      (NP (CD 1000))
+      (NP (DT a) (NN month)))
+    (PP (IN for)
+      (S
+        (VP (VBG doing)
+          (SBAR
+            (WHNP (WP what))
+            (S
+              (NP (PRP you))
+              (VP (VBP are)
+                (ADVP (RB already))
+                (VP (VBG doing)))))))
+      (. !))))
+
+
+root(ROOT-0, 1000-1)
+det(month-3, a-2)
+dep(1000-1, month-3)
+prep(1000-1, for-4)
+pcomp(for-4, doing-5)
+dobj(doing-10, what-6)
+nsubj(doing-10, you-7)
+aux(doing-10, are-8)
+advmod(doing-10, already-9)
+ccomp(doing-5, doing-10)
+
+
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (SBAR
+        (WHADVP (WRB how))
+        (S
+          (NP (PRP it))
+          (VP (VBZ works)))))
+    (. .)))
+
+
+nsubj(is-2, This-1)
+root(ROOT-0, is-2)
+advmod(works-5, how-3)
+nsubj(works-5, it-4)
+ccomp(is-2, works-5)
+
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (NN round) (CD 1)))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+pobj(In-1, round-2)
+num(round-2, 1-3)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (MD will)
+      (VP (VB need)
+        (S
+          (VP (TO to)
+            (VP
+              (VP (VB register)
+                (PP (IN at)
+                  (NP (NN www.ilovehawkerfood.com.sg))))
+              (CC and)
+              (VP (VB submit)
+                (NP
+                  (NP (CD 3) (NNS reviews))
+                  (PP (IN of)
+                    (NP (NN hawker) (NN food))))))))))
+    (. .)))
+
+
+nsubj(need-3, you-1)
+aux(need-3, will-2)
+root(ROOT-0, need-3)
+aux(register-5, to-4)
+xcomp(need-3, register-5)
+prep(register-5, at-6)
+pobj(at-6, www.ilovehawkerfood.com.sg-7)
+cc(register-5, and-8)
+conj(register-5, submit-9)
+num(reviews-11, 3-10)
+dobj(submit-9, reviews-11)
+prep(reviews-11, of-12)
+nn(food-14, hawker-13)
+pobj(of-12, food-14)
+
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NNP Round) (CD 2)))
+    (NP (PRP we))
+    (VP (MD will) (RB then)
+      (VP (VB shortlist)
+        (NP (DT the) (JJ top) (CD 20) (NNS contestants))
+        (S
+          (VP (TO to)
+            (VP (VB attend)
+              (NP
+                (NP (DT a) (NNP Food) (NNP Blogging)
+                  (CC and)
+                  (NNP Food) (NNP Photography) (NN workshop))
+                (SBAR
+                  (WHNP (WDT which))
+                  (S
+                    (NP (PRP I))
+                    (VP (MD will)
+                      (VP (VB be)
+                        (VP (VBG conducting))))))))))))
+    (. .)))
+
+
+prep(shortlist-7, In-1)
+pobj(In-1, Round-2)
+num(Round-2, 2-3)
+nsubj(shortlist-7, we-4)
+aux(shortlist-7, will-5)
+advmod(shortlist-7, then-6)
+root(ROOT-0, shortlist-7)
+det(contestants-11, the-8)
+amod(contestants-11, top-9)
+num(contestants-11, 20-10)
+dobj(shortlist-7, contestants-11)
+aux(attend-13, to-12)
+xcomp(shortlist-7, attend-13)
+det(Blogging-16, a-14)
+nn(Blogging-16, Food-15)
+dobj(attend-13, Blogging-16)
+cc(Blogging-16, and-17)
+nn(workshop-20, Food-18)
+nn(workshop-20, Photography-19)
+conj(Blogging-16, workshop-20)
+dobj(conducting-25, which-21)
+nsubj(conducting-25, I-22)
+aux(conducting-25, will-23)
+aux(conducting-25, be-24)
+rcmod(Blogging-16, conducting-25)
+
+
+(ROOT
+  (S
+    (PP (IN From)
+      (NP (RB there)))
+    (NP (PRP we))
+    (VP (MD will)
+      (VP (VB shortlist)
+        (NP (DT the) (JJ top) (CD 3))
+        (S
+          (VP (TO to)
+            (VP (VB go)
+              (PP (IN for)
+                (NP (DT the) (JJ final) (NN selection))))))))
+    (. !)))
+
+
+prep(shortlist-5, From-1)
+pobj(From-1, there-2)
+nsubj(shortlist-5, we-3)
+aux(shortlist-5, will-4)
+root(ROOT-0, shortlist-5)
+det(3-8, the-6)
+amod(3-8, top-7)
+dobj(shortlist-5, 3-8)
+aux(go-10, to-9)
+xcomp(shortlist-5, go-10)
+prep(go-10, for-11)
+det(selection-14, the-12)
+amod(selection-14, final-13)
+pobj(for-11, selection-14)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (VBZ 's)
+        (VP (VBG going)
+          (S
+            (VP (TO to)
+              (VP (VB be)
+                (NP
+                  (ADJP (JJ challenging)
+                    (CC and)
+                    (JJ great))
+                  (NN fun))))))))
+    (CC and)
+    (S
+      (NP (NNS contestants))
+      (VP (MD will)
+        (VP (VB learn)
+          (NP
+            (NP (DT a) (NN lot))
+            (PP (IN along)
+              (NP (DT the) (NN way)))))))
+    (. !)))
+
+
+nsubj(going-3, It-1)
+aux(going-3, 's-2)
+root(ROOT-0, going-3)
+aux(fun-9, to-4)
+cop(fun-9, be-5)
+amod(fun-9, challenging-6)
+cc(challenging-6, and-7)
+conj(challenging-6, great-8)
+xcomp(going-3, fun-9)
+cc(going-3, and-10)
+nsubj(learn-13, contestants-11)
+aux(learn-13, will-12)
+conj(going-3, learn-13)
+det(lot-15, a-14)
+dobj(learn-13, lot-15)
+prep(lot-15, along-16)
+det(way-18, the-17)
+pobj(along-16, way-18)
+
+
+(ROOT
+  (S
+    (NP (RB Here))
+    (VP (VBZ 's)
+      (NP
+        (NP (DT a) (JJ little) (NN hint))
+        (PP (IN for)
+          (NP (PRP you)))))
+    (. .)))
+
+
+nsubj(hint-5, Here-1)
+cop(hint-5, 's-2)
+det(hint-5, a-3)
+amod(hint-5, little-4)
+root(ROOT-0, hint-5)
+prep(hint-5, for-6)
+pobj(for-6, you-7)
+
+
+(ROOT
+  (S
+    (NP (NNS Photos))
+    (VP (VBP are)
+      (VP (VBG going)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (ADJP (RB very) (JJ important)))))))
+    (, ,)))
+
+
+nsubj(going-3, Photos-1)
+aux(going-3, are-2)
+root(ROOT-0, going-3)
+aux(important-7, to-4)
+cop(important-7, be-5)
+advmod(important-7, very-6)
+xcomp(going-3, important-7)
+
+
+(ROOT
+  (S (RB so)
+    (VP (VB submit)
+      (NP (JJ nice) (NNS photos)))
+    (. .)))
+
+
+advmod(submit-2, so-1)
+root(ROOT-0, submit-2)
+amod(photos-4, nice-3)
+dobj(submit-2, photos-4)
+
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (DT the) (JJ first) (NN round)))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+det(round-4, the-2)
+amod(round-4, first-3)
+pobj(In-1, round-4)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (VP (MD will)
+      (VP (VB be)
+        (VP (VBG looking)
+          (PP (IN for)
+            (NP
+              (NP (PRP$ your) (NN style))
+              (PP (IN of)
+                (NP (NN writing))))))))
+    (. .)))
+
+
+nsubj(looking-4, we-1)
+aux(looking-4, will-2)
+aux(looking-4, be-3)
+root(ROOT-0, looking-4)
+prep(looking-4, for-5)
+poss(style-7, your-6)
+pobj(for-5, style-7)
+prep(style-7, of-8)
+pobj(of-8, writing-9)
+
+
+(ROOT
+  (S (RB So)
+    (VP (VB do) (RB n't)
+      (VP (VB submit)
+        (NP (DT a) (JJ long) (NN arduous) (NN article))))
+    (. .)))
+
+
+advmod(submit-4, So-1)
+aux(submit-4, do-2)
+neg(submit-4, n't-3)
+root(ROOT-0, submit-4)
+det(article-8, a-5)
+amod(article-8, long-6)
+nn(article-8, arduous-7)
+dobj(submit-4, article-8)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Submit) (CD one))
+      (SBAR
+        (WHNP (WDT that))
+        (S
+          (VP
+            (VP (VBZ is)
+              (ADJP (JJ entertaining)))
+            (CC and)
+            (VP (VBZ is)
+              (NP
+                (NP (NN something))
+                (SBAR
+                  (WHNP (WDT that))
+                  (S
+                    (VP (MD would)
+                      (VP (VB make)
+                        (NP (PRP us))))))))))))
+    (VP (VBP want)
+      (S
+        (VP (TO to)
+          (VP (VB go)
+            (VP (VB visit)
+              (NP (DT that) (JJ particular) (NN stall))
+              (PP (IN at)
+                (NP (RB once))))))))
+    (. !)))
+
+
+nsubj(want-13, Submit-1)
+num(Submit-1, one-2)
+nsubj(entertaining-5, that-3)
+cop(entertaining-5, is-4)
+rcmod(Submit-1, entertaining-5)
+cc(entertaining-5, and-6)
+cop(something-8, is-7)
+conj(entertaining-5, something-8)
+nsubj(make-11, that-9)
+aux(make-11, would-10)
+rcmod(something-8, make-11)
+dobj(make-11, us-12)
+root(ROOT-0, want-13)
+aux(go-15, to-14)
+xcomp(want-13, go-15)
+xcomp(go-15, visit-16)
+det(stall-19, that-17)
+amod(stall-19, particular-18)
+dobj(visit-16, stall-19)
+prep(visit-16, at-20)
+pobj(at-20, once-21)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB find)
+        (PRT (RP out))
+        (NP (JJR more) (NN info))
+        (PP (IN on)
+          (S
+            (VP (VBG www.ilovehawkerfood.com.sg))))))
+    (. .)))
+
+
+nsubj(find-3, You-1)
+aux(find-3, can-2)
+root(ROOT-0, find-3)
+prt(find-3, out-4)
+amod(info-6, more-5)
+dobj(find-3, info-6)
+prep(find-3, on-7)
+pcomp(on-7, www.ilovehawkerfood.com.sg-8)
+
+
+(ROOT
+  (S
+    (INTJ (JJ Good) (NN luck))
+    (VP (VB and)
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (MD will)
+            (VP (VB see)
+              (NP (PRP you))
+              (PP (IN at)
+                (NP (DT the) (NN workshop)))
+              (NP (JJ next) (NN month)))))))
+    (. !)))
+
+
+discourse(and-3, Good-1)
+dep(Good-1, luck-2)
+root(ROOT-0, and-3)
+nsubj(see-6, I-4)
+aux(see-6, will-5)
+ccomp(and-3, see-6)
+dobj(see-6, you-7)
+prep(see-6, at-8)
+det(workshop-10, the-9)
+pobj(at-8, workshop-10)
+amod(month-12, next-11)
+tmod(see-6, month-12)
+
+

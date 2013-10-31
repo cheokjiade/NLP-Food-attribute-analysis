@@ -1,0 +1,226 @@
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP are) (RB not)
+      (VP (VBN done)
+        (PP (IN with)
+          (NP (NNP Penang)))
+        (ADVP (RB just) (RB yet))))
+    (. .)))
+
+
+nsubjpass(done-4, We-1)
+auxpass(done-4, are-2)
+neg(done-4, not-3)
+root(ROOT-0, done-4)
+prep(done-4, with-5)
+pobj(with-5, Penang-6)
+advmod(yet-8, just-7)
+advmod(done-4, yet-8)
+
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are)
+      (ADVP (RB still))
+      (NP (PDT quite) (DT a) (JJ few) (NNS stalls))
+      (S
+        (VP (TO to)
+          (VP (VB recommend)
+            (PP (IN for)
+              (NP
+                (NP (DT those))
+                (SBAR
+                  (WHNP (WP who))
+                  (S
+                    (VP (VBP are)
+                      (VP (VBG planning)
+                        (S
+                          (VP (TO to)
+                            (VP (VB head)
+                              (PRT (RP up))
+                              (PP (TO to)
+                                (NP (NNP Penang))))))))))))))))
+    (. .)))
+
+
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+advmod(are-2, still-3)
+predet(stalls-7, quite-4)
+det(stalls-7, a-5)
+amod(stalls-7, few-6)
+nsubj(are-2, stalls-7)
+aux(recommend-9, to-8)
+xcomp(are-2, recommend-9)
+prep(recommend-9, for-10)
+pobj(for-10, those-11)
+nsubj(planning-14, who-12)
+aux(planning-14, are-13)
+rcmod(those-11, planning-14)
+aux(head-16, to-15)
+xcomp(planning-14, head-16)
+prt(head-16, up-17)
+prep(head-16, to-18)
+pobj(to-18, Penang-19)
+
+
+(ROOT
+  (S
+    (NP (DT The) (JJ next) (CD two) (NNS posts))
+    (VP (MD will)
+      (VP (VB cover)
+        (NP
+          (NP (DT the) (NNS foods))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (VBP are)
+                (ADJP (RB very) (JJ similar)
+                  (PP (IN between)
+                    (NP (NNP Singapore)
+                      (CC and)
+                      (NNP Penang))))))))))
+    (. .)))
+
+
+det(posts-4, The-1)
+amod(posts-4, next-2)
+num(posts-4, two-3)
+nsubj(cover-6, posts-4)
+aux(cover-6, will-5)
+root(ROOT-0, cover-6)
+det(foods-8, the-7)
+dobj(cover-6, foods-8)
+nsubj(similar-12, that-9)
+cop(similar-12, are-10)
+advmod(similar-12, very-11)
+rcmod(foods-8, similar-12)
+prep(similar-12, between-13)
+pobj(between-13, Singapore-14)
+cc(Singapore-14, and-15)
+conj(Singapore-14, Penang-16)
+
+
+(ROOT
+  (FRAG (RB So)
+    (PP (IN unlike)
+      (NP
+        (NP (NNP Penang) (NNP Laksa))
+        (CC and)
+        (NP
+          (NP (NNP Penang) (NNP Char) (NNP Kway) (NNP Teow))
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (VBP are)
+                (ADJP (RB quite) (JJ unique)
+                  (PP (TO to)
+                    (NP (NNP Penang))))))))
+        (, ,)))))
+
+
+root(ROOT-0, So-1)
+prep(So-1, unlike-2)
+nn(Laksa-4, Penang-3)
+pobj(unlike-2, Laksa-4)
+cc(Laksa-4, and-5)
+nn(Teow-9, Penang-6)
+nn(Teow-9, Char-7)
+nn(Teow-9, Kway-8)
+conj(Laksa-4, Teow-9)
+nsubj(unique-13, which-10)
+cop(unique-13, are-11)
+advmod(unique-13, quite-12)
+rcmod(Teow-9, unique-13)
+prep(unique-13, to-14)
+pobj(to-14, Penang-15)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (VP (MD will)
+      (VP (VB be)
+        (VP (VBG covering)
+          (NP (NN stuff))
+          (PP (IN like)
+            (NP
+              (NP (NNP Char) (NNP Siew) (NNP Rice)
+                (CC and)
+                (NNP Chicken) (NNP Rice))
+              (PP (IN in)
+                (NP (DT the) (JJ next) (NN post))))))))
+    (. .)))
+
+
+nsubj(covering-4, we-1)
+aux(covering-4, will-2)
+aux(covering-4, be-3)
+root(ROOT-0, covering-4)
+dobj(covering-4, stuff-5)
+prep(covering-4, like-6)
+nn(Rice-9, Char-7)
+nn(Rice-9, Siew-8)
+pobj(like-6, Rice-9)
+cc(Rice-9, and-10)
+nn(Rice-12, Chicken-11)
+conj(Rice-9, Rice-12)
+prep(Rice-9, in-13)
+det(post-16, the-14)
+amod(post-16, next-15)
+pobj(in-13, post-16)
+
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (DT this) (NN post)))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+det(post-3, this-2)
+pobj(In-1, post-3)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (VBZ is)
+      (NP
+        (NP (NNP Penang) (NNP vs) (NNP Singapore))
+        (PP (IN in)
+          (NP (NNP Prawn) (NNP Mee)))))
+    (, ,)))
+
+
+nsubj(Singapore-5, it-1)
+cop(Singapore-5, is-2)
+nn(Singapore-5, Penang-3)
+nn(Singapore-5, vs-4)
+root(ROOT-0, Singapore-5)
+prep(Singapore-5, in-6)
+nn(Mee-8, Prawn-7)
+pobj(in-6, Mee-8)
+
+
+(ROOT
+  (NP
+    (NP (NN Beef))
+    (NP
+      (NP (NNP Kway) (NNP Teow))
+      (CC and)
+      (NP (NNP Oyster) (NNP Omelette)))
+    (. .)))
+
+
+root(ROOT-0, Beef-1)
+nn(Teow-3, Kway-2)
+dep(Beef-1, Teow-3)
+cc(Teow-3, and-4)
+nn(Omelette-6, Oyster-5)
+conj(Teow-3, Omelette-6)
+
+

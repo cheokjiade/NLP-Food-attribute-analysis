@@ -1,0 +1,545 @@
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP
+        (NP (PRP$ my) (JJ last) (NN post))
+        (PP (IN on)
+          (NP (NNP Fish) (NNP Head) (NNP Steamboat)))))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+poss(post-4, my-2)
+amod(post-4, last-3)
+pobj(In-1, post-4)
+prep(post-4, on-5)
+nn(Steamboat-8, Fish-6)
+nn(Steamboat-8, Head-7)
+pobj(on-5, Steamboat-8)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD alluded)
+      (PP (TO to)
+        (NP (DT the) (NN fact)))
+      (SBAR (IN that)
+        (S
+          (NP (NNP Nam) (NNP Wah) (NNP Chong))
+          (VP (VBZ is)
+            (NP (RB probably) (DT the) (JJS earliest) (NN Fishhead) (NN Steamboat)
+              (SBAR
+                (WHNP (WDT that))
+                (S
+                  (VP (VBZ is)
+                    (ADVP (RB still))
+                    (PP (IN in)
+                      (NP (NN operation)))))))))))
+    (. .)))
+
+
+nsubj(alluded-2, I-1)
+root(ROOT-0, alluded-2)
+prep(alluded-2, to-3)
+det(fact-5, the-4)
+pobj(to-3, fact-5)
+mark(Steamboat-15, that-6)
+nn(Chong-9, Nam-7)
+nn(Chong-9, Wah-8)
+nsubj(Steamboat-15, Chong-9)
+cop(Steamboat-15, is-10)
+advmod(Steamboat-15, probably-11)
+det(Steamboat-15, the-12)
+amod(Steamboat-15, earliest-13)
+nn(Steamboat-15, Fishhead-14)
+ccomp(alluded-2, Steamboat-15)
+nsubj(is-17, that-16)
+ccomp(Steamboat-15, is-17)
+advmod(is-17, still-18)
+prep(is-17, in-19)
+pobj(in-19, operation-20)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NN boss))
+    (ADVP (RB here))
+    (VP (VBZ tells)
+      (NP (PRP me))
+      (SBAR (IN that)
+        (S
+          (NP (PRP it))
+          (VP (VBD was)
+            (NP
+              (NP (PRP$ his) (JJ paternal) (NN grandfather))
+              (SBAR
+                (WHNP (WP who))
+                (S
+                  (VP (VBD started)
+                    (S
+                      (VP (VBG selling)
+                        (NP (NNP Fish) (NNP Head) (NNP Steamboat))
+                        (ADVP (RB way) (RB back))
+                        (PP (IN in)
+                          (NP
+                            (NP (CD 1927))
+                            (PP (IN in)
+                              (NP (NN merchant) (NN road)))))))))))))))
+    (. .)))
+
+
+det(boss-2, The-1)
+nsubj(tells-4, boss-2)
+advmod(tells-4, here-3)
+root(ROOT-0, tells-4)
+dobj(tells-4, me-5)
+mark(grandfather-11, that-6)
+nsubj(grandfather-11, it-7)
+cop(grandfather-11, was-8)
+poss(grandfather-11, his-9)
+amod(grandfather-11, paternal-10)
+ccomp(tells-4, grandfather-11)
+nsubj(started-13, who-12)
+rcmod(grandfather-11, started-13)
+xcomp(started-13, selling-14)
+nn(Steamboat-17, Fish-15)
+nn(Steamboat-17, Head-16)
+dobj(selling-14, Steamboat-17)
+advmod(back-19, way-18)
+advmod(selling-14, back-19)
+prep(selling-14, in-20)
+pobj(in-20, 1927-21)
+prep(1927-21, in-22)
+nn(road-24, merchant-23)
+pobj(in-22, road-24)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD asked)
+      (NP (PRP him))
+      (SBAR (IN if)
+        (S
+          (NP (PRP it))
+          (VP (VBD was)
+            (NP
+              (NP (PRP$ his) (NN grandfather))
+              (SBAR
+                (WHNP (WP who))
+                (S
+                  (VP (VBD invented)
+                    (NP (DT this) (JJ particular) (NN dish))
+                    (SBAR (IN as)
+                      (S
+                        (NP (DT some))
+                        (VP (VBP have)
+                          (VP (VBN postulated)))))))))))))
+    (. .)))
+
+
+nsubj(asked-2, I-1)
+root(ROOT-0, asked-2)
+dobj(asked-2, him-3)
+mark(grandfather-8, if-4)
+nsubj(grandfather-8, it-5)
+cop(grandfather-8, was-6)
+poss(grandfather-8, his-7)
+advcl(asked-2, grandfather-8)
+nsubj(invented-10, who-9)
+rcmod(grandfather-8, invented-10)
+det(dish-13, this-11)
+amod(dish-13, particular-12)
+dobj(invented-10, dish-13)
+mark(postulated-17, as-14)
+nsubj(postulated-17, some-15)
+aux(postulated-17, have-16)
+advcl(invented-10, postulated-17)
+
+
+(ROOT
+  (S (CC But)
+    (NP (PRP he))
+    (VP (VBD said)
+      (SBAR (IN that)
+        (S
+          (NP (PRP he))
+          (VP (VBZ suspects)
+            (SBAR (IN that)
+              (S
+                (NP (DT the) (NN dish))
+                (VP (VBD was)
+                  (NP (NN something))
+                  (SBAR (IN that)
+                    (S
+                      (NP (PRP$ his) (NN grandfather))
+                      (VP (VBD brought)
+                        (PRT (RP over))
+                        (PP (IN from)
+                          (NP (NNP Swatow)))))))))))))
+    (. .)))
+
+
+cc(said-3, But-1)
+nsubj(said-3, he-2)
+root(ROOT-0, said-3)
+mark(suspects-6, that-4)
+nsubj(suspects-6, he-5)
+ccomp(said-3, suspects-6)
+mark(something-11, that-7)
+det(dish-9, the-8)
+nsubj(something-11, dish-9)
+cop(something-11, was-10)
+ccomp(suspects-6, something-11)
+mark(brought-15, that-12)
+poss(grandfather-14, his-13)
+nsubj(brought-15, grandfather-14)
+ccomp(something-11, brought-15)
+prt(brought-15, over-16)
+prep(brought-15, from-17)
+pobj(from-17, Swatow-18)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB However))
+    (ADVP (RB ,))))
+
+
+root(ROOT-0, However-1)
+
+
+(ROOT
+  (S
+    (NP (PRP he))
+    (VP (VBD did)
+      (S
+        (VP (VB mention)
+          (SBAR (IN that)
+            (S
+              (NP
+                (NP (NN fish) (NN soup))
+                (SBAR
+                  (WHNP (WDT that))
+                  (S
+                    (VP (VBZ is)
+                      (VP (VBN served)
+                        (PP (IN in)
+                          (NP (DT a) (NN steamboat))))))))
+              (VP (VBD was) (RB not)
+                (ADJP (RB widely) (JJ available))))))
+        (NP
+          (NP (DT the) (JJ last) (NN time))
+          (SBAR
+            (S
+              (NP (PRP he))
+              (VP (VBD visited)
+                (NP (NNP Swatow))))))))
+    (, ,)))
+
+
+nsubj(did-2, he-1)
+root(ROOT-0, did-2)
+ccomp(did-2, mention-3)
+mark(available-16, that-4)
+nn(soup-6, fish-5)
+nsubj(available-16, soup-6)
+nsubjpass(served-9, that-7)
+auxpass(served-9, is-8)
+rcmod(soup-6, served-9)
+prep(served-9, in-10)
+det(steamboat-12, a-11)
+pobj(in-10, steamboat-12)
+cop(available-16, was-13)
+neg(available-16, not-14)
+advmod(available-16, widely-15)
+ccomp(mention-3, available-16)
+det(time-19, the-17)
+amod(time-19, last-18)
+dep(mention-3, time-19)
+nsubj(visited-21, he-20)
+rcmod(time-19, visited-21)
+dobj(visited-21, Swatow-22)
+
+
+(ROOT
+  (FRAG
+    (SBAR (IN although)
+      (S
+        (NP (NN fish) (NN soup))
+        (ADVP (RB certainly))
+        (VP (VBZ is))))
+    (. .)))
+
+
+mark(is-5, although-1)
+nn(soup-3, fish-2)
+nsubj(is-5, soup-3)
+advmod(is-5, certainly-4)
+root(ROOT-0, is-5)
+
+
+(ROOT
+  (S (IN So)
+    (NP
+      (NP (DT the) (NN question))
+      (PP (IN of)
+        (SBAR (IN whether)
+          (S
+            (NP (NNP Fishhead) (NNP Steamboat))
+            (VP (VBZ is)
+              (NP (DT a) (NNP uniquely) (NNP Singaporean) (NN dish)))))))
+    (VP (VBZ is)
+      (ADVP (RB still))
+      (ADJP (JJ debatable)))
+    (. .)))
+
+
+dep(debatable-15, So-1)
+det(question-3, the-2)
+nsubj(debatable-15, question-3)
+prep(question-3, of-4)
+mark(dish-12, whether-5)
+nn(Steamboat-7, Fishhead-6)
+nsubj(dish-12, Steamboat-7)
+cop(dish-12, is-8)
+det(dish-12, a-9)
+nn(dish-12, uniquely-10)
+nn(dish-12, Singaporean-11)
+pcomp(of-4, dish-12)
+cop(debatable-15, is-13)
+advmod(debatable-15, still-14)
+root(ROOT-0, debatable-15)
+
+
+(ROOT
+  (S
+    (NP (NNS Nowadays))
+    (ADVP
+      (NP (DT the) (NN fish))
+      (RB commonly))
+    (VP (VBD used)
+      (SBAR (IN for)
+        (S
+          (NP (NNP Fishhead) (NNP Steamboat))
+          (VP (VBZ is)
+            (ADVP (RB usually))
+            (ADJP (JJ pomfret)
+              (CC or)
+              (JJ garoupa))))))
+    (. .)))
+
+
+nsubj(used-5, Nowadays-1)
+det(fish-3, the-2)
+npadvmod(commonly-4, fish-3)
+advmod(used-5, commonly-4)
+root(ROOT-0, used-5)
+mark(pomfret-11, for-6)
+nn(Steamboat-8, Fishhead-7)
+nsubj(pomfret-11, Steamboat-8)
+cop(pomfret-11, is-9)
+advmod(pomfret-11, usually-10)
+advcl(used-5, pomfret-11)
+cc(pomfret-11, or-12)
+conj(pomfret-11, garoupa-13)
+
+
+(ROOT
+  (FRAG (CC But)
+    (PP (IN in)
+      (NP (DT the)
+        (ADJP (JJ old))
+        (NNS days) (, ,)))))
+
+
+root(ROOT-0, But-1)
+prep(But-1, in-2)
+det(days-5, the-3)
+amod(days-5, old-4)
+pobj(in-2, days-5)
+
+
+(ROOT
+  (S
+    (NP (DT the) (JJ favorite) (NN fish))
+    (VP (VBD was)
+      (NP
+        (NP
+          (NP (DT the) (NN Song) (NN Fish))
+          (PRN (-LRB- -LRB-)
+            (NP (NNP Asian) (NNP Carp))
+            (-RRB- -RRB-)))
+        (ADVP (CC and)
+          (RB specifically))))
+    (, ,)))
+
+
+det(fish-3, the-1)
+amod(fish-3, favorite-2)
+nsubj(Fish-7, fish-3)
+cop(Fish-7, was-4)
+det(Fish-7, the-5)
+nn(Fish-7, Song-6)
+root(ROOT-0, Fish-7)
+nn(Carp-10, Asian-9)
+appos(Fish-7, Carp-10)
+cc(specifically-13, and-12)
+advmod(Fish-7, specifically-13)
+
+
+(ROOT
+  (NP
+    (NP (DT the) (NN head))
+    (PP (IN of)
+      (NP (DT the) (NN Song) (NN Fish)))
+    (. .)))
+
+
+det(head-2, the-1)
+root(ROOT-0, head-2)
+prep(head-2, of-3)
+det(Fish-6, the-4)
+nn(Fish-6, Song-5)
+pobj(of-3, Fish-6)
+
+
+(ROOT
+  (S
+    (ADVP (RB Hence))
+    (NP
+      (NP (DT the) (NN name))
+      (SBAR
+        (WHNP (WP What))
+        (S
+          (NP (PRP I))
+          (VP (MD can)
+            (VP (VB recommend))))))
+    (VP (VBZ is)
+      (NP (DT the) (NNP Jing) (NNP Du) (NNP Pork) (NNPS Ribs)))
+    (. .)))
+
+
+advmod(Ribs-13, Hence-1)
+det(name-3, the-2)
+nsubj(Ribs-13, name-3)
+dobj(recommend-7, What-4)
+nsubj(recommend-7, I-5)
+aux(recommend-7, can-6)
+rcmod(name-3, recommend-7)
+cop(Ribs-13, is-8)
+det(Ribs-13, the-9)
+nn(Ribs-13, Jing-10)
+nn(Ribs-13, Du-11)
+nn(Ribs-13, Pork-12)
+root(ROOT-0, Ribs-13)
+
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT A) (NN lot))
+        (PP (IN of)
+          (NP (NNS places))))
+      (VP (VBP tend)
+        (S
+          (VP (TO to)
+            (VP
+              (ADVP (RB over))
+              (VB tenderize)
+              (NP (PRP$ their) (NN pork)))))))
+    (CC but)
+    (S
+      (ADVP (RB over))
+      (ADVP (RB here))
+      (NP (PRP it))
+      (VP (VBZ is)
+        (ADJP (RB just) (JJ nice))))
+    (CC and)
+    (S
+      (NP (DT the) (NN sauce))
+      (VP (VBD reminded)
+        (NP (PRP me))
+        (PP (IN of)
+          (NP (DT the) (NNP Jing) (NNP Du) (NNP Pork) (NNP Ribs)))
+        (SBAR (IN that)
+          (S
+            (NP (PRP I))
+            (VP (VBD ate)
+              (SBAR
+                (WHADVP (WRB when))
+                (S
+                  (NP (PRP I))
+                  (VP (VBD was)
+                    (NP
+                      (NP (DT a) (NN kid))
+                      (PP (IN at)
+                        (NP (DT the)
+                          (ADJP (RB now) (JJ defunct))
+                          (NNP Tai) (NNP Seng) (NNP Restaurant)))
+                      (PP (IN along)
+                        (NP (NNP Upper) (NNP East) (NNP Coast) (NNP Road))))))))))))
+    (. .)))
+
+
+det(lot-2, A-1)
+nsubj(tend-5, lot-2)
+prep(lot-2, of-3)
+pobj(of-3, places-4)
+root(ROOT-0, tend-5)
+aux(tenderize-8, to-6)
+advmod(tenderize-8, over-7)
+xcomp(tend-5, tenderize-8)
+poss(pork-10, their-9)
+dobj(tenderize-8, pork-10)
+cc(tend-5, but-11)
+advmod(nice-17, over-12)
+advmod(nice-17, here-13)
+nsubj(nice-17, it-14)
+cop(nice-17, is-15)
+advmod(nice-17, just-16)
+conj(tend-5, nice-17)
+cc(tend-5, and-18)
+det(sauce-20, the-19)
+nsubj(reminded-21, sauce-20)
+conj(tend-5, reminded-21)
+dobj(reminded-21, me-22)
+prep(reminded-21, of-23)
+det(Ribs-28, the-24)
+nn(Ribs-28, Jing-25)
+nn(Ribs-28, Du-26)
+nn(Ribs-28, Pork-27)
+pobj(of-23, Ribs-28)
+mark(ate-31, that-29)
+nsubj(ate-31, I-30)
+ccomp(reminded-21, ate-31)
+advmod(kid-36, when-32)
+nsubj(kid-36, I-33)
+cop(kid-36, was-34)
+det(kid-36, a-35)
+advcl(ate-31, kid-36)
+prep(kid-36, at-37)
+det(Restaurant-43, the-38)
+advmod(defunct-40, now-39)
+amod(Restaurant-43, defunct-40)
+nn(Restaurant-43, Tai-41)
+nn(Restaurant-43, Seng-42)
+pobj(at-37, Restaurant-43)
+prep(kid-36, along-44)
+nn(Road-48, Upper-45)
+nn(Road-48, East-46)
+nn(Road-48, Coast-47)
+pobj(along-44, Road-48)
+
+
+(ROOT
+  (NP (NNP View) (NNP Larger) (NNP Map)))
+
+
+nn(Map-3, View-1)
+nn(Map-3, Larger-2)
+root(ROOT-0, Map-3)
+
+

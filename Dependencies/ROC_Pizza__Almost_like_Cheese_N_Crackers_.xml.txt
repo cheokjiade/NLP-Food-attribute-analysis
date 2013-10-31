@@ -1,0 +1,153 @@
+(ROOT
+  (S
+    (VP (VBG Following)
+      (PRT (RP up))
+      (PP (IN on)
+        (NP
+          (NP (PRP$ my) (NNS Hawkerpreneurs))
+          (PP (IN at)
+            (NP (NNP Golden) (NNP Mile) (NNP Food) (NNP Centre) (NN story)))))
+      (, ,))))
+
+
+root(ROOT-0, Following-1)
+prt(Following-1, up-2)
+prep(Following-1, on-3)
+poss(Hawkerpreneurs-5, my-4)
+pobj(on-3, Hawkerpreneurs-5)
+prep(Hawkerpreneurs-5, at-6)
+nn(story-11, Golden-7)
+nn(story-11, Mile-8)
+nn(story-11, Food-9)
+nn(story-11, Centre-10)
+pobj(at-6, story-11)
+
+
+(ROOT
+  (S
+    (NP (RB here))
+    (VP (VBZ is)
+      (NP
+        (NP (DT another) (JJ young) (NN Hawkerpreneur))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBZ is)
+              (VP (VBG trying)
+                (PP (TO to)
+                  (NP (NN burst)))
+                (PP (IN into)
+                  (NP (DT the) (NN food) (NN scene)))
+                (PP (IN by)
+                  (S
+                    (VP (VBG offering)
+                      (NP (JJ Cafe) (NN style) (NN food))
+                      (PP (IN at)
+                        (NP (NN hawker) (NNS prices))))))))))))
+    (. .)))
+
+
+nsubj(Hawkerpreneur-5, here-1)
+cop(Hawkerpreneur-5, is-2)
+det(Hawkerpreneur-5, another-3)
+amod(Hawkerpreneur-5, young-4)
+root(ROOT-0, Hawkerpreneur-5)
+nsubj(trying-8, that-6)
+aux(trying-8, is-7)
+rcmod(Hawkerpreneur-5, trying-8)
+prep(trying-8, to-9)
+pobj(to-9, burst-10)
+prep(trying-8, into-11)
+det(scene-14, the-12)
+nn(scene-14, food-13)
+pobj(into-11, scene-14)
+prep(trying-8, by-15)
+pcomp(by-15, offering-16)
+amod(food-19, Cafe-17)
+nn(food-19, style-18)
+dobj(offering-16, food-19)
+prep(offering-16, at-20)
+nn(prices-22, hawker-21)
+pobj(at-20, prices-22)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP
+        (VP (VBP are)
+          (VP (VBG hungering)
+            (PP (IN for)
+              (NP (PRP$ your) (NN pizza) (NN fix)))))
+        (CC but)
+        (VP (VBP do) (RB n't)
+          (VP (VB want)
+            (S
+              (VP (TO to)
+                (VP (VB spend)
+                  (NP
+                    (QP (JJR more) (IN than) (CD $))))))))))))
+
+
+mark(hungering-4, If-1)
+nsubj(hungering-4, you-2)
+aux(hungering-4, are-3)
+root(ROOT-0, hungering-4)
+prep(hungering-4, for-5)
+poss(fix-8, your-6)
+nn(fix-8, pizza-7)
+pobj(for-5, fix-8)
+cc(hungering-4, but-9)
+aux(want-12, do-10)
+neg(want-12, n't-11)
+conj(hungering-4, want-12)
+aux(spend-14, to-13)
+xcomp(want-12, spend-14)
+mwe(than-16, more-15)
+quantmod($-17, than-16)
+dobj(spend-14, $-17)
+
+
+(ROOT
+  (FRAG
+    (PP
+      (NP (CD 8))
+      (PP (IN on)
+        (NP (PRP$ your) (NN meal))))
+    (, ,)))
+
+
+dep(on-2, 8-1)
+root(ROOT-0, on-2)
+poss(meal-4, your-3)
+pobj(on-2, meal-4)
+
+
+(ROOT
+  (S
+    (NP (DT this))
+    (VP (MD might)
+      (VP (VB be)
+        (ADVP (RB just))
+        (SBAR
+          (WHNP (WP what))
+          (S
+            (NP (PRP you))
+            (VP (VBP are)
+              (VP (VBG looking)
+                (PP (IN for))))))))
+    (. .)))
+
+
+nsubj(be-3, this-1)
+aux(be-3, might-2)
+root(ROOT-0, be-3)
+advmod(be-3, just-4)
+pobj(for-9, what-5)
+nsubj(looking-8, you-6)
+aux(looking-8, are-7)
+ccomp(be-3, looking-8)
+prep(looking-8, for-9)
+
+

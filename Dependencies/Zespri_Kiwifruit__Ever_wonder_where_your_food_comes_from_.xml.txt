@@ -1,0 +1,254 @@
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN mention))
+      (PP (IN of)
+        (NP (NNP New) (NNP Zealand))))
+    (VP (VBZ conjures)
+      (PRT (RP up))
+      (NP
+        (NP (NNS thoughts))
+        (PP (IN of)
+          (NP (JJ crazy) (NN adventure)))))
+    (, ,)))
+
+
+det(mention-2, The-1)
+nsubj(conjures-6, mention-2)
+prep(mention-2, of-3)
+nn(Zealand-5, New-4)
+pobj(of-3, Zealand-5)
+root(ROOT-0, conjures-6)
+prt(conjures-6, up-7)
+dobj(conjures-6, thoughts-8)
+prep(thoughts-8, of-9)
+amod(adventure-11, crazy-10)
+pobj(of-9, adventure-11)
+
+
+(ROOT
+  (S
+    (NP (JJ untouched) (NN mountain))
+    (VP (VBZ peaks))
+    (, ,)))
+
+
+amod(mountain-2, untouched-1)
+nsubj(peaks-3, mountain-2)
+root(ROOT-0, peaks-3)
+
+
+(ROOT
+  (S
+    (VP
+      (VP (VB bungee)
+        (S
+          (VP (VBG jumping))))
+      (CC and)
+      (VP (VB succulent)
+        (NP (NN lamp) (NNS chops))))
+    (. .)))
+
+
+root(ROOT-0, bungee-1)
+xcomp(bungee-1, jumping-2)
+cc(bungee-1, and-3)
+conj(bungee-1, succulent-4)
+nn(chops-6, lamp-5)
+dobj(succulent-4, chops-6)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (ADVP (RB always))
+      (VP (VBD wondered)
+        (SBAR
+          (WHADVP (WRB how))
+          (S
+            (NP
+              (NP (DT a) (NN country))
+              (PP (IN with)
+                (NP
+                  (NP (DT the) (JJ same) (NN population))
+                  (PP (IN of)
+                    (NP (NNP Singapore))))))
+            (VP (MD could)
+              (VP (VB achieve)
+                (ADVP (RB so) (RB much))))))))
+    (. .)))
+
+
+nsubj(wondered-4, I-1)
+aux(wondered-4, have-2)
+advmod(wondered-4, always-3)
+root(ROOT-0, wondered-4)
+advmod(achieve-15, how-5)
+det(country-7, a-6)
+nsubj(achieve-15, country-7)
+prep(country-7, with-8)
+det(population-11, the-9)
+amod(population-11, same-10)
+pobj(with-8, population-11)
+prep(population-11, of-12)
+pobj(of-12, Singapore-13)
+aux(achieve-15, could-14)
+ccomp(wondered-4, achieve-15)
+advmod(much-17, so-16)
+advmod(achieve-15, much-17)
+
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP have)
+      (NP (DT the) (NNP All) (NNPS Blacks)))
+    (, ,)))
+
+
+nsubj(have-2, They-1)
+root(ROOT-0, have-2)
+det(Blacks-5, the-3)
+nn(Blacks-5, All-4)
+dobj(have-2, Blacks-5)
+
+
+(ROOT
+  (VP (VBN managed)
+    (PP (TO to)
+      (NP
+        (NP (NN produce))
+        (PP (FW a)
+          (NP (NN movie)))
+        (PP (IN like))
+        (`` ``)))))
+
+
+root(ROOT-0, managed-1)
+prep(managed-1, to-2)
+pobj(to-2, produce-3)
+prep(produce-3, a-4)
+pobj(a-4, movie-5)
+prep(produce-3, like-6)
+
+
+(ROOT
+  (NP
+    (NP (DT The) (NN Lord))
+    (PP (IN of)
+      (NP
+        (NP (DT the) (NNP Rings) ('' ''))
+        (, ,)))))
+
+
+det(Lord-2, The-1)
+root(ROOT-0, Lord-2)
+prep(Lord-2, of-3)
+det(Rings-5, the-4)
+pobj(of-3, Rings-5)
+
+
+(ROOT
+  (NP
+    (NP
+      (NP (CD three) (JJ nobel) (NNS laureates))
+      (CC and)
+      (NP (NN control) (CD one)))
+    (NP
+      (NP (JJ third))
+      (PP (IN of)
+        (NP
+          (NP (DT the) (NN world) (POS 's))
+          (NN dairy) (NN trade))))
+    (. .)))
+
+
+num(laureates-3, three-1)
+amod(laureates-3, nobel-2)
+root(ROOT-0, laureates-3)
+cc(laureates-3, and-4)
+conj(laureates-3, control-5)
+num(control-5, one-6)
+dep(laureates-3, third-7)
+prep(third-7, of-8)
+det(world-10, the-9)
+poss(trade-13, world-10)
+possessive(world-10, 's-11)
+nn(trade-13, dairy-12)
+pobj(of-8, trade-13)
+
+
+(ROOT
+  (S
+    (PP
+      (ADVP (RB Then))
+      (IN of)
+      (NP (NN course)))
+    (NP (EX there))
+    (VP (VBZ is)
+      (NP
+        (NP (NNP Kiwifruit))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBD was)
+              (VP (VBN developed)
+                (PP (IN in)
+                  (NP
+                    (NP (NNP New) (NNP Zealand))
+                    (SBAR
+                      (WHNP (WP who))
+                      (S
+                        (ADVP (RB now))
+                        (VP (VBZ produces))))))))))))))
+
+
+advmod(of-2, Then-1)
+prep(is-5, of-2)
+pobj(of-2, course-3)
+expl(is-5, there-4)
+root(ROOT-0, is-5)
+nsubj(is-5, Kiwifruit-6)
+nsubjpass(developed-9, which-7)
+auxpass(developed-9, was-8)
+rcmod(Kiwifruit-6, developed-9)
+prep(developed-9, in-10)
+nn(Zealand-12, New-11)
+pobj(in-10, Zealand-12)
+nsubj(produces-15, who-13)
+advmod(produces-15, now-14)
+rcmod(Zealand-12, produces-15)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 80) (NN %))))
+
+
+num(%-2, 80-1)
+root(ROOT-0, %-2)
+
+
+(ROOT
+  (S
+    (VP
+      (PP (IN of)
+        (NP
+          (NP
+            (NP (DT the) (NN world) (POS 's))
+            (NN supply))
+          (PP (IN of)
+            (NP (NNP Kiwifruit))))))
+    (. .)))
+
+
+root(ROOT-0, of-1)
+det(world-3, the-2)
+poss(supply-5, world-3)
+possessive(world-3, 's-4)
+pobj(of-1, supply-5)
+prep(supply-5, of-6)
+pobj(of-6, Kiwifruit-7)
+
+

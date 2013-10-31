@@ -1,0 +1,208 @@
+(ROOT
+  (FRAG
+    (ADVP (RB Now))
+    (ADVP (RB ,))))
+
+
+root(ROOT-0, Now-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ sure)
+        (SBAR
+          (S
+            (NP (NN everyone))
+            (ADVP (RB here))
+            (VP (VBZ knows)
+              (PP (IN about)
+                (NP (DT the) (NNP Hungrygowhere) (NN website) (NN right))))))))
+    (. ?)))
+
+
+nsubj(sure-3, I-1)
+cop(sure-3, am-2)
+root(ROOT-0, sure-3)
+nsubj(knows-6, everyone-4)
+advmod(knows-6, here-5)
+ccomp(sure-3, knows-6)
+prep(knows-6, about-7)
+det(right-11, the-8)
+nn(right-11, Hungrygowhere-9)
+nn(right-11, website-10)
+pobj(about-7, right-11)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Well))
+    (, ,)))
+
+
+root(ROOT-0, Well-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD had)
+      (NP (DT the) (NN opportunity)
+        (S
+          (VP (TO to)
+            (VP (VB work)
+              (PP (IN with)
+                (NP
+                  (NP (DT the) (NNS boys))
+                  (PP (IN from)
+                    (NP (NNP Hungrygowhere)))))
+              (PP
+                (ADVP (RB recently))
+                (IN on)
+                (NP (DT the) (NNP Heritage) (NNPS Hawkers) (NN project))))))))
+    (. .)))
+
+
+nsubj(had-2, I-1)
+root(ROOT-0, had-2)
+det(opportunity-4, the-3)
+dobj(had-2, opportunity-4)
+aux(work-6, to-5)
+infmod(opportunity-4, work-6)
+prep(work-6, with-7)
+det(boys-9, the-8)
+pobj(with-7, boys-9)
+prep(boys-9, from-10)
+pobj(from-10, Hungrygowhere-11)
+advmod(on-13, recently-12)
+prep(work-6, on-13)
+det(project-17, the-14)
+nn(project-17, Heritage-15)
+nn(project-17, Hawkers-16)
+pobj(on-13, project-17)
+
+
+(ROOT
+  (PP (IN During)
+    (NP
+      (NP (CD one))
+      (PP (IN of)
+        (NP (PRP$ our) (NN lunch) (NNS sessions))))))
+
+
+root(ROOT-0, During-1)
+pobj(During-1, one-2)
+prep(one-2, of-3)
+poss(sessions-6, our-4)
+nn(sessions-6, lunch-5)
+pobj(of-3, sessions-6)
+
+
+(ROOT
+  (SINV
+    (NP (PRP I))
+    (VP
+      (ADVP (RB casually))
+      (VBN asked)
+      (S
+        (VP (NNP Hoongy)
+          (NP (DT the) (NN $)))))))
+
+
+nsubj(asked-3, I-1)
+advmod(asked-3, casually-2)
+root(ROOT-0, asked-3)
+dep($-6, Hoongy-4)
+det($-6, the-5)
+ccomp(asked-3, $-6)
+
+
+(ROOT
+  (NP
+    (NP (CD 64K) (NN question))
+    (: :)))
+
+
+num(question-2, 64K-1)
+root(ROOT-0, question-2)
+
+
+(ROOT
+  (FRAG
+    (PP (IN ``)
+      (NP (NNP Ay)))
+    (, ,)))
+
+
+pobj(``-1, Ay-2)
+
+
+(ROOT
+  (SBAR (IN so)
+    (S
+      (VP (VBP tell)
+        (NP (PRP me)))
+      (, ,))))
+
+
+mark(tell-2, so-1)
+root(ROOT-0, tell-2)
+dobj(tell-2, me-3)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (VBP 've)
+      (VP (VBN been)
+        (VP (VBG eating)
+          (PP (IN at)
+            (NP
+              (NP (PDT all) (DT the) (JJS best) (NNS restaurants))
+              (PP (IN in)
+                (NP (NNP Singapore)))))
+          (PP (IN for)
+            (NP (RB almost) (CD two) (NNS years))))))
+    (, ,)))
+
+
+nsubj(eating-4, you-1)
+aux(eating-4, 've-2)
+aux(eating-4, been-3)
+root(ROOT-0, eating-4)
+prep(eating-4, at-5)
+predet(restaurants-9, all-6)
+det(restaurants-9, the-7)
+amod(restaurants-9, best-8)
+pobj(at-5, restaurants-9)
+prep(restaurants-9, in-10)
+pobj(in-10, Singapore-11)
+prep(eating-4, for-12)
+advmod(years-15, almost-13)
+num(years-15, two-14)
+pobj(for-12, years-15)
+
+
+(ROOT
+  (FRAG
+    (ADJP (RB Hungry) (JJ REALLY))
+    (S
+      (VP (VB Go)
+        (FRAG
+          (WHADVP (WRB Where)))))
+    (. ?)))
+
+
+advmod(REALLY-2, Hungry-1)
+root(ROOT-0, REALLY-2)
+dep(REALLY-2, Go-3)
+dep(Go-3, Where-4)
+
+
+(ROOT
+  (INTJ (UH '')))
+
+
+
+

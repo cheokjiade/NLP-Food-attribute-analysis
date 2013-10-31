@@ -1,0 +1,467 @@
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBD had)
+      (NP (DT a)
+        (ADJP (JJ great))
+        (NN workshop))
+      (NP (JJ last) (NNP Saturday)))
+    (. .)))
+
+
+nsubj(had-2, We-1)
+root(ROOT-0, had-2)
+det(workshop-5, a-3)
+amod(workshop-5, great-4)
+dobj(had-2, workshop-5)
+amod(Saturday-7, last-6)
+tmod(had-2, Saturday-7)
+
+
+(ROOT
+  (S
+    (S
+      (PP (IN Over)
+        (NP (CD 30)))
+      (NP (NNS participants))
+      (VP (VBD turned)
+        (PRT (RP up))
+        (S
+          (VP (TO to)
+            (VP (VB learn)
+              (SBAR
+                (WHADVP (WRB how))
+                (S
+                  (VP (TO to)
+                    (VP (VB make)
+                      (NP (NNP Roti) (NNP Prata)))))))))))
+    (CC and)
+    (S
+      (NP (PRP we))
+      (VP (MD must)
+        (VP (VB have)
+          (VP (VBN made)
+            (NP
+              (NP
+                (QP (JJR more) (IN than) (CD 20))
+                (JJ different) (NNS types))
+              (PP (IN of)
+                (NP
+                  (NP (NNS pratas))
+                  (VP (VBG ranging)
+                    (PP (IN from)
+                      (S
+                        (VP (VBG kosong)
+                          (PP (TO to)
+                            (NP (NNP Luncheon) (NNP Meat)))
+                          (PP (TO to)
+                            (NP (NN chicken) (NN chop)
+                              (CC and)
+                              (NN cheese))))))))))))))
+    (. .)))
+
+
+prep(turned-4, Over-1)
+pobj(Over-1, 30-2)
+nsubj(turned-4, participants-3)
+root(ROOT-0, turned-4)
+prt(turned-4, up-5)
+aux(learn-7, to-6)
+xcomp(turned-4, learn-7)
+advmod(make-10, how-8)
+aux(make-10, to-9)
+ccomp(learn-7, make-10)
+nn(Prata-12, Roti-11)
+dobj(make-10, Prata-12)
+cc(turned-4, and-13)
+nsubj(made-17, we-14)
+aux(made-17, must-15)
+aux(made-17, have-16)
+conj(turned-4, made-17)
+mwe(than-19, more-18)
+quantmod(20-20, than-19)
+num(types-22, 20-20)
+amod(types-22, different-21)
+dobj(made-17, types-22)
+prep(types-22, of-23)
+pobj(of-23, pratas-24)
+partmod(pratas-24, ranging-25)
+prep(ranging-25, from-26)
+pcomp(from-26, kosong-27)
+prep(kosong-27, to-28)
+nn(Meat-30, Luncheon-29)
+pobj(to-28, Meat-30)
+prep(kosong-27, to-31)
+nn(chop-33, chicken-32)
+pobj(to-31, chop-33)
+cc(chop-33, and-34)
+conj(chop-33, cheese-35)
+
+
+(ROOT
+  (PRN
+    (S
+      (NP
+        (NP (DT The) (NN one))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (ADVP (RB really))
+            (VP (VBD stood)
+              (PRT (RP out))))))
+      (VP (VBD was)
+        (NP (DT the) (JJ Japanese) (NN Prata))))
+    (, ,)))
+
+
+det(one-2, The-1)
+nsubj(Prata-10, one-2)
+nsubj(stood-5, that-3)
+advmod(stood-5, really-4)
+rcmod(one-2, stood-5)
+prt(stood-5, out-6)
+cop(Prata-10, was-7)
+det(Prata-10, the-8)
+amod(Prata-10, Japanese-9)
+root(ROOT-0, Prata-10)
+
+
+(ROOT
+  (S
+    (NP (WDT which))
+    (VP (MD might)
+      (ADVP (RB just))
+      (VP (VB be)
+        (NP
+          (NP (DT a) (NN world) (POS 's))
+          (JJ first))))
+    (. .)))
+
+
+nsubj(world-6, which-1)
+aux(world-6, might-2)
+advmod(world-6, just-3)
+cop(world-6, be-4)
+det(world-6, a-5)
+root(ROOT-0, world-6)
+possessive(world-6, 's-7)
+amod(world-6, first-8)
+
+
+(ROOT
+  (S
+    (NP (NN Everyone))
+    (VP (VBD was)
+      (VP (VBG raving) (IN about)
+        (NP (PRP it))
+        (PP (IN at)
+          (NP
+            (NP (DT the) (NN end))
+            (PP (IN of)
+              (NP (DT the) (NN session)))))))
+    (. !)))
+
+
+nsubj(raving-3, Everyone-1)
+aux(raving-3, was-2)
+root(ROOT-0, raving-3)
+dep(raving-3, about-4)
+dobj(raving-3, it-5)
+prep(raving-3, at-6)
+det(end-8, the-7)
+pobj(at-6, end-8)
+prep(end-8, of-9)
+det(session-11, the-10)
+pobj(of-9, session-11)
+
+
+(ROOT
+  (ADJP (JJ Thanks)
+    (PP (TO to)
+      (NP (NN everyone)))
+    (PP (IN for)
+      (S
+        (VP
+          (VP (VBG coming)
+            (PP (TO to)
+              (NP (DT the) (NN session))))
+          (CC and)
+          (VP
+            (ADVP (RB really))
+            (VBG getting)
+            (PP (IN into)
+              (NP (PRP it)))))))
+    (. !)))
+
+
+root(ROOT-0, Thanks-1)
+prep(Thanks-1, to-2)
+pobj(to-2, everyone-3)
+prep(Thanks-1, for-4)
+pcomp(for-4, coming-5)
+prep(coming-5, to-6)
+det(session-8, the-7)
+pobj(to-6, session-8)
+cc(coming-5, and-9)
+advmod(getting-11, really-10)
+conj(coming-5, getting-11)
+prep(getting-11, into-12)
+pobj(into-12, it-13)
+
+
+(ROOT
+  (FRAG
+    (PP
+      (NP (JJ Special) (NNS thanks))
+      (PP (TO to)
+        (NP (NNP Champagne))))
+    (, ,)))
+
+
+amod(thanks-2, Special-1)
+dep(to-3, thanks-2)
+root(ROOT-0, to-3)
+pobj(to-3, Champagne-4)
+
+
+(ROOT
+  (NP
+    (NP (NNP Joao)
+      (CC and)
+      (NNP Soundman))
+    (PP (IN for)
+      (S
+        (VP (VBG helping)
+          (S
+            (NP (PRP me))
+            (VP (VB organize)
+              (NP (DT the) (NN session)))))))
+    (. .)))
+
+
+root(ROOT-0, Joao-1)
+cc(Joao-1, and-2)
+conj(Joao-1, Soundman-3)
+prep(Joao-1, for-4)
+pcomp(for-4, helping-5)
+nsubj(organize-7, me-6)
+ccomp(helping-5, organize-7)
+det(session-9, the-8)
+dobj(organize-7, session-9)
+
+
+(ROOT
+  (S
+    (NP (DT This) (NN session))
+    (VP (VBD was)
+      (VP (VBN made)
+        (ADJP (JJ possible))
+        (PP (IN through)
+          (NP
+            (NP (DT the) (NN sponsorship))
+            (PP (IN of)
+              (NP
+                (NP (NNP Mayer) (NNP Live) (NNP Kitchen))
+                (SBAR
+                  (WHNP (WP who))
+                  (S
+                    (VP (VBP have)
+                      (VP (VBN allowed)
+                        (NP (PRP us))
+                        (NP
+                          (NP (DT the) (NN use))
+                          (PP (IN of)
+                            (NP (PRP$ their) (JJ beautiful) (NN showroom))))
+                        (PP (IN at)
+                          (NP (NNP Great) (NNP World) (NNP City)))))))))))))
+    (. .)))
+
+
+det(session-2, This-1)
+nsubjpass(made-4, session-2)
+auxpass(made-4, was-3)
+root(ROOT-0, made-4)
+acomp(made-4, possible-5)
+prep(made-4, through-6)
+det(sponsorship-8, the-7)
+pobj(through-6, sponsorship-8)
+prep(sponsorship-8, of-9)
+nn(Kitchen-12, Mayer-10)
+nn(Kitchen-12, Live-11)
+pobj(of-9, Kitchen-12)
+nsubj(allowed-15, who-13)
+aux(allowed-15, have-14)
+rcmod(Kitchen-12, allowed-15)
+iobj(allowed-15, us-16)
+det(use-18, the-17)
+dobj(allowed-15, use-18)
+prep(use-18, of-19)
+poss(showroom-22, their-20)
+amod(showroom-22, beautiful-21)
+pobj(of-19, showroom-22)
+prep(allowed-15, at-23)
+nn(City-26, Great-24)
+nn(City-26, World-25)
+pobj(at-23, City-26)
+
+
+(ROOT
+  (S
+    (NP (NNP Mayer))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (NN distributor))
+        (PP (IN for)
+          (NP (NNP CuisinArt)
+            (CC and)
+            (NNP KitchenAid)))))
+    (, ,)))
+
+
+nsubj(distributor-4, Mayer-1)
+cop(distributor-4, is-2)
+det(distributor-4, the-3)
+root(ROOT-0, distributor-4)
+prep(distributor-4, for-5)
+pobj(for-5, CuisinArt-6)
+cc(CuisinArt-6, and-7)
+conj(CuisinArt-6, KitchenAid-8)
+
+
+(ROOT
+  (NP
+    (NP
+      (NP (DT both)
+        (ADJP (RB very) (JJ solid))
+        (NNS machines))
+      (SBAR
+        (WHNP (WDT which))
+        (S
+          (NP (PRP I))
+          (VP (VBP rely)
+            (PRT (RP on))
+            (PP (IN in)
+              (NP (PRP$ my) (NN kitchen) (NNS experiments)))))))
+    (. .)))
+
+
+det(machines-4, both-1)
+advmod(solid-3, very-2)
+amod(machines-4, solid-3)
+root(ROOT-0, machines-4)
+dobj(rely-7, which-5)
+nsubj(rely-7, I-6)
+rcmod(machines-4, rely-7)
+prt(rely-7, on-8)
+prep(rely-7, in-9)
+poss(experiments-12, my-10)
+nn(experiments-12, kitchen-11)
+pobj(in-9, experiments-12)
+
+
+(ROOT
+  (S
+    (NP (JJ Ieatishootipost) (NNS readers))
+    (VP (MD can)
+      (VP (VB buy)
+        (NP (NNP Mayer) (NNS products))
+        (PP (IN at)
+          (NP (DT a) (RB very) (JJ special) (JJ discounted) (NN rate)))))
+    (. .)))
+
+
+amod(readers-2, Ieatishootipost-1)
+nsubj(buy-4, readers-2)
+aux(buy-4, can-3)
+root(ROOT-0, buy-4)
+nn(products-6, Mayer-5)
+dobj(buy-4, products-6)
+prep(buy-4, at-7)
+det(rate-12, a-8)
+advmod(rate-12, very-9)
+amod(rate-12, special-10)
+amod(rate-12, discounted-11)
+pobj(at-7, rate-12)
+
+
+(ROOT
+  (S
+    (SBAR
+      (WHNP (WP What))
+      (S
+        (NP (PRP you))
+        (VP (VBP need)
+          (S
+            (VP (TO to)
+              (VP (VB do)))))))
+    (VP (VBZ is)
+      (S
+        (VP (TO to)
+          (VP (VB write)
+            (S
+              (VP (TO to)
+                (S
+                  (VP (TO to)
+                    (VP (VB get)
+                      (NP (DT a) (NN quote))
+                      (PP (IN for)
+                        (NP
+                          (NP (DT any))
+                          (PP (IN of)
+                            (NP
+                              (NP (DT the) (NNS appliances))
+                              (PP (IN in)
+                                (NP (PRP$ their) (NN product) (NN range))))))))))))))))
+    (. !)))
+
+
+dobj(need-3, What-1)
+nsubj(need-3, you-2)
+csubj(is-6, need-3)
+aux(do-5, to-4)
+xcomp(need-3, do-5)
+root(ROOT-0, is-6)
+aux(write-8, to-7)
+xcomp(is-6, write-8)
+xcomp(write-8, to-9)
+aux(get-11, to-10)
+xcomp(to-9, get-11)
+det(quote-13, a-12)
+dobj(get-11, quote-13)
+prep(get-11, for-14)
+pobj(for-14, any-15)
+prep(any-15, of-16)
+det(appliances-18, the-17)
+pobj(of-16, appliances-18)
+prep(appliances-18, in-19)
+poss(range-22, their-20)
+nn(range-22, product-21)
+pobj(in-19, range-22)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB have)
+        (NP
+          (NP (DT a) (NN look))
+          (PP (IN at)
+            (NP (PRP$ their) (NN brochure))))
+        (PP (IN at)
+          (NP (NN www.mayer.com.sg)))))
+    (. .)))
+
+
+nsubj(have-3, You-1)
+aux(have-3, can-2)
+root(ROOT-0, have-3)
+det(look-5, a-4)
+dobj(have-3, look-5)
+prep(look-5, at-6)
+poss(brochure-8, their-7)
+pobj(at-6, brochure-8)
+prep(have-3, at-9)
+pobj(at-9, www.mayer.com.sg-10)
+
+

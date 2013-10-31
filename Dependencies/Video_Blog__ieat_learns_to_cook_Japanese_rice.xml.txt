@@ -1,0 +1,199 @@
+(ROOT
+  (S
+    (S
+      (NP (JJ Japanese) (NN food))
+      (VP (VBZ is)
+        (ADJP (RB so) (JJ popular))
+        (ADVP (RB nowadays))))
+    (CC and)
+    (S
+      (NP (PRP I))
+      (VP (VBP am)
+        (ADJP (JJ sure)
+          (SBAR (IN that)
+            (S
+              (NP
+                (NP (DT some))
+                (PP (IN of)
+                  (NP (PRP$ our) (NNS readers))))
+              (VP (MD would)
+                (VP (VB like)
+                  (S
+                    (VP (TO to)
+                      (VP (VB be)
+                        (ADJP (JJ able)
+                          (S
+                            (VP (TO to)
+                              (VP (VB put)
+                                (PRT (RP together))
+                                (NP
+                                  (NP (DT some) (JJ simple) (JJ Japanese) (NNS dishes))
+                                  (PP (IN at)
+                                    (NP (NN home))))))))))))))))))
+    (. .)))
+
+
+amod(food-2, Japanese-1)
+nsubj(popular-5, food-2)
+cop(popular-5, is-3)
+advmod(popular-5, so-4)
+root(ROOT-0, popular-5)
+advmod(popular-5, nowadays-6)
+cc(popular-5, and-7)
+nsubj(sure-10, I-8)
+cop(sure-10, am-9)
+conj(popular-5, sure-10)
+mark(like-17, that-11)
+nsubj(like-17, some-12)
+prep(some-12, of-13)
+poss(readers-15, our-14)
+pobj(of-13, readers-15)
+aux(like-17, would-16)
+ccomp(sure-10, like-17)
+aux(able-20, to-18)
+cop(able-20, be-19)
+xcomp(like-17, able-20)
+aux(put-22, to-21)
+xcomp(able-20, put-22)
+prt(put-22, together-23)
+det(dishes-27, some-24)
+amod(dishes-27, simple-25)
+amod(dishes-27, Japanese-26)
+dobj(put-22, dishes-27)
+prep(dishes-27, at-28)
+pobj(at-28, home-29)
+
+
+(ROOT
+  (S (IN So)
+    (NP (PRP I))
+    (VP (VBP have)
+      (VP (VBN started)
+        (NP
+          (NP (DT a) (JJ new) (NN series))
+          (PP (IN of)
+            (NP
+              (NP (NNS videos))
+              (SBAR
+                (WHNP (WDT which))
+                (S
+                  (VP (VBZ covers)
+                    (NP (DT some)
+                      (ADJP (RB very) (JJ basic))
+                      (NP (JJ Japanese) (NNS dishes)))))))))))
+    (. .)))
+
+
+dep(started-4, So-1)
+nsubj(started-4, I-2)
+aux(started-4, have-3)
+root(ROOT-0, started-4)
+det(series-7, a-5)
+amod(series-7, new-6)
+dobj(started-4, series-7)
+prep(series-7, of-8)
+pobj(of-8, videos-9)
+nsubj(covers-11, which-10)
+rcmod(videos-9, covers-11)
+det(dishes-16, some-12)
+advmod(basic-14, very-13)
+amod(dishes-16, basic-14)
+amod(dishes-16, Japanese-15)
+dobj(covers-11, dishes-16)
+
+
+(ROOT
+  (S
+    (NP (NNP Today) (PRP we))
+    (VP (VBP are)
+      (VP (VBG going)
+        (S
+          (VP (TO to)
+            (VP (VB tackle)
+              (NP
+                (NP (DT the) (RBS most) (JJ basic))
+                (PP (IN of)
+                  (NP (NNS dishes)))))))))
+    (, ,)))
+
+
+nsubj(going-4, Today-1)
+dep(Today-1, we-2)
+aux(going-4, are-3)
+root(ROOT-0, going-4)
+aux(tackle-6, to-5)
+xcomp(going-4, tackle-6)
+det(basic-9, the-7)
+advmod(basic-9, most-8)
+dobj(tackle-6, basic-9)
+prep(basic-9, of-10)
+pobj(of-10, dishes-11)
+
+
+(ROOT
+  (FRAG
+    (PP (IN namely))
+    (, ,)))
+
+
+root(ROOT-0, namely-1)
+
+
+(ROOT
+  (NP (JJ steamed) (NN rice) (. .)))
+
+
+amod(rice-2, steamed-1)
+root(ROOT-0, rice-2)
+
+
+(ROOT
+  (FRAG
+    (PP
+      (ADVP (RB Later))
+      (IN in)
+      (NP (DT the) (NN series)))
+    (, ,)))
+
+
+advmod(in-2, Later-1)
+root(ROOT-0, in-2)
+det(series-4, the-3)
+pobj(in-2, series-4)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (VP (MD will)
+      (ADVP (RB also))
+      (VP (VB be)
+        (VP (VBG covering)
+          (NP (NN miso) (NN soup)))))
+    (, ,)))
+
+
+nsubj(covering-5, we-1)
+aux(covering-5, will-2)
+advmod(covering-5, also-3)
+aux(covering-5, be-4)
+root(ROOT-0, covering-5)
+nn(soup-7, miso-6)
+dobj(covering-5, soup-7)
+
+
+(ROOT
+  (S
+    (VP (VB charshu)
+      (NP (NN ramen)
+        (CC and)
+        (NNS chawanmushi)))
+    (. .)))
+
+
+root(ROOT-0, charshu-1)
+dobj(charshu-1, ramen-2)
+cc(ramen-2, and-3)
+conj(ramen-2, chawanmushi-4)
+
+

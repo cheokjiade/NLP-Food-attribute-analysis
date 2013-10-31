@@ -1,0 +1,374 @@
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (MD would)
+      (VP (VB be)
+        (ADJP (JJ interesting)
+          (S
+            (VP (TO to)
+              (VP (VB see)
+                (SBAR (IN if)
+                  (S
+                    (NP (NNP Foodies))
+                    (VP (VBP are)
+                      (ADJP (RB necessarily) (JJ overweight)))))))))))
+    (. .)))
+
+
+nsubj(interesting-4, It-1)
+aux(interesting-4, would-2)
+cop(interesting-4, be-3)
+root(ROOT-0, interesting-4)
+aux(see-6, to-5)
+xcomp(interesting-4, see-6)
+mark(overweight-11, if-7)
+nsubj(overweight-11, Foodies-8)
+cop(overweight-11, are-9)
+advmod(overweight-11, necessarily-10)
+advcl(see-6, overweight-11)
+
+
+(ROOT
+  (S
+    (NP (DT Those)
+      (ADJP (JJ familiar)
+        (PP (IN with)
+          (NP (DT this))))
+      (NN blog))
+    (VP (MD would)
+      (VP (VB know)
+        (SBAR (IN that)
+          (S
+            (NP (PRP I))
+            (VP (VBP have)
+              (ADVP (RB always))
+              (VP (VBN advocated)
+                (S
+                  (ADJP (JJ responsible) (JJ makaning)))))))))
+    (, ,)))
+
+
+det(blog-5, Those-1)
+amod(blog-5, familiar-2)
+prep(familiar-2, with-3)
+pobj(with-3, this-4)
+nsubj(know-7, blog-5)
+aux(know-7, would-6)
+root(ROOT-0, know-7)
+mark(advocated-12, that-8)
+nsubj(advocated-12, I-9)
+aux(advocated-12, have-10)
+advmod(advocated-12, always-11)
+ccomp(know-7, advocated-12)
+amod(makaning-14, responsible-13)
+acomp(advocated-12, makaning-14)
+
+
+(ROOT
+  (NP
+    (NP (RB hence) (PRP$ our) (NN catchphrase))
+    (: :)))
+
+
+advmod(catchphrase-3, hence-1)
+poss(catchphrase-3, our-2)
+root(ROOT-0, catchphrase-3)
+
+
+(ROOT
+  (S
+    (ADVP (RB Never))
+    (VP (VB waste)
+      (NP (PRP$ your) (NNS calories))
+      (PP (IN on)
+        (NP (JJ yucky) (NN food))))
+    (. .)))
+
+
+neg(waste-2, Never-1)
+root(ROOT-0, waste-2)
+poss(calories-4, your-3)
+dobj(waste-2, calories-4)
+prep(waste-2, on-5)
+amod(food-7, yucky-6)
+pobj(on-5, food-7)
+
+
+(ROOT
+  (S
+    (NP (DT That))
+    (VP (VBZ means)
+      (SBAR (IN that)
+        (S
+          (NP (PRP one))
+          (VP (VBZ has)
+            (S
+              (VP (TO to)
+                (VP (VB enjoy)
+                  (NP (DT the) (NN food))
+                  (PP (CC but)
+                    (PP (IN at)
+                      (NP (DT the) (JJ same) (NN time)))))))
+            (S
+              (VP (VB be)
+                (ADJP (JJ responsible))
+                (PP (IN for)
+                  (NP
+                    (NP (CD one) (POS 's))
+                    (JJ own) (NN health)))))))))
+    (. .)))
+
+
+nsubj(means-2, That-1)
+root(ROOT-0, means-2)
+mark(has-5, that-3)
+nsubj(has-5, one-4)
+ccomp(means-2, has-5)
+aux(enjoy-7, to-6)
+xcomp(has-5, enjoy-7)
+det(food-9, the-8)
+dobj(enjoy-7, food-9)
+cc(at-11, but-10)
+prep(enjoy-7, at-11)
+det(time-14, the-12)
+amod(time-14, same-13)
+pobj(at-11, time-14)
+cop(responsible-16, be-15)
+ccomp(has-5, responsible-16)
+prep(responsible-16, for-17)
+poss(health-21, one-18)
+possessive(one-18, 's-19)
+amod(health-21, own-20)
+pobj(for-17, health-21)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NNP BMI))
+    (VP (VBZ is)
+      (ADVP (RB basically))
+      (NP
+        (NP (DT a) (JJ quick) (NN way))
+        (PP (IN of)
+          (S
+            (VP (VBG getting)
+              (NP (DT an) (NN indication))
+              (SBAR (IN if)
+                (S
+                  (NP (PRP one))
+                  (VP (VBZ is)
+                    (NP (NN overweight))))))))))
+    (. .)))
+
+
+det(BMI-2, The-1)
+nsubj(way-7, BMI-2)
+cop(way-7, is-3)
+advmod(way-7, basically-4)
+det(way-7, a-5)
+amod(way-7, quick-6)
+root(ROOT-0, way-7)
+prep(way-7, of-8)
+pcomp(of-8, getting-9)
+det(indication-11, an-10)
+dobj(getting-9, indication-11)
+mark(overweight-15, if-12)
+nsubj(overweight-15, one-13)
+cop(overweight-15, is-14)
+advcl(getting-9, overweight-15)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is) (RB not)
+      (ADJP (JJ perfect)))
+    (, ,)))
+
+
+nsubj(perfect-4, It-1)
+cop(perfect-4, is-2)
+neg(perfect-4, not-3)
+root(ROOT-0, perfect-4)
+
+
+(ROOT
+  (S (CC but)
+    (NP (PRP it))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (NN standard))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBZ is)
+              (ADVP (RB currently))
+              (VP (VBG being)
+                (VP (VBN used))))))))
+    (. .)))
+
+
+cc(standard-5, but-1)
+nsubj(standard-5, it-2)
+cop(standard-5, is-3)
+det(standard-5, the-4)
+root(ROOT-0, standard-5)
+nsubjpass(used-10, that-6)
+aux(used-10, is-7)
+advmod(used-10, currently-8)
+auxpass(used-10, being-9)
+rcmod(standard-5, used-10)
+
+
+(ROOT
+  (FRAG
+    (PP
+      (PP (TO To)
+        (NP (NN work)))
+      (PP (IN out)
+        (NP (PRP$ your) (NN BMI))))
+    (, ,)))
+
+
+root(ROOT-0, To-1)
+pobj(To-1, work-2)
+prep(To-1, out-3)
+poss(BMI-5, your-4)
+pobj(out-3, BMI-5)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP
+      (VP (VBP take)
+        (NP (PRP$ your) (NN weight))
+        (PP (IN in)
+          (NP (NNP Kg))))
+      (CC and)
+      (VP (VBD divided)
+        (NP (DT that))
+        (PP (IN by)
+          (NP (PRP$ your) (NN Height)))
+        (PP (IN in)
+          (NP (NN m) (NNS squared)))))
+    (. .)))
+
+
+nsubj(take-2, you-1)
+root(ROOT-0, take-2)
+poss(weight-4, your-3)
+dobj(take-2, weight-4)
+prep(take-2, in-5)
+pobj(in-5, Kg-6)
+cc(take-2, and-7)
+conj(take-2, divided-8)
+dobj(divided-8, that-9)
+prep(divided-8, by-10)
+poss(Height-12, your-11)
+pobj(by-10, Height-12)
+prep(divided-8, in-13)
+nn(squared-15, m-14)
+pobj(in-13, squared-15)
+
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (DT The) (NN formula))
+        (SBAR
+          (S
+            (VP (VBZ is)
+              (ADJP
+                (PRN (-LRB- -LRB-)
+                  (NP
+                    (NP (NNP Wt))
+                    (PP (IN in)
+                      (NP (NN kg))))
+                  (-RRB- -RRB-))
+                (JJ \/))))))
+      (PRN (-LRB- -LRB-)
+        (VP
+          (VP
+            (PRN (-LRB- -LRB-)
+              (NP
+                (NP (NNP Height))
+                (PP (IN in)
+                  (NP (NN m))))
+              (-RRB- -RRB-))
+            (VBN x))
+          (PRN (-LRB- -LRB-)
+            (S
+              (VP (VB Height)
+                (PP (IN in)
+                  (NP (NN m)))))
+            (-RRB- -RRB-)))
+        (-RRB- -RRB-)))
+    (ADVP (RB Here))
+    (VP (VBZ is)
+      (NP
+        (NP (DT an) (JJ online) (NNP BMI) (NN calculator))
+        (PP (IN for)
+          (NP (PRP$ your) (NN convenience)))))
+    (. .)))
+
+
+det(formula-2, The-1)
+nsubj(calculator-28, formula-2)
+cop(\/-9, is-3)
+dep(\/-9, Wt-5)
+prep(Wt-5, in-6)
+pobj(in-6, kg-7)
+rcmod(formula-2, \/-9)
+dep(x-16, Height-12)
+prep(Height-12, in-13)
+pobj(in-13, m-14)
+dep(formula-2, x-16)
+parataxis(x-16, Height-18)
+prep(Height-18, in-19)
+pobj(in-19, m-20)
+advmod(calculator-28, Here-23)
+cop(calculator-28, is-24)
+det(calculator-28, an-25)
+amod(calculator-28, online-26)
+nn(calculator-28, BMI-27)
+root(ROOT-0, calculator-28)
+prep(calculator-28, for-29)
+poss(convenience-31, your-30)
+pobj(for-29, convenience-31)
+
+
+(ROOT
+  (S
+    (NP (NNP Let) (POS 's))
+    (VP (VBP see)
+      (SBAR (IN if)
+        (S
+          (NP
+            (NP (PRP$ our) (NN bunch))
+            (PP (IN of)
+              (NP (NNS ieaters))))
+          (VP (VBP are)
+            (ADJP
+              (ADJP (JJ overweight))
+              (CC or)
+              (ADJP (RB just) (JJ nice)))))))
+    (. !)))
+
+
+nsubj(see-3, Let-1)
+possessive(Let-1, 's-2)
+root(ROOT-0, see-3)
+mark(overweight-10, if-4)
+poss(bunch-6, our-5)
+nsubj(overweight-10, bunch-6)
+prep(bunch-6, of-7)
+pobj(of-7, ieaters-8)
+cop(overweight-10, are-9)
+advcl(see-3, overweight-10)
+cc(overweight-10, or-11)
+advmod(nice-13, just-12)
+conj(overweight-10, nice-13)
+
+

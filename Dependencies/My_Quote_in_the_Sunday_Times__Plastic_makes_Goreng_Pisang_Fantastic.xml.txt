@@ -1,0 +1,129 @@
+(ROOT
+  (S (RB So)
+    (VP (VB do)
+      (NP (PRP you))
+      (SBAR
+        (S
+          (NP (DT all))
+          (VP (VBP think)
+            (SBAR
+              (S
+                (NP (PRP it))
+                (VP (VBZ is)
+                  (ADJP (JJ possible))
+                  (SBAR (IN that)
+                    (S
+                      (NP (NNS hawkers))
+                      (ADVP (RB actually))
+                      (VP (VBP throw)
+                        (NP (JJ plastic) (NNS straws)
+                          (CC and)
+                          (NNS bottles))
+                        (PP (IN into)
+                          (NP (DT the) (NN oil)
+                            (S
+                              (VP (TO to)
+                                (VP (VB make)
+                                  (NP (PRP$ their) (NN goreng))
+                                  (S
+                                    (VP (VBG pisang)
+                                      (NP (JJR more) (NN crispy)))))))))))))))))))
+    (. ?)))
+
+
+advmod(do-2, So-1)
+root(ROOT-0, do-2)
+dobj(do-2, you-3)
+nsubj(think-5, all-4)
+dep(do-2, think-5)
+nsubj(possible-8, it-6)
+cop(possible-8, is-7)
+ccomp(think-5, possible-8)
+mark(throw-12, that-9)
+nsubj(throw-12, hawkers-10)
+advmod(throw-12, actually-11)
+ccomp(possible-8, throw-12)
+amod(straws-14, plastic-13)
+dobj(throw-12, straws-14)
+cc(straws-14, and-15)
+conj(straws-14, bottles-16)
+prep(throw-12, into-17)
+det(oil-19, the-18)
+pobj(into-17, oil-19)
+aux(make-21, to-20)
+infmod(oil-19, make-21)
+poss(goreng-23, their-22)
+dobj(make-21, goreng-23)
+xcomp(make-21, pisang-24)
+amod(crispy-26, more-25)
+dobj(pisang-24, crispy-26)
+
+
+(ROOT
+  (SQ (CC Or)
+    (VBZ is)
+    (NP (PRP it))
+    (ADVP (RB all)
+      (NP (DT another) (NN hoax)))
+    (. ?)))
+
+
+cc(is-2, Or-1)
+root(ROOT-0, is-2)
+nsubj(is-2, it-3)
+advmod(is-2, all-4)
+det(hoax-6, another-5)
+pobj(all-4, hoax-6)
+
+
+(ROOT
+  (S
+    (PP (IN At)
+      (NP (DT any) (NN rate)))
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ sure)
+        (SBAR
+          (S
+            (NP (PRP you))
+            (VP (MD will)
+              (VP (VB agree)
+                (PP (IN with)
+                  (NP (PRP me)))
+                (SBAR (IN that)
+                  (S
+                    (S
+                      (VP (VBG eating)
+                        (NP (NN stuff) (NNS fried))
+                        (ADVP (RB together))
+                        (PP (IN with)
+                          (NP (NNP PVC)))))
+                    (VP (VBZ is)
+                      (NP (DT a) (NN health) (NN hazard)))))))))))
+    (. !)))
+
+
+prep(sure-6, At-1)
+det(rate-3, any-2)
+pobj(At-1, rate-3)
+nsubj(sure-6, I-4)
+cop(sure-6, am-5)
+root(ROOT-0, sure-6)
+nsubj(agree-9, you-7)
+aux(agree-9, will-8)
+ccomp(sure-6, agree-9)
+prep(agree-9, with-10)
+pobj(with-10, me-11)
+mark(hazard-22, that-12)
+csubj(hazard-22, eating-13)
+nn(fried-15, stuff-14)
+dobj(eating-13, fried-15)
+advmod(eating-13, together-16)
+prep(eating-13, with-17)
+pobj(with-17, PVC-18)
+cop(hazard-22, is-19)
+det(hazard-22, a-20)
+nn(hazard-22, health-21)
+ccomp(agree-9, hazard-22)
+
+

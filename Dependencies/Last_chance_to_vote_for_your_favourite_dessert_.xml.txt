@@ -1,0 +1,129 @@
+(ROOT
+  (FRAG
+    (PP (IN OK))
+    (, ,)))
+
+
+root(ROOT-0, OK-1)
+
+
+(ROOT
+  (S
+    (NP (JJ final))
+    (VP (VBP call)
+      (PP (IN for)
+        (NP
+          (NP (NNS votes))
+          (PP (IN for)
+            (NP
+              (NP (NNP Singapore) (POS 's))
+              (JJ favorite) (NN dessert))))))
+    (. .)))
+
+
+nsubj(call-2, final-1)
+root(ROOT-0, call-2)
+prep(call-2, for-3)
+pobj(for-3, votes-4)
+prep(votes-4, for-5)
+poss(dessert-9, Singapore-6)
+possessive(Singapore-6, 's-7)
+amod(dessert-9, favorite-8)
+pobj(for-5, dessert-9)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NNS polls))
+    (VP (MD will)
+      (VP (VB be)
+        (VP (VBN closed)
+          (PP (IN on)
+            (NP (NNP Friday)))
+          (PP (IN at)
+            (NP (CD 12) (NN noon))))))
+    (. .)))
+
+
+det(polls-2, The-1)
+nsubjpass(closed-5, polls-2)
+aux(closed-5, will-3)
+auxpass(closed-5, be-4)
+root(ROOT-0, closed-5)
+prep(closed-5, on-6)
+pobj(on-6, Friday-7)
+prep(closed-5, at-8)
+num(noon-10, 12-9)
+pobj(at-8, noon-10)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB So))
+    (SBAR (IN if)
+      (S
+        (NP (PRP$ your) (JJ favorite) (NN dessert))
+        (VP (VBZ does) (RB n't)
+          (VP (VB win)))
+        (, ,)))))
+
+
+root(ROOT-0, So-1)
+mark(win-8, if-2)
+poss(dessert-5, your-3)
+amod(dessert-5, favorite-4)
+nsubj(win-8, dessert-5)
+aux(win-8, does-6)
+neg(win-8, n't-7)
+dep(So-1, win-8)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (VBZ is)
+      (NP (PRP$ your) (JJ own) (NN fault))
+      (SBAR (IN if)
+        (S
+          (NP (PRP you))
+          (VP (VBD failed)
+            (S
+              (VP (TO to)
+                (VP (VB vote))))))))
+    (. !)))
+
+
+nsubj(fault-5, it-1)
+cop(fault-5, is-2)
+poss(fault-5, your-3)
+amod(fault-5, own-4)
+root(ROOT-0, fault-5)
+mark(failed-8, if-6)
+nsubj(failed-8, you-7)
+advcl(fault-5, failed-8)
+aux(vote-10, to-9)
+xcomp(failed-8, vote-10)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NN voting) (NN booth))
+    (VP (VBZ is)
+      (VP (VBN found)
+        (PP (IN on)
+          (NP (DT the) (JJ right) (NN hand) (NN column)))))
+    (. !)))
+
+
+det(booth-3, The-1)
+nn(booth-3, voting-2)
+nsubjpass(found-5, booth-3)
+auxpass(found-5, is-4)
+root(ROOT-0, found-5)
+prep(found-5, on-6)
+det(column-10, the-7)
+amod(column-10, right-8)
+nn(column-10, hand-9)
+pobj(on-6, column-10)
+
+

@@ -1,0 +1,713 @@
+(ROOT
+  (S
+    (S
+      (NP (NNP Hock) (NNP Lam) (NN Beef) (NNP Kway) (NNP Teow))
+      (VP (VBZ turns)
+        (NP (CD 100))
+        (NP (DT this) (NN year))))
+    (CC and)
+    (S
+      (NP (PRP I))
+      (VP (VBD was)
+        (ADVP
+          (ADVP (RB there) (RB recently))
+          (PP (TO to)
+            (NP (NN film))))
+        (PP (IN for)
+          (NP
+            (NP (DT a) (NNP Channel) (NNP News) (NNP Asia) (NN episode))
+            (PP (IN of)
+              (NP (NNP Truly) (NNP Asia)))))))
+    (. .)))
+
+
+nn(Teow-5, Hock-1)
+nn(Teow-5, Lam-2)
+nn(Teow-5, Beef-3)
+nn(Teow-5, Kway-4)
+nsubj(turns-6, Teow-5)
+root(ROOT-0, turns-6)
+dobj(turns-6, 100-7)
+det(year-9, this-8)
+tmod(turns-6, year-9)
+cc(turns-6, and-10)
+nsubj(was-12, I-11)
+conj(turns-6, was-12)
+advmod(recently-14, there-13)
+advmod(was-12, recently-14)
+prep(recently-14, to-15)
+pobj(to-15, film-16)
+prep(was-12, for-17)
+det(episode-22, a-18)
+nn(episode-22, Channel-19)
+nn(episode-22, News-20)
+nn(episode-22, Asia-21)
+pobj(for-17, episode-22)
+prep(episode-22, of-23)
+nn(Asia-25, Truly-24)
+pobj(of-23, Asia-25)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP
+      (VP (VBD met)
+        (PP (IN with)
+          (NP
+            (NP (DT the)
+              (ADJP (RB dear))
+              (NN uncle))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBZ is)
+                  (NP
+                    (NP (DT the) (NN grandson))
+                    (PP (IN of)
+                      (NP
+                        (NP (DT the) (JJ original) (NN founder))
+                        (PP (IN of)
+                          (NP (NNP Hock) (NNP Lam) (NN Beef) (NNP Kway) (NNP Teow))))))))))))
+      (CC and)
+      (VP (VBD posed)
+        (S
+          (NP (PRP him))
+          (NP
+            (NP (DT a) (NN question))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP (VBZ has)
+                  (VP (VBN been)
+                    (VP (VBG bugging)
+                      (NP (PRP me))
+                      (PP (IN for)
+                        (NP (DT a) (NN while))))))))))))
+    (. .)))
+
+
+nsubj(met-2, I-1)
+root(ROOT-0, met-2)
+prep(met-2, with-3)
+det(uncle-6, the-4)
+amod(uncle-6, dear-5)
+pobj(with-3, uncle-6)
+nsubj(grandson-10, who-7)
+cop(grandson-10, is-8)
+det(grandson-10, the-9)
+rcmod(uncle-6, grandson-10)
+prep(grandson-10, of-11)
+det(founder-14, the-12)
+amod(founder-14, original-13)
+pobj(of-11, founder-14)
+prep(founder-14, of-15)
+nn(Teow-20, Hock-16)
+nn(Teow-20, Lam-17)
+nn(Teow-20, Beef-18)
+nn(Teow-20, Kway-19)
+pobj(of-15, Teow-20)
+cc(met-2, and-21)
+conj(met-2, posed-22)
+nsubj(question-25, him-23)
+det(question-25, a-24)
+xcomp(posed-22, question-25)
+nsubj(bugging-29, that-26)
+aux(bugging-29, has-27)
+aux(bugging-29, been-28)
+rcmod(question-25, bugging-29)
+dobj(bugging-29, me-30)
+prep(bugging-29, for-31)
+det(while-33, a-32)
+pobj(for-31, while-33)
+
+
+(ROOT
+  (SBARQ (`` ``)
+    (WHADVP (WRB How))
+    (SQ
+      (VP (VBP come)
+        (NP (NN Beef)))
+      (NP
+        (NP (NNP Kway) (NNP Teow))
+        (SBAR
+          (S
+            (VP (VBZ is)
+              (VP (VBN called))))))
+      (NP
+        (NP (NNP Beef) (NNP Kway) (NNP Teow))
+        (SBAR
+          (WHADVP (WRB when)
+            (NP
+              (NP (JJS most))
+              (PP (IN of)
+                (NP (DT the) (NN time)))))
+          (S
+            (NP (PRP it))
+            (VP (VBZ is)
+              (VP (VBN eaten)
+                (PP (IN with)
+                  (NP (NNP Chor) (NNP Bee) (NNP Hoon)))))))))
+    (. ?)))
+
+
+advmod(come-3, How-2)
+root(ROOT-0, come-3)
+dobj(come-3, Beef-4)
+nn(Teow-6, Kway-5)
+dep(come-3, Teow-6)
+auxpass(called-8, is-7)
+rcmod(Teow-6, called-8)
+nn(Teow-11, Beef-9)
+nn(Teow-11, Kway-10)
+dep(come-3, Teow-11)
+advmod(eaten-19, when-12)
+dep(when-12, most-13)
+prep(most-13, of-14)
+det(time-16, the-15)
+pobj(of-14, time-16)
+nsubjpass(eaten-19, it-17)
+auxpass(eaten-19, is-18)
+rcmod(Teow-11, eaten-19)
+prep(eaten-19, with-20)
+nn(Hoon-23, Chor-21)
+nn(Hoon-23, Bee-22)
+pobj(with-20, Hoon-23)
+
+
+(ROOT
+  (FRAG
+    (PP (IN '')
+      (NP (NNP Well)))
+    (, ,)))
+
+
+pobj(''-1, Well-2)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (VBD was)
+      (NP
+        (NP (DT another) (NN moment))
+        (PP (IN of)
+          (NP (NN revelation))))
+      (SBAR (IN for)
+        (S
+          (NP (PRP me))
+          (VP (TO to)
+            (VP (VB realize)
+              (SBAR (IN that)
+                (S
+                  (NP (DT the) (JJ original) (NNP Teochew) (NNP Style) (NN Beef) (NNP Kway) (NNP Teow))
+                  (VP (VBD was)
+                    (ADVP (RB indeed))
+                    (NP
+                      (NP (DT a) (NN bowl))
+                      (PP (IN of)
+                        (NP
+                          (NP (NNP Kway) (NNP Teow))
+                          (PP (IN in)
+                            (NP (DT a) (NN beef) (NN broth))))))))))))))
+    (. .)))
+
+
+nsubj(moment-4, it-1)
+cop(moment-4, was-2)
+det(moment-4, another-3)
+root(ROOT-0, moment-4)
+prep(moment-4, of-5)
+pobj(of-5, revelation-6)
+mark(realize-10, for-7)
+nsubj(realize-10, me-8)
+aux(realize-10, to-9)
+advcl(moment-4, realize-10)
+mark(bowl-22, that-11)
+det(Teow-18, the-12)
+amod(Teow-18, original-13)
+nn(Teow-18, Teochew-14)
+nn(Teow-18, Style-15)
+nn(Teow-18, Beef-16)
+nn(Teow-18, Kway-17)
+nsubj(bowl-22, Teow-18)
+cop(bowl-22, was-19)
+advmod(bowl-22, indeed-20)
+det(bowl-22, a-21)
+ccomp(realize-10, bowl-22)
+prep(bowl-22, of-23)
+nn(Teow-25, Kway-24)
+pobj(of-23, Teow-25)
+prep(Teow-25, in-26)
+det(broth-29, a-27)
+nn(broth-29, beef-28)
+pobj(in-26, broth-29)
+
+
+(ROOT
+  (S
+    (ADVP (RB Actually))
+    (NP (PRP it))
+    (VP (VBZ is)
+      (ADJP (RB very) (JJ much)
+        (PP (IN like)
+          (NP (DT the) (JJ Vietnamese) (NN Pho)))))
+    (. .)))
+
+
+advmod(much-5, Actually-1)
+nsubj(much-5, it-2)
+cop(much-5, is-3)
+advmod(much-5, very-4)
+root(ROOT-0, much-5)
+prep(much-5, like-6)
+det(Pho-9, the-7)
+amod(Pho-9, Vietnamese-8)
+pobj(like-6, Pho-9)
+
+
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBD was)
+      (SBAR
+        (WHADVP (WRB how))
+        (S
+          (NP (NNP Teochew) (NN Beef) (NNP Kway) (NNP Teow))
+          (VP (VBZ has)
+            (VP (VBN been)
+              (VP (VBN served)
+                (ADVP (DT all) (IN along))
+                (SBAR (IN until)
+                  (S
+                    (NP (DT the) (NN uncle))
+                    (VP (VBD took)
+                      (PP (IN over)
+                        (NP (DT the) (NN stall)))
+                      (PP (IN in)
+                        (NP (DT the) (NN 70s))))))))))))
+    (. .)))
+
+
+nsubj(was-2, This-1)
+root(ROOT-0, was-2)
+advmod(served-10, how-3)
+nn(Teow-7, Teochew-4)
+nn(Teow-7, Beef-5)
+nn(Teow-7, Kway-6)
+nsubjpass(served-10, Teow-7)
+aux(served-10, has-8)
+auxpass(served-10, been-9)
+ccomp(was-2, served-10)
+dep(along-12, all-11)
+advmod(served-10, along-12)
+mark(took-16, until-13)
+det(uncle-15, the-14)
+nsubj(took-16, uncle-15)
+advcl(served-10, took-16)
+prep(took-16, over-17)
+det(stall-19, the-18)
+pobj(over-17, stall-19)
+prep(took-16, in-20)
+det(70s-22, the-21)
+pobj(in-20, 70s-22)
+
+
+(ROOT
+  (FRAG
+    (PP (IN By)
+      (NP (DT that) (NN time)))
+    (, ,)))
+
+
+root(ROOT-0, By-1)
+det(time-3, that-2)
+pobj(By-1, time-3)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NNP Hainanese) (NN version))
+    (VP (VBD had)
+      (VP (VBN become)
+        (S
+          (ADJP (RB very) (JJ popular)))))
+    (, ,)))
+
+
+det(version-3, the-1)
+nn(version-3, Hainanese-2)
+nsubj(become-5, version-3)
+aux(become-5, had-4)
+root(ROOT-0, become-5)
+advmod(popular-7, very-6)
+acomp(become-5, popular-7)
+
+
+(ROOT
+  (S (IN so)
+    (NP
+      (NP (NNS lots))
+      (PP (IN of)
+        (NP (NNS people))))
+    (VP (VBD were)
+      (VP (VBG asking)
+        (NP (PRP him))
+        (PP (IN for)
+          (NP
+            (NP (DT the) (JJ dry) (NN version))
+            (PP (IN with)
+              (NP
+                (NP (DT the) (JJ thick) (NN gravy))
+                (CC and)
+                (NP (NNP coarse) (NNP Bee) (NNP Hoon))))))))
+    (. .)))
+
+
+dep(asking-6, so-1)
+nsubj(asking-6, lots-2)
+prep(lots-2, of-3)
+pobj(of-3, people-4)
+aux(asking-6, were-5)
+root(ROOT-0, asking-6)
+dobj(asking-6, him-7)
+prep(asking-6, for-8)
+det(version-11, the-9)
+amod(version-11, dry-10)
+pobj(for-8, version-11)
+prep(version-11, with-12)
+det(gravy-15, the-13)
+amod(gravy-15, thick-14)
+pobj(with-12, gravy-15)
+cc(gravy-15, and-16)
+nn(Hoon-19, coarse-17)
+nn(Hoon-19, Bee-18)
+conj(gravy-15, Hoon-19)
+
+
+(ROOT
+  (S (IN So)
+    (NP (DT that))
+    (VP (VBD was)
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP he))
+          (VP (VBD came)
+            (PRT (RP up))
+            (PP (IN with)
+              (NP (DT the) (JJ dry) (NN version)))))))
+    (. .)))
+
+
+dep(was-3, So-1)
+nsubj(was-3, that-2)
+root(ROOT-0, was-3)
+advmod(came-6, when-4)
+nsubj(came-6, he-5)
+advcl(was-3, came-6)
+prt(came-6, up-7)
+prep(came-6, with-8)
+det(version-11, the-9)
+amod(version-11, dry-10)
+pobj(with-8, version-11)
+
+
+(ROOT
+  (FRAG (RB So) (JJ ,)))
+
+
+root(ROOT-0, So-1)
+
+
+(ROOT
+  (SBAR (IN if)
+    (S
+      (NP (DT the) (JJ original) (NNP Teochew) (NN Beef))
+      (VP
+        (NP
+          (NP (NNP Kway) (NNP Teow))
+          (SBAR
+            (WHNP (WP what))
+            (S
+              (NP (PRP you))
+              (VP (VBP are)))))
+        (PRN
+          (PP (IN after))
+          (, ,))))))
+
+
+mark(Teow-7, if-1)
+det(Beef-5, the-2)
+amod(Beef-5, original-3)
+nn(Beef-5, Teochew-4)
+nsubj(Teow-7, Beef-5)
+nn(Teow-7, Kway-6)
+root(ROOT-0, Teow-7)
+dobj(are-10, what-8)
+nsubj(are-10, you-9)
+rcmod(Teow-7, are-10)
+dep(Teow-7, after-11)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (MD should)
+      (VP (VB order)
+        (NP
+          (NP (DT the) (NNP Beef) (NNP Kway) (NNP Teow) (NN soup))
+          (PP (RB instead) (IN of)
+            (NP (DT the) (JJ dry) (NN version))))
+        (PP (IN with)
+          (NP (NNP Chor) (NNP Bee) (NNP Hoon)))))
+    (. .)))
+
+
+nsubj(order-3, you-1)
+aux(order-3, should-2)
+root(ROOT-0, order-3)
+det(soup-8, the-4)
+nn(soup-8, Beef-5)
+nn(soup-8, Kway-6)
+nn(soup-8, Teow-7)
+dobj(order-3, soup-8)
+advmod(of-10, instead-9)
+prep(soup-8, of-10)
+det(version-13, the-11)
+amod(version-13, dry-12)
+pobj(of-10, version-13)
+prep(order-3, with-14)
+nn(Hoon-17, Chor-15)
+nn(Hoon-17, Bee-16)
+pobj(with-14, Hoon-17)
+
+
+(ROOT
+  (S (CC And)
+    (VP (VBP do) (RB n't)
+      (VP (VB ask)
+        (PP (IN for)
+          (NP
+            (NP
+              (NP (NN cincalok))
+              (PRN (-LRB- -LRB-)
+                (NP (JJ fermented) (NN shrimp))
+                (-RRB- -RRB-)))
+            (PP (IN in)
+              (NP (PRP$ your) (NNS chilli)))))
+        (SBAR (IN because)
+          (S
+            (NP (DT the) (NNPS Teochews))
+            (VP (VBP prefer)
+              (S
+                (VP (TO to)
+                  (VP (VB use)
+                    (NP (JJ grated) (JJ blue) (NN ginger))
+                    (ADVP (RB instead))))))))))
+    (. .)))
+
+
+cc(ask-4, And-1)
+aux(ask-4, do-2)
+neg(ask-4, n't-3)
+root(ROOT-0, ask-4)
+prep(ask-4, for-5)
+pobj(for-5, cincalok-6)
+amod(shrimp-9, fermented-8)
+appos(cincalok-6, shrimp-9)
+prep(cincalok-6, in-11)
+poss(chilli-13, your-12)
+pobj(in-11, chilli-13)
+mark(prefer-17, because-14)
+det(Teochews-16, the-15)
+nsubj(prefer-17, Teochews-16)
+advcl(ask-4, prefer-17)
+aux(use-19, to-18)
+xcomp(prefer-17, use-19)
+amod(ginger-22, grated-20)
+amod(ginger-22, blue-21)
+dobj(use-19, ginger-22)
+advmod(use-19, instead-23)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (VBP want)
+        (S
+          (VP (TO to)
+            (VP (VB eat)
+              (NP (NNS chilli))
+              (PP (IN with)
+                (NP (NN cincalok)))))))
+      (, ,))))
+
+
+mark(want-3, If-1)
+nsubj(want-3, you-2)
+root(ROOT-0, want-3)
+aux(eat-5, to-4)
+xcomp(want-3, eat-5)
+dobj(eat-5, chilli-6)
+prep(eat-5, with-7)
+pobj(with-7, cincalok-8)
+
+
+(ROOT
+  (S
+    (ADVP (RB then))
+    (NP (PRP you))
+    (VP (MD should)
+      (ADVP (RB really))
+      (VP (VB visit)
+        (NP
+          (NP (DT a) (NNP Hainanese) (NNP Beef) (NNP Kway) (NNP Teow) (NN stall))
+          (PP (IN like)
+            (NP
+              (NP (NNP Hai) (NNP Nan) (NNP Xin) (NNP Zhou) (NNP Beef) (NNP Noodles))
+              (PP (IN in)
+                (NP (NNP Toa) (NNP Payoh) (NNP Lor) (CD 7))))))))
+    (. .)))
+
+
+advmod(visit-5, then-1)
+nsubj(visit-5, you-2)
+aux(visit-5, should-3)
+advmod(visit-5, really-4)
+root(ROOT-0, visit-5)
+det(stall-11, a-6)
+nn(stall-11, Hainanese-7)
+nn(stall-11, Beef-8)
+nn(stall-11, Kway-9)
+nn(stall-11, Teow-10)
+dobj(visit-5, stall-11)
+prep(stall-11, like-12)
+nn(Noodles-18, Hai-13)
+nn(Noodles-18, Nan-14)
+nn(Noodles-18, Xin-15)
+nn(Noodles-18, Zhou-16)
+nn(Noodles-18, Beef-17)
+pobj(like-12, Noodles-18)
+prep(Noodles-18, in-19)
+nn(Lor-22, Toa-20)
+nn(Lor-22, Payoh-21)
+pobj(in-19, Lor-22)
+num(Lor-22, 7-23)
+
+
+(ROOT
+  (FRAG
+    (ADJP (JJ Notice))
+    (SBAR (IN that)
+      (S
+        (NP (PRP it))
+        (VP (VBZ is) (RB not)
+          (ADVP (RB even))
+          (VP (VBN called)
+            (NP (NNP Beef) (NNP Kway) (NNP Teow))))))
+    (. ?)))
+
+
+root(ROOT-0, Notice-1)
+mark(called-7, that-2)
+nsubjpass(called-7, it-3)
+auxpass(called-7, is-4)
+neg(called-7, not-5)
+advmod(called-7, even-6)
+dep(Notice-1, called-7)
+nn(Teow-10, Beef-8)
+nn(Teow-10, Kway-9)
+dobj(called-7, Teow-10)
+
+
+(ROOT
+  (S
+    (VP (VBN Conclusion)
+      (PP (RB So))
+      (, ,))))
+
+
+root(ROOT-0, Conclusion-1)
+prep(Conclusion-1, So-2)
+
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB when))
+      (S
+        (NP (PRP you))
+        (VP (VBP eat))))
+    (NP (NN beef))
+    (ADVP (RB kway))
+    (VP (VBD teow))
+    (, ,)))
+
+
+advmod(eat-3, when-1)
+nsubj(eat-3, you-2)
+advcl(teow-6, eat-3)
+nsubj(teow-6, beef-4)
+advmod(teow-6, kway-5)
+root(ROOT-0, teow-6)
+
+
+(ROOT
+  (SBARQ
+    (WHNP (WP what))
+    (SQ (VBP do)
+      (NP (PRP you))
+      (ADVP (RB usually))
+      (VP (VB order)))
+    (. ?)))
+
+
+dobj(order-5, what-1)
+aux(order-5, do-2)
+nsubj(order-5, you-3)
+advmod(order-5, usually-4)
+root(ROOT-0, order-5)
+
+
+(ROOT
+  (INTJ
+    (INTJ (UH Dry))
+    (CC or)
+    (INTJ (UH soup) (. ?))))
+
+
+root(ROOT-0, Dry-1)
+cc(Dry-1, or-2)
+discourse(Dry-1, soup-3)
+
+
+(ROOT
+  (SQ (VBP Are)
+    (NP
+      (NP (PRP you))
+      (NP
+        (NP (DT a) (NNP Teochew) (NNP Beef) (NNP Kway) (NNP Teow) (NN person))
+        (CC or)
+        (NP (DT a) (NNP Hainanese) (NNP Beef) (NNP Noodle))))
+    (ADJP (JJ person))
+    (. ?)))
+
+
+cop(person-14, Are-1)
+nsubj(person-14, you-2)
+det(person-8, a-3)
+nn(person-8, Teochew-4)
+nn(person-8, Beef-5)
+nn(person-8, Kway-6)
+nn(person-8, Teow-7)
+dep(you-2, person-8)
+cc(person-8, or-9)
+det(Noodle-13, a-10)
+nn(Noodle-13, Hainanese-11)
+nn(Noodle-13, Beef-12)
+conj(person-8, Noodle-13)
+root(ROOT-0, person-14)
+
+

@@ -1,0 +1,389 @@
+(ROOT
+  (S
+    (NP (DT This) (NN contest))
+    (VP (VBZ is)
+      (ADJP (JJ closed)))
+    (. !)))
+
+
+det(contest-2, This-1)
+nsubj(closed-4, contest-2)
+cop(closed-4, is-3)
+root(ROOT-0, closed-4)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Sweet))
+      (CC and)
+      (NP (JJ sour) (NN pork)))
+    (VP (VBZ has)
+      (ADVP (RB always))
+      (VP (VBN been)
+        (NP
+          (NP (CD one))
+          (PP (IN of)
+            (NP (PRP$ my) (JJ favorite) (NNS dishes))))))
+    (. .)))
+
+
+nsubj(one-8, Sweet-1)
+cc(Sweet-1, and-2)
+amod(pork-4, sour-3)
+conj(Sweet-1, pork-4)
+aux(one-8, has-5)
+advmod(one-8, always-6)
+cop(one-8, been-7)
+root(ROOT-0, one-8)
+prep(one-8, of-9)
+poss(dishes-12, my-10)
+amod(dishes-12, favorite-11)
+pobj(of-9, dishes-12)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ first) (NN time))
+      (SBAR
+        (S
+          (NP (PRP I))
+          (ADVP (RB ever))
+          (VP (VBD ate)
+            (NP (DT this) (NN dish))))))
+    (VP (VBD was)
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP$ our) (NN nanny))
+          (VP (VBN cooked)
+            (NP (PRP it))
+            (PP (IN for)
+              (NP (PRP us)))))))
+    (. .)))
+
+
+det(time-3, The-1)
+amod(time-3, first-2)
+nsubj(was-9, time-3)
+nsubj(ate-6, I-4)
+advmod(ate-6, ever-5)
+rcmod(time-3, ate-6)
+det(dish-8, this-7)
+dobj(ate-6, dish-8)
+root(ROOT-0, was-9)
+advmod(cooked-13, when-10)
+poss(nanny-12, our-11)
+nsubj(cooked-13, nanny-12)
+advcl(was-9, cooked-13)
+dobj(cooked-13, it-14)
+prep(cooked-13, for-15)
+pobj(for-15, us-16)
+
+
+(ROOT
+  (S
+    (PP (IN From)
+      (NP
+        (NP (RB then))
+        (PP (IN on)
+          (NP
+            (NP (PRP$ my) (NNS brothers))
+            (CC and)
+            (S
+              (NP (PRP I))
+              (VP (VBD got)
+                (ADJP (RB really) (RB really) (JJ excited))
+                (NP (DT every) (NN time))))))))
+    (NP (PRP she))
+    (VP (VBD announced)
+      (SBAR (IN that)
+        (S
+          (NP (PRP it))
+          (VP (VBD was)
+            (ADJP (JJ sweet)
+              (CC and)
+              (JJ sour))
+            (NP (NN pork) (NN day))))))
+    (. !)))
+
+
+prep(announced-15, From-1)
+pobj(From-1, then-2)
+prep(then-2, on-3)
+poss(brothers-5, my-4)
+pobj(on-3, brothers-5)
+cc(brothers-5, and-6)
+nsubj(excited-11, I-7)
+dep(excited-11, got-8)
+advmod(excited-11, really-9)
+advmod(excited-11, really-10)
+conj(brothers-5, excited-11)
+det(time-13, every-12)
+dobj(excited-11, time-13)
+nsubj(announced-15, she-14)
+root(ROOT-0, announced-15)
+mark(sweet-19, that-16)
+nsubj(sweet-19, it-17)
+cop(sweet-19, was-18)
+ccomp(announced-15, sweet-19)
+cc(sweet-19, and-20)
+conj(sweet-19, sour-21)
+nn(day-23, pork-22)
+attr(sweet-19, day-23)
+
+
+(ROOT
+  (FRAG
+    (NP (RB Even) (NN today) (NNS ,))))
+
+
+advmod(,-3, Even-1)
+nn(,-3, today-2)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD would)
+      (ADVP (RB still))
+      (VP (VB get)
+        (NP (DT a) (NN buzz))
+        (SBAR
+          (WHADVP (WRB whenever))
+          (S
+            (NP (PRP$ my) (NN maid))
+            (VP (VBZ tells)
+              (NP (PRP me))
+              (PP (IN that)
+                (NP (PRP$ its)
+                  (ADJP (JJ sweet)
+                    (CC and)
+                    (JJ sour))
+                  (NN pork) (NN day))))))))
+    (. !)))
+
+
+nsubj(get-4, I-1)
+aux(get-4, would-2)
+advmod(get-4, still-3)
+root(ROOT-0, get-4)
+det(buzz-6, a-5)
+dobj(get-4, buzz-6)
+advmod(tells-10, whenever-7)
+poss(maid-9, my-8)
+nsubj(tells-10, maid-9)
+advcl(get-4, tells-10)
+dobj(tells-10, me-11)
+prep(tells-10, that-12)
+poss(day-18, its-13)
+amod(day-18, sweet-14)
+cc(sweet-14, and-15)
+conj(sweet-14, sour-16)
+nn(day-18, pork-17)
+pobj(that-12, day-18)
+
+
+(ROOT
+  (SQ (VBP Do)
+    (NP (PRP you))
+    (VP (VB have)
+      (NP
+        (NP (DT a) (JJ favorite) (NN food) (NN memory))
+        (PP (IN from)
+          (NP (NN childhood)))))
+    (. ?)))
+
+
+aux(have-3, Do-1)
+nsubj(have-3, you-2)
+root(ROOT-0, have-3)
+det(memory-7, a-4)
+amod(memory-7, favorite-5)
+nn(memory-7, food-6)
+dobj(have-3, memory-7)
+prep(memory-7, from-8)
+pobj(from-8, childhood-9)
+
+
+(ROOT
+  (NP
+    (NP (NNP Submit))
+    (PRN
+      (ADVP (RB either))
+      (NP (DT a) (NN photo))
+      (, ,))))
+
+
+root(ROOT-0, Submit-1)
+dep(photo-4, either-2)
+det(photo-4, a-3)
+dep(Submit-1, photo-4)
+
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (NN drawing))
+        (CC or)
+        (NP (RB simply) (DT a) (NN description)))
+      (PRN (-LRB- -LRB-)
+        (PP (IN like)
+          (NP (DT the) (JJ short) (NN para))
+          (ADVP (RB above)))
+        (-RRB- -RRB-))
+      (PP (IN of)
+        (NP (PRP$ your) (JJ favorite) (NN home))))
+    (VP (VBN cooked)
+      (NP (NN food))
+      (PP (IN by)
+        (NP (PRP$ your) (NN family) (NN member)))
+      (SBAR (IN to)
+        (S (-LRB- -LRB-)
+          (VP
+            (ADVP (RB remember))
+            (TO to)
+            (VP (VB include)
+              (NP (PRP$ your) (NN contact) (NN no.)))))))
+    (. !)))
+
+
+nsubj(cooked-17, drawing-1)
+cc(drawing-1, or-2)
+advmod(description-5, simply-3)
+det(description-5, a-4)
+conj(drawing-1, description-5)
+prep(drawing-1, like-7)
+det(para-10, the-8)
+amod(para-10, short-9)
+pobj(like-7, para-10)
+advmod(like-7, above-11)
+prep(drawing-1, of-13)
+poss(home-16, your-14)
+amod(home-16, favorite-15)
+pobj(of-13, home-16)
+root(ROOT-0, cooked-17)
+dobj(cooked-17, food-18)
+prep(cooked-17, by-19)
+poss(member-22, your-20)
+nn(member-22, family-21)
+pobj(by-19, member-22)
+mark(include-27, to-23)
+advmod(include-27, remember-25)
+aux(include-27, to-26)
+advcl(cooked-17, include-27)
+poss(no.-30, your-28)
+nn(no.-30, contact-29)
+dobj(include-27, no.-30)
+
+
+(ROOT
+  (S
+    (NP (NNP -RRB-)
+      (CC and)
+      (PRP you))
+    (VP (MD can)
+      (VP (VB win)
+        (NP
+          (NP (DT a) (JJ signed) (NN copy))
+          (PP (IN of)
+            (NP (PRP$ my) (NN book))))
+        (NP
+          (NP (DT The) (NN End))
+          (PP (IN of)
+            (NP (NNP Char) (NNP Kway) (NNP Teow))))))
+    (. !)))
+
+
+cc(-RRB--1, and-2)
+conj(-RRB--1, you-3)
+aux(win-5, can-4)
+det(copy-8, a-6)
+amod(copy-8, signed-7)
+iobj(win-5, copy-8)
+prep(copy-8, of-9)
+poss(book-11, my-10)
+pobj(of-9, book-11)
+det(End-13, The-12)
+dobj(win-5, End-13)
+prep(End-13, of-14)
+nn(Teow-17, Char-15)
+nn(Teow-17, Kway-16)
+pobj(of-14, Teow-17)
+
+
+(ROOT
+  (S
+    (NP (JJ Top) (CD 20) (JJS most) (JJ creative) (NNS entries))
+    (VP (MD will)
+      (VP (VB be)
+        (VP (VBN announced)
+          (NP (DT this) (NNP Friday))
+          (PP (IN at)
+            (NP
+              (NP (NN noon))
+              (CC and)
+              (S
+                (NP (PRP I))
+                (VP (MD will)
+                  (ADVP (RB personally))
+                  (VP (VB autograph)
+                    (NP
+                      (NP (DT the) (NN book))
+                      (PP (IN for)
+                        (NP (PRP you))))
+                    (NP (DT this) (NNP Saturday))
+                    (PP (IN at)
+                      (NP
+                        (NP (NNP Chye) (NNP Seng) (NNP Huat) (NNP Hardware))
+                        (PP (IN during)
+                          (NP (DT the) (NNP Grandest) (NNP Story) (NNP Ever) (NNP Told) (NN event)))))))))))))
+    (: :)))
+
+
+amod(entries-5, Top-1)
+num(entries-5, 20-2)
+amod(entries-5, most-3)
+amod(entries-5, creative-4)
+nsubjpass(announced-8, entries-5)
+aux(announced-8, will-6)
+auxpass(announced-8, be-7)
+root(ROOT-0, announced-8)
+det(Friday-10, this-9)
+tmod(announced-8, Friday-10)
+prep(announced-8, at-11)
+pobj(at-11, noon-12)
+cc(noon-12, and-13)
+nsubj(autograph-17, I-14)
+aux(autograph-17, will-15)
+advmod(autograph-17, personally-16)
+conj(noon-12, autograph-17)
+det(book-19, the-18)
+dobj(autograph-17, book-19)
+prep(book-19, for-20)
+pobj(for-20, you-21)
+det(Saturday-23, this-22)
+tmod(autograph-17, Saturday-23)
+prep(autograph-17, at-24)
+nn(Hardware-28, Chye-25)
+nn(Hardware-28, Seng-26)
+nn(Hardware-28, Huat-27)
+pobj(at-24, Hardware-28)
+prep(Hardware-28, during-29)
+det(event-35, the-30)
+nn(event-35, Grandest-31)
+nn(event-35, Story-32)
+nn(event-35, Ever-33)
+nn(event-35, Told-34)
+pobj(during-29, event-35)
+
+
+(ROOT
+  (NP (NNS http://www.facebook.com/events/130987880381641/)))
+
+
+root(ROOT-0, http://www.facebook.com/events/130987880381641/-1)
+
+

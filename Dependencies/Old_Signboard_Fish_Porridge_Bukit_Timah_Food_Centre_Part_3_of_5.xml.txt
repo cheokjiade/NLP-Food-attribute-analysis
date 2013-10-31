@@ -1,0 +1,275 @@
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (VBP are)
+        (UCP
+          (PP (IN in)
+            (NP (DT the) (NNP Bukit) (NNP Timah) (NNP Food) (NNP Centre)))
+          (CC and)
+          (S
+            (VP (VBG feeling)
+              (ADJP (JJ guilty))
+              (PP (IN about)
+                (NP (PDT all) (DT the) (NN lardy)))
+              (, ,))))))))
+
+
+mark(are-3, If-1)
+nsubj(are-3, you-2)
+root(ROOT-0, are-3)
+dep(are-3, in-4)
+det(Centre-9, the-5)
+nn(Centre-9, Bukit-6)
+nn(Centre-9, Timah-7)
+nn(Centre-9, Food-8)
+pobj(in-4, Centre-9)
+cc(in-4, and-10)
+conj(in-4, feeling-11)
+acomp(feeling-11, guilty-12)
+prep(feeling-11, about-13)
+predet(lardy-16, all-14)
+det(lardy-16, the-15)
+pobj(about-13, lardy-16)
+
+
+(ROOT
+  (S
+    (NP (NN artery) (NNS clogging))
+    (VP (VBP stuff)
+      (SBAR (IN that)
+        (S
+          (NP (PRP you))
+          (VP (VBP have)
+            (VP (VBN eaten)
+              (NP (DT the) (NN night))
+              (PP (IN before)))))))
+    (, ,)))
+
+
+nn(clogging-2, artery-1)
+nsubj(stuff-3, clogging-2)
+root(ROOT-0, stuff-3)
+mark(eaten-7, that-4)
+nsubj(eaten-7, you-5)
+aux(eaten-7, have-6)
+ccomp(stuff-3, eaten-7)
+det(night-9, the-8)
+tmod(eaten-7, night-9)
+prep(eaten-7, before-10)
+
+
+(ROOT
+  (S (RB then)
+    (VP (VB have)
+      (NP (DT no) (NN fear)))
+    (. !)))
+
+
+advmod(have-2, then-1)
+root(ROOT-0, have-2)
+det(fear-4, no-3)
+dobj(have-2, fear-4)
+
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBZ 's)
+      (NP
+        (NP (DT a)
+          (ADJP (RB pretty) (JJ decent))
+          (NN fish) (NN soup) (NN stall))
+        (PP (IN in)
+          (NP (DT the) (NN food) (NN center))))
+      (SBAR
+        (WHADVP (WRB where))
+        (S
+          (NP (PRP you))
+          (VP (MD can)
+            (VP
+              (VP (VB make)
+                (NP (PRP$ your) (NN confession)))
+              (CC and)
+              (VP (VB receive)
+                (NP (DT a) (NN pardon))))))))
+    (. .)))
+
+
+expl('s-2, There-1)
+root(ROOT-0, 's-2)
+det(stall-8, a-3)
+advmod(decent-5, pretty-4)
+amod(stall-8, decent-5)
+nn(stall-8, fish-6)
+nn(stall-8, soup-7)
+nsubj('s-2, stall-8)
+prep(stall-8, in-9)
+det(center-12, the-10)
+nn(center-12, food-11)
+pobj(in-9, center-12)
+advmod(make-16, where-13)
+nsubj(make-16, you-14)
+aux(make-16, can-15)
+advcl('s-2, make-16)
+poss(confession-18, your-17)
+dobj(make-16, confession-18)
+cc(make-16, and-19)
+conj(make-16, receive-20)
+det(pardon-22, a-21)
+dobj(receive-20, pardon-22)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NN stall))
+    (VP (VBZ makes)
+      (S
+        (NP (PRP it))
+        (ADJP (RB very) (JJ clear)))
+      (SBAR
+        (SBAR (IN that)
+          (S
+            (NP (PRP they))
+            (VP (VBP have)
+              (VP (VBN been)
+                (ADVP (RB around))
+                (PP (IN since)
+                  (NP (CD 1966)))))))
+        (CC and)
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBZ 's)
+              (NP (DT a) (JJ good) (NN thing)))))))
+    (. .)))
+
+
+det(stall-2, The-1)
+nsubj(makes-3, stall-2)
+root(ROOT-0, makes-3)
+nsubj(clear-6, it-4)
+advmod(clear-6, very-5)
+xcomp(makes-3, clear-6)
+mark(been-10, that-7)
+nsubj(been-10, they-8)
+aux(been-10, have-9)
+ccomp(makes-3, been-10)
+advmod(been-10, around-11)
+prep(been-10, since-12)
+pobj(since-12, 1966-13)
+cc(been-10, and-14)
+nsubj(thing-19, that-15)
+cop(thing-19, 's-16)
+det(thing-19, a-17)
+amod(thing-19, good-18)
+conj(been-10, thing-19)
+
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP serve)
+      (NP
+        (NP (DT both) (NN Batang))
+        (CC and)
+        (NP (DT the)
+          (ADJP (RBR more) (JJ expensive))
+          (NNP Red) (NNP Grouper))))
+    (. .)))
+
+
+nsubj(serve-2, They-1)
+root(ROOT-0, serve-2)
+det(Batang-4, both-3)
+dobj(serve-2, Batang-4)
+cc(Batang-4, and-5)
+det(Grouper-10, the-6)
+advmod(expensive-8, more-7)
+amod(Grouper-10, expensive-8)
+nn(Grouper-10, Red-9)
+conj(Batang-4, Grouper-10)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ My) (NN wife))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBZ is)
+            (NP (DT the) (NN fish) (NN soup) (NN afficianado))))))
+    (VP (VBD said)
+      (SBAR
+        (S
+          (S
+            (NP (DT the) (NN fish) (NN soup))
+            (VP (VBD was)
+              (ADJP (RB really) (JJ good))))
+          (CC and)
+          (S
+            (NP (DT the) (NN fish))
+            (VP (VBD was)
+              (ADJP (JJ fresh)))))))
+    (. .)))
+
+
+poss(wife-2, My-1)
+nsubj(said-9, wife-2)
+nsubj(afficianado-8, who-3)
+cop(afficianado-8, is-4)
+det(afficianado-8, the-5)
+nn(afficianado-8, fish-6)
+nn(afficianado-8, soup-7)
+rcmod(wife-2, afficianado-8)
+root(ROOT-0, said-9)
+det(soup-12, the-10)
+nn(soup-12, fish-11)
+nsubj(good-15, soup-12)
+cop(good-15, was-13)
+advmod(good-15, really-14)
+dep(said-9, good-15)
+cc(good-15, and-16)
+det(fish-18, the-17)
+nsubj(fresh-20, fish-18)
+cop(fresh-20, was-19)
+conj(good-15, fresh-20)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD felt)
+      (SBAR
+        (S
+          (NP (PRP it))
+          (VP (VBD was)
+            (UCP
+              (NP
+                (NP (DT a) (JJ decent) (NN bowl))
+                (PP (IN of)
+                  (NP (NN fish) (NN soup))))
+              (CC and)
+              (RRC
+                (ADJP (JJR better))
+                (ADVP (IN than) (JJS most))))))))
+    (. .)))
+
+
+nsubj(felt-2, I-1)
+root(ROOT-0, felt-2)
+nsubj(bowl-7, it-3)
+cop(bowl-7, was-4)
+det(bowl-7, a-5)
+amod(bowl-7, decent-6)
+ccomp(felt-2, bowl-7)
+prep(bowl-7, of-8)
+nn(soup-10, fish-9)
+pobj(of-8, soup-10)
+cc(bowl-7, and-11)
+conj(bowl-7, better-12)
+advmod(better-12, than-13)
+dep(than-13, most-14)
+
+

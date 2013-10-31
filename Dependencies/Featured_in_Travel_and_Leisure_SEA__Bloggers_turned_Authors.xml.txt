@@ -1,0 +1,76 @@
+(ROOT
+  (S
+    (NP (NNP A))
+    (VP (VBD bit)
+      (ADVP (RB late)))
+    (, ,)))
+
+
+nsubj(bit-2, A-1)
+root(ROOT-0, bit-2)
+advmod(bit-2, late-3)
+
+
+(ROOT
+  (S (CC but)
+    (NP (PRP I))
+    (ADVP (RB just))
+    (VP (VBD got)
+      (NP
+        (NP (NN hold))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (NN article))
+            (PP (IN in)
+              (NP (NNP Travel) (NNP +) (NNP Leisure) (NNP SEA) (NNP Sep) (NNP 2011) (NN issue))))))
+      (SBAR
+        (WHADVP (WRB where))
+        (S
+          (NP (PRP they))
+          (VP (VBD featured)
+            (NP (PRP$ my) (NN book))
+            (PP (IN as)
+              (NP
+                (NP (CD one))
+                (PP (IN of)
+                  (NP (CD four) (NNS books)))))
+            (PP (IN by)
+              (NP
+                (NP (NNS bloggers))
+                (VP (VBN turned)
+                  (NP (NNS authors)))))))))
+    (. !)))
+
+
+cc(got-4, but-1)
+nsubj(got-4, I-2)
+advmod(got-4, just-3)
+root(ROOT-0, got-4)
+dobj(got-4, hold-5)
+prep(hold-5, of-6)
+det(article-8, the-7)
+pobj(of-6, article-8)
+prep(article-8, in-9)
+nn(issue-16, Travel-10)
+nn(issue-16, +-11)
+nn(issue-16, Leisure-12)
+nn(issue-16, SEA-13)
+nn(issue-16, Sep-14)
+nn(issue-16, 2011-15)
+pobj(in-9, issue-16)
+advmod(featured-19, where-17)
+nsubj(featured-19, they-18)
+advcl(got-4, featured-19)
+poss(book-21, my-20)
+dobj(featured-19, book-21)
+prep(featured-19, as-22)
+pobj(as-22, one-23)
+prep(one-23, of-24)
+num(books-26, four-25)
+pobj(of-24, books-26)
+prep(featured-19, by-27)
+pobj(by-27, bloggers-28)
+partmod(bloggers-28, turned-29)
+dobj(turned-29, authors-30)
+
+

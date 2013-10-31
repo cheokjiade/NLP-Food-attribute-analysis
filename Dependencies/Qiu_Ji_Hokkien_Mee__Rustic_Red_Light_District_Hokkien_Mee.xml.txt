@@ -1,0 +1,488 @@
+(ROOT
+  (FRAG
+    (ADVP (RB Yet))
+    (NP
+      (NP (DT another) (NNP Hokkien) (NNP Mee))
+      (SBAR
+        (S
+          (VP (TO to)
+            (VP (VB add)
+              (PP (TO to)
+                (NP (DT the) (NN list))))))))
+    (. !)))
+
+
+dep(Mee-4, Yet-1)
+det(Mee-4, another-2)
+nn(Mee-4, Hokkien-3)
+root(ROOT-0, Mee-4)
+aux(add-6, to-5)
+infmod(Mee-4, add-6)
+prep(add-6, to-7)
+det(list-9, the-8)
+pobj(to-7, list-9)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBP have)
+        (VP (VBN been)
+          (VP (VBG eating)
+            (ADVP (RB here))
+            (PP (IN for)
+              (NP (JJ many) (NNS years)))))))
+    (CC but)
+    (S
+      (NP (DT this))
+      (VP (VBZ is)
+        (NP
+          (NP (DT the) (JJ first) (NN time))
+          (PP (IN after)
+            (NP (PRP$ their) (NN renovation))))))
+    (. .)))
+
+
+nsubj(eating-4, I-1)
+aux(eating-4, have-2)
+aux(eating-4, been-3)
+root(ROOT-0, eating-4)
+advmod(eating-4, here-5)
+prep(eating-4, for-6)
+amod(years-8, many-7)
+pobj(for-6, years-8)
+cc(eating-4, but-9)
+nsubj(time-14, this-10)
+cop(time-14, is-11)
+det(time-14, the-12)
+amod(time-14, first-13)
+conj(eating-4, time-14)
+prep(time-14, after-15)
+poss(renovation-17, their-16)
+pobj(after-15, renovation-17)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD was)
+      (ADJP (JJ surprised)
+        (S
+          (VP (TO to)
+            (VP (VB find)
+              (SBAR (IN that)
+                (S
+                  (NP (DT the) (NN stall))
+                  (VP (VBZ has)
+                    (VP (VBN started)
+                      (S
+                        (VP (VBG offering)
+                          (NP
+                            (NP (JJ other) (NN stuff))
+                            (PP (IN like)
+                              (NP (JJ fried) (NN oyster) (NN omelette))))
+                          (ADVP (RB as) (RB well)))))))))))))
+    (. .)))
+
+
+nsubj(surprised-3, I-1)
+cop(surprised-3, was-2)
+root(ROOT-0, surprised-3)
+aux(find-5, to-4)
+xcomp(surprised-3, find-5)
+mark(started-10, that-6)
+det(stall-8, the-7)
+nsubj(started-10, stall-8)
+aux(started-10, has-9)
+ccomp(find-5, started-10)
+xcomp(started-10, offering-11)
+amod(stuff-13, other-12)
+dobj(offering-11, stuff-13)
+prep(stuff-13, like-14)
+amod(omelette-17, fried-15)
+nn(omelette-17, oyster-16)
+pobj(like-14, omelette-17)
+advmod(well-19, as-18)
+advmod(offering-11, well-19)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NNP Hokkien) (NNP Mee))
+    (ADVP (RB here))
+    (VP (VBZ is)
+      (NP (DT the) (NN dark)))
+    (, ,)))
+
+
+det(Mee-3, The-1)
+nn(Mee-3, Hokkien-2)
+nsubj(dark-7, Mee-3)
+advmod(dark-7, here-4)
+cop(dark-7, is-5)
+det(dark-7, the-6)
+root(ROOT-0, dark-7)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB gooey))
+    (NP
+      (NP (NN type))
+      (SBAR
+        (WHNP (WDT which))
+        (S
+          (VP (VBZ uses)
+            (NP (JJ thin) (NN bee) (NN hoon))))))
+    (. .)))
+
+
+dep(type-2, gooey-1)
+root(ROOT-0, type-2)
+nsubj(uses-4, which-3)
+rcmod(type-2, uses-4)
+amod(hoon-7, thin-5)
+nn(hoon-7, bee-6)
+dobj(uses-4, hoon-7)
+
+
+(ROOT
+  (S (CC But)
+    (NP
+      (NP (DT the) (JJS best) (NN thing))
+      (SBAR (IN that)
+        (S
+          (NP (PRP I))
+          (VP (VBP remember)
+            (PP (IN about)
+              (NP (PRP it)))))))
+    (VP (VBD was)
+      (NP
+        (NP (DT the) (NNP Crispy) (NNP Lard))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBZ holds)
+              (NP
+                (NP (DT a) (JJ special) (NN place))
+                (PP (IN in)
+                  (NP
+                    (NP (PRP$ my) (NN heart))
+                    (PRN (-LRB- -LRB-)
+                      (VP
+                        (ADVP (RB probably))
+                        (VBN stuck)
+                        (PP (RB somewhere) (IN in)
+                          (NP
+                            (NP (DT a) (JJ few))
+                            (PP (IN of)
+                              (NP (DT the) (NNS arteries))))))
+                      (-RRB- -RRB-))))))))))
+    (. .)))
+
+
+cc(Lard-13, But-1)
+det(thing-4, the-2)
+amod(thing-4, best-3)
+nsubj(Lard-13, thing-4)
+mark(remember-7, that-5)
+nsubj(remember-7, I-6)
+dep(thing-4, remember-7)
+prep(remember-7, about-8)
+pobj(about-8, it-9)
+cop(Lard-13, was-10)
+det(Lard-13, the-11)
+nn(Lard-13, Crispy-12)
+root(ROOT-0, Lard-13)
+nsubj(holds-15, which-14)
+rcmod(Lard-13, holds-15)
+det(place-18, a-16)
+amod(place-18, special-17)
+dobj(holds-15, place-18)
+prep(place-18, in-19)
+poss(heart-21, my-20)
+pobj(in-19, heart-21)
+advmod(stuck-24, probably-23)
+dep(heart-21, stuck-24)
+advmod(in-26, somewhere-25)
+prep(stuck-24, in-26)
+det(few-28, a-27)
+pobj(in-26, few-28)
+prep(few-28, of-29)
+det(arteries-31, the-30)
+pobj(of-29, arteries-31)
+
+
+(ROOT
+  (FRAG
+    (PP
+      (ADVP (RB However))
+      (IN during)
+      (NP (PRP$ our) (JJ recent) (NN visit)))
+    (, ,)))
+
+
+advmod(during-2, However-1)
+root(ROOT-0, during-2)
+poss(visit-5, our-3)
+amod(visit-5, recent-4)
+pobj(during-2, visit-5)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (VP
+      (VP (VBD found)
+        (S
+          (NP (DT the) (NNP Crispy) (NNP Lard))
+          (VP (TO to)
+            (VP (VB be)
+              (ADJP (JJ dry))))))
+      (CC and)
+      (VP (VBP lack)
+        (ADJP (JJ lustre))))
+    (. .)))
+
+
+nsubj(found-2, we-1)
+root(ROOT-0, found-2)
+det(Lard-5, the-3)
+nn(Lard-5, Crispy-4)
+nsubj(dry-8, Lard-5)
+aux(dry-8, to-6)
+cop(dry-8, be-7)
+xcomp(found-2, dry-8)
+cc(found-2, and-9)
+conj(found-2, lack-10)
+acomp(lack-10, lustre-11)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (NP
+        (NP (DT a) (NN shadow))
+        (PP (IN of)
+          (NP (PRP$ its) (JJ glorious) (NN past)))))
+    (. .)))
+
+
+nsubj(shadow-4, It-1)
+cop(shadow-4, was-2)
+det(shadow-4, a-3)
+root(ROOT-0, shadow-4)
+prep(shadow-4, of-5)
+poss(past-8, its-6)
+amod(past-8, glorious-7)
+pobj(of-5, past-8)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NN owner))
+    (VP (VBD told)
+      (NP (PRP us))
+      (SBAR (IN that)
+        (S
+          (NP (PRP they))
+          (VP (VBD were)
+            (ADVP (RB still))
+            (VP (VBN prepared)
+              (NP (JJ fresh) (DT every) (NN day)))))))
+    (, ,)))
+
+
+det(owner-2, The-1)
+nsubj(told-3, owner-2)
+root(ROOT-0, told-3)
+dobj(told-3, us-4)
+mark(prepared-9, that-5)
+nsubjpass(prepared-9, they-6)
+auxpass(prepared-9, were-7)
+advmod(prepared-9, still-8)
+ccomp(told-3, prepared-9)
+amod(day-12, fresh-10)
+det(day-12, every-11)
+tmod(prepared-9, day-12)
+
+
+(ROOT
+  (S (IN so)
+    (NP (PRP I))
+    (VP (VBP do) (RB n't)
+      (ADVP (RB really))
+      (VP (VB know)
+        (SBAR
+          (WHNP (WP what))
+          (S
+            (VP (VBD went)
+              (ADJP (JJ wrong)))))))
+    (. .)))
+
+
+dep(know-6, so-1)
+nsubj(know-6, I-2)
+aux(know-6, do-3)
+neg(know-6, n't-4)
+advmod(know-6, really-5)
+root(ROOT-0, know-6)
+nsubj(went-8, what-7)
+ccomp(know-6, went-8)
+acomp(went-8, wrong-9)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NNP Hokkien) (NNP Mee))
+    (ADVP (PRP itself))
+    (VP (VBZ is)
+      (ADVP (RB still))
+      (ADJP (RB quite) (JJ shiok)))
+    (. .)))
+
+
+det(Mee-3, The-1)
+nn(Mee-3, Hokkien-2)
+nsubj(shiok-8, Mee-3)
+advmod(shiok-8, itself-4)
+cop(shiok-8, is-5)
+advmod(shiok-8, still-6)
+advmod(shiok-8, quite-7)
+root(ROOT-0, shiok-8)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ has)
+      (ADVP (RB still))
+      (VP (VBN retained)
+        (S
+          (NP (PRP$ its) (JJ rustic) (NN flavor))
+          (ADJP (JJ consistent)
+            (PP (IN with)
+              (NP (DT the) (JJ late) (NN night))))
+          (S
+            (VP (`` ``) (VBG happening) ('' '')
+              (NP
+                (NP (NN area))
+                (PP (IN of)
+                  (NP (NNP Geylang)))))))))
+    (. .)))
+
+
+nsubj(retained-4, It-1)
+aux(retained-4, has-2)
+advmod(retained-4, still-3)
+root(ROOT-0, retained-4)
+poss(flavor-7, its-5)
+amod(flavor-7, rustic-6)
+nsubj(happening-14, flavor-7)
+dep(happening-14, consistent-8)
+prep(consistent-8, with-9)
+det(night-12, the-10)
+amod(night-12, late-11)
+pobj(with-9, night-12)
+xcomp(retained-4, happening-14)
+dobj(happening-14, area-16)
+prep(area-16, of-17)
+pobj(of-17, Geylang-18)
+
+
+(ROOT
+  (S
+    (NP (NNP Conclusion) (NNP Bit))
+    (ADVP (IN of) (DT a))
+    (VP (VBD let)
+      (PRT (RP down))
+      (PP (IN on)
+        (NP
+          (NP (DT the) (NN lard))
+          (NP (DT that) (NN day)))))
+    (, ,)))
+
+
+nn(Bit-2, Conclusion-1)
+nsubj(let-5, Bit-2)
+advmod(let-5, of-3)
+dep(of-3, a-4)
+root(ROOT-0, let-5)
+prt(let-5, down-6)
+prep(let-5, on-7)
+det(lard-9, the-8)
+pobj(on-7, lard-9)
+det(day-11, that-10)
+dep(lard-9, day-11)
+
+
+(ROOT
+  (S (CC but)
+    (ADVP (RB still))
+    (NP (PDT quite) (DT a))
+    (VP (VBP shiok)
+      (NP
+        (NP (NNP Hokkien) (NNP Mee))
+        (PP (IN for)
+          (NP (JJ late) (NN night) (NN supper)))))
+    (. .)))
+
+
+cc(shiok-5, but-1)
+advmod(shiok-5, still-2)
+predet(a-4, quite-3)
+nsubj(shiok-5, a-4)
+root(ROOT-0, shiok-5)
+nn(Mee-7, Hokkien-6)
+dobj(shiok-5, Mee-7)
+prep(Mee-7, for-8)
+amod(supper-11, late-9)
+nn(supper-11, night-10)
+pobj(for-8, supper-11)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Qiu) (NNP Ji) (NNP Hokkien) (NNP Mee) (NNP Geylang) (NNP Lor) (CD 9) (NNS Mon-Thurs)
+        (QP (CD 4.30) (CD pm)))
+      (PP (TO to)
+        (NP (CD 2.30))))
+    (VP (VBP am)
+      (VP (VBG Friday-Sat)
+        (NP
+          (NP
+            (QP (CD 4.30) (CD pm) (TO to) (CD 3.30) (CD am))
+            (NNP Sun) (CD 4.30) (NN pm))
+          (PP (TO to)
+            (NP (CD 2am))))))))
+
+
+nn(Mon-Thurs-8, Qiu-1)
+nn(Mon-Thurs-8, Ji-2)
+nn(Mon-Thurs-8, Hokkien-3)
+nn(Mon-Thurs-8, Mee-4)
+nn(Mon-Thurs-8, Geylang-5)
+nn(Mon-Thurs-8, Lor-6)
+num(Mon-Thurs-8, 9-7)
+nsubj(Friday-Sat-14, Mon-Thurs-8)
+number(pm-10, 4.30-9)
+num(Mon-Thurs-8, pm-10)
+prep(Mon-Thurs-8, to-11)
+pobj(to-11, 2.30-12)
+aux(Friday-Sat-14, am-13)
+root(ROOT-0, Friday-Sat-14)
+number(am-19, 4.30-15)
+number(am-19, pm-16)
+dep(am-19, to-17)
+number(am-19, 3.30-18)
+num(pm-22, am-19)
+nn(pm-22, Sun-20)
+num(pm-22, 4.30-21)
+dobj(Friday-Sat-14, pm-22)
+prep(pm-22, to-23)
+pobj(to-23, 2am-24)
+
+

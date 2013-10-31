@@ -1,0 +1,616 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB often))
+    (VP (VBP get)
+      (SBAR
+        (S
+          (VP (VBD asked)
+            (SBAR
+              (WHADVP (WRB how))
+              (S
+                (NP (DT a) (NNP Doctor))
+                (VP (MD can)
+                  (VP (VB go)
+                    (PP (IN about)
+                      (S
+                        (VP (VBG eating)
+                          (NP (PDT all) (DT these) (JJ unhealthy) (NN hawker) (NNS dishes)))))))))))))
+    (. .)))
+
+
+nsubj(get-3, I-1)
+advmod(get-3, often-2)
+root(ROOT-0, get-3)
+ccomp(get-3, asked-4)
+advmod(go-9, how-5)
+det(Doctor-7, a-6)
+nsubj(go-9, Doctor-7)
+aux(go-9, can-8)
+ccomp(asked-4, go-9)
+prep(go-9, about-10)
+pcomp(about-10, eating-11)
+predet(dishes-16, all-12)
+det(dishes-16, these-13)
+amod(dishes-16, unhealthy-14)
+nn(dishes-16, hawker-15)
+dobj(eating-11, dishes-16)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Well))
+    (, ,)))
+
+
+root(ROOT-0, Well-1)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT the) (NN answer))
+      (PP (TO to)
+        (NP (DT that))))
+    (VP (VBZ is)
+      (ADJP (JJ summarized)
+        (PP (IN in)
+          (NP (PRP$ my) (NN slogan))))
+      (`` ``)
+      (S
+        (NP (NNP Never))
+        (VP (VB waste)
+          (NP (PRP$ your) (NNS calories))
+          (PP (IN on)
+            (NP (JJ yucky) (NN food)))))
+      ('' ''))
+    (. .)))
+
+
+det(answer-2, the-1)
+nsubj(summarized-6, answer-2)
+prep(answer-2, to-3)
+pobj(to-3, that-4)
+cop(summarized-6, is-5)
+root(ROOT-0, summarized-6)
+prep(summarized-6, in-7)
+poss(slogan-9, my-8)
+pobj(in-7, slogan-9)
+nsubj(waste-12, Never-11)
+ccomp(summarized-6, waste-12)
+poss(calories-14, your-13)
+dobj(waste-12, calories-14)
+prep(waste-12, on-15)
+amod(food-17, yucky-16)
+pobj(on-15, food-17)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Basically))
+    (, ,)))
+
+
+root(ROOT-0, Basically-1)
+
+
+(ROOT
+  (S
+    (NP (DT that))
+    (VP (VBZ means)
+      (SBAR (IN that)
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP I))
+          (VP (VBP eat)
+            (NP (NN hawker) (NN food))))))
+    (, ,)))
+
+
+nsubj(means-2, that-1)
+root(ROOT-0, means-2)
+mark(eat-6, that-3)
+advmod(eat-6, when-4)
+nsubj(eat-6, I-5)
+ccomp(means-2, eat-6)
+nn(food-8, hawker-7)
+dobj(eat-6, food-8)
+
+
+(ROOT
+  (FRAG
+    (PP (CC or)
+      (NP
+        (NP (DT any) (JJ other) (NN food))
+        (PP (IN for)
+          (NP (DT that) (NN matter)))))
+    (, ,)))
+
+
+root(ROOT-0, or-1)
+det(food-4, any-2)
+amod(food-4, other-3)
+dep(or-1, food-4)
+prep(food-4, for-5)
+det(matter-7, that-6)
+pobj(for-5, matter-7)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP want)
+      (S
+        (NP (PRP it))
+        (VP (TO to)
+          (VP (VB be)
+            (PP (IN worth)
+              (NP (DT the) (NNS calories)))))))
+    (. .)))
+
+
+nsubj(want-2, I-1)
+root(ROOT-0, want-2)
+nsubj(be-5, it-3)
+aux(be-5, to-4)
+xcomp(want-2, be-5)
+prep(be-5, worth-6)
+det(calories-8, the-7)
+pobj(worth-6, calories-8)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ last) (NN thing))
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (VBP want)))))
+    (VP (VBZ is)
+      (S
+        (VP (TO to)
+          (VP (VB get)
+            (ADJP (JJ fat))
+            (PP (IN by)
+              (NP
+                (NP (NN something))
+                (SBAR
+                  (WHNP (WDT that))
+                  (S
+                    (VP (VBZ is) (RB not)
+                      (ADJP (JJ tasty)))))))))))
+    (. .)))
+
+
+det(thing-3, The-1)
+amod(thing-3, last-2)
+nsubj(is-6, thing-3)
+nsubj(want-5, I-4)
+rcmod(thing-3, want-5)
+root(ROOT-0, is-6)
+aux(fat-9, to-7)
+dep(fat-9, get-8)
+xcomp(is-6, fat-9)
+prep(fat-9, by-10)
+pobj(by-10, something-11)
+nsubj(tasty-15, that-12)
+cop(tasty-15, is-13)
+neg(tasty-15, not-14)
+rcmod(something-11, tasty-15)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NN kiwi) (NN fruit))
+    (VP (VBZ is)
+      (NP
+        (NP (RB quite) (DT an) (JJ amazing) (NN fruit))
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (PRP it))
+            (VP (VBZ comes)
+              (PP (TO to)
+                (NP (PRP$ its) (JJ nutritional) (NN value))))))))
+    (. .)))
+
+
+det(fruit-3, The-1)
+nn(fruit-3, kiwi-2)
+nsubj(fruit-8, fruit-3)
+cop(fruit-8, is-4)
+advmod(fruit-8, quite-5)
+det(fruit-8, an-6)
+amod(fruit-8, amazing-7)
+root(ROOT-0, fruit-8)
+advmod(comes-11, when-9)
+nsubj(comes-11, it-10)
+rcmod(fruit-8, comes-11)
+prep(comes-11, to-12)
+poss(value-15, its-13)
+amod(value-15, nutritional-14)
+pobj(to-12, value-15)
+
+
+(ROOT
+  (S
+    (NP (RB Not) (DT every) (NN fruit))
+    (VP (VBZ is)
+      (VP (VBN created)
+        (S
+          (ADJP (JJ equal)))))
+    (, ,)))
+
+
+neg(fruit-3, Not-1)
+det(fruit-3, every-2)
+nsubjpass(created-5, fruit-3)
+auxpass(created-5, is-4)
+root(ROOT-0, created-5)
+acomp(created-5, equal-6)
+
+
+(ROOT
+  (FRAG
+    (PP (CC and)
+      (NP (NN kiwi) (NNS fruits)))
+    (, ,)))
+
+
+root(ROOT-0, and-1)
+nn(fruits-3, kiwi-2)
+dep(and-1, fruits-3)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (VBZ seems)
+      (VP (VB have)
+        (VP (VBN been)
+          (VP (VBN endowed)
+            (PP (IN with)
+              (NP
+                (NP (DT a) (JJ disproportionate) (NN amount))
+                (PP (IN of)
+                  (NP (JJ nutritional) (NN value)))))))))
+    (. .)))
+
+
+nsubjpass(endowed-5, it-1)
+aux(endowed-5, seems-2)
+aux(endowed-5, have-3)
+auxpass(endowed-5, been-4)
+root(ROOT-0, endowed-5)
+prep(endowed-5, with-6)
+det(amount-9, a-7)
+amod(amount-9, disproportionate-8)
+pobj(with-6, amount-9)
+prep(amount-9, of-10)
+amod(value-12, nutritional-11)
+pobj(of-10, value-12)
+
+
+(ROOT
+  (PP (VBG According)
+    (PP (TO to)
+      (NP (NNP Dr) (NNP Paul) (NNP LaChance) (, ,)))))
+
+
+root(ROOT-0, According-1)
+pcomp(According-1, to-2)
+nn(LaChance-5, Dr-3)
+nn(LaChance-5, Paul-4)
+pobj(to-2, LaChance-5)
+
+
+(ROOT
+  (S
+    (NP (NN kiwi) (NN fruit))
+    (VP (VBD came)
+      (PRT (RP up))
+      (NP (NNS tops))
+      (PP (IN as)
+        (NP (DT the) (NN fruit)))
+      (PP (IN with)
+        (NP (DT the)
+          (ADJP (RBS highest) (JJ nutritional))
+          (NN value))))
+    (, ,)))
+
+
+nn(fruit-2, kiwi-1)
+nsubj(came-3, fruit-2)
+root(ROOT-0, came-3)
+prt(came-3, up-4)
+dobj(came-3, tops-5)
+prep(came-3, as-6)
+det(fruit-8, the-7)
+pobj(as-6, fruit-8)
+prep(came-3, with-9)
+det(value-13, the-10)
+advmod(nutritional-12, highest-11)
+amod(value-13, nutritional-12)
+pobj(with-9, value-13)
+
+
+(ROOT
+  (FRAG
+    (PP
+      (ADVP (RB gram))
+      (IN for)
+      (NP (NN gram)))
+    (, ,)))
+
+
+advmod(for-2, gram-1)
+root(ROOT-0, for-2)
+pobj(for-2, gram-3)
+
+
+(ROOT
+  (S
+    (VP
+      (PP (IN amongst)
+        (NP
+          (NP (DT a) (NN list))
+          (PP (IN of)
+            (NP (CD 27) (JJ popular) (NNS fruits))))))
+    (. .)))
+
+
+root(ROOT-0, amongst-1)
+det(list-3, a-2)
+pobj(amongst-1, list-3)
+prep(list-3, of-4)
+num(fruits-7, 27-5)
+amod(fruits-7, popular-6)
+pobj(of-4, fruits-7)
+
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (JJ other) (NNS words)))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+amod(words-3, other-2)
+pobj(In-1, words-3)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (VBP get)
+      (NP (JJR more) (NN nutrition))
+      (PP (RB out) (IN of)
+        (S
+          (VP (VBG eating)
+            (NP
+              (NP (DT a) (NN mouthful))
+              (PP (IN of)
+                (NP (NN kiwi) (NN fruit))))
+            (PP (IN than)
+              (NP
+                (NP (DT a) (NN mouthful))
+                (PP (IN of)
+                  (NP (DT any) (JJ other) (NN fruit)))))))))
+    (. .)))
+
+
+nsubj(get-2, you-1)
+root(ROOT-0, get-2)
+amod(nutrition-4, more-3)
+dobj(get-2, nutrition-4)
+advmod(of-6, out-5)
+prep(get-2, of-6)
+pcomp(of-6, eating-7)
+det(mouthful-9, a-8)
+dobj(eating-7, mouthful-9)
+prep(mouthful-9, of-10)
+nn(fruit-12, kiwi-11)
+pobj(of-10, fruit-12)
+prep(eating-7, than-13)
+det(mouthful-15, a-14)
+pobj(than-13, mouthful-15)
+prep(mouthful-15, of-16)
+det(fruit-19, any-17)
+amod(fruit-19, other-18)
+pobj(of-16, fruit-19)
+
+
+(ROOT
+  (PP (IN Besides)
+    (S
+      (VP (VBG being)
+        (VP (VBN packed)
+          (PP (IN with)
+            (NP (NNP vitamin) (NNP C)))
+          (, ,))))))
+
+
+root(ROOT-0, Besides-1)
+auxpass(packed-3, being-2)
+pcomp(Besides-1, packed-3)
+prep(packed-3, with-4)
+nn(C-6, vitamin-5)
+pobj(with-4, C-6)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NN kiwi) (NN fruit))
+    (VP
+      (VP
+        (ADVP (RB also))
+        (VBZ has)
+        (NP
+          (NP (DT a)
+            (ADJP (RB particularly) (JJ high))
+            (NN amount))
+          (PP (IN of)
+            (NP (JJ dietary) (NN fiber)))))
+      (CC and)
+      (VP
+        (ADVP (RB also))
+        (VBZ contains)
+        (NP
+          (NP (DT an) (NN enzyme))
+          (VP (VBN known)
+            (PP (IN as)
+              (NP
+                (NP (NN actinidine))
+                (SBAR
+                  (WHNP (WDT which))
+                  (S
+                    (VP (VBZ is)
+                      (ADJP (JJ able)
+                        (S
+                          (VP (TO to)
+                            (VP (VB tenderise)
+                              (NP (NN meat))
+                              (ADVP (RB much)
+                                (PP (IN like)
+                                  (NP
+                                    (NP (NN papain))
+                                    (SBAR
+                                      (WHNP (WDT which))
+                                      (S
+                                        (VP (VBZ is)
+                                          (VP (VBN found)
+                                            (PP (IN in)
+                                              (NP (NN papaya)))))))))))))))))))))))
+    (. .)))
+
+
+det(fruit-3, the-1)
+nn(fruit-3, kiwi-2)
+nsubj(has-5, fruit-3)
+advmod(has-5, also-4)
+root(ROOT-0, has-5)
+det(amount-9, a-6)
+advmod(high-8, particularly-7)
+amod(amount-9, high-8)
+dobj(has-5, amount-9)
+prep(amount-9, of-10)
+amod(fiber-12, dietary-11)
+pobj(of-10, fiber-12)
+cc(has-5, and-13)
+advmod(contains-15, also-14)
+conj(has-5, contains-15)
+det(enzyme-17, an-16)
+dobj(contains-15, enzyme-17)
+partmod(enzyme-17, known-18)
+prep(known-18, as-19)
+pobj(as-19, actinidine-20)
+nsubj(able-23, which-21)
+cop(able-23, is-22)
+rcmod(actinidine-20, able-23)
+aux(tenderise-25, to-24)
+xcomp(able-23, tenderise-25)
+dobj(tenderise-25, meat-26)
+advmod(tenderise-25, much-27)
+prep(much-27, like-28)
+pobj(like-28, papain-29)
+nsubjpass(found-32, which-30)
+auxpass(found-32, is-31)
+rcmod(papain-29, found-32)
+prep(found-32, in-33)
+pobj(in-33, papaya-34)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN combination))
+      (PP (IN of)
+        (NP
+          (NP (DT an) (NN enzyme))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (MD can)
+                (VP (VB break)
+                  (PRT (RP down))
+                  (NP
+                    (NP (NNS proteins))
+                    (CC and)
+                    (NP (JJ high) (NN dietary) (NN fiber))))))))))
+    (VP
+      (VP (VBZ means)
+        (SBAR (IN that)
+          (S
+            (NP (DT the) (NN kiwi) (NN fruit))
+            (VP (VBZ is)
+              (ADJP (RB very) (JJ good)
+                (PP (IN for)
+                  (S
+                    (VP (VBG promoting)
+                      (NP (NN digestion))))))))))
+      (CC and)
+      (VP (VBZ is)
+        (ADJP (RB especially) (JJ good)
+          (PP (IN for)
+            (NP
+              (NP (NNS people))
+              (PRN (-LRB- -LRB-)
+                (ADJP (RB especially) (JJ kids)
+                  (CC and)
+                  (JJ elderly))
+                (-RRB- -RRB-))
+              (SBAR
+                (WHNP (WP who))
+                (S
+                  (VP (VBP have)
+                    (NP
+                      (NP (NNS problems))
+                      (PP (IN with)
+                        (NP (NN constipation))))))))))))
+    (. .)))
+
+
+det(combination-2, The-1)
+nsubj(means-15, combination-2)
+prep(combination-2, of-3)
+det(enzyme-5, an-4)
+pobj(of-3, enzyme-5)
+nsubj(break-8, that-6)
+aux(break-8, can-7)
+rcmod(enzyme-5, break-8)
+prt(break-8, down-9)
+dobj(break-8, proteins-10)
+cc(proteins-10, and-11)
+amod(fiber-14, high-12)
+nn(fiber-14, dietary-13)
+conj(proteins-10, fiber-14)
+root(ROOT-0, means-15)
+mark(good-22, that-16)
+det(fruit-19, the-17)
+nn(fruit-19, kiwi-18)
+nsubj(good-22, fruit-19)
+cop(good-22, is-20)
+advmod(good-22, very-21)
+ccomp(means-15, good-22)
+prep(good-22, for-23)
+pcomp(for-23, promoting-24)
+dobj(promoting-24, digestion-25)
+cc(means-15, and-26)
+cop(good-29, is-27)
+advmod(good-29, especially-28)
+conj(means-15, good-29)
+prep(good-29, for-30)
+pobj(for-30, people-31)
+advmod(kids-34, especially-33)
+dep(people-31, kids-34)
+cc(kids-34, and-35)
+conj(kids-34, elderly-36)
+nsubj(have-39, who-38)
+rcmod(people-31, have-39)
+dobj(have-39, problems-40)
+prep(problems-40, with-41)
+pobj(with-41, constipation-42)
+
+

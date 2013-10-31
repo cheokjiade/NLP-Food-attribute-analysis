@@ -1,0 +1,69 @@
+(ROOT
+  (S
+    (NP (RB Here))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (NN pilot) (NN episode))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (NN Era))
+            (PP (IN of)
+              (S
+                (VP (VBG Rising)
+                  (PP (TO to)
+                    (NP
+                      (NP (NNP Fame))
+                      (SBAR
+                        (WHNP (WDT which))
+                        (S
+                          (VP (VBD was)
+                            (ADVP (RB first))
+                            (VP (VBN aired)
+                              (PP (IN on)
+                                (NP (CD 21)))
+                              (NP (NNP Mar) (CD 2012)))))))))))))))
+    (. .)))
+
+
+nsubj(episode-5, Here-1)
+cop(episode-5, is-2)
+det(episode-5, the-3)
+nn(episode-5, pilot-4)
+root(ROOT-0, episode-5)
+prep(episode-5, of-6)
+det(Era-8, the-7)
+pobj(of-6, Era-8)
+prep(Era-8, of-9)
+pcomp(of-9, Rising-10)
+prep(Rising-10, to-11)
+pobj(to-11, Fame-12)
+nsubjpass(aired-16, which-13)
+auxpass(aired-16, was-14)
+advmod(aired-16, first-15)
+rcmod(Fame-12, aired-16)
+prep(aired-16, on-17)
+pobj(on-17, 21-18)
+dobj(aired-16, Mar-19)
+num(Mar-19, 2012-20)
+
+
+(ROOT
+  (NP
+    (NP (JJ Many) (NNS thanks))
+    (PP (TO to)
+      (NP (NNP Sen)))
+    (PP (IN for)
+      (NP (DT the) (JJ video) (NN upload)))
+    (. !)))
+
+
+amod(thanks-2, Many-1)
+root(ROOT-0, thanks-2)
+prep(thanks-2, to-3)
+pobj(to-3, Sen-4)
+prep(thanks-2, for-5)
+det(upload-8, the-6)
+amod(upload-8, video-7)
+pobj(for-5, upload-8)
+
+

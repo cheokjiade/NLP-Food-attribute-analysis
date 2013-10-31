@@ -1,0 +1,191 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB never))
+    (VP (VBD thought)
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (MD would)
+            (ADVP (RB still))
+            (VP (VB be)
+              (ADJP (JJ able)
+                (S
+                  (VP (TO to)
+                    (VP (VB eat)
+                      (NP
+                        (NP
+                          (NP (DT a) (NNP REAL) (NNP Chai) (NNP Tau) (NNP Kway))
+                          (PRN (-LRB- -LRB-)
+                            (NP (NNP Carrot) (NNP Cake))
+                            (-RRB- -RRB-)))
+                        (PP (IN in)
+                          (NP (PRP$ our) (NN day)
+                            (CC and)
+                            (NN age)))))))))))))
+    (. .)))
+
+
+nsubj(thought-3, I-1)
+neg(thought-3, never-2)
+root(ROOT-0, thought-3)
+nsubj(able-8, I-4)
+aux(able-8, would-5)
+advmod(able-8, still-6)
+cop(able-8, be-7)
+ccomp(thought-3, able-8)
+aux(eat-10, to-9)
+xcomp(able-8, eat-10)
+det(Kway-15, a-11)
+nn(Kway-15, REAL-12)
+nn(Kway-15, Chai-13)
+nn(Kway-15, Tau-14)
+dobj(eat-10, Kway-15)
+nn(Cake-18, Carrot-17)
+appos(Kway-15, Cake-18)
+prep(Kway-15, in-20)
+poss(day-22, our-21)
+pobj(in-20, day-22)
+cc(day-22, and-23)
+conj(day-22, age-24)
+
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are)
+      (PP (IN of)
+        (NP (NN course)))
+      (NP
+        (NP
+          (ADJP (JJR more)
+            (CC and)
+            (JJR more))
+          (NNS hawkers))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBP are)
+              (VP (VBG trying)
+                (S
+                  (VP (TO to)
+                    (VP (VB differentiate)
+                      (NP (PRP themselves))
+                      (PP (IN by)
+                        (S
+                          (VP
+                            (VP (VBG steaming)
+                              (NP (PRP$ their) (JJ own) (NN carrot) (NNS cakes)))
+                            (CONJP (RB instead) (IN of))
+                            (VP (VBG buying)
+                              (NP (PRP them))
+                              (PP (IN from)
+                                (NP (DT the) (NNS suppliers))))))))))))))))
+    (. .)))
+
+
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+prep(are-2, of-3)
+pobj(of-3, course-4)
+amod(hawkers-8, more-5)
+cc(more-5, and-6)
+conj(more-5, more-7)
+nsubj(are-2, hawkers-8)
+nsubj(trying-11, who-9)
+aux(trying-11, are-10)
+rcmod(hawkers-8, trying-11)
+aux(differentiate-13, to-12)
+xcomp(trying-11, differentiate-13)
+dobj(differentiate-13, themselves-14)
+prep(differentiate-13, by-15)
+pcomp(by-15, steaming-16)
+poss(cakes-20, their-17)
+amod(cakes-20, own-18)
+nn(cakes-20, carrot-19)
+dobj(steaming-16, cakes-20)
+cc(steaming-16, instead-21)
+mwe(instead-21, of-22)
+conj(steaming-16, buying-23)
+dobj(buying-23, them-24)
+prep(buying-23, from-25)
+det(suppliers-27, the-26)
+pobj(from-25, suppliers-27)
+
+
+(ROOT
+  (S (CC But)
+    (NP
+      (NP (JJS most))
+      (PP (IN of)
+        (NP (DT these) (NNS hawkers))))
+    (VP (VBP make)
+      (NP (PRP$ their) (NN carrot) (NN cake))
+      (PP (IN from)
+        (NP (NN rice) (NN flour))))
+    (. .)))
+
+
+cc(make-6, But-1)
+nsubj(make-6, most-2)
+prep(most-2, of-3)
+det(hawkers-5, these-4)
+pobj(of-3, hawkers-5)
+root(ROOT-0, make-6)
+poss(cake-9, their-7)
+nn(cake-9, carrot-8)
+dobj(make-6, cake-9)
+prep(make-6, from-10)
+nn(flour-12, rice-11)
+pobj(from-10, flour-12)
+
+
+(ROOT
+  (S
+    (SBAR
+      (WHNP (WP What))
+      (S
+        (NP (PRP I))
+        (VP (VBP mean)
+          (PP (IN by)
+            (NP (NNP REAL) (NNP Chai) (NNP Tau) (NNP Kway))))))
+    (VP (VBZ is)
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP they))
+          (ADVP (RB actually))
+          (VP (VBD mill)
+            (NP (DT the) (NN rice))
+            (NP (PRP themselves))
+            (S
+              (VP (TO to)
+                (VP (VB make)
+                  (NP (DT the) (NNP Chai) (NNP Tau) (NNP Kway)))))))))
+    (. .)))
+
+
+dobj(mean-3, What-1)
+nsubj(mean-3, I-2)
+csubj(is-9, mean-3)
+prep(mean-3, by-4)
+nn(Kway-8, REAL-5)
+nn(Kway-8, Chai-6)
+nn(Kway-8, Tau-7)
+pobj(by-4, Kway-8)
+root(ROOT-0, is-9)
+advmod(mill-13, when-10)
+nsubj(mill-13, they-11)
+advmod(mill-13, actually-12)
+advcl(is-9, mill-13)
+det(rice-15, the-14)
+iobj(mill-13, rice-15)
+dobj(mill-13, themselves-16)
+aux(make-18, to-17)
+xcomp(mill-13, make-18)
+det(Kway-22, the-19)
+nn(Kway-22, Chai-20)
+nn(Kway-22, Tau-21)
+dobj(make-18, Kway-22)
+
+

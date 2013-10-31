@@ -1,0 +1,373 @@
+(ROOT
+  (SBAR (IN As)
+    (S
+      (NP (PRP you))
+      (VP (VBP know))
+      (, ,))))
+
+
+mark(know-3, As-1)
+nsubj(know-3, you-2)
+root(ROOT-0, know-3)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ many))
+      (PP (IN of)
+        (NP (PRP$ our) (NNS readers)))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBP have)
+            (VP (VBN ordered)
+              (NP (PRP$ their) (NNP T) (NNS Shirts)))))))
+    (VP (MD will)
+      (VP (VB be)
+        (VP (VBG dropping)
+          (PP (IN by)
+            (NP (DT this) (NNP Saturday)))
+          (S
+            (VP (TO to)
+              (VP
+                (VP (VB collect)
+                  (NP (PRP them)))
+                (CC and)
+                (VP (VB have)
+                  (NP
+                    (NP (DT a) (NN cup))
+                    (PP (IN of)
+                      (NP (NNP Kopi)))))))))))
+    (. .)))
+
+
+nsubj(dropping-13, many-1)
+prep(many-1, of-2)
+poss(readers-4, our-3)
+pobj(of-2, readers-4)
+nsubj(ordered-7, who-5)
+aux(ordered-7, have-6)
+rcmod(many-1, ordered-7)
+poss(Shirts-10, their-8)
+nn(Shirts-10, T-9)
+dobj(ordered-7, Shirts-10)
+aux(dropping-13, will-11)
+aux(dropping-13, be-12)
+root(ROOT-0, dropping-13)
+prep(dropping-13, by-14)
+det(Saturday-16, this-15)
+pobj(by-14, Saturday-16)
+aux(collect-18, to-17)
+xcomp(dropping-13, collect-18)
+dobj(collect-18, them-19)
+cc(collect-18, and-20)
+conj(collect-18, have-21)
+det(cup-23, a-22)
+dobj(have-21, cup-23)
+prep(cup-23, of-24)
+pobj(of-24, Kopi-25)
+
+
+(ROOT
+  (S (CC But)
+    (NP (PRP I))
+    (VP (MD would)
+      (ADVP (RB also))
+      (VP (VB like)
+        (S
+          (VP (TO to)
+            (VP (VB extend)
+              (NP (DT the) (NN invitation))
+              (PP (TO to)
+                (NP (NN everyone) (RB else)))
+              (S
+                (VP (TO to)
+                  (VP (VB come)
+                    (VP (VB join)
+                      (NP (PRP us))
+                      (PP (IN at)
+                        (NP (DT this) (JJ informal) (NN Tea))))))))))))
+    (. .)))
+
+
+cc(like-5, But-1)
+nsubj(like-5, I-2)
+aux(like-5, would-3)
+advmod(like-5, also-4)
+root(ROOT-0, like-5)
+aux(extend-7, to-6)
+xcomp(like-5, extend-7)
+det(invitation-9, the-8)
+dobj(extend-7, invitation-9)
+prep(extend-7, to-10)
+pobj(to-10, everyone-11)
+advmod(everyone-11, else-12)
+aux(come-14, to-13)
+xcomp(extend-7, come-14)
+xcomp(come-14, join-15)
+dobj(join-15, us-16)
+prep(join-15, at-17)
+det(Tea-20, this-18)
+amod(Tea-20, informal-19)
+pobj(at-17, Tea-20)
+
+
+(ROOT
+  (S
+    (NP (NNP Liverpool))
+    (VP (VBZ has)
+      (ADVP (RB very) (RB generously))
+      (VP (VBD volunteered)
+        (S
+          (VP (TO to)
+            (VP (VB donate)
+              (NP (DT the) (NNS proceeds))
+              (PP (IN from)
+                (NP (DT the) (JJ entire) (NN afternoon)))
+              (PP (TO to)
+                (NP (NN charity))))))))
+    (, ,)))
+
+
+nsubj(volunteered-5, Liverpool-1)
+aux(volunteered-5, has-2)
+advmod(generously-4, very-3)
+advmod(volunteered-5, generously-4)
+root(ROOT-0, volunteered-5)
+aux(donate-7, to-6)
+xcomp(volunteered-5, donate-7)
+det(proceeds-9, the-8)
+dobj(donate-7, proceeds-9)
+prep(donate-7, from-10)
+det(afternoon-13, the-11)
+amod(afternoon-13, entire-12)
+pobj(from-10, afternoon-13)
+prep(donate-7, to-14)
+pobj(to-14, charity-15)
+
+
+(ROOT
+  (SBAR (IN so)
+    (S
+      (NP (PRP you))
+      (VP (MD can)
+        (VP
+          (VP (VB get)
+            (ADJP (VBN involved)
+              (PP (IN by)
+                (S
+                  (VP (VBG coming)
+                    (PRT (RP down))
+                    (PP (TO to)))))))
+          (CC and)
+          (VP (VB have)
+            (NP
+              (NP
+                (NP (DT a) (NN cup))
+                (PP (IN of)
+                  (NP (NNP Kopi))))
+              (CC and)
+              (NP
+                (NP (NNP tryLiverpool) (POS 's))
+                (JJ new) (NN item))))))
+      (, ,))))
+
+
+mark(involved-5, so-1)
+nsubjpass(involved-5, you-2)
+aux(involved-5, can-3)
+auxpass(involved-5, get-4)
+root(ROOT-0, involved-5)
+prep(involved-5, by-6)
+pcomp(by-6, coming-7)
+prt(coming-7, down-8)
+prep(coming-7, to-9)
+cc(involved-5, and-10)
+conj(involved-5, have-11)
+det(cup-13, a-12)
+dobj(have-11, cup-13)
+prep(cup-13, of-14)
+pobj(of-14, Kopi-15)
+cc(cup-13, and-16)
+poss(item-20, tryLiverpool-17)
+possessive(tryLiverpool-17, 's-18)
+amod(item-20, new-19)
+conj(cup-13, item-20)
+
+
+(ROOT
+  (S
+    (NP (DT the))
+    (VP (VBZ Cinnamon))
+    (, ,)))
+
+
+nsubj(Cinnamon-2, the-1)
+root(ROOT-0, Cinnamon-2)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Sugar))
+    (, ,)))
+
+
+root(ROOT-0, Sugar-1)
+
+
+(ROOT
+  (NP (NNP Butter) (NNP Brioche) (. !)))
+
+
+nn(Brioche-2, Butter-1)
+root(ROOT-0, Brioche-2)
+
+
+(ROOT
+  (NP (NNP Venue) (: :)))
+
+
+root(ROOT-0, Venue-1)
+
+
+(ROOT
+  (NP (NNP Good) (NNP Morning) (NNP Nanyang) (NNP Cafe) (NNP ,108) (NNP Robinson) (NNP Road) (NNP Date) (: :)))
+
+
+nn(Date-8, Good-1)
+nn(Date-8, Morning-2)
+nn(Date-8, Nanyang-3)
+nn(Date-8, Cafe-4)
+nn(Date-8, ,108-5)
+nn(Date-8, Robinson-6)
+nn(Date-8, Road-7)
+root(ROOT-0, Date-8)
+
+
+(ROOT
+  (NP
+    (NP (NNP Saturday) (CD 9) (NNP October) (NNP 2010) (NNP Time))
+    (: :)))
+
+
+nn(Time-5, Saturday-1)
+num(Time-5, 9-2)
+nn(Time-5, October-3)
+nn(Time-5, 2010-4)
+root(ROOT-0, Time-5)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS 2pm))
+      (PP (TO to)
+        (NP
+          (NP (NNP 4pm) (NNP Park))
+          (PP (IN at)
+            (NP (NNP Robinson) (NNP Centre))))))
+    (VP (VBP opp)
+      (NP (DT the) (NN cafe)))
+    (. .)))
+
+
+nsubj(opp-8, 2pm-1)
+prep(2pm-1, to-2)
+nn(Park-4, 4pm-3)
+pobj(to-2, Park-4)
+prep(Park-4, at-5)
+nn(Centre-7, Robinson-6)
+pobj(at-5, Centre-7)
+root(ROOT-0, opp-8)
+det(cafe-10, the-9)
+dobj(opp-8, cafe-10)
+
+
+(ROOT
+  (INTJ (UH $)))
+
+
+root(ROOT-0, $-1)
+
+
+(ROOT
+  (NP
+    (NP (CD 2))
+    (PP (IN per)
+      (NP (NN entry)))
+    (PP (IN after)
+      (NP (CD 1pm)))))
+
+
+root(ROOT-0, 2-1)
+prep(2-1, per-2)
+pobj(per-2, entry-3)
+prep(2-1, after-4)
+pobj(after-4, 1pm-5)
+
+
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (NP (DT an) (JJ open) (NN house)))
+    (, ,)))
+
+
+nsubj(house-5, This-1)
+cop(house-5, is-2)
+det(house-5, an-3)
+amod(house-5, open-4)
+root(ROOT-0, house-5)
+
+
+(ROOT
+  (S
+    (NP (RB so) (DT no) (NN registration))
+    (VP (VBD required))
+    (, ,)))
+
+
+advmod(registration-3, so-1)
+det(registration-3, no-2)
+nsubj(required-4, registration-3)
+root(ROOT-0, required-4)
+
+
+(ROOT
+  (S
+    (ADVP (RB just))
+    (VP (VB drop)
+      (PP (IN by)))
+    (. !)))
+
+
+advmod(drop-2, just-1)
+root(ROOT-0, drop-2)
+prep(drop-2, by-3)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP look)
+      (ADVP (RB forward))
+      (PP (TO to)
+        (S
+          (VP (VBG seeing)
+            (S
+              (NP (PRP you))
+              (NP (EX there)))))))
+    (. !)))
+
+
+nsubj(look-2, I-1)
+root(ROOT-0, look-2)
+advmod(look-2, forward-3)
+prep(look-2, to-4)
+pcomp(to-4, seeing-5)
+nsubj(there-7, you-6)
+xcomp(seeing-5, there-7)
+
+

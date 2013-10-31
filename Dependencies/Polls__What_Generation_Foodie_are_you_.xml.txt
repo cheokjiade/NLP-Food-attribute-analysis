@@ -1,0 +1,886 @@
+(ROOT
+  (FRAG
+    (PP (IN Smart))
+    (, ,)))
+
+
+root(ROOT-0, Smart-1)
+
+
+(ROOT
+  (SBARQ
+    (WHNP (WP who))
+    (SQ (VBZ is)
+      (NP
+        (NP (DT an) (NN oldie))
+        (PP (CC but)
+          (NP
+            (NP (DT a) (NN foodie))
+            (, ,)))))))
+
+
+attr(is-2, who-1)
+root(ROOT-0, is-2)
+det(oldie-4, an-3)
+nsubj(is-2, oldie-4)
+prep(oldie-4, but-5)
+det(foodie-7, a-6)
+dep(but-5, foodie-7)
+
+
+(ROOT
+  (S
+    (VP
+      (VP (VBD commented)
+        (SBAR (IN that)
+          (S
+            (NP (PRP he))
+            (VP (MD 'd)
+              (VP (VB like)
+                (S
+                  (VP (TO to)
+                    (VP (VB know)
+                      (SBAR (IN whether)
+                        (S
+                          (VP (VBZ foodies)
+                            (SBAR
+                              (WHNP (WP who))
+                              (S
+                                (VP (VBD read)
+                                  (SBAR
+                                    (S
+                                      (NP (NN food) (NNS blogs))
+                                      (VP (VBP are)
+                                        (ADJP (JJ necessary)))))))))
+                          (NP (DT the) (JJR younger) (NNS ones))))))))))))
+      (CC or)
+      (VP (VBP are)
+        (ADVP (RB there))
+        (ADJP (JJ other)))
+      (NP
+        (NP (JJR older) (NNS folks))
+        (PP (IN like)
+          (NP (PRP himself)))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (ADVP (RB actually))
+            (VP (VBP have)
+              (S
+                (NP
+                  (NP (DT the) (NN time))
+                  (-LRB- -LRB-)
+                  (CC and)
+                  (NP (NN money))
+                  (-RRB- -RRB-))
+                (VP (TO to)
+                  (VP (VB go)
+                    (PP (IN around)
+                      (S
+                        (VP (VBG finding)
+                          (NP (JJ great) (NNS places))
+                          (S
+                            (VP (TO to)
+                              (VP (VB eat)))))))))))))))
+    (. .)))
+
+
+root(ROOT-0, commented-1)
+mark(like-5, that-2)
+nsubj(like-5, he-3)
+aux(like-5, 'd-4)
+ccomp(commented-1, like-5)
+aux(know-7, to-6)
+xcomp(like-5, know-7)
+mark(foodies-9, whether-8)
+ccomp(know-7, foodies-9)
+nsubj(read-11, who-10)
+ccomp(foodies-9, read-11)
+nn(blogs-13, food-12)
+nsubj(necessary-15, blogs-13)
+cop(necessary-15, are-14)
+ccomp(read-11, necessary-15)
+det(ones-18, the-16)
+amod(ones-18, younger-17)
+dep(foodies-9, ones-18)
+cc(commented-1, or-19)
+cop(other-22, are-20)
+advmod(other-22, there-21)
+conj(commented-1, other-22)
+amod(folks-24, older-23)
+dobj(commented-1, folks-24)
+prep(folks-24, like-25)
+pobj(like-25, himself-26)
+nsubj(have-29, who-27)
+advmod(have-29, actually-28)
+rcmod(folks-24, have-29)
+det(time-31, the-30)
+nsubj(go-37, time-31)
+cc(time-31, and-33)
+conj(time-31, money-34)
+aux(go-37, to-36)
+ccomp(have-29, go-37)
+prep(go-37, around-38)
+pcomp(around-38, finding-39)
+amod(places-41, great-40)
+dobj(finding-39, places-41)
+aux(eat-43, to-42)
+xcomp(finding-39, eat-43)
+
+
+(ROOT
+  (FRAG
+    (PP
+      (ADVP (RB So))
+      (IN in)
+      (NP
+        (NP (DT this) (NN week) (POS 's))
+        (NNS polls)))
+    (, ,)))
+
+
+advmod(in-2, So-1)
+root(ROOT-0, in-2)
+det(week-4, this-3)
+poss(polls-6, week-4)
+possessive(week-4, 's-5)
+pobj(in-2, polls-6)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (VP (VBP try)
+      (S
+        (VP (TO to)
+          (VP (VB see)
+            (SBAR
+              (WHNP (WP what) (NN generation))
+              (S
+                (NP (PRP you))
+                (VP (VBP belong)
+                  (PP (TO to)))))))))
+    (. !)))
+
+
+nsubj(try-2, we-1)
+root(ROOT-0, try-2)
+aux(see-4, to-3)
+xcomp(try-2, see-4)
+det(generation-6, what-5)
+pobj(to-9, generation-6)
+nsubj(belong-8, you-7)
+ccomp(see-4, belong-8)
+prep(belong-8, to-9)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Definition))
+      (PP (IN of)
+        (NP (NNS generations))))
+    (VP (MD can)
+      (ADVP (RB sometimes))
+      (VP (VB get)
+        (ADJP (JJ complicated))))
+    (, ,)))
+
+
+nsubj(complicated-7, Definition-1)
+prep(Definition-1, of-2)
+pobj(of-2, generations-3)
+aux(complicated-7, can-4)
+advmod(complicated-7, sometimes-5)
+dep(complicated-7, get-6)
+root(ROOT-0, complicated-7)
+
+
+(ROOT
+  (S (CC so)
+    (NP (PRP I))
+    (VP (VBP have)
+      (VP (VBN simplified)
+        (NP (PRP it))
+        (PP (TO to)
+          (NP (CD 4) (NNS categories)))))
+    (: :)))
+
+
+cc(simplified-4, so-1)
+nsubj(simplified-4, I-2)
+aux(simplified-4, have-3)
+root(ROOT-0, simplified-4)
+dobj(simplified-4, it-5)
+prep(simplified-4, to-6)
+num(categories-8, 4-7)
+pobj(to-6, categories-8)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 1))
+    (. .)))
+
+
+root(ROOT-0, 1-1)
+
+
+(ROOT
+  (S
+    (NP (DT Those))
+    (VP (VBN born)
+      (PP (IN before)
+        (NP (NNP WWII))))
+    (. .)))
+
+
+nsubj(born-2, Those-1)
+root(ROOT-0, born-2)
+prep(born-2, before-3)
+pobj(before-3, WWII-4)
+
+
+(ROOT
+  (S (-LRB- -LRB-)
+    (NP
+      (NP (-LRB- -LRB-) (NNP 1944) (-RRB- -RRB-))
+      (PP (IN In)
+        (NP (PRP$ our) (NN context))))
+    (NP (PRP they))
+    (VP (VBP are)
+      (ADVP (RB now))
+      (ADJP
+        (ADJP (CD 63) (NNS years))
+        (CC and)
+        (ADJP (JJ above))))
+    (. .)))
+
+
+nsubj(years-12, 1944-3)
+prep(1944-3, In-5)
+poss(context-7, our-6)
+pobj(In-5, context-7)
+nsubj(years-12, they-8)
+cop(years-12, are-9)
+advmod(years-12, now-10)
+number(years-12, 63-11)
+root(ROOT-0, years-12)
+cc(years-12, and-13)
+conj(years-12, above-14)
+
+
+(ROOT
+  (S
+    (NP (DT These))
+    (VP (VBP are)
+      (NP
+        (NP (DT the) (NNS ones))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP
+              (VP (VBD lived)
+                (PP (IN through)
+                  (NP
+                    (NP (DT the) (JJ tough) (NNS years))
+                    (PP (IN of)
+                      (NP (DT the) (JJ Japanese) (NN occupation))))))
+              (CC and)
+              (ADVP (RB still))
+              (VP (VB remember)
+                (NP (DT the) (JJ good) (JJ old) (NNS days))
+                (SBAR
+                  (WHADVP (WRB when))
+                  (S
+                    (NP
+                      (NP (NNS eateries))
+                      (PP (IN like)
+                        (NP (NNP Famous) (NNP Islamic))))
+                    (VP
+                      (VP (VBD were)
+                        (ADVP (RB still))
+                        (ADJP (RB relatively) (JJ new)))
+                      (CC and)
+                      (VP (VBD did) (RB not)
+                        (VP (VB have)
+                          (NP (DT any) (NN TV)
+                            (S
+                              (VP (TO to)
+                                (VP (VB watch)
+                                  (SBAR
+                                    (WHADVP (WRB when))
+                                    (S
+                                      (NP (PRP they))
+                                      (VP (VBD were)
+                                        (NP (NNS kids))))))))))))))))))))
+    (. .)))
+
+
+nsubj(ones-4, These-1)
+cop(ones-4, are-2)
+det(ones-4, the-3)
+root(ROOT-0, ones-4)
+nsubj(lived-6, who-5)
+rcmod(ones-4, lived-6)
+prep(lived-6, through-7)
+det(years-10, the-8)
+amod(years-10, tough-9)
+pobj(through-7, years-10)
+prep(years-10, of-11)
+det(occupation-14, the-12)
+amod(occupation-14, Japanese-13)
+pobj(of-11, occupation-14)
+cc(lived-6, and-15)
+advmod(lived-6, still-16)
+conj(lived-6, remember-17)
+det(days-21, the-18)
+amod(days-21, good-19)
+amod(days-21, old-20)
+tmod(remember-17, days-21)
+advmod(new-30, when-22)
+nsubj(new-30, eateries-23)
+prep(eateries-23, like-24)
+nn(Islamic-26, Famous-25)
+pobj(like-24, Islamic-26)
+cop(new-30, were-27)
+advmod(new-30, still-28)
+advmod(new-30, relatively-29)
+advcl(remember-17, new-30)
+cc(new-30, and-31)
+aux(have-34, did-32)
+neg(have-34, not-33)
+conj(new-30, have-34)
+det(TV-36, any-35)
+dobj(have-34, TV-36)
+aux(watch-38, to-37)
+infmod(TV-36, watch-38)
+advmod(kids-42, when-39)
+nsubj(kids-42, they-40)
+cop(kids-42, were-41)
+advcl(watch-38, kids-42)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 2))
+    (. .)))
+
+
+root(ROOT-0, 2-1)
+
+
+(ROOT
+  (INTJ (UH .)))
+
+
+
+
+(ROOT
+  (S
+    (NP (DT These))
+    (VP (VBP are)
+      (NP
+        (NP (NNS people))
+        (VP (VBN born)
+          (PP (IN after)
+            (NP
+              (NP (DT the) (NN war))
+              (-LRB- -LRB-)
+              (NP (CD 1945))
+              (: -))))))))
+
+
+nsubj(people-3, These-1)
+cop(people-3, are-2)
+root(ROOT-0, people-3)
+partmod(people-3, born-4)
+prep(born-4, after-5)
+det(war-7, the-6)
+pobj(after-5, war-7)
+dep(war-7, 1945-9)
+
+
+(ROOT
+  (S
+    (VP (VBD 1959) (-RRB- -RRB-)
+      (NP
+        (NP (JJS Most))
+        (PP (IN of)
+          (NP (DT these) (NNS people))))
+      (ADVP
+        (ADVP (RB still))
+        (SBAR
+          (S
+            (VP (VBP remember)
+              (SBAR
+                (WHADVP (WRB when))
+                (S
+                  (NP (NNP Singapore))
+                  (VP
+                    (VP (VBD merged)
+                      (PP (IN with)
+                        (NP (NNP Malaysia))))
+                    (CC and)
+                    (VP
+                      (ADVP (RB subsequently))
+                      (VBD gained)
+                      (NP (NN independence)))))))))))
+    (. .)))
+
+
+root(ROOT-0, 1959-1)
+dobj(1959-1, Most-3)
+prep(Most-3, of-4)
+det(people-6, these-5)
+pobj(of-4, people-6)
+advmod(1959-1, still-7)
+dep(still-7, remember-8)
+advmod(merged-11, when-9)
+nsubj(merged-11, Singapore-10)
+advcl(remember-8, merged-11)
+prep(merged-11, with-12)
+pobj(with-12, Malaysia-13)
+cc(merged-11, and-14)
+advmod(gained-16, subsequently-15)
+conj(merged-11, gained-16)
+dobj(gained-16, independence-17)
+
+
+(ROOT
+  (S
+    (PP (IN After)
+      (NP (DT the) (NN war)))
+    (NP (EX there))
+    (VP (VBD was)
+      (NP
+        (NP (DT a) (JJ great) (NN explosion))
+        (PP (IN in)
+          (NP
+            (NP (DT the) (NN number))
+            (PP (IN of)
+              (NP
+                (NP (NNS babies))
+                (VP (VBN born))))))))
+    (. .)))
+
+
+prep(was-5, After-1)
+det(war-3, the-2)
+pobj(After-1, war-3)
+expl(was-5, there-4)
+root(ROOT-0, was-5)
+det(explosion-8, a-6)
+amod(explosion-8, great-7)
+nsubj(was-5, explosion-8)
+prep(explosion-8, in-9)
+det(number-11, the-10)
+pobj(in-9, number-11)
+prep(number-11, of-12)
+pobj(of-12, babies-13)
+partmod(babies-13, born-14)
+
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP
+      (VP (VBP are)
+        (ADVP (RB currently))
+        (PP (IN around)
+          (NP
+            (QP (CD 47) (TO to) (CD 63)))))
+      (CC and)
+      (VP
+        (ADJP (JJ many))
+        (PP (IN at) (IN at)
+          (NP
+            (NP (DT the) (NN top))
+            (PP (IN of)
+              (NP (PRP$ their) (NNS careers))))))
+      (CC or)
+      (VP
+        (ADVP (RB just))
+        (VBD retired)))
+    (. .)))
+
+
+nsubj(are-2, They-1)
+root(ROOT-0, are-2)
+advmod(are-2, currently-3)
+prep(are-2, around-4)
+number(63-7, 47-5)
+dep(63-7, to-6)
+pobj(around-4, 63-7)
+cc(are-2, and-8)
+conj(are-2, many-9)
+dep(at-11, at-10)
+prep(many-9, at-11)
+det(top-13, the-12)
+pobj(at-11, top-13)
+prep(top-13, of-14)
+poss(careers-16, their-15)
+pobj(of-14, careers-16)
+cc(are-2, or-17)
+advmod(retired-19, just-18)
+conj(are-2, retired-19)
+
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP have)
+      (NP
+        (NP (NNS lots))
+        (PP (IN of)
+          (NP (NN money))))
+      (S
+        (VP (TO to)
+          (VP (VB spend)
+            (PP (IN on)
+              (NP (JJ yummy) (NN food)))))))
+    (. !)))
+
+
+nsubj(have-2, They-1)
+root(ROOT-0, have-2)
+dobj(have-2, lots-3)
+prep(lots-3, of-4)
+pobj(of-4, money-5)
+aux(spend-7, to-6)
+xcomp(have-2, spend-7)
+prep(spend-7, on-8)
+amod(food-10, yummy-9)
+pobj(on-8, food-10)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 3))
+    (. .)))
+
+
+root(ROOT-0, 3-1)
+
+
+(ROOT
+  (INTJ (UH :)))
+
+
+
+
+(ROOT
+  (S
+    (NP (DT These))
+    (VP (VBP are)
+      (NP
+        (NP (NNS people))
+        (VP (VBN born)
+          (PP (IN between)
+            (NP (CD 1960) (TO to) (CD 1977))))))
+    (. .)))
+
+
+nsubj(people-3, These-1)
+cop(people-3, are-2)
+root(ROOT-0, people-3)
+partmod(people-3, born-4)
+prep(born-4, between-5)
+num(1977-8, 1960-6)
+dep(1977-8, to-7)
+pobj(between-5, 1977-8)
+
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP are)
+      (NP
+        (NP (DT the) (NN generation))
+        (VP (VBN born)
+          (PP (IN in)
+            (NP
+              (NP (DT the) (NN time))
+              (SBAR
+                (WHADVP (WRB when))
+                (S
+                  (NP (NNP Singapore))
+                  (VP (VBD was)
+                    (VP (VBG struggling)
+                      (S
+                        (VP (TO to)
+                          (VP (VB find)
+                            (NP (PRP$ its) (NN footing))))))))))))))
+    (. .)))
+
+
+nsubj(generation-4, They-1)
+cop(generation-4, are-2)
+det(generation-4, the-3)
+root(ROOT-0, generation-4)
+partmod(generation-4, born-5)
+prep(born-5, in-6)
+det(time-8, the-7)
+pobj(in-6, time-8)
+advmod(struggling-12, when-9)
+nsubj(struggling-12, Singapore-10)
+aux(struggling-12, was-11)
+rcmod(time-8, struggling-12)
+aux(find-14, to-13)
+xcomp(struggling-12, find-14)
+poss(footing-16, its-15)
+dobj(find-14, footing-16)
+
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP
+      (VP (VBD grew)
+        (PRT (RP up))
+        (PP (IN in)
+          (NP (DT the) (NN 80s))))
+      (CC and)
+      (VP (VBP are)
+        (VP (VBN deemed)
+          (NP (DT the) (NN generation))
+          (PP (IN with)
+            (NP (DT the) (JJ short) (NN attention) (NN span))))))
+    (. .)))
+
+
+nsubj(grew-2, They-1)
+root(ROOT-0, grew-2)
+prt(grew-2, up-3)
+prep(grew-2, in-4)
+det(80s-6, the-5)
+pobj(in-4, 80s-6)
+cc(grew-2, and-7)
+auxpass(deemed-9, are-8)
+conj(grew-2, deemed-9)
+det(generation-11, the-10)
+dobj(deemed-9, generation-11)
+prep(deemed-9, with-12)
+det(span-16, the-13)
+amod(span-16, short-14)
+nn(span-16, attention-15)
+pobj(with-12, span-16)
+
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP are)
+      (NP (DT the) (JJ first) (NN generation)
+        (S
+          (VP (TO to)
+            (VP (VB grow)
+              (PRT (RP up))
+              (S
+                (VP
+                  (VP (VBG playing)
+                    (NP (JJ video) (NNS games)))
+                  (CC and)
+                  (VP (VBG watching)
+                    (NP (NNP MTV))))))))))
+    (. .)))
+
+
+nsubj(generation-5, They-1)
+cop(generation-5, are-2)
+det(generation-5, the-3)
+amod(generation-5, first-4)
+root(ROOT-0, generation-5)
+aux(grow-7, to-6)
+infmod(generation-5, grow-7)
+prt(grow-7, up-8)
+ccomp(grow-7, playing-9)
+amod(games-11, video-10)
+dobj(playing-9, games-11)
+cc(playing-9, and-12)
+conj(playing-9, watching-13)
+dobj(watching-13, MTV-14)
+
+
+(ROOT
+  (S (CC But)
+    (NP (PRP they))
+    (ADVP (RB still))
+    (VP (VBD experienced)
+      (NP (DT the) (JJ good) (JJ old) (NN coffee) (NN shop))
+      (SBAR (IN before)
+        (S
+          (NP (PRP they))
+          (VP (VBD started)
+            (S
+              (VP (VBG turning)
+                (PP (IN into)
+                  (NP (NN food) (NNS courts)))))))))
+    (. .)))
+
+
+cc(experienced-4, But-1)
+nsubj(experienced-4, they-2)
+advmod(experienced-4, still-3)
+root(ROOT-0, experienced-4)
+det(shop-9, the-5)
+amod(shop-9, good-6)
+amod(shop-9, old-7)
+nn(shop-9, coffee-8)
+dobj(experienced-4, shop-9)
+mark(started-12, before-10)
+nsubj(started-12, they-11)
+advcl(experienced-4, started-12)
+xcomp(started-12, turning-13)
+prep(turning-13, into-14)
+nn(courts-16, food-15)
+pobj(into-14, courts-16)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 4))
+    (. .)))
+
+
+root(ROOT-0, 4-1)
+
+
+(ROOT
+  (INTJ (UH :)))
+
+
+
+
+(ROOT
+  (S
+    (NP (DT These))
+    (VP (VBP are)
+      (NP
+        (NP (NNS people))
+        (VP (VBN born)
+          (PP (IN from)
+            (NP (CD 1978) (NNS onwards))))))
+    (. .)))
+
+
+nsubj(people-3, These-1)
+cop(people-3, are-2)
+root(ROOT-0, people-3)
+partmod(people-3, born-4)
+prep(born-4, from-5)
+num(onwards-7, 1978-6)
+pobj(from-5, onwards-7)
+
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBD were)
+      (VP (VBN born)
+        (S
+          (VP (VBG using)
+            (NP
+              (NP (DT the) (NN internet))
+              (CC and)
+              (NP (NNS handphones)))))))
+    (. .)))
+
+
+nsubjpass(born-3, They-1)
+auxpass(born-3, were-2)
+root(ROOT-0, born-3)
+xcomp(born-3, using-4)
+det(internet-6, the-5)
+dobj(using-4, internet-6)
+cc(internet-6, and-7)
+conj(internet-6, handphones-8)
+
+
+(ROOT
+  (S
+    (S
+      (NP (DT Some))
+      (VP (VBP are)
+        (NP (JJ young) (VBG working) (NNS adults))))
+    (CC and)
+    (S
+      (NP (JJS most))
+      (VP (VBP are)
+        (NP (NNS students))))
+    (. .)))
+
+
+nsubj(adults-5, Some-1)
+cop(adults-5, are-2)
+amod(adults-5, young-3)
+amod(adults-5, working-4)
+root(ROOT-0, adults-5)
+cc(adults-5, and-6)
+nsubj(students-9, most-7)
+cop(students-9, are-8)
+conj(adults-5, students-9)
+
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (MD may) (RB not)
+      (ADVP (RB even))
+      (VP
+        (VP (VB have)
+          (VP (VBN eaten)
+            (NP
+              (NP (NNP Hor) (NNP Fun))
+              (VP (VBN cooked)
+                (PP (IN with)
+                  (NP (NNP Charcoal) (NN fire)))))))
+        (CC or)
+        (VP (VB remember)
+          (NP (NNP Changi) (NNP Beach))
+          (ADVP (RB So))
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (NP (NN generation) (NN foodie))
+              (VP (VBP are)
+                (NP (PRP you))))))))
+    (. ?)))
+
+
+nsubj(eaten-6, They-1)
+aux(eaten-6, may-2)
+neg(eaten-6, not-3)
+advmod(eaten-6, even-4)
+aux(eaten-6, have-5)
+root(ROOT-0, eaten-6)
+nn(Fun-8, Hor-7)
+dobj(eaten-6, Fun-8)
+partmod(Fun-8, cooked-9)
+prep(cooked-9, with-10)
+nn(fire-12, Charcoal-11)
+pobj(with-10, fire-12)
+cc(eaten-6, or-13)
+conj(eaten-6, remember-14)
+nn(Beach-16, Changi-15)
+dobj(remember-14, Beach-16)
+advmod(remember-14, So-17)
+dobj(you-22, which-18)
+nn(foodie-20, generation-19)
+nsubj(you-22, foodie-20)
+cop(you-22, are-21)
+dep(remember-14, you-22)
+
+
+(ROOT
+  (S
+    (VP (VBN Cast)
+      (NP (PRP$ your) (NNS votes)))
+    (. !)))
+
+
+root(ROOT-0, Cast-1)
+poss(votes-3, your-2)
+dobj(Cast-1, votes-3)
+
+

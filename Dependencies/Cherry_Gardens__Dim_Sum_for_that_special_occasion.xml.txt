@@ -1,0 +1,191 @@
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (ADVP (RB ever))
+      (VP (VBP need)
+        (S
+          (VP (TO to)
+            (VP (VB find)
+              (NP (DT a) (NN place)
+                (S
+                  (VP (TO to)
+                    (VP
+                      (VP (VB impress)
+                        (NP (PRP$ your) (JJ future) (NN mother-in-law)))
+                      (CC and)
+                      (VP (VB pop)
+                        (NP (DT the) (NN question))
+                        (PP (TO to)
+                          (NP (PRP$ your) (JJ future) (NN father-in-law))))))
+                  (, ,))))))))))
+
+
+mark(need-4, If-1)
+nsubj(need-4, you-2)
+advmod(need-4, ever-3)
+root(ROOT-0, need-4)
+aux(find-6, to-5)
+xcomp(need-4, find-6)
+det(place-8, a-7)
+dobj(find-6, place-8)
+aux(impress-10, to-9)
+infmod(place-8, impress-10)
+poss(mother-in-law-13, your-11)
+amod(mother-in-law-13, future-12)
+dobj(impress-10, mother-in-law-13)
+cc(impress-10, and-14)
+conj(impress-10, pop-15)
+det(question-17, the-16)
+dobj(pop-15, question-17)
+prep(pop-15, to-18)
+poss(father-in-law-21, your-19)
+amod(father-in-law-21, future-20)
+pobj(to-18, father-in-law-21)
+
+
+(ROOT
+  (S (RB then)
+    (S
+      (VP (VBG bringing)
+        (NP (PRP them))
+        (PP (TO to)
+          (NP
+            (NP (NNP Cherry) (NNPS Gardens))
+            (PP (IN for)
+              (NP (NNP Dim) (NNP Sum)))))))
+    (VP (MD might)
+      (VP (VB make)
+        (S
+          (NP (PRP it))
+          (ADJP
+            (ADJP
+              (NP (DT a) (RB bit))
+              (RBR more) (JJ difficult))
+            (SBAR (IN for)
+              (S
+                (NP (PRP them))
+                (VP (TO to)
+                  (VP (VB say)
+                    (NP (NN no.))))))))))
+    (. .)))
+
+
+advmod(make-11, then-1)
+csubj(make-11, bringing-2)
+dobj(bringing-2, them-3)
+prep(bringing-2, to-4)
+nn(Gardens-6, Cherry-5)
+pobj(to-4, Gardens-6)
+prep(Gardens-6, for-7)
+nn(Sum-9, Dim-8)
+pobj(for-7, Sum-9)
+aux(make-11, might-10)
+root(ROOT-0, make-11)
+nsubj(difficult-16, it-12)
+det(bit-14, a-13)
+dep(difficult-16, bit-14)
+advmod(difficult-16, more-15)
+xcomp(make-11, difficult-16)
+mark(say-20, for-17)
+nsubj(say-20, them-18)
+aux(say-20, to-19)
+ccomp(difficult-16, say-20)
+dobj(say-20, no.-21)
+
+
+(ROOT
+  (NP (NNP Afterall) (NNP ,)))
+
+
+nn(,-2, Afterall-1)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT a) (JJ future) (NN son-in-law))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBZ is)
+            (ADJP (JJ willing)
+              (S
+                (VP (TO to)
+                  (VP (VB splurge)
+                    (PP (IN over)
+                      (NP (NNP $)))))))))))))
+
+
+det(son-in-law-3, a-1)
+amod(son-in-law-3, future-2)
+root(ROOT-0, son-in-law-3)
+nsubj(willing-6, who-4)
+cop(willing-6, is-5)
+rcmod(son-in-law-3, willing-6)
+aux(splurge-8, to-7)
+xcomp(willing-6, splurge-8)
+prep(splurge-8, over-9)
+pobj(over-9, $-10)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (CD 100))
+      (ADVP (RB just)
+        (PP (IN for)
+          (NP (CD ONE) (NN dim) (NN sum) (NN dish)))))
+    (VP (MD ca) (RB n't)
+      (VP (VB be)
+        (ADJP (RB all) (JJ bad))))
+    (, ,)))
+
+
+nsubj(bad-12, 100-1)
+advmod(100-1, just-2)
+prep(just-2, for-3)
+num(dish-7, ONE-4)
+nn(dish-7, dim-5)
+nn(dish-7, sum-6)
+pobj(for-3, dish-7)
+aux(bad-12, ca-8)
+neg(bad-12, n't-9)
+cop(bad-12, be-10)
+advmod(bad-12, all-11)
+root(ROOT-0, bad-12)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB especially))
+    (SBAR (IN if)
+      (S
+        (NP (PRP he))
+        (VP (VBZ has)
+          (ADVP (RB just))
+          (VP (VBN started)
+            (PP (IN on)
+              (NP (DT a) (JJ new) (NN job)))
+            (PP (IN after)
+              (S
+                (VP (VBG completing)
+                  (NP (NNP NS)))))))))
+    (. .)))
+
+
+root(ROOT-0, especially-1)
+mark(started-6, if-2)
+nsubj(started-6, he-3)
+aux(started-6, has-4)
+advmod(started-6, just-5)
+dep(especially-1, started-6)
+prep(started-6, on-7)
+det(job-10, a-8)
+amod(job-10, new-9)
+pobj(on-7, job-10)
+prep(started-6, after-11)
+pcomp(after-11, completing-12)
+dobj(completing-12, NS-13)
+
+

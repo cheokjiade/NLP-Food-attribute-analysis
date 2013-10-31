@@ -1,0 +1,312 @@
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (NP (DT a) (JJ wild) (NN guess)))
+    (, ,)))
+
+
+nsubj(guess-5, This-1)
+cop(guess-5, is-2)
+det(guess-5, a-3)
+amod(guess-5, wild-4)
+root(ROOT-0, guess-5)
+
+
+(ROOT
+  (S (CC but)
+    (NP (PRP I))
+    (VP (VBP reckon)
+      (SBAR (IN that)
+        (S
+          (NP (JJR more) (NNS women))
+          (VP (VBP like)
+            (NP (JJ Vietnamese) (NN food))
+            (PP (IN than)
+              (NP (NNS men)))))))
+    (. .)))
+
+
+cc(reckon-3, but-1)
+nsubj(reckon-3, I-2)
+root(ROOT-0, reckon-3)
+mark(like-7, that-4)
+amod(women-6, more-5)
+nsubj(like-7, women-6)
+ccomp(reckon-3, like-7)
+amod(food-9, Vietnamese-8)
+dobj(like-7, food-9)
+prep(like-7, than-10)
+pobj(than-10, men-11)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP are)
+      (VP (VBG talking)
+        (PP (IN about)
+          (NP
+            (NP (NNP Singaporeans))
+            (PP (IN of)
+              (NP (NN course)))))))
+    (. .)))
+
+
+nsubj(talking-3, We-1)
+aux(talking-3, are-2)
+root(ROOT-0, talking-3)
+prep(talking-3, about-4)
+pobj(about-4, Singaporeans-5)
+prep(Singaporeans-5, of-6)
+pobj(of-6, course-7)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NN reason) (NN I))
+    (VP (VBP say)
+      (SBAR
+        (S
+          (NP (DT this))
+          (VP (VBZ is)
+            (SBAR (IN because)
+              (S
+                (NP (JJ Vietnamese) (NN food))
+                (VP (VBZ is)
+                  (ADJP
+                    (ADJP (RB pretty) (JJ healthy)
+                      (CC and)
+                      (JJ low))
+                    (PP (IN in)
+                      (NP (NN oil)
+                        (CC and)
+                        (NN coconut) (NN milk)))))))))))
+    (. .)))
+
+
+det(I-3, The-1)
+nn(I-3, reason-2)
+nsubj(say-4, I-3)
+root(ROOT-0, say-4)
+nsubj(is-6, this-5)
+ccomp(say-4, is-6)
+mark(healthy-12, because-7)
+amod(food-9, Vietnamese-8)
+nsubj(healthy-12, food-9)
+cop(healthy-12, is-10)
+advmod(healthy-12, pretty-11)
+advcl(is-6, healthy-12)
+cc(healthy-12, and-13)
+conj(healthy-12, low-14)
+prep(healthy-12, in-15)
+nn(milk-19, oil-16)
+cc(oil-16, and-17)
+conj(oil-16, coconut-18)
+pobj(in-15, milk-19)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (SBAR (IN if)
+        (S
+          (NP (PRP we))
+          (VP (VBD did)
+            (NP (DT a) (NN survey))))))
+    (, ,)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+mark(did-5, if-3)
+nsubj(did-5, we-4)
+advcl(think-2, did-5)
+det(survey-7, a-6)
+dobj(did-5, survey-7)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT the) (NN number))
+      (PP (IN of)
+        (NP
+          (NP (NNS women))
+          (VP (VBG putting)
+            (PRT (RP up))
+            (NP (PRP$ their) (NNS hands))))))
+    (VP (MD should)
+      (ADVP (IN at) (JJS least))
+      (VP (VB be)
+        (NP
+          (NP (RB twice) (DT the) (NN number))
+          (PP (IN of)
+            (NP (NNS men))))))
+    (. .)))
+
+
+det(number-2, the-1)
+nsubj(number-15, number-2)
+prep(number-2, of-3)
+pobj(of-3, women-4)
+partmod(women-4, putting-5)
+prt(putting-5, up-6)
+poss(hands-8, their-7)
+dobj(putting-5, hands-8)
+aux(number-15, should-9)
+advmod(number-15, at-10)
+pobj(at-10, least-11)
+cop(number-15, be-12)
+advmod(number-15, twice-13)
+det(number-15, the-14)
+root(ROOT-0, number-15)
+prep(number-15, of-16)
+pobj(of-16, men-17)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (VP (VBN been)
+        (PP (TO to)
+          (NP (NNP Vietnam)))
+        (ADVP (RB only) (RB once))))
+    (, ,)))
+
+
+nsubj(been-3, I-1)
+aux(been-3, have-2)
+root(ROOT-0, been-3)
+prep(been-3, to-4)
+pobj(to-4, Vietnam-5)
+advmod(once-7, only-6)
+advmod(been-3, once-7)
+
+
+(ROOT
+  (S (CC but)
+    (NP
+      (NP (DT the) (NN place))
+      (SBAR (IN that)
+        (S
+          (NP (PRP I))
+          (VP (VBD ate)
+            (NP (JJ Vietnamese) (NN food))
+            (ADVP (RBS most))))))
+    (VP (VBD was)
+      (PP (IN in)
+        (NP (NNP Australia)
+          (CC and)
+          (NNP Thailand))))
+    (. .)))
+
+
+cc(was-10, but-1)
+det(place-3, the-2)
+nsubj(was-10, place-3)
+mark(ate-6, that-4)
+nsubj(ate-6, I-5)
+dep(place-3, ate-6)
+amod(food-8, Vietnamese-7)
+dobj(ate-6, food-8)
+advmod(ate-6, most-9)
+root(ROOT-0, was-10)
+prep(was-10, in-11)
+pobj(in-11, Australia-12)
+cc(Australia-12, and-13)
+conj(Australia-12, Thailand-14)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ 's)
+      (ADJP (JJ funny)))
+    (, ,)))
+
+
+nsubj(funny-3, It-1)
+cop(funny-3, 's-2)
+root(ROOT-0, funny-3)
+
+
+(ROOT
+  (S (CC but)
+    (ADVP (RB in))
+    (VP (VBZ Thailand))
+    (, ,)))
+
+
+cc(Thailand-3, but-1)
+advmod(Thailand-3, in-2)
+root(ROOT-0, Thailand-3)
+
+
+(ROOT
+  (S
+    (NP (JJ Vietnamese) (NN food))
+    (VP (VBZ is)
+      (VP (VBN regarded)
+        (PP (IN as)
+          (NP
+            (NP (DT a) (JJR higher) (NN class))
+            (PP (IN of)
+              (NP (NN cuisine)))))
+        (PP (IN than)
+          (NP (DT the) (JJ local) (NN fare)))))
+    (. .)))
+
+
+amod(food-2, Vietnamese-1)
+nsubjpass(regarded-4, food-2)
+auxpass(regarded-4, is-3)
+root(ROOT-0, regarded-4)
+prep(regarded-4, as-5)
+det(class-8, a-6)
+amod(class-8, higher-7)
+pobj(as-5, class-8)
+prep(class-8, of-9)
+pobj(of-9, cuisine-10)
+prep(regarded-4, than-11)
+det(fare-14, the-12)
+amod(fare-14, local-13)
+pobj(than-11, fare-14)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ 's)
+      (ADJP (RB very) (JJ much)
+        (PP (IN like)
+          (SBAR
+            (WHADVP (WRB how))
+            (S
+              (NP (PRP we))
+              (VP (VBP compare)
+                (NP (NNP Thai) (NN food))
+                (PP (TO to)
+                  (NP (PRP$ our) (JJ local) (NN hawker) (NN food)))))))))
+    (. .)))
+
+
+nsubj(much-4, It-1)
+cop(much-4, 's-2)
+advmod(much-4, very-3)
+root(ROOT-0, much-4)
+prep(much-4, like-5)
+advmod(compare-8, how-6)
+nsubj(compare-8, we-7)
+pcomp(like-5, compare-8)
+nn(food-10, Thai-9)
+dobj(compare-8, food-10)
+prep(compare-8, to-11)
+poss(food-15, our-12)
+amod(food-15, local-13)
+nn(food-15, hawker-14)
+pobj(to-11, food-15)
+
+

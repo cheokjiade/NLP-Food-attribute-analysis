@@ -1,0 +1,450 @@
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP have)
+      (ADVP (RB just))
+      (VP (VBN completed)
+        (NP
+          (NP (DT a) (NN revamp))
+          (PP (IN of)
+            (NP (DT the) (JJ ieat) (NN hawker) (NN database))))
+        (SBAR (RB so) (RB now)
+          (S
+            (NP (PRP it))
+            (VP (VBZ is)
+              (ADJP (RB updated) (JJ live)))))))
+    (. !)))
+
+
+nsubj(completed-4, We-1)
+aux(completed-4, have-2)
+advmod(completed-4, just-3)
+root(ROOT-0, completed-4)
+det(revamp-6, a-5)
+dobj(completed-4, revamp-6)
+prep(revamp-6, of-7)
+det(database-11, the-8)
+amod(database-11, ieat-9)
+nn(database-11, hawker-10)
+pobj(of-7, database-11)
+advmod(live-17, so-12)
+advmod(live-17, now-13)
+nsubj(live-17, it-14)
+cop(live-17, is-15)
+advmod(live-17, updated-16)
+dep(completed-4, live-17)
+
+
+(ROOT
+  (S
+    (NP (DT That))
+    (VP (VBZ means)
+      (S
+        (NP (PRP you))
+        (VP (VB get)
+          (NP
+            (NP (VBN updated))
+            (SBAR
+              (WHADVP (WRB whenever))
+              (S
+                (NP (JJ new) (NNS stalls))
+                (VP (VBP are)
+                  (VP (VBN added)))))))))
+    (. .)))
+
+
+nsubj(means-2, That-1)
+root(ROOT-0, means-2)
+nsubj(get-4, you-3)
+ccomp(means-2, get-4)
+dobj(get-4, updated-5)
+advmod(added-10, whenever-6)
+amod(stalls-8, new-7)
+nsubjpass(added-10, stalls-8)
+auxpass(added-10, are-9)
+rcmod(updated-5, added-10)
+
+
+(ROOT
+  (S
+    (NP (DT The) (JJ ieat) (NN hawker) (NN app))
+    (VP (VBZ gives)
+      (NP (PRP you))
+      (NP
+        (NP (NN access))
+        (PP (TO to)
+          (NP
+            (NP
+              (QP (IN over) (CD 600)))
+            (PP (IN of)
+              (NP
+                (NP (NNP Singapore) (POS 's))
+                (JJS best) (NN hawker) (NNS stalls)))))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (NP (PRP I))
+            (VP (VBP have)
+              (VP (VBN blogged)
+                (PP (IN over)
+                  (NP (DT the) (JJ last) (CD 6) (NNS years)))))))))
+    (. .)))
+
+
+det(app-4, The-1)
+amod(app-4, ieat-2)
+nn(app-4, hawker-3)
+nsubj(gives-5, app-4)
+root(ROOT-0, gives-5)
+iobj(gives-5, you-6)
+dobj(gives-5, access-7)
+prep(access-7, to-8)
+quantmod(600-10, over-9)
+pobj(to-8, 600-10)
+prep(600-10, of-11)
+poss(stalls-16, Singapore-12)
+possessive(Singapore-12, 's-13)
+amod(stalls-16, best-14)
+nn(stalls-16, hawker-15)
+pobj(of-11, stalls-16)
+dobj(blogged-20, which-17)
+nsubj(blogged-20, I-18)
+aux(blogged-20, have-19)
+rcmod(access-7, blogged-20)
+prep(blogged-20, over-21)
+det(years-25, the-22)
+amod(years-25, last-23)
+num(years-25, 6-24)
+pobj(over-21, years-25)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ comes)
+      (PP (IN with)
+        (NP (NNS maps))))
+    (, ,)))
+
+
+nsubj(comes-2, It-1)
+root(ROOT-0, comes-2)
+prep(comes-2, with-3)
+pobj(with-3, maps-4)
+
+
+(ROOT
+  (FRAG
+    (PP (IN opening)
+      (NP (NNS times)))
+    (, ,)))
+
+
+root(ROOT-0, opening-1)
+pobj(opening-1, times-2)
+
+
+(ROOT
+  (NP
+    (NP
+      (NP (NNS addresses))
+      (CC and)
+      (NP (NN contact) (NNS numbers)))
+    (. .)))
+
+
+root(ROOT-0, addresses-1)
+cc(addresses-1, and-2)
+nn(numbers-4, contact-3)
+conj(addresses-1, numbers-4)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP have)
+      (VP (VBN made)
+        (S
+          (NP (PRP it))
+          (ADJP (JJ simple)
+            (S
+              (VP (TO to)
+                (VP (VB use)
+                  (SBAR (RB so) (IN that)
+                    (S
+                      (NP (PRP you))
+                      (VP (MD can)
+                        (VP (VB find)
+                          (NP
+                            (NP (DT the) (NN info))
+                            (SBAR
+                              (S
+                                (NP (PRP you))
+                                (VP (VBP want)
+                                  (PP (IN within)
+                                    (NP (DT a) (JJ few) (NNS seconds))))))))))))))))))
+    (. !)))
+
+
+nsubj(made-3, We-1)
+aux(made-3, have-2)
+root(ROOT-0, made-3)
+nsubj(simple-5, it-4)
+xcomp(made-3, simple-5)
+aux(use-7, to-6)
+xcomp(simple-5, use-7)
+advmod(find-12, so-8)
+mark(find-12, that-9)
+nsubj(find-12, you-10)
+aux(find-12, can-11)
+advcl(use-7, find-12)
+det(info-14, the-13)
+dobj(find-12, info-14)
+nsubj(want-16, you-15)
+rcmod(info-14, want-16)
+prep(want-16, within-17)
+det(seconds-20, a-18)
+amod(seconds-20, few-19)
+pobj(within-17, seconds-20)
+
+
+(ROOT
+  (FRAG
+    (PP (IN As)
+      (NP
+        (NP (NN part))
+        (PP (IN of)
+          (NP (DT the) (NNP Chinese) (NNP New) (NNP Year) (NNP Celebrations)))))
+    (, ,)))
+
+
+root(ROOT-0, As-1)
+pobj(As-1, part-2)
+prep(part-2, of-3)
+det(Celebrations-8, the-4)
+nn(Celebrations-8, Chinese-5)
+nn(Celebrations-8, New-6)
+nn(Celebrations-8, Year-7)
+pobj(of-3, Celebrations-8)
+
+
+(ROOT
+  (S
+    (NP (NN ieat) (NN hawker) (NNP Full) (NNP Version))
+    (VP (MD will)
+      (VP (VB be)
+        (ADJP (JJ FREE)
+          (PP (IN from)
+            (NP (NN today))))
+        (PP (IN till)
+          (NP (CD 17) (NNP Feb) (NNS 2012)))))
+    (. .)))
+
+
+nn(Version-4, ieat-1)
+nn(Version-4, hawker-2)
+nn(Version-4, Full-3)
+nsubj(FREE-7, Version-4)
+aux(FREE-7, will-5)
+cop(FREE-7, be-6)
+root(ROOT-0, FREE-7)
+prep(FREE-7, from-8)
+pobj(from-8, today-9)
+prep(FREE-7, till-10)
+num(2012-13, 17-11)
+nn(2012-13, Feb-12)
+pobj(till-10, 2012-13)
+
+
+(ROOT
+  (S
+    (VP (VB Click)
+      (ADVP (RB here))
+      (S
+        (VP (TO to)
+          (VP (VB download)
+            (S
+              (NP (PRP it))
+              (VP (VB FREE)
+                (PP (IN for)
+                  (NP (JJ Chinese) (NNP New) (NN Year)))))))))
+    (. !)))
+
+
+root(ROOT-0, Click-1)
+advmod(Click-1, here-2)
+aux(download-4, to-3)
+xcomp(Click-1, download-4)
+nsubj(FREE-6, it-5)
+ccomp(download-4, FREE-6)
+prep(FREE-6, for-7)
+amod(Year-10, Chinese-8)
+nn(Year-10, New-9)
+pobj(for-7, Year-10)
+
+
+(ROOT
+  (FRAG (CC Or)
+    (VP
+      (VP (VB search)
+        (PP (IN for)
+          (NP
+            (NP (JJ ieat) (NN hawker))
+            (PP (IN in)
+              (NP (NNP AppStore))))))
+      (CC and)
+      (VP (VB look)
+        (PP (IN for)
+          (NP (DT the) (JJ ieat) (NNP hawker) (NNP App) (NNP Happy) (NNP New) (NN Year) (NN everyone)))))
+    (. !)))
+
+
+cc(search-2, Or-1)
+root(ROOT-0, search-2)
+prep(search-2, for-3)
+amod(hawker-5, ieat-4)
+pobj(for-3, hawker-5)
+prep(hawker-5, in-6)
+pobj(in-6, AppStore-7)
+cc(search-2, and-8)
+conj(search-2, look-9)
+prep(look-9, for-10)
+det(everyone-18, the-11)
+amod(everyone-18, ieat-12)
+nn(everyone-18, hawker-13)
+nn(everyone-18, App-14)
+nn(everyone-18, Happy-15)
+nn(everyone-18, New-16)
+nn(everyone-18, Year-17)
+pobj(for-10, everyone-18)
+
+
+(ROOT
+  (SQ (VBP Do)
+    (NP (NN help))
+    (VP
+      (VP (VB spread)
+        (NP (DT the) (NN news)))
+      (CC and)
+      (VP (VB tell)
+        (NP (PDT all) (PRP$ your) (NNS friends))
+        (S
+          (VP (TO to)
+            (VP (VB download)
+              (NP (PRP it)))))))
+    (. !)))
+
+
+aux(spread-3, Do-1)
+nsubj(spread-3, help-2)
+root(ROOT-0, spread-3)
+det(news-5, the-4)
+dobj(spread-3, news-5)
+cc(spread-3, and-6)
+conj(spread-3, tell-7)
+predet(friends-10, all-8)
+poss(friends-10, your-9)
+dobj(tell-7, friends-10)
+aux(download-12, to-11)
+xcomp(tell-7, download-12)
+dobj(download-12, it-13)
+
+
+(ROOT
+  (VP (VB Huat)
+    (INTJ (UH Ah) (. !))))
+
+
+root(ROOT-0, Huat-1)
+discourse(Huat-1, Ah-2)
+
+
+(ROOT
+  (S
+    (NP (PRP$ My))
+    (VP (VBZ apologies))
+    (, ,)))
+
+
+nsubj(apologies-2, My-1)
+root(ROOT-0, apologies-2)
+
+
+(ROOT
+  (S
+    (NP
+      (ADJP (JJ due)
+        (PP (TO to)
+          (NP
+            (NP (PRP$ my) (NN mistake) (NNS people))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBP have)
+                  (VP (VBN downloaded)
+                    (NP (PRP it))
+                    (PP (IN on)
+                      (NP (CD 12))))))))))
+      (NNP Feb))
+    (VP (VBD were)
+      (VP (VBN charged)))
+    (. .)))
+
+
+amod(Feb-12, due-1)
+prep(due-1, to-2)
+poss(people-5, my-3)
+nn(people-5, mistake-4)
+pobj(to-2, people-5)
+nsubj(downloaded-8, who-6)
+aux(downloaded-8, have-7)
+rcmod(people-5, downloaded-8)
+dobj(downloaded-8, it-9)
+prep(downloaded-8, on-10)
+pobj(on-10, 12-11)
+nsubjpass(charged-14, Feb-12)
+auxpass(charged-14, were-13)
+root(ROOT-0, charged-14)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (VP (VBN extended)
+        (NP (DT the) (JJ free) (NN download))
+        (PP (IN till)
+          (NP
+            (NP (CD 17) (NNP Feb) (CD 2012))
+            (PP (IN from)
+              (ADVP (RB previously)))))))
+    (. .)))
+
+
+nsubj(extended-3, I-1)
+aux(extended-3, have-2)
+root(ROOT-0, extended-3)
+det(download-6, the-4)
+amod(download-6, free-5)
+dobj(extended-3, download-6)
+prep(extended-3, till-7)
+num(Feb-9, 17-8)
+pobj(till-7, Feb-9)
+num(Feb-9, 2012-10)
+prep(Feb-9, from-11)
+pcomp(from-11, previously-12)
+
+
+(ROOT
+  (NP
+    (NP (NNP Sorry))
+    (PP (IN about)
+      (NP (DT that)))
+    (. .)))
+
+
+root(ROOT-0, Sorry-1)
+prep(Sorry-1, about-2)
+pobj(about-2, that-3)
+
+

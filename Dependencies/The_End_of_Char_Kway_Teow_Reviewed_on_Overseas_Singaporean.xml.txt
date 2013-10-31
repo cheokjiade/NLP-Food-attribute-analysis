@@ -1,0 +1,263 @@
+(ROOT
+  (S
+    (NP (DT The) (NNP Overseas) (NNP Singaporean))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (NN website))
+        (PP (IN for)
+          (NP
+            (NP (NNP Singaporean))
+            (VP (VBG living)
+              (ADVP (RB overseas)))))))
+    (. .)))
+
+
+det(Singaporean-3, The-1)
+nn(Singaporean-3, Overseas-2)
+nsubj(website-6, Singaporean-3)
+cop(website-6, is-4)
+det(website-6, a-5)
+root(ROOT-0, website-6)
+prep(website-6, for-7)
+pobj(for-7, Singaporean-8)
+partmod(Singaporean-8, living-9)
+advmod(living-9, overseas-10)
+
+
+(ROOT
+  (S
+    (NP (NNP Poor))
+    (VP
+      (VP (VBZ guys))
+      (CC and)
+      (VP (VBZ gals)
+        (S
+          (VP (VBG living)
+            (ADVP (RB abroad))))))
+    (, ,)))
+
+
+nsubj(guys-2, Poor-1)
+root(ROOT-0, guys-2)
+cc(guys-2, and-3)
+conj(guys-2, gals-4)
+xcomp(gals-4, living-5)
+advmod(living-5, abroad-6)
+
+
+(ROOT
+  (S
+    (NP (PRP they))
+    (VP (MD must)
+      (VP (VB be)
+        (VP (VBG missing)
+          (NP (DT the) (NN fact))
+          (SBAR (IN that)
+            (S
+              (NP (PRP we))
+              (VP (MD can)
+                (ADVP (RB just))
+                (VP (VB pop)
+                  (PP (TO to)
+                    (NP (DT the) (NN hawker) (NN center)))
+                  (S
+                    (VP (TO to)
+                      (VP (VB eat)
+                        (NP (NNP Char) (NNP Kway) (NNP Teow))))))))))))
+    (. !)))
+
+
+nsubj(missing-4, they-1)
+aux(missing-4, must-2)
+aux(missing-4, be-3)
+root(ROOT-0, missing-4)
+det(fact-6, the-5)
+dobj(missing-4, fact-6)
+mark(pop-11, that-7)
+nsubj(pop-11, we-8)
+aux(pop-11, can-9)
+advmod(pop-11, just-10)
+ccomp(missing-4, pop-11)
+prep(pop-11, to-12)
+det(center-15, the-13)
+nn(center-15, hawker-14)
+pobj(to-12, center-15)
+aux(eat-17, to-16)
+xcomp(pop-11, eat-17)
+nn(Teow-20, Char-18)
+nn(Teow-20, Kway-19)
+dobj(eat-17, Teow-20)
+
+
+(ROOT
+  (S
+    (NP (RB Here))
+    (VP (VBZ is)
+      (SBAR
+        (WHNP (WP what))
+        (S
+          (VP (VBZ Naomi)))))
+    (, ,)))
+
+
+nsubj(is-2, Here-1)
+root(ROOT-0, is-2)
+nsubj(Naomi-4, what-3)
+ccomp(is-2, Naomi-4)
+
+
+(ROOT
+  (SBARQ
+    (WHNP (WP who))
+    (SQ
+      (VP (VBZ is)
+        (VP (VBG living)
+          (VP
+            (ADVP (RB overseas))
+            (VBD said)))))
+    (: :)))
+
+
+nsubj(living-3, who-1)
+aux(living-3, is-2)
+root(ROOT-0, living-3)
+advmod(said-5, overseas-4)
+dep(living-3, said-5)
+
+
+(ROOT
+  (SBAR (`` ``)
+    (S
+      (S
+        (VP (VBG Having)
+          (VP (VBN looked)
+            (PP (IN through)
+              (NP
+                (QP (RB so) (JJ many)))))))
+      (VP (VBZ reviews)
+        (PP (IN about)
+          (NP (JJ local) (`` `) (NNS yummylicious) ('' ')))))))
+
+
+aux(looked-3, Having-2)
+csubj(reviews-7, looked-3)
+prep(looked-3, through-4)
+quantmod(many-6, so-5)
+pobj(through-4, many-6)
+root(ROOT-0, reviews-7)
+prep(reviews-7, about-8)
+amod(yummylicious-11, local-9)
+pobj(about-8, yummylicious-11)
+
+
+(ROOT
+  (NP
+    (NP
+      (NP (NN food) (NNS places))
+      (CC and)
+      (NP (JJ vivid) (NNS shots)))
+    (PP (IN of)
+      (NP (CD delicious) (NNS dishes) (, ,)))))
+
+
+nn(places-2, food-1)
+root(ROOT-0, places-2)
+cc(places-2, and-3)
+amod(shots-5, vivid-4)
+conj(places-2, shots-5)
+prep(places-2, of-6)
+num(dishes-8, delicious-7)
+pobj(of-6, dishes-8)
+
+
+(ROOT
+  (S
+    (NP (DT this))
+    (VP (VBZ is)
+      (ADVP (IN by) (RB far))
+      (NP (DT the)
+        (ADJP (RBS most) (JJ excruciating))
+        (NN piece)
+        (S
+          (VP (TO to)
+            (VP (VB write)
+              (PP (IN for)
+                (NP
+                  (NP (DT this) (JJ resident) (NN writer))
+                  (ADVP (RB overseas))))
+              (`` ``)
+              (S
+                (VP (TO To)
+                  (VP (VB read)
+                    (NP (DT the) (NN review))))))))))
+    (, ,)))
+
+
+nsubj(piece-8, this-1)
+cop(piece-8, is-2)
+advmod(piece-8, by-3)
+advmod(by-3, far-4)
+det(piece-8, the-5)
+advmod(excruciating-7, most-6)
+amod(piece-8, excruciating-7)
+root(ROOT-0, piece-8)
+aux(write-10, to-9)
+infmod(piece-8, write-10)
+prep(write-10, for-11)
+det(writer-14, this-12)
+amod(writer-14, resident-13)
+pobj(for-11, writer-14)
+advmod(writer-14, overseas-15)
+aux(read-18, To-17)
+xcomp(write-10, read-18)
+det(review-20, the-19)
+dobj(read-18, review-20)
+
+
+(ROOT
+  (S
+    (INTJ (VB please))
+    (VP (VB click)
+      (ADVP (RB here)))
+    (. .)))
+
+
+discourse(click-2, please-1)
+root(ROOT-0, click-2)
+advmod(click-2, here-3)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB get)
+        (S
+          (VP (TO to)
+            (VP (VB win)
+              (NP (DT a) (NN book))
+              (PP (IN by)
+                (S
+                  (VP (VBG clicking)
+                    (PP (IN on)
+                      (NP (DT the) (NN facebook) (NN page)))
+                    (ADVP (RB here))))))))))
+    (. .)))
+
+
+nsubj(get-3, You-1)
+aux(get-3, can-2)
+root(ROOT-0, get-3)
+aux(win-5, to-4)
+xcomp(get-3, win-5)
+det(book-7, a-6)
+dobj(win-5, book-7)
+prep(win-5, by-8)
+pcomp(by-8, clicking-9)
+prep(clicking-9, on-10)
+det(page-13, the-11)
+nn(page-13, facebook-12)
+pobj(on-10, page-13)
+advmod(clicking-9, here-14)
+
+

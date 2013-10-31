@@ -1,0 +1,119 @@
+(ROOT
+  (S
+    (NP (DT The) (NNP Durian) (NNP Degustation))
+    (VP (VBZ is)
+      (PP (IN on)
+        (NP (NN tomorrow))))
+    (. !)))
+
+
+det(Degustation-3, The-1)
+nn(Degustation-3, Durian-2)
+nsubj(is-4, Degustation-3)
+root(ROOT-0, is-4)
+prep(is-4, on-5)
+pobj(on-5, tomorrow-6)
+
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (MD will)
+      (VP (VB be)
+        (VP
+          (ADVP (RB over)
+            (NP (CD 200) (NNS people)))
+          (VBG coming))))
+    (. .)))
+
+
+expl(coming-7, There-1)
+aux(coming-7, will-2)
+aux(coming-7, be-3)
+advmod(coming-7, over-4)
+num(people-6, 200-5)
+pobj(over-4, people-6)
+root(ROOT-0, coming-7)
+
+
+(ROOT
+  (S
+    (NP (DT The) (JJS latest) (NN namelist))
+    (VP (VBZ is)
+      (ADVP (RB up))
+      (PP (IN on)
+        (NP (DT the) (NN facebook) (NN group) (NN page))))
+    (. .)))
+
+
+det(namelist-3, The-1)
+amod(namelist-3, latest-2)
+nsubj(is-4, namelist-3)
+root(ROOT-0, is-4)
+advmod(is-4, up-5)
+prep(is-4, on-6)
+det(page-10, the-7)
+nn(page-10, facebook-8)
+nn(page-10, group-9)
+pobj(on-6, page-10)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (VBP are)
+        (VP (VBG coming)))
+      (, ,))))
+
+
+mark(coming-4, If-1)
+nsubj(coming-4, you-2)
+aux(coming-4, are-3)
+root(ROOT-0, coming-4)
+
+
+(ROOT
+  (S
+    (INTJ (VB please))
+    (VP (VB make)
+      (ADJP (JJ sure)
+        (SBAR
+          (S
+            (S
+              (NP (PRP$ your) (NN name))
+              (VP (VBZ is)
+                (PP (IN on)
+                  (NP (DT the) (NN list)))))
+            (CC or)
+            (S
+              (NP (EX there))
+              (VP (MD might) (RB not)
+                (VP (VB be)
+                  (NP
+                    (NP (DT any) (NNS durians))
+                    (PP (IN for)
+                      (NP (PRP you)))))))))))
+    (. !)))
+
+
+discourse(make-2, please-1)
+root(ROOT-0, make-2)
+acomp(make-2, sure-3)
+poss(name-5, your-4)
+nsubj(is-6, name-5)
+ccomp(sure-3, is-6)
+prep(is-6, on-7)
+det(list-9, the-8)
+pobj(on-7, list-9)
+cc(is-6, or-10)
+expl(durians-16, there-11)
+aux(durians-16, might-12)
+neg(durians-16, not-13)
+cop(durians-16, be-14)
+det(durians-16, any-15)
+conj(is-6, durians-16)
+prep(durians-16, for-17)
+pobj(for-17, you-18)
+
+

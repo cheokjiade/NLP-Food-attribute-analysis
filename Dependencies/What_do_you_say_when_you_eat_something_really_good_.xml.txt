@@ -1,0 +1,310 @@
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBD was)
+      (NP
+        (NP (DT an) (JJ interesting) (NN series))
+        (PP (IN of)
+          (NP
+            (NP (NNS comments) (CD one))
+            (PP (IN of)
+              (NP (DT the) (JJ previous) (NNS posts)))
+            (SBAR
+              (WHADVP (WRB where))
+              (S
+                (NP (PRP one))
+                (PP (IN of)
+                  (NP (DT the) (NNS readers)))))))))
+    (, ,)))
+
+
+expl(was-2, There-1)
+root(ROOT-0, was-2)
+det(series-5, an-3)
+amod(series-5, interesting-4)
+nsubj(was-2, series-5)
+prep(series-5, of-6)
+pobj(of-6, comments-7)
+num(comments-7, one-8)
+prep(comments-7, of-9)
+det(posts-12, the-10)
+amod(posts-12, previous-11)
+pobj(of-9, posts-12)
+advmod(one-14, where-13)
+rcmod(comments-7, one-14)
+dep(one-14, of-15)
+det(readers-17, the-16)
+pobj(of-15, readers-17)
+
+
+(ROOT
+  (NP (NNP James) (NNP ,)))
+
+
+nn(,-2, James-1)
+
+
+(ROOT
+  (SINV
+    (VP (VBN made)
+      (NP (DT the) (NN remark))
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (PRP$ my) (NN use))
+            (PP (IN of)
+              (NP (DT the) (NN word))))
+          (VP (`` ``) (VBZ marvellicious) ('' '')))))
+    (VP (VBD was)
+      (ADVP (RB exactly)))
+    (NP
+      (NP (DT the) (JJ same) (NN word))
+      (SBAR (IN that)
+        (S
+          (NP (PRP$ his) (NN daughter))
+          (VP (VBZ uses)))))
+    (. .)))
+
+
+root(ROOT-0, made-1)
+det(remark-3, the-2)
+dobj(made-1, remark-3)
+mark(marvellicious-11, that-4)
+poss(use-6, my-5)
+nsubj(marvellicious-11, use-6)
+prep(use-6, of-7)
+det(word-9, the-8)
+pobj(of-7, word-9)
+ccomp(made-1, marvellicious-11)
+auxpass(made-1, was-13)
+advmod(was-13, exactly-14)
+det(word-17, the-15)
+amod(word-17, same-16)
+nsubjpass(made-1, word-17)
+mark(uses-21, that-18)
+poss(daughter-20, his-19)
+nsubj(uses-21, daughter-20)
+dep(word-17, uses-21)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Of)
+      (NP (NN course)))
+    (, ,)))
+
+
+root(ROOT-0, Of-1)
+pobj(Of-1, course-2)
+
+
+(ROOT
+  (S
+    (NP (NNS marvellicious))
+    (VP (VBZ is) (RB not)
+      (NP
+        (NP (DT an) (JJ official) (NN word))
+        (PP (IN in)
+          (NP (DT the) (NNP Oxford) (NNP Dictionary)))))
+    (. .)))
+
+
+nsubj(word-6, marvellicious-1)
+cop(word-6, is-2)
+neg(word-6, not-3)
+det(word-6, an-4)
+amod(word-6, official-5)
+root(ROOT-0, word-6)
+prep(word-6, in-7)
+det(Dictionary-10, the-8)
+nn(Dictionary-10, Oxford-9)
+pobj(in-7, Dictionary-10)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (ADVP (RB merely))
+      (NP
+        (NP (DT a) (NN combination))
+        (PP (IN of)
+          (NP
+            (ADJP (`` ``) (JJ marvellous) ('' '')
+              (CC and)
+              (`` ``) (JJ delicious) ('' ''))))))
+    (. .)))
+
+
+nsubj(combination-5, It-1)
+cop(combination-5, was-2)
+advmod(combination-5, merely-3)
+det(combination-5, a-4)
+root(ROOT-0, combination-5)
+prep(combination-5, of-6)
+conj(delicious-12, marvellous-8)
+cc(delicious-12, and-10)
+pobj(of-6, delicious-12)
+
+
+(ROOT
+  (S (RB Then)
+    (NP (PRP he))
+    (VP (VBD went)
+      (PRT (RP on))
+      (S
+        (VP (TO to)
+          (VP (VB tell)
+            (NP (PRP me))
+            (PP (IN about)
+              (NP (JJ other) (NNS words)))
+            (SBAR (IN that)
+              (S
+                (NP (PRP$ his) (NN daughter))
+                (VP (VBZ uses)
+                  (PP (IN like)
+                    (NP
+                      (NP (`` ``) (NNP Shiok) (DT a) (NN doo) (NN doo) ('' ''))
+                      (CC and)
+                      (NP (`` ``) (NNP Bombastic) ('' '')))))))))))
+    (. .)))
+
+
+advmod(went-3, Then-1)
+nsubj(went-3, he-2)
+root(ROOT-0, went-3)
+prt(went-3, on-4)
+aux(tell-6, to-5)
+xcomp(went-3, tell-6)
+dobj(tell-6, me-7)
+prep(tell-6, about-8)
+amod(words-10, other-9)
+pobj(about-8, words-10)
+mark(uses-14, that-11)
+poss(daughter-13, his-12)
+nsubj(uses-14, daughter-13)
+ccomp(tell-6, uses-14)
+prep(uses-14, like-15)
+nn(doo-20, Shiok-17)
+det(doo-20, a-18)
+nn(doo-20, doo-19)
+pobj(like-15, doo-20)
+cc(doo-20, and-22)
+conj(doo-20, Bombastic-24)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD thought)
+      (SBAR
+        (S
+          (NP (PRP it))
+          (VP (MD would)
+            (VP (VB be)
+              (NP (NN fun))
+              (S
+                (VP (TO to)
+                  (VP (VB find)
+                    (PRT (RP out))
+                    (SBARQ
+                      (WHNP (WP what))
+                      (SQ (VBZ is)
+                        (NP
+                          (NP (NN everyone) (POS 's))
+                          (JJ favorite) (NN word)))))))
+              (SBAR
+                (WHADVP (WRB when))
+                (S
+                  (NP (PRP you))
+                  (VP (VBP come)
+                    (PP (IN across)
+                      (NP
+                        (NP (NN something))
+                        (ADJP (RB really) (JJ tasty))))))))))))
+    (. .)))
+
+
+nsubj(thought-2, I-1)
+root(ROOT-0, thought-2)
+nsubj(fun-6, it-3)
+aux(fun-6, would-4)
+cop(fun-6, be-5)
+ccomp(thought-2, fun-6)
+aux(find-8, to-7)
+xcomp(fun-6, find-8)
+prt(find-8, out-9)
+attr(is-11, what-10)
+dep(find-8, is-11)
+poss(word-15, everyone-12)
+possessive(everyone-12, 's-13)
+amod(word-15, favorite-14)
+nsubj(is-11, word-15)
+advmod(come-18, when-16)
+nsubj(come-18, you-17)
+advcl(fun-6, come-18)
+prep(come-18, across-19)
+pobj(across-19, something-20)
+advmod(tasty-22, really-21)
+amod(something-20, tasty-22)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBP suspect)
+        (SBAR (IN that)
+          (S (`` ``)
+            (NP (NNP Shiok))
+            ('' '')
+            (VP (MD might)
+              (VP (VB be)
+                (UCP
+                  (NP (DT a) (JJ popular) (CD one))
+                  (CC or)
+                  (ADVP (RB perhaps)))))))))
+    (NP (PRP you))
+    (VP (VBP have)
+      (NP
+        (NP (DT a)
+          (ADJP
+            (ADJP (JJR better))
+            (CC and)
+            (ADJP (RBR more) (JJ imaginative)))
+          (NN superlative))
+        (SBAR
+          (S
+            (NP (PRP you))
+            (VP (VBP care)
+              (S
+                (VP (TO to)
+                  (VP (VB share)))))))))
+    (. ?)))
+
+
+nsubj(suspect-2, I-1)
+dep(have-15, suspect-2)
+mark(one-11, that-3)
+nsubj(one-11, Shiok-5)
+aux(one-11, might-7)
+cop(one-11, be-8)
+det(one-11, a-9)
+amod(one-11, popular-10)
+ccomp(suspect-2, one-11)
+cc(one-11, or-12)
+advmod(one-11, perhaps-13)
+nsubj(have-15, you-14)
+root(ROOT-0, have-15)
+det(superlative-21, a-16)
+amod(superlative-21, better-17)
+cc(better-17, and-18)
+advmod(imaginative-20, more-19)
+conj(better-17, imaginative-20)
+dobj(have-15, superlative-21)
+nsubj(care-23, you-22)
+rcmod(superlative-21, care-23)
+aux(share-25, to-24)
+xcomp(care-23, share-25)
+
+

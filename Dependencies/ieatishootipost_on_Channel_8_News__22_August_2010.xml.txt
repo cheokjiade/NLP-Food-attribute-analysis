@@ -1,0 +1,66 @@
+(ROOT
+  (NP
+    (NP (JJ Many) (NNS thanks))
+    (PP (TO to)
+      (NP (NNP Sen)))
+    (PP (IN for)
+      (NP (DT the) (JJ video) (NN upload)))
+    (. !)))
+
+
+amod(thanks-2, Many-1)
+root(ROOT-0, thanks-2)
+prep(thanks-2, to-3)
+pobj(to-3, Sen-4)
+prep(thanks-2, for-5)
+det(upload-8, the-6)
+amod(upload-8, video-7)
+pobj(for-5, upload-8)
+
+
+(ROOT
+  (S
+    (VP (VB Welcome)
+      (PP (TO to)
+        (NP (DT all) (NNP Channel) (CD 8) (NNS viewers))))
+    (. !)))
+
+
+root(ROOT-0, Welcome-1)
+prep(Welcome-1, to-2)
+det(viewers-6, all-3)
+nn(viewers-6, Channel-4)
+num(viewers-6, 8-5)
+pobj(to-2, viewers-6)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ roti) (NN prata) (NN recipe)
+        (CC and)
+        (NN video))
+      (VP (VBN featured)
+        (PP (IN in)
+          (NP (DT the) (NN news)))))
+    (VP (VBZ is)
+      (VP (VBN found)
+        (ADVP (RB here))))
+    (. .)))
+
+
+det(recipe-4, The-1)
+amod(recipe-4, roti-2)
+nn(recipe-4, prata-3)
+nsubjpass(found-12, recipe-4)
+cc(recipe-4, and-5)
+conj(recipe-4, video-6)
+partmod(recipe-4, featured-7)
+prep(featured-7, in-8)
+det(news-10, the-9)
+pobj(in-8, news-10)
+auxpass(found-12, is-11)
+root(ROOT-0, found-12)
+advmod(found-12, here-13)
+
+

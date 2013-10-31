@@ -1,0 +1,237 @@
+(ROOT
+  (INTJ (UH Wow) (. !)))
+
+
+root(ROOT-0, Wow-1)
+
+
+(ROOT
+  (S
+    (NP (JJ 151) (NNS readers))
+    (VP (VBD wrote)
+      (PRT (RP in))
+      (S
+        (VP (TO to)
+          (VP (VB nominate)
+            (NP (PRP$ their) (JJ favorite) (NNP Hawker) (NNP Food))))))
+    (. !)))
+
+
+amod(readers-2, 151-1)
+nsubj(wrote-3, readers-2)
+root(ROOT-0, wrote-3)
+prt(wrote-3, in-4)
+aux(nominate-6, to-5)
+xcomp(wrote-3, nominate-6)
+poss(Food-10, their-7)
+amod(Food-10, favorite-8)
+nn(Food-10, Hawker-9)
+dobj(nominate-6, Food-10)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD was)
+      (VP (VBG having)
+        (NP
+          (NP (DT a) (NN headache))
+          (VP (VBG trying)
+            (S
+              (VP (TO to)
+                (VP (VB collate)
+                  (NP (DT the) (NNS numbers)))))))))
+    (. .)))
+
+
+nsubj(having-3, I-1)
+aux(having-3, was-2)
+root(ROOT-0, having-3)
+det(headache-5, a-4)
+dobj(having-3, headache-5)
+partmod(headache-5, trying-6)
+aux(collate-8, to-7)
+xcomp(trying-6, collate-8)
+det(numbers-10, the-9)
+dobj(collate-8, numbers-10)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Fortunately))
+    (, ,)))
+
+
+root(ROOT-0, Fortunately-1)
+
+
+(ROOT
+  (S
+    (NP (DT a) (JJ very) (NN kind))
+    (VP (VBZ soul))
+    (, ,)))
+
+
+det(kind-3, a-1)
+amod(kind-3, very-2)
+nsubj(soul-4, kind-3)
+root(ROOT-0, soul-4)
+
+
+(ROOT
+  (S
+    (NP (NN holydrummer))
+    (VP (VBD stepped)
+      (PP (IN in)
+        (NP
+          (S
+            (VP (TO to)
+              (VP (VB give)
+                (NP (PRP me))
+                (NP
+                  (NP (DT a) (NN hand))
+                  (PP (IN with)
+                    (NP (DT the) (NNS numbers)))))))
+          (PRN (-LRB- -LRB-)
+            (CC and)
+            (S
+              (NP (PRP he))
+              (VP (VBZ is) (RB not)
+                (ADVP (RB even))
+                (NP (DT an) (NN accountant))))
+            (-RRB- -RRB-)))))
+    (. .)))
+
+
+nsubj(stepped-2, holydrummer-1)
+root(ROOT-0, stepped-2)
+prep(stepped-2, in-3)
+aux(give-5, to-4)
+dep(accountant-19, give-5)
+iobj(give-5, me-6)
+det(hand-8, a-7)
+dobj(give-5, hand-8)
+prep(hand-8, with-9)
+det(numbers-11, the-10)
+pobj(with-9, numbers-11)
+cc(accountant-19, and-13)
+nsubj(accountant-19, he-14)
+cop(accountant-19, is-15)
+neg(accountant-19, not-16)
+advmod(accountant-19, even-17)
+det(accountant-19, an-18)
+pobj(in-3, accountant-19)
+
+
+(ROOT
+  (FRAG
+    (PP (IN OK))
+    (, ,)))
+
+
+root(ROOT-0, OK-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP present)
+      (PP (TO to)
+        (NP (PRP$ your)
+          (NP
+            (NP (DT the) (NNS nominees))
+            (PP (IN for)
+              (NP
+                (NP (NNP Singapore) (POS 's))
+                (NNP Favourite) (NNP Hawker) (NNP Food)))))))
+    (, ,)))
+
+
+nsubj(present-2, I-1)
+root(ROOT-0, present-2)
+prep(present-2, to-3)
+poss(nominees-6, your-4)
+det(nominees-6, the-5)
+pobj(to-3, nominees-6)
+prep(nominees-6, for-7)
+poss(Food-12, Singapore-8)
+possessive(Singapore-8, 's-9)
+nn(Food-12, Favourite-10)
+nn(Food-12, Hawker-11)
+pobj(for-7, Food-12)
+
+
+(ROOT
+  (FRAG
+    (PP (IN in)
+      (NP (DT no) (JJ particular) (NN order)))
+    (. .)))
+
+
+root(ROOT-0, in-1)
+det(order-4, no-2)
+amod(order-4, particular-3)
+pobj(in-1, order-4)
+
+
+(ROOT
+  (S
+    (ADVP (RB Now))
+    (NP (PRP we))
+    (VP (MD shall)
+      (VP (VB see)
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBZ is)
+              (NP
+                (NP (DT the) (CD ONE) (JJS MOST))
+                (SBAR
+                  (S
+                    (NP (NNP FAVOURITEST) (NNP Hawker) (NNP Food))
+                    (VP (TO to)
+                      (VP (VB rule)
+                        (S
+                          (NP (PRP them))
+                          (NP (DT all)))))))))))))
+    (. !)))
+
+
+advmod(see-4, Now-1)
+nsubj(see-4, we-2)
+aux(see-4, shall-3)
+root(ROOT-0, see-4)
+nsubj(ONE-8, which-5)
+cop(ONE-8, is-6)
+det(ONE-8, the-7)
+ccomp(see-4, ONE-8)
+amod(ONE-8, MOST-9)
+nn(Food-12, FAVOURITEST-10)
+nn(Food-12, Hawker-11)
+nsubj(rule-14, Food-12)
+aux(rule-14, to-13)
+infmod(ONE-8, rule-14)
+nsubj(all-16, them-15)
+xcomp(rule-14, all-16)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD may)
+      (VP (VB choose)
+        (PRT (RP up))
+        (PP (TO to)
+          (NP (CD 3) (NNS dishes)))))
+    (. !)))
+
+
+nsubj(choose-3, You-1)
+aux(choose-3, may-2)
+root(ROOT-0, choose-3)
+prt(choose-3, up-4)
+prep(choose-3, to-5)
+num(dishes-7, 3-6)
+pobj(to-5, dishes-7)
+
+

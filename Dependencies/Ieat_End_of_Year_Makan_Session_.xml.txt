@@ -1,0 +1,114 @@
+(ROOT
+  (S
+    (NP (NNP Dear))
+    (VP (VBZ Readers))
+    (, ,)))
+
+
+nsubj(Readers-2, Dear-1)
+root(ROOT-0, Readers-2)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP are)
+      (ADVP (RB cordially))
+      (VP (VBN invited)
+        (PP (TO to)
+          (NP
+            (NP (PRP$ our) (NN End))
+            (PP (IN of)
+              (NP
+                (NP (NNP Year) (NNP Makan) (NNP Session))
+                (SBAR
+                  (WHNP (WDT which))
+                  (S
+                    (VP (MD will)
+                      (VP (VB be)
+                        (VP (VBN held)
+                          (PP (IN at)
+                            (NP (NNP Siang) (NNP Hee) (NNP Restaurant))))))))))))))
+    (. .)))
+
+
+nsubjpass(invited-4, You-1)
+auxpass(invited-4, are-2)
+advmod(invited-4, cordially-3)
+root(ROOT-0, invited-4)
+prep(invited-4, to-5)
+poss(End-7, our-6)
+pobj(to-5, End-7)
+prep(End-7, of-8)
+nn(Session-11, Year-9)
+nn(Session-11, Makan-10)
+pobj(of-8, Session-11)
+nsubjpass(held-15, which-12)
+aux(held-15, will-13)
+auxpass(held-15, be-14)
+rcmod(Session-11, held-15)
+prep(held-15, at-16)
+nn(Restaurant-19, Siang-17)
+nn(Restaurant-19, Hee-18)
+pobj(at-16, Restaurant-19)
+
+
+(ROOT
+  (S
+    (NP (PRP$ Our))
+    (VP (VBZ makankakis))
+    (, ,)))
+
+
+nsubj(makankakis-2, Our-1)
+root(ROOT-0, makankakis-2)
+
+
+(ROOT
+  (S
+    (NP (NNP Damien)
+      (CC and)
+      (NNP Champagne))
+    (VP (VBP have)
+      (VP (VBN arranged)
+        (NP
+          (NP (DT a) (JJ sumptuous) (CD 10) (NN course) (NN menu))
+          (PP (IN for)
+            (NP (PRP us)))
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (MD will)
+                (VP (VB feature)
+                  (NP
+                    (NP (PRP$ their) (NN signature) (NNP Pumpkin) (NNPS Prawns))
+                    (CC and)
+                    (NP (NNP Crispy) (NNP Ter) (NNP Kah))))))))))
+    (. .)))
+
+
+nsubj(arranged-5, Damien-1)
+cc(Damien-1, and-2)
+conj(Damien-1, Champagne-3)
+aux(arranged-5, have-4)
+root(ROOT-0, arranged-5)
+det(menu-10, a-6)
+amod(menu-10, sumptuous-7)
+num(menu-10, 10-8)
+nn(menu-10, course-9)
+dobj(arranged-5, menu-10)
+prep(menu-10, for-11)
+pobj(for-11, us-12)
+nsubj(feature-15, which-13)
+aux(feature-15, will-14)
+rcmod(menu-10, feature-15)
+poss(Prawns-19, their-16)
+nn(Prawns-19, signature-17)
+nn(Prawns-19, Pumpkin-18)
+dobj(feature-15, Prawns-19)
+cc(Prawns-19, and-20)
+nn(Kah-23, Crispy-21)
+nn(Kah-23, Ter-22)
+conj(Prawns-19, Kah-23)
+
+

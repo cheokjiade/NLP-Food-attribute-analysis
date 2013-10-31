@@ -1,0 +1,223 @@
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (EX there))
+        (VP (VBZ is)
+          (NP
+            (NP (CD one) (NN combination))
+            (PP (IN of)
+              (NP (NNS flavors)))))))
+    (NP (DT that))
+    (ADVP (RB really))
+    (VP (VBP trigger)
+      (NP (PRP$ my) (NN umami) (NNS receptors)))
+    (, ,)))
+
+
+mark(is-3, If-1)
+expl(is-3, there-2)
+advcl(trigger-10, is-3)
+num(combination-5, one-4)
+nsubj(is-3, combination-5)
+prep(combination-5, of-6)
+pobj(of-6, flavors-7)
+nsubj(trigger-10, that-8)
+advmod(trigger-10, really-9)
+root(ROOT-0, trigger-10)
+poss(receptors-13, my-11)
+nn(receptors-13, umami-12)
+dobj(trigger-10, receptors-13)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (MD must)
+      (VP (VB be)
+        (NP
+          (NP (DT the) (DT that))
+          (PP (IN of)
+            (NP
+              (NP (JJ fragrant) (JJ fried) (NN chicken))
+              (VP (VBN soaked)
+                (PP (IN in)
+                  (NP (DT the) (JJ classic) (NNP Hainanese) (NN style) (NN chicken)))
+                (S
+                  (VP (VB curry)
+                    (CC or)
+                    (VB fragrant)
+                    (NP (NNP Laksa) (NNP Gravy))))))))))
+    (. .)))
+
+
+nsubj(that-5, it-1)
+aux(that-5, must-2)
+cop(that-5, be-3)
+dep(that-5, the-4)
+root(ROOT-0, that-5)
+prep(that-5, of-6)
+amod(chicken-9, fragrant-7)
+amod(chicken-9, fried-8)
+pobj(of-6, chicken-9)
+partmod(chicken-9, soaked-10)
+prep(soaked-10, in-11)
+det(chicken-16, the-12)
+amod(chicken-16, classic-13)
+nn(chicken-16, Hainanese-14)
+nn(chicken-16, style-15)
+pobj(in-11, chicken-16)
+ccomp(soaked-10, curry-17)
+cc(curry-17, or-18)
+conj(curry-17, fragrant-19)
+nn(Gravy-21, Laksa-20)
+dobj(curry-17, Gravy-21)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN contrast))
+      (PP (IN between)
+        (NP
+          (NP (DT the)
+            (ADJP (RB savoury) (JJ crispy))
+            (NN chicken))
+          (PP (IN with)
+            (NP (DT the) (JJ sweet) (JJ creamy) (NN coconut) (NN gravy))))))
+    (ADVP (RB really))
+    (VP
+      (VP (VBZ hits)
+        (NP (DT the) (NN spot)))
+      (CC and)
+      (VP
+        (PP (IN in)
+          (NP
+            (NP (NNS terms))
+            (PP (IN of)
+              (NP (NN flavor)))))))
+    (, ,)))
+
+
+det(contrast-2, The-1)
+nsubj(hits-15, contrast-2)
+prep(contrast-2, between-3)
+det(chicken-7, the-4)
+advmod(crispy-6, savoury-5)
+amod(chicken-7, crispy-6)
+pobj(between-3, chicken-7)
+prep(chicken-7, with-8)
+det(gravy-13, the-9)
+amod(gravy-13, sweet-10)
+amod(gravy-13, creamy-11)
+nn(gravy-13, coconut-12)
+pobj(with-8, gravy-13)
+advmod(hits-15, really-14)
+root(ROOT-0, hits-15)
+det(spot-17, the-16)
+dobj(hits-15, spot-17)
+cc(hits-15, and-18)
+conj(hits-15, in-19)
+pobj(in-19, terms-20)
+prep(terms-20, of-21)
+pobj(of-21, flavor-22)
+
+
+(ROOT
+  (S
+    (NP (NNP definitely))
+    (VP (VBZ ranks)
+      (PRT (RP up))
+      (ADVP (RB there))
+      (PP (IN with)
+        (NP
+          (NP (NNP Foie) (NNP Gras))
+          (CC and)
+          (NP (NNP Matsuzaka) (NNP Beef)))))
+    (. .)))
+
+
+nsubj(ranks-2, definitely-1)
+root(ROOT-0, ranks-2)
+prt(ranks-2, up-3)
+advmod(ranks-2, there-4)
+prep(ranks-2, with-5)
+nn(Gras-7, Foie-6)
+pobj(with-5, Gras-7)
+cc(Gras-7, and-8)
+nn(Beef-10, Matsuzaka-9)
+conj(Gras-7, Beef-10)
+
+
+(ROOT
+  (S (CC And)
+    (NP (DT the) (JJ great) (NN thing))
+    (VP (VBZ is)
+      (SBAR (IN that)
+        (S
+          (S
+            (NP (PRP it))
+            (VP (VBZ is)
+              (ADJP (RB much) (RBR more) (JJ affordable))))
+          (CC and)
+          (S
+            (NP (PRP you))
+            (VP
+              (VP (MD can)
+                (VP (VB eat)
+                  (PP (IN until)
+                    (NP (PRP you))
+                    (NP (`` ``)
+                      (NP (NNP Peng))
+                      ('' '')
+                      (PRN (-LRB- -LRB-)
+                        (NP (NN collapse))
+                        (-RRB- -RRB-))))))
+              (CC and)
+              (VP
+                (ADVP (RB still))
+                (VBP have)
+                (NP (NN change))
+                (PP (IN from)
+                  (NP (DT a) (NN $)))))))))))
+
+
+cc(is-5, And-1)
+det(thing-4, the-2)
+amod(thing-4, great-3)
+nsubj(is-5, thing-4)
+root(ROOT-0, is-5)
+mark(affordable-11, that-6)
+nsubj(affordable-11, it-7)
+cop(affordable-11, is-8)
+advmod(affordable-11, much-9)
+advmod(affordable-11, more-10)
+ccomp(is-5, affordable-11)
+cc(affordable-11, and-12)
+nsubj(eat-15, you-13)
+aux(eat-15, can-14)
+conj(affordable-11, eat-15)
+prep(eat-15, until-16)
+pobj(until-16, you-17)
+dep(until-16, Peng-19)
+appos(Peng-19, collapse-22)
+cc(eat-15, and-24)
+advmod(have-26, still-25)
+conj(eat-15, have-26)
+dobj(have-26, change-27)
+prep(have-26, from-28)
+det($-30, a-29)
+pobj(from-28, $-30)
+
+
+(ROOT
+  (S
+    (NP (CD 10))
+    (VP (VBP note))
+    (. .)))
+
+
+nsubj(note-2, 10-1)
+root(ROOT-0, note-2)
+
+

@@ -1,0 +1,1291 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD will)
+      (ADVP (RB first))
+      (VP
+        (ADVP (IN of) (DT all))
+        (VB admit)
+        (SBAR (IN that)
+          (S
+            (NP (PRP I))
+            (ADVP (RB hardly))
+            (VP (VB take)
+              (NP (DT the) (NNP MRT))
+              (ADVP (RB nowadays)))))))
+    (. .)))
+
+
+nsubj(admit-6, I-1)
+aux(admit-6, will-2)
+advmod(admit-6, first-3)
+advmod(admit-6, of-4)
+dep(of-4, all-5)
+root(ROOT-0, admit-6)
+mark(take-10, that-7)
+nsubj(take-10, I-8)
+advmod(take-10, hardly-9)
+ccomp(admit-6, take-10)
+det(MRT-12, the-11)
+dobj(take-10, MRT-12)
+advmod(take-10, nowadays-13)
+
+
+(ROOT
+  (NP
+    (NP (JJS Most))
+    (PP (IN of)
+      (NP
+        (NP (DT the) (NN time))
+        (, ,)))))
+
+
+root(ROOT-0, Most-1)
+prep(Most-1, of-2)
+det(time-4, the-3)
+pobj(of-2, time-4)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP drive))
+    (. .)))
+
+
+nsubj(drive-2, I-1)
+root(ROOT-0, drive-2)
+
+
+(ROOT
+  (FRAG (CC But)
+    (PP (IN with)
+      (NP
+        (NP (PDT all) (DT the) (NNS stations))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (NNP Circle) (NNP Line))
+            (VP
+              (ADVP (RB now))
+              (VBN opened))))
+        (, ,)))))
+
+
+root(ROOT-0, But-1)
+prep(But-1, with-2)
+predet(stations-5, all-3)
+det(stations-5, the-4)
+pobj(with-2, stations-5)
+prep(stations-5, of-6)
+det(Line-9, the-7)
+nn(Line-9, Circle-8)
+pobj(of-6, Line-9)
+advmod(opened-11, now-10)
+partmod(Line-9, opened-11)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP find)
+      (SBAR (IN that)
+        (S
+          (ADVP (RB suddenly))
+          (NP (EX there))
+          (VP (VBP are)
+            (NP
+              (NP (JJR more) (NNS reasons))
+              (SBAR
+                (WHADVP (WRB why))
+                (S
+                  (NP (PRP I))
+                  (VP (MD should)
+                    (VP
+                      (VP (VB save)
+                        (PP (IN on)
+                          (NP (NN petrol))))
+                      (CC and)
+                      (VP (VB take)
+                        (NP (DT the) (NN train))
+                        (ADVP (RB instead))))))))))))
+    (. .)))
+
+
+nsubj(find-2, I-1)
+root(ROOT-0, find-2)
+mark(are-6, that-3)
+advmod(are-6, suddenly-4)
+expl(are-6, there-5)
+ccomp(find-2, are-6)
+amod(reasons-8, more-7)
+nsubj(are-6, reasons-8)
+advmod(save-12, why-9)
+nsubj(save-12, I-10)
+aux(save-12, should-11)
+rcmod(reasons-8, save-12)
+prep(save-12, on-13)
+pobj(on-13, petrol-14)
+cc(save-12, and-15)
+conj(save-12, take-16)
+det(train-18, the-17)
+dobj(take-16, train-18)
+advmod(take-16, instead-19)
+
+
+(ROOT
+  (SBAR (IN Before)
+    (S
+      (NP (DT the) (NNP Circle) (NNP Line))
+      (VP (VBD was)
+        (VP (VBN opened)))
+      (, ,))))
+
+
+mark(opened-6, Before-1)
+det(Line-4, the-2)
+nn(Line-4, Circle-3)
+nsubjpass(opened-6, Line-4)
+auxpass(opened-6, was-5)
+root(ROOT-0, opened-6)
+
+
+(ROOT
+  (S
+    (NP (DT the) (JJS nearest) (NNP MRT) (NN station))
+    (VP (VBD was)
+      (NP
+        (NP (DT a) (JJ few) (NN bus))
+        (SBAR
+          (S
+            (VP (VBZ stops)
+              (PRT (RP away))
+              (PP (IN at)
+                (NP (NNP Paya) (NNP Lebar) (NN station))))))))
+    (. .)))
+
+
+det(station-4, the-1)
+amod(station-4, nearest-2)
+nn(station-4, MRT-3)
+nsubj(bus-8, station-4)
+cop(bus-8, was-5)
+det(bus-8, a-6)
+amod(bus-8, few-7)
+root(ROOT-0, bus-8)
+rcmod(bus-8, stops-9)
+prt(stops-9, away-10)
+prep(stops-9, at-11)
+nn(station-14, Paya-12)
+nn(station-14, Lebar-13)
+pobj(at-11, station-14)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB Now))
+    (ADVP (RB ,))))
+
+
+root(ROOT-0, Now-1)
+
+
+(ROOT
+  (S
+    (NP (DT the)
+      (ADJP (RB newly) (JJ opened))
+      (NNP Bartley) (NN station))
+    (VP (VBZ is)
+      (ADVP (RB actually))
+      (VP (VBG walking)
+        (NP (NN distance))
+        (PP (IN from)
+          (SBAR
+            (WHADVP (WRB where))
+            (S
+              (NP (PRP I))
+              (VP (VBP live)))))))
+    (. .)))
+
+
+det(station-5, the-1)
+advmod(opened-3, newly-2)
+amod(station-5, opened-3)
+nn(station-5, Bartley-4)
+nsubj(walking-8, station-5)
+aux(walking-8, is-6)
+advmod(walking-8, actually-7)
+root(ROOT-0, walking-8)
+dobj(walking-8, distance-9)
+prep(walking-8, from-10)
+advmod(live-13, where-11)
+nsubj(live-13, I-12)
+pcomp(from-10, live-13)
+
+
+(ROOT
+  (S
+    (NP (DT That))
+    (VP (VBZ means)
+      (SBAR (IN that)
+        (S
+          (NP (PRP it))
+          (VP (VBZ makes)
+            (NP (JJR more) (NN sense))
+            (PP (IN for)
+              (NP (PRP me)))
+            (S
+              (VP (TO to)
+                (VP (VB travel)
+                  (PP (IN from)
+                    (NP (NNP Bartley)))
+                  (PP (TO to)
+                    (NP (NNP Stadium)))
+                  (SBAR
+                    (WHADVP (WRB when))
+                    (S
+                      (NP (PRP I))
+                      (VP (VBP am)
+                        (VP (VBG attending)
+                          (NP
+                            (NP (DT those) (JJ big) (NNS rallys))
+                            (VP (VBN held)
+                              (PP (IN at)
+                                (NP (DT the) (NNP Indoor) (NNP Stadium)))
+                              (SBAR (IN as)
+                                (S
+                                  (NP (NN parking))
+                                  (VP (VBZ is)
+                                    (ADVP (RB always))
+                                    (NP (DT a) (NN headache))))))))))))))))))
+    (. .)))
+
+
+nsubj(means-2, That-1)
+root(ROOT-0, means-2)
+mark(makes-5, that-3)
+nsubj(makes-5, it-4)
+ccomp(means-2, makes-5)
+amod(sense-7, more-6)
+dobj(makes-5, sense-7)
+prep(makes-5, for-8)
+pobj(for-8, me-9)
+aux(travel-11, to-10)
+xcomp(makes-5, travel-11)
+prep(travel-11, from-12)
+pobj(from-12, Bartley-13)
+prep(travel-11, to-14)
+pobj(to-14, Stadium-15)
+advmod(attending-19, when-16)
+nsubj(attending-19, I-17)
+aux(attending-19, am-18)
+advcl(travel-11, attending-19)
+det(rallys-22, those-20)
+amod(rallys-22, big-21)
+dobj(attending-19, rallys-22)
+partmod(rallys-22, held-23)
+prep(held-23, at-24)
+det(Stadium-27, the-25)
+nn(Stadium-27, Indoor-26)
+pobj(at-24, Stadium-27)
+mark(headache-33, as-28)
+nsubj(headache-33, parking-29)
+cop(headache-33, is-30)
+advmod(headache-33, always-31)
+det(headache-33, a-32)
+advcl(held-23, headache-33)
+
+
+(ROOT
+  (S
+    (NP (JJ Same))
+    (VP (VBZ goes)
+      (PP (IN with)
+        (S
+          (VP (VBG visiting)
+            (NP (NNP Marina) (NNP Bay) (NNP Sands))))))
+    (. .)))
+
+
+nsubj(goes-2, Same-1)
+root(ROOT-0, goes-2)
+prep(goes-2, with-3)
+pcomp(with-3, visiting-4)
+nn(Sands-7, Marina-5)
+nn(Sands-7, Bay-6)
+dobj(visiting-4, Sands-7)
+
+
+(ROOT
+  (S
+    (NP (DT The) (JJ last) (NN time) (NN I))
+    (VP (VBD was)
+      (ADVP (RB there))
+      (PP (IN for)
+        (NP (DT a) (NN concert))))
+    (, ,)))
+
+
+det(I-4, The-1)
+amod(I-4, last-2)
+nn(I-4, time-3)
+nsubj(was-5, I-4)
+root(ROOT-0, was-5)
+advmod(was-5, there-6)
+prep(was-5, for-7)
+det(concert-9, a-8)
+pobj(for-7, concert-9)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD was)
+      (VP (VBN stuck)
+        (PP (IN in)
+          (NP (DT a) (NN traffic) (NN jam)))
+        (PP (IN for)
+          (NP
+            (NP (DT an) (NN hour))
+            (VP (VBG trying)
+              (S
+                (VP (TO to)
+                  (VP (VB get)
+                    (PP (IN into)
+                      (NP (DT the) (NN carpark)))))))))))
+    (. !)))
+
+
+nsubjpass(stuck-3, I-1)
+auxpass(stuck-3, was-2)
+root(ROOT-0, stuck-3)
+prep(stuck-3, in-4)
+det(jam-7, a-5)
+nn(jam-7, traffic-6)
+pobj(in-4, jam-7)
+prep(stuck-3, for-8)
+det(hour-10, an-9)
+pobj(for-8, hour-10)
+partmod(hour-10, trying-11)
+aux(get-13, to-12)
+xcomp(trying-11, get-13)
+prep(get-13, into-14)
+det(carpark-16, the-15)
+pobj(into-14, carpark-16)
+
+
+(ROOT
+  (FRAG
+    (PP (IN With)
+      (NP
+        (NP (DT the) (NNP Bartley) (NN station))
+        (ADVP
+          (NP
+            (QP (RB only) (CD 8))
+            (NNS stops))
+          (RB away)
+          (PP (IN from)
+            (NP (DT the) (NNP Promenade))))))
+    (, ,)))
+
+
+root(ROOT-0, With-1)
+det(station-4, the-2)
+nn(station-4, Bartley-3)
+pobj(With-1, station-4)
+quantmod(8-6, only-5)
+num(stops-7, 8-6)
+npadvmod(away-8, stops-7)
+advmod(station-4, away-8)
+prep(away-8, from-9)
+det(Promenade-11, the-10)
+pobj(from-9, Promenade-11)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP (PRP it))
+          (VP (VBZ makes)
+            (NP (JJR more) (NN sense)
+              (S
+                (VP (TO to)
+                  (VP (VB spend)
+                    (NP
+                      (NP (DT the) (NN time))
+                      (VP (VBG clearing)
+                        (NP (PRP$ my) (NNS emails))
+                        (PP (IN in)
+                          (NP
+                            (NP (DT the) (NN train))
+                            (PP (IN than)
+                              (S
+                                (VP (VBG being)
+                                  (VP (VBN stuck)
+                                    (PP (IN behind)
+                                      (NP (DT the) (NN wheel)))))))))))))))))))
+    (. !)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+nsubj(makes-4, it-3)
+ccomp(think-2, makes-4)
+amod(sense-6, more-5)
+dobj(makes-4, sense-6)
+aux(spend-8, to-7)
+infmod(sense-6, spend-8)
+det(time-10, the-9)
+dobj(spend-8, time-10)
+partmod(time-10, clearing-11)
+poss(emails-13, my-12)
+dobj(clearing-11, emails-13)
+prep(clearing-11, in-14)
+det(train-16, the-15)
+pobj(in-14, train-16)
+prep(train-16, than-17)
+auxpass(stuck-19, being-18)
+pcomp(than-17, stuck-19)
+prep(stuck-19, behind-20)
+det(wheel-22, the-21)
+pobj(behind-20, wheel-22)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NNP Circle) (NN line))
+    (VP (VBZ has)
+      (ADVP (RB also))
+      (VP (VBN made)
+        (S
+          (NP
+            (NP (NNS lots))
+            (PP (IN of)
+              (NP (NNS eateries))))
+          (ADJP (RBR more) (JJ accessible)))))
+    (. .)))
+
+
+det(line-3, The-1)
+nn(line-3, Circle-2)
+nsubj(made-6, line-3)
+aux(made-6, has-4)
+advmod(made-6, also-5)
+root(ROOT-0, made-6)
+nsubj(accessible-11, lots-7)
+prep(lots-7, of-8)
+pobj(of-8, eateries-9)
+advmod(accessible-11, more-10)
+xcomp(made-6, accessible-11)
+
+
+(ROOT
+  (FRAG
+    (PP (IN For)
+      (NP (NN example)))
+    (, ,)))
+
+
+root(ROOT-0, For-1)
+pobj(For-1, example-2)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NNP Botanic) (NNPS Gardens) (NNP MRT) (NN station))
+    (VP (VBZ is)
+      (ADJP (RB just) (JJ next)
+        (PP (TO to)
+          (NP (NNP Adam) (NNP Road) (NNP Food) (NNP Centre))))
+      (SBAR
+        (WHADVP (WRB where))
+        (S
+          (NP (PRP you))
+          (VP (MD can)
+            (VP (VB go)
+              (PP (IN for)
+                (NP (DT the) (JJ famous) (NNP Selera) (NNP Rasa) (NNP Nasi) (NNP Lemak))))))))
+    (. .)))
+
+
+det(station-5, the-1)
+nn(station-5, Botanic-2)
+nn(station-5, Gardens-3)
+nn(station-5, MRT-4)
+nsubj(next-8, station-5)
+cop(next-8, is-6)
+advmod(next-8, just-7)
+root(ROOT-0, next-8)
+prep(next-8, to-9)
+nn(Centre-13, Adam-10)
+nn(Centre-13, Road-11)
+nn(Centre-13, Food-12)
+pobj(to-9, Centre-13)
+advmod(go-17, where-14)
+nsubj(go-17, you-15)
+aux(go-17, can-16)
+advcl(next-8, go-17)
+prep(go-17, for-18)
+det(Lemak-24, the-19)
+amod(Lemak-24, famous-20)
+nn(Lemak-24, Selera-21)
+nn(Lemak-24, Rasa-22)
+nn(Lemak-24, Nasi-23)
+pobj(for-18, Lemak-24)
+
+
+(ROOT
+  (S
+    (NP (NNP Pasir) (NNP Panjang) (NNP MRT))
+    (VP (VBZ is)
+      (ADVP
+        (ADVP (RB right) (JJ next)
+          (PP (TO to)
+            (NP (DT the) (NN coffeeshop))))
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (NP (NNP Tong) (NNP Lok) (NNP Kway) (NNP Chap))
+            (VP (VBZ is))))))
+    (, ,)))
+
+
+nn(MRT-3, Pasir-1)
+nn(MRT-3, Panjang-2)
+nsubj(is-4, MRT-3)
+root(ROOT-0, is-4)
+advmod(next-6, right-5)
+advmod(is-4, next-6)
+prep(next-6, to-7)
+det(coffeeshop-9, the-8)
+pobj(to-7, coffeeshop-9)
+advmod(is-15, where-10)
+nn(Chap-14, Tong-11)
+nn(Chap-14, Lok-12)
+nn(Chap-14, Kway-13)
+nsubj(is-15, Chap-14)
+dep(next-6, is-15)
+
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Old) (NNP Airport) (NNP Road) (NNP Food) (NNP Centre))
+      (VP (VBZ is)
+        (ADJP (JJ close)
+          (PP (TO to)
+            (NP (NNP Dakota) (NN station))))))
+    (CC and)
+    (S
+      (NP (NNP Ghim) (NNP Moh) (NNP Food) (NNP Centre))
+      (VP (VBZ is)
+        (ADVP (RB just))
+        (NP
+          (NP (DT a) (JJ short) (NN walk))
+          (ADVP (RB away)
+            (PP (IN from)
+              (NP (NNP Buona) (NNP Vista) (NN station)))))))
+    (. .)))
+
+
+nn(Centre-5, Old-1)
+nn(Centre-5, Airport-2)
+nn(Centre-5, Road-3)
+nn(Centre-5, Food-4)
+nsubj(close-7, Centre-5)
+cop(close-7, is-6)
+root(ROOT-0, close-7)
+prep(close-7, to-8)
+nn(station-10, Dakota-9)
+pobj(to-8, station-10)
+cc(close-7, and-11)
+nn(Centre-15, Ghim-12)
+nn(Centre-15, Moh-13)
+nn(Centre-15, Food-14)
+nsubj(walk-20, Centre-15)
+cop(walk-20, is-16)
+advmod(walk-20, just-17)
+det(walk-20, a-18)
+amod(walk-20, short-19)
+conj(close-7, walk-20)
+advmod(walk-20, away-21)
+prep(away-21, from-22)
+nn(station-25, Buona-23)
+nn(station-25, Vista-24)
+pobj(from-22, station-25)
+
+
+(ROOT
+  (VP (VBN Granted)
+    (SBAR (IN that)
+      (S
+        (NP (NNP Buona) (NNP Vista) (NN station))
+        (VP (VBZ has)
+          (VP (VBN been)
+            (ADVP (RB around))
+            (PP (IN for)
+              (NP (DT a) (RB long) (NN while) (, ,)))))))))
+
+
+root(ROOT-0, Granted-1)
+mark(been-7, that-2)
+nn(station-5, Buona-3)
+nn(station-5, Vista-4)
+nsubj(been-7, station-5)
+aux(been-7, has-6)
+ccomp(Granted-1, been-7)
+advmod(been-7, around-8)
+prep(been-7, for-9)
+det(while-12, a-10)
+advmod(while-12, long-11)
+pobj(for-9, while-12)
+
+
+(ROOT
+  (PRN (CC but)
+    (SBAR (IN if)
+      (S
+        (NP (PRP you))
+        (VP (VBP are)
+          (VP (VBG staying)
+            (PP (IN near)
+              (NP
+                (NP (DT any))
+                (PP (IN of)
+                  (NP
+                    (NP (DT the) (JJ new) (NNP MRT) (NNS stations))
+                    (PP (IN along)
+                      (NP (DT the) (NNP Circle) (NNP Line) (, ,)))))))))))))
+
+
+cc(staying-5, but-1)
+mark(staying-5, if-2)
+nsubj(staying-5, you-3)
+aux(staying-5, are-4)
+root(ROOT-0, staying-5)
+prep(staying-5, near-6)
+pobj(near-6, any-7)
+prep(any-7, of-8)
+det(stations-12, the-9)
+amod(stations-12, new-10)
+nn(stations-12, MRT-11)
+pobj(of-8, stations-12)
+prep(stations-12, along-13)
+det(Line-16, the-14)
+nn(Line-16, Circle-15)
+pobj(along-13, Line-16)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (MD would)
+      (ADVP (RB probably))
+      (VP (VB find)
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP (PRP$ your) (NN travel) (NN time))
+              (PP (TO to)
+                (NP (NNP Buona) (NNP Vista))))
+            (VP (VBZ has)
+              (ADVP (RB just))
+              (VP (VBN been)
+                (VP (VBN cut)
+                  (PP (IN by)
+                    (NP (PDT quite) (DT a) (NN bit))))))))))
+    (. !)))
+
+
+nsubj(find-4, you-1)
+aux(find-4, would-2)
+advmod(find-4, probably-3)
+root(ROOT-0, find-4)
+mark(cut-15, that-5)
+poss(time-8, your-6)
+nn(time-8, travel-7)
+nsubjpass(cut-15, time-8)
+prep(time-8, to-9)
+nn(Vista-11, Buona-10)
+pobj(to-9, Vista-11)
+aux(cut-15, has-12)
+advmod(cut-15, just-13)
+auxpass(cut-15, been-14)
+ccomp(find-4, cut-15)
+prep(cut-15, by-16)
+predet(bit-19, quite-17)
+det(bit-19, a-18)
+pobj(by-16, bit-19)
+
+
+(ROOT
+  (FRAG
+    (PP (RB Aside) (IN from)
+      (NP (NNS eateries)))
+    (, ,)))
+
+
+advmod(from-2, Aside-1)
+root(ROOT-0, from-2)
+pobj(from-2, eateries-3)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NNP Circle) (NNP Line))
+    (VP (VBZ has)
+      (ADVP (RB also))
+      (VP (VBN opened)
+        (PRT (RP up))
+        (NP (NN access))
+        (PP (TO to)
+          (NP
+            (NP (JJ many) (NNP Shopping) (NNPS Centres))
+            (CC and)
+            (NP (JJ other) (NNS attractions))))))
+    (. !)))
+
+
+det(Line-3, the-1)
+nn(Line-3, Circle-2)
+nsubj(opened-6, Line-3)
+aux(opened-6, has-4)
+advmod(opened-6, also-5)
+root(ROOT-0, opened-6)
+prt(opened-6, up-7)
+dobj(opened-6, access-8)
+prep(opened-6, to-9)
+amod(Centres-12, many-10)
+nn(Centres-12, Shopping-11)
+pobj(to-9, Centres-12)
+cc(Centres-12, and-13)
+amod(attractions-15, other-14)
+conj(Centres-12, attractions-15)
+
+
+(ROOT
+  (X
+    (S
+      (VP (TO To)
+        (VP (VB find)
+          (PRT (RP out))
+          (NP (JJR more)))))
+    (CC and)
+    (PP (TO to)
+      (VP (VB see)
+        (NP
+          (NP (JJ various) (NNS events))
+          (VP (VBG happening)
+            (PP (IN around)
+              (NP (DT the) (NNS stations)))))
+        (, ,)))))
+
+
+aux(find-2, To-1)
+root(ROOT-0, find-2)
+prt(find-2, out-3)
+dobj(find-2, more-4)
+cc(find-2, and-5)
+dep(find-2, to-6)
+dep(to-6, see-7)
+amod(events-9, various-8)
+dobj(see-7, events-9)
+partmod(events-9, happening-10)
+prep(happening-10, around-11)
+det(stations-13, the-12)
+pobj(around-11, stations-13)
+
+
+(ROOT
+  (S
+    (VP (VB do)
+      (VP (VB check)
+        (PRT (RP out))
+        (NP (DT the) (JJ SMRT) (NN website))
+        (ADVP (RB here))))
+    (. .)))
+
+
+aux(check-2, do-1)
+root(ROOT-0, check-2)
+prt(check-2, out-3)
+det(website-6, the-4)
+amod(website-6, SMRT-5)
+dobj(check-2, website-6)
+advmod(check-2, here-7)
+
+
+(ROOT
+  (SBAR (IN In) (NN order)
+    (S
+      (VP (TO to)
+        (VP (VB generate)
+          (NP (NN interest))
+          (PP (IN in)
+            (NP (DT the) (JJ great) (JJ eating) (NNS places)))
+          (PP (RB near) (TO to)
+            (NP (DT the) (JJ new) (NNP Circle) (NNP Line) (NNS stations)))
+          (, ,))))))
+
+
+mark(generate-4, In-1)
+dep(generate-4, order-2)
+aux(generate-4, to-3)
+root(ROOT-0, generate-4)
+dobj(generate-4, interest-5)
+prep(generate-4, in-6)
+det(places-10, the-7)
+amod(places-10, great-8)
+amod(places-10, eating-9)
+pobj(in-6, places-10)
+advmod(to-12, near-11)
+prep(generate-4, to-12)
+det(stations-17, the-13)
+amod(stations-17, new-14)
+nn(stations-17, Circle-15)
+nn(stations-17, Line-16)
+pobj(to-12, stations-17)
+
+
+(ROOT
+  (S
+    (NP (NNP SMRT))
+    (VP (VBZ organizes)
+      (NP (NN makan) (NNS sessions))
+      (NP (DT every) (NN month))
+      (SBAR
+        (WHADVP (WRB where))
+        (S
+          (NP (PRP you))
+          (VP (MD can)
+            (VP (VB join)
+              (NP (DT a) (NNP Foodie) (NNP Personality))
+              (PP (IN on)
+                (NP (DT a) (NN makan) (NN trip))))))))
+    (. .)))
+
+
+nsubj(organizes-2, SMRT-1)
+root(ROOT-0, organizes-2)
+nn(sessions-4, makan-3)
+dobj(organizes-2, sessions-4)
+det(month-6, every-5)
+tmod(organizes-2, month-6)
+advmod(join-10, where-7)
+nsubj(join-10, you-8)
+aux(join-10, can-9)
+advcl(organizes-2, join-10)
+det(Personality-13, a-11)
+nn(Personality-13, Foodie-12)
+dobj(join-10, Personality-13)
+prep(join-10, on-14)
+det(trip-17, a-15)
+nn(trip-17, makan-16)
+pobj(on-14, trip-17)
+
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN session))
+    (VP (VBD was)
+      (PP (IN in)
+        (NP
+          (NP (NNP October))
+          (CC and)
+          (S
+            (NP (PRP I))
+            (VP (VBD met)
+              (SBAR (IN with)
+                (S
+                  (NP
+                    (NP (DT some))
+                    (PP (IN of)
+                      (NP (PRP$ my) (JJ new))))
+                  (VP (VBD found)
+                    (NP (NN food) (NNS friends))
+                    (PRT (RP over))
+                    (PP (IN at)
+                      (NP (NNP Westlake) (NNP Restaurant)))))))))))
+    (, ,)))
+
+
+poss(session-2, My-1)
+nsubj(was-3, session-2)
+root(ROOT-0, was-3)
+prep(was-3, in-4)
+pobj(in-4, October-5)
+cc(October-5, and-6)
+nsubj(met-8, I-7)
+conj(October-5, met-8)
+mark(found-14, with-9)
+nsubj(found-14, some-10)
+prep(some-10, of-11)
+poss(new-13, my-12)
+pobj(of-11, new-13)
+advcl(met-8, found-14)
+nn(friends-16, food-15)
+dobj(found-14, friends-16)
+prt(found-14, over-17)
+prep(found-14, at-18)
+nn(Restaurant-20, Westlake-19)
+pobj(at-18, Restaurant-20)
+
+
+(ROOT
+  (S
+    (VP (VBN located)
+      (PP
+        (NP (RB just) (CD 5) (NNS minutes))
+        (IN from)
+        (NP (NNP Farrer) (NNP Park) (NNP MRT) (NN station))))
+    (. .)))
+
+
+root(ROOT-0, located-1)
+advmod(minutes-4, just-2)
+num(minutes-4, 5-3)
+npadvmod(from-5, minutes-4)
+prep(located-1, from-5)
+nn(station-9, Farrer-6)
+nn(station-9, Park-7)
+nn(station-9, MRT-8)
+pobj(from-5, station-9)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (NP
+        (NP (DT a)
+          (ADJP (RB pretty) (JJ cosy))
+          (NN session))
+        (SBAR (IN as)
+          (S
+            (NP (EX there))
+            (VP (VBD were)
+              (UCP
+                (NP (RB only) (CD 20) (NNS participants))
+                (CC and)
+                (ADVP (RB aside)))))))
+      (PP (IN from)
+        (S
+          (VP (VBG enjoying)
+            (NP (DT the) (NN meal))
+            (ADVP (RB together))))))
+    (, ,)))
+
+
+nsubj(session-6, It-1)
+cop(session-6, was-2)
+det(session-6, a-3)
+advmod(cosy-5, pretty-4)
+amod(session-6, cosy-5)
+root(ROOT-0, session-6)
+mark(were-9, as-7)
+expl(were-9, there-8)
+dep(session-6, were-9)
+advmod(participants-12, only-10)
+num(participants-12, 20-11)
+nsubj(were-9, participants-12)
+cc(participants-12, and-13)
+advmod(participants-12, aside-14)
+prep(session-6, from-15)
+pcomp(from-15, enjoying-16)
+det(meal-18, the-17)
+dobj(enjoying-16, meal-18)
+advmod(enjoying-16, together-19)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB also))
+    (VP (VBD conducted)
+      (NP
+        (NP (DT a) (JJ mini) (NNP Food) (NNP Photography) (NN workshop))
+        (CC and)
+        (NP (VBN shared) (NNS tips)))
+      (PP (IN on)
+        (SBAR
+          (WHADVP (WRB how))
+          (S
+            (VP (TO to)
+              (VP (VB take)
+                (NP
+                  (NP (NNS photos))
+                  (PP (IN of)
+                    (NP (NNP Kong) (NNP Bak) (NNP Pau)
+                      (CC and)
+                      (NNP Sichuan) (NNP Soup))))))))))
+    (. .)))
+
+
+nsubj(conducted-3, I-1)
+advmod(conducted-3, also-2)
+root(ROOT-0, conducted-3)
+det(workshop-8, a-4)
+amod(workshop-8, mini-5)
+nn(workshop-8, Food-6)
+nn(workshop-8, Photography-7)
+dobj(conducted-3, workshop-8)
+cc(workshop-8, and-9)
+amod(tips-11, shared-10)
+conj(workshop-8, tips-11)
+prep(conducted-3, on-12)
+advmod(take-15, how-13)
+aux(take-15, to-14)
+pcomp(on-12, take-15)
+dobj(take-15, photos-16)
+prep(photos-16, of-17)
+nn(Pau-20, Kong-18)
+nn(Pau-20, Bak-19)
+pobj(of-17, Pau-20)
+cc(Pau-20, and-21)
+nn(Soup-23, Sichuan-22)
+conj(Pau-20, Soup-23)
+
+
+(ROOT
+  (S
+    (NP (DT Some))
+    (VP (VBZ lucky))
+    (PRN
+      (NP (NNS participants))
+      (VP
+        (ADVP (RB even))
+        (VBD managed)
+        (S
+          (VP (TO to)
+            (VP (VB win)
+              (NP
+                (NP (NNS copies))
+                (PP (IN of)
+                  (NP (PRP$ my) (NN book)))))))))
+    (`` ``)))
+
+
+nsubj(lucky-2, Some-1)
+root(ROOT-0, lucky-2)
+nsubj(managed-5, participants-3)
+advmod(managed-5, even-4)
+parataxis(lucky-2, managed-5)
+aux(win-7, to-6)
+xcomp(managed-5, win-7)
+dobj(win-7, copies-8)
+prep(copies-8, of-9)
+poss(book-11, my-10)
+pobj(of-9, book-11)
+
+
+(ROOT
+  (NP
+    (NP (DT The) (NN End))
+    (PP (IN of)
+      (NP
+        (NP (NNP Char) (NNP Kway) (NNP Teow) ('' ''))
+        (, ,)))))
+
+
+det(End-2, The-1)
+root(ROOT-0, End-2)
+prep(End-2, of-3)
+nn(Teow-6, Char-4)
+nn(Teow-6, Kway-5)
+pobj(of-3, Teow-6)
+
+
+(ROOT
+  (FRAG
+    (CONJP (RB as) (RB well) (IN as))
+    (NP (JJ other) (NN prizes) (. !))))
+
+
+advmod(well-2, as-1)
+cc(prizes-5, well-2)
+mwe(well-2, as-3)
+amod(prizes-5, other-4)
+root(ROOT-0, prizes-5)
+
+
+(ROOT
+  (S
+    (NP (NNP SMRT))
+    (VP (VBZ is)
+      (ADVP (RB currently))
+      (VP (VBG running)
+        (NP (DT an) (JJ online) (NN quiz))
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (NP (PRP you))
+            (VP (MD can)
+              (VP (VB win)
+                (NP (NN dining) (NNS vouchers))
+                (S
+                  (VP (TO to)
+                    (VP (VB try)
+                      (PRT (RP out))
+                      (NP (DT the) (NNS dishes))
+                      (PP (IN at)
+                        (NP (NNP Westlake))))))))))))
+    (. !)))
+
+
+nsubj(running-4, SMRT-1)
+aux(running-4, is-2)
+advmod(running-4, currently-3)
+root(ROOT-0, running-4)
+det(quiz-7, an-5)
+amod(quiz-7, online-6)
+dobj(running-4, quiz-7)
+advmod(win-11, where-8)
+nsubj(win-11, you-9)
+aux(win-11, can-10)
+advcl(running-4, win-11)
+nn(vouchers-13, dining-12)
+dobj(win-11, vouchers-13)
+aux(try-15, to-14)
+xcomp(win-11, try-15)
+prt(try-15, out-16)
+det(dishes-18, the-17)
+dobj(try-15, dishes-18)
+prep(try-15, at-19)
+pobj(at-19, Westlake-20)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT All))
+      (SBAR
+        (S
+          (NP (PRP you))
+          (VP (VBP have)
+            (S
+              (VP (TO to)
+                (VP (VB do))))))))
+    (VP (VBZ is)
+      (S
+        (VP (TO to)
+          (VP (VB visit)
+            (NP (DT this) (NN link)
+              (S
+                (VP (TO to)
+                  (VP (VB take)
+                    (NP (NN part))))))))))
+    (. !)))
+
+
+nsubj(is-6, All-1)
+nsubj(have-3, you-2)
+rcmod(All-1, have-3)
+aux(do-5, to-4)
+xcomp(have-3, do-5)
+root(ROOT-0, is-6)
+aux(visit-8, to-7)
+xcomp(is-6, visit-8)
+det(link-10, this-9)
+dobj(visit-8, link-10)
+aux(take-12, to-11)
+infmod(link-10, take-12)
+dobj(take-12, part-13)
+
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are)
+      (NP
+        (NP (NN makan) (NNS sessions))
+        (VP (VBG happening)
+          (NP (DT every) (NN month) (NN hosted))
+          (PP (IN by)
+            (NP (JJ different) (NNS personalities))))))
+    (. .)))
+
+
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+nn(sessions-4, makan-3)
+nsubj(are-2, sessions-4)
+partmod(sessions-4, happening-5)
+det(hosted-8, every-6)
+nn(hosted-8, month-7)
+dobj(happening-5, hosted-8)
+prep(happening-5, by-9)
+amod(personalities-11, different-10)
+pobj(by-9, personalities-11)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD shall)
+      (VP (VB be)
+        (VP (VBG hosting)
+          (NP
+            (NP (DT another) (NN one))
+            (PP (IN in)
+              (NP (NNP December))))
+          (PP (IN at)
+            (NP (NNP Spice) (NNP Perankan) (NN restaurant))))))
+    (. .)))
+
+
+nsubj(hosting-4, I-1)
+aux(hosting-4, shall-2)
+aux(hosting-4, be-3)
+root(ROOT-0, hosting-4)
+det(one-6, another-5)
+dobj(hosting-4, one-6)
+prep(one-6, in-7)
+pobj(in-7, December-8)
+prep(hosting-4, at-9)
+nn(restaurant-12, Spice-10)
+nn(restaurant-12, Perankan-11)
+pobj(at-9, restaurant-12)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (MD would)
+        (VP (VB like)
+          (S
+            (VP (TO to)
+              (VP (VB join)
+                (NP (PRP me)))))))
+      (, ,))))
+
+
+mark(like-4, If-1)
+nsubj(like-4, you-2)
+aux(like-4, would-3)
+root(ROOT-0, like-4)
+aux(join-6, to-5)
+xcomp(like-4, join-6)
+dobj(join-6, me-7)
+
+
+(ROOT
+  (S
+    (INTJ (VB please))
+    (VP (VB register)
+      (PP (IN by)
+        (S
+          (VP (VBG clicking)
+            (ADVP (RB here))))))
+    (. .)))
+
+
+discourse(register-2, please-1)
+root(ROOT-0, register-2)
+prep(register-2, by-3)
+pcomp(by-3, clicking-4)
+advmod(clicking-4, here-5)
+
+

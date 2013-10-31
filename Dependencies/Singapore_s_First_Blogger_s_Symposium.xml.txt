@@ -1,0 +1,837 @@
+(ROOT
+  (NP
+    (NP (JJ Good) (NN news))
+    (PP (IN for)
+      (NP (DT all) (VBG aspiring) (NNS bloggers)))
+    (. .)))
+
+
+amod(news-2, Good-1)
+root(ROOT-0, news-2)
+prep(news-2, for-3)
+det(bloggers-6, all-4)
+amod(bloggers-6, aspiring-5)
+pobj(for-3, bloggers-6)
+
+
+(ROOT
+  (FRAG
+    (PP (IN For)
+      (NP
+        (NP (DT the)
+          (ADJP (RB very) (JJ first))
+          (NN time))
+        (PP (IN in)
+          (NP (NNP Singapore)))))
+    (, ,)))
+
+
+root(ROOT-0, For-1)
+det(time-5, the-2)
+advmod(first-4, very-3)
+amod(time-5, first-4)
+pobj(For-1, time-5)
+prep(time-5, in-6)
+pobj(in-6, Singapore-7)
+
+
+(ROOT
+  (S
+    (NP (NNP Nuffnang))
+    (VP (VBP are)
+      (VP (VBG organizing)
+        (NP
+          (NP (DT a) (NN blogger) (POS 's))
+          (NN symposium)
+          (SBAR
+            (WHADVP (WRB where))
+            (S
+              (NP
+                (NP (NNS bloggers))
+                (PP (IN of)
+                  (NP (JJ different) (NNS genres))))
+              (VP (MD can)
+                (VP (VB get)
+                  (NP (NNS tips))
+                  (PP (IN on)
+                    (SBAR
+                      (WHADVP (WRB how))
+                      (S
+                        (VP (TO to)
+                          (VP (VB write)
+                            (NP (JJR better) (NN blog))))))))))))))
+    (. !)))
+
+
+nsubj(organizing-3, Nuffnang-1)
+aux(organizing-3, are-2)
+root(ROOT-0, organizing-3)
+det(blogger-5, a-4)
+poss(symposium-7, blogger-5)
+possessive(blogger-5, 's-6)
+dobj(organizing-3, symposium-7)
+advmod(get-14, where-8)
+nsubj(get-14, bloggers-9)
+prep(bloggers-9, of-10)
+amod(genres-12, different-11)
+pobj(of-10, genres-12)
+aux(get-14, can-13)
+ccomp(symposium-7, get-14)
+dobj(get-14, tips-15)
+prep(get-14, on-16)
+advmod(write-19, how-17)
+aux(write-19, to-18)
+pcomp(on-16, write-19)
+amod(blog-21, better-20)
+dobj(write-19, blog-21)
+
+
+(ROOT
+  (S
+    (NP (NNP The))
+    (VP (VBZ event))
+    (, ,)))
+
+
+nsubj(event-2, The-1)
+root(ROOT-0, event-2)
+
+
+(ROOT
+  (S
+    (NP (WDT which))
+    (VP (VBZ is)
+      (VP (VBN sponsored)
+        (PP (IN by)
+          (NP (NNP Canon)))))
+    (, ,)))
+
+
+nsubjpass(sponsored-3, which-1)
+auxpass(sponsored-3, is-2)
+root(ROOT-0, sponsored-3)
+prep(sponsored-3, by-4)
+pobj(by-4, Canon-5)
+
+
+(ROOT
+  (S
+    (S
+      (VP (MD will)
+        (VP (VB take)
+          (NP (NN place))
+          (PP (IN in)
+            (NP (NNP April))))))
+    (CC and)
+    (S
+      (NP (EX there))
+      (VP (VBP are)
+        (NP
+          (NP (CD three) (NNP Canon) (NNP Powershot) (NNP S90) (NNS cameras))
+          (SBAR
+            (S
+              (VP (TO to)
+                (VP (VB be)
+                  (VP (VBN won)))))))))
+    (. !)))
+
+
+aux(take-2, will-1)
+root(ROOT-0, take-2)
+dobj(take-2, place-3)
+prep(take-2, in-4)
+pobj(in-4, April-5)
+cc(take-2, and-6)
+expl(are-8, there-7)
+conj(take-2, are-8)
+num(cameras-13, three-9)
+nn(cameras-13, Canon-10)
+nn(cameras-13, Powershot-11)
+nn(cameras-13, S90-12)
+nsubj(are-8, cameras-13)
+aux(won-16, to-14)
+auxpass(won-16, be-15)
+infmod(cameras-13, won-16)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NN symposium))
+    (VP (MD will)
+      (VP (VB consist)
+        (PP (IN of)
+          (NP (CD 5) (JJ breakout) (NNS sessions)))
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (NP (NNS participants))
+            (VP (MD can)
+              (VP (VB choose)
+                (S
+                  (VP (TO to)
+                    (VP (VB attend)
+                      (NP
+                        (NP (DT the) (NN genre))
+                        (PP (IN of)
+                          (NP (PRP$ their) (NN choice)))))))))))))
+    (. .)))
+
+
+det(symposium-2, The-1)
+nsubj(consist-4, symposium-2)
+aux(consist-4, will-3)
+root(ROOT-0, consist-4)
+prep(consist-4, of-5)
+num(sessions-8, 5-6)
+amod(sessions-8, breakout-7)
+pobj(of-5, sessions-8)
+advmod(choose-12, where-9)
+nsubj(choose-12, participants-10)
+aux(choose-12, can-11)
+advcl(consist-4, choose-12)
+aux(attend-14, to-13)
+xcomp(choose-12, attend-14)
+det(genre-16, the-15)
+dobj(attend-14, genre-16)
+prep(genre-16, of-17)
+poss(choice-19, their-18)
+pobj(of-17, choice-19)
+
+
+(ROOT
+  (NP
+    (NP (DT The) (CD five) (NNS categories))
+    (VP (VBP are))
+    (: :)))
+
+
+det(categories-3, The-1)
+num(categories-3, five-2)
+root(ROOT-0, categories-3)
+dep(categories-3, are-4)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 1))
+    (. .)))
+
+
+root(ROOT-0, 1-1)
+
+
+(ROOT
+  (NP (NNP Lifestyle) (: :)))
+
+
+root(ROOT-0, Lifestyle-1)
+
+
+(ROOT
+  (S
+    (VP (VB Xiaxue))
+    (. .)))
+
+
+root(ROOT-0, Xiaxue-1)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 2))
+    (. .)))
+
+
+root(ROOT-0, 2-1)
+
+
+(ROOT
+  (NP (NNP Parenting) (: :)))
+
+
+root(ROOT-0, Parenting-1)
+
+
+(ROOT
+  (NP
+    (NP (PRP$ Our) (NN Everyday))
+    (QP (CD Things) (CD 3))
+    (. .)))
+
+
+poss(Everyday-2, Our-1)
+root(ROOT-0, Everyday-2)
+number(3-4, Things-3)
+num(Everyday-2, 3-4)
+
+
+(ROOT
+  (NP (NNP Technology) (: :)))
+
+
+root(ROOT-0, Technology-1)
+
+
+(ROOT
+  (S
+    (VP (VBG Techielobang)
+      (NP (CD 4)))
+    (. .)))
+
+
+root(ROOT-0, Techielobang-1)
+dobj(Techielobang-1, 4-2)
+
+
+(ROOT
+  (NP (NNP Fashion) (: :)))
+
+
+root(ROOT-0, Fashion-1)
+
+
+(ROOT
+  (NP
+    (NP (NNP My) (NNP Cherry) (NNP Magazine))
+    (NP (CD 5))
+    (. .)))
+
+
+nn(Magazine-3, My-1)
+nn(Magazine-3, Cherry-2)
+root(ROOT-0, Magazine-3)
+dep(Magazine-3, 5-4)
+
+
+(ROOT
+  (NP (NNP Food) (: :)))
+
+
+root(ROOT-0, Food-1)
+
+
+(ROOT
+  (S
+    (NP (JJ ieatishootipost) (NNP All) (NNS participants))
+    (VP (MD will)
+      (VP (VB enter)
+        (NP (DT a) (JJ lucky) (NN draw))
+        (S
+          (VP (TO to)
+            (VP (VB win)
+              (NP (DT a) (NNP Canon) (NNP Powershot) (NNP S90) (NN camera)))))))
+    (. .)))
+
+
+amod(participants-3, ieatishootipost-1)
+nn(participants-3, All-2)
+nsubj(enter-5, participants-3)
+aux(enter-5, will-4)
+root(ROOT-0, enter-5)
+det(draw-8, a-6)
+amod(draw-8, lucky-7)
+dobj(enter-5, draw-8)
+aux(win-10, to-9)
+xcomp(enter-5, win-10)
+det(camera-15, a-11)
+nn(camera-15, Canon-12)
+nn(camera-15, Powershot-13)
+nn(camera-15, S90-14)
+dobj(win-10, camera-15)
+
+
+(ROOT
+  (FRAG (CC But)
+    (SBAR (IN if)
+      (S
+        (NP (PRP you))
+        (VP (VBP are)
+          (NP
+            (NP (DT the) (JJ first) (CD 150) (NNS registrants))
+            (SBAR
+              (S
+                (NP
+                  (NP (PRP$ your) (NNS chances))
+                  (PP (IN of)
+                    (S
+                      (VP (VBG winning)
+                        (NP (DT the) (NN Camera))))))
+                (VP (MD will)
+                  (VP (VB quintruple)))))))))
+    (. !)))
+
+
+cc(registrants-8, But-1)
+mark(registrants-8, if-2)
+nsubj(registrants-8, you-3)
+cop(registrants-8, are-4)
+det(registrants-8, the-5)
+amod(registrants-8, first-6)
+num(registrants-8, 150-7)
+root(ROOT-0, registrants-8)
+poss(chances-10, your-9)
+nsubj(quintruple-16, chances-10)
+prep(chances-10, of-11)
+pcomp(of-11, winning-12)
+det(Camera-14, the-13)
+dobj(winning-12, Camera-14)
+aux(quintruple-16, will-15)
+rcmod(registrants-8, quintruple-16)
+
+
+(ROOT
+  (S (-LRB- -LRB-)
+    (NP (NN increase))
+    (VP (VBZ 5X))
+    (-RRB- -RRB-) (. .)))
+
+
+nsubj(5X-3, increase-2)
+root(ROOT-0, 5X-3)
+
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (NN addition)))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+pobj(In-1, addition-2)
+
+
+(ROOT
+  (S
+    (NP (EX there))
+    (VP (MD will)
+      (VP (VB be)
+        (NP
+          (NP (DT a) (JJ mini-photo) (NN competition))
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (MD will)
+                (VP (VB be)
+                  (VP (VBN held)
+                    (PP (IN on)
+                      (NP
+                        (NP (DT the) (NN day))
+                        (ADVP (PRP itself))))))))))))
+    (. .)))
+
+
+expl(competition-6, there-1)
+aux(competition-6, will-2)
+cop(competition-6, be-3)
+det(competition-6, a-4)
+amod(competition-6, mini-photo-5)
+root(ROOT-0, competition-6)
+nsubjpass(held-10, which-7)
+aux(held-10, will-8)
+auxpass(held-10, be-9)
+rcmod(competition-6, held-10)
+prep(held-10, on-11)
+det(day-13, the-12)
+pobj(on-11, day-13)
+advmod(day-13, itself-14)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT All))
+      (SBAR
+        (S
+          (NP (PRP you))
+          (VP (VBP have)
+            (S
+              (VP (TO to)
+                (VP (VB do))))))))
+    (VP (VBZ is)
+      (S
+        (VP (TO to)
+          (VP (VB register)
+            (CC and)
+            (VB submit)
+            (NP (DT a) (NN photo))
+            (PP (IN on)
+              (NP
+                (NP (DT that) (NN day))
+                (SBAR
+                  (WHNP (WDT that))
+                  (S
+                    (VP (VBZ fits)
+                      (NP (DT the) (NN theme) (`` ``) (NNP Happiness) ('' '')))))))))))
+    (. .)))
+
+
+nsubj(is-6, All-1)
+nsubj(have-3, you-2)
+rcmod(All-1, have-3)
+aux(do-5, to-4)
+xcomp(have-3, do-5)
+root(ROOT-0, is-6)
+aux(register-8, to-7)
+xcomp(is-6, register-8)
+cc(register-8, and-9)
+conj(register-8, submit-10)
+det(photo-12, a-11)
+dobj(register-8, photo-12)
+prep(register-8, on-13)
+det(day-15, that-14)
+pobj(on-13, day-15)
+nsubj(fits-17, that-16)
+rcmod(day-15, fits-17)
+det(Happiness-21, the-18)
+nn(Happiness-21, theme-19)
+dobj(fits-17, Happiness-21)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NN winner))
+    (VP (MD will)
+      (VP
+        (VP (VB be)
+          (VP (VBN announced)
+            (PP (IN at)
+              (NP
+                (NP (DT the) (NN end))
+                (PP (IN of)
+                  (NP (DT the) (NN symposium)))))))
+        (CC and)
+        (VP (VB walk)
+          (PRT (RP away))
+          (PP (IN with)
+            (NP (DT a) (NN brand) (JJ new) (NNP Canon) (NNP Powershot) (NNP S90) (NNP camera))))))
+    (. !)))
+
+
+det(winner-2, The-1)
+nsubjpass(announced-5, winner-2)
+aux(announced-5, will-3)
+auxpass(announced-5, be-4)
+root(ROOT-0, announced-5)
+prep(announced-5, at-6)
+det(end-8, the-7)
+pobj(at-6, end-8)
+prep(end-8, of-9)
+det(symposium-11, the-10)
+pobj(of-9, symposium-11)
+cc(announced-5, and-12)
+conj(announced-5, walk-13)
+prt(walk-13, away-14)
+prep(walk-13, with-15)
+det(camera-22, a-16)
+nn(camera-22, brand-17)
+amod(camera-22, new-18)
+nn(camera-22, Canon-19)
+nn(camera-22, Powershot-20)
+nn(camera-22, S90-21)
+pobj(with-15, camera-22)
+
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are)
+      (ADVP (RB altogether))
+      (NP (CD three) (NNP Canon) (NNP Powershot) (NNP S90) (NNS cameras))
+      (S
+        (VP (TO to)
+          (VP (VB be)
+            (VP (VBN won))))))
+    (. !)))
+
+
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+advmod(are-2, altogether-3)
+num(cameras-8, three-4)
+nn(cameras-8, Canon-5)
+nn(cameras-8, Powershot-6)
+nn(cameras-8, S90-7)
+nsubj(are-2, cameras-8)
+aux(won-11, to-9)
+auxpass(won-11, be-10)
+xcomp(are-2, won-11)
+
+
+(ROOT
+  (PP (IN For)
+    (NP
+      (NP (DT those))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (MD will)
+            (VP (VB be)
+              (VP (VBG registering)
+                (PP (IN for) (`` ``)
+                  (NP (NNP Food))
+                  ('' ''))))))
+        (, ,)))))
+
+
+root(ROOT-0, For-1)
+pobj(For-1, those-2)
+nsubj(registering-6, who-3)
+aux(registering-6, will-4)
+aux(registering-6, be-5)
+rcmod(those-2, registering-6)
+prep(registering-6, for-7)
+pobj(for-7, Food-9)
+
+
+(ROOT
+  (S
+    (S
+      (VP (VB let)
+        (NP (PRP me))
+        (ADVP (RB just))
+        (VP (VB give)
+          (NP (PRP you))
+          (NP (DT a) (JJ little)))))
+    (VP (VBZ heads)
+      (PRT (RP up))
+      (PP (IN on)
+        (SBAR
+          (WHNP (WP what))
+          (S
+            (NP (PRP I))
+            (VP (MD will)
+              (VP (VB be)
+                (VP (VBG covering))))))))
+    (. .)))
+
+
+csubj(heads-8, let-1)
+dobj(let-1, me-2)
+advmod(let-1, just-3)
+dep(let-1, give-4)
+iobj(give-4, you-5)
+det(little-7, a-6)
+dobj(give-4, little-7)
+root(ROOT-0, heads-8)
+prt(heads-8, up-9)
+prep(heads-8, on-10)
+dobj(covering-15, what-11)
+nsubj(covering-15, I-12)
+aux(covering-15, will-13)
+aux(covering-15, be-14)
+pcomp(on-10, covering-15)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP plan)
+      (S
+        (VP (TO to)
+          (VP (VB divide)
+            (NP (PRP$ my) (NN session))
+            (PP (IN into)
+              (NP (CD two) (NNS parts)))))))
+    (. .)))
+
+
+nsubj(plan-2, I-1)
+root(ROOT-0, plan-2)
+aux(divide-4, to-3)
+xcomp(plan-2, divide-4)
+poss(session-6, my-5)
+dobj(divide-4, session-6)
+prep(divide-4, into-7)
+num(parts-9, two-8)
+pobj(into-7, parts-9)
+
+
+(ROOT
+  (FRAG
+    (PP (IN For)
+      (NP (DT the) (JJ first) (NN part)))
+    (, ,)))
+
+
+root(ROOT-0, For-1)
+det(part-4, the-2)
+amod(part-4, first-3)
+pobj(For-1, part-4)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD shall)
+      (VP (VB be)
+        (VP (VBG sharing)
+          (PP (IN with)
+            (NP
+              (NP (NN everyone))
+              (SBAR
+                (WHNP (WP what))
+                (S
+                  (NP (PRP I))
+                  (VP (VBD learned)
+                    (PP (IN from)
+                      (S
+                        (VP (VBG writing)
+                          (NP (NN ieatishootipost)
+                            (CC and)
+                            (NNS tips))
+                          (PP (IN on)
+                            (SBAR
+                              (WHADVP (WRB how))
+                              (S
+                                (VP (TO to)
+                                  (VP (VB build)
+                                    (NP (DT a) (JJR better) (NN blog))))))))))))))))))
+    (. .)))
+
+
+nsubj(sharing-4, I-1)
+aux(sharing-4, shall-2)
+aux(sharing-4, be-3)
+root(ROOT-0, sharing-4)
+prep(sharing-4, with-5)
+pobj(with-5, everyone-6)
+dobj(learned-9, what-7)
+nsubj(learned-9, I-8)
+rcmod(everyone-6, learned-9)
+prep(learned-9, from-10)
+pcomp(from-10, writing-11)
+dobj(writing-11, ieatishootipost-12)
+cc(ieatishootipost-12, and-13)
+conj(ieatishootipost-12, tips-14)
+prep(writing-11, on-15)
+advmod(build-18, how-16)
+aux(build-18, to-17)
+pcomp(on-15, build-18)
+det(blog-21, a-19)
+amod(blog-21, better-20)
+dobj(build-18, blog-21)
+
+
+(ROOT
+  (FRAG
+    (PP (IN For)
+      (NP (DT the) (JJ second) (NN part)))
+    (, ,)))
+
+
+root(ROOT-0, For-1)
+det(part-4, the-2)
+amod(part-4, second-3)
+pobj(For-1, part-4)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD will)
+      (VP (VB cover)
+        (NP
+          (NP (NNS aspects))
+          (PP (IN on)
+            (NP (NN food) (NN photography)
+              (CC and)
+              (NN share))))
+        (PP (IN with)
+          (NP
+            (NP (PRP you) (NNS tips))
+            (PP (IN on)
+              (SBAR
+                (WHADVP (WRB how))
+                (S
+                  (VP (TO to)
+                    (VP (VB make)
+                      (NP (PRP$ your) (NNS readers) (NN salivate))
+                      (PP (IN with)
+                        (NP
+                          (NP (DT the) (NNS photos))
+                          (SBAR
+                            (S
+                              (NP (PRP you))
+                              (VP (VBP take)))))))))))))))
+    (. !)))
+
+
+nsubj(cover-3, I-1)
+aux(cover-3, will-2)
+root(ROOT-0, cover-3)
+dobj(cover-3, aspects-4)
+prep(aspects-4, on-5)
+nn(photography-7, food-6)
+pobj(on-5, photography-7)
+cc(photography-7, and-8)
+conj(photography-7, share-9)
+prep(cover-3, with-10)
+dep(tips-12, you-11)
+pobj(with-10, tips-12)
+prep(tips-12, on-13)
+advmod(make-16, how-14)
+aux(make-16, to-15)
+pcomp(on-13, make-16)
+poss(salivate-19, your-17)
+nn(salivate-19, readers-18)
+dobj(make-16, salivate-19)
+prep(make-16, with-20)
+det(photos-22, the-21)
+pobj(with-20, photos-22)
+nsubj(take-24, you-23)
+rcmod(photos-22, take-24)
+
+
+(ROOT
+  (SINV
+    (ADVP (RB Here))
+    (VP (VBP are))
+    (NP (DT the) (NN registration) (NNS details))
+    (: :)))
+
+
+advmod(are-2, Here-1)
+root(ROOT-0, are-2)
+det(details-5, the-3)
+nn(details-5, registration-4)
+nsubj(are-2, details-5)
+
+
+(ROOT
+  (NP (NNP 3) (NNP April)))
+
+
+nn(April-2, 3-1)
+root(ROOT-0, April-2)
+
+
+(ROOT
+  (S
+    (ADVP (RB 2010))
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB read)
+        (NP
+          (NP (PRP$ my) (NN review))
+          (PP (IN of)
+            (NP (DT the) (NNP Canon) (NNP Powershot) (NNP S90) (NN camera))))
+        (ADVP (RB here))))
+    (. .)))
+
+
+advmod(read-4, 2010-1)
+nsubj(read-4, You-2)
+aux(read-4, can-3)
+root(ROOT-0, read-4)
+poss(review-6, my-5)
+dobj(read-4, review-6)
+prep(review-6, of-7)
+det(camera-12, the-8)
+nn(camera-12, Canon-9)
+nn(camera-12, Powershot-10)
+nn(camera-12, S90-11)
+pobj(of-7, camera-12)
+advmod(read-4, here-13)
+
+

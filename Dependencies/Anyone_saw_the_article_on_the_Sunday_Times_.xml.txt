@@ -1,0 +1,125 @@
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ has)
+      (ADVP (RB just))
+      (VP (VBN been)
+        (VP (VBN brought)
+          (PP (TO to)
+            (NP (PRP$ my) (NN attention)))
+          (SBAR (IN that)
+            (S
+              (NP (NN ieatishootipost))
+              (VP (VBD was)
+                (VP (VBN mentioned)
+                  (PP (IN in)
+                    (NP
+                      (NP (DT the) (NN lifestyle) (NN section))
+                      (PP (IN of)
+                        (NP (DT the) (NNP Sunday) (NNP Times)))))
+                  (NP (JJ last) (NNP Sunday)))))))))
+    (. .)))
+
+
+nsubjpass(brought-5, It-1)
+aux(brought-5, has-2)
+advmod(brought-5, just-3)
+auxpass(brought-5, been-4)
+root(ROOT-0, brought-5)
+prep(brought-5, to-6)
+poss(attention-8, my-7)
+pobj(to-6, attention-8)
+mark(mentioned-12, that-9)
+nsubjpass(mentioned-12, ieatishootipost-10)
+auxpass(mentioned-12, was-11)
+ccomp(brought-5, mentioned-12)
+prep(mentioned-12, in-13)
+det(section-16, the-14)
+nn(section-16, lifestyle-15)
+pobj(in-13, section-16)
+prep(section-16, of-17)
+det(Times-20, the-18)
+nn(Times-20, Sunday-19)
+pobj(of-17, Times-20)
+amod(Sunday-22, last-21)
+tmod(mentioned-12, Sunday-22)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB always))
+    (VP (VBP find)
+      (PRT (RP out))
+      (PP (IN about)
+        (NP
+          (NP (DT these) (NNS things))
+          (PP (IN after)
+            (NP (DT the) (NN fact))))))
+    (. .)))
+
+
+nsubj(find-3, I-1)
+advmod(find-3, always-2)
+root(ROOT-0, find-3)
+prt(find-3, out-4)
+prep(find-3, about-5)
+det(things-7, these-6)
+pobj(about-5, things-7)
+prep(things-7, after-8)
+det(fact-10, the-9)
+pobj(after-8, fact-10)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (VBP happen)
+        (S
+          (VP (TO to)
+            (VP (VB have)
+              (NP (DT the) (NN article))))))
+      (, ,))))
+
+
+mark(happen-3, If-1)
+nsubj(happen-3, you-2)
+root(ROOT-0, happen-3)
+aux(have-5, to-4)
+xcomp(happen-3, have-5)
+det(article-7, the-6)
+dobj(have-5, article-7)
+
+
+(ROOT
+  (SQ (MD could)
+    (NP (PRP you))
+    (VP (VB please)
+      (VP (VB send)
+        (NP (PRP me))
+        (NP (DT a) (JJ soft) (NN copy))))
+    (. ?)))
+
+
+aux(please-3, could-1)
+nsubj(please-3, you-2)
+root(ROOT-0, please-3)
+xcomp(please-3, send-4)
+iobj(send-4, me-5)
+det(copy-8, a-6)
+amod(copy-8, soft-7)
+dobj(send-4, copy-8)
+
+
+(ROOT
+  (NP (NNS Thanks)
+    (QP (RB so) (JJ much))
+    (. !)))
+
+
+root(ROOT-0, Thanks-1)
+quantmod(much-3, so-2)
+num(Thanks-1, much-3)
+
+

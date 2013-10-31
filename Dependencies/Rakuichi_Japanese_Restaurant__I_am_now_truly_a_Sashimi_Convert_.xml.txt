@@ -1,0 +1,176 @@
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ 's) (RB not)
+      (ADJP (JJ everyday))
+      (SBAR (IN that)
+        (S
+          (NP (PRP you))
+          (VP (VBP get)
+            (S
+              (VP (TO to)
+                (VP (VB eat)
+                  (NP (DT a) (NN $)))))))))))
+
+
+nsubj(everyday-4, It-1)
+cop(everyday-4, 's-2)
+neg(everyday-4, not-3)
+root(ROOT-0, everyday-4)
+mark(get-7, that-5)
+nsubj(get-7, you-6)
+ccomp(everyday-4, get-7)
+aux(eat-9, to-8)
+xcomp(get-7, eat-9)
+det($-11, a-10)
+dobj(eat-9, $-11)
+
+
+(ROOT
+  (NP
+    (NP (CD 200))
+    (PP (IN per)
+      (NP (NN head) (NN meal)))
+    (. .)))
+
+
+root(ROOT-0, 200-1)
+prep(200-1, per-2)
+nn(meal-4, head-3)
+pobj(per-2, meal-4)
+
+
+(ROOT
+  (S
+    (NP (DT The) (JJ last) (NN time) (NN I))
+    (VP (VBD did)
+      (SBAR
+        (S
+          (NP (PRP it))
+          (VP (VBD was)
+            (PP (IN in)
+              (NP (NNP Tokyo)))))))
+    (, ,)))
+
+
+det(I-4, The-1)
+amod(I-4, last-2)
+nn(I-4, time-3)
+nsubj(did-5, I-4)
+root(ROOT-0, did-5)
+nsubj(was-7, it-6)
+ccomp(did-5, was-7)
+prep(was-7, in-8)
+pobj(in-8, Tokyo-9)
+
+
+(ROOT
+  (S (CC but)
+    (NP (DT that))
+    (VP (VBD was)
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP I))
+          (VP (VBD fulfilled)
+            (NP
+              (NP
+                (NP (DT a) (NN life) (POS 's))
+                (NN dream))
+              (PP (IN of)
+                (S
+                  (VP (VBG eating)
+                    (NP (NNP Matsuzaka) (NN beef))))))))))
+    (. .)))
+
+
+cc(was-3, but-1)
+nsubj(was-3, that-2)
+root(ROOT-0, was-3)
+advmod(fulfilled-6, when-4)
+nsubj(fulfilled-6, I-5)
+advcl(was-3, fulfilled-6)
+det(life-8, a-7)
+poss(dream-10, life-8)
+possessive(life-8, 's-9)
+dobj(fulfilled-6, dream-10)
+prep(dream-10, of-11)
+pcomp(of-11, eating-12)
+nn(beef-14, Matsuzaka-13)
+dobj(eating-12, beef-14)
+
+
+(ROOT
+  (FRAG
+    (PP (IN For)
+      (NP
+        (NP (NNS guys))
+        (PP (IN without)
+          (NP
+            (NP (DT a) (JJ corporate) (NN account))
+            (PP (IN like)
+              (NP (PRP myself)))))))
+    (, ,)))
+
+
+root(ROOT-0, For-1)
+pobj(For-1, guys-2)
+prep(guys-2, without-3)
+det(account-6, a-4)
+amod(account-6, corporate-5)
+pobj(without-3, account-6)
+prep(account-6, like-7)
+pobj(like-7, myself-8)
+
+
+(ROOT
+  (NP (NN spending) (CD $)))
+
+
+root(ROOT-0, spending-1)
+num(spending-1, $-2)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (CD 200))
+      (PP (IN on)
+        (NP (DT a) (NN meal))))
+    (VP
+      (VP (VBZ requires)
+        (NP (DT a) (JJ good) (NN excuse)))
+      (CC or)
+      (VP
+        (PP (IN in)
+          (NP
+            (NP (DT the) (NN case))
+            (PP (IN of)
+              (NP (NNP Rakuichi)))))))
+    (, ,)))
+
+
+nsubj(requires-5, 200-1)
+prep(200-1, on-2)
+det(meal-4, a-3)
+pobj(on-2, meal-4)
+root(ROOT-0, requires-5)
+det(excuse-8, a-6)
+amod(excuse-8, good-7)
+dobj(requires-5, excuse-8)
+cc(requires-5, or-9)
+conj(requires-5, in-10)
+det(case-12, the-11)
+pobj(in-10, case-12)
+prep(case-12, of-13)
+pobj(of-13, Rakuichi-14)
+
+
+(ROOT
+  (NP (DT a) (NN blessing) (. .)))
+
+
+det(blessing-2, a-1)
+root(ROOT-0, blessing-2)
+
+

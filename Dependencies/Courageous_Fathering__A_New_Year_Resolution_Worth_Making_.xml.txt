@@ -1,0 +1,1210 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP do) (RB n't)
+      (VP (VB know)
+        (PP (IN about)
+          (NP (PRP you)))))
+    (, ,)))
+
+
+nsubj(know-4, I-1)
+aux(know-4, do-2)
+neg(know-4, n't-3)
+root(ROOT-0, know-4)
+prep(know-4, about-5)
+pobj(about-5, you-6)
+
+
+(ROOT
+  (S (CC but)
+    (NP (PRP I))
+    (VP (VBP have)
+      (ADVP (RB never))
+      (VP (VBN been)
+        (ADJP (JJ big))
+        (PP (IN on)
+          (NP (NNP New) (NN Year) (NNS resolutions)))))
+    (. .)))
+
+
+cc(big-6, but-1)
+nsubj(big-6, I-2)
+aux(big-6, have-3)
+neg(big-6, never-4)
+cop(big-6, been-5)
+root(ROOT-0, big-6)
+prep(big-6, on-7)
+nn(resolutions-10, New-8)
+nn(resolutions-10, Year-9)
+pobj(on-7, resolutions-10)
+
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (NN fact)))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+pobj(In-1, fact-2)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB never))
+    (VP (VBP make)
+      (NP (PRP them)))
+    (, ,)))
+
+
+nsubj(make-3, I-1)
+neg(make-3, never-2)
+root(ROOT-0, make-3)
+dobj(make-3, them-4)
+
+
+(ROOT
+  (FRAG (CC or)
+    (ADVP
+      (ADVP (RB even))
+      (SBAR (IN if)
+        (S
+          (NP (PRP I))
+          (VP (VBD did))
+          (, ,))))))
+
+
+cc(even-2, or-1)
+root(ROOT-0, even-2)
+mark(did-5, if-3)
+nsubj(did-5, I-4)
+dep(even-2, did-5)
+
+
+(ROOT
+  (S
+    (NP (PRP they))
+    (VP (VBP are)
+      (ADVP (RB usually))
+      (ADJP (JJ frivolous)))
+    (, ,)))
+
+
+nsubj(frivolous-4, they-1)
+cop(frivolous-4, are-2)
+advmod(frivolous-4, usually-3)
+root(ROOT-0, frivolous-4)
+
+
+(ROOT
+  (S
+    (VP
+      (VP (VB non-committal))
+      (CC and)
+      (VP (VBZ gets)
+        (VP (VBN forgotten)
+          (PP (IN before)
+            (NP
+              (NP (DT the) (NN end))
+              (PP (IN of)
+                (NP (DT the) (JJ first) (NN week))))))))
+    (. .)))
+
+
+root(ROOT-0, non-committal-1)
+cc(non-committal-1, and-2)
+auxpass(forgotten-4, gets-3)
+conj(non-committal-1, forgotten-4)
+prep(forgotten-4, before-5)
+det(end-7, the-6)
+pobj(before-5, end-7)
+prep(end-7, of-8)
+det(week-11, the-9)
+amod(week-11, first-10)
+pobj(of-8, week-11)
+
+
+(ROOT
+  (FRAG
+    (PP
+      (PP
+        (ADVP (DT This))
+        (ADJP (NN year)))
+      (ADVP (RB however)))
+    (, ,)))
+
+
+root(ROOT-0, This-1)
+dep(This-1, year-2)
+dep(This-1, however-3)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (VBD found)
+            (S
+              (NP (DT a) (NN resolution))
+              (ADJP (JJ worth))
+              (S
+                (VP (VBG making))))))))
+    (. .)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+nsubj(found-4, I-3)
+ccomp(think-2, found-4)
+det(resolution-6, a-5)
+nsubj(making-8, resolution-6)
+dep(making-8, worth-7)
+xcomp(found-4, making-8)
+
+
+(ROOT
+  (FRAG
+    (PP (IN On)
+      (NP
+        (NP (CD 2))
+        (NP (NNP January))))
+    (, ,)))
+
+
+root(ROOT-0, On-1)
+pobj(On-1, 2-2)
+dep(2-2, January-3)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD attended)
+      (NP
+        (NP (DT the) (NN screening))
+        (PP (IN of)
+          (NP (`` ``) (NNP Courageous) ('' ''))))
+      (PP
+        (ADVP (RB together))
+        (IN with)
+        (NP
+          (NP (CD 800) (JJ other) (NNS people))
+          (PP (IN in)
+            (NP
+              (NP (DT an) (NN event))
+              (VP (VBN organized)
+                (PP (IN by)
+                  (NP (NNP Focus)))
+                (PP (IN on)
+                  (NP (DT the) (NNP Family)))))))))
+    (. .)))
+
+
+nsubj(attended-2, I-1)
+root(ROOT-0, attended-2)
+det(screening-4, the-3)
+dobj(attended-2, screening-4)
+prep(screening-4, of-5)
+pobj(of-5, Courageous-7)
+advmod(with-10, together-9)
+prep(attended-2, with-10)
+num(people-13, 800-11)
+amod(people-13, other-12)
+pobj(with-10, people-13)
+prep(people-13, in-14)
+det(event-16, an-15)
+pobj(in-14, event-16)
+partmod(event-16, organized-17)
+prep(organized-17, by-18)
+pobj(by-18, Focus-19)
+prep(organized-17, on-20)
+det(Family-22, the-21)
+pobj(on-20, Family-22)
+
+
+(ROOT
+  (S
+    (NP (TO To))
+    (VP (VBP tell)
+      (S
+        (NP (PRP you))
+        (NP (DT the) (NN truth))))
+    (, ,)))
+
+
+nsubj(tell-2, To-1)
+root(ROOT-0, tell-2)
+nsubj(truth-5, you-3)
+det(truth-5, the-4)
+xcomp(tell-2, truth-5)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP
+      (VP (VBP have)
+        (VP (VBN been)
+          (VP (VBG dragging)
+            (NP (PRP$ my) (NNS feet)))))
+      (CC and)
+      (VP (VBD confirmed)
+        (NP (PRP$ my) (NN attendance))
+        (PP
+          (ADVP (RB only))
+          (IN at)
+          (NP (DT the) (JJ last) (NN minute)))))
+    (. .)))
+
+
+nsubj(dragging-4, I-1)
+aux(dragging-4, have-2)
+aux(dragging-4, been-3)
+root(ROOT-0, dragging-4)
+poss(feet-6, my-5)
+dobj(dragging-4, feet-6)
+cc(dragging-4, and-7)
+conj(dragging-4, confirmed-8)
+poss(attendance-10, my-9)
+dobj(confirmed-8, attendance-10)
+advmod(at-12, only-11)
+prep(confirmed-8, at-12)
+det(minute-15, the-13)
+amod(minute-15, last-14)
+pobj(at-12, minute-15)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Hey))
+    (, ,)))
+
+
+root(ROOT-0, Hey-1)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ its) (NNS 9am))
+      (PP (IN in)
+        (NP
+          (NP (DT the) (NN morning))
+          (CC and)
+          (NP (PRP I)))))
+    (VP (MD would)
+      (ADVP (RB very) (RB much))
+      (VP (VB like)
+        (S
+          (VP (TO to)
+            (VP (VB sleep)
+              (PRT (RP in)))))))
+    (. !)))
+
+
+poss(9am-2, its-1)
+nsubj(like-11, 9am-2)
+prep(9am-2, in-3)
+det(morning-5, the-4)
+pobj(in-3, morning-5)
+cc(morning-5, and-6)
+conj(morning-5, I-7)
+aux(like-11, would-8)
+advmod(much-10, very-9)
+advmod(like-11, much-10)
+root(ROOT-0, like-11)
+aux(sleep-13, to-12)
+xcomp(like-11, sleep-13)
+prt(sleep-13, in-14)
+
+
+(ROOT
+  (FRAG (CC But)
+    (PP (IN after)
+      (NP
+        (NP (RB much))
+        (VP (VBG pestering)
+          (PP (IN from)
+            (NP (PRP$ my) (NN friend))
+            (, ,)))))))
+
+
+root(ROOT-0, But-1)
+prep(But-1, after-2)
+pobj(after-2, much-3)
+partmod(much-3, pestering-4)
+prep(pestering-4, from-5)
+poss(friend-7, my-6)
+pobj(from-5, friend-7)
+
+
+(ROOT
+  (NP (JJ skinnyfoodie) (NNS ,)))
+
+
+amod(,-2, skinnyfoodie-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB finally))
+    (VP (VBD decided)
+      (S
+        (VP (TO to)
+          (VP (VB bring)
+            (NP (DT the) (JJ whole) (NN family))
+            (S
+              (VP (TO to)
+                (VP (VB watch)
+                  (NP (PRP it)))))))))
+    (. .)))
+
+
+nsubj(decided-3, I-1)
+advmod(decided-3, finally-2)
+root(ROOT-0, decided-3)
+aux(bring-5, to-4)
+xcomp(decided-3, bring-5)
+det(family-8, the-6)
+amod(family-8, whole-7)
+dobj(bring-5, family-8)
+aux(watch-10, to-9)
+xcomp(bring-5, watch-10)
+dobj(watch-10, it-11)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADVP (RB sure))
+      (ADJP (JJ glad)))))
+
+
+nsubj(glad-4, I-1)
+cop(glad-4, am-2)
+advmod(glad-4, sure-3)
+root(ROOT-0, glad-4)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD did))
+    (. .)))
+
+
+nsubj(did-2, I-1)
+root(ROOT-0, did-2)
+
+
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (NN movie))
+        (PP (IN for)
+          (NP (DT all) (NNS fathers)))))
+    (, ,)))
+
+
+nsubj(movie-4, This-1)
+cop(movie-4, is-2)
+det(movie-4, a-3)
+root(ROOT-0, movie-4)
+prep(movie-4, for-5)
+det(fathers-7, all-6)
+pobj(for-5, fathers-7)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (RB especially) (NNS ones))
+      (PP (IN like)
+        (NP (PRP me)))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBP think)
+            (SBAR
+              (S
+                (NP (PRP we))
+                (VP (VBP are) (`` ``)
+                  (ADJP (JJ good) (RB enough))
+                  ('' ''))))))))
+    (VP (VBZ dads))
+    (. .)))
+
+
+advmod(ones-2, especially-1)
+nsubj(dads-13, ones-2)
+prep(ones-2, like-3)
+pobj(like-3, me-4)
+nsubj(think-6, who-5)
+rcmod(ones-2, think-6)
+nsubj(good-10, we-7)
+cop(good-10, are-8)
+ccomp(think-6, good-10)
+advmod(good-10, enough-11)
+root(ROOT-0, dads-13)
+
+
+(ROOT
+  (SBAR (IN As)
+    (S
+      (NP (PRP I))
+      (VP (VBD was)
+        (VP (VBN reminded)
+          (PP
+            (ADVP (RB again))
+            (IN in)
+            (NP (DT the) (NN movie))
+            (, ,)))))))
+
+
+mark(reminded-4, As-1)
+nsubjpass(reminded-4, I-2)
+auxpass(reminded-4, was-3)
+root(ROOT-0, reminded-4)
+advmod(in-6, again-5)
+prep(reminded-4, in-6)
+det(movie-8, the-7)
+pobj(in-6, movie-8)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (VBZ 's) (RB not)
+      (ADJP (JJ good) (RB enough)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (NP (`` ``) (JJ good) (NN enough) ('' '')))))))
+    (. .)))
+
+
+nsubj(good-4, it-1)
+cop(good-4, 's-2)
+neg(good-4, not-3)
+root(ROOT-0, good-4)
+advmod(good-4, enough-5)
+aux(enough-10, to-6)
+cop(enough-10, be-7)
+amod(enough-10, good-9)
+xcomp(good-4, enough-10)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (ADVP (DT all))
+    (VP (MD must)
+      (ADVP (RB constantly))
+      (VP (VB strive)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (NP (DT the) (JJS greatest) (NN Dad))
+              (SBAR (IN that)
+                (S
+                  (NP (PRP$ our) (NNS kids))
+                  (VP (MD can)
+                    (ADVP (RB ever))
+                    (VP (VB have))))))))))
+    (. .)))
+
+
+nsubj(strive-5, We-1)
+advmod(strive-5, all-2)
+aux(strive-5, must-3)
+advmod(strive-5, constantly-4)
+root(ROOT-0, strive-5)
+aux(Dad-10, to-6)
+cop(Dad-10, be-7)
+det(Dad-10, the-8)
+amod(Dad-10, greatest-9)
+xcomp(strive-5, Dad-10)
+mark(have-16, that-11)
+poss(kids-13, our-12)
+nsubj(have-16, kids-13)
+aux(have-16, can-14)
+advmod(have-16, ever-15)
+ccomp(Dad-10, have-16)
+
+
+(ROOT
+  (FRAG
+    (PP (IN After)
+      (NP (DT all)))
+    (, ,)))
+
+
+root(ROOT-0, After-1)
+pobj(After-1, all-2)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP
+      (ADVP (RB only))
+      (VBP get)
+      (NP (CD one) (NN chance))
+      (PP (IN at)
+        (S
+          (VP (VBG making)
+            (NP (DT a) (JJ lifelong) (NN impact))
+            (PP (IN on)
+              (NP (PRP$ your) (NNS kids) ('' ')))))))))
+
+
+nsubj(get-3, you-1)
+advmod(get-3, only-2)
+root(ROOT-0, get-3)
+num(chance-5, one-4)
+dobj(get-3, chance-5)
+prep(get-3, at-6)
+pcomp(at-6, making-7)
+det(impact-10, a-8)
+amod(impact-10, lifelong-9)
+dobj(making-7, impact-10)
+prep(making-7, on-11)
+poss(kids-13, your-12)
+pobj(on-11, kids-13)
+
+
+(ROOT
+  (NP (NN life) (. !)))
+
+
+root(ROOT-0, life-1)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ 's)
+      (ADJP (JJ hard)
+        (S
+          (VP (TO to)
+            (VP (VB imagine)
+              (SBAR (IN that)
+                (S
+                  (NP
+                    (NP (DT a) (NN film))
+                    (PP (IN of)
+                      (NP (DT this) (NN quality))))
+                  (VP (VBD was)
+                    (VP (VBN made)
+                      (PP (IN on)
+                        (NP (DT a) (JJ small) (NN budget)))
+                      (PP (IN with)
+                        (NP
+                          (NP (RB mostly) (NNS volunteers))
+                          (PP (IN from)
+                            (NP
+                              (NP (DT a) (NN Church))
+                              (PP (IN in)
+                                (NP (DT the) (NNP US))))))))))))))))
+    (. .)))
+
+
+nsubj(hard-3, It-1)
+cop(hard-3, 's-2)
+root(ROOT-0, hard-3)
+aux(imagine-5, to-4)
+xcomp(hard-3, imagine-5)
+mark(made-13, that-6)
+det(film-8, a-7)
+nsubjpass(made-13, film-8)
+prep(film-8, of-9)
+det(quality-11, this-10)
+pobj(of-9, quality-11)
+auxpass(made-13, was-12)
+ccomp(imagine-5, made-13)
+prep(made-13, on-14)
+det(budget-17, a-15)
+amod(budget-17, small-16)
+pobj(on-14, budget-17)
+prep(made-13, with-18)
+advmod(volunteers-20, mostly-19)
+pobj(with-18, volunteers-20)
+prep(volunteers-20, from-21)
+det(Church-23, a-22)
+pobj(from-21, Church-23)
+prep(Church-23, in-24)
+det(US-26, the-25)
+pobj(in-24, US-26)
+
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBD had)
+      (ADVP (RB previously))
+      (VP (VBN made)
+        (S
+          (VP (VBG Facing)
+            (NP (DT the) (NNPS Giants)
+              (CC and)
+              (NNP Fireproof))))))
+    (, ,)))
+
+
+nsubj(made-4, They-1)
+aux(made-4, had-2)
+advmod(made-4, previously-3)
+root(ROOT-0, made-4)
+xcomp(made-4, Facing-5)
+det(Giants-7, the-6)
+dobj(Facing-5, Giants-7)
+cc(Giants-7, and-8)
+conj(Giants-7, Fireproof-9)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT all))
+      (WHPP (IN of)
+        (WHNP (WDT which))))
+    (VP (VBD did)
+      (ADVP (RB extremely) (RB well))
+      (PP (IN for)
+        (NP (DT the) (JJ independent) (NN film) (NN producer))))
+    (. .)))
+
+
+nsubj(did-4, all-1)
+prep(all-1, of-2)
+pobj(of-2, which-3)
+root(ROOT-0, did-4)
+advmod(well-6, extremely-5)
+advmod(did-4, well-6)
+prep(did-4, for-7)
+det(producer-11, the-8)
+amod(producer-11, independent-9)
+nn(producer-11, film-10)
+pobj(for-7, producer-11)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBD thought)
+        (SBAR
+          (S
+            (NP (DT the) (NN story))
+            (VP (VBD was)
+              (VP
+                (ADVP (RB very) (RB well))
+                (VBN written)))))))
+    (CC and)
+    (S
+      (NP (DT the) (NNS characters))
+      (VP (VBD were)
+        (UCP
+          (ADJP (RB very) (JJ believable))
+          (CC and)
+          (ADVP (RB down)
+            (PP (TO to)
+              (NP (NN earth)))))))
+    (. .)))
+
+
+nsubj(thought-2, I-1)
+root(ROOT-0, thought-2)
+det(story-4, the-3)
+nsubjpass(written-8, story-4)
+auxpass(written-8, was-5)
+advmod(well-7, very-6)
+advmod(written-8, well-7)
+ccomp(thought-2, written-8)
+cc(thought-2, and-9)
+det(characters-11, the-10)
+nsubj(believable-14, characters-11)
+cop(believable-14, were-12)
+advmod(believable-14, very-13)
+conj(thought-2, believable-14)
+cc(believable-14, and-15)
+advmod(believable-14, down-16)
+prep(down-16, to-17)
+pobj(to-17, earth-18)
+
+
+(ROOT
+  (FRAG
+    (PP (IN From)
+      (NP (DT a) (JJ Christian) (NN perspective)))
+    (, ,)))
+
+
+root(ROOT-0, From-1)
+det(perspective-4, a-2)
+amod(perspective-4, Christian-3)
+pobj(From-1, perspective-4)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (ADVP (RB really))
+    (VP (VBZ does)
+      (NP (NN touch))
+      (PP (IN on)
+        (NP
+          (NP (DT some)
+            (ADJP (RB very) (JJ difficult))
+            (NNS issues))
+          (PP (IN like)
+            (SBAR
+              (WHADVP (WRB why))
+              (S
+                (NP (NNP God))
+                (VP (MD would)
+                  (VP (VB allow)
+                    (S
+                      (VP (VBG suffering)
+                        (S
+                          (VP (TO to)
+                            (VP (VB happen))))))))))))))
+    (. .)))
+
+
+nsubj(does-3, it-1)
+advmod(does-3, really-2)
+root(ROOT-0, does-3)
+dobj(does-3, touch-4)
+prep(does-3, on-5)
+det(issues-9, some-6)
+advmod(difficult-8, very-7)
+amod(issues-9, difficult-8)
+pobj(on-5, issues-9)
+prep(issues-9, like-10)
+advmod(allow-14, why-11)
+nsubj(allow-14, God-12)
+aux(allow-14, would-13)
+pcomp(like-10, allow-14)
+xcomp(allow-14, suffering-15)
+aux(happen-17, to-16)
+xcomp(suffering-15, happen-17)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB However))
+    (ADVP (RB ,))))
+
+
+root(ROOT-0, However-1)
+
+
+(ROOT
+  (S
+    (S
+      (NP (DT the) (JJS strongest) (NN message))
+      (VP (VBD was)
+        (PP (IN about)
+          (NP
+            (NP (DT the) (NN responsibility))
+            (PP (IN of)
+              (NP (NN fatherhood)))))))
+    (CC and)
+    (S
+      (NP (PRP I))
+      (VP (VBD found)
+        (NP (PRP myself))
+        (S
+          (VP (VBG making)
+            (NP (JJ fresh) (NNS commitments))
+            (PP (TO to)
+              (NP (PRP$ my) (NNS kids)))))))
+    (. .)))
+
+
+det(message-3, the-1)
+amod(message-3, strongest-2)
+nsubj(was-4, message-3)
+root(ROOT-0, was-4)
+prep(was-4, about-5)
+det(responsibility-7, the-6)
+pobj(about-5, responsibility-7)
+prep(responsibility-7, of-8)
+pobj(of-8, fatherhood-9)
+cc(was-4, and-10)
+nsubj(found-12, I-11)
+conj(was-4, found-12)
+dobj(found-12, myself-13)
+xcomp(found-12, making-14)
+amod(commitments-16, fresh-15)
+dobj(making-14, commitments-16)
+prep(making-14, to-17)
+poss(kids-19, my-18)
+pobj(to-17, kids-19)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (ADJP (DT a) (JJ challenging)))
+    (, ,)))
+
+
+nsubj(challenging-4, It-1)
+cop(challenging-4, is-2)
+dep(challenging-4, a-3)
+root(ROOT-0, challenging-4)
+
+
+(ROOT
+  (S
+    (S
+      (VP (VBN thought)
+        (S
+          (VP (VBG provoking)
+            (NP (NN film))))))
+    (CC and)
+    (S
+      (NP (PRP I))
+      (VP (VBD felt)
+        (VP
+          (ADVP (RB really))
+          (VBN comforted)
+          (S
+            (VP (VBG seeing)
+              (NP (JJ other) (NNS men))
+              (S
+                (ADVP (RB also))
+                (VP (VBG wiping)
+                  (NP (PRP$ their) (NNS eyes))
+                  (PP (IN after)
+                    (S
+                      (VP (VBG coming)
+                        (PRT (RP out))
+                        (PP (IN of)
+                          (NP (DT the) (NN cinema)))))))))))))
+    (. .)))
+
+
+root(ROOT-0, thought-1)
+xcomp(thought-1, provoking-2)
+dobj(provoking-2, film-3)
+cc(thought-1, and-4)
+nsubj(felt-6, I-5)
+conj(thought-1, felt-6)
+advmod(comforted-8, really-7)
+dep(felt-6, comforted-8)
+xcomp(comforted-8, seeing-9)
+amod(men-11, other-10)
+dobj(seeing-9, men-11)
+advmod(wiping-13, also-12)
+xcomp(seeing-9, wiping-13)
+poss(eyes-15, their-14)
+dobj(wiping-13, eyes-15)
+prep(wiping-13, after-16)
+pcomp(after-16, coming-17)
+prt(coming-17, out-18)
+prep(coming-17, of-19)
+det(cinema-21, the-20)
+pobj(of-19, cinema-21)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD might)
+      (VP (VB feel)
+        (NP (DT a) (JJ little) (NN apprehensive))
+        (PP (IN about)
+          (S
+            (VP (VBG watching)
+              (NP (PDT such) (DT a) (NN film))
+              (SBAR (IN as)
+                (S
+                  (NP (PRP it))
+                  (VP (MD might)
+                    (VP (VB mean)
+                      (S
+                        (VP (VBG having)
+                          (S
+                            (VP (TO to)
+                              (VP (VB make)
+                                (NP (NNS changes))
+                                (PP (IN in)
+                                  (NP (PRP$ your) (JJ own) (NN life)))))))))))))))))
+    (. .)))
+
+
+nsubj(feel-3, You-1)
+aux(feel-3, might-2)
+root(ROOT-0, feel-3)
+det(apprehensive-6, a-4)
+amod(apprehensive-6, little-5)
+dobj(feel-3, apprehensive-6)
+prep(feel-3, about-7)
+pcomp(about-7, watching-8)
+predet(film-11, such-9)
+det(film-11, a-10)
+dobj(watching-8, film-11)
+mark(mean-15, as-12)
+nsubj(mean-15, it-13)
+aux(mean-15, might-14)
+advcl(watching-8, mean-15)
+xcomp(mean-15, having-16)
+aux(make-18, to-17)
+xcomp(having-16, make-18)
+dobj(make-18, changes-19)
+prep(make-18, in-20)
+poss(life-23, your-21)
+amod(life-23, own-22)
+pobj(in-20, life-23)
+
+
+(ROOT
+  (S (CC But)
+    (ADVP (RB then))
+    (VP (VBZ again))
+    (, ,)))
+
+
+cc(again-3, But-1)
+advmod(again-3, then-2)
+root(ROOT-0, again-3)
+
+
+(ROOT
+  (SBARQ
+    (WHNP
+      (WHNP (WP what) (NN kind))
+      (PP (IN of)
+        (NP (NNS resolutions))))
+    (SQ (MD can)
+      (NP (PRP you))
+      (VP (VB make)
+        (PP (IN without)
+          (S
+            (VP (VBG making)
+              (NP (NNS sacrifices)))))))
+    (. ?)))
+
+
+det(kind-2, what-1)
+dobj(make-7, kind-2)
+prep(kind-2, of-3)
+pobj(of-3, resolutions-4)
+aux(make-7, can-5)
+nsubj(make-7, you-6)
+root(ROOT-0, make-7)
+prep(make-7, without-8)
+pcomp(without-8, making-9)
+dobj(making-9, sacrifices-10)
+
+
+(ROOT
+  (S (`` ``)
+    (NP (NNP Courageous))
+    ('' '')
+    (VP (MD will)
+      (VP (VB start)
+        (NP (NN screening))
+        (PP (IN on)
+          (NP (JJ 5th) (NNP January)))
+        (PP (IN at)
+          (NP (VBN selected) (NNP Cathay) (NNS cinemas)))))
+    (. .)))
+
+
+nsubj(start-5, Courageous-2)
+aux(start-5, will-4)
+root(ROOT-0, start-5)
+dobj(start-5, screening-6)
+prep(start-5, on-7)
+amod(January-9, 5th-8)
+pobj(on-7, January-9)
+prep(start-5, at-10)
+amod(cinemas-13, selected-11)
+nn(cinemas-13, Cathay-12)
+pobj(at-10, cinemas-13)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB book)
+        (NP (PRP$ your) (NNS tickets))
+        (PP (IN from)
+          (NP (DT the) (NNP Cathay) (NNP Cinemas) (VBG ticketing) (NN site)))))
+    (. .)))
+
+
+nsubj(book-3, You-1)
+aux(book-3, can-2)
+root(ROOT-0, book-3)
+poss(tickets-5, your-4)
+dobj(book-3, tickets-5)
+prep(book-3, from-6)
+det(site-11, the-7)
+nn(site-11, Cathay-8)
+nn(site-11, Cinemas-9)
+amod(site-11, ticketing-10)
+pobj(from-6, site-11)
+
+
+(ROOT
+  (FRAG (CC And)
+    (PP (IN if)
+      (S
+        (NP (PRP you))
+        (VP (VB feel)
+          (VP (VBN led)
+            (S
+              (VP (TO to)
+                (VP (VB do)
+                  (NP (NN something))
+                  (NP (DT this) (NN year))
+                  (PP (IN with)
+                    (NP (PRP$ your) (NNS kids))
+                    (, ,)))))))))))
+
+
+root(ROOT-0, And-1)
+prep(And-1, if-2)
+nsubj(feel-4, you-3)
+pcomp(if-2, feel-4)
+dep(feel-4, led-5)
+aux(do-7, to-6)
+xcomp(led-5, do-7)
+dobj(do-7, something-8)
+det(year-10, this-9)
+tmod(do-7, year-10)
+prep(do-7, with-11)
+poss(kids-13, your-12)
+pobj(with-11, kids-13)
+
+
+(ROOT
+  (S
+    (NP (EX there))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (`` ``)
+          (NX
+            (NP (NNP Date))
+            (PP (IN with)
+              (NP (NNP Dad))))
+          ('' '') (NN event))
+        (VP (VBG happening)
+          (NP (DT this) (NN Feb))
+          (SBAR
+            (ADVP (JJ 11th))
+            (WHADVP (WRB where))
+            (S
+              (NP (NNP Dads))
+              (VP (MD can)
+                (VP (VB spend)
+                  (NP
+                    (NP (DT an) (NN afternoon))
+                    (VP (VBG having)
+                      (NP
+                        (NP (NNP High) (NNP Tea))
+                        (PP (IN with)
+                          (NP (PRP$ their) (NNS daughters)))))))))))))
+    (. !)))
+
+
+expl(is-2, there-1)
+root(ROOT-0, is-2)
+det(event-9, a-3)
+dep(event-9, Date-5)
+prep(Date-5, with-6)
+pobj(with-6, Dad-7)
+nsubj(is-2, event-9)
+partmod(event-9, happening-10)
+det(Feb-12, this-11)
+dobj(happening-10, Feb-12)
+advmod(spend-17, 11th-13)
+advmod(spend-17, where-14)
+nsubj(spend-17, Dads-15)
+aux(spend-17, can-16)
+advcl(happening-10, spend-17)
+det(afternoon-19, an-18)
+dobj(spend-17, afternoon-19)
+partmod(afternoon-19, having-20)
+nn(Tea-22, High-21)
+dobj(having-20, Tea-22)
+prep(Tea-22, with-23)
+poss(daughters-25, their-24)
+pobj(with-23, daughters-25)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB find)
+        (PRT (RP out))
+        (ADVP (RBR more))
+        (PP (IN about)
+          (NP (DT this) (NN event)))
+        (ADVP (RB here))))
+    (. .)))
+
+
+nsubj(find-3, You-1)
+aux(find-3, can-2)
+root(ROOT-0, find-3)
+prt(find-3, out-4)
+advmod(find-3, more-5)
+prep(find-3, about-6)
+det(event-8, this-7)
+pobj(about-6, event-8)
+advmod(find-3, here-9)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (JJR More) (NNS photos))
+      (PP (IN of)
+        (NP (DT the) (NN event))))
+    (VP (MD can)
+      (VP (VB be)
+        (VP (VBN found)
+          (PP (IN on)
+            (NP (DT the) (NNPS Focus)))
+          (PP (IN on)
+            (NP (DT the) (NNP Family) (NN facebook) (NN page))))))
+    (. .)))
+
+
+amod(photos-2, More-1)
+nsubjpass(found-8, photos-2)
+prep(photos-2, of-3)
+det(event-5, the-4)
+pobj(of-3, event-5)
+aux(found-8, can-6)
+auxpass(found-8, be-7)
+root(ROOT-0, found-8)
+prep(found-8, on-9)
+det(Focus-11, the-10)
+pobj(on-9, Focus-11)
+prep(found-8, on-12)
+det(page-16, the-13)
+nn(page-16, Family-14)
+nn(page-16, facebook-15)
+pobj(on-12, page-16)
+
+

@@ -1,0 +1,191 @@
+(ROOT
+  (S
+    (NP (NNP Bean) (NNP Curd))
+    (VP (VBZ has)
+      (VP (VBN emerged)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (NP
+                (NP (DT the)
+                  (ADJP (RBS most) (JJ popular))
+                  (NN dessert) (NN choice))
+                (PP (IN of)
+                  (NP (PRP$ our) (NNS readers))))
+              (PP (IN with)
+                (NP (CD 53.4) (NN %))))))))))
+
+
+nn(Curd-2, Bean-1)
+nsubj(emerged-4, Curd-2)
+aux(emerged-4, has-3)
+root(ROOT-0, emerged-4)
+aux(choice-11, to-5)
+cop(choice-11, be-6)
+det(choice-11, the-7)
+advmod(popular-9, most-8)
+amod(choice-11, popular-9)
+nn(choice-11, dessert-10)
+xcomp(emerged-4, choice-11)
+prep(choice-11, of-12)
+poss(readers-14, our-13)
+pobj(of-12, readers-14)
+prep(choice-11, with-15)
+num(%-17, 53.4-16)
+pobj(with-15, %-17)
+
+
+(ROOT
+  (VP (VBN followed)
+    (PP (IN by)
+      (NP
+        (NP (NNP Cheng) (NNP Tng))
+        (ADJP (CD 44.5) (NN %))))))
+
+
+root(ROOT-0, followed-1)
+prep(followed-1, by-2)
+nn(Tng-4, Cheng-3)
+pobj(by-2, Tng-4)
+number(%-6, 44.5-5)
+amod(Tng-4, %-6)
+
+
+(ROOT
+  (FRAG (CC and)
+    (NP
+      (NP (NNP Orh) (NNP Nee))
+      (ADJP (CD 36.9) (NN %)))))
+
+
+cc(Nee-3, and-1)
+nn(Nee-3, Orh-2)
+root(ROOT-0, Nee-3)
+number(%-5, 36.9-4)
+amod(Nee-3, %-5)
+
+
+(ROOT
+  (INTJ (UH .)))
+
+
+
+
+(ROOT
+  (NP
+    (NP (DT The) (JJ hot) (NN favorite))
+    (PP (IN of)
+      (NP
+        (NP (DT the) (JJ previous) (NN generation))
+        (, ,)))))
+
+
+det(favorite-3, The-1)
+amod(favorite-3, hot-2)
+root(ROOT-0, favorite-3)
+prep(favorite-3, of-4)
+det(generation-7, the-5)
+amod(generation-7, previous-6)
+pobj(of-4, generation-7)
+
+
+(ROOT
+  (S
+    (NP (NNP Ice) (NNP Kachang))
+    (VP
+      (ADVP (RB only))
+      (VBD managed)
+      (S
+        (VP (TO to)
+          (VP (VB come)
+            (PP (IN in) (IN at)
+              (NP
+                (NP (JJ 4th) (NN place))
+                (PP (IN with)
+                  (NP (CD 31) (NN %)))))))))))
+
+
+nn(Kachang-2, Ice-1)
+nsubj(managed-4, Kachang-2)
+advmod(managed-4, only-3)
+root(ROOT-0, managed-4)
+aux(come-6, to-5)
+xcomp(managed-4, come-6)
+dep(at-8, in-7)
+prep(come-6, at-8)
+amod(place-10, 4th-9)
+pobj(at-8, place-10)
+prep(place-10, with-11)
+num(%-13, 31-12)
+pobj(with-11, %-13)
+
+
+(ROOT
+  (S
+    (VP (VBN followed)
+      (ADVP (RB closely)
+        (PP (IN in)
+          (NP (JJ fifth) (NN place))
+          (PP (IN by)
+            (NP (NNP Tau) (NNP Suan)))))
+      (NP (CD 26.5) (NN %)))))
+
+
+root(ROOT-0, followed-1)
+advmod(followed-1, closely-2)
+prep(closely-2, in-3)
+amod(place-5, fifth-4)
+pobj(in-3, place-5)
+prep(in-3, by-6)
+nn(Suan-8, Tau-7)
+pobj(by-6, Suan-8)
+num(%-10, 26.5-9)
+dobj(followed-1, %-10)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ Full) (NN analysis))
+      (PP (IN of)
+        (NP (DT the) (NNS results))))
+    (VP (MD can)
+      (VP (VB be)
+        (VP (VBN found)
+          (ADVP (RB here)))))
+    (. .)))
+
+
+amod(analysis-2, Full-1)
+nsubjpass(found-8, analysis-2)
+prep(analysis-2, of-3)
+det(results-5, the-4)
+pobj(of-3, results-5)
+aux(found-8, can-6)
+auxpass(found-8, be-7)
+root(ROOT-0, found-8)
+advmod(found-8, here-9)
+
+
+(ROOT
+  (NP
+    (NP (NNS Thanks))
+    (PP (TO to)
+      (NP
+        (NP (DT all) (CD 2041) (NNS readers))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBN polled))))))
+    (. !)))
+
+
+root(ROOT-0, Thanks-1)
+prep(Thanks-1, to-2)
+det(readers-5, all-3)
+num(readers-5, 2041-4)
+pobj(to-2, readers-5)
+nsubj(polled-7, who-6)
+rcmod(readers-5, polled-7)
+
+

@@ -1,0 +1,98 @@
+(ROOT
+  (S
+    (NP (NNP Chashu) (NNP Ramen))
+    (VP (VBZ is)
+      (ADVP (RB currently))
+      (VP (VBG enjoying)
+        (NP
+          (NP (DT a) (NN lot))
+          (PP (IN of)
+            (NP
+              (NP (NN popularity))
+              (PP (IN in)
+                (NP (NNP Singapore))))))))
+    (. .)))
+
+
+nn(Ramen-2, Chashu-1)
+nsubj(enjoying-5, Ramen-2)
+aux(enjoying-5, is-3)
+advmod(enjoying-5, currently-4)
+root(ROOT-0, enjoying-5)
+det(lot-7, a-6)
+dobj(enjoying-5, lot-7)
+prep(lot-7, of-8)
+pobj(of-8, popularity-9)
+prep(popularity-9, in-10)
+pobj(in-10, Singapore-11)
+
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (DT this) (NN video)))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+det(video-3, this-2)
+pobj(In-1, video-3)
+
+
+(ROOT
+  (S
+    (NP (NNP Chef) (NNP Tom))
+    (VP (VBZ shows)
+      (S
+        (NP (PRP us))
+        (NP
+          (NP (DT a) (JJ simple) (NN way))
+          (PP (IN of)
+            (S
+              (VP (VBG making)
+                (NP
+                  (NP (NNP Chashu) (NNP Ramen))
+                  (PP (IN at)
+                    (NP (NN home))))))))))
+    (. .)))
+
+
+nn(Tom-2, Chef-1)
+nsubj(shows-3, Tom-2)
+root(ROOT-0, shows-3)
+nsubj(way-7, us-4)
+det(way-7, a-5)
+amod(way-7, simple-6)
+xcomp(shows-3, way-7)
+prep(way-7, of-8)
+pcomp(of-8, making-9)
+nn(Ramen-11, Chashu-10)
+dobj(making-9, Ramen-11)
+prep(Ramen-11, at-12)
+pobj(at-12, home-13)
+
+
+(ROOT
+  (NP
+    (NP (JJ Many) (NNS thanks))
+    (PP (TO to)
+      (NP
+        (NP (NNP Sia) (NNP Huat))
+        (PP (IN for)
+          (S
+            (VP (VBG sponsoring)
+              (NP (DT the) (NNS videos)))))))
+    (. .)))
+
+
+amod(thanks-2, Many-1)
+root(ROOT-0, thanks-2)
+prep(thanks-2, to-3)
+nn(Huat-5, Sia-4)
+pobj(to-3, Huat-5)
+prep(Huat-5, for-6)
+pcomp(for-6, sponsoring-7)
+det(videos-9, the-8)
+dobj(sponsoring-7, videos-9)
+
+

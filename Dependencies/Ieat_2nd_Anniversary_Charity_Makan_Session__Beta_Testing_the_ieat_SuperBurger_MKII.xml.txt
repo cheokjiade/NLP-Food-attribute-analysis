@@ -1,0 +1,229 @@
+(ROOT
+  (S
+    (NP (NNP Time))
+    (VP (VBZ flies))
+    (. !)))
+
+
+nsubj(flies-2, Time-1)
+root(ROOT-0, flies-2)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NN blog))
+    (VP (VBZ is)
+      (ADVP (RB now))
+      (VP (VBG coming)
+        (UCP
+          (PP (TO to)
+            (ADJP
+              (NP (CD 2) (NNS years))
+              (JJ old)))
+          (CC and)
+          (S
+            (VP (TO to)
+              (VP (VB celebrate)))))))
+    (, ,)))
+
+
+det(blog-2, The-1)
+nsubj(coming-5, blog-2)
+aux(coming-5, is-3)
+advmod(coming-5, now-4)
+root(ROOT-0, coming-5)
+dep(coming-5, to-6)
+num(years-8, 2-7)
+npadvmod(old-9, years-8)
+pobj(to-6, old-9)
+cc(to-6, and-10)
+aux(celebrate-12, to-11)
+conj(to-6, celebrate-12)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (VP (VBP are)
+      (PP (IN of)
+        (NP
+          (NP (NN course))
+          (VP (VBG having)
+            (NP (DT a) (NN makan) (NN session))))))
+    (. .)))
+
+
+nsubj(are-2, we-1)
+root(ROOT-0, are-2)
+prep(are-2, of-3)
+pobj(of-3, course-4)
+partmod(course-4, having-5)
+det(session-8, a-6)
+nn(session-8, makan-7)
+dobj(having-5, session-8)
+
+
+(ROOT
+  (NP (JJ Last) (NN year) (NNS ,)))
+
+
+amod(,-3, Last-1)
+nn(,-3, year-2)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP we))
+      (VP (VBD celebrated)
+        (NP (PRP$ our) (CD 1st) (NN Anniversary))
+        (PP (IN at)
+          (NP (NNP Astons) (NNP Prime)))))
+    (CC and)
+    (S
+      (NP (PRP we))
+      (VP (VBD managed)
+        (S
+          (VP (TO to)
+            (VP (VB raise)
+              (NP
+                (NP (DT some) (NN money))
+                (PP (IN for)
+                  (NP (DT the) (NNP Andrew)
+                    (CC and)
+                    (NNP Grace) (NNP Home)))))))))
+    (. .)))
+
+
+nsubj(celebrated-2, we-1)
+root(ROOT-0, celebrated-2)
+poss(Anniversary-5, our-3)
+num(Anniversary-5, 1st-4)
+dobj(celebrated-2, Anniversary-5)
+prep(celebrated-2, at-6)
+nn(Prime-8, Astons-7)
+pobj(at-6, Prime-8)
+cc(celebrated-2, and-9)
+nsubj(managed-11, we-10)
+conj(celebrated-2, managed-11)
+aux(raise-13, to-12)
+xcomp(managed-11, raise-13)
+det(money-15, some-14)
+dobj(raise-13, money-15)
+prep(money-15, for-16)
+det(Home-21, the-17)
+nn(Home-21, Andrew-18)
+cc(Andrew-18, and-19)
+conj(Andrew-18, Grace-20)
+pobj(for-16, Home-21)
+
+
+(ROOT
+  (S
+    (S
+      (NP (DT This) (NN year))
+      (NP (PRP I))
+      (VP (VBP am)
+        (VP (VBG trying)
+          (S
+            (VP (TO to)
+              (VP (VB do)
+                (NP
+                  (NP (NN something))
+                  (ADJP
+                    (NP (DT a) (RB little))
+                    (JJ different)))
+                (PP (IN with)
+                  (NP
+                    (NP (DT a) (JJ direct) (NN impact))
+                    (PP (IN on)
+                      (NP (DT the) (NNS people)))))))))))
+    (NP (PRP we))
+    (VP (VBP are)
+      (VP (VBG trying)
+        (S
+          (VP (VB bless)))))
+    (. .)))
+
+
+det(year-2, This-1)
+tmod(trying-5, year-2)
+nsubj(trying-5, I-3)
+aux(trying-5, am-4)
+dep(trying-21, trying-5)
+aux(do-7, to-6)
+xcomp(trying-5, do-7)
+dobj(do-7, something-8)
+det(little-10, a-9)
+npadvmod(different-11, little-10)
+amod(something-8, different-11)
+prep(do-7, with-12)
+det(impact-15, a-13)
+amod(impact-15, direct-14)
+pobj(with-12, impact-15)
+prep(impact-15, on-16)
+det(people-18, the-17)
+pobj(on-16, people-18)
+nsubj(trying-21, we-19)
+aux(trying-21, are-20)
+root(ROOT-0, trying-21)
+ccomp(trying-21, bless-22)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB also))
+    (VP (VBD wanted)
+      (S
+        (VP (TO to)
+          (VP (VB do)
+            (NP
+              (NP (NN something))
+              (SBAR
+                (WHNP (WDT that))
+                (S
+                  (VP (MD can)
+                    (VP (VB be)
+                      (VP (VBN replicated)
+                        (PP (IN with)
+                          (NP
+                            (NP (JJ other) (NNS restaurants))
+                            (SBAR
+                              (WHNP (WP who))
+                              (S
+                                (VP (MD might)
+                                  (ADVP (RB also))
+                                  (VP (VB have)
+                                    (NP (DT a) (JJ social) (NN marketing) (NN aspect))
+                                    (PP (TO to)
+                                      (NP (PRP$ their) (NN business)))))))))))))))))))
+    (. .)))
+
+
+nsubj(wanted-3, I-1)
+advmod(wanted-3, also-2)
+root(ROOT-0, wanted-3)
+aux(do-5, to-4)
+xcomp(wanted-3, do-5)
+dobj(do-5, something-6)
+nsubjpass(replicated-10, that-7)
+aux(replicated-10, can-8)
+auxpass(replicated-10, be-9)
+rcmod(something-6, replicated-10)
+prep(replicated-10, with-11)
+amod(restaurants-13, other-12)
+pobj(with-11, restaurants-13)
+nsubj(have-17, who-14)
+aux(have-17, might-15)
+advmod(have-17, also-16)
+rcmod(restaurants-13, have-17)
+det(aspect-21, a-18)
+amod(aspect-21, social-19)
+nn(aspect-21, marketing-20)
+dobj(have-17, aspect-21)
+prep(have-17, to-22)
+poss(business-24, their-23)
+pobj(to-22, business-24)
+
+

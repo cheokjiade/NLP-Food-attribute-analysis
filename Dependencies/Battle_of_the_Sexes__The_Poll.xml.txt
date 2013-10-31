@@ -1,0 +1,189 @@
+(ROOT
+  (S
+    (S
+      (VP (VBD had)
+        (NP
+          (NP (DT a) (NN discussion))
+          (PP (IN with)
+            (NP (PRP$ my) (NN wife))))
+        (PP (IN about)
+          (SBAR (IN whether)
+            (S
+              (NP (EX there))
+              (VP (VBD were)
+                (ADJP (RBR more) (JJ male)
+                  (CC or)
+                  (JJ female))))))))
+    (VP (VBZ foodies))
+    (. .)))
+
+
+csubj(foodies-15, had-1)
+det(discussion-3, a-2)
+dobj(had-1, discussion-3)
+prep(discussion-3, with-4)
+poss(wife-6, my-5)
+pobj(with-4, wife-6)
+prep(had-1, about-7)
+mark(were-10, whether-8)
+expl(were-10, there-9)
+pcomp(about-7, were-10)
+advmod(male-12, more-11)
+acomp(were-10, male-12)
+cc(male-12, or-13)
+conj(male-12, female-14)
+root(ROOT-0, foodies-15)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBP think)
+        (SBAR (IN that)
+          (S
+            (NP (PRP I))
+            (VP (VBP have)
+              (ADVP (RB always))
+              (VP (VBN assumed)
+                (SBAR (IN that)
+                  (S
+                    (NP (EX there))
+                    (VP (MD would)
+                      (VP (VB be)
+                        (NP (JJR more) (NNS guys))))))))))))
+    (CC but)
+    (S
+      (NP (PRP I))
+      (VP (VBP am)
+        (VP (VBG beginning)
+          (S
+            (VP (TO to)
+              (VP (VB realize)
+                (SBAR (IN that)
+                  (S
+                    (NP (EX there))
+                    (VP (VBP are)
+                      (NP
+                        (NP (RB quite) (DT a) (NN number))
+                        (PP (IN of)
+                          (NP
+                            (NP (NNS ladies))
+                            (SBAR
+                              (WHNP (WP who))
+                              (S
+                                (VP (VBP read)
+                                  (NP (DT this) (NN blog)))))))))))))))))
+    (. !)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+mark(assumed-7, that-3)
+nsubj(assumed-7, I-4)
+aux(assumed-7, have-5)
+advmod(assumed-7, always-6)
+ccomp(think-2, assumed-7)
+mark(guys-13, that-8)
+expl(guys-13, there-9)
+aux(guys-13, would-10)
+cop(guys-13, be-11)
+amod(guys-13, more-12)
+ccomp(assumed-7, guys-13)
+cc(think-2, but-14)
+nsubj(beginning-17, I-15)
+aux(beginning-17, am-16)
+conj(think-2, beginning-17)
+aux(realize-19, to-18)
+xcomp(beginning-17, realize-19)
+mark(are-22, that-20)
+expl(are-22, there-21)
+ccomp(realize-19, are-22)
+advmod(number-25, quite-23)
+det(number-25, a-24)
+nsubj(are-22, number-25)
+prep(number-25, of-26)
+pobj(of-26, ladies-27)
+nsubj(read-29, who-28)
+rcmod(ladies-27, read-29)
+det(blog-31, this-30)
+dobj(read-29, blog-31)
+
+
+(ROOT
+  (S
+    (S
+      (NP (EX There))
+      (VP (VBZ is)
+        (NP (RB only) (CD one) (NN way))
+        (S
+          (VP (TO to)
+            (VP (VB find)
+              (PRT (RP out)))))))
+    (CC and)
+    (S
+      (NP (DT that))
+      (VP (VBZ is)
+        (S
+          (VP (TO to)
+            (VP (VB have)
+              (NP (DT a) (NN poll)))))))
+    (. !)))
+
+
+expl(is-2, There-1)
+root(ROOT-0, is-2)
+advmod(way-5, only-3)
+num(way-5, one-4)
+nsubj(is-2, way-5)
+aux(find-7, to-6)
+xcomp(is-2, find-7)
+prt(find-7, out-8)
+cc(is-2, and-9)
+nsubj(is-11, that-10)
+conj(is-2, is-11)
+aux(have-13, to-12)
+xcomp(is-11, have-13)
+det(poll-15, a-14)
+dobj(have-13, poll-15)
+
+
+(ROOT
+  (S
+    (NP (NNP Let) (POS 's))
+    (VP (VBP see)
+      (SBAR (IN whether)
+        (S
+          (NP (PRP it))
+          (VP (VBZ 's)
+            (NP
+              (NP (DT the) (NNS guys))
+              (CC or)
+              (NP
+                (NP (DT the) (NNS girls))
+                (SBAR
+                  (WHNP (WDT that))
+                  (S
+                    (VP (VBP rule)
+                      (NP (DT the) (JJ foodie) (NN universe)))))))))))
+    (. !)))
+
+
+nsubj(see-3, Let-1)
+possessive(Let-1, 's-2)
+root(ROOT-0, see-3)
+mark(guys-8, whether-4)
+nsubj(guys-8, it-5)
+cop(guys-8, 's-6)
+det(guys-8, the-7)
+ccomp(see-3, guys-8)
+cc(guys-8, or-9)
+det(girls-11, the-10)
+conj(guys-8, girls-11)
+nsubj(rule-13, that-12)
+rcmod(girls-11, rule-13)
+det(universe-16, the-14)
+amod(universe-16, foodie-15)
+dobj(rule-13, universe-16)
+
+

@@ -1,0 +1,261 @@
+(ROOT
+  (S
+    (NP (DT The) (NNP Poll) (NNS Results))
+    (VP (VBP are)
+      (PP (IN in)))
+    (. !)))
+
+
+det(Results-3, The-1)
+nn(Results-3, Poll-2)
+nsubj(are-4, Results-3)
+root(ROOT-0, are-4)
+prep(are-4, in-5)
+
+
+(ROOT
+  (NP
+    (NP (NNS Thanks))
+    (PP (TO to)
+      (NP
+        (NP (DT all) (CD 1013) (NNS people))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBN polled))))))
+    (. !)))
+
+
+root(ROOT-0, Thanks-1)
+prep(Thanks-1, to-2)
+det(people-5, all-3)
+num(people-5, 1013-4)
+pobj(to-2, people-5)
+nsubj(polled-7, who-6)
+rcmod(people-5, polled-7)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ seems)
+      (SBAR (IN that)
+        (S
+          (NP (DT the) (NN majority))
+          (VP
+            (ADVP (IN of))
+            (VBZ readers) (-LRB- -LRB-)
+            (NP (CD 46.7) (NN %))))))))
+
+
+nsubj(seems-2, It-1)
+root(ROOT-0, seems-2)
+mark(readers-7, that-3)
+det(majority-5, the-4)
+nsubj(readers-7, majority-5)
+advmod(readers-7, of-6)
+ccomp(seems-2, readers-7)
+num(%-10, 46.7-9)
+dobj(readers-7, %-10)
+
+
+(ROOT
+  (S
+    (NP (NNP -RRB-))
+    (ADVP (RB still))
+    (VP (VBP prefer)
+      (PP (TO to)
+        (NP
+          (NP (JJ good) (JJ old) (NN cup))
+          (PP (IN of)
+            (NP
+              (NP (NNP Kopi))
+              (VP (VBN brewed)
+                (PP (IN in)
+                  (NP (DT the) (NN sock)))))))))
+    (. !)))
+
+
+advmod(prefer-3, still-2)
+root(ROOT-0, prefer-3)
+prep(prefer-3, to-4)
+amod(cup-7, good-5)
+amod(cup-7, old-6)
+pobj(to-4, cup-7)
+prep(cup-7, of-8)
+pobj(of-8, Kopi-9)
+partmod(Kopi-9, brewed-10)
+prep(brewed-10, in-11)
+det(sock-13, the-12)
+pobj(in-11, sock-13)
+
+
+(ROOT
+  (FRAG
+    (NP
+      (QP (RB About) (DT a) (JJ third)))
+    (S
+      (VP
+        (ADVP (IN of))
+        (VB readers) (-LRB- -LRB-)
+        (NP (CD 32.5) (NN %))))))
+
+
+quantmod(third-3, About-1)
+quantmod(third-3, a-2)
+root(ROOT-0, third-3)
+advmod(readers-5, of-4)
+dep(third-3, readers-5)
+num(%-8, 32.5-7)
+dobj(readers-5, %-8)
+
+
+(ROOT
+  (NP
+    (NP
+      (NP (NNP -RRB-))
+      (PP (IN like)
+        (NP
+          (NP (PRP$ their) (NN cup))
+          (PP (IN of)
+            (NP (NNP Western) (NNP Style))))))
+    (NP
+      (NP (NN coffee))
+      (CC and)
+      (NP (CD 20.8) (NN %)))))
+
+
+prep(-RRB--1, like-2)
+poss(cup-4, their-3)
+pobj(like-2, cup-4)
+prep(cup-4, of-5)
+nn(Style-7, Western-6)
+pobj(of-5, Style-7)
+dep(-RRB--1, coffee-8)
+cc(coffee-8, and-9)
+num(%-11, 20.8-10)
+conj(coffee-8, %-11)
+
+
+(ROOT
+  (S
+    (VP (VB do) (RB n't)
+      (VP (VB drink)
+        (NP (NN coffee))
+        (ADVP (IN at) (DT all))))
+    (. .)))
+
+
+aux(drink-3, do-1)
+neg(drink-3, n't-2)
+root(ROOT-0, drink-3)
+dobj(drink-3, coffee-4)
+advmod(drink-3, at-5)
+pobj(at-5, all-6)
+
+
+(ROOT
+  (S
+    (NP (DT Some) (NNS people))
+    (VP (VBP have)
+      (NP
+        (NP (NN complaint))
+        (SBAR (IN that)
+          (S
+            (NP (PRP I))
+            (VP (MD should)
+              (VP (VB have)
+                (VP (VBN added)
+                  (NP (NNP Teh) (NNP C))
+                  (ADVP (RB as) (RB well)))))))))
+    (. .)))
+
+
+det(people-2, Some-1)
+nsubj(have-3, people-2)
+root(ROOT-0, have-3)
+dobj(have-3, complaint-4)
+mark(added-9, that-5)
+nsubj(added-9, I-6)
+aux(added-9, should-7)
+aux(added-9, have-8)
+dep(complaint-4, added-9)
+nn(C-11, Teh-10)
+dobj(added-9, C-11)
+advmod(well-13, as-12)
+advmod(added-9, well-13)
+
+
+(ROOT
+  (FRAG (RB Maybe)
+    (ADVP (JJ next) (NN time))
+    (ADJP (FW eh) (. ?))))
+
+
+root(ROOT-0, Maybe-1)
+dep(Maybe-1, next-2)
+dep(next-2, time-3)
+dep(Maybe-1, eh-4)
+
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (DT the) (NN meantime)))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+det(meantime-3, the-2)
+pobj(In-1, meantime-3)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADVP (RB still))
+      (VP (VBG thinking)
+        (PP (IN about)
+          (NP (DT the) (JJ next) (NN poll) (NN question)))))
+    (. .)))
+
+
+nsubj(thinking-4, I-1)
+aux(thinking-4, am-2)
+advmod(thinking-4, still-3)
+root(ROOT-0, thinking-4)
+prep(thinking-4, about-5)
+det(question-9, the-6)
+amod(question-9, next-7)
+nn(question-9, poll-8)
+pobj(about-5, question-9)
+
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP (VBP have)
+          (NP (DT any) (NNS ideas)))))
+    (VP (VBD let)
+      (SBAR
+        (S
+          (NP (PRP me))
+          (VP (VBP know)
+            (NP (NN ok))))))
+    (. ?)))
+
+
+mark(have-3, If-1)
+nsubj(have-3, you-2)
+csubj(let-6, have-3)
+det(ideas-5, any-4)
+dobj(have-3, ideas-5)
+root(ROOT-0, let-6)
+nsubj(know-8, me-7)
+ccomp(let-6, know-8)
+dobj(know-8, ok-9)
+
+

@@ -1,0 +1,212 @@
+(ROOT
+  (S
+    (S
+      (NP (PRP You))
+      (VP (VBP know)
+        (NP
+          (NP (DT those) (NNS guys))
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP (VBP own)
+                (NP
+                  (NP (PDT all) (DT the) (JJS latest) (NN tech) (NNS gadgets))
+                  (CC and)
+                  (NP (NN everytime)))))))))
+    (NP (PRP you))
+    (VP (VBP see)
+      (NP (PRP them))
+      (SBAR
+        (S
+          (NP (PRP they))
+          (VP (MD will)
+            (VP (VB tell)
+              (NP (PRP you))
+              (PP (IN about)
+                (NP (PRP$ their) (JJ new) (NN handphone))))))))
+    (. ?)))
+
+
+nsubj(know-2, You-1)
+dep(see-15, know-2)
+det(guys-4, those-3)
+dobj(know-2, guys-4)
+nsubj(own-6, who-5)
+rcmod(guys-4, own-6)
+predet(gadgets-11, all-7)
+det(gadgets-11, the-8)
+amod(gadgets-11, latest-9)
+nn(gadgets-11, tech-10)
+dobj(own-6, gadgets-11)
+cc(gadgets-11, and-12)
+conj(gadgets-11, everytime-13)
+nsubj(see-15, you-14)
+root(ROOT-0, see-15)
+dobj(see-15, them-16)
+nsubj(tell-19, they-17)
+aux(tell-19, will-18)
+dep(see-15, tell-19)
+dobj(tell-19, you-20)
+prep(tell-19, about-21)
+poss(handphone-24, their-22)
+amod(handphone-24, new-23)
+pobj(about-21, handphone-24)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Well))
+    (, ,)))
+
+
+root(ROOT-0, Well-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am) (RB not)
+      (NP
+        (NP (CD one))
+        (PP (IN of)
+          (NP (PRP them)))))
+    (. .)))
+
+
+nsubj(one-4, I-1)
+cop(one-4, am-2)
+neg(one-4, not-3)
+root(ROOT-0, one-4)
+prep(one-4, of-5)
+pobj(of-5, them-6)
+
+
+(ROOT
+  (S
+    (NP (DT Neither))
+    (VP (VBP am)
+      (NP (PRP I)
+        (NP
+          (NP (DT the) (NN type))
+          (PP (IN of)
+            (NP (NN person)))))
+      (SBAR
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBP are)
+              (ADVP (RB still))
+              (VP (VBG holding)
+                (PP (IN on)
+                  (PP (TO to)
+                    (NP
+                      (NP (DT a) (NN handphone))
+                      (PP (IN with)
+                        (NP (DT a) (JJ black)
+                          (CC and)
+                          (JJ white) (NN LCD))))))))))
+        (CC or)
+        (SBAR
+          (WHNP (WP what))
+          (S
+            (NP (PRP they))
+            (VP (MD might)
+              (VP (VB call)
+                (NP (DT a) (NNP Techo) (NNP Laggard))))))))
+    (. .)))
+
+
+nsubj(type-5, Neither-1)
+cop(type-5, am-2)
+dep(type-5, I-3)
+det(type-5, the-4)
+root(ROOT-0, type-5)
+prep(type-5, of-6)
+pobj(of-6, person-7)
+nsubj(holding-11, who-8)
+aux(holding-11, are-9)
+advmod(holding-11, still-10)
+dep(type-5, holding-11)
+prep(holding-11, on-12)
+pcomp(on-12, to-13)
+det(handphone-15, a-14)
+pobj(to-13, handphone-15)
+prep(handphone-15, with-16)
+det(LCD-21, a-17)
+amod(LCD-21, black-18)
+cc(black-18, and-19)
+conj(black-18, white-20)
+pobj(with-16, LCD-21)
+cc(holding-11, or-22)
+dobj(call-26, what-23)
+nsubj(call-26, they-24)
+aux(call-26, might-25)
+conj(holding-11, call-26)
+det(Laggard-29, a-27)
+nn(Laggard-29, Techo-28)
+dobj(call-26, Laggard-29)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD would)
+      (VP (VB like)
+        (S
+          (VP (TO to)
+            (VP (VB think)
+              (PP (IN of)
+                (NP (PRP myself)))
+              (PP (IN as)
+                (NP
+                  (NP (NN someone) (NN sort))
+                  (PP (IN of)
+                    (PP (IN in)
+                      (NP
+                        (NP (DT the) (NN middle))
+                        (SBAR
+                          (WHNP (WP who))
+                          (S
+                            (VP (MD would)
+                              (VP (VB wait)
+                                (SBAR (IN until)
+                                  (S
+                                    (NP (DT the) (NN technology))
+                                    (VP (VBZ is)
+                                      (ADVP (RB suitably))
+                                      (VP (VBN matured)
+                                        (PP (IN before)
+                                          (S
+                                            (VP (VBG adopting)
+                                              (NP (PRP it)))))))))))))))))))))))
+    (. .)))
+
+
+nsubj(like-3, I-1)
+aux(like-3, would-2)
+root(ROOT-0, like-3)
+aux(think-5, to-4)
+xcomp(like-3, think-5)
+prep(think-5, of-6)
+pobj(of-6, myself-7)
+prep(think-5, as-8)
+nn(sort-10, someone-9)
+pobj(as-8, sort-10)
+prep(sort-10, of-11)
+pcomp(of-11, in-12)
+det(middle-14, the-13)
+pobj(in-12, middle-14)
+nsubj(wait-17, who-15)
+aux(wait-17, would-16)
+rcmod(middle-14, wait-17)
+mark(matured-23, until-18)
+det(technology-20, the-19)
+nsubjpass(matured-23, technology-20)
+auxpass(matured-23, is-21)
+advmod(matured-23, suitably-22)
+advcl(wait-17, matured-23)
+prep(matured-23, before-24)
+pcomp(before-24, adopting-25)
+dobj(adopting-25, it-26)
+
+

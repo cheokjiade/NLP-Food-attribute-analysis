@@ -1,0 +1,76 @@
+(ROOT
+  (NP (NNP Date) (: :)))
+
+
+root(ROOT-0, Date-1)
+
+
+(ROOT
+  (NP (CD 29) (NN Mar)))
+
+
+num(Mar-2, 29-1)
+root(ROOT-0, Mar-2)
+
+
+(ROOT
+  (NP
+    (NP (NNP 2013)
+      (PRN (-LRB- -LRB-)
+        (NP (NNP Good) (NNP Friday))
+        (-RRB- -RRB-))
+      (NNP Venue))
+    (: :)))
+
+
+nn(Venue-6, 2013-1)
+nn(Friday-4, Good-3)
+appos(Venue-6, Friday-4)
+root(ROOT-0, Venue-6)
+
+
+(ROOT
+  (NP
+    (NP
+      (NP (NNP Chinese) (NNP Swimming) (NNP Club))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP Amber) (NNP Road))
+        (-RRB- -RRB-))
+      (NP (NNP Recreational) (NNP Bldg) (NN level) (NNP 3) (NNP Multi-Function) (NNP Room) (NNP Time)))
+    (: :)))
+
+
+nn(Club-3, Chinese-1)
+nn(Club-3, Swimming-2)
+root(ROOT-0, Club-3)
+nn(Road-6, Amber-5)
+appos(Club-3, Road-6)
+nn(Time-14, Recreational-8)
+nn(Time-14, Bldg-9)
+nn(Time-14, level-10)
+nn(Time-14, 3-11)
+nn(Time-14, Multi-Function-12)
+nn(Time-14, Room-13)
+dep(Club-3, Time-14)
+
+
+(ROOT
+  (ADJP (JJ 10am)
+    (PP (TO to)
+      (NP
+        (NP (NNS 12pm))
+        (PRN (-LRB- -LRB-)
+          (VP (VBN followed)
+            (PP (IN by)
+              (NP (NN lunch))))
+          (-RRB- -RRB-))))))
+
+
+root(ROOT-0, 10am-1)
+prep(10am-1, to-2)
+pobj(to-2, 12pm-3)
+dep(12pm-3, followed-5)
+prep(followed-5, by-6)
+pobj(by-6, lunch-7)
+
+

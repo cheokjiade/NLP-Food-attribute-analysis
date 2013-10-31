@@ -1,0 +1,193 @@
+(ROOT
+  (PP (IN For)
+    (NP
+      (NP (DT the) (NN benefit))
+      (PP (IN of)
+        (NP
+          (NP (DT those))
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP (VBP have)
+                (ADVP (RB never))
+                (VP (VBN watched)
+                  (NP
+                    (NP (NNP Channel) (CD 8) (POS 's))
+                    (NNP Buzzing) (NNP Cashier))))))))
+      (, ,))))
+
+
+root(ROOT-0, For-1)
+det(benefit-3, the-2)
+pobj(For-1, benefit-3)
+prep(benefit-3, of-4)
+pobj(of-4, those-5)
+nsubj(watched-9, who-6)
+aux(watched-9, have-7)
+neg(watched-9, never-8)
+rcmod(those-5, watched-9)
+poss(Cashier-14, Channel-10)
+num(Channel-10, 8-11)
+possessive(Channel-10, 's-12)
+nn(Cashier-14, Buzzing-13)
+dobj(watched-9, Cashier-14)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT the) (JJ basic) (NN premise))
+      (PP (IN of)
+        (NP (DT the) (NN show))))
+    (VP (VBZ is)
+      (SBAR (IN that)
+        (S
+          (NP (DT the) (NNS hosts))
+          (VP
+            (VP (VB go)
+              (PP (IN about)
+                (NP (NNP Singapore)))
+              (S
+                (VP (VBG identifying)
+                  (NP
+                    (NP (NNS hawkers))
+                    (SBAR
+                      (WHNP (WP who))
+                      (S
+                        (VP (VBP are)
+                          (ADVP (RB usually))
+                          (PP (IN in)
+                            (NP (JJ financial) (NN difficulty))))))))))
+            (CC and)
+            (VP (VB help)
+              (NP (PRP them))
+              (PP (IN with)
+                (NP (DT a) (NN stall) (NN makeover))))))))
+    (. .)))
+
+
+det(premise-3, the-1)
+amod(premise-3, basic-2)
+nsubj(is-7, premise-3)
+prep(premise-3, of-4)
+det(show-6, the-5)
+pobj(of-4, show-6)
+root(ROOT-0, is-7)
+mark(go-11, that-8)
+det(hosts-10, the-9)
+nsubj(go-11, hosts-10)
+ccomp(is-7, go-11)
+prep(go-11, about-12)
+pobj(about-12, Singapore-13)
+xcomp(go-11, identifying-14)
+dobj(identifying-14, hawkers-15)
+nsubj(are-17, who-16)
+rcmod(hawkers-15, are-17)
+advmod(are-17, usually-18)
+prep(are-17, in-19)
+amod(difficulty-21, financial-20)
+pobj(in-19, difficulty-21)
+cc(go-11, and-22)
+conj(go-11, help-23)
+dobj(help-23, them-24)
+prep(help-23, with-25)
+det(makeover-28, a-26)
+nn(makeover-28, stall-27)
+pobj(with-25, makeover-28)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NN show))
+    (VP (VBZ attracts)
+      (UCP
+        (NP
+          (NP
+            (QP (DT a) (CD million))
+            (NNS viewers))
+          (NP (DT every) (NN week)))
+        (CC and)
+        (PP (IN after)
+          (NP (DT each) (NN episode)))))
+    (, ,)))
+
+
+det(show-2, The-1)
+nsubj(attracts-3, show-2)
+root(ROOT-0, attracts-3)
+quantmod(million-5, a-4)
+num(viewers-6, million-5)
+dobj(attracts-3, viewers-6)
+det(week-8, every-7)
+dep(viewers-6, week-8)
+cc(viewers-6, and-9)
+conj(viewers-6, after-10)
+det(episode-12, each-11)
+pobj(after-10, episode-12)
+
+
+(ROOT
+  (S
+    (NP (NNS crowds))
+    (VP (MD will)
+      (VP (VB throng)
+        (NP
+          (NP (DT the) (NN stall))
+          (VP (VBG being)
+            (VP (VBN featured)
+              (S
+                (VP (TO to)
+                  (VP (VB try)
+                    (PRT (RP out))
+                    (NP
+                      (NP (DT the) (NNS dishes))
+                      (SBAR
+                        (WHNP (WP$ whose) (NNS recipes))
+                        (S
+                          (VP (VBP have)
+                            (VP (VBN been)
+                              (VP (VBN imparted)
+                                (PP (TO to)
+                                  (NP (DT the) (NN stall) (NNS owners)))
+                                (PP (IN by)
+                                  (NP
+                                    (NP (DT some))
+                                    (PP (IN of)
+                                      (NP
+                                        (NP (NNP Singapore) (POS 's))
+                                        (ADJP (JJS best) (VBN known))
+                                        (NNS chefs)))))))))))))))))))
+    (. .)))
+
+
+nsubj(throng-3, crowds-1)
+aux(throng-3, will-2)
+root(ROOT-0, throng-3)
+det(stall-5, the-4)
+dobj(throng-3, stall-5)
+auxpass(featured-7, being-6)
+partmod(stall-5, featured-7)
+aux(try-9, to-8)
+xcomp(featured-7, try-9)
+prt(try-9, out-10)
+det(dishes-12, the-11)
+dobj(try-9, dishes-12)
+poss(recipes-14, whose-13)
+nsubjpass(imparted-17, recipes-14)
+aux(imparted-17, have-15)
+auxpass(imparted-17, been-16)
+rcmod(dishes-12, imparted-17)
+prep(imparted-17, to-18)
+det(owners-21, the-19)
+nn(owners-21, stall-20)
+pobj(to-18, owners-21)
+prep(imparted-17, by-22)
+pobj(by-22, some-23)
+prep(some-23, of-24)
+poss(chefs-29, Singapore-25)
+possessive(Singapore-25, 's-26)
+dep(known-28, best-27)
+amod(chefs-29, known-28)
+pobj(of-24, chefs-29)
+
+

@@ -1,0 +1,342 @@
+(ROOT
+  (FRAG
+    (PP (IN OK))
+    (, ,)))
+
+
+root(ROOT-0, OK-1)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NNS results))
+    (VP (VBP are)
+      (PP (IN in)))
+    (. .)))
+
+
+det(results-2, the-1)
+nsubj(are-3, results-2)
+root(ROOT-0, are-3)
+prep(are-3, in-4)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Unfortunately))
+    (, ,)))
+
+
+root(ROOT-0, Unfortunately-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB never))
+    (VP (VBD figured)
+      (PRT (RP out))
+      (SBAR
+        (WHNP (WP what))
+        (S
+          (VP (VBZ is)
+            (ADJP (JJ wrong)
+              (PP (IN with)
+                (NP
+                  (NP (NN youtube))
+                  (PP (IN on)
+                    (NP (DT the) (NN blog))))))))))
+    (, ,)))
+
+
+nsubj(figured-3, I-1)
+neg(figured-3, never-2)
+root(ROOT-0, figured-3)
+prt(figured-3, out-4)
+nsubj(wrong-7, what-5)
+cop(wrong-7, is-6)
+ccomp(figured-3, wrong-7)
+prep(wrong-7, with-8)
+pobj(with-8, youtube-9)
+prep(youtube-9, on-10)
+det(blog-12, the-11)
+pobj(on-10, blog-12)
+
+
+(ROOT
+  (S (IN so)
+    (NP
+      (NP (DT the) (NNS numbers))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBD voted)))))
+    (VP (VBD were)
+      (ADVP (RB down)))
+    (. .)))
+
+
+dep(were-6, so-1)
+det(numbers-3, the-2)
+nsubj(were-6, numbers-3)
+nsubj(voted-5, who-4)
+rcmod(numbers-3, voted-5)
+root(ROOT-0, were-6)
+advmod(were-6, down-7)
+
+
+(ROOT
+  (S
+    (NP
+      (QP (RB Only) (CD 163))
+      (NNS people))
+    (VP (VBD wanted)
+      (S
+        (VP (TO to)
+          (VP (VB be)
+            (NP
+              (NP (JJ idol) (NNS judges))
+              (NP (CD 27.9) (NN %)))))))))
+
+
+quantmod(163-2, Only-1)
+num(people-3, 163-2)
+nsubj(wanted-4, people-3)
+root(ROOT-0, wanted-4)
+aux(judges-8, to-5)
+cop(judges-8, be-6)
+amod(judges-8, idol-7)
+xcomp(wanted-4, judges-8)
+num(%-10, 27.9-9)
+dep(judges-8, %-10)
+
+
+(ROOT
+  (S
+    (VP (VBD were)
+      (NP (NNP Randy) (NNP Jacksons)))
+    (. .)))
+
+
+cop(Jacksons-3, were-1)
+nn(Jacksons-3, Randy-2)
+root(ROOT-0, Jacksons-3)
+
+
+(ROOT
+  (S
+    (SBAR
+      (S
+        (VP (TO To)
+          (VP
+            (NP (PRP you))
+            (S
+              (VP (VBG guys)))))))
+    (NP (PRP I))
+    (VP (VBP say))
+    (: :)))
+
+
+aux(you-2, To-1)
+advcl(say-5, you-2)
+xcomp(you-2, guys-3)
+nsubj(say-5, I-4)
+root(ROOT-0, say-5)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD will)
+      (VP (VB try)
+        (ADVP (RBR harder))
+        (NP (JJ next) (NN time))))
+    (. !)))
+
+
+nsubj(try-3, I-1)
+aux(try-3, will-2)
+root(ROOT-0, try-3)
+advmod(try-3, harder-4)
+amod(time-6, next-5)
+dobj(try-3, time-6)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 29.7) (NN %))))
+
+
+num(%-2, 29.7-1)
+root(ROOT-0, %-2)
+
+
+(ROOT
+  (S
+    (VP (VBD were)
+      (NP (NNP Paula) (NNP Abduls)))
+    (. .)))
+
+
+cop(Abduls-3, were-1)
+nn(Abduls-3, Paula-2)
+root(ROOT-0, Abduls-3)
+
+
+(ROOT
+  (S
+    (SBAR
+      (S
+        (VP (TO To)
+          (VP
+            (NP (PRP you))
+            (S
+              (VP (VBG guys)))))))
+    (NP (PRP I))
+    (VP (VBP say))
+    (: :)))
+
+
+aux(you-2, To-1)
+advcl(say-5, you-2)
+xcomp(you-2, guys-3)
+nsubj(say-5, I-4)
+root(ROOT-0, say-5)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP love)
+      (NP (PRP you))
+      (ADVP (RB too)))
+    (. !)))
+
+
+nsubj(love-2, I-1)
+root(ROOT-0, love-2)
+dobj(love-2, you-3)
+advmod(love-2, too-4)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 42.4) (NN %))))
+
+
+num(%-2, 42.4-1)
+root(ROOT-0, %-2)
+
+
+(ROOT
+  (S
+    (SBAR
+      (S
+        (VP (VBD were))))
+    (NP (NNP Simon) (NNP Cowell))
+    (VP (VBZ wannabes))
+    (: :)))
+
+
+advcl(wannabes-4, were-1)
+nn(Cowell-3, Simon-2)
+nsubj(wannabes-4, Cowell-3)
+root(ROOT-0, wannabes-4)
+
+
+(ROOT
+  (S
+    (PP (TO To)
+      (NP (PRP you) (NNS guys)))
+    (NP (PRP I))
+    (VP (VBP say)
+      (NP
+        (NP (DT the) (JJ immortal) (NNS words))
+        (PP (IN of)
+          (NP (NNP William) (NNP Hung))
+          (: :))))))
+
+
+prep(say-5, To-1)
+dep(guys-3, you-2)
+pobj(To-1, guys-3)
+nsubj(say-5, I-4)
+root(ROOT-0, say-5)
+det(words-8, the-6)
+amod(words-8, immortal-7)
+dobj(say-5, words-8)
+prep(words-8, of-9)
+nn(Hung-11, William-10)
+pobj(of-9, Hung-11)
+
+
+(ROOT
+  (INTJ (UH ``)))
+
+
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (VP (VBN tried)
+        (NP (PRP$ my) (JJS best))))
+    (, ,)))
+
+
+nsubj(tried-3, I-1)
+aux(tried-3, have-2)
+root(ROOT-0, tried-3)
+poss(best-5, my-4)
+dobj(tried-3, best-5)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (NP (DT no) (NNS regrets)))
+    (. !)))
+
+
+nsubj(have-2, I-1)
+root(ROOT-0, have-2)
+det(regrets-4, no-3)
+dobj(have-2, regrets-4)
+
+
+(ROOT
+  (S ('' '')
+    (NP (NNS Thanks))
+    (ADVP (RB again)
+      (PP (IN for)
+        (NP
+          (NP (NN everyone))
+          (SBAR
+            (WHNP (WP who))))))
+    (VP
+      (VP (VBD bothered)
+        (S
+          (VP (TO to)
+            (VP (VB download)
+              (NP (DT the) (NN video))))))
+      (CC and)
+      (VP (VBD voted)))
+    (. !)))
+
+
+nsubj(bothered-7, Thanks-2)
+advmod(bothered-7, again-3)
+prep(again-3, for-4)
+pobj(for-4, everyone-5)
+rcmod(everyone-5, who-6)
+root(ROOT-0, bothered-7)
+aux(download-9, to-8)
+xcomp(bothered-7, download-9)
+det(video-11, the-10)
+dobj(download-9, video-11)
+cc(bothered-7, and-12)
+conj(bothered-7, voted-13)
+
+

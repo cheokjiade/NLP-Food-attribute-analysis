@@ -1,0 +1,257 @@
+(ROOT
+  (NP
+    (NP (DT A)
+      (ADJP (RB very) (JJ warm)))
+    (ADJP (JJ welcome)
+      (PP (TO to)
+        (NP (NNP Channel) (NNP U) (NNS viewers)
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP (MD might)
+                (VP (VB be)
+                  (VP (VBG tuning)
+                    (PRT (RP in))
+                    (PP (IN after)
+                      (S
+                        (VP (VBG watching)
+                          (NP (DT the) (NNP News) (NN tonight)))))))))))))
+    (. .)))
+
+
+det(warm-3, A-1)
+advmod(warm-3, very-2)
+root(ROOT-0, warm-3)
+amod(warm-3, welcome-4)
+prep(welcome-4, to-5)
+nn(viewers-8, Channel-6)
+nn(viewers-8, U-7)
+pobj(to-5, viewers-8)
+nsubj(tuning-12, who-9)
+aux(tuning-12, might-10)
+aux(tuning-12, be-11)
+ccomp(viewers-8, tuning-12)
+prt(tuning-12, in-13)
+prep(tuning-12, after-14)
+pcomp(after-14, watching-15)
+det(tonight-18, the-16)
+nn(tonight-18, News-17)
+dobj(watching-15, tonight-18)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (DT this))
+      (VP (VBZ is)
+        (NP
+          (NP (PRP$ your) (JJ first) (NN time))
+          (VP (VBG visiting)
+            (NP (DT the) (NN blog)))))
+      (, ,))))
+
+
+mark(time-6, If-1)
+nsubj(time-6, this-2)
+cop(time-6, is-3)
+poss(time-6, your-4)
+amod(time-6, first-5)
+root(ROOT-0, time-6)
+partmod(time-6, visiting-7)
+det(blog-9, the-8)
+dobj(visiting-7, blog-9)
+
+
+(ROOT
+  (S
+    (NP (DT a) (JJ good) (NN place)
+      (S
+        (VP (TO to)
+          (VP (VB start)
+            (S
+              (VP (VBG exploring)))))))
+    (VP (VBZ is)
+      (PP (IN by)
+        (S
+          (VP (VBG looking)
+            (PP (IN at)
+              (NP (DT the) (`` ``)
+                (S
+                  (NP (NNP Really) (NNP Must))
+                  (VP (VBP Try)
+                    (NP
+                      (NP (NN list) ('' ''))
+                      (CONJP (RB as) (RB well) (IN as))
+                      (NP (DT the) (`` ``) (NN introduction)))
+                    (PP (TO to)
+                      (NP (NN ieatishootipost)))))
+                ('' '') (NNS labels)))))))
+    (. .)))
+
+
+det(place-3, a-1)
+amod(place-3, good-2)
+nsubj(is-7, place-3)
+aux(start-5, to-4)
+infmod(place-3, start-5)
+xcomp(start-5, exploring-6)
+root(ROOT-0, is-7)
+prep(is-7, by-8)
+pcomp(by-8, looking-9)
+prep(looking-9, at-10)
+det(labels-27, the-11)
+nn(Must-14, Really-13)
+nsubj(Try-15, Must-14)
+dep(labels-27, Try-15)
+dobj(Try-15, list-16)
+advmod(well-19, as-18)
+cc(list-16, well-19)
+mwe(well-19, as-20)
+det(introduction-23, the-21)
+conj(list-16, introduction-23)
+prep(Try-15, to-24)
+pobj(to-24, ieatishootipost-25)
+pobj(at-10, labels-27)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD might)
+      (VP (VB have)
+        (NP (DT a) (JJ personal) (JJ favorite) (NN place)
+          (S
+            (VP (TO to)
+              (VP (VB eat)
+                (SBAR
+                  (WHNP (WDT which))
+                  (S
+                    (NP (PRP you))
+                    (VP (VBP like)
+                      (NP (NN share))
+                      (PP (IN with)
+                        (NP
+                          (NP (DT the) (NN rest))
+                          (PP (IN of)
+                            (NP (PRP$ our) (NNS readers))))))))))))))
+    (, ,)))
+
+
+nsubj(have-3, You-1)
+aux(have-3, might-2)
+root(ROOT-0, have-3)
+det(place-7, a-4)
+amod(place-7, personal-5)
+amod(place-7, favorite-6)
+dobj(have-3, place-7)
+aux(eat-9, to-8)
+infmod(place-7, eat-9)
+dobj(like-12, which-10)
+nsubj(like-12, you-11)
+ccomp(eat-9, like-12)
+dobj(like-12, share-13)
+prep(like-12, with-14)
+det(rest-16, the-15)
+pobj(with-14, rest-16)
+prep(rest-16, of-17)
+poss(readers-19, our-18)
+pobj(of-17, readers-19)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (MD can)
+      (VP (VB do)
+        (NP (PRP it))
+        (PP (IN by)
+          (S
+            (VP (VBG posting)
+              (NP (PRP it))
+              (PP (IN in)
+                (NP (PRP$ our) (NN Forum)))
+              (PP (IN by)
+                (S
+                  (VP (VBG clicking)
+                    (ADVP (RB here))))))))))
+    (. .)))
+
+
+nsubj(do-3, you-1)
+aux(do-3, can-2)
+root(ROOT-0, do-3)
+dobj(do-3, it-4)
+prep(do-3, by-5)
+pcomp(by-5, posting-6)
+dobj(posting-6, it-7)
+prep(posting-6, in-8)
+poss(Forum-10, our-9)
+pobj(in-8, Forum-10)
+prep(posting-6, by-11)
+pcomp(by-11, clicking-12)
+advmod(clicking-12, here-13)
+
+
+(ROOT
+  (SQ (MD Hope)
+    (NP (PRP you))
+    (ADVP (DT all))
+    (VP (VB find)
+      (S
+        (NP (NN something))
+        (ADJP (JJ good)
+          (S
+            (VP (TO to)
+              (VP (VB eat)))))))
+    (. !)))
+
+
+aux(find-4, Hope-1)
+nsubj(find-4, you-2)
+advmod(find-4, all-3)
+root(ROOT-0, find-4)
+nsubj(good-6, something-5)
+xcomp(find-4, good-6)
+aux(eat-8, to-7)
+xcomp(good-6, eat-8)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Oh)
+      (NP (RB yes)))
+    (, ,)))
+
+
+root(ROOT-0, Oh-1)
+pobj(Oh-1, yes-2)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (MD can)
+      (VP (VB check)
+        (PRT (RP out))
+        (NP (PDT all) (DT the) (NNP Ya) (NN Kwang) (NNS posts))
+        (PP (IN by)
+          (S
+            (VP (VBG clicking)
+              (ADVP (RB here)))))))
+    (. .)))
+
+
+nsubj(check-3, you-1)
+aux(check-3, can-2)
+root(ROOT-0, check-3)
+prt(check-3, out-4)
+predet(posts-9, all-5)
+det(posts-9, the-6)
+nn(posts-9, Ya-7)
+nn(posts-9, Kwang-8)
+dobj(check-3, posts-9)
+prep(check-3, by-10)
+pcomp(by-10, clicking-11)
+advmod(clicking-11, here-12)
+
+

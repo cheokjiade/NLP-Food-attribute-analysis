@@ -1,0 +1,357 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (VP (VBN been)
+        (VP (VBG waiting)
+          (NP (CD 3) (NNS years))
+          (S
+            (VP (TO to)
+              (VP (VB eat)
+                (PP (IN at)
+                  (NP (DT this) (NN stall)))))))))
+    (. .)))
+
+
+nsubj(waiting-4, I-1)
+aux(waiting-4, have-2)
+aux(waiting-4, been-3)
+root(ROOT-0, waiting-4)
+num(years-6, 3-5)
+tmod(waiting-4, years-6)
+aux(eat-8, to-7)
+xcomp(waiting-4, eat-8)
+prep(eat-8, at-9)
+det(stall-11, this-10)
+pobj(at-9, stall-11)
+
+
+(ROOT
+  (NP (DT No) (NN kidding) (. .)))
+
+
+det(kidding-2, No-1)
+root(ROOT-0, kidding-2)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ last) (CD 5) (NNS times))
+      (SBAR (IN that)
+        (S
+          (NP (PRP I))
+          (VP (VBD visited)
+            (S
+              (NP (NNP Toa) (NNP Payoh))
+              (VP (VB Lor)
+                (NP (CD 7) (NN food) (NN center)))
+              (, ,))))))))
+
+
+det(times-4, The-1)
+amod(times-4, last-2)
+num(times-4, 5-3)
+root(ROOT-0, times-4)
+mark(visited-7, that-5)
+nsubj(visited-7, I-6)
+dep(times-4, visited-7)
+nn(Payoh-9, Toa-8)
+nsubj(Lor-10, Payoh-9)
+ccomp(visited-7, Lor-10)
+num(center-13, 7-11)
+nn(center-13, food-12)
+dobj(Lor-10, center-13)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (VBD was)
+      (ADVP (RB either))
+      (PP (IN on)
+        (NP (DT a) (NN day)))
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP he))
+          (VP (VBD was)
+            (VP (VBN closed))))))
+    (, ,)))
+
+
+nsubj(was-2, it-1)
+root(ROOT-0, was-2)
+advmod(was-2, either-3)
+prep(was-2, on-4)
+det(day-6, a-5)
+pobj(on-4, day-6)
+advmod(closed-10, when-7)
+nsubjpass(closed-10, he-8)
+auxpass(closed-10, was-9)
+advcl(was-2, closed-10)
+
+
+(ROOT
+  (S
+    (VP
+      (VP (RB not)
+        (ADVP (RB yet))
+        (VBN opened))
+      (CC or)
+      (VP
+        (PP (IN on)
+          (NP (NNS holidays)))
+        (PP (IN in)
+          (NP (NNP China)))))
+    (. .)))
+
+
+neg(opened-3, not-1)
+advmod(opened-3, yet-2)
+root(ROOT-0, opened-3)
+cc(opened-3, or-4)
+conj(opened-3, on-5)
+pobj(on-5, holidays-6)
+prep(on-5, in-7)
+pobj(in-7, China-8)
+
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB When))
+    (S
+      (NP (PRP I))
+      (VP
+        (ADVP (RB first))
+        (VBG starting)
+        (S
+          (VP (VBG blogging)
+            (PRT (RP back))
+            (PP (IN in)
+              (NP (CD 2006)))
+            (, ,)))))))
+
+
+advmod(starting-4, When-1)
+nsubj(starting-4, I-2)
+advmod(starting-4, first-3)
+root(ROOT-0, starting-4)
+xcomp(starting-4, blogging-5)
+prt(blogging-5, back-6)
+prep(blogging-5, in-7)
+pobj(in-7, 2006-8)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (CD one))
+      (PP (IN of)
+        (NP
+          (NP (DT the) (JJ first) (NN group))
+          (PP (IN of)
+            (NP
+              (NP (NNS hawkers))
+              (SBAR (IN that)
+                (S
+                  (NP (PRP I))
+                  (VP (VBD targeted)))))))))
+    (VP (VBD were)
+      (NP
+        (NP (DT the) (NNP Hawker) (NNP Legends))
+        (VP (VBN listed)
+          (PP (IN by)
+            (NP (NNP Makansutra))))))
+    (. .)))
+
+
+nsubj(Legends-14, one-1)
+prep(one-1, of-2)
+det(group-5, the-3)
+amod(group-5, first-4)
+pobj(of-2, group-5)
+prep(group-5, of-6)
+pobj(of-6, hawkers-7)
+mark(targeted-10, that-8)
+nsubj(targeted-10, I-9)
+dep(hawkers-7, targeted-10)
+cop(Legends-14, were-11)
+det(Legends-14, the-12)
+nn(Legends-14, Hawker-13)
+root(ROOT-0, Legends-14)
+partmod(Legends-14, listed-15)
+prep(listed-15, by-16)
+pobj(by-16, Makansutra-17)
+
+
+(ROOT
+  (S
+    (S
+      (NP (DT This))
+      (VP (VBD was)
+        (NP
+          (NP (DT the) (JJ first) (NN batch))
+          (PP (IN of)
+            (NP
+              (NP (NNS hawkers))
+              (SBAR
+                (WHNP (WP who))
+                (S
+                  (VP (VBD won)
+                    (NP (DT the) (NN award))))))))))
+    (CC and)
+    (S
+      (NP (PRP I))
+      (VP (VBP think)
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP (JJS most))
+              (PP (IN of)
+                (NP (PRP them))))
+            (VP (VBD deserved)
+              (NP (DT the) (NN honor)))))))
+    (. .)))
+
+
+nsubj(batch-5, This-1)
+cop(batch-5, was-2)
+det(batch-5, the-3)
+amod(batch-5, first-4)
+root(ROOT-0, batch-5)
+prep(batch-5, of-6)
+pobj(of-6, hawkers-7)
+nsubj(won-9, who-8)
+rcmod(hawkers-7, won-9)
+det(award-11, the-10)
+dobj(won-9, award-11)
+cc(batch-5, and-12)
+nsubj(think-14, I-13)
+conj(batch-5, think-14)
+mark(deserved-19, that-15)
+nsubj(deserved-19, most-16)
+prep(most-16, of-17)
+pobj(of-17, them-18)
+ccomp(think-14, deserved-19)
+det(honor-21, the-20)
+dobj(deserved-19, honor-21)
+
+
+(ROOT
+  (FRAG
+    (PP
+      (NP (CD Three) (NNS years))
+      (PP (IN on)))
+    (, ,)))
+
+
+num(years-2, Three-1)
+dep(on-3, years-2)
+root(ROOT-0, on-3)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (ADVP (RB almost))
+      (VP (VBN completed)
+        (NP (DT the) (NN list))))
+    (. .)))
+
+
+nsubj(completed-4, I-1)
+aux(completed-4, have-2)
+advmod(completed-4, almost-3)
+root(ROOT-0, completed-4)
+det(list-6, the-5)
+dobj(completed-4, list-6)
+
+
+(ROOT
+  (FRAG
+    (PP (IN After)
+      (NP (NNP Ah) (NNP Chuan) (NNP Oyster) (NNP Omelette)))
+    (, ,)))
+
+
+root(ROOT-0, After-1)
+nn(Omelette-5, Ah-2)
+nn(Omelette-5, Chuan-3)
+nn(Omelette-5, Oyster-4)
+pobj(After-1, Omelette-5)
+
+
+(ROOT
+  (S
+    (S
+      (NP (EX there))
+      (VP (VBZ is)
+        (VP
+          (NP (RB only) (CD one) (JJR more))
+          (VBN left))))
+    (CC and)
+    (S
+      (NP (DT that))
+      (VP (VBZ is)
+        (NP (NNP Mattar) (NNP Road) (NNP Seafood) (NNP BBQ))))
+    (. .)))
+
+
+expl(left-6, there-1)
+auxpass(left-6, is-2)
+advmod(more-5, only-3)
+num(more-5, one-4)
+dobj(left-6, more-5)
+root(ROOT-0, left-6)
+cc(left-6, and-7)
+nsubj(BBQ-13, that-8)
+cop(BBQ-13, is-9)
+nn(BBQ-13, Mattar-10)
+nn(BBQ-13, Road-11)
+nn(BBQ-13, Seafood-12)
+conj(left-6, BBQ-13)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Ok))
+    (, ,)))
+
+
+root(ROOT-0, Ok-1)
+
+
+(ROOT
+  (S
+    (VP (MD must)
+      (VP (VB press)
+        (PRT (RP on))
+        (S
+          (VP (TO to)
+            (VP (VB finish)
+              (SBAR
+                (WHNP (WP what))
+                (S
+                  (NP (PRP I))
+                  (VP (VBD started)
+                    (ADVP
+                      (NP (CD three) (NNS years))
+                      (RB ago))))))))))
+    (. !)))
+
+
+aux(press-2, must-1)
+root(ROOT-0, press-2)
+prt(press-2, on-3)
+aux(finish-5, to-4)
+xcomp(press-2, finish-5)
+dobj(started-8, what-6)
+nsubj(started-8, I-7)
+ccomp(finish-5, started-8)
+num(years-10, three-9)
+npadvmod(ago-11, years-10)
+advmod(started-8, ago-11)
+
+

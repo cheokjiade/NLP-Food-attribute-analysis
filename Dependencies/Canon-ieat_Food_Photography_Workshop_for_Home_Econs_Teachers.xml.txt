@@ -1,0 +1,123 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD was)
+      (VP
+        (VP (VBN invited)
+          (S
+            (VP (TO to)
+              (VP (VB conduct)
+                (NP (DT a) (NN photography) (NN workshop))
+                (PP (IN for)
+                  (NP
+                    (NP (DT the) (NNP Association))
+                    (PP (IN of)
+                      (NP (NNP Home) (NNP Economics) (NNPS Teachers)))))
+                (NP (JJ last) (NNP Friday))))))
+        (CC and)
+        (VP (VBN managed)
+          (S
+            (VP (TO to)
+              (VP (VB visit)
+                (NP
+                  (NP (NNP NIE))
+                  (PP (IN for)
+                    (NP (DT the) (JJ first) (NN time))))))))))
+    (. .)))
+
+
+nsubjpass(invited-3, I-1)
+auxpass(invited-3, was-2)
+root(ROOT-0, invited-3)
+aux(conduct-5, to-4)
+xcomp(invited-3, conduct-5)
+det(workshop-8, a-6)
+nn(workshop-8, photography-7)
+dobj(conduct-5, workshop-8)
+prep(conduct-5, for-9)
+det(Association-11, the-10)
+pobj(for-9, Association-11)
+prep(Association-11, of-12)
+nn(Teachers-15, Home-13)
+nn(Teachers-15, Economics-14)
+pobj(of-12, Teachers-15)
+amod(Friday-17, last-16)
+tmod(conduct-5, Friday-17)
+cc(invited-3, and-18)
+conj(invited-3, managed-19)
+aux(visit-21, to-20)
+xcomp(managed-19, visit-21)
+dobj(visit-21, NIE-22)
+prep(NIE-22, for-23)
+det(time-26, the-24)
+amod(time-26, first-25)
+pobj(for-23, time-26)
+
+
+(ROOT
+  (S
+    (VP (VB Gosh)
+      (SBAR
+        (S
+          (NP (PRP it))
+          (VP (VBZ looks)
+            (NP (DT a) (NN lot))
+            (PP (IN like)
+              (NP (NN army) (NNS barracks)))
+            (SBAR (IN as)
+              (S
+                (NP (PRP it))
+                (VP (VBZ is)
+                  (ADJP (VBN situated)
+                    (ADVP (RB right)
+                      (PP (IN at)
+                        (NP
+                          (NP (DT the) (NN periphery))
+                          (PP (IN of)
+                            (NP (NNP Singapore))))))
+                    (SBAR
+                      (WHADVP (WRB where))
+                      (S
+                        (NP (EX there))
+                        (VP (VBZ is)
+                          (NP
+                            (NP (DT no) (NNP HDB) (NN housing))
+                            (PP (IN between)
+                              (NP
+                                (NP (PRP it))
+                                (CC and)
+                                (NP (DT the) (NN sea))))))))))))))))
+    (. !)))
+
+
+root(ROOT-0, Gosh-1)
+nsubj(looks-3, it-2)
+ccomp(Gosh-1, looks-3)
+det(lot-5, a-4)
+dobj(looks-3, lot-5)
+prep(looks-3, like-6)
+nn(barracks-8, army-7)
+pobj(like-6, barracks-8)
+mark(situated-12, as-9)
+nsubjpass(situated-12, it-10)
+auxpass(situated-12, is-11)
+advcl(looks-3, situated-12)
+advmod(situated-12, right-13)
+prep(right-13, at-14)
+det(periphery-16, the-15)
+pobj(at-14, periphery-16)
+prep(periphery-16, of-17)
+pobj(of-17, Singapore-18)
+advmod(is-21, where-19)
+expl(is-21, there-20)
+ccomp(situated-12, is-21)
+det(housing-24, no-22)
+nn(housing-24, HDB-23)
+nsubj(is-21, housing-24)
+prep(housing-24, between-25)
+pobj(between-25, it-26)
+cc(it-26, and-27)
+det(sea-29, the-28)
+conj(it-26, sea-29)
+
+

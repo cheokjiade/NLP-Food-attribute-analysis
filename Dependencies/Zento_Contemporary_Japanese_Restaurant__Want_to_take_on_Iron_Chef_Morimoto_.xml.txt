@@ -1,0 +1,233 @@
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (VBP are)
+        (NP
+          (NP (DT a) (NN fan))
+          (PP (IN of)
+            (NP (DT the) (NNP Iron) (NNP Chef) (NN series)))))
+      (, ,))))
+
+
+mark(fan-5, If-1)
+nsubj(fan-5, you-2)
+cop(fan-5, are-3)
+det(fan-5, a-4)
+root(ROOT-0, fan-5)
+prep(fan-5, of-6)
+det(series-10, the-7)
+nn(series-10, Iron-8)
+nn(series-10, Chef-9)
+pobj(of-6, series-10)
+
+
+(ROOT
+  (S
+    (ADVP (RB then))
+    (NP
+      (NP (DT the) (NN mention))
+      (PP (IN of)
+        (NP (NNP Iron) (NNP Chef) (NNP Masaharu) (NNP Morimoto))))
+    (VP (MD might)
+      (VP (VB conjure)
+        (PRT (RP up))
+        (NP
+          (NP (NNS images))
+          (PP (IN of)
+            (NP (JJ fantastic) (JJ Japanese) (NNS creations)))
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (NP (PRP$ his) (NNS critics))
+              (VP (MD would)
+                (VP (VB say)
+                  (SBAR
+                    (S
+                      (VP (VBZ is) (RB not)
+                        (ADJP (JJ Japanese))
+                        (ADVP (IN at) (DT all))))))))))))
+    (. .)))
+
+
+advmod(conjure-10, then-1)
+det(mention-3, the-2)
+nsubj(conjure-10, mention-3)
+prep(mention-3, of-4)
+nn(Morimoto-8, Iron-5)
+nn(Morimoto-8, Chef-6)
+nn(Morimoto-8, Masaharu-7)
+pobj(of-4, Morimoto-8)
+aux(conjure-10, might-9)
+root(ROOT-0, conjure-10)
+prt(conjure-10, up-11)
+dobj(conjure-10, images-12)
+prep(images-12, of-13)
+amod(creations-16, fantastic-14)
+amod(creations-16, Japanese-15)
+pobj(of-13, creations-16)
+dobj(say-21, which-17)
+poss(critics-19, his-18)
+nsubj(say-21, critics-19)
+aux(say-21, would-20)
+rcmod(images-12, say-21)
+cop(Japanese-24, is-22)
+neg(Japanese-24, not-23)
+ccomp(say-21, Japanese-24)
+advmod(Japanese-24, at-25)
+pobj(at-25, all-26)
+
+
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (NP (DT the) (NN paradox)))
+    (. .)))
+
+
+nsubj(paradox-4, This-1)
+cop(paradox-4, is-2)
+det(paradox-4, the-3)
+root(ROOT-0, paradox-4)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Chef)
+      (NP (NNP Morimoto)))
+    (, ,)))
+
+
+root(ROOT-0, Chef-1)
+pobj(Chef-1, Morimoto-2)
+
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT the) (NN man))
+        (ADJP (JJ responsible)
+          (PP (IN for)
+            (NP
+              (NP (DT the)
+                (ADJP (RB highly) (JJ acclaimed))
+                (NNP Nobu) (NNP Restaurant))
+              (PP (IN in)
+                (NP
+                  (NP (NNP New) (NNP York))
+                  (SBAR
+                    (WHNP (WP who))
+                    (S
+                      (VP (VBZ plays)
+                        (NP
+                          (NP (DT the) (NN role))
+                          (PP (IN of)
+                            (NP (NNP Iron) (NNP Chef) (NNP Japan)))))))))))))
+      (VP (VBZ is)
+        (VP (VBN supposed)
+          (S
+            (VP (TO to)
+              (VP (VB represent)
+                (NP (JJ Japanese) (NN cuisine))))))))
+    (CC but)
+    (S
+      (NP (PRP he))
+      (ADVP (RB always))
+      (VP (VBZ comes)
+        (PRT (RP up))
+        (PP (IN with)
+          (NP
+            (NP (NNS creations))
+            (ADJP (RB so) (JJ bizarre))))
+        (SBAR (IN that)
+          (S
+            (NP (DT some))
+            (VP (MD might)
+              (VP (VB question)
+                (NP (PRP$ its) (`` ``) (NNS Japaneseness) ('' ''))))))))
+    (. .)))
+
+
+det(man-2, the-1)
+nsubjpass(supposed-22, man-2)
+amod(man-2, responsible-3)
+prep(responsible-3, for-4)
+det(Restaurant-9, the-5)
+advmod(acclaimed-7, highly-6)
+amod(Restaurant-9, acclaimed-7)
+nn(Restaurant-9, Nobu-8)
+pobj(for-4, Restaurant-9)
+prep(Restaurant-9, in-10)
+nn(York-12, New-11)
+pobj(in-10, York-12)
+nsubj(plays-14, who-13)
+rcmod(York-12, plays-14)
+det(role-16, the-15)
+dobj(plays-14, role-16)
+prep(role-16, of-17)
+nn(Japan-20, Iron-18)
+nn(Japan-20, Chef-19)
+pobj(of-17, Japan-20)
+auxpass(supposed-22, is-21)
+root(ROOT-0, supposed-22)
+aux(represent-24, to-23)
+xcomp(supposed-22, represent-24)
+amod(cuisine-26, Japanese-25)
+dobj(represent-24, cuisine-26)
+cc(supposed-22, but-27)
+nsubj(comes-30, he-28)
+advmod(comes-30, always-29)
+conj(supposed-22, comes-30)
+prt(comes-30, up-31)
+prep(comes-30, with-32)
+pobj(with-32, creations-33)
+advmod(bizarre-35, so-34)
+amod(creations-33, bizarre-35)
+mark(question-39, that-36)
+nsubj(question-39, some-37)
+aux(question-39, might-38)
+ccomp(comes-30, question-39)
+poss(Japaneseness-42, its-40)
+dobj(question-39, Japaneseness-42)
+
+
+(ROOT
+  (S
+    (VP
+      (ADVP (CC But)))
+    (. ...)))
+
+
+root(ROOT-0, But-1)
+
+
+(ROOT
+  (S
+    (NP (PRP he))
+    (ADVP (RB still))
+    (VP (VBZ manages)
+      (S
+        (VP (TO to)
+          (VP (VB beat)
+            (NP (PRP$ his) (NNS challengers))
+            (ADVP (RBS most))
+            (PP (IN of)
+              (NP (DT the) (NN time)))))))
+    (. .)))
+
+
+nsubj(manages-3, he-1)
+advmod(manages-3, still-2)
+root(ROOT-0, manages-3)
+aux(beat-5, to-4)
+xcomp(manages-3, beat-5)
+poss(challengers-7, his-6)
+dobj(beat-5, challengers-7)
+advmod(beat-5, most-8)
+prep(beat-5, of-9)
+det(time-11, the-10)
+pobj(of-9, time-11)
+
+

@@ -1,0 +1,244 @@
+(ROOT
+  (NP
+    (NP (NNS Thanks))
+    (PP (TO to)
+      (NP (PDT all) (DT the) (NNS participants)
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBD came)
+              (PP (TO to)
+                (NP (DT the) (NNP Photography) (NN workshop))))))))
+    (. .)))
+
+
+root(ROOT-0, Thanks-1)
+prep(Thanks-1, to-2)
+predet(participants-5, all-3)
+det(participants-5, the-4)
+pobj(to-2, participants-5)
+nsubj(came-7, who-6)
+ccomp(participants-5, came-7)
+prep(came-7, to-8)
+det(workshop-11, the-9)
+nn(workshop-11, Photography-10)
+pobj(to-8, workshop-11)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP (PRP we))
+          (ADVP (DT all))
+          (VP (VBD managed)
+            (VP (VB pick)
+              (PRT (RP up))
+              (NP
+                (NP (DT some) (NNS tips))
+                (FRAG
+                  (CONJP (RB as) (RB well) (IN as))
+                  (S
+                    (VP (TO to)
+                      (VP (VB eat)
+                        (NP (DT some)
+                          (ADJP (RB quite) (JJ unique))
+                          (NNP Dim) (NN Sum))))))))))))
+    (. .)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+nsubj(managed-5, we-3)
+advmod(managed-5, all-4)
+ccomp(think-2, managed-5)
+xcomp(managed-5, pick-6)
+prt(pick-6, up-7)
+det(tips-9, some-8)
+dobj(pick-6, tips-9)
+advmod(well-11, as-10)
+cc(eat-14, well-11)
+mwe(well-11, as-12)
+aux(eat-14, to-13)
+dep(tips-9, eat-14)
+det(Sum-19, some-15)
+advmod(unique-17, quite-16)
+amod(Sum-19, unique-17)
+nn(Sum-19, Dim-18)
+dobj(eat-14, Sum-19)
+
+
+(ROOT
+  (S
+    (NP (DT This) (JJ particular) (NN workshop))
+    (VP (VBD was)
+      (ADJP (RB slightly) (JJ different))
+      (SBAR (IN as)
+        (S
+          (NP (PRP$ our) (NNS participants))
+          (VP (VBD were)
+            (ADVP (RB also))
+            (VP (VBN given)
+              (NP (DT the) (NN opportunity)
+                (S
+                  (VP (TO to)
+                    (VP (VB practice)
+                      (NP (PRP$ their) (NN photography) (NNS skills))
+                      (PP (IN in)
+                        (S
+                          (VP (VBG taking)
+                            (NP
+                              (NP
+                                (NP (NNS photos))
+                                (PP (IN of)
+                                  (NP (NNS people))))
+                              (CONJP (RB as) (RB well) (IN as))
+                              (NP (NN food)))))))))))))))
+    (, ,)))
+
+
+det(workshop-3, This-1)
+amod(workshop-3, particular-2)
+nsubj(different-6, workshop-3)
+cop(different-6, was-4)
+advmod(different-6, slightly-5)
+root(ROOT-0, different-6)
+mark(given-12, as-7)
+poss(participants-9, our-8)
+nsubjpass(given-12, participants-9)
+auxpass(given-12, were-10)
+advmod(given-12, also-11)
+advcl(different-6, given-12)
+det(opportunity-14, the-13)
+dobj(given-12, opportunity-14)
+aux(practice-16, to-15)
+infmod(opportunity-14, practice-16)
+poss(skills-19, their-17)
+nn(skills-19, photography-18)
+dobj(practice-16, skills-19)
+prep(practice-16, in-20)
+pcomp(in-20, taking-21)
+dobj(taking-21, photos-22)
+prep(photos-22, of-23)
+pobj(of-23, people-24)
+advmod(well-26, as-25)
+cc(photos-22, well-26)
+mwe(well-26, as-27)
+conj(photos-22, food-28)
+
+
+(ROOT
+  (S (RB not)
+    (VP (TO to)
+      (VP (VB mention)
+        (NP (NN landscape) (NNS photos))
+        (SBAR (IN since)
+          (S
+            (NP (PRP we))
+            (VP (VBD were)
+              (PP (IN at)
+                (NP
+                  (NP (DT the) (NN top))
+                  (PP (IN of)
+                    (NP (NNP UOB) (NNP Plaza))))))))))
+    (. .)))
+
+
+neg(mention-3, not-1)
+aux(mention-3, to-2)
+root(ROOT-0, mention-3)
+nn(photos-5, landscape-4)
+dobj(mention-3, photos-5)
+mark(were-8, since-6)
+nsubj(were-8, we-7)
+advcl(mention-3, were-8)
+prep(were-8, at-9)
+det(top-11, the-10)
+pobj(at-9, top-11)
+prep(top-11, of-12)
+nn(Plaza-14, UOB-13)
+pobj(of-12, Plaza-14)
+
+
+(ROOT
+  (FRAG
+    (PP (IN As)
+      (ADVP (RB always)))
+    (, ,)))
+
+
+root(ROOT-0, As-1)
+pcomp(As-1, always-2)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (VP (VBD held)
+      (NP (DT a) (NN competition))
+      (PP (IN at)
+        (NP
+          (NP (DT the) (NN end))
+          (PP (IN of)
+            (NP (DT the) (NN workshop)))))
+      (SBAR (IN in) (NN order)
+        (S
+          (VP (TO to)
+            (VP (VB let)
+              (NP (PRP$ our) (NNS participants))
+              (S
+                (VP (VBG showcase)
+                  (NP
+                    (NP (DT some))
+                    (PP (IN of)
+                      (NP (PRP$ their) (NN work)))))))))))
+    (. .)))
+
+
+nsubj(held-2, we-1)
+root(ROOT-0, held-2)
+det(competition-4, a-3)
+dobj(held-2, competition-4)
+prep(held-2, at-5)
+det(end-7, the-6)
+pobj(at-5, end-7)
+prep(end-7, of-8)
+det(workshop-10, the-9)
+pobj(of-8, workshop-10)
+mark(let-14, in-11)
+dep(let-14, order-12)
+aux(let-14, to-13)
+advcl(held-2, let-14)
+poss(participants-16, our-15)
+dobj(let-14, participants-16)
+xcomp(let-14, showcase-17)
+dobj(showcase-17, some-18)
+prep(some-18, of-19)
+poss(work-21, their-20)
+pobj(of-19, work-21)
+
+
+(ROOT
+  (S
+    (NP (RB Here))
+    (ADVP (RB then))
+    (VP (VBP are)
+      (NP
+        (NP (DT the) (NNS winners))
+        (PP (IN of)
+          (NP (DT the) (NN competition)))))
+    (. .)))
+
+
+nsubj(winners-5, Here-1)
+advmod(winners-5, then-2)
+cop(winners-5, are-3)
+det(winners-5, the-4)
+root(ROOT-0, winners-5)
+prep(winners-5, of-6)
+det(competition-8, the-7)
+pobj(of-6, competition-8)
+
+

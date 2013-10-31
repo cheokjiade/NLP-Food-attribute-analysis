@@ -1,0 +1,379 @@
+(ROOT
+  (S
+    (NP (RB Not) (NN everyone))
+    (VP (VBZ wants)
+      (S
+        (VP (TO to)
+          (VP (VB maintain)
+            (NP
+              (NP (DT a) (NN food))
+              (VP (VBG blog)
+                (SBAR (CC but)
+                  (S
+                    (NP (PRP I))
+                    (VP (VBP know)
+                      (SBAR (IN that)
+                        (S
+                          (NP (EX there))
+                          (VP (VBP are)
+                            (NP
+                              (NP (DT a) (NN lot))
+                              (PP (IN of)
+                                (NP (NNS foodies)))))))))))))))
+      (PP (IN amongst)
+        (NP
+          (NP (PRP$ our) (NNS readers))
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP (VBP are)
+                (ADJP (RB really) (JJ good)
+                  (PP (IN at)
+                    (S
+                      (VP (VBG recommending)
+                        (NP (DT a) (JJ good) (NN place))
+                        (S
+                          (VP (TO to)
+                            (VP (VB eat)
+                              (ADVP (DT every) (RB now)
+                                (CC and)
+                                (RB again)))))))))))))))
+    (. .)))
+
+
+neg(everyone-2, Not-1)
+nsubj(wants-3, everyone-2)
+root(ROOT-0, wants-3)
+aux(maintain-5, to-4)
+xcomp(wants-3, maintain-5)
+det(food-7, a-6)
+dobj(maintain-5, food-7)
+partmod(food-7, blog-8)
+cc(know-11, but-9)
+nsubj(know-11, I-10)
+ccomp(blog-8, know-11)
+mark(are-14, that-12)
+expl(are-14, there-13)
+ccomp(know-11, are-14)
+det(lot-16, a-15)
+nsubj(are-14, lot-16)
+prep(lot-16, of-17)
+pobj(of-17, foodies-18)
+prep(wants-3, amongst-19)
+poss(readers-21, our-20)
+pobj(amongst-19, readers-21)
+nsubj(good-25, who-22)
+cop(good-25, are-23)
+advmod(good-25, really-24)
+rcmod(readers-21, good-25)
+prep(good-25, at-26)
+pcomp(at-26, recommending-27)
+det(place-30, a-28)
+amod(place-30, good-29)
+dobj(recommending-27, place-30)
+aux(eat-32, to-31)
+xcomp(recommending-27, eat-32)
+dep(now-34, every-33)
+advmod(eat-32, now-34)
+cc(now-34, and-35)
+conj(now-34, again-36)
+
+
+(ROOT
+  (FRAG (RB So) (JJ ,)))
+
+
+root(ROOT-0, So-1)
+
+
+(ROOT
+  (S
+    (SBAR
+      (WHNP (WP what))
+      (S
+        (NP (PRP I))
+        (VP (VBD thought)
+          (SBAR
+            (S
+              (VP (MD would)
+                (VP (VB be)
+                  (ADJP (JJ interesting)))))))))
+    (VP (VBZ is)
+      (SBAR (IN if)
+        (S
+          (NP (PRP$ our) (NN facebook) (NN group) (NN wall))
+          (VP (MD can)
+            (VP (VB be)
+              (VP (VBN made)
+                (PP (IN into)
+                  (NP (DT a) (NN community) (NN food)))
+                (S
+                  (VP (VBG blog)
+                    (SBAR
+                      (WHADVP (WRB where))
+                      (S
+                        (NP (NN everyone))
+                        (VP (VBP recommend)
+                          (S
+                            (NP (NN something))
+                            (ADJP (JJ good)
+                              (S
+                                (VP (TO to)
+                                  (VP (VB eat)))))))))))))))))
+    (. .)))
+
+
+dobj(thought-3, what-1)
+nsubj(thought-3, I-2)
+csubj(is-7, thought-3)
+aux(interesting-6, would-4)
+cop(interesting-6, be-5)
+ccomp(thought-3, interesting-6)
+root(ROOT-0, is-7)
+mark(made-15, if-8)
+poss(wall-12, our-9)
+nn(wall-12, facebook-10)
+nn(wall-12, group-11)
+nsubjpass(made-15, wall-12)
+aux(made-15, can-13)
+auxpass(made-15, be-14)
+advcl(is-7, made-15)
+prep(made-15, into-16)
+det(food-19, a-17)
+nn(food-19, community-18)
+pobj(into-16, food-19)
+xcomp(made-15, blog-20)
+advmod(recommend-23, where-21)
+nsubj(recommend-23, everyone-22)
+advcl(blog-20, recommend-23)
+nsubj(good-25, something-24)
+xcomp(recommend-23, good-25)
+aux(eat-27, to-26)
+xcomp(good-25, eat-27)
+
+
+(ROOT
+  (SBAR (RB Even) (IN if)
+    (S
+      (NP (PRP you))
+      (VP (VBP do) (RB n't)
+        (VP (VB like)
+          (S
+            (VP (TO to)
+              (VP (VB write)
+                (NP (DT a) (NN review)))))))
+      (, ,))))
+
+
+advmod(like-6, Even-1)
+mark(like-6, if-2)
+nsubj(like-6, you-3)
+aux(like-6, do-4)
+neg(like-6, n't-5)
+root(ROOT-0, like-6)
+aux(write-8, to-7)
+xcomp(like-6, write-8)
+det(review-10, a-9)
+dobj(write-8, review-10)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (MD can)
+      (ADVP (RB still))
+      (VP (VB join)
+        (PP (IN in)
+          (NP (DT the) (NN fun)))
+        (PP (IN by)
+          (S
+            (VP
+              (VP (VBG commenting))
+              (CC or)
+              (ADVP (RB even))
+              (VP
+                (ADVP (RB just))
+                (VBG clicking)
+                (SBAR (IN that)
+                  (S
+                    (NP (PRP you))
+                    (VP (VBP like)
+                      (NP (DT the) (JJ particular) (NN review)))))))))))
+    (. .)))
+
+
+nsubj(join-4, you-1)
+aux(join-4, can-2)
+advmod(join-4, still-3)
+root(ROOT-0, join-4)
+prep(join-4, in-5)
+det(fun-7, the-6)
+pobj(in-5, fun-7)
+prep(join-4, by-8)
+pcomp(by-8, commenting-9)
+cc(commenting-9, or-10)
+advmod(commenting-9, even-11)
+advmod(clicking-13, just-12)
+conj(commenting-9, clicking-13)
+mark(like-16, that-14)
+nsubj(like-16, you-15)
+ccomp(clicking-13, like-16)
+det(review-19, the-17)
+amod(review-19, particular-18)
+dobj(like-16, review-19)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP (PRP it))
+          (VP (MD can)
+            (VP (VB be)
+              (NP
+                (NP (DT a) (NN place))
+                (SBAR
+                  (WHADVP (WRB where))
+                  (S
+                    (NP (PRP$ our) (NNS foodies))
+                    (VP (MD can)
+                      (VP (VB interact)
+                        (CC and)
+                        (VB find)
+                        (NP (NN something) (JJ good))
+                        (S
+                          (VP (TO to)
+                            (VP (VB eat))))))))))))))
+    (. .)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+nsubj(place-7, it-3)
+aux(place-7, can-4)
+cop(place-7, be-5)
+det(place-7, a-6)
+ccomp(think-2, place-7)
+advmod(interact-12, where-8)
+poss(foodies-10, our-9)
+nsubj(interact-12, foodies-10)
+aux(interact-12, can-11)
+rcmod(place-7, interact-12)
+cc(interact-12, and-13)
+conj(interact-12, find-14)
+dobj(interact-12, something-15)
+amod(something-15, good-16)
+aux(eat-18, to-17)
+xcomp(interact-12, eat-18)
+
+
+(ROOT
+  (SBAR (RB Just)
+    (S
+      (VP
+        (VP (TO to)
+          (VP (VB make)
+            (S
+              (NP (NNS things))
+              (ADJP
+                (ADVP
+                  (NP (DT a) (RB little))
+                  (RBR more))
+                (JJ interesting)))))
+        (CC and)
+        (VP (TO to)
+          (VP (VB get)
+            (NP
+              (NP (NNS things))
+              (VP (VBG going)))
+            (, ,)))))))
+
+
+advmod(make-3, Just-1)
+aux(make-3, to-2)
+root(ROOT-0, make-3)
+nsubj(interesting-8, things-4)
+det(little-6, a-5)
+npadvmod(more-7, little-6)
+advmod(interesting-8, more-7)
+xcomp(make-3, interesting-8)
+cc(make-3, and-9)
+aux(get-11, to-10)
+conj(make-3, get-11)
+dobj(get-11, things-12)
+partmod(things-12, going-13)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (VP (VBG running)
+        (NP
+          (NP (DT a) (NN competition))
+          (SBAR
+            (WHADVP (WRB where))
+            (S
+              (NP (DT the) (JJS best) (NN review))
+              (VP (MD will)
+                (VP (VB win)
+                  (NP (DT a) (NN prize)))))))))
+    (. .)))
+
+
+nsubj(running-3, I-1)
+aux(running-3, am-2)
+root(ROOT-0, running-3)
+det(competition-5, a-4)
+dobj(running-3, competition-5)
+advmod(win-11, where-6)
+det(review-9, the-7)
+amod(review-9, best-8)
+nsubj(win-11, review-9)
+aux(win-11, will-10)
+rcmod(competition-5, win-11)
+det(prize-13, a-12)
+dobj(win-11, prize-13)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT This) (NN week) (POS 's))
+      (NN prize))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (NN dinner))
+        (PP (IN for)
+          (NP (CD two)))
+        (PP (IN at)
+          (NP (NNP Cugini) (NN restaurant) (NN worth) (NNS $)))))))
+
+
+det(week-2, This-1)
+poss(prize-4, week-2)
+possessive(week-2, 's-3)
+nsubj(dinner-7, prize-4)
+cop(dinner-7, is-5)
+det(dinner-7, a-6)
+root(ROOT-0, dinner-7)
+prep(dinner-7, for-8)
+pobj(for-8, two-9)
+prep(dinner-7, at-10)
+nn($-14, Cugini-11)
+nn($-14, restaurant-12)
+nn($-14, worth-13)
+pobj(at-10, $-14)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 150))
+    (. .)))
+
+
+root(ROOT-0, 150-1)
+
+

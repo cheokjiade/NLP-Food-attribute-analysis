@@ -1,0 +1,298 @@
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (VBP are)
+        (VP (VBG wondering)
+          (SBAR
+            (WHNP (WP what))
+            (S
+              (NP (PRP you))
+              (VP (MD can)
+                (VP (VB do)
+                  (PP (IN for)
+                    (NP (PRP$ your) (JJ beloved)
+                      (NP (DT this) (NNP Valentine) (POS 's))
+                      (NN Day)))))
+              (, ,))))))))
+
+
+mark(wondering-4, If-1)
+nsubj(wondering-4, you-2)
+aux(wondering-4, are-3)
+root(ROOT-0, wondering-4)
+dobj(do-8, what-5)
+nsubj(do-8, you-6)
+aux(do-8, can-7)
+ccomp(wondering-4, do-8)
+prep(do-8, for-9)
+poss(Day-15, your-10)
+amod(Day-15, beloved-11)
+det(Valentine-13, this-12)
+poss(Day-15, Valentine-13)
+possessive(Valentine-13, 's-14)
+pobj(for-9, Day-15)
+
+
+(ROOT
+  (SQ (MD may)
+    (NP (PRP I))
+    (VP (VB suggest)
+      (NP
+        (NP (NN breakfast))
+        (PP (IN in)
+          (NP (NN bed))))
+      (PP (IN with)
+        (NP (JJ truffle) (NN mayonnaise) (NN scrambled) (NNS eggs))))
+    (. !)))
+
+
+aux(suggest-3, may-1)
+nsubj(suggest-3, I-2)
+root(ROOT-0, suggest-3)
+dobj(suggest-3, breakfast-4)
+prep(breakfast-4, in-5)
+pobj(in-5, bed-6)
+prep(suggest-3, with-7)
+amod(eggs-11, truffle-8)
+nn(eggs-11, mayonnaise-9)
+nn(eggs-11, scrambled-10)
+pobj(with-7, eggs-11)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP have)
+      (VP (VBN divided)
+        (NP (DT the) (NN video))
+        (PP (IN into)
+          (NP (CD two) (NNS parts)))))
+    (. .)))
+
+
+nsubj(divided-3, We-1)
+aux(divided-3, have-2)
+root(ROOT-0, divided-3)
+det(video-5, the-4)
+dobj(divided-3, video-5)
+prep(divided-3, into-6)
+num(parts-8, two-7)
+pobj(into-6, parts-8)
+
+
+(ROOT
+  (PP (IN For)
+    (NP
+      (NP (DT those))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBP are)
+            (ADVP (RB already))
+            (VP (VBG struggling)
+              (PP (IN with)
+                (S
+                  (VP (VBG cracking)
+                    (NP (DT an) (NN egg))
+                    (ADVP (RB properly)))
+                  (, ,))))))))))
+
+
+root(ROOT-0, For-1)
+pobj(For-1, those-2)
+nsubj(struggling-6, who-3)
+aux(struggling-6, are-4)
+advmod(struggling-6, already-5)
+rcmod(those-2, struggling-6)
+prep(struggling-6, with-7)
+pcomp(with-7, cracking-8)
+det(egg-10, an-9)
+dobj(cracking-8, egg-10)
+advmod(cracking-8, properly-11)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NN video))
+    (ADVP (RB above))
+    (VP (VBZ is)
+      (PP (IN for)
+        (NP (PRP you))))
+    (. .)))
+
+
+det(video-2, the-1)
+nsubj(is-4, video-2)
+advmod(is-4, above-3)
+root(ROOT-0, is-4)
+prep(is-4, for-5)
+pobj(for-5, you-6)
+
+
+(ROOT
+  (FRAG (CC But)
+    (PP (IN if)
+      (S
+        (NP (PRP you))
+        (VP (VBP want)
+          (S
+            (VP (TO to)
+              (VP (VB do)
+                (NP
+                  (NP (NN something))
+                  (PRN
+                    (ADVP (RB really))
+                    (NP (JJ special))
+                    (, ,)))))))))))
+
+
+root(ROOT-0, But-1)
+prep(But-1, if-2)
+nsubj(want-4, you-3)
+pcomp(if-2, want-4)
+aux(do-6, to-5)
+xcomp(want-4, do-6)
+dobj(do-6, something-7)
+dep(special-9, really-8)
+dep(something-7, special-9)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (MD can)
+      (VP (VB add)
+        (PP (IN on)
+          (NP
+            (NP (NNP Chef) (NNP Tim) (POS 's))
+            (JJ truffle) (NN mayonnaise)))
+        (SBAR (IN as)
+          (S
+            (VP (VBN shown)
+              (PP (IN in)
+                (NP (DT the) (NN video)))
+              (ADVP (RB below)))))))
+    (. !)))
+
+
+nsubj(add-3, you-1)
+aux(add-3, can-2)
+root(ROOT-0, add-3)
+prep(add-3, on-4)
+nn(Tim-6, Chef-5)
+poss(mayonnaise-9, Tim-6)
+possessive(Tim-6, 's-7)
+amod(mayonnaise-9, truffle-8)
+pobj(on-4, mayonnaise-9)
+mark(shown-11, as-10)
+advcl(add-3, shown-11)
+prep(shown-11, in-12)
+det(video-14, the-13)
+pobj(in-12, video-14)
+advmod(shown-11, below-15)
+
+
+(ROOT
+  (S (RB Then)
+    (NP (PRP you))
+    (VP (VBP are)
+      (ADJP (RB almost) (VBN guaranteed)
+        (S
+          (VP (TO to)
+            (VP (VB make)
+              (NP (DT that)
+                (ADJP (RB very) (JJ special))
+                (NN person) (NN swoon)))))))
+    (. !)))
+
+
+advmod(guaranteed-5, Then-1)
+nsubjpass(guaranteed-5, you-2)
+auxpass(guaranteed-5, are-3)
+advmod(guaranteed-5, almost-4)
+root(ROOT-0, guaranteed-5)
+aux(make-7, to-6)
+xcomp(guaranteed-5, make-7)
+det(swoon-12, that-8)
+advmod(special-10, very-9)
+amod(swoon-12, special-10)
+nn(swoon-12, person-11)
+dobj(make-7, swoon-12)
+
+
+(ROOT
+  (NP
+    (NP (DT All))
+    (NP
+      (NP (DT the) (JJS best))
+      (PP (IN with)
+        (NP (PRP$ your) (JJ scrambled) (NNS eggs))))
+    (PP (IN with)
+      (NP (JJ truffle) (NN mayonnaise)))
+    (. !)))
+
+
+root(ROOT-0, All-1)
+det(best-3, the-2)
+dep(All-1, best-3)
+prep(best-3, with-4)
+poss(eggs-7, your-5)
+amod(eggs-7, scrambled-6)
+pobj(with-4, eggs-7)
+prep(All-1, with-8)
+amod(mayonnaise-10, truffle-9)
+pobj(with-8, mayonnaise-10)
+
+
+(ROOT
+  (SQ (VBP Have)
+    (NP (DT a) (JJ Happy)
+      (NP
+        (NP
+          (NP (NNP Valentine) (POS 's))
+          (NN Day))
+        (CC and)
+        (NP (DT a) (JJ prosperous) (NNP Chinese) (NNP New))))
+    (VP (VBN Year))
+    (. !)))
+
+
+aux(Year-12, Have-1)
+det(Day-6, a-2)
+amod(Day-6, Happy-3)
+poss(Day-6, Valentine-4)
+possessive(Valentine-4, 's-5)
+nsubj(Year-12, Day-6)
+cc(Day-6, and-7)
+det(New-11, a-8)
+amod(New-11, prosperous-9)
+nn(New-11, Chinese-10)
+conj(Day-6, New-11)
+root(ROOT-0, Year-12)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB watch)
+        (NP
+          (NP (DT the) (NN rest))
+          (PP (IN of)
+            (NP (DT the) (JJ ieat) (NNS videos))))
+        (ADVP (RB here))))))
+
+
+nsubj(watch-3, You-1)
+aux(watch-3, can-2)
+root(ROOT-0, watch-3)
+det(rest-5, the-4)
+dobj(watch-3, rest-5)
+prep(rest-5, of-6)
+det(videos-9, the-7)
+amod(videos-9, ieat-8)
+pobj(of-6, videos-9)
+advmod(watch-3, here-10)
+
+

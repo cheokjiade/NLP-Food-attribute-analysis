@@ -1,0 +1,221 @@
+(ROOT
+  (S
+    (NP (NNP Ever))
+    (VP (VBD thought)
+      (PP (IN about)
+        (S
+          (VP (VBG hosting)
+            (NP (DT an) (JJ intimate) (NN dinner) (NN party))
+            (PP (IN for)
+              (NP (PRP$ your) (NNS friends)))))))
+    (. ?)))
+
+
+nsubj(thought-2, Ever-1)
+root(ROOT-0, thought-2)
+prep(thought-2, about-3)
+pcomp(about-3, hosting-4)
+det(party-8, an-5)
+amod(party-8, intimate-6)
+nn(party-8, dinner-7)
+dobj(hosting-4, party-8)
+prep(hosting-4, for-9)
+poss(friends-11, your-10)
+pobj(for-9, friends-11)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADJP (JJ sure)
+        (SBAR
+          (S
+            (NP (PRP you))
+            (VP
+              (VP (VBP have))
+              (CC and)
+              (VP
+                (PP (IN for)
+                  (NP
+                    (NP (DT those))
+                    (PP (IN of)
+                      (NP (PRP us)))
+                    (SBAR
+                      (WHNP (WP who))
+                      (S
+                        (VP (VB cook))))))))))))
+    (, ,)))
+
+
+nsubj(sure-3, I-1)
+cop(sure-3, am-2)
+root(ROOT-0, sure-3)
+nsubj(have-5, you-4)
+ccomp(sure-3, have-5)
+cc(have-5, and-6)
+conj(have-5, for-7)
+pobj(for-7, those-8)
+prep(those-8, of-9)
+pobj(of-9, us-10)
+nsubj(cook-12, who-11)
+rcmod(those-8, cook-12)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (VBZ is)
+      (ADVP (RB usually))
+      (NP (DT an) (NN opportunity)
+        (S
+          (VP (TO to)
+            (VP (VB show)
+              (PRT (RP off))
+              (NP (PRP$ our) (JJ culinary) (NNS skills)))))))
+    (. .)))
+
+
+nsubj(opportunity-5, it-1)
+cop(opportunity-5, is-2)
+advmod(opportunity-5, usually-3)
+det(opportunity-5, an-4)
+root(ROOT-0, opportunity-5)
+aux(show-7, to-6)
+infmod(opportunity-5, show-7)
+prt(show-7, off-8)
+poss(skills-11, our-9)
+amod(skills-11, culinary-10)
+dobj(show-7, skills-11)
+
+
+(ROOT
+  (S (CC But)
+    (NP
+      (NP (DT the) (NN problem))
+      (PP (IN with)
+        (NP (DT that))))
+    (VP (VBZ is)
+      (S
+        (NP (PRP you))
+        (VP
+          (VP (VB end)
+            (PRT (RP up))
+            (S
+              (VP (VBG going)
+                (PRT (RP in)
+                  (CC and)
+                  (RP out))
+                (PP (IN of)
+                  (NP (DT the) (NN kitchen))))))
+          (CC and)
+          (VP (VB miss)
+            (PRT (RP out))
+            (PP (IN on)
+              (NP (DT the) (NN fellowship)))))))
+    (. .)))
+
+
+cc(is-6, But-1)
+det(problem-3, the-2)
+nsubj(is-6, problem-3)
+prep(problem-3, with-4)
+pobj(with-4, that-5)
+root(ROOT-0, is-6)
+nsubj(end-8, you-7)
+ccomp(is-6, end-8)
+prt(end-8, up-9)
+xcomp(end-8, going-10)
+prt(going-10, in-11)
+cc(in-11, and-12)
+dep(in-11, out-13)
+prep(going-10, of-14)
+det(kitchen-16, the-15)
+pobj(of-14, kitchen-16)
+cc(end-8, and-17)
+conj(end-8, miss-18)
+prt(miss-18, out-19)
+prep(miss-18, on-20)
+det(fellowship-22, the-21)
+pobj(on-20, fellowship-22)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Furthermore))
+    (, ,)))
+
+
+root(ROOT-0, Furthermore-1)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (MD would)
+      (VP (VB be)
+        (ADJP (RB very) (JJ difficult))
+        (SBAR (IN if)
+          (S
+            (NP (PRP you))
+            (VP (VBP are)
+              (VP (VBG planning)
+                (S
+                  (VP (TO to)
+                    (VP (VB do)
+                      (NP (DT a) (CD 8) (NN course)))))))))))
+    (, ,)))
+
+
+nsubj(difficult-5, it-1)
+aux(difficult-5, would-2)
+cop(difficult-5, be-3)
+advmod(difficult-5, very-4)
+root(ROOT-0, difficult-5)
+mark(planning-9, if-6)
+nsubj(planning-9, you-7)
+aux(planning-9, are-8)
+advcl(difficult-5, planning-9)
+aux(do-11, to-10)
+xcomp(planning-9, do-11)
+det(course-14, a-12)
+num(course-14, 8-13)
+dobj(do-11, course-14)
+
+
+(ROOT
+  (S
+    (NP (NN gourmet) (NN type))
+    (VP (VBZ meal)
+      (SBAR
+        (WHADVP (WRB where))
+        (S
+          (NP (DT each) (NN course))
+          (VP (VBZ has)
+            (S
+              (VP (TO to)
+                (VP (VB be)
+                  (VP (VBN constructed)
+                    (ADVP (RB just) (RB prior)
+                      (PP (TO to)
+                        (S
+                          (VP (VBG serving)))))))))))))
+    (. .)))
+
+
+nn(type-2, gourmet-1)
+nsubj(meal-3, type-2)
+root(ROOT-0, meal-3)
+advmod(has-7, where-4)
+det(course-6, each-5)
+nsubj(has-7, course-6)
+advcl(meal-3, has-7)
+aux(constructed-10, to-8)
+auxpass(constructed-10, be-9)
+xcomp(has-7, constructed-10)
+advmod(prior-12, just-11)
+advmod(constructed-10, prior-12)
+prep(prior-12, to-13)
+pcomp(to-13, serving-14)
+
+

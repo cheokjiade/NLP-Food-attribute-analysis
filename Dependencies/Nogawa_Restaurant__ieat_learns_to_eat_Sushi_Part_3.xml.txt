@@ -1,0 +1,299 @@
+(ROOT
+  (SBAR (IN As)
+    (S
+      (NP (PRP I))
+      (VP (VBP continue)
+        (PP (IN on)
+          (NP (PRP$ my) (NN journey)))
+        (PP (TO to)
+          (NP
+            (NP (NNP Sushi) (NNP Enlightenment))
+            (, ,)))))))
+
+
+mark(continue-3, As-1)
+nsubj(continue-3, I-2)
+root(ROOT-0, continue-3)
+prep(continue-3, on-4)
+poss(journey-6, my-5)
+pobj(on-4, journey-6)
+prep(continue-3, to-7)
+nn(Enlightenment-9, Sushi-8)
+pobj(to-7, Enlightenment-9)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP realize)
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (DT the) (NN reason))
+            (SBAR
+              (S
+                (NP (PRP I))
+                (VP (VBP enjoy)
+                  (S
+                    (VP (VBG eating)
+                      (NP
+                        (NP (NNP Sushi))
+                        (PP (IN on)
+                          (NP (DT the) (NN counter))))))))))
+          (VP (VBZ is)
+            (PP (IN because))))))
+    (, ,)))
+
+
+nsubj(realize-2, I-1)
+root(ROOT-0, realize-2)
+mark(is-13, that-3)
+det(reason-5, the-4)
+nsubj(is-13, reason-5)
+nsubj(enjoy-7, I-6)
+rcmod(reason-5, enjoy-7)
+xcomp(enjoy-7, eating-8)
+dobj(eating-8, Sushi-9)
+prep(Sushi-9, on-10)
+det(counter-12, the-11)
+pobj(on-10, counter-12)
+ccomp(realize-2, is-13)
+prep(is-13, because-14)
+
+
+(ROOT
+  (ADJP (JJ aside)
+    (PP (IN from)
+      (S
+        (VP (VBG being)
+          (ADJP (JJ able)
+            (S
+              (VP (TO to)
+                (VP (VB learn)
+                  (PP (IN from)
+                    (NP
+                      (NP (DT the) (NN itamae))
+                      (PRN (-LRB- -LRB-)
+                        (NP (NNP Sushi) (NNP Chef))
+                        (-RRB- -RRB-)))))))))
+        (, ,)))))
+
+
+root(ROOT-0, aside-1)
+prep(aside-1, from-2)
+cop(able-4, being-3)
+pcomp(from-2, able-4)
+aux(learn-6, to-5)
+xcomp(able-4, learn-6)
+prep(learn-6, from-7)
+det(itamae-9, the-8)
+pobj(from-7, itamae-9)
+nn(Chef-12, Sushi-11)
+appos(itamae-9, Chef-12)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NN rice))
+    (VP (VBZ is)
+      (VP (VBN molded)
+        (SBAR (RB just) (IN before)
+          (S
+            (NP (PRP you))
+            (VP (VBP eat)
+              (NP (DT the) (NNP Sushi)))))))
+    (. .)))
+
+
+det(rice-2, the-1)
+nsubjpass(molded-4, rice-2)
+auxpass(molded-4, is-3)
+root(ROOT-0, molded-4)
+advmod(eat-8, just-5)
+mark(eat-8, before-6)
+nsubj(eat-8, you-7)
+advcl(molded-4, eat-8)
+det(Sushi-10, the-9)
+dobj(eat-8, Sushi-10)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB Now))
+    (ADVP (RB ,))))
+
+
+root(ROOT-0, Now-1)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (ADVP (DT all))
+    (VP (VBP are)
+      (ADJP (RB very) (JJ familiar)
+        (PP (IN with)
+          (NP (DT the) (NNP Sushi) (NNS trains))))
+      (SBAR
+        (WHADVP (WRB where))
+        (S
+          (NP
+            (NP (DT some))
+            (PP (IN of)
+              (NP (DT the) (NNP Sushi))))
+          (VP (VBP have)
+            (VP (VBN been)
+              (VP (VBG going)
+                (S
+                  (VP (VB round)
+                    (CC and)
+                    (VB round)
+                    (NP (DT the) (NN conveyor) (NN belt))))))))))
+    (. .)))
+
+
+nsubj(familiar-5, we-1)
+advmod(familiar-5, all-2)
+cop(familiar-5, are-3)
+advmod(familiar-5, very-4)
+root(ROOT-0, familiar-5)
+prep(familiar-5, with-6)
+det(trains-9, the-7)
+nn(trains-9, Sushi-8)
+pobj(with-6, trains-9)
+advmod(going-17, where-10)
+nsubj(going-17, some-11)
+prep(some-11, of-12)
+det(Sushi-14, the-13)
+pobj(of-12, Sushi-14)
+aux(going-17, have-15)
+aux(going-17, been-16)
+advcl(familiar-5, going-17)
+ccomp(going-17, round-18)
+cc(round-18, and-19)
+conj(round-18, round-20)
+det(belt-23, the-21)
+nn(belt-23, conveyor-22)
+dobj(round-18, belt-23)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNP Sushi))
+      (SBAR
+        (WHNP (WDT that))
+        (S
+          (VP (VBP have)
+            (ADVP (RB already))
+            (VP (VBN been)
+              (NP (DT a) (JJ few) (NNS times)))))))
+    (VP (VBP round)
+      (SBAR
+        (S
+          (NP (DT the) (NN block))
+          (VP (MD must)
+            (VP (VB feel)
+              (PP (IN like)
+                (NP (DT the) (JJ last) (NN boy)))
+              (S
+                (VP (TO to)
+                  (VP (VB be)
+                    (VP (VBN picked)
+                      (PP (IN for)
+                        (NP (DT a) (NN soccer) (NN team))))))))))))
+    (. .)))
+
+
+det(Sushi-2, The-1)
+nsubj(round-10, Sushi-2)
+nsubj(times-9, that-3)
+aux(times-9, have-4)
+advmod(times-9, already-5)
+cop(times-9, been-6)
+det(times-9, a-7)
+amod(times-9, few-8)
+rcmod(Sushi-2, times-9)
+root(ROOT-0, round-10)
+det(block-12, the-11)
+nsubj(feel-14, block-12)
+aux(feel-14, must-13)
+ccomp(round-10, feel-14)
+prep(feel-14, like-15)
+det(boy-18, the-16)
+amod(boy-18, last-17)
+pobj(like-15, boy-18)
+aux(picked-21, to-19)
+auxpass(picked-21, be-20)
+xcomp(feel-14, picked-21)
+prep(picked-21, for-22)
+det(team-25, a-23)
+nn(team-25, soccer-24)
+pobj(for-22, team-25)
+
+
+(ROOT
+  (S
+    (PP (IN By)
+      (NP (DT the) (NN time)))
+    (NP (PRP you))
+    (ADVP (RB finally))
+    (VP (VBP decide)
+      (S
+        (VP (TO to)
+          (VP (VB end)
+            (NP (PRP$ its)
+              (ADJP (JJ miserable))
+              (NN existence))))))
+    (, ,)))
+
+
+prep(decide-6, By-1)
+det(time-3, the-2)
+pobj(By-1, time-3)
+nsubj(decide-6, you-4)
+advmod(decide-6, finally-5)
+root(ROOT-0, decide-6)
+aux(end-8, to-7)
+xcomp(decide-6, end-8)
+poss(existence-11, its-9)
+amod(existence-11, miserable-10)
+dobj(end-8, existence-11)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NN rice))
+    (VP (VBZ is)
+      (ADJP (RB already) (JJ dry)))
+    (, ,)))
+
+
+det(rice-2, the-1)
+nsubj(dry-5, rice-2)
+cop(dry-5, is-3)
+advmod(dry-5, already-4)
+root(ROOT-0, dry-5)
+
+
+(ROOT
+  (NP
+    (NP (NN grainy)
+      (CC and)
+      (NN frankly))
+    (NP
+      (NP (DT a) (NN waste))
+      (PP (IN of)
+        (NP (NNS calories))))
+    (. .)))
+
+
+root(ROOT-0, grainy-1)
+cc(grainy-1, and-2)
+conj(grainy-1, frankly-3)
+det(waste-5, a-4)
+dep(grainy-1, waste-5)
+prep(waste-5, of-6)
+pobj(of-6, calories-7)
+
+

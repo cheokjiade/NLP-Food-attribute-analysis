@@ -1,0 +1,134 @@
+(ROOT
+  (S
+    (NP (NNP May) (NNP I))
+    (VP (VBD invite)
+      (NP (PRP you))
+      (PP (TO to)
+        (NP (NN tune)))
+      (PP (IN in)
+        (PP (TO to)
+          (NP (NNP Makan) (NNPS Places) (NNP Lost) (NNP n) (NNP Found))))
+      (NP (DT this) (JJ coming) (NNP Tuesday)))
+    (, ,)))
+
+
+nn(I-2, May-1)
+nsubj(invite-3, I-2)
+root(ROOT-0, invite-3)
+dobj(invite-3, you-4)
+prep(invite-3, to-5)
+pobj(to-5, tune-6)
+prep(invite-3, in-7)
+pcomp(in-7, to-8)
+nn(Found-13, Makan-9)
+nn(Found-13, Places-10)
+nn(Found-13, Lost-11)
+nn(Found-13, n-12)
+pobj(to-8, Found-13)
+det(Tuesday-16, this-14)
+amod(Tuesday-16, coming-15)
+tmod(invite-3, Tuesday-16)
+
+
+(ROOT
+  (NP
+    (NP (CD 15))
+    (NP (NNP Jan) (CD 2012))
+    (PP (IN at)
+      (NP (CD 8.30) (NN pm)))
+    (. .)))
+
+
+root(ROOT-0, 15-1)
+dep(15-1, Jan-2)
+num(Jan-2, 2012-3)
+prep(15-1, at-4)
+num(pm-6, 8.30-5)
+pobj(at-4, pm-6)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD will)
+      (VP (VB be)
+        (VP (VBG co-hosting)
+          (NP (DT the) (NN show))
+          (PP
+            (PP (IN with)
+              (NP (NNP Gurmit) (NNP Singh)))
+            (CC and)
+            (RB apart)
+            (PP (IN from)
+              (S
+                (VP (VBG introducing)
+                  (NP
+                    (NP (CD four) (NN hawker) (NNS stalls))
+                    (SBAR
+                      (WHNP (WDT which))
+                      (S
+                        (VP (VBP have)
+                          (VP (VBN relocated)))))))))))))
+    (, ,)))
+
+
+nsubj(co-hosting-4, I-1)
+aux(co-hosting-4, will-2)
+aux(co-hosting-4, be-3)
+root(ROOT-0, co-hosting-4)
+det(show-6, the-5)
+dobj(co-hosting-4, show-6)
+prep(co-hosting-4, with-7)
+nn(Singh-9, Gurmit-8)
+pobj(with-7, Singh-9)
+cc(with-7, and-10)
+conj(with-7, apart-11)
+dep(with-7, from-12)
+pcomp(from-12, introducing-13)
+num(stalls-16, four-14)
+nn(stalls-16, hawker-15)
+dobj(introducing-13, stalls-16)
+nsubj(relocated-19, which-17)
+aux(relocated-19, have-18)
+rcmod(stalls-16, relocated-19)
+
+
+(ROOT
+  (S
+    (NP (EX there))
+    (VP (MD will)
+      (VP (VB be)
+        (NP (DT a)
+          (ADJP (RB very) (JJ interesting))
+          (NN skit))
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (NP (PRP I))
+            (VP (VBP portray)
+              (NP (DT the) (JJ royal) (NN food) (NN taster))
+              (PP (TO to)
+                (NP (NNP Emperor) (NNP Gurmit) (NNP Singh))))))))
+    (. !)))
+
+
+expl(skit-7, there-1)
+aux(skit-7, will-2)
+cop(skit-7, be-3)
+det(skit-7, a-4)
+advmod(interesting-6, very-5)
+amod(skit-7, interesting-6)
+root(ROOT-0, skit-7)
+advmod(portray-10, where-8)
+nsubj(portray-10, I-9)
+advcl(skit-7, portray-10)
+det(taster-14, the-11)
+amod(taster-14, royal-12)
+nn(taster-14, food-13)
+dobj(portray-10, taster-14)
+prep(portray-10, to-15)
+nn(Singh-18, Emperor-16)
+nn(Singh-18, Gurmit-17)
+pobj(to-15, Singh-18)
+
+

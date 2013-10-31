@@ -1,0 +1,203 @@
+(ROOT
+  (S
+    (NP (DT Some) (NNS foods))
+    (VP (VBP come)
+      (CC and)
+      (VBP go))
+    (, ,)))
+
+
+det(foods-2, Some-1)
+nsubj(come-3, foods-2)
+root(ROOT-0, come-3)
+cc(come-3, and-4)
+conj(come-3, go-5)
+
+
+(ROOT
+  (S (CC but)
+    (NP (PRP I))
+    (VP (VBP think)
+      (PP (IN in)
+        (NP
+          (NP (DT the) (NN case))
+          (PP (IN of)
+            (NP
+              (NP (NNP Xiao) (NNP Long) (NNP Bao))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP XLB))
+                (-RRB- -RRB-)))))
+        (, ,)))))
+
+
+cc(think-3, but-1)
+nsubj(think-3, I-2)
+root(ROOT-0, think-3)
+prep(think-3, in-4)
+det(case-6, the-5)
+pobj(in-4, case-6)
+prep(case-6, of-7)
+nn(Bao-10, Xiao-8)
+nn(Bao-10, Long-9)
+pobj(of-7, Bao-10)
+appos(Bao-10, XLB-12)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (VBZ has)
+      (VP (VBN gone)
+        (PP (IN past)
+          (NP
+            (NP (DT the) (NN stage))
+            (PP (IN of)
+              (S
+                (VP (VBG being)
+                  (NP
+                    (NP (DT a) (NN fad))
+                    (PP (TO to)
+                      (S
+                        (VP (VBG becoming)
+                          (NP (DT a) (NN firm) (NN favorite))
+                          (PP (IN amongst)
+                            (NP (NNP Singaporeans))))))))))))))
+    (. .)))
+
+
+nsubj(gone-3, it-1)
+aux(gone-3, has-2)
+root(ROOT-0, gone-3)
+prep(gone-3, past-4)
+det(stage-6, the-5)
+pobj(past-4, stage-6)
+prep(stage-6, of-7)
+cop(fad-10, being-8)
+det(fad-10, a-9)
+pcomp(of-7, fad-10)
+prep(fad-10, to-11)
+pcomp(to-11, becoming-12)
+det(favorite-15, a-13)
+nn(favorite-15, firm-14)
+attr(becoming-12, favorite-15)
+prep(becoming-12, amongst-16)
+pobj(amongst-16, Singaporeans-17)
+
+
+(ROOT
+  (S (CC And)
+    (NP (PRP I))
+    (VP (MD would) (RB not)
+      (VP (VB be)
+        (VP (VBN surprised)
+          (SBAR (IN if)
+            (FRAG
+              (NP
+                (NP (CD 20) (NNS years))
+                (PP (IN from)
+                  (NP (RB now))))))
+          (, ,))))))
+
+
+cc(surprised-6, And-1)
+nsubjpass(surprised-6, I-2)
+aux(surprised-6, would-3)
+neg(surprised-6, not-4)
+auxpass(surprised-6, be-5)
+root(ROOT-0, surprised-6)
+mark(years-9, if-7)
+num(years-9, 20-8)
+advcl(surprised-6, years-9)
+prep(years-9, from-10)
+pobj(from-10, now-11)
+
+
+(ROOT
+  (S
+    (NP (NNP XLB))
+    (VP (VBZ is)
+      (VP (VBN considered)
+        (PP (IN as)
+          (NP (NNP Singaporean)))
+        (PP (IN as)
+          (NP (NNP Hokkien) (NNP Mee)))))
+    (. .)))
+
+
+nsubjpass(considered-3, XLB-1)
+auxpass(considered-3, is-2)
+root(ROOT-0, considered-3)
+prep(considered-3, as-4)
+pobj(as-4, Singaporean-5)
+prep(considered-3, as-6)
+nn(Mee-8, Hokkien-7)
+pobj(as-6, Mee-8)
+
+
+(ROOT
+  (SBAR (IN Although)
+    (S
+      (NP (PRP it))
+      (VP (VBZ is)
+        (VP
+          (ADVP (RB still))
+          (VBN sold)
+          (PP
+            (ADVP (RB mainly))
+            (IN in)
+            (NP
+              (NP (NNS restaurants))
+              (PP (IN at)
+                (NP (DT the) (NN moment)))))
+          (, ,))))))
+
+
+mark(sold-5, Although-1)
+nsubjpass(sold-5, it-2)
+auxpass(sold-5, is-3)
+advmod(sold-5, still-4)
+root(ROOT-0, sold-5)
+advmod(in-7, mainly-6)
+prep(sold-5, in-7)
+pobj(in-7, restaurants-8)
+prep(restaurants-8, at-9)
+det(moment-11, the-10)
+pobj(at-9, moment-11)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (VP (VBP are)
+      (VP (VBG beginning)
+        (S
+          (VP (TO to)
+            (VP (VB see)
+              (NP
+                (NP (DT some) (NNS stalls))
+                (VP (VBG beginning)
+                  (S
+                    (VP (TO to)
+                      (VP (VB sell)
+                        (NP (PRP them))
+                        (PP (IN in)
+                          (NP (NNP Hawker) (NNPS Centres)))))))))))))
+    (. .)))
+
+
+nsubj(beginning-3, we-1)
+aux(beginning-3, are-2)
+root(ROOT-0, beginning-3)
+aux(see-5, to-4)
+xcomp(beginning-3, see-5)
+det(stalls-7, some-6)
+dobj(see-5, stalls-7)
+partmod(stalls-7, beginning-8)
+aux(sell-10, to-9)
+xcomp(beginning-8, sell-10)
+dobj(sell-10, them-11)
+prep(sell-10, in-12)
+nn(Centres-14, Hawker-13)
+pobj(in-12, Centres-14)
+
+

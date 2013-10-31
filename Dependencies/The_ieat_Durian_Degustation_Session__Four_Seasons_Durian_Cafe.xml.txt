@@ -1,0 +1,319 @@
+(ROOT
+  (S
+    (NP (NNP Stall))
+    (VP (VBZ is)
+      (ADJP (JJ closed))
+      (SBAR (RB Ever)
+        (S
+          (VP (VBD wondered)
+            (SBAR
+              (WHNP (WP what))
+              (S
+                (NP (DT the) (JJ big) (NNS fuss))
+                (VP (VBZ is)
+                  (PP (IN over)
+                    (NP (NNP Mao) (NNP Shan) (NNP Wang))))))))))
+    (. ?)))
+
+
+nsubj(closed-3, Stall-1)
+cop(closed-3, is-2)
+root(ROOT-0, closed-3)
+advmod(wondered-5, Ever-4)
+ccomp(closed-3, wondered-5)
+dobj(is-10, what-6)
+det(fuss-9, the-7)
+amod(fuss-9, big-8)
+nsubj(is-10, fuss-9)
+ccomp(wondered-5, is-10)
+prep(is-10, over-11)
+nn(Wang-14, Mao-12)
+nn(Wang-14, Shan-13)
+pobj(over-11, Wang-14)
+
+
+(ROOT
+  (FRAG (CC Or)
+    (SBAR
+      (WHNP (WP what))
+      (S
+        (VP (VBZ is)
+          (NP
+            (NP (DT the) (NN difference))
+            (PP (IN between)
+              (NP (NNP XO)
+                (CC and)
+                (NNP D24)))))))
+    (. ?)))
+
+
+cc(difference-5, Or-1)
+nsubj(difference-5, what-2)
+cop(difference-5, is-3)
+det(difference-5, the-4)
+root(ROOT-0, difference-5)
+prep(difference-5, between-6)
+pobj(between-6, XO-7)
+cc(XO-7, and-8)
+conj(XO-7, D24-9)
+
+
+(ROOT
+  (FRAG (CC Or)
+    (SBAR (IN whether)
+      (S
+        (NP (PRP you))
+        (VP (MD can)
+          (VP (VB eat)
+            (NP
+              (NP (NNP Hong) (NNP Xia))
+              (PRN (-LRB- -LRB-)
+                (NP (NNP lit) (NNP Red) (NNP Prawn))
+                (-RRB- -RRB-)))
+            (SBAR (IN if)
+              (S
+                (NP (PRP you))
+                (VP (VBP are)
+                  (VP (VBG allergic)
+                    (PP (TO to)
+                      (NP (NNS prawns)))))))))))
+    (. ?)))
+
+
+cc(eat-5, Or-1)
+mark(eat-5, whether-2)
+nsubj(eat-5, you-3)
+aux(eat-5, can-4)
+root(ROOT-0, eat-5)
+nn(Xia-7, Hong-6)
+dobj(eat-5, Xia-7)
+nn(Prawn-11, lit-9)
+nn(Prawn-11, Red-10)
+appos(Xia-7, Prawn-11)
+mark(allergic-16, if-13)
+nsubj(allergic-16, you-14)
+aux(allergic-16, are-15)
+advcl(eat-5, allergic-16)
+prep(allergic-16, to-17)
+pobj(to-17, prawns-18)
+
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are)
+      (ADVP (RB now))
+      (ADJP (RB so) (JJ many)
+        (SBAR
+          (S
+            (VP (VBD branded)
+              (NP (NNS Durians))
+              (PRT (RP out))
+              (ADVP (RB there))))))
+      (SBAR (IN that)
+        (S
+          (NP (EX there))
+          (VP (MD should)
+            (VP (VB be)
+              (VP (VBN Durian)
+                (NP (NN appreciation) (NNS courses))
+                (ADVP (RB just))
+                (PP (IN like)
+                  (SBAR
+                    (WHNP (WP what))
+                    (S
+                      (NP (PRP we))
+                      (VP (VBP do)
+                        (PP (IN with)
+                          (NP (NN wine)))))))))))))
+    (. !)))
+
+
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+advmod(are-2, now-3)
+advmod(many-5, so-4)
+acomp(are-2, many-5)
+ccomp(many-5, branded-6)
+dobj(branded-6, Durians-7)
+prt(branded-6, out-8)
+advmod(branded-6, there-9)
+mark(Durian-14, that-10)
+expl(Durian-14, there-11)
+aux(Durian-14, should-12)
+auxpass(Durian-14, be-13)
+ccomp(are-2, Durian-14)
+nn(courses-16, appreciation-15)
+dobj(Durian-14, courses-16)
+advmod(Durian-14, just-17)
+prep(Durian-14, like-18)
+dobj(do-21, what-19)
+nsubj(do-21, we-20)
+pcomp(like-18, do-21)
+prep(do-21, with-22)
+pobj(with-22, wine-23)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP (PRP it))
+          (VP (VBZ 's)
+            (ADVP (RB all)
+              (PP (TO to)
+                (ADJP (JJ common))))
+            (SBAR (IN that)
+              (WHADVP (WRB when))
+              (S
+                (NP (NNP Singaporeans))
+                (VP (VBP eat)
+                  (NP (NNS Durians)))))))))
+    (, ,)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+nsubj('s-4, it-3)
+ccomp(think-2, 's-4)
+advmod('s-4, all-5)
+prep(all-5, to-6)
+pobj(to-6, common-7)
+mark(eat-11, that-8)
+advmod(eat-11, when-9)
+nsubj(eat-11, Singaporeans-10)
+ccomp('s-4, eat-11)
+dobj(eat-11, Durians-12)
+
+
+(ROOT
+  (S
+    (NP (DT the) (JJ main) (NN concern))
+    (VP (VBZ is)
+      (PP (IN about)
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (VP (TO to)
+              (VP (VB go)
+                (SBAR (RB so) (IN that)
+                  (S
+                    (NP (PRP they))
+                    (VP (VBP do) (RB n't)
+                      (VP (VB get)
+                        (ADJP (JJ cheated))))))))))))
+    (. .)))
+
+
+det(concern-3, the-1)
+amod(concern-3, main-2)
+nsubj(is-4, concern-3)
+root(ROOT-0, is-4)
+prep(is-4, about-5)
+advmod(go-8, where-6)
+aux(go-8, to-7)
+pcomp(about-5, go-8)
+advmod(cheated-15, so-9)
+mark(cheated-15, that-10)
+nsubj(cheated-15, they-11)
+aux(cheated-15, do-12)
+neg(cheated-15, n't-13)
+dep(cheated-15, get-14)
+advcl(go-8, cheated-15)
+
+
+(ROOT
+  (NP
+    (NP (DT A) (NN lot))
+    (PP (IN of)
+      (NP
+        (NP (NNS times))
+        (, ,)))))
+
+
+det(lot-2, A-1)
+root(ROOT-0, lot-2)
+prep(lot-2, of-3)
+pobj(of-3, times-4)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (ADVP (RB either))
+    (VP (VBP need)
+      (S
+        (VP (TO to)
+          (VP
+            (VP (VB know)
+              (NP (DT a) (VBN trusted) (JJ Durian) (NN seller)))
+            (CC or)
+            (VP (VB know)
+              (NP
+                (NP (NN someone))
+                (SBAR
+                  (WHNP (WP who))
+                  (S
+                    (VP (VBZ does))))))))))
+    (. .)))
+
+
+nsubj(need-3, you-1)
+advmod(need-3, either-2)
+root(ROOT-0, need-3)
+aux(know-5, to-4)
+xcomp(need-3, know-5)
+det(seller-9, a-6)
+amod(seller-9, trusted-7)
+amod(seller-9, Durian-8)
+dobj(know-5, seller-9)
+cc(know-5, or-10)
+conj(know-5, know-11)
+dobj(know-11, someone-12)
+nsubj(does-14, who-13)
+rcmod(someone-12, does-14)
+
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB Why))
+    (SQ (MD ca) (RB n't)
+      (NP (EX there))
+      (VP
+        (ADVP (RB simply))
+        (VB be)
+        (NP (DT a) (NN place))
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (NP (PRP you))
+            (VP (MD can)
+              (VP (VB buy)
+                (NP (JJ good) (NNS Durians))
+                (PP (IN at)
+                  (NP (DT an) (JJ honest) (NN price)))))))))
+    (. ?)))
+
+
+advmod(be-6, Why-1)
+aux(be-6, ca-2)
+neg(be-6, n't-3)
+expl(be-6, there-4)
+advmod(be-6, simply-5)
+root(ROOT-0, be-6)
+det(place-8, a-7)
+dep(be-6, place-8)
+advmod(buy-12, where-9)
+nsubj(buy-12, you-10)
+aux(buy-12, can-11)
+advcl(be-6, buy-12)
+amod(Durians-14, good-13)
+dobj(buy-12, Durians-14)
+prep(buy-12, at-15)
+det(price-18, an-16)
+amod(price-18, honest-17)
+pobj(at-15, price-18)
+
+

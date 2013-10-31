@@ -1,0 +1,162 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP know)
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (DT a) (NN lot))
+            (PP (IN of)
+              (NP (NNP Singaporeans))))
+          (VP (VBP avoid)
+            (S
+              (VP (VBG going)
+                (PP (TO to)
+                  (NP (NNP Newton) (NNP Food) (NNP Centre)))
+                (SBAR (IN as)
+                  (S
+                    (NP (PRP it))
+                    (VP (VBZ is)
+                      (ADVP (RB often))
+                      (VP (VBN seen)
+                        (PP (IN as)
+                          (NP (DT a) (NN tourist) (NN trap)))))))))))))
+    (. .)))
+
+
+nsubj(know-2, I-1)
+root(ROOT-0, know-2)
+mark(avoid-8, that-3)
+det(lot-5, a-4)
+nsubj(avoid-8, lot-5)
+prep(lot-5, of-6)
+pobj(of-6, Singaporeans-7)
+ccomp(know-2, avoid-8)
+xcomp(avoid-8, going-9)
+prep(going-9, to-10)
+nn(Centre-13, Newton-11)
+nn(Centre-13, Food-12)
+pobj(to-10, Centre-13)
+mark(seen-18, as-14)
+nsubjpass(seen-18, it-15)
+auxpass(seen-18, is-16)
+advmod(seen-18, often-17)
+advcl(going-9, seen-18)
+prep(seen-18, as-19)
+det(trap-22, a-20)
+nn(trap-22, tourist-21)
+pobj(as-19, trap-22)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Furthermore))
+    (, ,)))
+
+
+root(ROOT-0, Furthermore-1)
+
+
+(ROOT
+  (S
+    (NP (JJ many) (NNS foodies))
+    (ADVP (RB also))
+    (VP (VBD lament)
+      (NP (DT the) (NN fact))
+      (SBAR
+        (SBAR (IN that)
+          (S
+            (NP (DT the) (NN food))
+            (ADVP (RB there))
+            (VP (VBZ is) (RB not)
+              (ADJP (JJ outstanding)))))
+        (CC and)
+        (SBAR (IN that)
+          (S
+            (NP (EX there))
+            (VP (VBP are)
+              (VP (VBG nicer)
+                (NP (NN hawker) (NN food))
+                (ADVP (RB elsewhere))
+                (PP (IN at)
+                  (NP (JJR lower) (NNS prices)))))))))
+    (. .)))
+
+
+amod(foodies-2, many-1)
+nsubj(lament-4, foodies-2)
+advmod(lament-4, also-3)
+root(ROOT-0, lament-4)
+det(fact-6, the-5)
+dobj(lament-4, fact-6)
+mark(outstanding-13, that-7)
+det(food-9, the-8)
+nsubj(outstanding-13, food-9)
+advmod(outstanding-13, there-10)
+cop(outstanding-13, is-11)
+neg(outstanding-13, not-12)
+ccomp(lament-4, outstanding-13)
+cc(outstanding-13, and-14)
+mark(nicer-18, that-15)
+expl(nicer-18, there-16)
+aux(nicer-18, are-17)
+conj(outstanding-13, nicer-18)
+nn(food-20, hawker-19)
+dobj(nicer-18, food-20)
+advmod(nicer-18, elsewhere-21)
+prep(nicer-18, at-22)
+amod(prices-24, lower-23)
+pobj(at-22, prices-24)
+
+
+(ROOT
+  (S
+    (NP (DT That))
+    (VP (VBZ 's)
+      (VP (VBZ is)
+        (NP
+          (NP (DT a) (NN bit))
+          (PP (IN of)
+            (NP
+              (NP (DT a) (NN shame))
+              (SBAR (IN because)
+                (S
+                  (NP (PRP I))
+                  (VP (VBP think)
+                    (SBAR (IN that)
+                      (S
+                        (NP (DT this))
+                        (VP (VBZ is)
+                          (NP (DT the)
+                            (ADJP (RBS most) (RB well) (VBN known))
+                            (NN hawker) (NN center)))))))))))
+        (PP (IN amongst)
+          (NP (PRP$ our) (NNS tourists)))))
+    (. .)))
+
+
+nsubj(bit-5, That-1)
+aux(bit-5, 's-2)
+cop(bit-5, is-3)
+det(bit-5, a-4)
+root(ROOT-0, bit-5)
+prep(bit-5, of-6)
+det(shame-8, a-7)
+pobj(of-6, shame-8)
+mark(think-11, because-9)
+nsubj(think-11, I-10)
+dep(shame-8, think-11)
+mark(center-20, that-12)
+nsubj(center-20, this-13)
+cop(center-20, is-14)
+det(center-20, the-15)
+advmod(known-18, most-16)
+advmod(known-18, well-17)
+amod(center-20, known-18)
+nn(center-20, hawker-19)
+ccomp(think-11, center-20)
+prep(bit-5, amongst-21)
+poss(tourists-23, our-22)
+pobj(amongst-21, tourists-23)
+
+

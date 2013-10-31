@@ -1,0 +1,242 @@
+(ROOT
+  (SBAR
+    (WHADVP (WRB When))
+    (S
+      (NP (PRP you))
+      (RB all)
+      (VP (VB order)
+        (NP
+          (NP (NN chicken))
+          (CC or)
+          (NP (NN duck) (NNS dishes))
+          (, ,))))))
+
+
+advmod(order-4, When-1)
+nsubj(order-4, you-2)
+advmod(order-4, all-3)
+root(ROOT-0, order-4)
+dobj(order-4, chicken-5)
+cc(chicken-5, or-6)
+nn(dishes-8, duck-7)
+conj(chicken-5, dishes-8)
+
+
+(ROOT
+  (SQ (VBP do)
+    (NP (PRP you))
+    (ADVP (RB ever))
+    (VP (VB pay)
+      (NP (NN attention))
+      (PP (TO to)
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBG chops)
+              (PRT (RP up))
+              (NP (PRP$ your) (NN meat)))))))
+    (. ?)))
+
+
+aux(pay-4, do-1)
+nsubj(pay-4, you-2)
+advmod(pay-4, ever-3)
+root(ROOT-0, pay-4)
+dobj(pay-4, attention-5)
+prep(pay-4, to-6)
+nsubj(chops-8, who-7)
+pcomp(to-6, chops-8)
+prt(chops-8, up-9)
+poss(meat-11, your-10)
+dobj(chops-8, meat-11)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBZ seldom))
+    (, ,)))
+
+
+nsubj(seldom-2, I-1)
+root(ROOT-0, seldom-2)
+
+
+(ROOT
+  (S (CC but)
+    (NP (PRP I))
+    (VP (VBP find)
+      (SBAR (IN that)
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP it))
+          (VP (VBZ comes)
+            (PP (TO to)
+              (NP
+                (NP (DT a)
+                  (ADJP (RB potentially) (JJ tough))
+                  (NN meat))
+                (PP (IN like)
+                  (NP (NN duck))))))
+          (, ,))))))
+
+
+cc(find-3, but-1)
+nsubj(find-3, I-2)
+root(ROOT-0, find-3)
+mark(comes-7, that-4)
+advmod(comes-7, when-5)
+nsubj(comes-7, it-6)
+ccomp(find-3, comes-7)
+prep(comes-7, to-8)
+det(meat-12, a-9)
+advmod(tough-11, potentially-10)
+amod(meat-12, tough-11)
+pobj(to-8, meat-12)
+prep(meat-12, like-13)
+pobj(like-13, duck-14)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT the) (NN person))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBZ slices)
+            (SBAR
+              (S
+                (NP (PRP it))
+                (ADVP (RB really))
+                (VP (VBZ does))))))))
+    (VP (VBP make)
+      (NP (DT a) (NN difference)))
+    (. .)))
+
+
+det(person-2, the-1)
+nsubj(make-8, person-2)
+nsubj(slices-4, who-3)
+rcmod(person-2, slices-4)
+nsubj(does-7, it-5)
+advmod(does-7, really-6)
+ccomp(slices-4, does-7)
+root(ROOT-0, make-8)
+det(difference-10, a-9)
+dobj(make-8, difference-10)
+
+
+(ROOT
+  (S
+    (NP (DT This) (NN teochew))
+    (VP (VBD braised)
+      (SBAR
+        (S
+          (NP (NN duck))
+          (VP (VBD was)
+            (ADJP
+              (NP (RB highly) (VBN recommended))
+              (PP (IN by)
+                (NP
+                  (NP (JJ smart))
+                  (SBAR
+                    (WHNP (WP who))
+                    (S
+                      (VP (VBD claimed))))))
+              (SBAR (IN that)
+                (S
+                  (NP (PRP it))
+                  (VP (VBD was)
+                    (NP
+                      (NP (CD one))
+                      (PP (IN of)
+                        (NP
+                          (NP (DT the) (JJS best))
+                          (PP (IN in)
+                            (NP (NNP Singapore))))))))))))))
+    (. .)))
+
+
+det(teochew-2, This-1)
+nsubj(braised-3, teochew-2)
+root(ROOT-0, braised-3)
+nsubj(highly-6, duck-4)
+cop(highly-6, was-5)
+ccomp(braised-3, highly-6)
+amod(highly-6, recommended-7)
+prep(highly-6, by-8)
+pobj(by-8, smart-9)
+nsubj(claimed-11, who-10)
+rcmod(smart-9, claimed-11)
+mark(one-15, that-12)
+nsubj(one-15, it-13)
+cop(one-15, was-14)
+ccomp(highly-6, one-15)
+prep(one-15, of-16)
+det(best-18, the-17)
+pobj(of-16, best-18)
+prep(best-18, in-19)
+pobj(in-19, Singapore-20)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (NNP Teochew) (NN style) (NN braised) (NN duck))
+        (VP (VBG meaning)
+          (SBAR (IN that)
+            (S
+              (NP (DT the) (NN sauce))
+              (VP (VBZ is)
+                (NP (DT the) (JJ thin))))))))
+    (, ,)))
+
+
+nsubj(duck-7, It-1)
+cop(duck-7, is-2)
+det(duck-7, the-3)
+nn(duck-7, Teochew-4)
+nn(duck-7, style-5)
+nn(duck-7, braised-6)
+root(ROOT-0, duck-7)
+partmod(duck-7, meaning-8)
+mark(thin-14, that-9)
+det(sauce-11, the-10)
+nsubj(thin-14, sauce-11)
+cop(thin-14, is-12)
+det(thin-14, the-13)
+ccomp(meaning-8, thin-14)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ watery) (NN type))
+      (CC and)
+      (NP (JJR more)))
+    (VP (VBP savoury)
+      (PP (IN than)
+        (ADJP (JJ sweet)))
+      (PP (VBN compared)
+        (PP (TO to)
+          (NP (DT the) (NNP Hokkien) (NN version)))))
+    (. .)))
+
+
+amod(type-2, watery-1)
+nsubj(savoury-5, type-2)
+cc(type-2, and-3)
+conj(type-2, more-4)
+root(ROOT-0, savoury-5)
+prep(savoury-5, than-6)
+pobj(than-6, sweet-7)
+prep(savoury-5, compared-8)
+pcomp(compared-8, to-9)
+det(version-12, the-10)
+nn(version-12, Hokkien-11)
+pobj(to-9, version-12)
+
+

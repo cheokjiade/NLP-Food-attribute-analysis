@@ -1,0 +1,587 @@
+(ROOT
+  (S
+    (NP (NNP Notice))
+    (VP (VBZ is)
+      (ADVP (RB hereby))
+      (VP (VBN given)
+        (SBAR (IN that)
+          (S
+            (NP (DT the) (JJ next) (NNP Makan) (NN Session))
+            (VP (MD will)
+              (VP (VB be)
+                (VP (VBN held)
+                  (PP (IN at)
+                    (NP (NNP New) (NNP Ubin) (NNP Seafood))))))))))
+    (. !)))
+
+
+nsubjpass(given-4, Notice-1)
+auxpass(given-4, is-2)
+advmod(given-4, hereby-3)
+root(ROOT-0, given-4)
+mark(held-12, that-5)
+det(Session-9, the-6)
+amod(Session-9, next-7)
+nn(Session-9, Makan-8)
+nsubjpass(held-12, Session-9)
+aux(held-12, will-10)
+auxpass(held-12, be-11)
+ccomp(given-4, held-12)
+prep(held-12, at-13)
+nn(Seafood-16, New-14)
+nn(Seafood-16, Ubin-15)
+pobj(at-13, Seafood-16)
+
+
+(ROOT
+  (SINV
+    (ADVP (RB Here))
+    (VP (VBP are))
+    (NP (DT the) (NNS details))
+    (: :)))
+
+
+advmod(are-2, Here-1)
+root(ROOT-0, are-2)
+det(details-4, the-3)
+nsubj(are-2, details-4)
+
+
+(ROOT
+  (NP (NNP Venue) (: :)))
+
+
+root(ROOT-0, Venue-1)
+
+
+(ROOT
+  (S
+    (NP (NNP New) (NNP Ubin))
+    (VP (VBD Seafood))
+    (, ,)))
+
+
+nn(Ubin-2, New-1)
+nsubj(Seafood-3, Ubin-2)
+root(ROOT-0, Seafood-3)
+
+
+(ROOT
+  (S
+    (NP (NNP Blk))
+    (VP (VBZ 27))
+    (, ,)))
+
+
+nsubj(27-2, Blk-1)
+root(ROOT-0, 27-2)
+
+
+(ROOT
+  (NP (NNP Sin) (NNP Ming) (NNP Road) (NNP Time) (: :)))
+
+
+nn(Time-4, Sin-1)
+nn(Time-4, Ming-2)
+nn(Time-4, Road-3)
+root(ROOT-0, Time-4)
+
+
+(ROOT
+  (NP
+    (NP (JJ 7pm)
+      (PRN (-LRB- -LRB-)
+        (NP (NN registration))
+        (-RRB- -RRB-))
+      (NN Date))
+    (: :)))
+
+
+amod(Date-5, 7pm-1)
+appos(Date-5, registration-3)
+root(ROOT-0, Date-5)
+
+
+(ROOT
+  (NP (CD 9) (NN Mar)))
+
+
+num(Mar-2, 9-1)
+root(ROOT-0, Mar-2)
+
+
+(ROOT
+  (NP
+    (NP (-LRB- -LRB-) (NNP Sat) (-RRB- -RRB-) (NNP Price))
+    (: :)))
+
+
+nn(Price-4, Sat-2)
+root(ROOT-0, Price-4)
+
+
+(ROOT
+  (INTJ (UH $)))
+
+
+root(ROOT-0, $-1)
+
+
+(ROOT
+  (NP
+    (NP (CD 35))
+    (PP (IN per)
+      (NP (NN pax) (NNP Menu) (CD 1)))
+    (. .)))
+
+
+root(ROOT-0, 35-1)
+prep(35-1, per-2)
+nn(Menu-4, pax-3)
+pobj(per-2, Menu-4)
+num(Menu-4, 1-5)
+
+
+(ROOT
+  (NP (NNP Ubin) (NNP Platter) (: :)))
+
+
+nn(Platter-2, Ubin-1)
+root(ROOT-0, Platter-2)
+
+
+(ROOT
+  (S
+    (NP (NNP Pan) (NNP Fried) (NNP Baby))
+    (VP (VBZ Shrimp))
+    (, ,)))
+
+
+nn(Baby-3, Pan-1)
+nn(Baby-3, Fried-2)
+nsubj(Shrimp-4, Baby-3)
+root(ROOT-0, Shrimp-4)
+
+
+(ROOT
+  (NP
+    (NP (NNP Wasabi) (NNP Blue))
+    (NP (NNP Tail) (NNP Mangrove) (NNP Shrimp) (, ,))))
+
+
+nn(Blue-2, Wasabi-1)
+root(ROOT-0, Blue-2)
+nn(Shrimp-5, Tail-3)
+nn(Shrimp-5, Mangrove-4)
+dep(Blue-2, Shrimp-5)
+
+
+(ROOT
+  (S
+    (NP (NNP Mini) (NNP Hei) (NNP Chor-homemade) (NNP prawn))
+    (VP (VBP roll))
+    (, ,)))
+
+
+nn(prawn-4, Mini-1)
+nn(prawn-4, Hei-2)
+nn(prawn-4, Chor-homemade-3)
+nsubj(roll-5, prawn-4)
+root(ROOT-0, roll-5)
+
+
+(ROOT
+  (S
+    (NP (NNP Smoked))
+    (VP (VBD Pork)
+      (NP (NNP Collar)))
+    (, ,)))
+
+
+nsubj(Pork-2, Smoked-1)
+root(ROOT-0, Pork-2)
+dobj(Pork-2, Collar-3)
+
+
+(ROOT
+  (NP (NNP Smoke) (NNP Duck) (NNPS Beansprouts)))
+
+
+nn(Beansprouts-3, Smoke-1)
+nn(Beansprouts-3, Duck-2)
+root(ROOT-0, Beansprouts-3)
+
+
+(ROOT
+  (S
+    (NP (CC &))
+    (VP (VBD Salted)
+      (NP (NNP Egg) (NNP Oysters) (CD 2)))
+    (. .)))
+
+
+nsubj(Salted-2, &-1)
+root(ROOT-0, Salted-2)
+nn(Oysters-4, Egg-3)
+dobj(Salted-2, Oysters-4)
+num(Oysters-4, 2-5)
+
+
+(ROOT
+  (NP (NNP Herbal) (NNP Chicken) (NNP Soup) (NNP 3) (. .)))
+
+
+nn(3-4, Herbal-1)
+nn(3-4, Chicken-2)
+nn(3-4, Soup-3)
+root(ROOT-0, 3-4)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Steamed) (NNP Baby) (NNP Squid))
+      (PP (IN with)
+        (NP (NN home))))
+    (VP (VBD made)
+      (NP (NN chinchalok) (NN sauce) (CD 4))
+      (NP
+        (NP (NNP Steam) (NNP Long) (NNP Tan) (NNP Meat))
+        (PP (IN with)
+          (NP
+            (NP (NNP Pan) (NNP Fried) (NNP Fish) (NNP Eggs))
+            (PP (IN in)
+              (NP (DT a) (NNP Chinchalok) (NNP \/) (NNP Petai) (NNP Sambal) (CD 5)))))))
+    (. .)))
+
+
+nn(Squid-3, Steamed-1)
+nn(Squid-3, Baby-2)
+nsubj(made-6, Squid-3)
+prep(Squid-3, with-4)
+pobj(with-4, home-5)
+root(ROOT-0, made-6)
+nn(sauce-8, chinchalok-7)
+iobj(made-6, sauce-8)
+num(sauce-8, 4-9)
+nn(Meat-13, Steam-10)
+nn(Meat-13, Long-11)
+nn(Meat-13, Tan-12)
+dobj(made-6, Meat-13)
+prep(Meat-13, with-14)
+nn(Eggs-18, Pan-15)
+nn(Eggs-18, Fried-16)
+nn(Eggs-18, Fish-17)
+pobj(with-14, Eggs-18)
+prep(Eggs-18, in-19)
+det(Sambal-24, a-20)
+nn(Sambal-24, Chinchalok-21)
+nn(Sambal-24, \/-22)
+nn(Sambal-24, Petai-23)
+pobj(in-19, Sambal-24)
+num(Sambal-24, 5-25)
+
+
+(ROOT
+  (S
+    (NP (NNP Hokkien) (NNP Mee))
+    (VP (VBZ Special)
+      (NP (CD 6)))
+    (. .)))
+
+
+nn(Mee-2, Hokkien-1)
+nsubj(Special-3, Mee-2)
+root(ROOT-0, Special-3)
+dobj(Special-3, 6-4)
+
+
+(ROOT
+  (NP
+    (NP (NNP Hongkong) (NNP Kailan))
+    (NP (JJ special) (CD 7))
+    (. .)))
+
+
+nn(Kailan-2, Hongkong-1)
+root(ROOT-0, Kailan-2)
+amod(7-4, special-3)
+dep(Kailan-2, 7-4)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Claypot) (NNP Wild) (NNP Sea) (NNP Bass) (NNP Head))
+      (PP (IN in)
+        (NP (JJ black) (NN bean))))
+    (VP (VBP paste)
+      (NP (CD 8)))
+    (. .)))
+
+
+nn(Head-5, Claypot-1)
+nn(Head-5, Wild-2)
+nn(Head-5, Sea-3)
+nn(Head-5, Bass-4)
+nsubj(paste-9, Head-5)
+prep(Head-5, in-6)
+amod(bean-8, black-7)
+pobj(in-6, bean-8)
+root(ROOT-0, paste-9)
+dobj(paste-9, 8-10)
+
+
+(ROOT
+  (NP
+    (NP
+      (NP (NNP US) (NNP Short) (NNP Ribs) (NNP Korean) (NNP Style))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP Karlbi))
+        (-RRB- -RRB-)))
+    (ADJP (CD 9))
+    (. .)))
+
+
+nn(Style-5, US-1)
+nn(Style-5, Short-2)
+nn(Style-5, Ribs-3)
+nn(Style-5, Korean-4)
+root(ROOT-0, Style-5)
+appos(Style-5, Karlbi-7)
+amod(Style-5, 9-9)
+
+
+(ROOT
+  (NP
+    (NP (NNP US) (NNP Certified) (NNPS Angus) (NN Beef) (NNP Fried) (NNP Rice))
+    (NP (CD 10))
+    (. .)))
+
+
+nn(Rice-6, US-1)
+nn(Rice-6, Certified-2)
+nn(Rice-6, Angus-3)
+nn(Rice-6, Beef-4)
+nn(Rice-6, Fried-5)
+root(ROOT-0, Rice-6)
+dep(Rice-6, 10-7)
+
+
+(ROOT
+  (S
+    (NP (NNP Home))
+    (VP (VBD made)
+      (S
+        (NP (NNP Yam) (NNP Paste))
+        (VP (TO To)
+          (VP (VB register)))))
+    (, ,)))
+
+
+nsubj(made-2, Home-1)
+root(ROOT-0, made-2)
+nn(Paste-4, Yam-3)
+nsubj(register-6, Paste-4)
+aux(register-6, To-5)
+xcomp(made-2, register-6)
+
+
+(ROOT
+  (S
+    (INTJ (VB please))
+    (VP (VB write)
+      (PP (TO to)))
+    (. .)))
+
+
+discourse(write-2, please-1)
+root(ROOT-0, write-2)
+prep(write-2, to-3)
+
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (DT the) (NNP Title)))
+    (NP (CD write))
+    (: :)))
+
+
+prep(write-4, In-1)
+det(Title-3, the-2)
+pobj(In-1, Title-3)
+root(ROOT-0, write-4)
+
+
+(ROOT
+  (INTJ (UH !)))
+
+
+
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (DT the) (NN body)))
+    (NP (CD write))
+    (: :)))
+
+
+prep(write-4, In-1)
+det(body-3, the-2)
+pobj(In-1, body-3)
+root(ROOT-0, write-4)
+
+
+(ROOT
+  (INTJ (UH .)))
+
+
+
+
+(ROOT
+  (S
+    (INTJ (VB Please))
+    (VP (VB be)
+      (ADJP (JJ short)
+        (CC and)
+        (JJ succinct)))
+    (. .)))
+
+
+discourse(short-3, Please-1)
+cop(short-3, be-2)
+root(ROOT-0, short-3)
+cc(short-3, and-4)
+conj(short-3, succinct-5)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT No) (NN need))
+      (PP (IN for)
+        (NP
+          (NP (NNS pleasantries))
+          (PP (IN as)
+            (NP (PRP we))))))
+    (VP (VBP want)
+      (NP
+        (NP (PDT all) (DT the) (NNS details))
+        (PP (IN on)
+          (NP (DT the) (JJ first) (NN line)))))
+    (. !)))
+
+
+det(need-2, No-1)
+nsubj(want-7, need-2)
+prep(need-2, for-3)
+pobj(for-3, pleasantries-4)
+prep(pleasantries-4, as-5)
+pobj(as-5, we-6)
+root(ROOT-0, want-7)
+predet(details-10, all-8)
+det(details-10, the-9)
+dobj(want-7, details-10)
+prep(details-10, on-11)
+det(line-14, the-12)
+amod(line-14, first-13)
+pobj(on-11, line-14)
+
+
+(ROOT
+  (S
+    (NP (NNP Please))
+    (VP (VBP note)
+      (SBAR (IN that) (RB once)
+        (S
+          (NP (PRP you))
+          (VP (VBP have)
+            (VP (VBN confirmed)
+              (NP (PRP$ your) (NN seat)))))))
+    (, ,)))
+
+
+nsubj(note-2, Please-1)
+root(ROOT-0, note-2)
+mark(confirmed-7, that-3)
+advmod(confirmed-7, once-4)
+nsubj(confirmed-7, you-5)
+aux(confirmed-7, have-6)
+ccomp(note-2, confirmed-7)
+poss(seat-9, your-8)
+dobj(confirmed-7, seat-9)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP we))
+      (VP (VBP consider)
+        (SBAR
+          (S
+            (NP (PRP it))
+            (VP (VBD sold))))))
+    (CC and)
+    (S
+      (NP (PRP you))
+      (VP (MD will)
+        (ADVP (RB still))
+        (VP (VB need)
+          (S
+            (VP (TO to)
+              (VP (VB pay)
+                (PP (IN for)
+                  (NP (PRP it)))
+                (SBAR (IN if)
+                  (S
+                    (NP (PRP you))
+                    (VP (VBP do) (RB n't)
+                      (VP (VB turn)
+                        (PRT (RP up))))))))))))
+    (. !)))
+
+
+nsubj(consider-2, we-1)
+root(ROOT-0, consider-2)
+nsubj(sold-4, it-3)
+ccomp(consider-2, sold-4)
+cc(consider-2, and-5)
+nsubj(need-9, you-6)
+aux(need-9, will-7)
+advmod(need-9, still-8)
+conj(consider-2, need-9)
+aux(pay-11, to-10)
+xcomp(need-9, pay-11)
+prep(pay-11, for-12)
+pobj(for-12, it-13)
+mark(turn-18, if-14)
+nsubj(turn-18, you-15)
+aux(turn-18, do-16)
+neg(turn-18, n't-17)
+advcl(pay-11, turn-18)
+prt(turn-18, up-19)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB read)
+        (PP (IN about)
+          (NP (NNP New) (NNP Ubin) (NNP Seafood)))
+        (ADVP (RB here))))
+    (. .)))
+
+
+nsubj(read-3, You-1)
+aux(read-3, can-2)
+root(ROOT-0, read-3)
+prep(read-3, about-4)
+nn(Seafood-7, New-5)
+nn(Seafood-7, Ubin-6)
+pobj(about-4, Seafood-7)
+advmod(read-3, here-8)
+
+

@@ -1,0 +1,243 @@
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN total))
+      (PP (IN of)
+        (NP (JJ 365) (NNS people))))
+    (VP (VBD voted)
+      (SBAR
+        (S
+          (NP
+            (NP (RB Just)
+              (QP (IN over) (PDT half)))
+            (PP (IN of)
+              (NP (DT the) (NNS readers))))
+          (VP (MD could) (RB not)
+            (VP (VB see)
+              (NP (DT the) (CD 3D) (NNS effects)))))))
+    (. .)))
+
+
+det(total-2, A-1)
+nsubj(voted-6, total-2)
+prep(total-2, of-3)
+amod(people-5, 365-4)
+pobj(of-3, people-5)
+root(ROOT-0, voted-6)
+advmod(half-9, Just-7)
+quantmod(half-9, over-8)
+nsubj(see-15, half-9)
+prep(half-9, of-10)
+det(readers-12, the-11)
+pobj(of-10, readers-12)
+aux(see-15, could-13)
+neg(see-15, not-14)
+ccomp(voted-6, see-15)
+det(effects-18, the-16)
+num(effects-18, 3D-17)
+dobj(see-15, effects-18)
+
+
+(ROOT
+  (FRAG
+    (NP
+      (QP (RB About) (CD 28))
+      (NN %))))
+
+
+quantmod(28-2, About-1)
+num(%-3, 28-2)
+root(ROOT-0, %-3)
+
+
+(ROOT
+  (SINV
+    (PP (IN of)
+      (NP (NNS readers)))
+    (VP (MD could)
+      (VP (VB see)
+        (NP (CD 3D))
+        (SBAR (CC but)
+          (S
+            (NP (DT some))
+            (VP (VBD were)
+              (VP (VBG salivating)
+                (NP (NNS whiles))))))))
+    (NP (NNS others)
+      (SBAR (RB just)
+        (S
+          (VP (VBD found)
+            (SBAR
+              (S
+                (NP (PRP it))
+                (VP (VBZ fun)
+                  (NP (CD 19.2) (NN %)))))))))))
+
+
+prep(see-4, of-1)
+pobj(of-1, readers-2)
+aux(see-4, could-3)
+root(ROOT-0, see-4)
+dobj(see-4, 3D-5)
+cc(salivating-9, but-6)
+nsubj(salivating-9, some-7)
+aux(salivating-9, were-8)
+dep(see-4, salivating-9)
+dobj(salivating-9, whiles-10)
+nsubj(see-4, others-11)
+advmod(found-13, just-12)
+ccomp(others-11, found-13)
+nsubj(fun-15, it-14)
+ccomp(found-13, fun-15)
+num(%-17, 19.2-16)
+dobj(fun-15, %-17)
+
+
+(ROOT
+  (S
+    (VP (VBD had)
+      (NP (DT a) (NN headache)))
+    (. !)))
+
+
+root(ROOT-0, had-1)
+det(headache-3, a-2)
+dobj(had-1, headache-3)
+
+
+(ROOT
+  (PP (IN For)
+    (NP
+      (NP (DT those) (NNS people))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (MD could) (RB not)
+            (VP (VB see)
+              (NP (CD 3D)))))
+        (, ,)))))
+
+
+root(ROOT-0, For-1)
+det(people-3, those-2)
+pobj(For-1, people-3)
+nsubj(see-7, who-4)
+aux(see-7, could-5)
+neg(see-7, not-6)
+rcmod(people-3, see-7)
+dobj(see-7, 3D-8)
+
+
+(ROOT
+  (S
+    (S
+      (VP (MD may)))
+    (NP (PRP I))
+    (VP (VBP encourage)
+      (S
+        (NP (PRP you))
+        (VP (TO to)
+          (VP (VB try)
+            (S
+              (VP (VB try)
+                (ADVP (RB again))))))))
+    (. .)))
+
+
+dep(encourage-3, may-1)
+nsubj(encourage-3, I-2)
+root(ROOT-0, encourage-3)
+nsubj(try-6, you-4)
+aux(try-6, to-5)
+xcomp(encourage-3, try-6)
+ccomp(try-6, try-7)
+advmod(try-7, again-8)
+
+
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT The) (NN fact))
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP
+                (QP (RB almost) (CD one) (NN third)))
+              (PP (IN of)
+                (NP (NNS people))))
+            (VP (MD could)
+              (VP (VB see)
+                (NP (PRP it)))))))
+      (VP (VBZ means)
+        (SBAR (IN that)
+          (S
+            (NP (PRP it))
+            (VP (VBZ is)
+              (ADJP (JJ possible)))))))
+    (CC but)
+    (S
+      (PP (IN for)
+        (NP (PRP you)))
+      (NP (PRP it))
+      (VP (MD might)
+        (VP (VB take)
+          (NP (DT some) (JJ extra) (NN effort)))))
+    (. !)))
+
+
+det(fact-2, The-1)
+nsubj(means-12, fact-2)
+mark(see-10, that-3)
+quantmod(third-6, almost-4)
+number(third-6, one-5)
+nsubj(see-10, third-6)
+prep(third-6, of-7)
+pobj(of-7, people-8)
+aux(see-10, could-9)
+dep(fact-2, see-10)
+dobj(see-10, it-11)
+root(ROOT-0, means-12)
+mark(possible-16, that-13)
+nsubj(possible-16, it-14)
+cop(possible-16, is-15)
+ccomp(means-12, possible-16)
+cc(means-12, but-17)
+prep(take-22, for-18)
+pobj(for-18, you-19)
+nsubj(take-22, it-20)
+aux(take-22, might-21)
+conj(means-12, take-22)
+det(effort-25, some-23)
+amod(effort-25, extra-24)
+dobj(take-22, effort-25)
+
+
+(ROOT
+  (S
+    (VP (VB Thanks)
+      (ADVP (RB once) (RB again))
+      (PP (TO to)
+        (NP
+          (NP (DT all))
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP (VBD participated)
+                (PP (IN in)
+                  (NP (DT the) (NNS Polls) (NN !!)))))))))))
+
+
+root(ROOT-0, Thanks-1)
+advmod(again-3, once-2)
+advmod(Thanks-1, again-3)
+prep(Thanks-1, to-4)
+pobj(to-4, all-5)
+nsubj(participated-7, who-6)
+rcmod(all-5, participated-7)
+prep(participated-7, in-8)
+det(!!-11, the-9)
+nn(!!-11, Polls-10)
+pobj(in-8, !!-11)
+
+

@@ -1,0 +1,116 @@
+(ROOT
+  (S
+    (NP (NNP Blog) (NNP TV))
+    (VP (VBZ has)
+      (VP (VBN asked)
+        (S
+          (NP (PRP me))
+          (VP (TO to)
+            (VP (VB comment)
+              (PP (IN about)
+                (S
+                  (NP
+                    (NP (DT this) (NN issue))
+                    (PP (IN of)
+                      (NP (DT the) (JJ Malaysian) (NNP Tourism) (NNP Minister))))
+                  (VP (VBG claiming)
+                    (NP (DT that) (NNP Chicken) (NNP Rice))))))))))
+    (, ,)))
+
+
+nn(TV-2, Blog-1)
+nsubj(asked-4, TV-2)
+aux(asked-4, has-3)
+root(ROOT-0, asked-4)
+nsubj(comment-7, me-5)
+aux(comment-7, to-6)
+xcomp(asked-4, comment-7)
+prep(comment-7, about-8)
+det(issue-10, this-9)
+nsubj(claiming-16, issue-10)
+prep(issue-10, of-11)
+det(Minister-15, the-12)
+amod(Minister-15, Malaysian-13)
+nn(Minister-15, Tourism-14)
+pobj(of-11, Minister-15)
+pcomp(about-8, claiming-16)
+det(Rice-19, that-17)
+nn(Rice-19, Chicken-18)
+dobj(claiming-16, Rice-19)
+
+
+(ROOT
+  (NP (NNP Laksa) (NNP ,)))
+
+
+nn(,-2, Laksa-1)
+
+
+(ROOT
+  (S
+    (NP (NNP Nasi) (NNP Lemak)
+      (CC and)
+      (NNP Chilli) (NNP Crabs))
+    (VP (VBP are)
+      (NP
+        (NP (DT all) (JJ Malaysian) (NNS dishes))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBP have)
+              (VP (VBN been)
+                (VP (VBN hijacked)
+                  (PP (IN by)
+                    (NP (JJ other) (NNS countries))))))))))
+    (. .)))
+
+
+nn(Lemak-2, Nasi-1)
+nsubj(dishes-9, Lemak-2)
+cc(Lemak-2, and-3)
+nn(Crabs-5, Chilli-4)
+conj(Lemak-2, Crabs-5)
+cop(dishes-9, are-6)
+det(dishes-9, all-7)
+amod(dishes-9, Malaysian-8)
+root(ROOT-0, dishes-9)
+nsubjpass(hijacked-13, which-10)
+aux(hijacked-13, have-11)
+auxpass(hijacked-13, been-12)
+rcmod(dishes-9, hijacked-13)
+prep(hijacked-13, by-14)
+amod(countries-16, other-15)
+pobj(by-14, countries-16)
+
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NN response))
+    (VP (VBZ has)
+      (VP (VBN been)
+        (VP (VBN published)
+          (PP (IN on)
+            (NP (PRP$ their) (NN blog))))))
+    (: :)))
+
+
+poss(response-2, My-1)
+nsubjpass(published-5, response-2)
+aux(published-5, has-3)
+auxpass(published-5, been-4)
+root(ROOT-0, published-5)
+prep(published-5, on-6)
+poss(blog-8, their-7)
+pobj(on-6, blog-8)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB Link))
+    (ADVP (RB here))))
+
+
+root(ROOT-0, Link-1)
+dep(Link-1, here-2)
+
+

@@ -1,0 +1,425 @@
+(ROOT
+  (SBAR
+    (WHADVP (WRB When))
+    (S
+      (NP (DT the) (NN journalist))
+      (VP (VBD asked)
+        (S
+          (NP (PRP me))
+          (VP (TO to)
+            (VP (VB predict)
+              (NP (DT the) (NN food) (NN trend))
+              (PP (IN for)
+                (NP (CD 2008)))))))
+      (, ,))))
+
+
+advmod(asked-4, When-1)
+det(journalist-3, the-2)
+nsubj(asked-4, journalist-3)
+root(ROOT-0, asked-4)
+nsubj(predict-7, me-5)
+aux(predict-7, to-6)
+xcomp(asked-4, predict-7)
+det(trend-10, the-8)
+nn(trend-10, food-9)
+dobj(predict-7, trend-10)
+prep(predict-7, for-11)
+pobj(for-11, 2008-12)
+
+
+(ROOT
+  (S
+    (NP (PRP$ my) (JJ first) (NN reaction))
+    (VP (VBD was) (`` ``)
+      (ADJP (JJ Huh)))
+    (. ?)))
+
+
+poss(reaction-3, my-1)
+amod(reaction-3, first-2)
+nsubj(Huh-6, reaction-3)
+cop(Huh-6, was-4)
+root(ROOT-0, Huh-6)
+
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB How))
+    (SQ (VBP am)
+      (NP (PRP I))
+      (VP (VBN supposed)
+        (S
+          (VP (TO to)
+            (VP (VB know))))))
+    (. ?)))
+
+
+advmod(supposed-4, How-1)
+auxpass(supposed-4, am-2)
+nsubjpass(supposed-4, I-3)
+root(ROOT-0, supposed-4)
+aux(know-6, to-5)
+xcomp(supposed-4, know-6)
+
+
+(ROOT
+  (NP (FW '') (. .)))
+
+
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ 's)
+      (ADJP (JJ funny))
+      (SBAR
+        (WHADVP (WRB how))
+        (S
+          (NP (RB so) (JJ many) (NNS people))
+          (VP (VBP make)
+            (S
+              (NP (PRP me))
+              (ADVP (RB out))
+              (VP (TO to)
+                (VP (VB be)
+                  (NP
+                    (NP (DT an) (`` ``) (NN Expert) ('' ''))
+                    (SBAR
+                      (WHADVP (WRB when))
+                      (S
+                        (NP
+                          (NP (DT all))
+                          (SBAR
+                            (S
+                              (NP (PRP I))
+                              (ADVP (RB really))
+                              (VP (VBP do)))))
+                        (VP (VBZ is)
+                          (ADJP (VB go)
+                            (PP (IN around)
+                              (S
+                                (VP (VBG tasting)
+                                  (CC and)
+                                  (VBG taking)
+                                  (NP
+                                    (NP (NNS pictures))
+                                    (PP (IN of)
+                                      (NP (PDT all) (DT the) (NN food))))
+                                  (SBAR (IN that)
+                                    (S
+                                      (NP (PRP I))
+                                      (VP (VBP have)
+                                        (VP (VBN eaten)
+                                          (PP (IN on)
+                                            (NP
+                                              (NP (JJ other) (NNS people) (POS 's))
+                                              (NNS recommendations))))))))))))))))))))))
+    (. .)))
+
+
+nsubj(funny-3, It-1)
+cop(funny-3, 's-2)
+root(ROOT-0, funny-3)
+advmod(make-8, how-4)
+advmod(people-7, so-5)
+amod(people-7, many-6)
+nsubj(make-8, people-7)
+ccomp(funny-3, make-8)
+nsubj(Expert-15, me-9)
+advmod(Expert-15, out-10)
+aux(Expert-15, to-11)
+cop(Expert-15, be-12)
+det(Expert-15, an-13)
+xcomp(make-8, Expert-15)
+advmod(go-23, when-17)
+nsubj(go-23, all-18)
+nsubj(do-21, I-19)
+advmod(do-21, really-20)
+rcmod(all-18, do-21)
+cop(go-23, is-22)
+rcmod(Expert-15, go-23)
+prep(go-23, around-24)
+pcomp(around-24, tasting-25)
+cc(tasting-25, and-26)
+conj(tasting-25, taking-27)
+dobj(tasting-25, pictures-28)
+prep(pictures-28, of-29)
+predet(food-32, all-30)
+det(food-32, the-31)
+pobj(of-29, food-32)
+mark(eaten-36, that-33)
+nsubj(eaten-36, I-34)
+aux(eaten-36, have-35)
+ccomp(tasting-25, eaten-36)
+prep(eaten-36, on-37)
+amod(people-39, other-38)
+poss(recommendations-41, people-39)
+possessive(people-39, 's-40)
+pobj(on-37, recommendations-41)
+
+
+(ROOT
+  (S
+    (NP (NNP Quite))
+    (VP (VBZ frankly))
+    (, ,)))
+
+
+nsubj(frankly-2, Quite-1)
+root(ROOT-0, frankly-2)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBP do) (RB n't)
+        (ADVP (RB really))
+        (VP (VB feel)
+          (SBAR (IN that)
+            (S
+              (NP (PRP I))
+              (VP (VBP am)
+                (ADJP (VBN qualified)
+                  (S
+                    (VP (TO to)
+                      (VP (VB be)
+                        (VP (VBN called)
+                          (NP (DT an) (NN expert)))))))))))))
+    (CC and)
+    (S
+      (NP (PRP it))
+      (VP (VBZ is)
+        (ADJP (RB quite) (JJ amazing))
+        (SBAR (IN that)
+          (S
+            (NP (PRP I))
+            (VP (VBD got)
+              (VP (VBN quoted)
+                (PP (IN alongside)
+                  (NP (DT some) (JJ real) (NNP Foodie) (NNP Celebrities)))))))))
+    (. .)))
+
+
+nsubj(feel-5, I-1)
+aux(feel-5, do-2)
+neg(feel-5, n't-3)
+advmod(feel-5, really-4)
+root(ROOT-0, feel-5)
+mark(qualified-9, that-6)
+nsubjpass(qualified-9, I-7)
+auxpass(qualified-9, am-8)
+ccomp(feel-5, qualified-9)
+aux(called-12, to-10)
+auxpass(called-12, be-11)
+xcomp(qualified-9, called-12)
+det(expert-14, an-13)
+dobj(called-12, expert-14)
+cc(feel-5, and-15)
+nsubj(amazing-19, it-16)
+cop(amazing-19, is-17)
+advmod(amazing-19, quite-18)
+conj(feel-5, amazing-19)
+mark(quoted-23, that-20)
+nsubjpass(quoted-23, I-21)
+auxpass(quoted-23, got-22)
+ccomp(amazing-19, quoted-23)
+prep(quoted-23, alongside-24)
+det(Celebrities-28, some-25)
+amod(Celebrities-28, real-26)
+nn(Celebrities-28, Foodie-27)
+pobj(alongside-24, Celebrities-28)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (SBAR (IN that)
+        (S
+          (SBAR
+            (WHNP (WP what))
+            (S
+              (NP (PRP I))
+              (VP (VBP do))))
+          (VP (VBP have)))))
+    (, ,)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+mark(have-7, that-3)
+dobj(do-6, what-4)
+nsubj(do-6, I-5)
+csubj(have-7, do-6)
+ccomp(think-2, have-7)
+
+
+(ROOT
+  (SINV
+    (VP (VBZ is))
+    (NP
+      (NP (DT a) (JJ tastebud) (NN threshold))
+      (VP (VBG tingling)
+        (NP (NN level)))
+      (SBAR
+        (WHNP (WDT that))
+        (S
+          (VP (VBZ resonates)
+            (PP (IN with)
+              (NP (DT the) (JJ average) (NN Singaporean)))))
+        (, ,)))))
+
+
+root(ROOT-0, is-1)
+det(threshold-4, a-2)
+amod(threshold-4, tastebud-3)
+nsubj(is-1, threshold-4)
+partmod(threshold-4, tingling-5)
+dobj(tingling-5, level-6)
+nsubj(resonates-8, that-7)
+rcmod(threshold-4, resonates-8)
+prep(resonates-8, with-9)
+det(Singaporean-12, the-10)
+amod(Singaporean-12, average-11)
+pobj(with-9, Singaporean-12)
+
+
+(ROOT
+  (S
+    (VP (VB ie)
+      (NP (PRP I))
+      (ADVP (RB just))
+      (PP (IN like)
+        (SBAR
+          (WHNP (WP what))
+          (S
+            (NP
+              (NP (DT the) (NN majority))
+              (PP (IN of)
+                (NP (NNP Singaporeans))))
+            (VP (VBP like))))))
+    (. .)))
+
+
+root(ROOT-0, ie-1)
+dobj(ie-1, I-2)
+advmod(ie-1, just-3)
+prep(ie-1, like-4)
+dobj(like-10, what-5)
+det(majority-7, the-6)
+nsubj(like-10, majority-7)
+prep(majority-7, of-8)
+pobj(of-8, Singaporeans-9)
+pcomp(like-4, like-10)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Anyway))
+    (, ,)))
+
+
+root(ROOT-0, Anyway-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB just))
+    (VP (VBD came)
+      (PRT (RP up))
+      (SBAR (IN with)
+        (S
+          (NP (DT some) (NNS ideas))
+          (VP (VBD were)
+            (PP (IN on)
+              (NP
+                (NP (NN top))
+                (PP (IN of)
+                  (NP (PRP$ my) (NN mind)))))))))
+    (. .)))
+
+
+nsubj(came-3, I-1)
+advmod(came-3, just-2)
+root(ROOT-0, came-3)
+prt(came-3, up-4)
+mark(were-8, with-5)
+det(ideas-7, some-6)
+nsubj(were-8, ideas-7)
+advcl(came-3, were-8)
+prep(were-8, on-9)
+pobj(on-9, top-10)
+prep(top-10, of-11)
+poss(mind-13, my-12)
+pobj(of-11, mind-13)
+
+
+(ROOT
+  (SBARQ (RB So)
+    (WHNP (WP what))
+    (SQ (VBP do)
+      (NP (PRP YOU))
+      (ADVP (DT all))
+      (VP (VB think)
+        (SBAR
+          (S
+            (VP (MD will)
+              (VP (VB take)
+                (NP (NNP Singapore))
+                (PP (IN by)
+                  (NP
+                    (NP (NN storm))
+                    (PP (IN in)
+                      (NP (CD 2008)))))))))))
+    (. ?)))
+
+
+advmod(think-6, So-1)
+dobj(think-6, what-2)
+aux(think-6, do-3)
+nsubj(think-6, YOU-4)
+advmod(think-6, all-5)
+root(ROOT-0, think-6)
+aux(take-8, will-7)
+ccomp(think-6, take-8)
+dobj(take-8, Singapore-9)
+prep(take-8, by-10)
+pobj(by-10, storm-11)
+prep(storm-11, in-12)
+pobj(in-12, 2008-13)
+
+
+(ROOT
+  (NP
+    (NP
+      (NP (NN Link))
+      (PP (TO to)
+        (NP (NNP TodayOnline) (NN article) (NNP Click))))
+    (NP
+      (NP (DT this) (NN image))
+      (PP (IN for)
+        (NP
+          (NP (JJ enlarged) (NN version))
+          (PP (IN of)
+            (NP (DT the) (NN quote))))))))
+
+
+root(ROOT-0, Link-1)
+prep(Link-1, to-2)
+nn(Click-5, TodayOnline-3)
+nn(Click-5, article-4)
+pobj(to-2, Click-5)
+det(image-7, this-6)
+dep(Link-1, image-7)
+prep(image-7, for-8)
+amod(version-10, enlarged-9)
+pobj(for-8, version-10)
+prep(version-10, of-11)
+det(quote-13, the-12)
+pobj(of-11, quote-13)
+
+

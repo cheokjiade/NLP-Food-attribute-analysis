@@ -1,0 +1,761 @@
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBD ran)
+      (NP (DT a) (NN competition))
+      (PP (IN for)
+        (NP
+          (NP (DT the) (NNP Gourmet) (NNP Culinary) (NNP Cooking) (NNP Class) (JJ last) (NN month))
+          (CC and)
+          (NP (PRP$ our) (NN winner)))))
+    (, ,)))
+
+
+nsubj(ran-2, We-1)
+root(ROOT-0, ran-2)
+det(competition-4, a-3)
+dobj(ran-2, competition-4)
+prep(ran-2, for-5)
+det(month-12, the-6)
+nn(month-12, Gourmet-7)
+nn(month-12, Culinary-8)
+nn(month-12, Cooking-9)
+nn(month-12, Class-10)
+amod(month-12, last-11)
+pobj(for-5, month-12)
+cc(month-12, and-13)
+poss(winner-15, our-14)
+conj(month-12, winner-15)
+
+
+(ROOT
+  (S
+    (NP (NNP Angeline) (NNP Sim))
+    (ADVP (RB now))
+    (VP (VBZ reports)
+      (PP (IN on)
+        (NP (PRP$ her) (NN experience)))
+      (ADVP (RB there)))
+    (. .)))
+
+
+nn(Sim-2, Angeline-1)
+nsubj(reports-4, Sim-2)
+advmod(reports-4, now-3)
+root(ROOT-0, reports-4)
+prep(reports-4, on-5)
+poss(experience-7, her-6)
+pobj(on-5, experience-7)
+advmod(reports-4, there-8)
+
+
+(ROOT
+  (ADJP (JJ Thanks)
+    (PP (TO to)
+      (NP (NNP Gourmet) (NNP Kitchen)))
+    (PP (IN for)
+      (S
+        (VP (VBG sponsoring)
+          (NP (DT the) (JJ cooking) (NN class)))))
+    (. !)))
+
+
+root(ROOT-0, Thanks-1)
+prep(Thanks-1, to-2)
+nn(Kitchen-4, Gourmet-3)
+pobj(to-2, Kitchen-4)
+prep(Thanks-1, for-5)
+pcomp(for-5, sponsoring-6)
+det(class-9, the-7)
+amod(class-9, cooking-8)
+dobj(sponsoring-6, class-9)
+
+
+(ROOT
+  (S
+    (NP (JJ Mention) (NN gourmet) (NN cooking)
+      (CC and)
+      (NN you))
+    (VP (MD 'll)
+      (VP (VB picture)
+        (NP (JJ haute) (NN cuisine))
+        (PP (IN at)
+          (NP
+            (ADJP (RB often) (JJ inflated))
+            (NNS prices)))))
+    (, ,)))
+
+
+amod(cooking-3, Mention-1)
+nn(cooking-3, gourmet-2)
+nsubj(picture-7, cooking-3)
+cc(cooking-3, and-4)
+conj(cooking-3, you-5)
+aux(picture-7, 'll-6)
+root(ROOT-0, picture-7)
+amod(cuisine-9, haute-8)
+dobj(picture-7, cuisine-9)
+prep(picture-7, at-10)
+advmod(inflated-12, often-11)
+amod(prices-13, inflated-12)
+pobj(at-10, prices-13)
+
+
+(ROOT
+  (S
+    (VP (VBG being)
+      (VP (VBD challenged)
+        (PP (IN with)
+          (NP (DT a) (NN menu)))
+        (S
+          (VP (VBG containing)
+            (NP (JJ fanciful-sounding) (NNS dish-names))))
+        (, ,)))))
+
+
+auxpass(challenged-2, being-1)
+root(ROOT-0, challenged-2)
+prep(challenged-2, with-3)
+det(menu-5, a-4)
+pobj(with-3, menu-5)
+xcomp(challenged-2, containing-6)
+amod(dish-names-8, fanciful-sounding-7)
+dobj(containing-6, dish-names-8)
+
+
+(ROOT
+  (FRAG
+    (PP (IN in)
+      (NP (DT a) (JJ posh) (NN swanky) (NN setting)))
+    (. .)))
+
+
+root(ROOT-0, in-1)
+det(setting-5, a-2)
+amod(setting-5, posh-3)
+nn(setting-5, swanky-4)
+pobj(in-1, setting-5)
+
+
+(ROOT
+  (PP (IN At)
+    (NP
+      (NP (NNP Gourmet) (NNP Kitchen) (POS 's))
+      (`` `)
+      (NX
+        (NP (NNP Introduction))
+        (PP (TO to)
+          (NP (NNP Western) (NNP Cuisine))))
+      ('' '))))
+
+
+root(ROOT-0, At-1)
+nn(Kitchen-3, Gourmet-2)
+poss(Introduction-6, Kitchen-3)
+possessive(Kitchen-3, 's-4)
+pobj(At-1, Introduction-6)
+prep(Introduction-6, to-7)
+nn(Cuisine-9, Western-8)
+pobj(to-7, Cuisine-9)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Class))
+    (, ,)))
+
+
+root(ROOT-0, Class-1)
+
+
+(ROOT
+  (S
+    (NP (NN resident) (NN Chef) (NNP Robert) (NNP Kyle) (NNP Newton))
+    (VP (VBZ aims)
+      (S
+        (VP (TO to)
+          (VP (VB debunk)
+            (NP
+              (NP (DT the) (NNS myths))
+              (VP (VBG surrounding)
+                (NP (NN gourmet) (NN cooking))
+                (PP (IN by)
+                  (S
+                    (VP (VBG deconstructing)
+                      (NP (DT the) (NNS basics))
+                      (PP (IN for)
+                        (S
+                          (VP (VBG whipping)
+                            (PRT (RP up))
+                            (NP (DT a)
+                              (ADJP
+                                (ADJP (JJ delicious))
+                                (CC yet)
+                                (ADJP (JJ simple)
+                                  (CC and)
+                                  (JJ cost-efficient)))
+                              (NN gourmet) (NN meal))))))))))))))
+    (. .)))
+
+
+nn(Newton-5, resident-1)
+nn(Newton-5, Chef-2)
+nn(Newton-5, Robert-3)
+nn(Newton-5, Kyle-4)
+nsubj(aims-6, Newton-5)
+root(ROOT-0, aims-6)
+aux(debunk-8, to-7)
+xcomp(aims-6, debunk-8)
+det(myths-10, the-9)
+dobj(debunk-8, myths-10)
+partmod(myths-10, surrounding-11)
+nn(cooking-13, gourmet-12)
+dobj(surrounding-11, cooking-13)
+prep(surrounding-11, by-14)
+pcomp(by-14, deconstructing-15)
+det(basics-17, the-16)
+dobj(deconstructing-15, basics-17)
+prep(deconstructing-15, for-18)
+pcomp(for-18, whipping-19)
+prt(whipping-19, up-20)
+det(meal-28, a-21)
+amod(meal-28, delicious-22)
+cc(delicious-22, yet-23)
+conj(delicious-22, simple-24)
+cc(simple-24, and-25)
+conj(simple-24, cost-efficient-26)
+nn(meal-28, gourmet-27)
+dobj(whipping-19, meal-28)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Throughout)
+      (NP (DT the) (CD 1.5) (NN day) (NN course)))
+    (, ,)))
+
+
+root(ROOT-0, Throughout-1)
+det(course-5, the-2)
+num(course-5, 1.5-3)
+nn(course-5, day-4)
+pobj(Throughout-1, course-5)
+
+
+(ROOT
+  (S
+    (NP (NNP Chef) (NNP Robert))
+    (VP (VBZ takes)
+      (NP (NN pride))
+      (PP (IN in)
+        (S
+          (VP (VBG drilling)
+            (NP (NN home))
+            (NP
+              (NP (DT the) (NN message))
+              (SBAR (IN that)
+                (S
+                  (NP (DT any) (JJ amateur) (NN chef-wannabe))
+                  (VP (MD can)
+                    (VP (VB achieve)
+                      (NP
+                        (NP (NN gourmet) (NN cooking) (NN right))
+                        (PP (IN in)
+                          (NP
+                            (NP (DT the) (NNS comforts))
+                            (PP (IN of)
+                              (NP (PRP$ our) (JJ own) (NN home)))))))))))))))
+    (. !)))
+
+
+nn(Robert-2, Chef-1)
+nsubj(takes-3, Robert-2)
+root(ROOT-0, takes-3)
+dobj(takes-3, pride-4)
+prep(takes-3, in-5)
+pcomp(in-5, drilling-6)
+iobj(drilling-6, home-7)
+det(message-9, the-8)
+dobj(drilling-6, message-9)
+mark(achieve-15, that-10)
+det(chef-wannabe-13, any-11)
+amod(chef-wannabe-13, amateur-12)
+nsubj(achieve-15, chef-wannabe-13)
+aux(achieve-15, can-14)
+dep(message-9, achieve-15)
+nn(right-18, gourmet-16)
+nn(right-18, cooking-17)
+dobj(achieve-15, right-18)
+prep(right-18, in-19)
+det(comforts-21, the-20)
+pobj(in-19, comforts-21)
+prep(comforts-21, of-22)
+poss(home-25, our-23)
+amod(home-25, own-24)
+pobj(of-22, home-25)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBD learned)
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (DT the) (NN foundation))
+            (PP (IN of)
+              (NP (DT all) (NN gourmet) (NN food))))
+          (VP (VBZ lies)
+            (PP (IN in)
+              (NP
+                (NP (CD 3) (JJ essential) (NNS factors))
+                (: --)
+                (NP (NNP Presentation))
+                (, ,)))))))))
+
+
+nsubj(learned-2, We-1)
+root(ROOT-0, learned-2)
+mark(lies-10, that-3)
+det(foundation-5, the-4)
+nsubj(lies-10, foundation-5)
+prep(foundation-5, of-6)
+det(food-9, all-7)
+nn(food-9, gourmet-8)
+pobj(of-6, food-9)
+ccomp(learned-2, lies-10)
+prep(lies-10, in-11)
+num(factors-14, 3-12)
+amod(factors-14, essential-13)
+pobj(in-11, factors-14)
+dep(factors-14, Presentation-16)
+
+
+(ROOT
+  (S
+    (VP (VB Texture)
+      (CC and)
+      (VB Flavour))
+    (. .)))
+
+
+root(ROOT-0, Texture-1)
+cc(Texture-1, and-2)
+conj(Texture-1, Flavour-3)
+
+
+(ROOT
+  (FRAG
+    (NP (DT That))
+    (SBAR (IN once)
+      (S
+        (NP (PRP$ your) (NN presentation))
+        (VP (VBZ is)
+          (ADJP (JJ appealing)))
+        (, ,)))))
+
+
+root(ROOT-0, That-1)
+mark(appealing-6, once-2)
+poss(presentation-4, your-3)
+nsubj(appealing-6, presentation-4)
+cop(appealing-6, is-5)
+dep(That-1, appealing-6)
+
+
+(ROOT
+  (S
+    (NP (PRP$ your))
+    (VP
+      (VP (VBP produce)
+        (ADJP (JJ fresh)))
+      (CC and)
+      (VP
+        (PP (IN of)
+          (NP
+            (NP (DT the) (JJS best) (NN quality))
+            (PRN (-LRB- -LRB-)
+              (NP
+                (NP (NNP e.g.) (NNP Roma) (NNP tomatoes))
+                (CC versus)
+                (NP (JJ Local) (NNS tomatoes)))
+              (-RRB- -RRB-))))))
+    (, ,)))
+
+
+nsubj(produce-2, your-1)
+root(ROOT-0, produce-2)
+acomp(produce-2, fresh-3)
+cc(produce-2, and-4)
+conj(produce-2, of-5)
+det(quality-8, the-6)
+amod(quality-8, best-7)
+pobj(of-5, quality-8)
+nn(tomatoes-12, e.g.-10)
+nn(tomatoes-12, Roma-11)
+dep(quality-8, tomatoes-12)
+cc(tomatoes-12, versus-13)
+amod(tomatoes-15, Local-14)
+conj(tomatoes-12, tomatoes-15)
+
+
+(ROOT
+  (S
+    (NP (PRP$ your) (NN dish))
+    (VP (VBZ contains)
+      (NP
+        (NP (NN contrast))
+        (PP (IN in)
+          (NP (NN taste)))))
+    (, ,)))
+
+
+poss(dish-2, your-1)
+nsubj(contains-3, dish-2)
+root(ROOT-0, contains-3)
+dobj(contains-3, contrast-4)
+prep(contrast-4, in-5)
+pobj(in-5, taste-6)
+
+
+(ROOT
+  (FRAG
+    (S
+      (ADJP
+        (ADJP (JJ flavor))
+        (CC and)
+        (ADJP (JJ texture))
+        (, ,)))))
+
+
+root(ROOT-0, flavor-1)
+cc(flavor-1, and-2)
+conj(flavor-1, texture-3)
+
+
+(ROOT
+  (S
+    (ADVP (RB then))
+    (NP (PRP you))
+    (VP
+      (ADVP (RB probably))
+      (VBP have)
+      (SBAR
+        (WHNP (WP what))
+        (S
+          (NP (PRP it))
+          (VP (VBZ takes)
+            (S
+              (VP (TO to)
+                (VP (VB cook)
+                  (PP (IN like)
+                    (NP (DT a) (JJ bona-fide) (NN gourmet) (NN chef))))))))))
+    (. .)))
+
+
+advmod(have-4, then-1)
+nsubj(have-4, you-2)
+advmod(have-4, probably-3)
+root(ROOT-0, have-4)
+dobj(takes-7, what-5)
+nsubj(takes-7, it-6)
+ccomp(have-4, takes-7)
+aux(cook-9, to-8)
+xcomp(takes-7, cook-9)
+prep(cook-9, like-10)
+det(chef-14, a-11)
+amod(chef-14, bona-fide-12)
+nn(chef-14, gourmet-13)
+pobj(like-10, chef-14)
+
+
+(ROOT
+  (PP (VBN Given)
+    (NP
+      (NP (DT this) (NN boost))
+      (PP (IN of)
+        (NP (NN confidence)))
+      (, ,))))
+
+
+root(ROOT-0, Given-1)
+det(boost-3, this-2)
+dep(Given-1, boost-3)
+prep(boost-3, of-4)
+pobj(of-4, confidence-5)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (VP (VBD listened)
+      (ADVP (RB attentively))
+      (SBAR (IN as)
+        (S
+          (NP (NNP Chef) (NNP Robert))
+          (VP (VBD expounded)
+            (NP (JJ various) (JJ common) (NN culinary) (NNS terms))
+            (PRN (-LRB- -LRB-)
+              (ADVP (RB e.g.))
+              (ADJP (JJ Demi-Glace))
+              (, ,))))))))
+
+
+nsubj(listened-2, we-1)
+root(ROOT-0, listened-2)
+advmod(listened-2, attentively-3)
+mark(expounded-7, as-4)
+nn(Robert-6, Chef-5)
+nsubj(expounded-7, Robert-6)
+advcl(listened-2, expounded-7)
+amod(terms-11, various-8)
+amod(terms-11, common-9)
+nn(terms-11, culinary-10)
+dobj(expounded-7, terms-11)
+dep(Demi-Glace-14, e.g.-13)
+dep(expounded-7, Demi-Glace-14)
+
+
+(ROOT
+  (NP (NNP Confit) (NNP ,)))
+
+
+nn(,-2, Confit-1)
+
+
+(ROOT
+  (NP (NNP Julienne) (NNP ,)))
+
+
+nn(,-2, Julienne-1)
+
+
+(ROOT
+  (S
+    (NP (NNP Mesclun))
+    (VP (VBZ etc))
+    (-RRB- -RRB-) (. .)))
+
+
+nsubj(etc-2, Mesclun-1)
+root(ROOT-0, etc-2)
+
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (ADVP (RB also))
+    (VP (VBD demonstrated)
+      (NP (DT some) (NNS ways))
+      (S
+        (VP (TO to)
+          (VP (VB prepare)
+            (NP
+              (NP (JJ basic) (NNS stocks)
+                (CC and)
+                (NNS sauces))
+              (SBAR
+                (WHNP (WDT which))
+                (S
+                  (VP (VBP form)
+                    (S
+                      (NP
+                        (NP (DT the) (NN basis))
+                        (PP (IN of)
+                          (NP (DT all) (NNS things))))
+                      (ADJP (JJ tasty)))))))))))
+    (. .)))
+
+
+nsubj(demonstrated-3, He-1)
+advmod(demonstrated-3, also-2)
+root(ROOT-0, demonstrated-3)
+det(ways-5, some-4)
+dobj(demonstrated-3, ways-5)
+aux(prepare-7, to-6)
+xcomp(demonstrated-3, prepare-7)
+amod(stocks-9, basic-8)
+dobj(prepare-7, stocks-9)
+cc(stocks-9, and-10)
+conj(stocks-9, sauces-11)
+nsubj(form-13, which-12)
+rcmod(stocks-9, form-13)
+det(basis-15, the-14)
+nsubj(tasty-19, basis-15)
+prep(basis-15, of-16)
+det(things-18, all-17)
+pobj(of-16, things-18)
+xcomp(form-13, tasty-19)
+
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (ADVP (RB sure))
+    (VP (VBD made)
+      (SBAR
+        (S
+          (NP (NN gourmet) (NN cooking))
+          (VP (VBP look)
+            (ADJP (JJ effortless))))))
+    (. !)))
+
+
+nsubj(made-3, He-1)
+advmod(made-3, sure-2)
+root(ROOT-0, made-3)
+nn(cooking-5, gourmet-4)
+nsubj(look-6, cooking-5)
+ccomp(made-3, look-6)
+acomp(look-6, effortless-7)
+
+
+(ROOT
+  (FRAG
+    (PP (IN At)
+      (NP
+        (NP (DT the) (NN end))
+        (PP (IN of)
+          (NP (DT the) (JJ 2nd) (NN day)))))
+    (, ,)))
+
+
+root(ROOT-0, At-1)
+det(end-3, the-2)
+pobj(At-1, end-3)
+prep(end-3, of-4)
+det(day-7, the-5)
+amod(day-7, 2nd-6)
+pobj(of-4, day-7)
+
+
+(ROOT
+  (S
+    (NP (DT all) (NNS participants))
+    (VP (VBD were)
+      (VP (VBN given)
+        (NP (DT a) (NN chance)
+          (S
+            (VP (TO to)
+              (VP (VB showcase)
+                (NP (PRP$ our) (JJ newly-acquired) (NN culinary) (NN expertise))))))))
+    (. .)))
+
+
+det(participants-2, all-1)
+nsubjpass(given-4, participants-2)
+auxpass(given-4, were-3)
+root(ROOT-0, given-4)
+det(chance-6, a-5)
+dobj(given-4, chance-6)
+aux(showcase-8, to-7)
+infmod(chance-6, showcase-8)
+poss(expertise-12, our-9)
+amod(expertise-12, newly-acquired-10)
+nn(expertise-12, culinary-11)
+dobj(showcase-8, expertise-12)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBD had)
+      (S
+        (VP (TO to)
+          (VP
+            (VP (VB conceptualize))
+            (CC and)
+            (VP (VB whip)
+              (PRT (RP up))
+              (NP
+                (NP (DT a) (NN dish))
+                (PRN (-LRB- -LRB-)
+                  (PP (IN in)
+                    (NP (NNS pairs)))
+                  (-RRB- -RRB-)))
+              (PP (IN with)
+                (NP
+                  (NP (DT the) (NNS ingredients))
+                  (VP (VBN provided)
+                    (PP (IN within)
+                      (NP
+                        (NP (DT a) (NN time) (NN limit))
+                        (PP (IN of)
+                          (NP (CD 2) (NNS hours)))))))))))))
+    (. .)))
+
+
+nsubj(had-2, We-1)
+root(ROOT-0, had-2)
+aux(conceptualize-4, to-3)
+xcomp(had-2, conceptualize-4)
+cc(conceptualize-4, and-5)
+conj(conceptualize-4, whip-6)
+prt(whip-6, up-7)
+det(dish-9, a-8)
+dobj(whip-6, dish-9)
+prep(dish-9, in-11)
+pobj(in-11, pairs-12)
+prep(whip-6, with-14)
+det(ingredients-16, the-15)
+pobj(with-14, ingredients-16)
+partmod(ingredients-16, provided-17)
+prep(provided-17, within-18)
+det(limit-21, a-19)
+nn(limit-21, time-20)
+pobj(within-18, limit-21)
+prep(limit-21, of-22)
+num(hours-24, 2-23)
+pobj(of-22, hours-24)
+
+
+(ROOT
+  (S
+    (S
+      (VP (VB Take)
+        (NP (DT a) (NN look))
+        (PP (IN at)
+          (NP (DT these) (NNS pictures)))))
+    (CC and)
+    (S
+      (NP (PRP you))
+      (VP (MD 'll)
+        (VP (VB see)
+          (SBAR
+            (WHNP (WP what) (DT a) (NN success))
+            (S
+              (NP (DT this) (NN course))
+              (VP (VBD was)))))))
+    (. !)))
+
+
+root(ROOT-0, Take-1)
+det(look-3, a-2)
+dobj(Take-1, look-3)
+prep(Take-1, at-4)
+det(pictures-6, these-5)
+pobj(at-4, pictures-6)
+cc(Take-1, and-7)
+nsubj(see-10, you-8)
+aux(see-10, 'll-9)
+conj(Take-1, see-10)
+det(success-13, what-11)
+det(success-13, a-12)
+dobj(was-16, success-13)
+det(course-15, this-14)
+nsubj(was-16, course-15)
+ccomp(see-10, was-16)
+
+
+(ROOT
+  (VP (VBN Reviewed)
+    (PP (IN by)
+      (NP (NNP Angeline) (NNP Sim)))))
+
+
+root(ROOT-0, Reviewed-1)
+prep(Reviewed-1, by-2)
+nn(Sim-4, Angeline-3)
+pobj(by-2, Sim-4)
+
+

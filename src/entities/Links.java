@@ -16,4 +16,11 @@ public class Links {
 		this.subject = subject;
 		this.object = object;
 	}
+	public void addDomain(String domain){
+		if(domainCount.containsKey(domain)){
+			domainCount.put(domain, domainCount.get(domain).intValue()+1);
+		}else{
+			domainCount.put(domain, 1);
+		}
+	}
 }

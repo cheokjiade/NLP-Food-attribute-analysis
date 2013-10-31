@@ -1,0 +1,369 @@
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNS Results))
+      (PP (IN of)
+        (NP (DT the) (NN Meat) (NNS polls))))
+    (VP (VBP are)
+      (PP (IN in)))
+    (. !)))
+
+
+det(Results-2, The-1)
+nsubj(are-7, Results-2)
+prep(Results-2, of-3)
+det(polls-6, the-4)
+nn(polls-6, Meat-5)
+pobj(of-3, polls-6)
+root(ROOT-0, are-7)
+prep(are-7, in-8)
+
+
+(ROOT
+  (NP
+    (NP (NNS Thanks))
+    (PP (TO to)
+      (NP
+        (NP (DT all) (NNS voters))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBN polled))))))
+    (. .)))
+
+
+root(ROOT-0, Thanks-1)
+prep(Thanks-1, to-2)
+det(voters-4, all-3)
+pobj(to-2, voters-4)
+nsubj(polled-6, who-5)
+rcmod(voters-4, polled-6)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ seems)
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (DT the) (NNS readers))
+            (PP (IN of)
+              (NP (DT this) (NN blog))))
+          (VP (VBP are)
+            (VP (VBN kindred)
+              (NP
+                (NP (NNS spirits))
+                (PP (IN with)
+                  (NP (PRP myself)))
+                (SBAR
+                  (WHNP (WP$ whose) (JJ favorite) (NNS meat))
+                  (S
+                    (VP (VBZ is)
+                      (VP (VBG Beef)
+                        (NP (CD 29) (NN %))))))))))))))
+
+
+nsubj(seems-2, It-1)
+root(ROOT-0, seems-2)
+mark(kindred-10, that-3)
+det(readers-5, the-4)
+nsubjpass(kindred-10, readers-5)
+prep(readers-5, of-6)
+det(blog-8, this-7)
+pobj(of-6, blog-8)
+auxpass(kindred-10, are-9)
+ccomp(seems-2, kindred-10)
+dobj(kindred-10, spirits-11)
+prep(spirits-11, with-12)
+pobj(with-12, myself-13)
+poss(meat-16, whose-14)
+amod(meat-16, favorite-15)
+nsubj(Beef-18, meat-16)
+aux(Beef-18, is-17)
+rcmod(spirits-11, Beef-18)
+num(%-20, 29-19)
+dobj(Beef-18, %-20)
+
+
+(ROOT
+  (INTJ (UH .)))
+
+
+
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Chicken)
+        (CC and)
+        (NNP Fish))
+      (VP (VBD were)
+        (ADJP (RB quite) (JJ close))))
+    (CC but)
+    (S
+      (NP (NNP Chicken) (NNS people))
+      (VP (VBD managed)
+        (S
+          (VP (TO to)
+            (VP (VB hang)
+              (PRT (RP on))
+              (PP (TO to)
+                (NP (DT the) (NN lead)))
+              (SBAR (IN though)
+                (S
+                  (NP
+                    (NP (DT the) (NN Fish) (NNS Lovers))
+                    (PP (IN at)
+                      (NP (CD one) (NN stage))))
+                  (VP (VBD looked)
+                    (SBAR (RB as) (IN if)
+                      (S
+                        (NP (PRP they))
+                        (VP (MD might)
+                          (VP (VB catch)
+                            (PRT (RP up))
+                            (PP (IN with)
+                              (NP (DT the) (NNP Chicken) (NNS people)))))))))))))))
+    (. .)))
+
+
+nsubj(close-6, Chicken-1)
+cc(Chicken-1, and-2)
+conj(Chicken-1, Fish-3)
+cop(close-6, were-4)
+advmod(close-6, quite-5)
+root(ROOT-0, close-6)
+cc(close-6, but-7)
+nn(people-9, Chicken-8)
+nsubj(managed-10, people-9)
+conj(close-6, managed-10)
+aux(hang-12, to-11)
+xcomp(managed-10, hang-12)
+prt(hang-12, on-13)
+prep(hang-12, to-14)
+det(lead-16, the-15)
+pobj(to-14, lead-16)
+mark(looked-24, though-17)
+det(Lovers-20, the-18)
+nn(Lovers-20, Fish-19)
+nsubj(looked-24, Lovers-20)
+prep(Lovers-20, at-21)
+num(stage-23, one-22)
+pobj(at-21, stage-23)
+advcl(hang-12, looked-24)
+advmod(catch-29, as-25)
+mark(catch-29, if-26)
+nsubj(catch-29, they-27)
+aux(catch-29, might-28)
+advcl(looked-24, catch-29)
+prt(catch-29, up-30)
+prep(catch-29, with-31)
+det(people-34, the-32)
+nn(people-34, Chicken-33)
+pobj(with-31, people-34)
+
+
+(ROOT
+  (S
+    (NP (NNP Pork))
+    (VP (VBD was)
+      (PP (IN in)
+        (NP (JJ 4th) (NN position)))
+      (PP
+        (ADVP (RB presumably))
+        (IN because) (IN of)
+        (NP (DT some) (JJ dietary) (NNS restrictions)))
+      (PP (IN amongst)
+        (NP (PRP$ our) (JJ Muslim) (NNS readers))))
+    (. .)))
+
+
+nsubj(was-2, Pork-1)
+root(ROOT-0, was-2)
+prep(was-2, in-3)
+amod(position-5, 4th-4)
+pobj(in-3, position-5)
+advmod(of-8, presumably-6)
+mwe(of-8, because-7)
+prep(was-2, of-8)
+det(restrictions-11, some-9)
+amod(restrictions-11, dietary-10)
+pobj(of-8, restrictions-11)
+prep(was-2, amongst-12)
+poss(readers-15, our-13)
+amod(readers-15, Muslim-14)
+pobj(amongst-12, readers-15)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (VP (VBN amazed)
+        (SBAR (IN that)
+          (S
+            (NP (PRP we))
+            (VP (VBP have)
+              (NP
+                (NP
+                  (QP (RB around) (CD 57))
+                  (NNS vegetarians))
+                (PP (IN in)
+                  (NP (PRP$ our) (NN midst)))))))))
+    (. !)))
+
+
+nsubjpass(amazed-3, I-1)
+auxpass(amazed-3, am-2)
+root(ROOT-0, amazed-3)
+mark(have-6, that-4)
+nsubj(have-6, we-5)
+ccomp(amazed-3, have-6)
+quantmod(57-8, around-7)
+num(vegetarians-9, 57-8)
+dobj(have-6, vegetarians-9)
+prep(vegetarians-9, in-10)
+poss(midst-12, our-11)
+pobj(in-10, midst-12)
+
+
+(ROOT
+  (S
+    (PP (VBG Considering)
+      (NP (DT that)))
+    (NP (PRP I))
+    (ADVP (RB only))
+    (VP (VBP have)
+      (NP
+        (NP (RB so) (JJ few) (NNS posts))
+        (PP (IN on)
+          (NP (NN vegetarian) (NN food)))))
+    (, ,)))
+
+
+prep(have-5, Considering-1)
+pobj(Considering-1, that-2)
+nsubj(have-5, I-3)
+advmod(have-5, only-4)
+root(ROOT-0, have-5)
+advmod(posts-8, so-6)
+amod(posts-8, few-7)
+dobj(have-5, posts-8)
+prep(posts-8, on-9)
+nn(food-11, vegetarian-10)
+pobj(on-9, food-11)
+
+
+(ROOT
+  (S
+    (NP (DT that))
+    (VP (VBZ 's)
+      (NP (PDT quite) (DT a) (NN number)))
+    (. .)))
+
+
+nsubj(number-5, that-1)
+cop(number-5, 's-2)
+predet(number-5, quite-3)
+det(number-5, a-4)
+root(ROOT-0, number-5)
+
+
+(ROOT
+  (S
+    (ADVP (RB Perhaps))
+    (NP (PRP you))
+    (ADVP (DT all))
+    (VP (MD would)
+      (VP (VB like)
+        (S
+          (VP (TO to)
+            (VP (VB recommend)
+              (NP (PRP$ your) (JJ favorite) (NN vegetarian) (NN food) (NNS places))
+              (SBAR (RB so) (IN that)
+                (S
+                  (NP (PRP I))
+                  (VP (MD can)
+                    (VP (VB add)
+                      (NP (DT a) (JJ few) (JJR more))
+                      (PP (TO to)
+                        (NP (DT the) (NN blog))))))))))))
+    (. ?)))
+
+
+advmod(like-5, Perhaps-1)
+nsubj(like-5, you-2)
+advmod(like-5, all-3)
+aux(like-5, would-4)
+root(ROOT-0, like-5)
+aux(recommend-7, to-6)
+xcomp(like-5, recommend-7)
+poss(places-12, your-8)
+amod(places-12, favorite-9)
+nn(places-12, vegetarian-10)
+nn(places-12, food-11)
+dobj(recommend-7, places-12)
+advmod(add-17, so-13)
+mark(add-17, that-14)
+nsubj(add-17, I-15)
+aux(add-17, can-16)
+advcl(recommend-7, add-17)
+det(more-20, a-18)
+amod(more-20, few-19)
+dobj(add-17, more-20)
+prep(add-17, to-21)
+det(blog-23, the-22)
+pobj(to-21, blog-23)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB Once) (RB again))
+    (NP
+      (NP (NNS thanks))
+      (PP (IN for)
+        (S
+          (VP (VBG taking)
+            (NP (NN part))
+            (PP (IN in)
+              (NP (DT the) (NNS polls)))))))
+    (. .)))
+
+
+advmod(again-2, Once-1)
+dep(thanks-3, again-2)
+root(ROOT-0, thanks-3)
+prep(thanks-3, for-4)
+pcomp(for-4, taking-5)
+dobj(taking-5, part-6)
+prep(taking-5, in-7)
+det(polls-9, the-8)
+pobj(in-7, polls-9)
+
+
+(ROOT
+  (S
+    (NP (DT The) (JJ next) (NN one))
+    (VP (MD should)
+      (VP (VB be)
+        (VP (VBG coming)
+          (ADVP (RB up) (RB later))
+          (PP (IN in)
+            (NP (DT the) (NN week))))))
+    (. .)))
+
+
+det(one-3, The-1)
+amod(one-3, next-2)
+nsubj(coming-6, one-3)
+aux(coming-6, should-4)
+aux(coming-6, be-5)
+root(ROOT-0, coming-6)
+advmod(later-8, up-7)
+advmod(coming-6, later-8)
+prep(coming-6, in-9)
+det(week-11, the-10)
+pobj(in-9, week-11)
+
+

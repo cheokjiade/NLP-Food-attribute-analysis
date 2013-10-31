@@ -1,0 +1,187 @@
+(ROOT
+  (S
+    (NP
+      (NP (DT Those) (NN yearning))
+      (PP (IN for)
+        (NP
+          (NP (DT a) (JJ good) (NNP Char) (NNP Kway) (NNP Teow))
+          (PP (IN in)
+            (NP (DT the) (NNP Amoy) (NNP Street) (NNP Food) (NNP Centre))))))
+    (VP (MD can)
+      (VP (VB try)
+        (NP
+          (NP (DT this) (NN one))
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (VBZ is)
+                (VP (VBN recommended)
+                  (PP (IN by)
+                    (NP (JJ many) (NNS forummers)
+                      (CC and)
+                      (NN ieatishootipost) (NNS readers))))))))))
+    (. .)))
+
+
+det(yearning-2, Those-1)
+nsubj(try-16, yearning-2)
+prep(yearning-2, for-3)
+det(Teow-8, a-4)
+amod(Teow-8, good-5)
+nn(Teow-8, Char-6)
+nn(Teow-8, Kway-7)
+pobj(for-3, Teow-8)
+prep(Teow-8, in-9)
+det(Centre-14, the-10)
+nn(Centre-14, Amoy-11)
+nn(Centre-14, Street-12)
+nn(Centre-14, Food-13)
+pobj(in-9, Centre-14)
+aux(try-16, can-15)
+root(ROOT-0, try-16)
+det(one-18, this-17)
+dobj(try-16, one-18)
+nsubjpass(recommended-21, which-19)
+auxpass(recommended-21, is-20)
+rcmod(one-18, recommended-21)
+prep(recommended-21, by-22)
+amod(forummers-24, many-23)
+pobj(by-22, forummers-24)
+cc(forummers-24, and-25)
+nn(readers-27, ieatishootipost-26)
+conj(forummers-24, readers-27)
+
+
+(ROOT
+  (S
+    (NP (DT Some))
+    (VP (VBP have)
+      (ADVP (RB even))
+      (VP (VBN compared)
+        (NP (PRP it))
+        (PP (TO to)
+          (NP (DT the) (NNP Margaret) (NNP Drive) (NNP Char) (NNP Kway) (NNP Teow)))))
+    (. .)))
+
+
+nsubj(compared-4, Some-1)
+aux(compared-4, have-2)
+advmod(compared-4, even-3)
+root(ROOT-0, compared-4)
+dobj(compared-4, it-5)
+prep(compared-4, to-6)
+det(Teow-12, the-7)
+nn(Teow-12, Margaret-8)
+nn(Teow-12, Drive-9)
+nn(Teow-12, Char-10)
+nn(Teow-12, Kway-11)
+pobj(to-6, Teow-12)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD found)
+      (NP
+        (NP (DT the) (NN texture)
+          (CC and)
+          (NN consistency))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (JJ kway) (NN teow))
+            (ADJP (RB very) (JJ good))))))
+    (. .)))
+
+
+nsubj(found-2, I-1)
+root(ROOT-0, found-2)
+det(texture-4, the-3)
+dobj(found-2, texture-4)
+cc(texture-4, and-5)
+conj(texture-4, consistency-6)
+prep(texture-4, of-7)
+det(teow-10, the-8)
+amod(teow-10, kway-9)
+pobj(of-7, teow-10)
+advmod(good-12, very-11)
+amod(teow-10, good-12)
+
+
+(ROOT
+  (FRAG (CC But)
+    (NP (NNP ,))))
+
+
+cc(,-2, But-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB usually))
+    (VP (VBP like)
+      (NP (PRP$ my) (NNP Char) (NNP Kway) (NNP Teow))
+      (PP (IN with)
+        (NP (DT a) (JJ sweeter) (JJ black) (NN sauce))))
+    (. .)))
+
+
+nsubj(like-3, I-1)
+advmod(like-3, usually-2)
+root(ROOT-0, like-3)
+poss(Teow-7, my-4)
+nn(Teow-7, Char-5)
+nn(Teow-7, Kway-6)
+dobj(like-3, Teow-7)
+prep(like-3, with-8)
+det(sauce-12, a-9)
+amod(sauce-12, sweeter-10)
+amod(sauce-12, black-11)
+pobj(with-8, sauce-12)
+
+
+(ROOT
+  (S
+    (NP (DT This) (NN one))
+    (VP (VBZ is)
+      (ADJP
+        (ADJP (JJR more))
+        (PP (IN on)
+          (NP (DT the) (JJ savoury) (NN side))))
+      (SBAR (IN so)
+        (S
+          (NP (PRP you))
+          (VP (MD might)
+            (VP (VBP rate)
+              (S
+                (NP (PRP it))
+                (ADJP (JJR higher))
+                (SBAR (IN if)
+                  (S
+                    (NP (DT that))
+                    (VP (VBZ 's)
+                      (NP (PRP$ your) (NN preference)))))))))))
+    (. .)))
+
+
+det(one-2, This-1)
+nsubj(more-4, one-2)
+cop(more-4, is-3)
+root(ROOT-0, more-4)
+prep(more-4, on-5)
+det(side-8, the-6)
+amod(side-8, savoury-7)
+pobj(on-5, side-8)
+mark(rate-12, so-9)
+nsubj(rate-12, you-10)
+aux(rate-12, might-11)
+advcl(more-4, rate-12)
+nsubj(preference-19, it-13)
+dep(preference-19, higher-14)
+mark(preference-19, if-15)
+nsubj(preference-19, that-16)
+cop(preference-19, 's-17)
+poss(preference-19, your-18)
+xcomp(rate-12, preference-19)
+
+

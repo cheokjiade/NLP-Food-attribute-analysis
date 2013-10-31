@@ -1,0 +1,2292 @@
+(ROOT
+  (S
+    (NP
+      (NP (DT All))
+      (PP (IN of)
+        (NP (PRP us))))
+    (VP (VBP know)
+      (PP (IN of)
+        (NP (DT the) (NN question))))
+    (: :)))
+
+
+nsubj(know-4, All-1)
+prep(All-1, of-2)
+pobj(of-2, us-3)
+root(ROOT-0, know-4)
+prep(know-4, of-5)
+det(question-7, the-6)
+pobj(of-5, question-7)
+
+
+(ROOT
+  (SBARQ (`` ``)
+    (WHNP (WP What))
+    (SQ (VBZ is)
+      (NP
+        (NP (DT the) (NN meaning))
+        (PP (IN of)
+          (NP (NN life)))))
+    (. ?)))
+
+
+attr(is-3, What-2)
+root(ROOT-0, is-3)
+det(meaning-5, the-4)
+nsubj(is-3, meaning-5)
+prep(meaning-5, of-6)
+pobj(of-6, life-7)
+
+
+(ROOT
+  (S ('' '')
+    (S
+      (S (CC But)
+        (VP (VB do)
+          (NP (PRP you))))
+      (VP (VBP know)
+        (SBAR
+          (WHNP (WP what))
+          (S
+            (VP (VBZ is)
+              (NP (DT the)
+                (ADJP (RBS most) (JJ common))
+                (NN answer)))))))
+    (IN to)
+    (S
+      (NP (DT that))
+      (VP (VBP question)))
+    (. ?)))
+
+
+cc(do-3, But-2)
+csubj(know-5, do-3)
+dobj(do-3, you-4)
+root(ROOT-0, know-5)
+nsubj(answer-11, what-6)
+cop(answer-11, is-7)
+det(answer-11, the-8)
+advmod(common-10, most-9)
+amod(answer-11, common-10)
+ccomp(know-5, answer-11)
+dep(know-5, to-12)
+nsubj(question-14, that-13)
+ccomp(know-5, question-14)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Well))
+    (, ,)))
+
+
+root(ROOT-0, Well-1)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (VBZ 's)
+      (S (`` ``)
+        (NP (PRP I))
+        (VP (VBP do) (RB n't)
+          (VP (VB know)))
+        ('' '')))
+    (. .)))
+
+
+nsubj('s-2, it-1)
+root(ROOT-0, 's-2)
+nsubj(know-7, I-4)
+aux(know-7, do-5)
+neg(know-7, n't-6)
+ccomp('s-2, know-7)
+
+
+(ROOT
+  (SBAR
+    (WHADVP (WRB When))
+    (S
+      (NP (PRP I))
+      (VP (VBD was)
+        (VP (VBG doing)
+          (NP (PRP$ my) (NN MBA))))
+      (, ,))))
+
+
+advmod(doing-4, When-1)
+nsubj(doing-4, I-2)
+aux(doing-4, was-3)
+root(ROOT-0, doing-4)
+poss(MBA-6, my-5)
+dobj(doing-4, MBA-6)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP remember)
+      (SBAR
+        (WHADVP (WRB how))
+        (S
+          (NP (PRP$ our) (NNS lecturers))
+          (VP (MD would)
+            (VP (VB drum)
+              (PP (IN into)
+                (NP (PRP us)))
+              (NP
+                (NP (DT the) (NN necessity))
+                (PP (IN of)
+                  (NP (DT a) (NN company)
+                    (S
+                      (VP (TO to)
+                        (VP (VB have)
+                          (NP (DT a)
+                            (ADJP (RB very) (JJ clear))
+                            (NN mission) (NN statement)))))))))))))
+    (. .)))
+
+
+nsubj(remember-2, I-1)
+root(ROOT-0, remember-2)
+advmod(drum-7, how-3)
+poss(lecturers-5, our-4)
+nsubj(drum-7, lecturers-5)
+aux(drum-7, would-6)
+ccomp(remember-2, drum-7)
+prep(drum-7, into-8)
+pobj(into-8, us-9)
+det(necessity-11, the-10)
+dobj(drum-7, necessity-11)
+prep(necessity-11, of-12)
+det(company-14, a-13)
+pobj(of-12, company-14)
+aux(have-16, to-15)
+infmod(company-14, have-16)
+det(statement-21, a-17)
+advmod(clear-19, very-18)
+amod(statement-21, clear-19)
+nn(statement-21, mission-20)
+dobj(have-16, statement-21)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Without)
+      (NP (DT a) (NN mission) (NN statement)))
+    (, ,)))
+
+
+root(ROOT-0, Without-1)
+det(statement-4, a-2)
+nn(statement-4, mission-3)
+pobj(Without-1, statement-4)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT the) (NNS employees))
+      (PP (IN of)
+        (NP (DT the) (NN company))))
+    (VP (MD may) (RB not)
+      (VP (VB be)
+        (VP (VBN focused)
+          (PP (IN on)
+            (SBAR
+              (WHNP (WP what))
+              (S
+                (NP (DT the) (NN company))
+                (VP (VBZ exists)
+                  (S
+                    (VP (TO to)
+                      (VP (VB do)))))))))))
+    (. .)))
+
+
+det(employees-2, the-1)
+nsubjpass(focused-9, employees-2)
+prep(employees-2, of-3)
+det(company-5, the-4)
+pobj(of-3, company-5)
+aux(focused-9, may-6)
+neg(focused-9, not-7)
+auxpass(focused-9, be-8)
+root(ROOT-0, focused-9)
+prep(focused-9, on-10)
+dobj(exists-14, what-11)
+det(company-13, the-12)
+nsubj(exists-14, company-13)
+pcomp(on-10, exists-14)
+aux(do-16, to-15)
+xcomp(exists-14, do-16)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB So))
+    (SBAR (IN if)
+      (S
+        (NP (PRP you))
+        (VP (VBD were)
+          (VP (VBN asked)
+            (SBAR
+              (WHADVP (WRB why))
+              (S
+                (NP (PRP$ your) (NN company))
+                (VP (VBD existed))
+                (, ,)))))))))
+
+
+root(ROOT-0, So-1)
+mark(asked-5, if-2)
+nsubjpass(asked-5, you-3)
+auxpass(asked-5, were-4)
+dep(So-1, asked-5)
+advmod(existed-9, why-6)
+poss(company-8, your-7)
+nsubj(existed-9, company-8)
+advcl(asked-5, existed-9)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (MD should)
+      (VP (VB know)
+        (NP (DT the) (NN answer))
+        (ADVP (RB immediately))))
+    (. .)))
+
+
+nsubj(know-3, you-1)
+aux(know-3, should-2)
+root(ROOT-0, know-3)
+det(answer-5, the-4)
+dobj(know-3, answer-5)
+advmod(know-3, immediately-6)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Yet))
+    (, ,)))
+
+
+root(ROOT-0, Yet-1)
+
+
+(ROOT
+  (SBAR (IN if)
+    (S
+      (NP (PRP we))
+      (VP (VBD were)
+        (VP (VBN asked)
+          (NP (DT the) (NN question))
+          (SBAR
+            (WHADVP (WRB why))
+            (S
+              (NP (PRP we))
+              (VP (VBP exist))))
+          (, ,))))))
+
+
+mark(asked-4, if-1)
+nsubjpass(asked-4, we-2)
+auxpass(asked-4, were-3)
+root(ROOT-0, asked-4)
+det(question-6, the-5)
+dobj(asked-4, question-6)
+advmod(exist-9, why-7)
+nsubj(exist-9, we-8)
+advcl(asked-4, exist-9)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NN answer))
+    (VP (VBZ is)
+      (ADVP (RB often))
+      (RB not)
+      (ADJP (RB so) (JJ apparent)))
+    (. .)))
+
+
+det(answer-2, the-1)
+nsubj(apparent-7, answer-2)
+cop(apparent-7, is-3)
+advmod(apparent-7, often-4)
+neg(apparent-7, not-5)
+advmod(apparent-7, so-6)
+root(ROOT-0, apparent-7)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN way))
+      (SBAR
+        (S
+          (NP (PRP we))
+          (VP
+            (VP (VB look)
+              (PP (IN at)
+                (NP (NN life))))
+            (CC and)
+            (VP (VB understand)
+              (NP (PRP$ our) (NN purpose)))))))
+    (VP (VBZ determines)
+      (NP
+        (NP (PDT all) (DT the) (NNS decisions))
+        (SBAR
+          (S
+            (NP (PRP we))
+            (VP (VBP make)
+              (PP (IN in)
+                (NP (NN life))))))))
+    (. .)))
+
+
+det(way-2, The-1)
+nsubj(determines-11, way-2)
+nsubj(look-4, we-3)
+rcmod(way-2, look-4)
+prep(look-4, at-5)
+pobj(at-5, life-6)
+cc(look-4, and-7)
+conj(look-4, understand-8)
+poss(purpose-10, our-9)
+dobj(understand-8, purpose-10)
+root(ROOT-0, determines-11)
+predet(decisions-14, all-12)
+det(decisions-14, the-13)
+dobj(determines-11, decisions-14)
+nsubj(make-16, we-15)
+rcmod(decisions-14, make-16)
+prep(make-16, in-17)
+pobj(in-17, life-18)
+
+
+(ROOT
+  (FRAG
+    (SBAR (IN Whether)
+      (S
+        (NP (PRP we))
+        (VP (MD should)
+          (VP (VB marry)
+            (NP (NNP Sharon)
+              (CC or)
+              (NNP Sumathi))))))
+    (. ?)))
+
+
+mark(marry-4, Whether-1)
+nsubj(marry-4, we-2)
+aux(marry-4, should-3)
+root(ROOT-0, marry-4)
+dobj(marry-4, Sharon-5)
+cc(Sharon-5, or-6)
+conj(Sharon-5, Sumathi-7)
+
+
+(ROOT
+  (S
+    (SBAR (IN Whether)
+      (S
+        (NP (PRP we))
+        (VP (MD should)
+          (VP
+            (VP (VB quit)
+              (NP (NNP Job) (NNP A)))
+            (CC and)
+            (VP (VB accept))))))
+    (NP (NNP Job) (NNP B.))
+    (VP (VBZ Whether)
+      (S
+        (VP
+          (VP (TO to)
+            (VP (VB spend)
+              (NP (PRP$ our) (NN bonus))
+              (PP (IN on)
+                (NP (DT a) (JJ new) (NN gadget)))))
+          (CC or)
+          (VP (TO to)
+            (VP (VB use)
+              (S
+                (NP (PRP it))
+                (VP (TO to)
+                  (VP (VB help)
+                    (NP (NNS others))))))))))
+    (. .)))
+
+
+mark(quit-4, Whether-1)
+nsubj(quit-4, we-2)
+aux(quit-4, should-3)
+advcl(Whether-11, quit-4)
+nn(A-6, Job-5)
+dobj(quit-4, A-6)
+cc(quit-4, and-7)
+conj(quit-4, accept-8)
+nn(B.-10, Job-9)
+nsubj(Whether-11, B.-10)
+root(ROOT-0, Whether-11)
+aux(spend-13, to-12)
+ccomp(Whether-11, spend-13)
+poss(bonus-15, our-14)
+dobj(spend-13, bonus-15)
+prep(spend-13, on-16)
+det(gadget-19, a-17)
+amod(gadget-19, new-18)
+pobj(on-16, gadget-19)
+cc(spend-13, or-20)
+aux(use-22, to-21)
+conj(spend-13, use-22)
+nsubj(help-25, it-23)
+aux(help-25, to-24)
+xcomp(use-22, help-25)
+dobj(help-25, others-26)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP we))
+      (VP (VBP have)
+        (NP (DT a) (JJR clearer) (NN mission) (NN statement)))
+      (, ,))))
+
+
+mark(have-3, If-1)
+nsubj(have-3, we-2)
+root(ROOT-0, have-3)
+det(statement-7, a-4)
+amod(statement-7, clearer-5)
+nn(statement-7, mission-6)
+dobj(have-3, statement-7)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (VP (MD would)
+      (VP (VB have)
+        (NP (DT an) (JJR easier) (NN way)
+          (S
+            (VP (TO to)
+              (VP (VB make)
+                (NP (DT those) (NNS decisions))))))))
+    (. .)))
+
+
+nsubj(have-3, we-1)
+aux(have-3, would-2)
+root(ROOT-0, have-3)
+det(way-6, an-4)
+amod(way-6, easier-5)
+dobj(have-3, way-6)
+aux(make-8, to-7)
+infmod(way-6, make-8)
+det(decisions-10, those-9)
+dobj(make-8, decisions-10)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (VP (VBN been)
+        (NP (DT a) (NNP Christian))
+        (SBAR (IN since)
+          (S
+            (NP (PRP I))
+            (VP (VBD was)
+              (UCP
+                (NP (CD twelve))
+                (CC and)
+                (S
+                  (VP (TO to)
+                    (VP (VB tell)
+                      (NP (PRP you))
+                      (NP (DT the) (NN truth)))))))))))
+    (, ,)))
+
+
+nsubj(Christian-5, I-1)
+aux(Christian-5, have-2)
+cop(Christian-5, been-3)
+det(Christian-5, a-4)
+root(ROOT-0, Christian-5)
+mark(twelve-9, since-6)
+nsubj(twelve-9, I-7)
+cop(twelve-9, was-8)
+advcl(Christian-5, twelve-9)
+cc(twelve-9, and-10)
+aux(tell-12, to-11)
+conj(twelve-9, tell-12)
+iobj(tell-12, you-13)
+det(truth-15, the-14)
+dobj(tell-12, truth-15)
+
+
+(ROOT
+  (SBAR (RB even) (IN if)
+    (S
+      (NP (PRP you))
+      (VP
+        (S
+          (SBAR
+            (WHADVP (WRB ask))
+            (S
+              (NP (PRP me) (DT the))
+              (VP (VBP question)))
+            (`` ``)))))))
+
+
+advmod(question-7, even-1)
+mark(question-7, if-2)
+nsubj(question-7, you-3)
+advmod(question-7, ask-4)
+nsubj(question-7, me-5)
+dep(me-5, the-6)
+root(ROOT-0, question-7)
+
+
+(ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ (VBZ is)
+      (NP
+        (NP (DT the) (NN meaning))
+        (PP (IN of)
+          (NP (NN life)))))
+    (. ?)))
+
+
+attr(is-2, What-1)
+root(ROOT-0, is-2)
+det(meaning-4, the-3)
+nsubj(is-2, meaning-4)
+prep(meaning-4, of-5)
+pobj(of-5, life-6)
+
+
+(ROOT
+  (FRAG
+    (PP (IN ''))
+    (, ,)))
+
+
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD would)
+      (VP (VB be)
+        (ADJP (RB hard) (VBN pressed)
+          (S
+            (VP (TO to)
+              (VP (VB give)
+                (NP (PRP you))
+                (NP
+                  (NP (DT an) (NN answer))
+                  (SBAR
+                    (WHNP (WDT which))
+                    (S
+                      (VP (MD would)
+                        (VP (VB score)
+                          (NP (DT a) (NN distinction)))))))))))))
+    (. .)))
+
+
+nsubjpass(pressed-5, I-1)
+aux(pressed-5, would-2)
+auxpass(pressed-5, be-3)
+advmod(pressed-5, hard-4)
+root(ROOT-0, pressed-5)
+aux(give-7, to-6)
+xcomp(pressed-5, give-7)
+iobj(give-7, you-8)
+det(answer-10, an-9)
+dobj(give-7, answer-10)
+nsubj(score-13, which-11)
+aux(score-13, would-12)
+rcmod(answer-10, score-13)
+det(distinction-15, a-14)
+dobj(score-13, distinction-15)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (S
+        (S
+          (NP (PRP it))
+          (VP (VBZ is)
+            (SBAR (IN because)
+              (S
+                (NP (PRP it))
+                (VP (VBZ is)
+                  (NP
+                    (NP (DT a) (NN question))
+                    (PP (IN with)
+                      (NP
+                        (NP (DT an) (NN answer))
+                        (SBAR
+                          (WHNP (WDT that))
+                          (S
+                            (VP (VBZ looks)
+                              (PP (IN like)
+                                (NP (DT a) (NN newsweek) (NN article))))))))))))))
+        (: --)
+        (S
+          (NP (PRP you))
+          (VP (MD can)
+            (VP (VB read)
+              (NP
+                (NP (CD ten) (NNS pages))
+                (PP (IN of)
+                  (NP (PRP it)))))))
+        (, ,)))))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+nsubj(is-4, it-3)
+dep(think-2, is-4)
+mark(question-9, because-5)
+nsubj(question-9, it-6)
+cop(question-9, is-7)
+det(question-9, a-8)
+advcl(is-4, question-9)
+prep(question-9, with-10)
+det(answer-12, an-11)
+pobj(with-10, answer-12)
+nsubj(looks-14, that-13)
+rcmod(answer-12, looks-14)
+prep(looks-14, like-15)
+det(article-18, a-16)
+nn(article-18, newsweek-17)
+pobj(like-15, article-18)
+nsubj(read-22, you-20)
+aux(read-22, can-21)
+parataxis(is-4, read-22)
+num(pages-24, ten-23)
+dobj(read-22, pages-24)
+prep(pages-24, of-25)
+pobj(of-25, it-26)
+
+
+(ROOT
+  (S
+    (VP (VB have)
+      (NP
+        (NP (DT an) (NN idea))
+        (PP (IN of)
+          (SBAR
+            (WHNP (WP what))
+            (S
+              (NP (PRP it))
+              (VP (VBZ is)
+                (ADJP (IN about)))
+              (, ,))))))))
+
+
+root(ROOT-0, have-1)
+det(idea-3, an-2)
+dobj(have-1, idea-3)
+prep(idea-3, of-4)
+dobj(about-8, what-5)
+nsubj(about-8, it-6)
+cop(about-8, is-7)
+pcomp(of-4, about-8)
+
+
+(ROOT
+  (FRAG (CC but)
+    (VP
+      (ADVP (RB still))
+      (VB be)
+      (ADJP (JJ hard-pressed)
+        (S
+          (VP (TO to)
+            (VP (VB summarize)
+              (NP (PRP it))
+              (PP (IN into)
+                (NP (CD one) (NN sentence))))))))
+    (. .)))
+
+
+cc(hard-pressed-4, but-1)
+advmod(hard-pressed-4, still-2)
+cop(hard-pressed-4, be-3)
+root(ROOT-0, hard-pressed-4)
+aux(summarize-6, to-5)
+xcomp(hard-pressed-4, summarize-6)
+dobj(summarize-6, it-7)
+prep(summarize-6, into-8)
+num(sentence-10, one-9)
+pobj(into-8, sentence-10)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN reason))
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (VBP am)
+            (VP (VBG bringing)
+              (ADVP (DT this) (RB up))
+              (PP (IN at)
+                (NP (DT this) (NN time))))))))
+    (VP (VBZ is)
+      (VP (VBN twofold)))
+    (. .)))
+
+
+det(reason-2, The-1)
+nsubjpass(twofold-12, reason-2)
+nsubj(bringing-5, I-3)
+aux(bringing-5, am-4)
+rcmod(reason-2, bringing-5)
+dep(up-7, this-6)
+advmod(bringing-5, up-7)
+prep(bringing-5, at-8)
+det(time-10, this-9)
+pobj(at-8, time-10)
+auxpass(twofold-12, is-11)
+root(ROOT-0, twofold-12)
+
+
+(ROOT
+  (INTJ (UH Firstly) (UH ,)))
+
+
+root(ROOT-0, Firstly-1)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP it))
+      (VP (VBZ is)
+        (VP (VBG Easter)
+          (NP (JJ next) (NN week)))))
+    (CC and)
+    (S
+      (NP (PRP it))
+      (VP (VBZ is)
+        (ADVP (RB usually))
+        (PP (IN during)
+          (NP (DT this) (NN time)))
+        (SBAR (IN that)
+          (S
+            (NP (PRP I))
+            (VP (VBP ponder)
+              (PP (IN on)
+                (NP (DT these) (NNS issues))
+                (ADVP
+                  (ADVP
+                    (NP (DT a) (RB little))
+                    (RBR more))
+                  (RB deeply))))))))
+    (. .)))
+
+
+nsubj(Easter-3, it-1)
+aux(Easter-3, is-2)
+root(ROOT-0, Easter-3)
+amod(week-5, next-4)
+tmod(Easter-3, week-5)
+cc(Easter-3, and-6)
+nsubj(is-8, it-7)
+conj(Easter-3, is-8)
+advmod(is-8, usually-9)
+prep(is-8, during-10)
+det(time-12, this-11)
+pobj(during-10, time-12)
+mark(ponder-15, that-13)
+nsubj(ponder-15, I-14)
+ccomp(is-8, ponder-15)
+prep(ponder-15, on-16)
+det(issues-18, these-17)
+pobj(on-16, issues-18)
+det(little-20, a-19)
+npadvmod(more-21, little-20)
+advmod(on-16, more-21)
+advmod(more-21, deeply-22)
+
+
+(ROOT
+  (S
+    (NP (CC And))
+    (VP (VBP secondly))
+    (, ,)))
+
+
+nsubj(secondly-2, And-1)
+root(ROOT-0, secondly-2)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (JJ direct) (NN result))
+        (SBAR
+          (S
+            (NP
+              (NP (DT a) (NN book))
+              (PP (IN by)
+                (NP
+                  (NP (NNP Mitch) (NNP Albom))
+                  (SBAR
+                    (WHNP (WDT which))
+                    (S
+                      (VP (VBD was)
+                        (VP (VBN given)
+                          (PP (TO to)
+                            (NP (PRP me)))
+                          (PP (IN by)
+                            (NP
+                              (NP (NNP Holybro))
+                              (VP (VBN called)))))))))))
+            (`` ``)
+            (VP (VBP Have)
+              (NP (DT a) (JJ little) (NN Faith)))
+            ('' '')))))
+    (. .)))
+
+
+nsubj(result-5, it-1)
+cop(result-5, is-2)
+det(result-5, the-3)
+amod(result-5, direct-4)
+root(ROOT-0, result-5)
+det(book-7, a-6)
+nsubj(Have-20, book-7)
+prep(book-7, by-8)
+nn(Albom-10, Mitch-9)
+pobj(by-8, Albom-10)
+nsubjpass(given-13, which-11)
+auxpass(given-13, was-12)
+rcmod(Albom-10, given-13)
+prep(given-13, to-14)
+pobj(to-14, me-15)
+prep(given-13, by-16)
+pobj(by-16, Holybro-17)
+partmod(Holybro-17, called-18)
+rcmod(result-5, Have-20)
+det(Faith-23, a-21)
+amod(Faith-23, little-22)
+dobj(Have-20, Faith-23)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD found)
+      (S
+        (NP (DT the) (NN book))
+        (ADJP (JJ fascinating))
+        (SBAR (IN as)
+          (S
+            (NP (PRP it))
+            (VP (VBZ explores)
+              (NP
+                (NP (DT the) (NN subject))
+                (PP (IN of)
+                  (NP
+                    (NP (DT the) (NN meaning))
+                    (PP (IN of)
+                      (NP (NN life))))))
+              (PP (IN by)
+                (S
+                  (VP (VBG recounting)
+                    (NP
+                      (NP (DT the) (NNS lives))
+                      (PP (IN of)
+                        (NP (DT a) (NNP Rabbi)))
+                      (SBAR
+                        (WHNP (WP who))
+                        (S
+                          (VP (VBD wanted)
+                            (NP (DT the) (NN author)
+                              (S
+                                (VP (TO to)
+                                  (VP (VB write)
+                                    (NP (PRP$ his) (NN eulogy))
+                                    (SBAR
+                                      (WHADVP (WRB when))
+                                      (S
+                                        (NP (PRP he))
+                                        (VP (VBD died))))))))))))))))))))
+    (, ,)))
+
+
+nsubj(found-2, I-1)
+root(ROOT-0, found-2)
+det(book-4, the-3)
+nsubj(explores-8, book-4)
+dep(explores-8, fascinating-5)
+mark(explores-8, as-6)
+nsubj(explores-8, it-7)
+xcomp(found-2, explores-8)
+det(subject-10, the-9)
+dobj(explores-8, subject-10)
+prep(subject-10, of-11)
+det(meaning-13, the-12)
+pobj(of-11, meaning-13)
+prep(meaning-13, of-14)
+pobj(of-14, life-15)
+prep(explores-8, by-16)
+pcomp(by-16, recounting-17)
+det(lives-19, the-18)
+dobj(recounting-17, lives-19)
+prep(lives-19, of-20)
+det(Rabbi-22, a-21)
+pobj(of-20, Rabbi-22)
+nsubj(wanted-24, who-23)
+rcmod(lives-19, wanted-24)
+det(author-26, the-25)
+dobj(wanted-24, author-26)
+aux(write-28, to-27)
+infmod(author-26, write-28)
+poss(eulogy-30, his-29)
+dobj(write-28, eulogy-30)
+advmod(died-33, when-31)
+nsubj(died-33, he-32)
+advcl(write-28, died-33)
+
+
+(ROOT
+  (FRAG (CC and)
+    (NP
+      (NP (DT a) (NNP Christian) (NNP Pastor))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBD became)
+            (NP (DT a) (NN pastor))
+            (PP (IN after)
+              (S
+                (ADVP (RB nearly))
+                (VP (VBG being)
+                  (VP (VBN killed)
+                    (PP (IN by)
+                      (NP (NN gang) (NNS members)))))))))))
+    (. .)))
+
+
+cc(Pastor-4, and-1)
+det(Pastor-4, a-2)
+nn(Pastor-4, Christian-3)
+root(ROOT-0, Pastor-4)
+nsubj(pastor-8, who-5)
+cop(pastor-8, became-6)
+det(pastor-8, a-7)
+rcmod(Pastor-4, pastor-8)
+prep(pastor-8, after-9)
+advmod(killed-12, nearly-10)
+auxpass(killed-12, being-11)
+pcomp(after-9, killed-12)
+prep(killed-12, by-13)
+nn(members-15, gang-14)
+pobj(by-13, members-15)
+
+
+(ROOT
+  (FRAG
+    (PP (IN After)
+      (NP
+        (NP (NN reading))
+        (NP (DT that) (NN book))))
+    (, ,)))
+
+
+root(ROOT-0, After-1)
+pobj(After-1, reading-2)
+det(book-4, that-3)
+dep(reading-2, book-4)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD went)
+      (PRT (RP on))
+      (S
+        (VP (TO to)
+          (VP (VB read)
+            (NP
+              (NP (CD one))
+              (PP (IN of)
+                (NP (PRP$ his) (JJR earlier) (NNS books))))))))
+    (, ,)))
+
+
+nsubj(went-2, I-1)
+root(ROOT-0, went-2)
+prt(went-2, on-3)
+aux(read-5, to-4)
+xcomp(went-2, read-5)
+dobj(read-5, one-6)
+prep(one-6, of-7)
+poss(books-10, his-8)
+amod(books-10, earlier-9)
+pobj(of-7, books-10)
+
+
+(ROOT
+  (S (`` ``)
+    (VP (VB Tuesdays)
+      (PP (IN with)
+        (NP (NNP Morrie) ('' ''))))
+    (. .)))
+
+
+root(ROOT-0, Tuesdays-2)
+prep(Tuesdays-2, with-3)
+pobj(with-3, Morrie-4)
+
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (DT this) (JJ second) (NN book)))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+det(book-4, this-2)
+amod(book-4, second-3)
+pobj(In-1, book-4)
+
+
+(ROOT
+  (S
+    (NP (NNP Mitch))
+    (VP (VBD wrote)
+      (NP (PRP$ his) (NN thesis))
+      (PP (IN on)
+        (NP
+          (NP (DT the) (NN meaning))
+          (PP (IN of)
+            (NP (NN life)))))
+      (PP (VBN based)
+        (PP (IN on)
+          (SBAR
+            (WHNP (WP what))
+            (S
+              (NP (PRP he))
+              (VP (VBD learned)
+                (PP (IN from)
+                  (NP (PRP$ his) (NNS meetings)))
+                (PP (IN with)
+                  (NP
+                    (NP (DT a) (VBG dying) (NN professor))
+                    (PP (IN of)
+                      (NP (NN sociology))))))))))
+      (SBAR (IN as)
+        (S
+          (NP (PRP$ his) (NN life))
+          (ADVP (RB slowly))
+          (VP (VBZ diminishes)
+            (PP (RB because) (IN of)
+              (NP
+                (NP (NNP Lou) (NNP Gehring) (POS 's))
+                (NN disease)))))))
+    (. .)))
+
+
+nsubj(wrote-2, Mitch-1)
+root(ROOT-0, wrote-2)
+poss(thesis-4, his-3)
+dobj(wrote-2, thesis-4)
+prep(wrote-2, on-5)
+det(meaning-7, the-6)
+pobj(on-5, meaning-7)
+prep(meaning-7, of-8)
+pobj(of-8, life-9)
+prep(wrote-2, based-10)
+pcomp(based-10, on-11)
+dobj(learned-14, what-12)
+nsubj(learned-14, he-13)
+pcomp(on-11, learned-14)
+prep(learned-14, from-15)
+poss(meetings-17, his-16)
+pobj(from-15, meetings-17)
+prep(learned-14, with-18)
+det(professor-21, a-19)
+amod(professor-21, dying-20)
+pobj(with-18, professor-21)
+prep(professor-21, of-22)
+pobj(of-22, sociology-23)
+mark(diminishes-28, as-24)
+poss(life-26, his-25)
+nsubj(diminishes-28, life-26)
+advmod(diminishes-28, slowly-27)
+advcl(wrote-2, diminishes-28)
+advmod(of-30, because-29)
+prep(diminishes-28, of-30)
+nn(Gehring-32, Lou-31)
+poss(disease-34, Gehring-32)
+possessive(Gehring-32, 's-33)
+pobj(of-30, disease-34)
+
+
+(ROOT
+  (S
+    (NP (DT These) (NNS books))
+    (VP (VBD were)
+      (VP (VBN written)
+        (PP (RB not) (IN from)
+          (NP (DT a) (JJ Christian) (NN viewpoint)))))
+    (, ,)))
+
+
+det(books-2, These-1)
+nsubjpass(written-4, books-2)
+auxpass(written-4, were-3)
+root(ROOT-0, written-4)
+neg(from-6, not-5)
+prep(written-4, from-6)
+det(viewpoint-9, a-7)
+amod(viewpoint-9, Christian-8)
+pobj(from-6, viewpoint-9)
+
+
+(ROOT
+  (FRAG (CC but)
+    (PP (IN from)
+      (NP
+        (NP (DT that))
+        (PP (IN of)
+          (NP (DT an) (NNP Agnostic)))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBD happened)
+              (S
+                (VP (TO to)
+                  (VP (VB be)
+                    (NP
+                      (NP (DT a) (JJ lapsed) (NN Jew))
+                      (VP (VBN married)
+                        (PP (TO to)
+                          (NP (DT a) (JJ Christian) (NN lady))))))))))))
+      (. .))))
+
+
+root(ROOT-0, but-1)
+prep(but-1, from-2)
+pobj(from-2, that-3)
+prep(that-3, of-4)
+det(Agnostic-6, an-5)
+pobj(of-4, Agnostic-6)
+nsubj(happened-8, who-7)
+rcmod(that-3, happened-8)
+aux(Jew-13, to-9)
+cop(Jew-13, be-10)
+det(Jew-13, a-11)
+amod(Jew-13, lapsed-12)
+xcomp(happened-8, Jew-13)
+partmod(Jew-13, married-14)
+prep(married-14, to-15)
+det(lady-18, a-16)
+amod(lady-18, Christian-17)
+pobj(to-15, lady-18)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB However))
+    (ADVP (RB ,))))
+
+
+root(ROOT-0, However-1)
+
+
+(ROOT
+  (S
+    (SBAR
+      (WHNP (WP what))
+      (S
+        (NP (PRP I))
+        (VP (VBD gathered)
+          (PP (IN from)
+            (NP (PRP$ his) (CD two) (NNS books))))))
+    (VP (VBD was)
+      (NP (PRP$ his) (NN attempt))
+      (PP (IN at)
+        (S
+          (VP (VBG answering)
+            (NP (DT the) (JJ ultimate) (NN question))))))
+    (. .)))
+
+
+dobj(gathered-3, what-1)
+nsubj(gathered-3, I-2)
+csubj(attempt-10, gathered-3)
+prep(gathered-3, from-4)
+poss(books-7, his-5)
+num(books-7, two-6)
+pobj(from-4, books-7)
+cop(attempt-10, was-8)
+poss(attempt-10, his-9)
+root(ROOT-0, attempt-10)
+prep(attempt-10, at-11)
+pcomp(at-11, answering-12)
+det(question-15, the-13)
+amod(question-15, ultimate-14)
+dobj(answering-12, question-15)
+
+
+(ROOT
+  (SBAR (IN As)
+    (S
+      (NP (PRP I))
+      (VP (VBD mediated)
+        (PP (IN on)
+          (SBAR
+            (WHNP (WP what))
+            (S
+              (NP (PRP I))
+              (VP (VBD read))
+              (, ,))))))))
+
+
+mark(mediated-3, As-1)
+nsubj(mediated-3, I-2)
+root(ROOT-0, mediated-3)
+prep(mediated-3, on-4)
+dobj(read-7, what-5)
+nsubj(read-7, I-6)
+pcomp(on-4, read-7)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP begin)
+      (S
+        (VP (TO to)
+          (VP (VB realize)
+            (SBAR (IN that)
+              (S
+                (NP
+                  (NP (DT the) (NNS answers))
+                  (PP (TO to)
+                    (NP
+                      (NP (DT the) (NN meaning))
+                      (PP (IN of)
+                        (NP (NN life))))))
+                (VP (VBD followed)
+                  (NP (DT some) (JJ common) (NNS themes)))))))))
+    (. .)))
+
+
+nsubj(begin-2, I-1)
+root(ROOT-0, begin-2)
+aux(realize-4, to-3)
+xcomp(begin-2, realize-4)
+mark(followed-13, that-5)
+det(answers-7, the-6)
+nsubj(followed-13, answers-7)
+prep(answers-7, to-8)
+det(meaning-10, the-9)
+pobj(to-8, meaning-10)
+prep(meaning-10, of-11)
+pobj(of-11, life-12)
+ccomp(realize-4, followed-13)
+det(themes-16, some-14)
+amod(themes-16, common-15)
+dobj(followed-13, themes-16)
+
+
+(ROOT
+  (S
+    (NP (DT These) (NN revolve))
+    (ADVP (RB around))
+    (VP (VBP love))
+    (, ,)))
+
+
+det(revolve-2, These-1)
+nsubj(love-4, revolve-2)
+advmod(love-4, around-3)
+root(ROOT-0, love-4)
+
+
+(ROOT
+  (FRAG
+    (PP (IN forgiveness))
+    (, ,)))
+
+
+root(ROOT-0, forgiveness-1)
+
+
+(ROOT
+  (FRAG
+    (PP (IN relationships))
+    (, ,)))
+
+
+root(ROOT-0, relationships-1)
+
+
+(ROOT
+  (FRAG
+    (PP
+      (NP (PRP$ our) (NN attitude))
+      (PP (TO to)
+        (NP (NN money))))
+    (, ,)))
+
+
+poss(attitude-2, our-1)
+dep(to-3, attitude-2)
+root(ROOT-0, to-3)
+pobj(to-3, money-4)
+
+
+(ROOT
+  (NP
+    (NP (PRP$ our) (NN understanding))
+    (PP (IN of)
+      (NP
+        (NP (NN death))
+        (, ,)))))
+
+
+poss(understanding-2, our-1)
+root(ROOT-0, understanding-2)
+prep(understanding-2, of-3)
+pobj(of-3, death-4)
+
+
+(ROOT
+  (SBAR
+    (WHADVP (WRB how))
+    (S
+      (NP (PRP we))
+      (VP (VBP handle)
+        (NP (PRP$ our) (NNS emotions)))
+      (, ,))))
+
+
+advmod(handle-3, how-1)
+nsubj(handle-3, we-2)
+root(ROOT-0, handle-3)
+poss(emotions-5, our-4)
+dobj(handle-3, emotions-5)
+
+
+(ROOT
+  (SBAR
+    (SBAR
+      (WHADVP (WRB how))
+      (S
+        (NP (PRP we))
+        (VP (VBP react)
+          (PP (TO to)
+            (NP
+              (NP (DT the) (NN suffering))
+              (PP (IN of)
+                (NP (NNS others))))))))
+    (CC and)
+    (SBAR
+      (WHADVP (WRB how))
+      (S
+        (NP (PRP we))
+        (VP (VBP handle)
+          (NP (PRP$ our) (JJ own) (NN suffering)))
+        (, ,)))))
+
+
+advmod(react-3, how-1)
+nsubj(react-3, we-2)
+root(ROOT-0, react-3)
+prep(react-3, to-4)
+det(suffering-6, the-5)
+pobj(to-4, suffering-6)
+prep(suffering-6, of-7)
+pobj(of-7, others-8)
+cc(react-3, and-9)
+advmod(handle-12, how-10)
+nsubj(handle-12, we-11)
+conj(react-3, handle-12)
+poss(suffering-15, our-13)
+amod(suffering-15, own-14)
+dobj(handle-12, suffering-15)
+
+
+(ROOT
+  (FRAG
+    (PP (IN among)
+      (NP (JJ other) (NNS things)))
+    (. .)))
+
+
+root(ROOT-0, among-1)
+amod(things-3, other-2)
+pobj(among-1, things-3)
+
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP
+          (VP (VBP have)
+            (VP (VBN been)
+              (VP (VBG asking)
+                (NP (JJ such) (NNS questions)))))
+          (CC and)
+          (VP (VBP are)
+            (VP (VBN opened)
+              (PP (TO to)
+                (S
+                  (VP (VBG learning)
+                    (NP (JJR more))
+                    (PP (IN about)
+                      (NP (WP what)))))))))))
+    (NP (PRP we))
+    (ADVP (RB Christians))
+    (VP (VBP understand)
+      (PP (IN about)
+        (NP (JJ such) (NNS things))))
+    (, ,)))
+
+
+mark(asking-5, If-1)
+nsubj(asking-5, you-2)
+aux(asking-5, have-3)
+aux(asking-5, been-4)
+advcl(understand-18, asking-5)
+amod(questions-7, such-6)
+dobj(asking-5, questions-7)
+cc(asking-5, and-8)
+auxpass(opened-10, are-9)
+conj(asking-5, opened-10)
+prep(opened-10, to-11)
+pcomp(to-11, learning-12)
+dobj(learning-12, more-13)
+prep(learning-12, about-14)
+pobj(about-14, what-15)
+nsubj(understand-18, we-16)
+advmod(understand-18, Christians-17)
+root(ROOT-0, understand-18)
+prep(understand-18, about-19)
+amod(things-21, such-20)
+pobj(about-19, things-21)
+
+
+(ROOT
+  (SINV (MD may)
+    (NP (PRP I))
+    (VP (VB invite)
+      (NP (PRP you))
+      (PP (TO to)
+        (NP
+          (NP (DT the) (`` ``)
+            (S
+              (VP (VB Thank)
+                (NP
+                  (NP (NNP God))
+                  (SBAR
+                    (S
+                      (NP (PRP it))
+                      (VP (VBZ 's)
+                        (NP (NNP Friday))))))))
+            ('' '') (NN event))
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (VBZ is)
+                (VP (VBG being)
+                  (VP (VBN organized)
+                    (PP (IN by)
+                      (NP
+                        (NP (CD one))
+                        (PP (IN of)
+                          (NP (PRP$ our) (NN makan) (NNS kakis)))))
+                    (, ,)))))))))))
+
+
+aux(invite-3, may-1)
+nsubj(invite-3, I-2)
+root(ROOT-0, invite-3)
+dobj(invite-3, you-4)
+prep(invite-3, to-5)
+det(event-14, the-6)
+dep(event-14, Thank-8)
+dobj(Thank-8, God-9)
+nsubj(Friday-12, it-10)
+cop(Friday-12, 's-11)
+rcmod(God-9, Friday-12)
+pobj(to-5, event-14)
+nsubjpass(organized-18, which-15)
+aux(organized-18, is-16)
+auxpass(organized-18, being-17)
+rcmod(event-14, organized-18)
+prep(organized-18, by-19)
+pobj(by-19, one-20)
+prep(one-20, of-21)
+poss(kakis-24, our-22)
+nn(kakis-24, makan-23)
+pobj(of-21, kakis-24)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB Cactuskitty))
+    (. .)))
+
+
+root(ROOT-0, Cactuskitty-1)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (VBZ 's)
+        (VP (VBG happening)
+          (PP (IN on)
+            (NP (NNP Good) (NNP Friday))))))
+    (CC and)
+    (S
+      (NP (PRP it))
+      (VP (VBZ 's)
+        (VP (VBG going)
+          (S
+            (VP (TO to)
+              (VP (VB be)
+                (NP
+                  (NP (DT an) (JJ informal) (NN time))
+                  (SBAR
+                    (WHADVP (WRB where))
+                    (S
+                      (NP (PRP we))
+                      (VP (VB explore)
+                        (NP
+                          (NP (DT the) (JJR bigger) (NNS issues))
+                          (PP (IN of)
+                            (NP
+                              (NP (NN life))
+                              (VP (VBN followed)
+                                (PP (IN by)
+                                  (NP (DT a) (NN buffet) (NN lunch)))))))))))))))))
+    (. .)))
+
+
+nsubj(happening-3, It-1)
+aux(happening-3, 's-2)
+root(ROOT-0, happening-3)
+prep(happening-3, on-4)
+nn(Friday-6, Good-5)
+pobj(on-4, Friday-6)
+cc(happening-3, and-7)
+nsubj(going-10, it-8)
+aux(going-10, 's-9)
+conj(happening-3, going-10)
+aux(time-15, to-11)
+cop(time-15, be-12)
+det(time-15, an-13)
+amod(time-15, informal-14)
+xcomp(going-10, time-15)
+advmod(explore-18, where-16)
+nsubj(explore-18, we-17)
+rcmod(time-15, explore-18)
+det(issues-21, the-19)
+amod(issues-21, bigger-20)
+dobj(explore-18, issues-21)
+prep(issues-21, of-22)
+pobj(of-22, life-23)
+partmod(life-23, followed-24)
+prep(followed-24, by-25)
+det(lunch-28, a-26)
+nn(lunch-28, buffet-27)
+pobj(by-25, lunch-28)
+
+
+(ROOT
+  (SINV
+    (ADVP (RB Here))
+    (VP (VBP are))
+    (NP (DT the) (NNS details))
+    (: :)))
+
+
+advmod(are-2, Here-1)
+root(ROOT-0, are-2)
+det(details-4, the-3)
+nsubj(are-2, details-4)
+
+
+(ROOT
+  (NP (NNP Date) (: :)))
+
+
+root(ROOT-0, Date-1)
+
+
+(ROOT
+  (NP (CD 2) (NN Apr)))
+
+
+num(Apr-2, 2-1)
+root(ROOT-0, Apr-2)
+
+
+(ROOT
+  (NP
+    (NP (NNP 2010)
+      (PRN (-LRB- -LRB-)
+        (NP (NNP Good) (NNP Friday))
+        (-RRB- -RRB-))
+      (NNP Venue))
+    (: :)))
+
+
+nn(Venue-6, 2010-1)
+nn(Friday-4, Good-3)
+appos(Venue-6, Friday-4)
+root(ROOT-0, Venue-6)
+
+
+(ROOT
+  (S
+    (NP (JJ Chinese) (NN Swimming))
+    (VP (VBZ Club))
+    (, ,)))
+
+
+amod(Swimming-2, Chinese-1)
+nsubj(Club-3, Swimming-2)
+root(ROOT-0, Club-3)
+
+
+(ROOT
+  (NP
+    (NP (NNP Recreational) (NNP Bldg) (NN level) (NNP 3) (NNP Time))
+    (: :)))
+
+
+nn(Time-5, Recreational-1)
+nn(Time-5, Bldg-2)
+nn(Time-5, level-3)
+nn(Time-5, 3-4)
+root(ROOT-0, Time-5)
+
+
+(ROOT
+  (ADJP (JJ 10am)
+    (PP (TO to)
+      (NP
+        (NP (NNS 12pm))
+        (PRN (-LRB- -LRB-)
+          (VP (VBN followed)
+            (PP (IN by)
+              (NP (NN lunch)))
+            (PP (IN at)
+              (NP (CD 12pm))))
+          (-RRB- -RRB-))))))
+
+
+root(ROOT-0, 10am-1)
+prep(10am-1, to-2)
+pobj(to-2, 12pm-3)
+dep(12pm-3, followed-5)
+prep(followed-5, by-6)
+pobj(by-6, lunch-7)
+prep(followed-5, at-8)
+pobj(at-8, 12pm-9)
+
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (MD will)
+      (VP (VB be)
+        (VP (VBG showing)
+          (NP
+            (NP (DT the) (NN video))
+            (PP (IN in)
+              (NP (NNP Chinese))))
+          (PP (IN after)
+            (NP
+              (NP (NN lunch))
+              (PP (IN at)
+                (NP (CD 2pm))))))))
+    (, ,)))
+
+
+nsubj(showing-4, They-1)
+aux(showing-4, will-2)
+aux(showing-4, be-3)
+root(ROOT-0, showing-4)
+det(video-6, the-5)
+dobj(showing-4, video-6)
+prep(video-6, in-7)
+pobj(in-7, Chinese-8)
+prep(showing-4, after-9)
+pobj(after-9, lunch-10)
+prep(lunch-10, at-11)
+pobj(at-11, 2pm-12)
+
+
+(ROOT
+  (S (IN so)
+    (NP (PRP you))
+    (VP (MD can)
+      (VP (VB attend)
+        (NP (DT the) (NN afternoon) (NN meeting))
+        (SBAR (IN if)
+          (S
+            (NP (PRP you))
+            (VP (VBP wish))))))
+    (. .)))
+
+
+dep(attend-4, so-1)
+nsubj(attend-4, you-2)
+aux(attend-4, can-3)
+root(ROOT-0, attend-4)
+det(meeting-7, the-5)
+nn(meeting-7, afternoon-6)
+dobj(attend-4, meeting-7)
+mark(wish-10, if-8)
+nsubj(wish-10, you-9)
+advcl(attend-4, wish-10)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD was)
+      (VP (VBG going)
+        (S
+          (VP (TO to)
+            (VP (VB write)
+              (NP
+                (NP (DT a) (JJR longer) (NN article))
+                (PP (IN about)
+                  (NP (PRP$ my) (NNS thoughts))))
+              (PP (IN about)
+                (NP
+                  (NP (DT the) (NN meaning))
+                  (PP (IN of)
+                    (NP (NN life))))))))))
+    (, ,)))
+
+
+nsubj(going-3, I-1)
+aux(going-3, was-2)
+root(ROOT-0, going-3)
+aux(write-5, to-4)
+xcomp(going-3, write-5)
+det(article-8, a-6)
+amod(article-8, longer-7)
+dobj(write-5, article-8)
+prep(article-8, about-9)
+poss(thoughts-11, my-10)
+pobj(about-9, thoughts-11)
+prep(write-5, about-12)
+det(meaning-14, the-13)
+pobj(about-12, meaning-14)
+prep(meaning-14, of-15)
+pobj(of-15, life-16)
+
+
+(ROOT
+  (S (CC but)
+    (NP (PRP I))
+    (VP (VBD came)
+      (PP (IN across)
+        (NP (DT this)
+          (ADJP (RB very) (JJ interesting))
+          (NN talk)))
+      (SBAR (IN that)
+        (S
+          (NP (NNP Rick) (NNP Warren))
+          (VP (VBD gave)
+            (PP (IN at)
+              (NP (NNP Ted.com)))))))
+    (. .)))
+
+
+cc(came-3, but-1)
+nsubj(came-3, I-2)
+root(ROOT-0, came-3)
+prep(came-3, across-4)
+det(talk-8, this-5)
+advmod(interesting-7, very-6)
+amod(talk-8, interesting-7)
+pobj(across-4, talk-8)
+mark(gave-12, that-9)
+nn(Warren-11, Rick-10)
+nsubj(gave-12, Warren-11)
+ccomp(came-3, gave-12)
+prep(gave-12, at-13)
+pobj(at-13, Ted.com-14)
+
+
+(ROOT
+  (S
+    (NP (NNP Rick) (NNP Warren))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (NN author))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (NN book))
+            (`` ``)
+            (NP (NNP Purpose) (NNP Driven) (NNP Life))
+            ('' '')))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBN sold)
+              (PP (IN over)
+                (NP
+                  (QP (CD 30) (CD million))
+                  (NNS copies))))))))
+    (. .)))
+
+
+nn(Warren-2, Rick-1)
+nsubj(author-5, Warren-2)
+cop(author-5, is-3)
+det(author-5, the-4)
+root(ROOT-0, author-5)
+prep(author-5, of-6)
+det(book-8, the-7)
+pobj(of-6, book-8)
+nn(Life-12, Purpose-10)
+nn(Life-12, Driven-11)
+dep(book-8, Life-12)
+nsubj(sold-15, which-14)
+rcmod(author-5, sold-15)
+prep(sold-15, over-16)
+number(million-18, 30-17)
+num(copies-19, million-18)
+pobj(over-16, copies-19)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was))
+    (, ,)))
+
+
+nsubj(was-2, It-1)
+root(ROOT-0, was-2)
+
+
+(ROOT
+  (FRAG
+    (PP (IN at)
+      (NP (CD one) (NN time)))
+    (, ,)))
+
+
+root(ROOT-0, at-1)
+num(time-3, one-2)
+pobj(at-1, time-3)
+
+
+(ROOT
+  (NP
+    (NP (DT the) (JJS best) (NN selling) (NN book))
+    (PP (IN in)
+      (NP (DT the) (NN world)))
+    (. .)))
+
+
+det(book-4, the-1)
+amod(book-4, best-2)
+nn(book-4, selling-3)
+root(ROOT-0, book-4)
+prep(book-4, in-5)
+det(world-7, the-6)
+pobj(in-5, world-7)
+
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (PRP$ his) (NN talk)))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+poss(talk-3, his-2)
+pobj(In-1, talk-3)
+
+
+(ROOT
+  (S
+    (NP (PRP he))
+    (VP (VBD spoke)
+      (PP (IN about)
+        (SBAR
+          (SBAR
+            (WHNP
+              (WHADJP (WRB how) (JJ much))
+              (NN money))
+            (S
+              (NP (DT the) (NN book))
+              (VP (VBD brought)
+                (NP (PRP him)))))
+          (CC and)
+          (SBAR
+            (WHADVP (WRB how))
+            (S
+              (NP (PRP he))
+              (VP (VBD gave)
+                (NP (PRP it))
+                (ADVP (DT all) (RB away))))))))
+    (, ,)))
+
+
+nsubj(spoke-2, he-1)
+root(ROOT-0, spoke-2)
+prep(spoke-2, about-3)
+advmod(much-5, how-4)
+amod(money-6, much-5)
+dobj(brought-9, money-6)
+det(book-8, the-7)
+nsubj(brought-9, book-8)
+pcomp(about-3, brought-9)
+dobj(brought-9, him-10)
+cc(brought-9, and-11)
+advmod(gave-14, how-12)
+nsubj(gave-14, he-13)
+conj(brought-9, gave-14)
+dobj(gave-14, it-15)
+dep(away-17, all-16)
+advmod(gave-14, away-17)
+
+
+(ROOT
+  (FRAG
+    (PP (RB because) (IN after)
+      (NP (DT all)))
+    (, ,)))
+
+
+advmod(after-2, because-1)
+root(ROOT-0, after-2)
+pobj(after-2, all-3)
+
+
+(ROOT
+  (FRAG
+    (NP (DT the) (NN book)
+      (SBAR
+        (S
+          (NP (PRP he))
+          (VP (VBD wrote)
+            (S
+              (VP (VBN started)
+                (PP (IN with)
+                  (NP (DT the) (NN sentence)))
+                (, ,)))))))))
+
+
+det(book-2, the-1)
+root(ROOT-0, book-2)
+nsubj(wrote-4, he-3)
+ccomp(book-2, wrote-4)
+dep(wrote-4, started-5)
+prep(started-5, with-6)
+det(sentence-8, the-7)
+pobj(with-6, sentence-8)
+
+
+(ROOT
+  (S (`` ``)
+    (NP (PRP It))
+    (VP (VBZ 's) (RB not)
+      (PP (IN about)
+        (NP (PRP you)))
+      ('' ''))
+    (. .)))
+
+
+nsubj('s-3, It-2)
+root(ROOT-0, 's-3)
+neg('s-3, not-4)
+prep('s-3, about-5)
+pobj(about-5, you-6)
+
+
+(ROOT
+  (S (IN So)
+    (NP (PRP he))
+    (VP (VBD gave)
+      (NP (PRP it))
+      (ADVP (DT all) (RB away))
+      (SBAR (IN because)
+        (S
+          (NP (PRP he))
+          (VP (VBD felt)
+            (SBAR
+              (S
+                (S
+                  (NP
+                    (NP (PDT all) (DT the) (NN money))
+                    (CC and)
+                    (NP (NN fame)))
+                  (VP (VBD was)
+                    (VP (VBN given)
+                      (PP (TO to)
+                        (NP (PRP him)))
+                      (PP (IN for)
+                        (NP (DT a) (NN purpose))))))
+                (CC and)
+                (S
+                  (NP (PRP it))
+                  (VP (VBD was) (RB not)
+                    (VP (VBN meant)
+                      (PP (IN for)
+                        (NP (PRP him))))))))))))
+    (. .)))
+
+
+dep(gave-3, So-1)
+nsubj(gave-3, he-2)
+root(ROOT-0, gave-3)
+dobj(gave-3, it-4)
+dep(away-6, all-5)
+advmod(gave-3, away-6)
+mark(felt-9, because-7)
+nsubj(felt-9, he-8)
+advcl(gave-3, felt-9)
+predet(money-12, all-10)
+det(money-12, the-11)
+nsubjpass(given-16, money-12)
+cc(money-12, and-13)
+conj(money-12, fame-14)
+auxpass(given-16, was-15)
+dep(felt-9, given-16)
+prep(given-16, to-17)
+pobj(to-17, him-18)
+prep(given-16, for-19)
+det(purpose-21, a-20)
+pobj(for-19, purpose-21)
+cc(given-16, and-22)
+nsubjpass(meant-26, it-23)
+auxpass(meant-26, was-24)
+neg(meant-26, not-25)
+conj(given-16, meant-26)
+prep(meant-26, for-27)
+pobj(for-27, him-28)
+
+
+(ROOT
+  (NP
+    (S
+      (S
+        (NP (PRP It))
+        (VP (VBZ 's)
+          (NP (DT an) (JJ interesting) (NN talk))))
+      (CC and)
+      (S
+        (NP (PRP I))
+        (VP (MD would)
+          (VP (VB commend)
+            (NP (PRP it))
+            (PP (TO to)
+              (NP
+                (NP (PRP you))
+                (CONJP (RB as) (RB well) (IN as))
+                (NP (DT the) (CD two) (NNS books))))))))))
+
+
+nsubj(talk-5, It-1)
+cop(talk-5, 's-2)
+det(talk-5, an-3)
+amod(talk-5, interesting-4)
+root(ROOT-0, talk-5)
+cc(talk-5, and-6)
+nsubj(commend-9, I-7)
+aux(commend-9, would-8)
+conj(talk-5, commend-9)
+dobj(commend-9, it-10)
+prep(commend-9, to-11)
+pobj(to-11, you-12)
+advmod(well-14, as-13)
+cc(you-12, well-14)
+mwe(well-14, as-15)
+det(books-18, the-16)
+num(books-18, two-17)
+conj(you-12, books-18)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD mentioned)
+      (ADVP (RBR earlier)))
+    (. .)))
+
+
+nsubj(mentioned-2, I-1)
+root(ROOT-0, mentioned-2)
+advmod(mentioned-2, earlier-3)
+
+
+(ROOT
+  (FRAG
+    (S
+      (ADVP (IN So) (DT this))
+      (VP (VBG coming)
+        (S
+          (NP (NNP Easter) (, ,)))))))
+
+
+advmod(coming-3, So-1)
+dep(So-1, this-2)
+root(ROOT-0, coming-3)
+dep(coming-3, Easter-4)
+
+
+(ROOT
+  (S
+    (S
+      (VP (VB have)
+        (NP
+          (NP (DT a) (NN thought))
+          (PP (IN about)
+            (NP (DT the) (`` ``) (NNP Meaning) (IN of) (NNP Life) ('' ''))))))
+    (CC and)
+    (S
+      (NP (PRP we))
+      (VP (MD would)
+        (VP (VB love)
+          (S
+            (VP (TO to)
+              (VP (VB meet)
+                (NP (PRP you))
+                (PP (IN at)
+                  (NP
+                    (NP (PRP$ our) (NN gathering))
+                    (PP (IN on)
+                      (NP (NNP Good) (NNP Friday)))))))))))
+    (. .)))
+
+
+root(ROOT-0, have-1)
+det(thought-3, a-2)
+dobj(have-1, thought-3)
+prep(thought-3, about-4)
+det(Life-9, the-5)
+nn(Life-9, Meaning-7)
+amod(Life-9, of-8)
+pobj(about-4, Life-9)
+cc(have-1, and-11)
+nsubj(love-14, we-12)
+aux(love-14, would-13)
+conj(have-1, love-14)
+aux(meet-16, to-15)
+xcomp(love-14, meet-16)
+dobj(meet-16, you-17)
+prep(meet-16, at-18)
+poss(gathering-20, our-19)
+pobj(at-18, gathering-20)
+prep(gathering-20, on-21)
+nn(Friday-23, Good-22)
+pobj(on-21, Friday-23)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (VBP are)
+        (VP (VBG planning)
+          (S
+            (VP (TO to)
+              (VP (VB come))))))
+      (, ,))))
+
+
+mark(planning-4, If-1)
+nsubj(planning-4, you-2)
+aux(planning-4, are-3)
+root(ROOT-0, planning-4)
+aux(come-6, to-5)
+xcomp(planning-4, come-6)
+
+
+(ROOT
+  (S
+    (INTJ (VB please))
+    (VP (VB let)
+      (SBAR
+        (S
+          (NP
+            (NP (NNP Cactuskitty))
+            (PRN (-LRB- -LRB-)
+              (NP (NNP Shirley))
+              (-RRB- -RRB-)))
+          (VP (VBP know)
+            (PP (IN by)
+              (S
+                (VP (VBG emailing)
+                  (NP (PRP her))
+                  (PP (IN at)))))))))
+    (. .)))
+
+
+discourse(let-2, please-1)
+root(ROOT-0, let-2)
+nsubj(know-7, Cactuskitty-3)
+appos(Cactuskitty-3, Shirley-5)
+ccomp(let-2, know-7)
+prep(know-7, by-8)
+pcomp(by-8, emailing-9)
+dobj(emailing-9, her-10)
+prep(emailing-9, at-11)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP are)
+      (ADJP (RBS most) (JJ welcome)
+        (S
+          (VP (TO to)
+            (VP (VB bring)
+              (NP (PRP$ your) (NNS friends)
+                (CC and)
+                (NN family))
+              (ADVP (RB along) (RB too)))))))
+    (. !)))
+
+
+nsubj(welcome-4, You-1)
+cop(welcome-4, are-2)
+advmod(welcome-4, most-3)
+root(ROOT-0, welcome-4)
+aux(bring-6, to-5)
+xcomp(welcome-4, bring-6)
+poss(friends-8, your-7)
+dobj(bring-6, friends-8)
+cc(friends-8, and-9)
+conj(friends-8, family-10)
+advmod(too-12, along-11)
+advmod(bring-6, too-12)
+
+

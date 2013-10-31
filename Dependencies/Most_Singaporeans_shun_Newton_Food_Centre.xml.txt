@@ -1,0 +1,285 @@
+(ROOT
+  (FRAG
+    (PP (IN Well))
+    (, ,)))
+
+
+root(ROOT-0, Well-1)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NNS polls))
+    (VP (VBP are)
+      (PP (IN in)
+        (PRN (CC and)
+          (S
+            (NP (PRP it))
+            (VP (VBZ seems)
+              (WHNP (WDT that)))))
+        (NP
+          (QP (RB only) (CD 8.3))
+          (NN %))))))
+
+
+det(polls-2, the-1)
+nsubj(are-3, polls-2)
+root(ROOT-0, are-3)
+prep(are-3, in-4)
+cc(that-8, and-5)
+nsubj(that-8, it-6)
+cop(that-8, seems-7)
+dep(in-4, that-8)
+quantmod(8.3-10, only-9)
+num(%-11, 8.3-10)
+pobj(in-4, %-11)
+
+
+(ROOT
+  (SINV
+    (PP (IN of)
+      (NP (PRP$ our) (NNS readers)))
+    (VP
+      (ADVP (RB actually))
+      (VBP love)
+      (NP (NNP Newton) (NNP Food)))
+    (NP (NN center))
+    (. .)))
+
+
+prep(love-5, of-1)
+poss(readers-3, our-2)
+pobj(of-1, readers-3)
+advmod(love-5, actually-4)
+root(ROOT-0, love-5)
+nn(Food-7, Newton-6)
+dobj(love-5, Food-7)
+nsubj(love-5, center-8)
+
+
+(ROOT
+  (S (IN So)
+    (NP (PRP it))
+    (VP (VBZ looks)
+      (SBAR (IN like)
+        (S
+          (NP (PRP it))
+          (VP (VBZ is)
+            (NP (DT a) (JJ real) (NN tourist) (NN trap))))))
+    (. .)))
+
+
+dep(looks-3, So-1)
+nsubj(looks-3, it-2)
+root(ROOT-0, looks-3)
+mark(trap-10, like-4)
+nsubj(trap-10, it-5)
+cop(trap-10, is-6)
+det(trap-10, a-7)
+amod(trap-10, real-8)
+nn(trap-10, tourist-9)
+advcl(looks-3, trap-10)
+
+
+(ROOT
+  (NP (RB Quite) (DT a) (NN shame)
+    (SBAR
+      (ADVP (RB really))
+      (IN as)
+      (S
+        (NP (PRP it))
+        (VP (VBD used)
+          (S
+            (VP (TO to)
+              (VP (VB be)
+                (NP (DT a) (JJ great) (NN place)
+                  (S
+                    (VP (TO to)
+                      (VP (VB go)
+                        (PP (IN for)
+                          (NP
+                            (NP (DT a) (NN variety))
+                            (PP (IN of)
+                              (NP (NN hawker) (NN food)))))))))))))))
+    (. .)))
+
+
+advmod(shame-3, Quite-1)
+det(shame-3, a-2)
+root(ROOT-0, shame-3)
+advmod(used-7, really-4)
+mark(used-7, as-5)
+nsubj(used-7, it-6)
+ccomp(shame-3, used-7)
+aux(place-12, to-8)
+cop(place-12, be-9)
+det(place-12, a-10)
+amod(place-12, great-11)
+xcomp(used-7, place-12)
+aux(go-14, to-13)
+infmod(place-12, go-14)
+prep(go-14, for-15)
+det(variety-17, a-16)
+pobj(for-15, variety-17)
+prep(variety-17, of-18)
+nn(food-20, hawker-19)
+pobj(of-18, food-20)
+
+
+(ROOT
+  (FRAG
+    (PP
+      (ADVP (RB Hopefully))
+      (IN after)
+      (NP (DT this) (NN incident)))
+    (, ,)))
+
+
+advmod(after-2, Hopefully-1)
+root(ROOT-0, after-2)
+det(incident-4, this-3)
+pobj(after-2, incident-4)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NN food) (NN center))
+    (VP (MD can)
+      (VP (VB clean)
+        (PRT (RP up))
+        (NP (PRP$ its) (NN act))))
+    (. .)))
+
+
+det(center-3, the-1)
+nn(center-3, food-2)
+nsubj(clean-5, center-3)
+aux(clean-5, can-4)
+root(ROOT-0, clean-5)
+prt(clean-5, up-6)
+poss(act-8, its-7)
+dobj(clean-5, act-8)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ first) (NN thing))
+      (SBAR
+        (WHNP (WDT that))
+        (S
+          (VP (VBZ needs)
+            (S
+              (VP (TO to)
+                (VP (VB happen))))))
+        (, ,)))))
+
+
+det(thing-3, The-1)
+amod(thing-3, first-2)
+root(ROOT-0, thing-3)
+nsubj(needs-5, that-4)
+rcmod(thing-3, needs-5)
+aux(happen-7, to-6)
+xcomp(needs-5, happen-7)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think))
+    (, ,)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+
+
+(ROOT
+  (S
+    (S
+      (VP (VBZ is)
+        (PP (IN for)
+          (NP
+            (NP (DT some))
+            (PP (IN of)
+              (NP (DT the) (NNP BBQ) (NN seafood)))))))
+    (VP (VBZ places)
+      (S
+        (VP (TO to)
+          (VP (VB be)
+            (VP (VBN replaced)
+              (PP (IN by)
+                (NP
+                  (NP (JJ other) (NNS types))
+                  (PP (IN of)
+                    (NP (NN hawker) (NN food))))))))))
+    (. .)))
+
+
+csubj(places-8, is-1)
+prep(is-1, for-2)
+pobj(for-2, some-3)
+prep(some-3, of-4)
+det(seafood-7, the-5)
+nn(seafood-7, BBQ-6)
+pobj(of-4, seafood-7)
+root(ROOT-0, places-8)
+aux(replaced-11, to-9)
+auxpass(replaced-11, be-10)
+xcomp(places-8, replaced-11)
+prep(replaced-11, by-12)
+amod(types-14, other-13)
+pobj(by-12, types-14)
+prep(types-14, of-15)
+nn(food-17, hawker-16)
+pobj(of-15, food-17)
+
+
+(ROOT
+  (S (CC But)
+    (ADVP (RB somehow))
+    (NP (PRP I))
+    (VP (VBP do) (RB n't)
+      (VP (VB see)
+        (NP
+          (NP (DT that))
+          (VP (VBG happening)
+            (ADVP (RB anytime) (RB soon))))))
+    (. .)))
+
+
+cc(see-6, But-1)
+advmod(see-6, somehow-2)
+nsubj(see-6, I-3)
+aux(see-6, do-4)
+neg(see-6, n't-5)
+root(ROOT-0, see-6)
+dobj(see-6, that-7)
+partmod(that-7, happening-8)
+advmod(soon-10, anytime-9)
+advmod(happening-8, soon-10)
+
+
+(ROOT
+  (NP
+    (NP (NNS Thanks))
+    (PP (TO to)
+      (NP
+        (NP (DT all) (CD 1553) (NNS readers))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBN polled))))))
+    (. !)))
+
+
+root(ROOT-0, Thanks-1)
+prep(Thanks-1, to-2)
+det(readers-5, all-3)
+num(readers-5, 1553-4)
+pobj(to-2, readers-5)
+nsubj(polled-7, who-6)
+rcmod(readers-5, polled-7)
+
+

@@ -1,0 +1,182 @@
+(ROOT
+  (S
+    (VP (VBN Filmed)
+      (PP (IN in)
+        (NP (NNP HD)))
+      (PP (IN with)
+        (NP (DT the) (NNP Canon) (NNP EOS) (CD 7D))))
+    (. !)))
+
+
+root(ROOT-0, Filmed-1)
+prep(Filmed-1, in-2)
+pobj(in-2, HD-3)
+prep(Filmed-1, with-4)
+det(EOS-7, the-5)
+nn(EOS-7, Canon-6)
+pobj(with-4, EOS-7)
+num(EOS-7, 7D-8)
+
+
+(ROOT
+  (S
+    (NP (JJ Makes) (DT the) (NN steak))
+    (VP (VBP look)
+      (ADJP (RB especially) (JJ juicy)))
+    (, ,)))
+
+
+amod(steak-3, Makes-1)
+det(steak-3, the-2)
+nsubj(look-4, steak-3)
+root(ROOT-0, look-4)
+advmod(juicy-6, especially-5)
+acomp(look-4, juicy-6)
+
+
+(ROOT
+  (S
+    (S
+      (VP (VB do) (RB n't)))
+    (NP (PRP you))
+    (VP (VBP think))
+    (. ?)))
+
+
+dep(think-4, do-1)
+neg(do-1, n't-2)
+nsubj(think-4, you-3)
+root(ROOT-0, think-4)
+
+
+(ROOT
+  (NP
+    (NP (JJ Many) (NNS thanks))
+    (PP (TO to)
+      (NP
+        (NP (NNP Sia) (NNP Huat))
+        (PP (IN for)
+          (S
+            (VP (VBG supporting)
+              (NP (PRP$ our) (NNS Videos)))))))
+    (. .)))
+
+
+amod(thanks-2, Many-1)
+root(ROOT-0, thanks-2)
+prep(thanks-2, to-3)
+nn(Huat-5, Sia-4)
+pobj(to-3, Huat-5)
+prep(Huat-5, for-6)
+pcomp(for-6, supporting-7)
+poss(Videos-9, our-8)
+dobj(supporting-7, Videos-9)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP get)
+      (SBAR
+        (S
+          (NP
+            (NP (JJS most))
+            (PP (IN of)
+              (NP
+                (NP (PRP$ my) (NN kitchen) (NNS appliances))
+                (PP (IN at)
+                  (NP
+                    (NP (NNP Sia) (NNP Huat))
+                    (CC and)
+                    (NP (DT the) (JJ great) (NN news)))))))
+          (VP (VBZ is)
+            (SBAR (IN that)
+              (S
+                (NP (PRP$ their) (JJ Annual) (NN Warehouse) (NN Sale))
+                (VP (VBZ is)
+                  (ADVP (RB just))
+                  (VP (VBG round)
+                    (NP (DT the) (NN corner))))))))))
+    (. .)))
+
+
+nsubj(get-2, I-1)
+root(ROOT-0, get-2)
+nsubj(is-15, most-3)
+prep(most-3, of-4)
+poss(appliances-7, my-5)
+nn(appliances-7, kitchen-6)
+pobj(of-4, appliances-7)
+prep(appliances-7, at-8)
+nn(Huat-10, Sia-9)
+pobj(at-8, Huat-10)
+cc(Huat-10, and-11)
+det(news-14, the-12)
+amod(news-14, great-13)
+conj(Huat-10, news-14)
+ccomp(get-2, is-15)
+mark(round-23, that-16)
+poss(Sale-20, their-17)
+amod(Sale-20, Annual-18)
+nn(Sale-20, Warehouse-19)
+nsubj(round-23, Sale-20)
+aux(round-23, is-21)
+advmod(round-23, just-22)
+ccomp(is-15, round-23)
+det(corner-25, the-24)
+dobj(round-23, corner-25)
+
+
+(ROOT
+  (S
+    (NP (PRP$ Its) (NN going)
+      (S
+        (VP (TO to)
+          (VP (VB be)
+            (NP
+              (NP (DT a) (JJ great) (NN opportunity))
+              (PP (IN for)
+                (NP (PRP you)))
+              (S
+                (VP (TO to)
+                  (VP (VB pick)
+                    (PRT (RP up))
+                    (NP (DT those) (NN kitchen))))))))))
+    (VP (VBP gear)
+      (SBAR
+        (WHNP (WDT which))
+        (S
+          (NP (PRP you))
+          (VP (VBP have)
+            (VP (VBN been)
+              (VP (VBG waiting)
+                (S
+                  (VP (TO to)
+                    (VP (VB buy))))))))))
+    (. !)))
+
+
+poss(going-2, Its-1)
+nsubj(gear-15, going-2)
+aux(opportunity-7, to-3)
+cop(opportunity-7, be-4)
+det(opportunity-7, a-5)
+amod(opportunity-7, great-6)
+infmod(going-2, opportunity-7)
+prep(opportunity-7, for-8)
+pobj(for-8, you-9)
+aux(pick-11, to-10)
+infmod(opportunity-7, pick-11)
+prt(pick-11, up-12)
+det(kitchen-14, those-13)
+dobj(pick-11, kitchen-14)
+root(ROOT-0, gear-15)
+dobj(waiting-20, which-16)
+nsubj(waiting-20, you-17)
+aux(waiting-20, have-18)
+aux(waiting-20, been-19)
+ccomp(gear-15, waiting-20)
+aux(buy-22, to-21)
+xcomp(waiting-20, buy-22)
+
+

@@ -1,0 +1,487 @@
+(ROOT
+  (S
+    (NP (JJ Many) (NNS readers))
+    (VP (VBP have)
+      (VP (VBN been)
+        (VP (VBG writing)
+          (PRT (RP in))
+          (PP (IN about)
+            (S
+              (VP (VBG wanting)
+                (S
+                  (VP (TO to)
+                    (VP (VB attend)
+                      (NP (DT the) (NN food) (NN photography) (NN workshop)))))))))))
+    (, ,)))
+
+
+amod(readers-2, Many-1)
+nsubj(writing-5, readers-2)
+aux(writing-5, have-3)
+aux(writing-5, been-4)
+root(ROOT-0, writing-5)
+prt(writing-5, in-6)
+prep(writing-5, about-7)
+pcomp(about-7, wanting-8)
+aux(attend-10, to-9)
+xcomp(wanting-8, attend-10)
+det(workshop-14, the-11)
+nn(workshop-14, food-12)
+nn(workshop-14, photography-13)
+dobj(attend-10, workshop-14)
+
+
+(ROOT
+  (S (IN so)
+    (NP (PRP we))
+    (VP (VBP are)
+      (VP (VBG organizing)
+        (NP
+          (NP (DT the) (JJ next) (NN one))
+          (PP (IN in)
+            (NP (NNP July))))))
+    (. !)))
+
+
+dep(organizing-4, so-1)
+nsubj(organizing-4, we-2)
+aux(organizing-4, are-3)
+root(ROOT-0, organizing-4)
+det(one-7, the-5)
+amod(one-7, next-6)
+dobj(organizing-4, one-7)
+prep(one-7, in-8)
+pobj(in-8, July-9)
+
+
+(ROOT
+  (S
+    (NP (DT This) (NN time))
+    (VP (VBP round))
+    (, ,)))
+
+
+det(time-2, This-1)
+nsubj(round-3, time-2)
+root(ROOT-0, round-3)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (VP (MD will)
+      (VP (VB be)
+        (VP (VBG holding)
+          (NP (PRP it))
+          (PP (IN at)
+            (NP (NNP Tetsu) (NNPS Japanese) (NNP Restaurant))))))
+    (, ,)))
+
+
+nsubj(holding-4, we-1)
+aux(holding-4, will-2)
+aux(holding-4, be-3)
+root(ROOT-0, holding-4)
+dobj(holding-4, it-5)
+prep(holding-4, at-6)
+nn(Restaurant-9, Tetsu-7)
+nn(Restaurant-9, Japanese-8)
+pobj(at-6, Restaurant-9)
+
+
+(ROOT
+  (S (CC and)
+    (NP (DT the) (NN chef))
+    (VP (VBZ has)
+      (VP (VBN created)
+        (NP (DT a) (NN menu))
+        (ADVP (RB specially))
+        (PP (IN for)
+          (NP (PRP$ our) (NN session)))))
+    (. !)))
+
+
+cc(created-5, and-1)
+det(chef-3, the-2)
+nsubj(created-5, chef-3)
+aux(created-5, has-4)
+root(ROOT-0, created-5)
+det(menu-7, a-6)
+dobj(created-5, menu-7)
+advmod(created-5, specially-8)
+prep(created-5, for-9)
+poss(session-11, our-10)
+pobj(for-9, session-11)
+
+
+(ROOT
+  (SINV
+    (ADVP (RB Here))
+    (VP (VBP are))
+    (NP (DT the) (NNS details))
+    (: :)))
+
+
+advmod(are-2, Here-1)
+root(ROOT-0, are-2)
+det(details-4, the-3)
+nsubj(are-2, details-4)
+
+
+(ROOT
+  (NP (NNP Venue) (: :)))
+
+
+root(ROOT-0, Venue-1)
+
+
+(ROOT
+  (S
+    (NP (NNP Tetsu) (NNPS Japanese))
+    (VP (VBZ Restaurant))
+    (, ,)))
+
+
+nn(Japanese-2, Tetsu-1)
+nsubj(Restaurant-3, Japanese-2)
+root(ROOT-0, Restaurant-3)
+
+
+(ROOT
+  (NP (NNP Tanglin) (NNP Mall) (NNP Date) (: :)))
+
+
+nn(Date-3, Tanglin-1)
+nn(Date-3, Mall-2)
+root(ROOT-0, Date-3)
+
+
+(ROOT
+  (NP (NNP 24) (NNP July) (NNP 2010) (NNP Time) (: :)))
+
+
+nn(Time-4, 24-1)
+nn(Time-4, July-2)
+nn(Time-4, 2010-3)
+root(ROOT-0, Time-4)
+
+
+(ROOT
+  (NP (JJ 2pm) (NN Price) (: :)))
+
+
+amod(Price-2, 2pm-1)
+root(ROOT-0, Price-2)
+
+
+(ROOT
+  (INTJ (UH $)))
+
+
+root(ROOT-0, $-1)
+
+
+(ROOT
+  (NP
+    (NP (CD 45) (NN nett) (NN Program))
+    (: :)))
+
+
+num(Program-3, 45-1)
+nn(Program-3, nett-2)
+root(ROOT-0, Program-3)
+
+
+(ROOT
+  (NP
+    (NP
+      (QP (CD 1.45) (CD pm))
+      (NNP Registration) (CD 2.00) (NN pm))
+    (: :)))
+
+
+number(pm-2, 1.45-1)
+num(pm-5, pm-2)
+nn(pm-5, Registration-3)
+num(pm-5, 2.00-4)
+root(ROOT-0, pm-5)
+
+
+(ROOT
+  (FRAG
+    (ADJP (JJ Lecture)
+      (PP (IN on)
+        (NP (NNP Food) (NNP Photography) (NNP 2.45) (NNP pm))))
+    (: :)))
+
+
+root(ROOT-0, Lecture-1)
+prep(Lecture-1, on-2)
+nn(pm-6, Food-3)
+nn(pm-6, Photography-4)
+nn(pm-6, 2.45-5)
+pobj(on-2, pm-6)
+
+
+(ROOT
+  (S
+    (NP (NNP Food))
+    (VP (VBZ is)
+      (VP (VBN served)))
+    (, ,)))
+
+
+nsubjpass(served-3, Food-1)
+auxpass(served-3, is-2)
+root(ROOT-0, served-3)
+
+
+(ROOT
+  (S
+    (NP (NN Shooting))
+    (VP (VBZ begins))
+    (. !)))
+
+
+nsubj(begins-2, Shooting-1)
+root(ROOT-0, begins-2)
+
+
+(ROOT
+  (NP (NNP Menu) (: :)))
+
+
+root(ROOT-0, Menu-1)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 1))
+    (. .)))
+
+
+root(ROOT-0, 1-1)
+
+
+(ROOT
+  (NP
+    (NP (NNP Temari) (NNP Sushi))
+    (: --)
+    (NP (NNP Salmon)
+      (CC &)
+      (NNP Prawn) (NNP Sushi) (CD 2))
+    (. .)))
+
+
+nn(Sushi-2, Temari-1)
+root(ROOT-0, Sushi-2)
+nn(Sushi-7, Salmon-4)
+cc(Salmon-4, &-5)
+conj(Salmon-4, Prawn-6)
+dep(Sushi-2, Sushi-7)
+num(Sushi-7, 2-8)
+
+
+(ROOT
+  (NP
+    (NP
+      (NP (NNP Sake))
+      (NP (DT no) (NNP Anchovy) (NNP Yaki)))
+    (: --)
+    (NP
+      (NP (NNP Grilled) (NNP Salmon)
+        (CC &)
+        (NNP Anchovy))
+      (NP (CD 3)))
+    (. .)))
+
+
+root(ROOT-0, Sake-1)
+det(Yaki-4, no-2)
+nn(Yaki-4, Anchovy-3)
+dep(Sake-1, Yaki-4)
+nn(Salmon-7, Grilled-6)
+dep(Sake-1, Salmon-7)
+cc(Salmon-7, &-8)
+conj(Salmon-7, Anchovy-9)
+dep(Salmon-7, 3-10)
+
+
+(ROOT
+  (NP
+    (NP
+      (NP (NNP Tori))
+      (NP (DT no) (NNP Karaage) (NNP Umeshisotumi)))
+    (: --)
+    (NP
+      (NP (NNP Deep-Fried) (NNP Chicken))
+      (NP (CD 4)))
+    (. .)))
+
+
+root(ROOT-0, Tori-1)
+det(Umeshisotumi-4, no-2)
+nn(Umeshisotumi-4, Karaage-3)
+dep(Tori-1, Umeshisotumi-4)
+nn(Chicken-7, Deep-Fried-6)
+dep(Tori-1, Chicken-7)
+dep(Chicken-7, 4-8)
+
+
+(ROOT
+  (NP
+    (NP (NNP Sashimi) (NNP Moriawase))
+    (: --)
+    (NP
+      (NP (NNP Assorted) (NNP Sashimi))
+      (NP (CD 5)))
+    (. .)))
+
+
+nn(Moriawase-2, Sashimi-1)
+root(ROOT-0, Moriawase-2)
+nn(Sashimi-5, Assorted-4)
+dep(Moriawase-2, Sashimi-5)
+dep(Sashimi-5, 5-6)
+
+
+(ROOT
+  (NP
+    (NP (NNP Tebasaki))
+    (: --)
+    (NP
+      (NP (NNP BBQ) (NNP Mid-Joint) (NNP Chicken))
+      (NP (CD 6)))
+    (. .)))
+
+
+root(ROOT-0, Tebasaki-1)
+nn(Chicken-5, BBQ-3)
+nn(Chicken-5, Mid-Joint-4)
+dep(Tebasaki-1, Chicken-5)
+dep(Chicken-5, 6-6)
+
+
+(ROOT
+  (NP
+    (NP (NNP Ebi) (DT no) (NNP Yubaage))
+    (: --)
+    (NP
+      (NP (NNP Deep-Fried) (NNP Prawn) (NNP Wrapped))
+      (PP (IN with)
+        (NP (NNP Beancurd) (NNP Skin) (CD 7))))
+    (. .)))
+
+
+nn(Yubaage-3, Ebi-1)
+det(Yubaage-3, no-2)
+root(ROOT-0, Yubaage-3)
+nn(Wrapped-7, Deep-Fried-5)
+nn(Wrapped-7, Prawn-6)
+dep(Yubaage-3, Wrapped-7)
+prep(Wrapped-7, with-8)
+nn(Skin-10, Beancurd-9)
+pobj(with-8, Skin-10)
+num(Skin-10, 7-11)
+
+
+(ROOT
+  (NP
+    (NP (NNP Takemoko) (NNP Tosami))
+    (: --)
+    (NP
+      (NP (NNP Braised) (NNP Bamboo) (NNP Shoot))
+      (NP (CD 8)))
+    (. .)))
+
+
+nn(Tosami-2, Takemoko-1)
+root(ROOT-0, Tosami-2)
+nn(Shoot-6, Braised-4)
+nn(Shoot-6, Bamboo-5)
+dep(Tosami-2, Shoot-6)
+dep(Shoot-6, 8-7)
+
+
+(ROOT
+  (S
+    (NP (NNP Macha))
+    (VP (VBZ Mousse) (: --)
+      (S
+        (NP (NNP Green) (NNP Tea) (NNP Mousse))
+        (VP (TO To)
+          (VP (VB register)))))
+    (, ,)))
+
+
+nsubj(Mousse-2, Macha-1)
+root(ROOT-0, Mousse-2)
+nn(Mousse-6, Green-4)
+nn(Mousse-6, Tea-5)
+nsubj(register-8, Mousse-6)
+aux(register-8, To-7)
+parataxis(Mousse-2, register-8)
+
+
+(ROOT
+  (S
+    (VP (VB log)
+      (PP (IN onto)
+        (NP (DT the) (NNP Canon) (NNP Website))))
+    (: :)))
+
+
+root(ROOT-0, log-1)
+prep(log-1, onto-2)
+det(Website-5, the-3)
+nn(Website-5, Canon-4)
+pobj(onto-2, Website-5)
+
+
+(ROOT
+  (NP (NN http://digitallab.canon.com.sg/foodtestsu_info.html)))
+
+
+root(ROOT-0, http://digitallab.canon.com.sg/foodtestsu_info.html-1)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB read)
+        (PP (IN about)
+          (NP (DT the) (JJ previous) (NN session)))
+        (ADVP (RB here))))
+    (. .)))
+
+
+nsubj(read-3, You-1)
+aux(read-3, can-2)
+root(ROOT-0, read-3)
+prep(read-3, about-4)
+det(session-7, the-5)
+amod(session-7, previous-6)
+pobj(about-4, session-7)
+advmod(read-3, here-8)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB read)
+        (PP (IN about)
+          (NP (NNP Tetsu)))
+        (ADVP (RB here))))
+    (. .)))
+
+
+nsubj(read-3, You-1)
+aux(read-3, can-2)
+root(ROOT-0, read-3)
+prep(read-3, about-4)
+pobj(about-4, Tetsu-5)
+advmod(read-3, here-6)
+
+

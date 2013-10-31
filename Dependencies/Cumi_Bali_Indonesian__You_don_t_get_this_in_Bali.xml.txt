@@ -1,0 +1,147 @@
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ My) (NN visit))
+      (PP (TO to)
+        (NP (NNP Cumi) (NNP Bali))))
+    (VP (VBZ has)
+      (VP (VBN re-ignited)
+        (NP
+          (NP (PRP$ my) (NN interest))
+          (PP (IN in)
+            (NP (NNP Indonesian) (NN cuisine))))
+        (ADVP (RB again))))
+    (. !)))
+
+
+poss(visit-2, My-1)
+nsubj(re-ignited-7, visit-2)
+prep(visit-2, to-3)
+nn(Bali-5, Cumi-4)
+pobj(to-3, Bali-5)
+aux(re-ignited-7, has-6)
+root(ROOT-0, re-ignited-7)
+poss(interest-9, my-8)
+dobj(re-ignited-7, interest-9)
+prep(interest-9, in-10)
+nn(cuisine-12, Indonesian-11)
+pobj(in-10, cuisine-12)
+advmod(re-ignited-7, again-13)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Ironically))
+    (, ,)))
+
+
+root(ROOT-0, Ironically-1)
+
+
+(ROOT
+  (SBAR
+    (WHADVP (WRB when))
+    (S
+      (NP (PRP I))
+      (VP (VBD visited)
+        (NP (NNP Bali))
+        (NP (JJ last) (NN year)))
+      (, ,))))
+
+
+advmod(visited-3, when-1)
+nsubj(visited-3, I-2)
+root(ROOT-0, visited-3)
+dobj(visited-3, Bali-4)
+amod(year-6, last-5)
+tmod(visited-3, year-6)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NN food))
+    (VP (VBD did) (RB not)
+      (VP (VB leave)
+        (NP
+          (NP (DT that))
+          (PP (JJ much) (IN of)
+            (NP
+              (NP (DT an) (NN impression))
+              (PP (IN on)
+                (NP (PRP me))))))))
+    (. .)))
+
+
+det(food-2, the-1)
+nsubj(leave-5, food-2)
+aux(leave-5, did-3)
+neg(leave-5, not-4)
+root(ROOT-0, leave-5)
+dobj(leave-5, that-6)
+dep(of-8, much-7)
+prep(that-6, of-8)
+det(impression-10, an-9)
+pobj(of-8, impression-10)
+prep(impression-10, on-11)
+pobj(on-11, me-12)
+
+
+(ROOT
+  (S
+    (NP
+      (NP
+        (ADJP
+          (NP (RB Even) (DT the) (NN world))
+          (JJ famous))
+        (NNP Ibu) (NNP Oka))
+      (PP (IN in)
+        (NP (NNP Ubud))))
+    (VP (VBD did) (RB not)
+      (VP (VB live)
+        (PRT (RP up))
+        (PP (TO to)
+          (NP (PRP$ my) (NNS expectations)))))
+    (. .)))
+
+
+advmod(world-3, Even-1)
+det(world-3, the-2)
+npadvmod(famous-4, world-3)
+amod(Oka-6, famous-4)
+nn(Oka-6, Ibu-5)
+nsubj(live-11, Oka-6)
+prep(Oka-6, in-7)
+pobj(in-7, Ubud-8)
+aux(live-11, did-9)
+neg(live-11, not-10)
+root(ROOT-0, live-11)
+prt(live-11, up-12)
+prep(live-11, to-13)
+poss(expectations-15, my-14)
+pobj(to-13, expectations-15)
+
+
+(ROOT
+  (S (IN So)
+    (NP (NNP Indonesian) (NN food))
+    (VP (VBZ has)
+      (VP (VBN been)
+        (PP (IN off)
+          (NP (DT the) (NN radar)))
+        (PP (IN for)
+          (ADVP (RB awhile)))))
+    (. .)))
+
+
+dep(been-5, So-1)
+nn(food-3, Indonesian-2)
+nsubj(been-5, food-3)
+aux(been-5, has-4)
+root(ROOT-0, been-5)
+prep(been-5, off-6)
+det(radar-8, the-7)
+pobj(off-6, radar-8)
+prep(been-5, for-9)
+pcomp(for-9, awhile-10)
+
+

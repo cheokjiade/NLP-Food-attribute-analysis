@@ -1,0 +1,240 @@
+(ROOT
+  (S
+    (NP (PRP You))
+    (ADVP (DT all))
+    (VP (VBP have)
+      (ADVP (RB probably))
+      (VP (VBN seen)
+        (NP
+          (NP (NNP Aston) (POS 's))
+          (NN writeup))
+        (PP (IN on)
+          (NP
+            (NP (DT the) (NNS newspapers))
+            (NP (JJ last) (NNP Monday))))))
+    (. .)))
+
+
+nsubj(seen-5, You-1)
+advmod(seen-5, all-2)
+aux(seen-5, have-3)
+advmod(seen-5, probably-4)
+root(ROOT-0, seen-5)
+poss(writeup-8, Aston-6)
+possessive(Aston-6, 's-7)
+dobj(seen-5, writeup-8)
+prep(seen-5, on-9)
+det(newspapers-11, the-10)
+pobj(on-9, newspapers-11)
+amod(Monday-13, last-12)
+dep(newspapers-11, Monday-13)
+
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBZ is)
+      (VP (VBN known)
+        (PP (IN as)
+          (NP
+            (NP (DT the) (NN guy))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBZ offers)
+                  (NP
+                    (NP (NN premium) (NNS steaks))
+                    (PP (IN for)
+                      (NP (DT a)
+                        (ADJP (RB really) (JJ good))
+                        (NN price)))))))))))
+    (. .)))
+
+
+nsubjpass(known-3, He-1)
+auxpass(known-3, is-2)
+root(ROOT-0, known-3)
+prep(known-3, as-4)
+det(guy-6, the-5)
+pobj(as-4, guy-6)
+nsubj(offers-8, who-7)
+rcmod(guy-6, offers-8)
+nn(steaks-10, premium-9)
+dobj(offers-8, steaks-10)
+prep(steaks-10, for-11)
+det(price-15, a-12)
+advmod(good-14, really-13)
+amod(price-15, good-14)
+pobj(for-11, price-15)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB Well))
+    (SBAR (RB now)
+      (S
+        (NP (PRP I))
+        (VP (VBP have)
+          (NP
+            (NP (NN news))
+            (PP (IN for)
+              (NP (NN steak) (NNS lovers)))))))
+    (. !)))
+
+
+root(ROOT-0, Well-1)
+advmod(have-4, now-2)
+nsubj(have-4, I-3)
+dep(Well-1, have-4)
+dobj(have-4, news-5)
+prep(news-5, for-6)
+nn(lovers-8, steak-7)
+pobj(for-6, lovers-8)
+
+
+(ROOT
+  (S
+    (NP (NNS Astons))
+    (VP (VBZ is)
+      (ADVP (RB now))
+      (VP (VBG selling)
+        (NP (NNP A5) (NNP grade) (NNP Japanese) (NNP Kagoshima) (NNP Wagyu) (NN beef) (NN steak))))
+    (. .)))
+
+
+nsubj(selling-4, Astons-1)
+aux(selling-4, is-2)
+advmod(selling-4, now-3)
+root(ROOT-0, selling-4)
+nn(steak-11, A5-5)
+nn(steak-11, grade-6)
+nn(steak-11, Japanese-7)
+nn(steak-11, Kagoshima-8)
+nn(steak-11, Wagyu-9)
+nn(steak-11, beef-10)
+dobj(selling-4, steak-11)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD ate)
+      (SBAR
+        (S
+          (NP
+            (NP (DT this))
+            (PP (IN in)
+              (NP
+                (NP (NNP Tokyo))
+                (CC and)
+                (NP (PRP$ my) (NN steak)))))
+          (VP (VBD was)
+            (ADJP (JJ $))))))))
+
+
+nsubj(ate-2, I-1)
+root(ROOT-0, ate-2)
+nsubj($-10, this-3)
+prep(this-3, in-4)
+pobj(in-4, Tokyo-5)
+cc(Tokyo-5, and-6)
+poss(steak-8, my-7)
+conj(Tokyo-5, steak-8)
+cop($-10, was-9)
+ccomp(ate-2, $-10)
+
+
+(ROOT
+  (NP
+    (NP (CD 195))
+    (PP (IN for)
+      (NP (DT a) (JJ 270g) (NN steak)))
+    (. .)))
+
+
+root(ROOT-0, 195-1)
+prep(195-1, for-2)
+det(steak-5, a-3)
+amod(steak-5, 270g-4)
+pobj(for-2, steak-5)
+
+
+(ROOT
+  (S
+    (PP (IN For)
+      (NP (PRP me)))
+    (NP (PRP it))
+    (VP (VBD was)
+      (NP
+        (NP (NN something))
+        (SBAR
+          (S
+            (NP (PRP I))
+            (VP (VBD had)
+              (VP (VBN been)
+                (VP (VBG looking)
+                  (ADVP (RB forward))
+                  (PP (TO to)
+                    (S
+                      (VP (VBG eating)
+                        (NP (PDT all) (PRP$ my) (NN life))))))))))))
+    (. .)))
+
+
+prep(something-5, For-1)
+pobj(For-1, me-2)
+nsubj(something-5, it-3)
+cop(something-5, was-4)
+root(ROOT-0, something-5)
+nsubj(looking-9, I-6)
+aux(looking-9, had-7)
+aux(looking-9, been-8)
+rcmod(something-5, looking-9)
+advmod(looking-9, forward-10)
+prep(looking-9, to-11)
+pcomp(to-11, eating-12)
+predet(life-15, all-13)
+poss(life-15, my-14)
+dobj(eating-12, life-15)
+
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT the) (JJ Japanese) (NN grading) (NN system)))
+    (NP (NNP A5))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (JJ top) (NN grade))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBZ means)
+              (SBAR
+                (S
+                  (NP (DT the) (NN beef))
+                  (VP (VBZ is)
+                    (ADJP (RB very) (RB very) (JJ marbled))))))))))
+    (. .)))
+
+
+prep(grade-10, In-1)
+det(system-5, the-2)
+amod(system-5, Japanese-3)
+nn(system-5, grading-4)
+pobj(In-1, system-5)
+nsubj(grade-10, A5-6)
+cop(grade-10, is-7)
+det(grade-10, the-8)
+amod(grade-10, top-9)
+root(ROOT-0, grade-10)
+nsubj(means-12, which-11)
+rcmod(grade-10, means-12)
+det(beef-14, the-13)
+nsubj(marbled-18, beef-14)
+cop(marbled-18, is-15)
+advmod(marbled-18, very-16)
+advmod(marbled-18, very-17)
+ccomp(means-12, marbled-18)
+
+

@@ -1,0 +1,404 @@
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP have)
+      (ADVP (RB just))
+      (VP (VBN released)
+        (NP
+          (NP (DT an) (VBN updated) (NN version))
+          (PP (IN of)
+            (NP (DT the) (JJ ieat) (NNP Hawker) (NNP App)))
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (MD will)
+                (VP (VB work)
+                  (PP (IN with)
+                    (NP (NNP IOS) (CD 4.3) (NNS onwards))))))))))
+    (. .)))
+
+
+nsubj(released-4, We-1)
+aux(released-4, have-2)
+advmod(released-4, just-3)
+root(ROOT-0, released-4)
+det(version-7, an-5)
+amod(version-7, updated-6)
+dobj(released-4, version-7)
+prep(version-7, of-8)
+det(App-12, the-9)
+amod(App-12, ieat-10)
+nn(App-12, Hawker-11)
+pobj(of-8, App-12)
+nsubj(work-15, which-13)
+aux(work-15, will-14)
+rcmod(version-7, work-15)
+prep(work-15, with-16)
+nn(onwards-19, IOS-17)
+num(onwards-19, 4.3-18)
+pobj(with-16, onwards-19)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NNP App))
+    (VP (MD will)
+      (VP
+        (VP (VB include)
+          (NP (DT some) (JJ new) (NN stall) (NNS listings)))
+        (CONJP (RB as) (RB well) (IN as))
+        (VP (VB drop)
+          (PRT (RP down))
+          (NP
+            (NP (NNS instructions))
+            (PP (IN on)
+              (SBAR
+                (WHADVP (WRB how))
+                (S
+                  (VP (TO to)
+                    (VP (VB make)
+                      (NP
+                        (NP (DT the) (JJS most))
+                        (PP (IN of)
+                          (NP (PDT all) (DT the) (NNS functions)))))))))))))
+    (. .)))
+
+
+det(App-2, The-1)
+nsubj(include-4, App-2)
+aux(include-4, will-3)
+root(ROOT-0, include-4)
+det(listings-8, some-5)
+amod(listings-8, new-6)
+nn(listings-8, stall-7)
+dobj(include-4, listings-8)
+advmod(well-10, as-9)
+cc(include-4, well-10)
+mwe(well-10, as-11)
+conj(include-4, drop-12)
+prt(drop-12, down-13)
+dobj(drop-12, instructions-14)
+prep(instructions-14, on-15)
+advmod(make-18, how-16)
+aux(make-18, to-17)
+pcomp(on-15, make-18)
+det(most-20, the-19)
+dobj(make-18, most-20)
+prep(most-20, of-21)
+predet(functions-24, all-22)
+det(functions-24, the-23)
+pobj(of-21, functions-24)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (VBP have)
+        (ADVP (RB already))
+        (VP (VBN downloaded)
+          (S
+            (NP (DT the) (NNP App) (, ,))))))))
+
+
+mark(downloaded-5, If-1)
+nsubj(downloaded-5, you-2)
+aux(downloaded-5, have-3)
+advmod(downloaded-5, already-4)
+root(ROOT-0, downloaded-5)
+det(App-7, the-6)
+xcomp(downloaded-5, App-7)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT all))
+      (SBAR
+        (S
+          (NP (PRP you))
+          (VP (VBP need)
+            (S
+              (VP (TO to)
+                (VP (VB do))))))))
+    (VP (VBZ is)
+      (S
+        (VP (TO to)
+          (VP (VB do)
+            (NP (DT an) (NN update))))))
+    (. .)))
+
+
+nsubj(is-6, all-1)
+nsubj(need-3, you-2)
+rcmod(all-1, need-3)
+aux(do-5, to-4)
+xcomp(need-3, do-5)
+root(ROOT-0, is-6)
+aux(do-8, to-7)
+xcomp(is-6, do-8)
+det(update-10, an-9)
+dobj(do-8, update-10)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (VBP have) (RB n't)
+        (VP (VBN downloaded)
+          (S
+            (NP (NNP Ieat) (NNP Hawker))
+            (ADVP (RB yet)))))
+      (, ,))))
+
+
+mark(downloaded-5, If-1)
+nsubj(downloaded-5, you-2)
+aux(downloaded-5, have-3)
+neg(downloaded-5, n't-4)
+root(ROOT-0, downloaded-5)
+nn(Hawker-7, Ieat-6)
+dep(downloaded-5, Hawker-7)
+advmod(Hawker-7, yet-8)
+
+
+(ROOT
+  (S
+    (ADVP (RB just))
+    (VP
+      (VP (VB search)
+        (PP (IN for)
+          (NP (`` ``)
+            (NP (NNP Ieat) (NNP Hawker))
+            ('' '')
+            (PP (IN in)
+              (NP (NNP App) (NNP Store))))))
+      (CC or)
+      (VP (VB visit)
+        (NP (DT this) (NN link))))
+    (. .)))
+
+
+advmod(search-2, just-1)
+root(ROOT-0, search-2)
+prep(search-2, for-3)
+nn(Hawker-6, Ieat-5)
+pobj(for-3, Hawker-6)
+prep(Hawker-6, in-8)
+nn(Store-10, App-9)
+pobj(in-8, Store-10)
+cc(search-2, or-11)
+conj(search-2, visit-12)
+det(link-14, this-13)
+dobj(visit-12, link-14)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP are)
+      (ADVP (RB still))
+      (VP (VBG working)
+        (PP (IN on)
+          (NP (DT another) (NN button)))
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (NP (PRP you))
+            (VP (MD can)
+              (VP (VB list)
+                (NP (NNS stalls))
+                (PP (VBG according)
+                  (PP (TO to)
+                    (NP (NN location))))))))))
+    (. .)))
+
+
+nsubj(working-4, We-1)
+aux(working-4, are-2)
+advmod(working-4, still-3)
+root(ROOT-0, working-4)
+prep(working-4, on-5)
+det(button-7, another-6)
+pobj(on-5, button-7)
+advmod(list-11, where-8)
+nsubj(list-11, you-9)
+aux(list-11, can-10)
+advcl(working-4, list-11)
+dobj(list-11, stalls-12)
+prep(list-11, according-13)
+pcomp(according-13, to-14)
+pobj(to-14, location-15)
+
+
+(ROOT
+  (FRAG
+    (PP (IN For)
+      (NP (NN example)))
+    (, ,)))
+
+
+root(ROOT-0, For-1)
+pobj(For-1, example-2)
+
+
+(ROOT
+  (S
+    (VP (VB click)
+      (PP (IN on)
+        (NP (NNP Ang) (NNP Mo) (NNP Kio) (, ,))))))
+
+
+root(ROOT-0, click-1)
+prep(click-1, on-2)
+nn(Kio-5, Ang-3)
+nn(Kio-5, Mo-4)
+pobj(on-2, Kio-5)
+
+
+(ROOT
+  (S (CC and)
+    (NP
+      (NP (PDT all) (DT the) (VBN recommended) (NNS stalls))
+      (PP (IN in)
+        (NP (NNP Ang) (NNP Mo) (NNP Kio))))
+    (VP (MD will)
+      (VP (VB be)
+        (VP (VBN listed))))
+    (. .)))
+
+
+cc(listed-12, and-1)
+predet(stalls-5, all-2)
+det(stalls-5, the-3)
+amod(stalls-5, recommended-4)
+nsubjpass(listed-12, stalls-5)
+prep(stalls-5, in-6)
+nn(Kio-9, Ang-7)
+nn(Kio-9, Mo-8)
+pobj(in-6, Kio-9)
+aux(listed-12, will-10)
+auxpass(listed-12, be-11)
+root(ROOT-0, listed-12)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Right)
+      (NP (RB now)))
+    (, ,)))
+
+
+root(ROOT-0, Right-1)
+pobj(Right-1, now-2)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (MD can)
+      (VP
+        (VP (VB do)
+          (NP (DT that))
+          (PP (IN by)
+            (S
+              (VP (VBG going)
+                (PP (TO to)
+                  (NP (DT the) (NN map)
+                    (CC and)
+                    (NN press)))))))
+        (CC and)
+        (VP (VB hold)
+          (PP (IN on)
+            (NP (DT the) (NNP Ang) (NNP Mo) (NNP Kio) (NN region))))))
+    (. .)))
+
+
+nsubj(do-3, you-1)
+aux(do-3, can-2)
+root(ROOT-0, do-3)
+dobj(do-3, that-4)
+prep(do-3, by-5)
+pcomp(by-5, going-6)
+prep(going-6, to-7)
+det(map-9, the-8)
+pobj(to-7, map-9)
+cc(map-9, and-10)
+conj(map-9, press-11)
+cc(do-3, and-12)
+conj(do-3, hold-13)
+prep(hold-13, on-14)
+det(region-19, the-15)
+nn(region-19, Ang-16)
+nn(region-19, Mo-17)
+nn(region-19, Kio-18)
+pobj(on-14, region-19)
+
+
+(ROOT
+  (S
+    (INTJ (VB Please))
+    (VP (VB continue)
+      (S
+        (VP (TO to)
+          (VP (VB support)
+            (NP (PRP us))
+            (PP (IN by)
+              (S
+                (VP (VBG telling)
+                  (NP (PRP$ your) (NNS friends))
+                  (PP (IN about)
+                    (NP (DT the) (NNP App))))))))))
+    (. .)))
+
+
+discourse(continue-2, Please-1)
+root(ROOT-0, continue-2)
+aux(support-4, to-3)
+xcomp(continue-2, support-4)
+dobj(support-4, us-5)
+prep(support-4, by-6)
+pcomp(by-6, telling-7)
+poss(friends-9, your-8)
+dobj(telling-7, friends-9)
+prep(telling-7, about-10)
+det(App-12, the-11)
+pobj(about-10, App-12)
+
+
+(ROOT
+  (FRAG
+    (PP (IN With)
+      (NP (PRP$ your) (NN support)))
+    (, ,)))
+
+
+root(ROOT-0, With-1)
+poss(support-3, your-2)
+pobj(With-1, support-3)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (VP (MD can)
+      (VP (VB continue)
+        (S
+          (VP (TO to)
+            (VP (VB keep)
+              (S
+                (VP (VBG improving)
+                  (NP (PRP it)))))))))
+    (. !)))
+
+
+nsubj(continue-3, we-1)
+aux(continue-3, can-2)
+root(ROOT-0, continue-3)
+aux(keep-5, to-4)
+xcomp(continue-3, keep-5)
+xcomp(keep-5, improving-6)
+dobj(improving-6, it-7)
+
+

@@ -1,0 +1,170 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP
+      (VP (VBP have)
+        (VP (VBN started)
+          (S
+            (VP (TO to)
+              (VP (VB develop)
+                (NP
+                  (NP (DT an) (NN interest))
+                  (PP (IN in)
+                    (NP (JJ Chinese) (NNP Tea) (NN appreciation)))))))))
+      (CC and)
+      (VP (VBD was)
+        (ADJP (JJ happy)
+          (S
+            (VP (TO to)
+              (VP (VB find)
+                (NP
+                  (NP (DT a) (NN restaurant))
+                  (SBAR
+                    (WHNP (WDT that))
+                    (S
+                      (VP (VBZ serves)
+                        (NP
+                          (NP (NNP Chinese) (NNP High) (NNP Tea))
+                          (SBAR
+                            (WHNP (WDT which) (NNS pairs))
+                            (S
+                              (VP (VBP dim)
+                                (NP (NN sum))
+                                (PP (IN with)
+                                  (NP
+                                    (NP (JJ different) (NNS types))
+                                    (PP (IN of)
+                                      (NP (NNP Chinese) (NNP Tea)))))))))))))))))))
+    (. .)))
+
+
+nsubj(started-3, I-1)
+aux(started-3, have-2)
+root(ROOT-0, started-3)
+aux(develop-5, to-4)
+xcomp(started-3, develop-5)
+det(interest-7, an-6)
+dobj(develop-5, interest-7)
+prep(interest-7, in-8)
+amod(appreciation-11, Chinese-9)
+nn(appreciation-11, Tea-10)
+pobj(in-8, appreciation-11)
+cc(started-3, and-12)
+cop(happy-14, was-13)
+conj(started-3, happy-14)
+aux(find-16, to-15)
+xcomp(happy-14, find-16)
+det(restaurant-18, a-17)
+dobj(find-16, restaurant-18)
+nsubj(serves-20, that-19)
+rcmod(restaurant-18, serves-20)
+nn(Tea-23, Chinese-21)
+nn(Tea-23, High-22)
+dobj(serves-20, Tea-23)
+det(pairs-25, which-24)
+nsubj(dim-26, pairs-25)
+rcmod(Tea-23, dim-26)
+dobj(dim-26, sum-27)
+prep(dim-26, with-28)
+amod(types-30, different-29)
+pobj(with-28, types-30)
+prep(types-30, of-31)
+nn(Tea-33, Chinese-32)
+pobj(of-31, Tea-33)
+
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (DT the) (NN video)))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+det(video-3, the-2)
+pobj(In-1, video-3)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VB interview)
+      (NP
+        (NP (NNP Linda))
+        (PP (IN of)
+          (NP
+            (NP (NNP Tian) (NNP Fu) (NNP Teahouse))
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (VP (VBZ is)
+                  (VP (VBN located)
+                    (PP (IN at)
+                      (NP (DT the) (JJ top) (NNP UOB) (NNP Plaza)))))))))))
+    (. .)))
+
+
+nsubj(interview-2, I-1)
+root(ROOT-0, interview-2)
+dobj(interview-2, Linda-3)
+prep(Linda-3, of-4)
+nn(Teahouse-7, Tian-5)
+nn(Teahouse-7, Fu-6)
+pobj(of-4, Teahouse-7)
+nsubjpass(located-10, which-8)
+auxpass(located-10, is-9)
+rcmod(Teahouse-7, located-10)
+prep(located-10, at-11)
+det(Plaza-15, the-12)
+amod(Plaza-15, top-13)
+nn(Plaza-15, UOB-14)
+pobj(at-11, Plaza-15)
+
+
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (MD will)
+      (VP
+        (VP (VB be)
+          (VP (VBG introducing)
+            (NP
+              (NP (DT some) (NNS aspects))
+              (PP (IN of)
+                (NP (DT the) (NN tea) (NN ceremony))))))
+        (CC and)
+        (VP (VB talk)
+          (PP (IN about)
+            (NP
+              (NP (DT some) (JJ unique) (NN dim) (NN sum) (NNS dishes))
+              (VP (VBN served)
+                (PP (IN at)
+                  (NP (NNP Tian) (NNP Fu) (NNP Teahouse)))))))))
+    (. .)))
+
+
+nsubj(introducing-4, She-1)
+aux(introducing-4, will-2)
+aux(introducing-4, be-3)
+root(ROOT-0, introducing-4)
+det(aspects-6, some-5)
+dobj(introducing-4, aspects-6)
+prep(aspects-6, of-7)
+det(ceremony-10, the-8)
+nn(ceremony-10, tea-9)
+pobj(of-7, ceremony-10)
+cc(introducing-4, and-11)
+conj(introducing-4, talk-12)
+prep(talk-12, about-13)
+det(dishes-18, some-14)
+amod(dishes-18, unique-15)
+nn(dishes-18, dim-16)
+nn(dishes-18, sum-17)
+pobj(about-13, dishes-18)
+partmod(dishes-18, served-19)
+prep(served-19, at-20)
+nn(Teahouse-23, Tian-21)
+nn(Teahouse-23, Fu-22)
+pobj(at-20, Teahouse-23)
+
+

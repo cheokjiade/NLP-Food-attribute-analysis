@@ -1,0 +1,171 @@
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP
+      (VP (MD ca) (RB n't)
+        (VP (VB help)))
+      (CC but)
+      (VP (VBP wonder)
+        (SBAR
+          (WHNP (WP what))
+          (S
+            (NP
+              (NP (NN kind))
+              (PP (IN of)
+                (NP (DT a) (JJ crazy) (NN guy))))
+            (VP (MD would)
+              (VP (VB name)
+                (NP (DT an) (NN ice) (NN cream) (NN parlor))
+                (PP (IN after)
+                  (NP
+                    (NP (DT a) (NN cow) (POS 's))
+                    (JJ mammary) (NNS glands)))))))))
+    (. .)))
+
+
+nsubj(help-4, You-1)
+aux(help-4, ca-2)
+neg(help-4, n't-3)
+root(ROOT-0, help-4)
+cc(help-4, but-5)
+conj(help-4, wonder-6)
+dobj(name-14, what-7)
+nsubj(name-14, kind-8)
+prep(kind-8, of-9)
+det(guy-12, a-10)
+amod(guy-12, crazy-11)
+pobj(of-9, guy-12)
+aux(name-14, would-13)
+ccomp(wonder-6, name-14)
+det(parlor-18, an-15)
+nn(parlor-18, ice-16)
+nn(parlor-18, cream-17)
+dobj(name-14, parlor-18)
+prep(name-14, after-19)
+det(cow-21, a-20)
+poss(glands-24, cow-21)
+possessive(cow-21, 's-22)
+amod(glands-24, mammary-23)
+pobj(after-19, glands-24)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Yes))
+    (, ,)))
+
+
+root(ROOT-0, Yes-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD can)
+      (VP (VB see)
+        (NP (DT the) (JJ anatomical) (NN connection))))
+    (, ,)))
+
+
+nsubj(see-3, I-1)
+aux(see-3, can-2)
+root(ROOT-0, see-3)
+det(connection-6, the-4)
+amod(connection-6, anatomical-5)
+dobj(see-3, connection-6)
+
+
+(ROOT
+  (S (CC but)
+    (NP (PRP you))
+    (VP (MD would)
+      (VP (VB suspect)
+        (SBAR (IN that)
+          (S
+            (S
+              (ADVP (RB either))
+              (NP (DT the) (NN fella))
+              (VP (VBZ 's)
+                (ADJP
+                  (NP (DT a) (RB little))
+                  (JJ kinky))))
+            (CC or)
+            (S
+              (NP (PRP he))
+              (VP (VBD had)
+                (VP (VBN watched)
+                  (S
+                    (NP
+                      (NP (DT the) (JJ outrageous) (`` ``) (NN Man) (NN vs) (NN Cow) ('' '') (NN fight) (NN scene))
+                      (PP (IN from)
+                        (NP
+                          (NP (NNP Kung) (NNP Pow))
+                          (NP (DT a) (JJ few) (NNS times)))))
+                    (ADJP (RB too) (JJ many))))))))))
+    (. .)))
+
+
+cc(suspect-4, but-1)
+nsubj(suspect-4, you-2)
+aux(suspect-4, would-3)
+root(ROOT-0, suspect-4)
+mark(kinky-12, that-5)
+advmod(kinky-12, either-6)
+det(fella-8, the-7)
+nsubj(kinky-12, fella-8)
+cop(kinky-12, 's-9)
+det(little-11, a-10)
+npadvmod(kinky-12, little-11)
+ccomp(suspect-4, kinky-12)
+cc(kinky-12, or-13)
+nsubj(watched-16, he-14)
+aux(watched-16, had-15)
+conj(kinky-12, watched-16)
+det(scene-25, the-17)
+amod(scene-25, outrageous-18)
+nn(scene-25, Man-20)
+nn(scene-25, vs-21)
+nn(scene-25, Cow-22)
+nn(scene-25, fight-24)
+nsubj(many-33, scene-25)
+prep(scene-25, from-26)
+nn(Pow-28, Kung-27)
+pobj(from-26, Pow-28)
+det(times-31, a-29)
+amod(times-31, few-30)
+dep(Pow-28, times-31)
+advmod(many-33, too-32)
+xcomp(watched-16, many-33)
+
+
+(ROOT
+  (FRAG
+    (PP (IN -LRB-)
+      (NP (NNP Warning)))
+    (, ,)))
+
+
+pobj(-LRB--1, Warning-2)
+
+
+(ROOT
+  (S
+    (NP (DT some) (NNS readers))
+    (VP (MD might)
+      (VP (VB find)
+        (S
+          (NP (DT the) (JJ following) (NN video))
+          (ADJP (JJ disturbing)))))
+    (-RRB- -RRB-) (. .)))
+
+
+det(readers-2, some-1)
+nsubj(find-4, readers-2)
+aux(find-4, might-3)
+root(ROOT-0, find-4)
+det(video-7, the-5)
+amod(video-7, following-6)
+nsubj(disturbing-8, video-7)
+xcomp(find-4, disturbing-8)
+
+

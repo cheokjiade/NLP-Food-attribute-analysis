@@ -1,0 +1,163 @@
+(ROOT
+  (FRAG
+    (PP (IN OK))
+    (, ,)))
+
+
+root(ROOT-0, OK-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (VP (VBG going)
+        (S
+          (VP (TO to)
+            (VP (VB let)
+              (NP (PRP you))
+              (PP (IN in)
+                (PP (IN on)
+                  (NP (DT a) (JJ little) (NN secret)))))))))
+    (. .)))
+
+
+nsubj(going-3, I-1)
+aux(going-3, am-2)
+root(ROOT-0, going-3)
+aux(let-5, to-4)
+xcomp(going-3, let-5)
+dobj(let-5, you-6)
+prep(let-5, in-7)
+pcomp(in-7, on-8)
+det(secret-11, a-9)
+amod(secret-11, little-10)
+pobj(on-8, secret-11)
+
+
+(ROOT
+  (FRAG
+    (PP (IN For)
+      (NP (DT the) (JJ past) (JJ few) (NNS months)))
+    (, ,)))
+
+
+root(ROOT-0, For-1)
+det(months-5, the-2)
+amod(months-5, past-3)
+amod(months-5, few-4)
+pobj(For-1, months-5)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (VP (VBN been)
+        (VP (VBG enjoying)
+          (NP
+            (NP (DT this) (JJ particular) (NN pasta) (NN dish))
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (NP (PRP I))
+                (VP (MD can)
+                  (ADVP (RB only))
+                  (VP (VB describe)
+                    (PP (IN as)
+                      (NP (NNP Super) (NNP Shiok)))))))))))
+    (. .)))
+
+
+nsubj(enjoying-4, I-1)
+aux(enjoying-4, have-2)
+aux(enjoying-4, been-3)
+root(ROOT-0, enjoying-4)
+det(dish-8, this-5)
+amod(dish-8, particular-6)
+nn(dish-8, pasta-7)
+dobj(enjoying-4, dish-8)
+dobj(describe-13, which-9)
+nsubj(describe-13, I-10)
+aux(describe-13, can-11)
+advmod(describe-13, only-12)
+rcmod(dish-8, describe-13)
+prep(describe-13, as-14)
+nn(Shiok-16, Super-15)
+pobj(as-14, Shiok-16)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (JJ only) (NN pasta) (NN dish))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (NP (PRP I))
+            (VP (VBP have)
+              (ADVP (RB ever))
+              (VP (VBN eaten)
+                (ADVP (RB again)
+                  (CC and)
+                  (RB again))))))))
+    (. .)))
+
+
+nsubj(dish-6, It-1)
+cop(dish-6, is-2)
+det(dish-6, the-3)
+amod(dish-6, only-4)
+nn(dish-6, pasta-5)
+root(ROOT-0, dish-6)
+dobj(eaten-11, which-7)
+nsubj(eaten-11, I-8)
+aux(eaten-11, have-9)
+advmod(eaten-11, ever-10)
+rcmod(dish-6, eaten-11)
+advmod(eaten-11, again-12)
+cc(again-12, and-13)
+conj(again-12, again-14)
+
+
+(ROOT
+  (FRAG
+    (ADJP (IN So) (RB much) (RB so))
+    (SBAR (IN that)
+      (S
+        (NP (PRP I))
+        (VP (VBP have)
+          (S
+            (VP (TO to)
+              (VP (VB say)
+                (SBAR (IN that)
+                  (S
+                    (NP (PRP it))
+                    (ADVP (RB probably))
+                    (VP (VBZ is)
+                      (NP (PRP$ my) (JJ favorite) (NN pasta) (NN dish))
+                      (ADVP (RB ever)))))))))))
+    (. .)))
+
+
+dep(so-3, So-1)
+advmod(so-3, much-2)
+root(ROOT-0, so-3)
+mark(have-6, that-4)
+nsubj(have-6, I-5)
+dep(so-3, have-6)
+aux(say-8, to-7)
+xcomp(have-6, say-8)
+mark(dish-16, that-9)
+nsubj(dish-16, it-10)
+advmod(dish-16, probably-11)
+cop(dish-16, is-12)
+poss(dish-16, my-13)
+amod(dish-16, favorite-14)
+nn(dish-16, pasta-15)
+ccomp(say-8, dish-16)
+advmod(dish-16, ever-17)
+
+

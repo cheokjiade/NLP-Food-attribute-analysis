@@ -1,0 +1,174 @@
+(ROOT
+  (NP (NNP Advertorial)))
+
+
+root(ROOT-0, Advertorial-1)
+
+
+(ROOT
+  (S
+    (NP (DT The) (JJ last) (NN time) (NN I))
+    (VP (VBD had)
+      (NP
+        (NP (PRP$ my) (NN cholesterol) (NNS levels))
+        (VP (VBN done))))
+    (, ,)))
+
+
+det(I-4, The-1)
+amod(I-4, last-2)
+nn(I-4, time-3)
+nsubj(had-5, I-4)
+root(ROOT-0, had-5)
+poss(levels-8, my-6)
+nn(levels-8, cholesterol-7)
+dobj(had-5, levels-8)
+partmod(levels-8, done-9)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD found)
+      (SBAR (IN that)
+        (S
+          (NP (PRP$ my) (NN triglycerides))
+          (VP (VBD were)
+            (ADJP
+              (NP (DT a) (RB little))
+              (JJ elevated))))))
+    (. .)))
+
+
+nsubj(found-2, I-1)
+root(ROOT-0, found-2)
+mark(elevated-9, that-3)
+poss(triglycerides-5, my-4)
+nsubj(elevated-9, triglycerides-5)
+cop(elevated-9, were-6)
+det(little-8, a-7)
+npadvmod(elevated-9, little-8)
+ccomp(found-2, elevated-9)
+
+
+(ROOT
+  (S (IN So)
+    (NP (PRP I))
+    (VP (VBD started)
+      (S
+        (VP (VBG taking)
+          (NP
+            (NP
+              (QP (CD Omega) (CD 3))
+              (NN fish) (NNS oils))
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (VP (VBP have)
+                  (VP (VBN been)
+                    (VP
+                      (ADVP (RB scientifically))
+                      (VBN proven)
+                      (PP (TO to)
+                        (NP (JJR lower) (NN triglyceride) (NNS levels))))))))))))
+    (. .)))
+
+
+dep(started-3, So-1)
+nsubj(started-3, I-2)
+root(ROOT-0, started-3)
+xcomp(started-3, taking-4)
+number(3-6, Omega-5)
+num(oils-8, 3-6)
+nn(oils-8, fish-7)
+dobj(taking-4, oils-8)
+nsubjpass(proven-13, which-9)
+aux(proven-13, have-10)
+auxpass(proven-13, been-11)
+advmod(proven-13, scientifically-12)
+rcmod(oils-8, proven-13)
+prep(proven-13, to-14)
+amod(levels-17, lower-15)
+nn(levels-17, triglyceride-16)
+pobj(to-14, levels-17)
+
+
+(ROOT
+  (SBAR (IN Although)
+    (S
+      (NP (NNPS triglycerides))
+      (VP (VBP have) (RB not)
+        (VP (VBN been)
+          (VP (VBN shown)
+            (S
+              (VP (TO to)
+                (VP (VB be)
+                  (NP (DT a) (NN risk) (NN factor))
+                  (PP (IN for)
+                    (NP (JJ cardiac) (NN disease)))
+                  (, ,))))))))))
+
+
+mark(shown-6, Although-1)
+nsubjpass(shown-6, triglycerides-2)
+aux(shown-6, have-3)
+neg(shown-6, not-4)
+auxpass(shown-6, been-5)
+root(ROOT-0, shown-6)
+aux(factor-11, to-7)
+cop(factor-11, be-8)
+det(factor-11, a-9)
+nn(factor-11, risk-10)
+xcomp(shown-6, factor-11)
+prep(factor-11, for-12)
+amod(disease-14, cardiac-13)
+pobj(for-12, disease-14)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (VBZ is)
+      (ADVP (RB still))
+      (ADJP (JJ prudent)
+        (S
+          (VP (TO to)
+            (VP (VB keep)
+              (S
+                (NP (DT the) (NNS levels))
+                (ADJP (JJ low))
+                (SBAR (IN as)
+                  (S
+                    (NP (JJ high) (NNS levels))
+                    (VP (MD may)
+                      (VP (VB lead)
+                        (PP (TO to)
+                          (NP
+                            (NP (JJ other) (NNS problems))
+                            (PP (JJ such) (IN as)
+                              (NP (NNS pancreatitis)))))))))))))))
+    (. .)))
+
+
+nsubj(prudent-4, it-1)
+cop(prudent-4, is-2)
+advmod(prudent-4, still-3)
+root(ROOT-0, prudent-4)
+aux(keep-6, to-5)
+xcomp(prudent-4, keep-6)
+det(levels-8, the-7)
+nsubj(lead-14, levels-8)
+dep(lead-14, low-9)
+mark(lead-14, as-10)
+amod(levels-12, high-11)
+nsubj(lead-14, levels-12)
+aux(lead-14, may-13)
+xcomp(keep-6, lead-14)
+prep(lead-14, to-15)
+amod(problems-17, other-16)
+pobj(to-15, problems-17)
+mwe(as-19, such-18)
+prep(problems-17, as-19)
+pobj(as-19, pancreatitis-20)
+
+

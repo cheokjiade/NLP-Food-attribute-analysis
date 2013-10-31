@@ -1,0 +1,668 @@
+(ROOT
+  (FRAG
+    (PP
+      (ADVP (RB Once))
+      (IN upon)
+      (NP (DT a) (NN time)))
+    (, ,)))
+
+
+advmod(upon-2, Once-1)
+root(ROOT-0, upon-2)
+det(time-4, a-3)
+pobj(upon-2, time-4)
+
+
+(ROOT
+  (S
+    (NP (EX there))
+    (VP (VBD was)
+      (NP
+        (NP (DT a) (JJ young) (NN couple))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBD started)
+              (S
+                (VP (VBG selling)
+                  (NP
+                    (NP (NNP Lor) (NNP Mee))
+                    (PP (IN in)
+                      (NP (NNP Bugis) (NNP Street)))))))))))
+    (. .)))
+
+
+expl(was-2, there-1)
+root(ROOT-0, was-2)
+det(couple-5, a-3)
+amod(couple-5, young-4)
+nsubj(was-2, couple-5)
+nsubj(started-7, who-6)
+rcmod(couple-5, started-7)
+xcomp(started-7, selling-8)
+nn(Mee-10, Lor-9)
+dobj(selling-8, Mee-10)
+prep(Mee-10, in-11)
+nn(Street-13, Bugis-12)
+pobj(in-11, Street-13)
+
+
+(ROOT
+  (PRN
+    (S
+      (ADVP
+        (NP (CD Forty) (NNS years))
+        (RB later))
+      (NP (PRP they))
+      (VP (VBP have)
+        (VP (VBN moved)
+          (NP (JJ several) (NNS times)))))
+    (, ,)))
+
+
+num(years-2, Forty-1)
+npadvmod(later-3, years-2)
+advmod(moved-6, later-3)
+nsubj(moved-6, they-4)
+aux(moved-6, have-5)
+root(ROOT-0, moved-6)
+amod(times-8, several-7)
+dobj(moved-6, times-8)
+
+
+(ROOT
+  (S (CC but)
+    (NP (PRP they))
+    (VP (VBP are)
+      (ADVP (RB still))
+      (VP
+        (VP
+          (ADVP (RB happily))
+          (VBN married))
+        (CC and)
+        (VP (VBG selling)
+          (NP (DT the) (JJ same) (NN stuff))
+          (PP (IN at)
+            (NP (RB almost) (DT the) (JJ same) (NN price))))))
+    (. !)))
+
+
+cc(married-6, but-1)
+nsubjpass(married-6, they-2)
+auxpass(married-6, are-3)
+advmod(married-6, still-4)
+advmod(married-6, happily-5)
+root(ROOT-0, married-6)
+cc(married-6, and-7)
+conj(married-6, selling-8)
+det(stuff-11, the-9)
+amod(stuff-11, same-10)
+dobj(selling-8, stuff-11)
+prep(selling-8, at-12)
+advmod(price-16, almost-13)
+det(price-16, the-14)
+amod(price-16, same-15)
+pobj(at-12, price-16)
+
+
+(ROOT
+  (S (CC And)
+    (NP (DT the) (NN couple))
+    (VP (VBD lived)
+      (ADVP (RB happily))
+      (ADVP (RB ever))
+      (PP (IN after)))
+    (. .)))
+
+
+cc(lived-4, And-1)
+det(couple-3, the-2)
+nsubj(lived-4, couple-3)
+root(ROOT-0, lived-4)
+advmod(lived-4, happily-5)
+advmod(lived-4, ever-6)
+prep(lived-4, after-7)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Anyway))
+    (, ,)))
+
+
+root(ROOT-0, Anyway-1)
+
+
+(ROOT
+  (SBAR (IN if)
+    (S
+      (NP (PRP you))
+      (VP
+        (VP (VBP are)
+          (ADJP (RB really) (JJ hungry)))
+        (CC and)
+        (VP
+          (ADVP (RB only))
+          (VBP have)
+          (VP (VBN $)))))))
+
+
+mark(hungry-5, if-1)
+nsubj(hungry-5, you-2)
+cop(hungry-5, are-3)
+advmod(hungry-5, really-4)
+root(ROOT-0, hungry-5)
+cc(hungry-5, and-6)
+advmod($-9, only-7)
+aux($-9, have-8)
+conj(hungry-5, $-9)
+
+
+(ROOT
+  (FRAG
+    (PP
+      (NP (CD 2))
+      (PP (IN in)
+        (NP (PRP$ your) (NN pocket))))
+    (, ,)))
+
+
+dep(in-2, 2-1)
+root(ROOT-0, in-2)
+poss(pocket-4, your-3)
+pobj(in-2, pocket-4)
+
+
+(ROOT
+  (NP
+    (S
+      (S
+        (VP (VB head)
+          (PRT (RP down))
+          (PP (TO to)
+            (NP (DT this) (NN stall)))))
+      (CC and)
+      (S
+        (NP (PRP you))
+        (VP (MD can)
+          (VP (VB have)
+            (NP
+              (NP (DT a) (JJ nice) (JJ big) (NN bowl))
+              (PP (IN of)
+                (NP
+                  (NP (NNP Lor) (NNP Mee))
+                  (PP (IN with)
+                    (NP
+                      (NP (NNS lots))
+                      (PP (IN of)
+                        (NP
+                          (NP (NNS ingredients))
+                          (PP (IN for)
+                            (NP
+                              (QP (RB just) (CD $)))))))))))))))))
+
+
+root(ROOT-0, head-1)
+prt(head-1, down-2)
+prep(head-1, to-3)
+det(stall-5, this-4)
+pobj(to-3, stall-5)
+cc(head-1, and-6)
+nsubj(have-9, you-7)
+aux(have-9, can-8)
+conj(head-1, have-9)
+det(bowl-13, a-10)
+amod(bowl-13, nice-11)
+amod(bowl-13, big-12)
+dobj(have-9, bowl-13)
+prep(bowl-13, of-14)
+nn(Mee-16, Lor-15)
+pobj(of-14, Mee-16)
+prep(Mee-16, with-17)
+pobj(with-17, lots-18)
+prep(lots-18, of-19)
+pobj(of-19, ingredients-20)
+prep(ingredients-20, for-21)
+quantmod($-23, just-22)
+pobj(for-21, $-23)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 2))
+    (. .)))
+
+
+root(ROOT-0, 2-1)
+
+
+(ROOT
+  (S (CC And)
+    (NP (DT the) (NNP Lor) (NNP Mee))
+    (ADVP (RB actually))
+    (VP (VBZ tastes)
+      (ADJP (RB quite) (JJ good) (RB too)))
+    (. .)))
+
+
+cc(tastes-6, And-1)
+det(Mee-4, the-2)
+nn(Mee-4, Lor-3)
+nsubj(tastes-6, Mee-4)
+advmod(tastes-6, actually-5)
+root(ROOT-0, tastes-6)
+advmod(good-8, quite-7)
+acomp(tastes-6, good-8)
+advmod(good-8, too-9)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NN sauce))
+    (VP
+      (VP (VBZ is) (RB not)
+        (ADJP (RB overly) (JJ thick)))
+      (CC and)
+      (VP (VBZ has)
+        (VP (VBN got)
+          (NP (DT a) (JJ sourish) (NN tang))
+          (PP (TO to)
+            (NP (PRP it))))))
+    (. .)))
+
+
+det(sauce-2, The-1)
+nsubj(thick-6, sauce-2)
+cop(thick-6, is-3)
+neg(thick-6, not-4)
+advmod(thick-6, overly-5)
+root(ROOT-0, thick-6)
+cc(thick-6, and-7)
+aux(got-9, has-8)
+conj(thick-6, got-9)
+det(tang-12, a-10)
+amod(tang-12, sourish-11)
+dobj(got-9, tang-12)
+prep(got-9, to-13)
+pobj(to-13, it-14)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ crispy) (JJ fried) (NN stuff))
+      (VP (VBN soaked)
+        (PP (IN in)
+          (NP (DT the) (NNP Lor)))))
+    (VP (VBD was)
+      (ADJP (RB quite) (JJ shiok)))
+    (. .)))
+
+
+det(stuff-4, The-1)
+amod(stuff-4, crispy-2)
+amod(stuff-4, fried-3)
+nsubj(shiok-11, stuff-4)
+partmod(stuff-4, soaked-5)
+prep(soaked-5, in-6)
+det(Lor-8, the-7)
+pobj(in-6, Lor-8)
+cop(shiok-11, was-9)
+advmod(shiok-11, quite-10)
+root(ROOT-0, shiok-11)
+
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBZ 's)
+      (NP
+        (NP (NN something))
+        (ADJP (RB really) (JJ romantic)
+          (PP (IN about)
+            (NP
+              (NP (DT an) (JJ old) (NN couple))
+              (VP (VBG manning)
+                (NP (DT a) (NN store))
+                (ADVP (RB together))))))))
+    (. .)))
+
+
+expl('s-2, There-1)
+root(ROOT-0, 's-2)
+nsubj('s-2, something-3)
+advmod(romantic-5, really-4)
+amod(something-3, romantic-5)
+prep(romantic-5, about-6)
+det(couple-9, an-7)
+amod(couple-9, old-8)
+pobj(about-6, couple-9)
+partmod(couple-9, manning-10)
+det(store-12, a-11)
+dobj(manning-10, store-12)
+advmod(manning-10, together-13)
+
+
+(ROOT
+  (NP
+    (NP (NNS Reminds))
+    (NP
+      (NP (PRP me))
+      (PP (IN of)
+        (NP
+          (NP (DT that) (NN song))
+          (, ,))))))
+
+
+root(ROOT-0, Reminds-1)
+dep(Reminds-1, me-2)
+prep(me-2, of-3)
+det(song-5, that-4)
+pobj(of-3, song-5)
+
+
+(ROOT
+  (S
+    (VP (`` ``) (VB Love)
+      (NP (PRP Me))
+      ('' ''))
+    (. .)))
+
+
+root(ROOT-0, Love-2)
+dobj(Love-2, Me-3)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP know))
+    (, ,)))
+
+
+nsubj(know-2, You-1)
+root(ROOT-0, know-2)
+
+
+(ROOT
+  (X
+    (NP (DT the) (CD one))
+    (SBAR
+      (WHNP (WDT that))
+      (S
+        (VP (VBZ goes)
+          (ADJP (JJ ``)))))))
+
+
+det(one-2, the-1)
+root(ROOT-0, one-2)
+nsubj(goes-4, that-3)
+dep(one-2, goes-4)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (VBP get)
+        (ADVP (RB there))
+        (SBAR (IN before)
+          (S
+            (NP (PRP I))
+            (VP (VBP do))
+            (, ,)))))))
+
+
+mark(get-3, If-1)
+nsubj(get-3, you-2)
+root(ROOT-0, get-3)
+advmod(get-3, there-4)
+mark(do-7, before-5)
+nsubj(do-7, I-6)
+advcl(get-3, do-7)
+
+
+(ROOT
+  (S
+    (VP (VB do) (RB n't)
+      (VP (VB give)
+        (PRT (RP up))
+        (PP (IN on)
+          (NP (PRP me)))))
+    (: ...)))
+
+
+aux(give-3, do-1)
+neg(give-3, n't-2)
+root(ROOT-0, give-3)
+prt(give-3, up-4)
+prep(give-3, on-5)
+pobj(on-5, me-6)
+
+
+(ROOT
+  (INTJ (UH ...)))
+
+
+
+
+(ROOT
+  (FRAG (CC but)
+    (PP (IN between)
+      (NP
+        (NP (RB now))
+        (CC and)
+        (NP (RB then))
+        (, ,)))))
+
+
+root(ROOT-0, but-1)
+prep(but-1, between-2)
+pobj(between-2, now-3)
+cc(now-3, and-4)
+conj(now-3, then-5)
+
+
+(ROOT
+  (SBAR (IN till)
+    (S
+      (NP (PRP I))
+      (VP (VBP see)
+        (NP (PRP you))
+        (ADVP (RB again)))
+      (, ,))))
+
+
+mark(see-3, till-1)
+nsubj(see-3, I-2)
+root(ROOT-0, see-3)
+dobj(see-3, you-4)
+advmod(see-3, again-5)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD 'll)
+      (VP (VB be)
+        (NP
+          (NP (NN lov))
+          (`` `)
+          (PP (IN in)
+            (NP (PRP you))))))
+    (: ...)))
+
+
+nsubj(lov-4, I-1)
+aux(lov-4, 'll-2)
+cop(lov-4, be-3)
+root(ROOT-0, lov-4)
+prep(lov-4, in-6)
+pobj(in-6, you-7)
+
+
+(ROOT
+  (INTJ (UH .)))
+
+
+
+
+(ROOT
+  (S
+    (VP (VBG Love)
+      (NP
+        (NP (PRP Me))
+        ('' '')
+        (SBAR
+          (S (-LRB- -LRB-)
+            (NP (NNP Always))
+            (VP (VBD thought)
+              (SBAR
+                (S
+                  (NP (PRP I))
+                  (VP (MD 'd)
+                    (VP (VB be)
+                      (PP (IN in)
+                        (NP (DT a) (NNP Karaoke)))
+                      (ADVP (RB somewhere))
+                      (SBAR
+                        (WHADVP (WRB when))
+                        (S
+                          (NP (PRP I))
+                          (VP (VBP am)
+                            (NP
+                              (NP (CD 70))
+                              (VP (VBG singing)
+                                (NP (DT this) (NN song))
+                                (PP (TO to)
+                                  (NP (PRP$ my) (NN wifey)))))))))))))))))
+    (: ...)))
+
+
+root(ROOT-0, Love-1)
+dobj(Love-1, Me-2)
+nsubj(thought-6, Always-5)
+rcmod(Me-2, thought-6)
+nsubj(be-9, I-7)
+aux(be-9, 'd-8)
+ccomp(thought-6, be-9)
+prep(be-9, in-10)
+det(Karaoke-12, a-11)
+pobj(in-10, Karaoke-12)
+advmod(be-9, somewhere-13)
+advmod(70-17, when-14)
+nsubj(70-17, I-15)
+cop(70-17, am-16)
+advcl(be-9, 70-17)
+partmod(70-17, singing-18)
+det(song-20, this-19)
+dobj(singing-18, song-20)
+prep(singing-18, to-21)
+poss(wifey-23, my-22)
+pobj(to-21, wifey-23)
+
+
+(ROOT
+  (S
+    (NP (RB not))
+    (SBAR (IN that)
+      (PRN
+        (S
+          (NP (PRP I))
+          (VP (MD can)
+            (VP (VB sing)
+              (NP (NN hor)))))
+        (-RRB- -RRB-))
+      (S
+        (NP (PRP They))
+        (VP (VBD were)
+          (ADJP
+            (ADJP (JJ lovely)
+              (S
+                (VP (TO to)
+                  (VP (VB talk)
+                    (PP (TO to))))))
+            (CC and)
+            (ADJP (RB very) (JJ friendly))))))
+    (. .)))
+
+
+dep(lovely-10, not-1)
+mark(lovely-10, that-2)
+nsubj(sing-5, I-3)
+aux(sing-5, can-4)
+dep(lovely-10, sing-5)
+dobj(sing-5, hor-6)
+nsubj(lovely-10, They-8)
+cop(lovely-10, were-9)
+root(ROOT-0, lovely-10)
+aux(talk-12, to-11)
+xcomp(lovely-10, talk-12)
+prep(talk-12, to-13)
+cc(lovely-10, and-14)
+advmod(friendly-16, very-15)
+conj(lovely-10, friendly-16)
+
+
+(ROOT
+  (S (IN So)
+    (NP (PRP you))
+    (VP (VBP get)
+      (NP
+        (NP (NN value))
+        (PP (IN for)
+          (NP (NN money)
+            (CC and)
+            (NN service))))
+      (PP (TO to)
+        (NP (NN boot))))
+    (. .)))
+
+
+dep(get-3, So-1)
+nsubj(get-3, you-2)
+root(ROOT-0, get-3)
+dobj(get-3, value-4)
+prep(value-4, for-5)
+pobj(for-5, money-6)
+cc(money-6, and-7)
+conj(money-6, service-8)
+prep(get-3, to-9)
+pobj(to-9, boot-10)
+
+
+(ROOT
+  (PP (IN For)
+    (NP (NNP $))))
+
+
+root(ROOT-0, For-1)
+pobj(For-1, $-2)
+
+
+(ROOT
+  (NP (CD 2) (NN ,)))
+
+
+num(,-2, 2-1)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (ADVP (RB really))
+    (VP (MD ca) (RB n't)
+      (VP (VB complain)
+        (ADVP (RB too) (RB much))))
+    (. .)))
+
+
+nsubj(complain-5, you-1)
+advmod(complain-5, really-2)
+aux(complain-5, ca-3)
+neg(complain-5, n't-4)
+root(ROOT-0, complain-5)
+advmod(much-7, too-6)
+advmod(complain-5, much-7)
+
+

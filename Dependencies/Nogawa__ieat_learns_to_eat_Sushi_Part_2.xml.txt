@@ -1,0 +1,204 @@
+(ROOT
+  (PP (VBG Following)
+    (NP
+      (NP (PRP$ my) (NNP Sushi) (NNP Enlightenment))
+      (PP (IN with)
+        (NP
+          (NP (NNP Chef) (NNP Nogawa))
+          (, ,))))))
+
+
+root(ROOT-0, Following-1)
+poss(Enlightenment-4, my-2)
+nn(Enlightenment-4, Sushi-3)
+pobj(Following-1, Enlightenment-4)
+prep(Enlightenment-4, with-5)
+nn(Nogawa-7, Chef-6)
+pobj(with-5, Nogawa-7)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (ADVP (RB now))
+      (VP (VBN set)
+        (PRT (RP out))
+        (PP (IN on)
+          (NP (DT a) (NN mission)
+            (S
+              (VP (TO to)
+                (VP (VB post)
+                  (NP
+                    (NP (DT a) (JJ photo) (NN catalog))
+                    (PP (IN of)
+                      (NP (DT the) (JJ various) (NNP Sushi)))
+                    (SBAR
+                      (WHNP (WDT that))
+                      (S
+                        (VP (VBP are)
+                          (ADJP (JJ available)))))))))))))
+    (. .)))
+
+
+nsubj(set-4, I-1)
+aux(set-4, have-2)
+advmod(set-4, now-3)
+root(ROOT-0, set-4)
+prt(set-4, out-5)
+prep(set-4, on-6)
+det(mission-8, a-7)
+pobj(on-6, mission-8)
+aux(post-10, to-9)
+infmod(mission-8, post-10)
+det(catalog-13, a-11)
+amod(catalog-13, photo-12)
+dobj(post-10, catalog-13)
+prep(catalog-13, of-14)
+det(Sushi-17, the-15)
+amod(Sushi-17, various-16)
+pobj(of-14, Sushi-17)
+nsubj(available-20, that-18)
+cop(available-20, are-19)
+rcmod(catalog-13, available-20)
+
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (DT these) (NNS posts)))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+det(posts-3, these-2)
+pobj(In-1, posts-3)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD shall) (RB not)
+      (VP (VB be)
+        (VP (VBG using)
+          (NP (PRP$ my) (JJ usual) (JJ numeric) (NN grading) (NN system))
+          (SBAR (IN because)
+            (S
+              (NP (PRP it))
+              (ADVP (RB really))
+              (VP (VBZ is)
+                (PP (IN about)
+                  (SBAR
+                    (SBAR (IN whether)
+                      (S
+                        (NP (PRP I))
+                        (VP (VBP like)
+                          (NP
+                            (NP (DT a) (JJ certain) (NN type))
+                            (PP (IN of)
+                              (NP (NN sushi)))))))
+                    (CC and)
+                    (SBAR (IN whether)
+                      (S
+                        (NP (PRP I))
+                        (VP (MD would)
+                          (VP (VB order)
+                            (NP (PRP it))
+                            (ADVP (RB again))))))))))))))
+    (. .)))
+
+
+nsubj(using-5, I-1)
+aux(using-5, shall-2)
+neg(using-5, not-3)
+aux(using-5, be-4)
+root(ROOT-0, using-5)
+poss(system-10, my-6)
+amod(system-10, usual-7)
+amod(system-10, numeric-8)
+nn(system-10, grading-9)
+dobj(using-5, system-10)
+mark(is-14, because-11)
+nsubj(is-14, it-12)
+advmod(is-14, really-13)
+advcl(using-5, is-14)
+prep(is-14, about-15)
+mark(like-18, whether-16)
+nsubj(like-18, I-17)
+pcomp(about-15, like-18)
+det(type-21, a-19)
+amod(type-21, certain-20)
+dobj(like-18, type-21)
+prep(type-21, of-22)
+pobj(of-22, sushi-23)
+cc(like-18, and-24)
+mark(order-28, whether-25)
+nsubj(order-28, I-26)
+aux(order-28, would-27)
+conj(like-18, order-28)
+dobj(order-28, it-29)
+advmod(order-28, again-30)
+
+
+(ROOT
+  (S
+    (VP (VBG Joining)
+      (SBAR
+        (S
+          (NP (PRP me))
+          (VP (VBP are)
+            (NP (NNP Cactuskit)
+              (CC and)
+              (NNP Toothfairy)))
+          (, ,))))))
+
+
+root(ROOT-0, Joining-1)
+nsubj(Cactuskit-4, me-2)
+cop(Cactuskit-4, are-3)
+ccomp(Joining-1, Cactuskit-4)
+cc(Cactuskit-4, and-5)
+conj(Cactuskit-4, Toothfairy-6)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT both))
+      (PP (IN of)
+        (NP (WP whom))))
+    (VP (VBP have)
+      (ADVP (RB also))
+      (VP (VBN decided)
+        (S
+          (VP (TO to)
+            (VP (VB embark)
+              (PP (IN on)
+                (NP
+                  (NP (DT the) (NN journey))
+                  (PP (IN of)
+                    (NP
+                      (NP (NNP Sushi) (NNP Enlightenment))
+                      (PP (IN with)
+                        (NP (PRP me))))))))))))
+    (. .)))
+
+
+nsubj(decided-6, both-1)
+prep(both-1, of-2)
+pobj(of-2, whom-3)
+aux(decided-6, have-4)
+advmod(decided-6, also-5)
+root(ROOT-0, decided-6)
+aux(embark-8, to-7)
+xcomp(decided-6, embark-8)
+prep(embark-8, on-9)
+det(journey-11, the-10)
+pobj(on-9, journey-11)
+prep(journey-11, of-12)
+nn(Enlightenment-14, Sushi-13)
+pobj(of-12, Enlightenment-14)
+prep(Enlightenment-14, with-15)
+pobj(with-15, me-16)
+
+

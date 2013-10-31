@@ -1,0 +1,473 @@
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (NP (DT the)
+        (ADJP (JJ first)
+          (PP (IN in)
+            (NP
+              (NP (DT a) (CD five) (NN part) (NN series))
+              (PP (IN on)
+                (NP
+                  (NP (NNP Chinatown) (NNP Complex) (NNP Temporary) (NNP Market))
+                  (SBAR
+                    (WHNP (WDT which))
+                    (S
+                      (VP (MD will)
+                        (ADVP (RB only))
+                        (VP (VB relocate)
+                          (PRT (RP back))
+                          (PP (TO to)
+                            (NP
+                              (NP (PRP$ its) (JJ original) (NN spot))
+                              (PP (IN in)
+                                (NP (CD 2) (NNS years))))))))))))))
+        (NN time)))
+    (. .)))
+
+
+nsubj(time-27, This-1)
+cop(time-27, is-2)
+det(time-27, the-3)
+amod(time-27, first-4)
+prep(first-4, in-5)
+det(series-9, a-6)
+num(series-9, five-7)
+nn(series-9, part-8)
+pobj(in-5, series-9)
+prep(series-9, on-10)
+nn(Market-14, Chinatown-11)
+nn(Market-14, Complex-12)
+nn(Market-14, Temporary-13)
+pobj(on-10, Market-14)
+nsubj(relocate-18, which-15)
+aux(relocate-18, will-16)
+advmod(relocate-18, only-17)
+rcmod(Market-14, relocate-18)
+prt(relocate-18, back-19)
+prep(relocate-18, to-20)
+poss(spot-23, its-21)
+amod(spot-23, original-22)
+pobj(to-20, spot-23)
+prep(spot-23, in-24)
+num(years-26, 2-25)
+pobj(in-24, years-26)
+root(ROOT-0, time-27)
+
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBD was)
+      (NP
+        (NP (DT another)
+          (ADJP (RB very) (JJ famous))
+          (NNP Niu) (NNP Cher) (NNP Sui) (NNP glutinous) (NN rice) (NN stall))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (NP (PRP I))
+            (VP (VBD did) (RB not)
+              (VP (VBN managed)
+                (S
+                  (VP (TO to)
+                    (VP (VB take)
+                      (NP (NNS pictures))
+                      (SBAR (IN because)
+                        (S
+                          (NP (PRP they))
+                          (VP
+                            (VP (VBP open)
+                              (PP (IN at)
+                                (NP (CD 6am))))
+                            (CC and)
+                            (VP (VBP are)
+                              (VP (VBN sold)
+                                (PRT (RP out))
+                                (PP (IN before)
+                                  (NP (NN lunch) (NN time)))))))))))))))))
+    (. .)))
+
+
+expl(was-2, There-1)
+root(ROOT-0, was-2)
+det(stall-11, another-3)
+advmod(famous-5, very-4)
+amod(stall-11, famous-5)
+nn(stall-11, Niu-6)
+nn(stall-11, Cher-7)
+nn(stall-11, Sui-8)
+nn(stall-11, glutinous-9)
+nn(stall-11, rice-10)
+nsubj(was-2, stall-11)
+dobj(managed-16, which-12)
+nsubj(managed-16, I-13)
+aux(managed-16, did-14)
+neg(managed-16, not-15)
+rcmod(stall-11, managed-16)
+aux(take-18, to-17)
+xcomp(managed-16, take-18)
+dobj(take-18, pictures-19)
+mark(open-22, because-20)
+nsubj(open-22, they-21)
+advcl(take-18, open-22)
+prep(open-22, at-23)
+pobj(at-23, 6am-24)
+cc(open-22, and-25)
+auxpass(sold-27, are-26)
+conj(open-22, sold-27)
+prt(sold-27, out-28)
+prep(sold-27, before-29)
+nn(time-31, lunch-30)
+pobj(before-29, time-31)
+
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are)
+      (NP
+        (NP (CD 2) (NN chee))
+        (VP (VBG cheong)
+          (NP (NN fun) (NNS stalls))
+          (ADVP (RB there)))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBP are)
+              (ADJP (RB quite) (JJ famous)))))))
+    (. .)))
+
+
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+num(chee-4, 2-3)
+nsubj(are-2, chee-4)
+partmod(chee-4, cheong-5)
+nn(stalls-7, fun-6)
+dobj(cheong-5, stalls-7)
+advmod(cheong-5, there-8)
+nsubj(famous-12, which-9)
+cop(famous-12, are-10)
+advmod(famous-12, quite-11)
+rcmod(chee-4, famous-12)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP
+      (VP (VBD tried)
+        (NP (DT the) (NNP Shanghai) (NNP Zhu) (NNP Chang) (NNP Fen) (NN stall)))
+      (CC and)
+      (VP
+        (ADVP (RB quite))
+        (VBD liked)
+        (NP (PRP it))))
+    (. .)))
+
+
+nsubj(tried-2, I-1)
+root(ROOT-0, tried-2)
+det(stall-8, the-3)
+nn(stall-8, Shanghai-4)
+nn(stall-8, Zhu-5)
+nn(stall-8, Chang-6)
+nn(stall-8, Fen-7)
+dobj(tried-2, stall-8)
+cc(tried-2, and-9)
+advmod(liked-11, quite-10)
+conj(tried-2, liked-11)
+dobj(liked-11, it-12)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NNP Chee) (NNP Cheong) (NNP Fun))
+    (VP (VBZ comes)
+      (PP (IN in)
+        (NP (CD 6) (JJ different) (NNS fillings))))
+    (, ,)))
+
+
+det(Fun-4, The-1)
+nn(Fun-4, Chee-2)
+nn(Fun-4, Cheong-3)
+nsubj(comes-5, Fun-4)
+root(ROOT-0, comes-5)
+prep(comes-5, in-6)
+num(fillings-9, 6-7)
+amod(fillings-9, different-8)
+pobj(in-6, fillings-9)
+
+
+(ROOT
+  (S
+    (VP (VBG ranging)
+      (PP (IN from)
+        (NP (NNP Char) (NNP Siew)
+          (CC and)
+          (NNP Turnip)))
+      (PP (TO to)
+        (NP (NNP Mushroom))))
+    (. .)))
+
+
+root(ROOT-0, ranging-1)
+prep(ranging-1, from-2)
+nn(Siew-4, Char-3)
+pobj(from-2, Siew-4)
+cc(Siew-4, and-5)
+conj(Siew-4, Turnip-6)
+prep(ranging-1, to-7)
+pobj(to-7, Mushroom-8)
+
+
+(ROOT
+  (S
+    (ADVP (RB Actually))
+    (NP (PRP I))
+    (VP (VBD found)
+      (SBAR (IN that)
+        (S
+          (NP (DT the) (NNS fillings))
+          (VP (VBP make)
+            (NP (JJ little) (NN difference))
+            (SBAR (IN because)
+              (S
+                (NP (PRP it))
+                (VP (VBZ is)
+                  (NP (DT the) (JJ sweet) (NN sauce))
+                  (SBAR (IN that)
+                    (S
+                      (NP (PRP$ your))
+                      (ADVP (RB really))
+                      (VP (VBP go)
+                        (PP (IN for))))))))))))
+    (. .)))
+
+
+advmod(found-3, Actually-1)
+nsubj(found-3, I-2)
+root(ROOT-0, found-3)
+mark(make-7, that-4)
+det(fillings-6, the-5)
+nsubj(make-7, fillings-6)
+ccomp(found-3, make-7)
+amod(difference-9, little-8)
+dobj(make-7, difference-9)
+mark(sauce-15, because-10)
+nsubj(sauce-15, it-11)
+cop(sauce-15, is-12)
+det(sauce-15, the-13)
+amod(sauce-15, sweet-14)
+advcl(make-7, sauce-15)
+mark(go-19, that-16)
+nsubj(go-19, your-17)
+advmod(go-19, really-18)
+ccomp(sauce-15, go-19)
+prep(go-19, for-20)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NNP Chee) (NNP Cheong) (NNP Fun) (NN skin))
+    (VP (VBZ is)
+      (NP
+        (NP (NN factory))
+        (SBAR
+          (S
+            (VP
+              (VP (VBD made))
+              (CC and)
+              (VP (VBZ does) (RB not)
+                (VP (VB have)
+                  (NP
+                    (NP (DT the) (JJ soft) (NN consistency))
+                    (PP (IN of)
+                      (NP
+                        (ADJP (RB freshly) (VBN made))
+                        (NNP Chee) (NNP Cheong) (NNP Fun)))))))))))
+    (. .)))
+
+
+det(skin-5, The-1)
+nn(skin-5, Chee-2)
+nn(skin-5, Cheong-3)
+nn(skin-5, Fun-4)
+nsubj(factory-7, skin-5)
+cop(factory-7, is-6)
+root(ROOT-0, factory-7)
+rcmod(factory-7, made-8)
+cc(made-8, and-9)
+aux(have-12, does-10)
+neg(have-12, not-11)
+conj(made-8, have-12)
+det(consistency-15, the-13)
+amod(consistency-15, soft-14)
+dobj(have-12, consistency-15)
+prep(consistency-15, of-16)
+advmod(made-18, freshly-17)
+amod(Fun-21, made-18)
+nn(Fun-21, Chee-19)
+nn(Fun-21, Cheong-20)
+pobj(of-16, Fun-21)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (ADVP (RB still))
+      (ADJP (RB very) (JJ good)))
+    (. .)))
+
+
+nsubj(good-5, It-1)
+cop(good-5, is-2)
+advmod(good-5, still-3)
+advmod(good-5, very-4)
+root(ROOT-0, good-5)
+
+
+(ROOT
+  (S
+    (NP (DT The) (JJ sweet) (NN sauce))
+    (VP (VBZ is)
+      (VP (VBN made)
+        (PP (IN from)
+          (NP (NNP Hoi) (NNP Sin) (NN sauce)))))
+    (, ,)))
+
+
+det(sauce-3, The-1)
+amod(sauce-3, sweet-2)
+nsubjpass(made-5, sauce-3)
+auxpass(made-5, is-4)
+root(ROOT-0, made-5)
+prep(made-5, from-6)
+nn(sauce-9, Hoi-7)
+nn(sauce-9, Sin-8)
+pobj(from-6, sauce-9)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NN ground) (NN sesame)
+        (CC and)
+        (NN sugar))
+      (VP (VBZ is)))
+    (VP (VBZ is)
+      (ADVP (RB slowly))
+      (ADJP (JJ stirred)
+        (PP (IN in)
+          (NP (DT a) (JJ huge) (NN wok))))
+      (SBAR (RB so) (IN that)
+        (S
+          (NP (PRP it))
+          (VP (VBZ caramalises)
+            (ADVP (RB nicely))))))
+    (. .)))
+
+
+nn(sesame-2, ground-1)
+nsubj(stirred-8, sesame-2)
+cc(sesame-2, and-3)
+conj(sesame-2, sugar-4)
+dep(sesame-2, is-5)
+cop(stirred-8, is-6)
+advmod(stirred-8, slowly-7)
+root(ROOT-0, stirred-8)
+prep(stirred-8, in-9)
+det(wok-12, a-10)
+amod(wok-12, huge-11)
+pobj(in-9, wok-12)
+advmod(caramalises-16, so-13)
+mark(caramalises-16, that-14)
+nsubj(caramalises-16, it-15)
+advcl(stirred-8, caramalises-16)
+advmod(caramalises-16, nicely-17)
+
+
+(ROOT
+  (NP (NNP Phwa) (NNP ,)))
+
+
+nn(,-2, Phwa-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB really))
+    (VP (VBP love)
+      (NP (DT the) (NN sauce)))
+    (. !)))
+
+
+nsubj(love-3, I-1)
+advmod(love-3, really-2)
+root(ROOT-0, love-3)
+det(sauce-5, the-4)
+dobj(love-3, sauce-5)
+
+
+(ROOT
+  (NP
+    (NP (NNP Great))
+    (PP (IN for)
+      (NP (DT a) (NN side) (NN dish)))
+    (. !)))
+
+
+root(ROOT-0, Great-1)
+prep(Great-1, for-2)
+det(dish-5, a-3)
+nn(dish-5, side-4)
+pobj(for-2, dish-5)
+
+
+(ROOT
+  (NP
+    (NP
+      (NP (RB Quite) (JJ different))
+      (SBAR
+        (WHPP (IN in)
+          (WHNP (WDT that)))
+        (S
+          (NP (PRP you))
+          (VP (VBP get)
+            (NP (DT a) (JJ thick) (JJ sweet) (NN sauce))))))
+    (CONJP (RB instead) (IN of))
+    (NP
+      (NP (DT the) (JJ usual) (JJ light) (NN soy) (NN sauce))
+      (PP (IN with)
+        (NP (NNP Char) (NNP Siew) (NNP Cheong) (NNP Fun))))
+    (. .)))
+
+
+advmod(different-2, Quite-1)
+root(ROOT-0, different-2)
+prep(get-6, in-3)
+pobj(in-3, that-4)
+nsubj(get-6, you-5)
+rcmod(different-2, get-6)
+det(sauce-10, a-7)
+amod(sauce-10, thick-8)
+amod(sauce-10, sweet-9)
+dobj(get-6, sauce-10)
+cc(different-2, instead-11)
+mwe(instead-11, of-12)
+det(sauce-17, the-13)
+amod(sauce-17, usual-14)
+amod(sauce-17, light-15)
+nn(sauce-17, soy-16)
+conj(different-2, sauce-17)
+prep(sauce-17, with-18)
+nn(Fun-22, Char-19)
+nn(Fun-22, Siew-20)
+nn(Fun-22, Cheong-21)
+pobj(with-18, Fun-22)
+
+

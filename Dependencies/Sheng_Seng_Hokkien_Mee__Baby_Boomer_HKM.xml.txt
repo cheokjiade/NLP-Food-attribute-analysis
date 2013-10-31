@@ -1,0 +1,376 @@
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (NP (DT another) (JJ famous) (NN stall))
+      (ADVP (RB here))
+      (PP (IN at)
+        (NP (NNP Pek) (NNP Kio))))
+    (. .)))
+
+
+nsubj(stall-5, This-1)
+cop(stall-5, is-2)
+det(stall-5, another-3)
+amod(stall-5, famous-4)
+root(ROOT-0, stall-5)
+advmod(stall-5, here-6)
+prep(stall-5, at-7)
+nn(Kio-9, Pek-8)
+pobj(at-7, Kio-9)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN reason))
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (VBP call)
+            (S
+              (NP (PRP it))
+              (NP (DT a) (NNP Baby) (NNP Boomer) (NNP HKM)))))))
+    (VP (VBZ is)
+      (SBAR (IN that)
+        (S
+          (NP (PRP$ my) (CD three) (NNP Baby) (NNP Boomer) (NNS Makankakis))
+          (ADVP (DT all))
+          (VP (VBP seem)
+            (S
+              (VP (TO to)
+                (VP (VB like)
+                  (S
+                    (NP (PRP it))
+                    (ADJP (JJ whiles))))))))))))
+
+
+det(reason-2, The-1)
+nsubj(is-10, reason-2)
+nsubj(call-4, I-3)
+rcmod(reason-2, call-4)
+nsubj(HKM-9, it-5)
+det(HKM-9, a-6)
+nn(HKM-9, Baby-7)
+nn(HKM-9, Boomer-8)
+xcomp(call-4, HKM-9)
+root(ROOT-0, is-10)
+mark(seem-18, that-11)
+poss(Makankakis-16, my-12)
+num(Makankakis-16, three-13)
+nn(Makankakis-16, Baby-14)
+nn(Makankakis-16, Boomer-15)
+nsubj(seem-18, Makankakis-16)
+advmod(seem-18, all-17)
+ccomp(is-10, seem-18)
+aux(like-20, to-19)
+xcomp(seem-18, like-20)
+nsubj(whiles-22, it-21)
+xcomp(like-20, whiles-22)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD found)
+      (S
+        (NP (PRP it))
+        (ADJP (RB pretty) (JJ ok))
+        (ADVP (RB only))))
+    (. .)))
+
+
+nsubj(found-2, I-1)
+root(ROOT-0, found-2)
+nsubj(ok-5, it-3)
+advmod(ok-5, pretty-4)
+xcomp(found-2, ok-5)
+advmod(ok-5, only-6)
+
+
+(ROOT
+  (S (IN So)
+    (ADVP (RB maybe))
+    (NP (PRP it))
+    (VP (VBZ has)
+      (NP
+        (NP (DT a) (JJ vintage) (NN taste))
+        (SBAR
+          (S
+            (NP (PRP I))
+            (VP (VBD did) (RB not)
+              (VP (VB pick)
+                (PRT (RP up))
+                (PP (IN on))))))))
+    (. .)))
+
+
+dep(has-4, So-1)
+advmod(has-4, maybe-2)
+nsubj(has-4, it-3)
+root(ROOT-0, has-4)
+det(taste-7, a-5)
+amod(taste-7, vintage-6)
+dobj(has-4, taste-7)
+nsubj(pick-11, I-8)
+aux(pick-11, did-9)
+neg(pick-11, not-10)
+rcmod(taste-7, pick-11)
+prt(pick-11, up-12)
+prep(pick-11, on-13)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP do) (RB n't)
+      (VP (VB know)))
+    (. .)))
+
+
+nsubj(know-4, I-1)
+aux(know-4, do-2)
+neg(know-4, n't-3)
+root(ROOT-0, know-4)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Whatever)
+      (NP (DT the) (NN case)))
+    (, ,)))
+
+
+root(ROOT-0, Whatever-1)
+det(case-3, the-2)
+pobj(Whatever-1, case-3)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (ADVP (RB still))
+    (VP (VBD made)
+      (NP (PRP it))
+      (PP (TO to)
+        (NP (DT the) (NN blog)))
+      (SBAR (IN since)
+        (S
+          (NP (EX there))
+          (VP (VBP are)
+            (NP
+              (NP (NNS people))
+              (SBAR
+                (WHNP (WP who))
+                (S
+                  (VP (VBP find)
+                    (S
+                      (NP (PRP$ its) (NN taste))
+                      (ADJP (JJ endearing)))))))))))
+    (. .)))
+
+
+nsubj(made-3, it-1)
+advmod(made-3, still-2)
+root(ROOT-0, made-3)
+dobj(made-3, it-4)
+prep(made-3, to-5)
+det(blog-7, the-6)
+pobj(to-5, blog-7)
+mark(are-10, since-8)
+expl(are-10, there-9)
+advcl(made-3, are-10)
+nsubj(are-10, people-11)
+nsubj(find-13, who-12)
+rcmod(people-11, find-13)
+poss(taste-15, its-14)
+nsubj(endearing-16, taste-15)
+xcomp(find-13, endearing-16)
+
+
+(ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ (VBZ is)
+      (ADJP (JJ amazing)
+        (PP (IN about)
+          (NP
+            (NP (DT this) (NN plate))
+            (PP (IN of)
+              (NP
+                (NP (NNP HKM))
+                (SBAR
+                  (S
+                    (VP (VBZ is)
+                      (NP (DT the) (NN fact))
+                      (SBAR (IN that)
+                        (S
+                          (NP (PRP it))
+                          (VP (VBZ is)
+                            (ADVP (RB still))
+                            (ADJP (RB only) (JJ $))))))))))))))))
+
+
+attr(amazing-3, What-1)
+cop(amazing-3, is-2)
+root(ROOT-0, amazing-3)
+prep(amazing-3, about-4)
+det(plate-6, this-5)
+pobj(about-4, plate-6)
+prep(plate-6, of-7)
+pobj(of-7, HKM-8)
+cop(fact-11, is-9)
+det(fact-11, the-10)
+rcmod(HKM-8, fact-11)
+mark($-17, that-12)
+nsubj($-17, it-13)
+cop($-17, is-14)
+advmod($-17, still-15)
+advmod($-17, only-16)
+ccomp(fact-11, $-17)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 2))
+    (. !)))
+
+
+root(ROOT-0, 2-1)
+
+
+(ROOT
+  (ADJP (JJ OK)
+    (PP (IN for)
+      (NP (NNP $)))))
+
+
+root(ROOT-0, OK-1)
+prep(OK-1, for-2)
+pobj(for-2, $-3)
+
+
+(ROOT
+  (NP (CD 2) (NN ,)))
+
+
+num(,-2, 2-1)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (VBP get)
+      (NP
+        (NP (RB quite) (DT a) (JJ good) (NN plate))
+        (PP (IN of)
+          (NP (NNP HKM)))))
+    (. .)))
+
+
+nsubj(get-2, you-1)
+root(ROOT-0, get-2)
+advmod(plate-6, quite-3)
+det(plate-6, a-4)
+amod(plate-6, good-5)
+dobj(get-2, plate-6)
+prep(plate-6, of-7)
+pobj(of-7, HKM-8)
+
+
+(ROOT
+  (S
+    (NP (NNP Conclusion) (NNP My)
+      (ADJP (RBR more) (JJ matured))
+      (NNS Makankakis))
+    (ADVP (RB really))
+    (VP (VBD liked)
+      (SBAR
+        (S
+          (NP (PRP it)
+            (CC and)
+            (PRP I))
+          (VP (VBP am)
+            (ADJP (JJ sure)
+              (SBAR
+                (S
+                  (NP (EX there))
+                  (VP (VBP are)
+                    (NP
+                      (NP (JJ other) (NNS readers))
+                      (PP (IN of)
+                        (NP
+                          (NP (DT the) (NN blog))
+                          (SBAR
+                            (WHNP (WP who))
+                            (S
+                              (VP (VBP are)
+                                (ADVP (RB also))
+                                (NP
+                                  (NP (NNS fans))
+                                  (PP (IN of)
+                                    (NP (DT this) (NNP HKM))))))))))))))))))
+    (. .)))
+
+
+nn(Makankakis-5, Conclusion-1)
+nn(Makankakis-5, My-2)
+advmod(matured-4, more-3)
+amod(Makankakis-5, matured-4)
+nsubj(liked-7, Makankakis-5)
+advmod(liked-7, really-6)
+root(ROOT-0, liked-7)
+nsubj(sure-12, it-8)
+cc(it-8, and-9)
+conj(it-8, I-10)
+cop(sure-12, am-11)
+ccomp(liked-7, sure-12)
+expl(are-14, there-13)
+ccomp(sure-12, are-14)
+amod(readers-16, other-15)
+nsubj(are-14, readers-16)
+prep(readers-16, of-17)
+det(blog-19, the-18)
+pobj(of-17, blog-19)
+nsubj(fans-23, who-20)
+cop(fans-23, are-21)
+advmod(fans-23, also-22)
+rcmod(blog-19, fans-23)
+prep(fans-23, of-24)
+det(HKM-26, this-25)
+pobj(of-24, HKM-26)
+
+
+(ROOT
+  (S
+    (VP (VBG Sheng)
+      (S
+        (NP (NNP Seng) (NNP Fried) (NNP Prawn) (NNP Noodles) (NNP Blk) (CD 41A) (NNP Cambridge) (NNP Road) (NNP Stall)
+          (ADJP (DT no)
+            (QP (# #) (CD 01-40) (CD Tel)))
+          (NNS 62993981))
+        (ADJP (VBN Closed)
+          (PP (IN on)
+            (NP (NNP Mondays))))))))
+
+
+root(ROOT-0, Sheng-1)
+nn(62993981-15, Seng-2)
+nn(62993981-15, Fried-3)
+nn(62993981-15, Prawn-4)
+nn(62993981-15, Noodles-5)
+nn(62993981-15, Blk-6)
+num(62993981-15, 41A-7)
+nn(62993981-15, Cambridge-8)
+nn(62993981-15, Road-9)
+nn(62993981-15, Stall-10)
+dep(Tel-14, no-11)
+number(Tel-14, #-12)
+number(Tel-14, 01-40-13)
+dep(62993981-15, Tel-14)
+nsubj(Closed-16, 62993981-15)
+xcomp(Sheng-1, Closed-16)
+prep(Closed-16, on-17)
+pobj(on-17, Mondays-18)
+
+

@@ -1,0 +1,171 @@
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD would)
+      (VP (VB think)
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP (DT any) (NN stall))
+              (SBAR
+                (WHNP (WDT that))
+                (S
+                  (VP (MD can)
+                    (VP (VB do)
+                      (NP (DT a) (JJ white) (NN carrot) (NN cake)))))))
+            (VP (MD will)
+              (VP (VB be)
+                (ADJP (JJ able)
+                  (S
+                    (VP (TO to)
+                      (VP (VB do)
+                        (NP (DT a) (JJ black) (NN one))
+                        (ADVP (RB as) (RB well) (RB right))))))))))))
+    (. ?)))
+
+
+nsubj(think-3, You-1)
+aux(think-3, would-2)
+root(ROOT-0, think-3)
+mark(able-16, that-4)
+det(stall-6, any-5)
+nsubj(able-16, stall-6)
+nsubj(do-9, that-7)
+aux(do-9, can-8)
+rcmod(stall-6, do-9)
+det(cake-13, a-10)
+amod(cake-13, white-11)
+nn(cake-13, carrot-12)
+dobj(do-9, cake-13)
+aux(able-16, will-14)
+cop(able-16, be-15)
+ccomp(think-3, able-16)
+aux(do-18, to-17)
+xcomp(able-16, do-18)
+det(one-21, a-19)
+amod(one-21, black-20)
+dobj(do-18, one-21)
+advmod(right-24, as-22)
+advmod(right-24, well-23)
+advmod(do-18, right-24)
+
+
+(ROOT
+  (NP (NNP Afterall) (NNP ,)))
+
+
+nn(,-2, Afterall-1)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (NN matter))
+        (PP (IN of)
+          (S
+            (VP (VBG adding)
+              (NP
+                (NP (JJ black) (NN sauce))
+                (CC and)
+                (SBAR
+                  (WHADVP (WRB how) (JJ hard))
+                  (S
+                    (VP (MD can)
+                      (ADVP (IN that))
+                      (VP (VB be)))))))))))
+    (. ?)))
+
+
+nsubj(matter-4, it-1)
+cop(matter-4, is-2)
+det(matter-4, a-3)
+root(ROOT-0, matter-4)
+prep(matter-4, of-5)
+pcomp(of-5, adding-6)
+amod(sauce-8, black-7)
+dobj(adding-6, sauce-8)
+cc(sauce-8, and-9)
+advmod(hard-11, how-10)
+advmod(be-14, hard-11)
+aux(be-14, can-12)
+advmod(be-14, that-13)
+conj(sauce-8, be-14)
+
+
+(ROOT
+  (S (CC But)
+    (NP (DT the) (NN fact))
+    (VP (VBZ is)
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (JJS most))
+            (SBAR
+              (S
+                (NP (NNP Carrot) (NNP Cake))
+                (VP (VBZ stalls)
+                  (SBAR
+                    (S
+                      (NP (PRP I))
+                      (VP (VBP know)
+                        (PP (IN of)))))))))
+          (VP (VBP are) (DT either)
+            (ADJP (JJ good)
+              (PP (IN for)
+                (NP
+                  (NP
+                    (NP (DT the) (JJ white))
+                    (CC or)
+                    (NP (DT the) (JJ black)))
+                  (CONJP (CC but)
+                    (RB not))
+                  (NP (DT both)))))))))
+    (. .)))
+
+
+cc(is-4, But-1)
+det(fact-3, the-2)
+nsubj(is-4, fact-3)
+root(ROOT-0, is-4)
+mark(good-15, that-5)
+nsubj(good-15, most-6)
+nn(Cake-8, Carrot-7)
+nsubj(stalls-9, Cake-8)
+rcmod(most-6, stalls-9)
+nsubj(know-11, I-10)
+ccomp(stalls-9, know-11)
+prep(know-11, of-12)
+cop(good-15, are-13)
+dep(good-15, either-14)
+ccomp(is-4, good-15)
+prep(good-15, for-16)
+det(white-18, the-17)
+pobj(for-16, white-18)
+cc(white-18, or-19)
+det(black-21, the-20)
+conj(white-18, black-21)
+cc(not-23, but-22)
+cc(white-18, not-23)
+conj(white-18, both-24)
+
+
+(ROOT
+  (SQ (MD Will)
+    (NP (DT that))
+    (VP (VB be)
+      (NP (PRP$ your) (NN observation))
+      (ADVP (RB as) (RB well)))
+    (. ?)))
+
+
+aux(observation-5, Will-1)
+nsubj(observation-5, that-2)
+cop(observation-5, be-3)
+poss(observation-5, your-4)
+root(ROOT-0, observation-5)
+advmod(well-7, as-6)
+advmod(observation-5, well-7)
+
+

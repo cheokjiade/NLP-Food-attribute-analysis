@@ -1,0 +1,919 @@
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ year))
+    (, ,)))
+
+
+nsubj(year-2, This-1)
+root(ROOT-0, year-2)
+
+
+(ROOT
+  (S
+    (NP (PRP$ our) (NN aim))
+    (VP (VBZ is)
+      (S
+        (VP (TO to)
+          (VP (VB raise)
+            (NP (NNS $))))))))
+
+
+poss(aim-2, our-1)
+nsubj(is-3, aim-2)
+root(ROOT-0, is-3)
+aux(raise-5, to-4)
+xcomp(is-3, raise-5)
+dobj(raise-5, $-6)
+
+
+(ROOT
+  (X
+    (NP (CD 100K))
+    (SBAR
+      (UCP
+        (PP (IN for)
+          (NP (PRP$ our) (NNP Sandakan) (NNP School) (NNP Building) (NNP Project)))
+        (CC and)
+        (ADVP (RB so) (RB far)))
+      (S
+        (NP (PRP we))
+        (VP (VBP have)
+          (ADVP (RB just))
+          (VP (VBN crossed)
+            (NP (DT the) (NN $))))))))
+
+
+root(ROOT-0, 100K-1)
+dep(crossed-14, for-2)
+poss(Project-7, our-3)
+nn(Project-7, Sandakan-4)
+nn(Project-7, School-5)
+nn(Project-7, Building-6)
+pobj(for-2, Project-7)
+cc(for-2, and-8)
+advmod(far-10, so-9)
+conj(for-2, far-10)
+nsubj(crossed-14, we-11)
+aux(crossed-14, have-12)
+advmod(crossed-14, just-13)
+dep(100K-1, crossed-14)
+det($-16, the-15)
+dobj(crossed-14, $-16)
+
+
+(ROOT
+  (S
+    (NP (CD 70K))
+    (VP (VBP mark))
+    (, ,)))
+
+
+nsubj(mark-2, 70K-1)
+root(ROOT-0, mark-2)
+
+
+(ROOT
+  (S (IN so)
+    (NP (PRP we))
+    (VP (VBP have)
+      (NP
+        (ADJP
+          (NP (DT a) (RB bit))
+          (JJR more))
+        (NN work)
+        (S
+          (VP (TO to)
+            (VP (VB do))))))
+    (. !)))
+
+
+dep(have-3, so-1)
+nsubj(have-3, we-2)
+root(ROOT-0, have-3)
+det(bit-5, a-4)
+npadvmod(more-6, bit-5)
+amod(work-7, more-6)
+dobj(have-3, work-7)
+aux(do-9, to-8)
+infmod(work-7, do-9)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Fortunately))
+    (, ,)))
+
+
+root(ROOT-0, Fortunately-1)
+
+
+(ROOT
+  (S
+    (NP (PRP$ our) (NNS sponsors) (NN MHCAsia))
+    (VP (VBP have)
+      (VP (VBN been)
+        (ADJP (RB very) (JJ generous))
+        (PP
+          (PP (IN in)
+            (NP (PRP$ their) (NN support)))
+          (CC and)
+          (PP (IN in)
+            (NP
+              (NP (DT the) (NN lead))
+              (ADVP (RB up)
+                (PP (TO to)
+                  (NP (PRP$ their) (JJ Annual) (NN Dinner)))))))
+        (NP (JJ next) (NN week))))
+    (, ,)))
+
+
+poss(MHCAsia-3, our-1)
+nn(MHCAsia-3, sponsors-2)
+nsubj(generous-7, MHCAsia-3)
+aux(generous-7, have-4)
+cop(generous-7, been-5)
+advmod(generous-7, very-6)
+root(ROOT-0, generous-7)
+prep(generous-7, in-8)
+poss(support-10, their-9)
+pobj(in-8, support-10)
+cc(in-8, and-11)
+conj(in-8, in-12)
+det(lead-14, the-13)
+pobj(in-12, lead-14)
+advmod(lead-14, up-15)
+prep(up-15, to-16)
+poss(Dinner-19, their-17)
+amod(Dinner-19, Annual-18)
+pobj(to-16, Dinner-19)
+amod(week-21, next-20)
+attr(generous-7, week-21)
+
+
+(ROOT
+  (S
+    (NP (PRP they))
+    (VP (VBP have)
+      (VP (VBN told)
+        (NP (PRP me))
+        (SBAR (IN that)
+          (S
+            (NP (PRP they))
+            (VP (VBP are)
+              (ADJP (JJ willing)
+                (SBAR
+                  (S
+                    (VP (VBP support)
+                      (NP
+                        (NP (DT another) (NN fund) (NN raiser))
+                        (PP (IN for)
+                          (NP (PRP us)))))))))))))
+    (. .)))
+
+
+nsubj(told-3, they-1)
+aux(told-3, have-2)
+root(ROOT-0, told-3)
+dobj(told-3, me-4)
+mark(willing-8, that-5)
+nsubj(willing-8, they-6)
+cop(willing-8, are-7)
+ccomp(told-3, willing-8)
+ccomp(willing-8, support-9)
+det(raiser-12, another-10)
+nn(raiser-12, fund-11)
+dobj(support-9, raiser-12)
+prep(raiser-12, for-13)
+pobj(for-13, us-14)
+
+
+(ROOT
+  (SBAR (IN As)
+    (S
+      (NP (PRP you))
+      (VP (VBP know))
+      (, ,))))
+
+
+mark(know-3, As-1)
+nsubj(know-3, you-2)
+root(ROOT-0, know-3)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (VP (VBP have)
+      (ADVP (RB just))
+      (VP (VBN returned)
+        (PP (IN from)
+          (NP (PRP$ our) (NNP Sandakan) (NN trip)))))
+    (. .)))
+
+
+nsubj(returned-4, we-1)
+aux(returned-4, have-2)
+advmod(returned-4, just-3)
+root(ROOT-0, returned-4)
+prep(returned-4, from-5)
+poss(trip-8, our-6)
+nn(trip-8, Sandakan-7)
+pobj(from-5, trip-8)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (NP
+        (NP (DT a)
+          (ADJP (RB truly) (JJ uplifting))
+          (NN time))
+        (PP (IN for)
+          (NP (NN team) (NNS members))))
+      (SBAR (IN as)
+        (S
+          (NP (PRP we))
+          (VP (VBD toured)
+            (NP (DT the) (NNS villages))
+            (S
+              (VP (TO to)
+                (VP (VB see)
+                  (NP
+                    (NP (DT the) (NN progress))
+                    (PP (IN of)
+                      (NP
+                        (NP (DT the) (NNS kids))
+                        (PP (IN in)
+                          (NP (NN school)))))))))))))
+    (. .)))
+
+
+nsubj(time-6, It-1)
+cop(time-6, was-2)
+det(time-6, a-3)
+advmod(uplifting-5, truly-4)
+amod(time-6, uplifting-5)
+root(ROOT-0, time-6)
+prep(time-6, for-7)
+nn(members-9, team-8)
+pobj(for-7, members-9)
+mark(toured-12, as-10)
+nsubj(toured-12, we-11)
+advcl(time-6, toured-12)
+det(villages-14, the-13)
+dobj(toured-12, villages-14)
+aux(see-16, to-15)
+xcomp(toured-12, see-16)
+det(progress-18, the-17)
+dobj(see-16, progress-18)
+prep(progress-18, of-19)
+det(kids-21, the-20)
+pobj(of-19, kids-21)
+prep(kids-21, in-22)
+pobj(in-22, school-23)
+
+
+(ROOT
+  (S
+    (NP (DT The) (JJ full) (NN report))
+    (VP (MD will)
+      (VP (VB be)
+        (ADJP (JJ ready)
+          (PP (IN by)
+            (NP (JJ next) (NN week))))))
+    (, ,)))
+
+
+det(report-3, The-1)
+amod(report-3, full-2)
+nsubj(ready-6, report-3)
+aux(ready-6, will-4)
+cop(ready-6, be-5)
+root(ROOT-0, ready-6)
+prep(ready-6, by-7)
+amod(week-9, next-8)
+pobj(by-7, week-9)
+
+
+(ROOT
+  (FRAG (CC but)
+    (PP (IN in)
+      (NP
+        (NP (DT the) (NN meantime))
+        (, ,)))))
+
+
+root(ROOT-0, but-1)
+prep(but-1, in-2)
+det(meantime-4, the-3)
+pobj(in-2, meantime-4)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD will)
+      (ADVP (RB just))
+      (VP (VB share)
+        (PP (IN with)
+          (NP (PRP you)))
+        (NP
+          (NP (DT a) (NN photo))
+          (PP (IN of)
+            (NP (CD one)))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (NNS schools))
+              (SBAR (IN that)
+                (S
+                  (NP (PRP we))
+                  (VP (VBP help)
+                    (NP (NN support))))))))))
+    (. .)))
+
+
+nsubj(share-4, I-1)
+aux(share-4, will-2)
+advmod(share-4, just-3)
+root(ROOT-0, share-4)
+prep(share-4, with-5)
+pobj(with-5, you-6)
+det(photo-8, a-7)
+dobj(share-4, photo-8)
+prep(photo-8, of-9)
+pobj(of-9, one-10)
+prep(photo-8, of-11)
+det(schools-13, the-12)
+pobj(of-11, schools-13)
+mark(help-16, that-14)
+nsubj(help-16, we-15)
+dep(schools-13, help-16)
+dobj(help-16, support-17)
+
+
+(ROOT
+  (FRAG
+    (PP (IN For)
+      (NP (DT this) (NN school)))
+    (, ,)))
+
+
+root(ROOT-0, For-1)
+det(school-3, this-2)
+pobj(For-1, school-3)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (VP (VBD donated)
+      (NP (NN building) (NNS materials))
+      (PP (IN worth)
+        (NP
+          (NP (NNP RM680))
+          (PP (IN for)
+            (NP (DT the) (NNS villagers)))))
+      (S
+        (VP (TO to)
+          (VP (VB build)
+            (NP (DT a) (NN shelter))
+            (SBAR
+              (WHADVP (WRB where))
+              (S
+                (NP (DT the) (NNS kids))
+                (VP (MD can)
+                  (VP (VB gather)))))))))
+    (. .)))
+
+
+nsubj(donated-2, we-1)
+root(ROOT-0, donated-2)
+nn(materials-4, building-3)
+dobj(donated-2, materials-4)
+prep(donated-2, worth-5)
+pobj(worth-5, RM680-6)
+prep(RM680-6, for-7)
+det(villagers-9, the-8)
+pobj(for-7, villagers-9)
+aux(build-11, to-10)
+xcomp(donated-2, build-11)
+det(shelter-13, a-12)
+dobj(build-11, shelter-13)
+advmod(gather-18, where-14)
+det(kids-16, the-15)
+nsubj(gather-18, kids-16)
+aux(gather-18, can-17)
+advcl(build-11, gather-18)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP are)
+      (ADVP (RB also))
+      (VP (VBG helping)
+        (S
+          (VP (TO to)
+            (VP (VB fund)
+              (NP
+                (NP (JJ stationary)
+                  (CC and)
+                  (DT the) (NNS salaries))
+                (PP (IN of)
+                  (NP
+                    (NP (DT the) (NNS teachers))
+                    (PRN (-LRB- -LRB-)
+                      (NP
+                        (NP (NNP RM300))
+                        (PP (IN per)
+                          (NP (NN month))))
+                      (-RRB- -RRB-))))))))))
+    (. .)))
+
+
+nsubj(helping-4, We-1)
+aux(helping-4, are-2)
+advmod(helping-4, also-3)
+root(ROOT-0, helping-4)
+aux(fund-6, to-5)
+xcomp(helping-4, fund-6)
+amod(salaries-10, stationary-7)
+cc(stationary-7, and-8)
+conj(stationary-7, the-9)
+dobj(fund-6, salaries-10)
+prep(salaries-10, of-11)
+det(teachers-13, the-12)
+pobj(of-11, teachers-13)
+appos(teachers-13, RM300-15)
+prep(RM300-15, per-16)
+pobj(per-16, month-17)
+
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are)
+      (ADVP (RB currently))
+      (NP
+        (NP (CD 17) (JJ such) (NNS centres))
+        (PP (IN in)
+          (NP (NNP Sandakan))))
+      (SBAR (IN that)
+        (S
+          (NP (NNP Goducate))
+          (VP (VBZ is)
+            (VP (VBG supporting))))))
+    (. .)))
+
+
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+advmod(are-2, currently-3)
+num(centres-6, 17-4)
+amod(centres-6, such-5)
+nsubj(are-2, centres-6)
+prep(centres-6, in-7)
+pobj(in-7, Sandakan-8)
+mark(supporting-12, that-9)
+nsubj(supporting-12, Goducate-10)
+aux(supporting-12, is-11)
+ccomp(are-2, supporting-12)
+
+
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (JJ ieat) (NN mobil))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (NP (PRP we))
+            (VP (VBD purchased)
+              (PP (IN for)
+                (NP (NNP $))))))))))
+
+
+nsubj(mobil-5, This-1)
+cop(mobil-5, is-2)
+det(mobil-5, the-3)
+amod(mobil-5, ieat-4)
+root(ROOT-0, mobil-5)
+dobj(purchased-8, which-6)
+nsubj(purchased-8, we-7)
+rcmod(mobil-5, purchased-8)
+prep(purchased-8, for-9)
+pobj(for-9, $-10)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (CD 25K) (JJ last) (NN year))
+      (PP (IN through)
+        (NP (PRP$ our) (NN fund) (NN raising))))
+    (VP (VBZ activites))
+    (. .)))
+
+
+num(year-3, 25K-1)
+amod(year-3, last-2)
+nsubj(activites-8, year-3)
+prep(year-3, through-4)
+poss(raising-7, our-5)
+nn(raising-7, fund-6)
+pobj(through-4, raising-7)
+root(ROOT-0, activites-8)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP
+      (VP (VBZ has)
+        (VP (VBN been)
+          (ADJP (JJ instrumental)
+            (S
+              (VP (TO to)
+                (VP (VB ferry)
+                  (NP (NN staff)
+                    (CC and)
+                    (NNS kids))
+                  (PP
+                    (PP (TO to))
+                    (CC and)
+                    (PP (IN from)
+                      (NP
+                        (ADJP (RB really) (JJ inaccessible))
+                        (NNS areas))))))))))
+      (CC and)
+      (VP (VBZ is)
+        (NP
+          (NP (DT a) (NN lifeline))
+          (PP (IN for)
+            (NP
+              (NP (PRP$ our) (NNS workers))
+              (PP (IN on)
+                (NP (DT the) (NN ground))))))))
+    (. !)))
+
+
+nsubj(instrumental-4, It-1)
+aux(instrumental-4, has-2)
+cop(instrumental-4, been-3)
+root(ROOT-0, instrumental-4)
+aux(ferry-6, to-5)
+xcomp(instrumental-4, ferry-6)
+dobj(ferry-6, staff-7)
+cc(staff-7, and-8)
+conj(staff-7, kids-9)
+prep(ferry-6, to-10)
+cc(to-10, and-11)
+conj(to-10, from-12)
+advmod(inaccessible-14, really-13)
+amod(areas-15, inaccessible-14)
+pobj(from-12, areas-15)
+cc(instrumental-4, and-16)
+cop(lifeline-19, is-17)
+det(lifeline-19, a-18)
+conj(instrumental-4, lifeline-19)
+prep(lifeline-19, for-20)
+poss(workers-22, our-21)
+pobj(for-20, workers-22)
+prep(workers-22, on-23)
+det(ground-25, the-24)
+pobj(on-23, ground-25)
+
+
+(ROOT
+  (NP (NNP Website) (: :)))
+
+
+root(ROOT-0, Website-1)
+
+
+(ROOT
+  (S
+    (VP (VB https://www.facebook.com/MHChealthcare)
+      (SBAR
+        (S
+          (NP (DT This))
+          (VP (VBZ is)
+            (SBAR
+              (WHADVP (WRB how))
+              (S
+                (NP (PRP we))
+                (VP (VBP are)
+                  (VP (VBG going)
+                    (S
+                      (VP (TO to)
+                        (VP (VB raise)
+                          (NP (DT some) (NNS funds))
+                          (NP (NN today)))))))))))))
+    (: :)))
+
+
+root(ROOT-0, https://www.facebook.com/MHChealthcare-1)
+nsubj(is-3, This-2)
+ccomp(https://www.facebook.com/MHChealthcare-1, is-3)
+advmod(going-7, how-4)
+nsubj(going-7, we-5)
+aux(going-7, are-6)
+ccomp(is-3, going-7)
+aux(raise-9, to-8)
+xcomp(going-7, raise-9)
+det(funds-11, some-10)
+dobj(raise-9, funds-11)
+tmod(raise-9, today-12)
+
+
+(ROOT
+  (S
+    (NP (NNP MHCAsia))
+    (VP (MD will)
+      (VP (VB pay)
+        (NP (NNS $))))))
+
+
+nsubj(pay-3, MHCAsia-1)
+aux(pay-3, will-2)
+root(ROOT-0, pay-3)
+dobj(pay-3, $-4)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (CD 10))
+      (PP (IN per)))
+    (VP (VBP like)
+      (PP (IN on)
+        (NP
+          (NP (PRP$ their) (NN facebook) (NN page))
+          (PP (IN in)
+            (NP (DT the) (NN lead)))))
+      (ADVP (RB up)
+        (PP (TO to)
+          (NP (PRP$ their) (JJ Annual) (NN Dinner)))))
+    (. .)))
+
+
+nsubj(like-3, 10-1)
+prep(10-1, per-2)
+root(ROOT-0, like-3)
+prep(like-3, on-4)
+poss(page-7, their-5)
+nn(page-7, facebook-6)
+pobj(on-4, page-7)
+prep(page-7, in-8)
+det(lead-10, the-9)
+pobj(in-8, lead-10)
+advmod(like-3, up-11)
+prep(up-11, to-12)
+poss(Dinner-15, their-13)
+amod(Dinner-15, Annual-14)
+pobj(to-12, Dinner-15)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT All))
+      (SBAR
+        (S
+          (NP (PRP you))
+          (VP (VBP have)
+            (S
+              (VP (TO to)
+                (VP (VB do))))))))
+    (VP (VBZ is)
+      (S
+        (VP (TO to)
+          (VP
+            (VP (VB go)
+              (PP (TO to)
+                (NP (PRP$ their) (NN fanpage))))
+            (CC and)
+            (VP (VB click)
+              (NP (DT the) (`` ``) (JJ Like) ('' '') (NN button)))
+            (CC and)
+            (ADVP (RB then))
+            (VP (VB click)
+              (S
+                (VP (TO to)
+                  (VP (`` ``) (VB Like) ('' '')
+                    (NP (DT the) (NNP Goducate) (NNP Poster)))))
+              (PP (IN on)
+                (NP (DT the) (NNP Wall))))))))
+    (. .)))
+
+
+nsubj(is-6, All-1)
+nsubj(have-3, you-2)
+rcmod(All-1, have-3)
+aux(do-5, to-4)
+xcomp(have-3, do-5)
+root(ROOT-0, is-6)
+aux(go-8, to-7)
+xcomp(is-6, go-8)
+prep(go-8, to-9)
+poss(fanpage-11, their-10)
+pobj(to-9, fanpage-11)
+cc(go-8, and-12)
+conj(go-8, click-13)
+det(button-18, the-14)
+amod(button-18, Like-16)
+dobj(click-13, button-18)
+cc(go-8, and-19)
+advmod(go-8, then-20)
+conj(go-8, click-21)
+aux(Like-24, to-22)
+xcomp(click-21, Like-24)
+det(Poster-28, the-26)
+nn(Poster-28, Goducate-27)
+dobj(Like-24, Poster-28)
+prep(click-21, on-29)
+det(Wall-31, the-30)
+pobj(on-29, Wall-31)
+
+
+(ROOT
+  (S (RB Then)
+    (VP (VB share)
+      (NP (PRP it))
+      (PP (IN with)
+        (NP (PRP$ your) (NNS friends))))
+    (. !)))
+
+
+advmod(share-2, Then-1)
+root(ROOT-0, share-2)
+dobj(share-2, it-3)
+prep(share-2, with-4)
+poss(friends-6, your-5)
+pobj(with-4, friends-6)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Imagine))
+    (, ,)))
+
+
+root(ROOT-0, Imagine-1)
+
+
+(ROOT
+  (SBAR (IN if)
+    (S
+      (NP (PRP you))
+      (VP (MD can)
+        (VP (VB get)
+          (NP (CD 9) (JJR more) (NNS friends))
+          (S
+            (VP (TO to)
+              (VP (VB do)
+                (NP
+                  (NP (DT the) (JJ same))
+                  (SBAR
+                    (S
+                      (NP (PRP you))
+                      (VP (MD would)
+                        (VP (VB have)
+                          (VP (VBN raised)
+                            (S
+                              (ADJP (JJ $)))))))))))))))))
+
+
+mark(get-4, if-1)
+nsubj(get-4, you-2)
+aux(get-4, can-3)
+root(ROOT-0, get-4)
+num(friends-7, 9-5)
+amod(friends-7, more-6)
+dobj(get-4, friends-7)
+aux(do-9, to-8)
+xcomp(get-4, do-9)
+det(same-11, the-10)
+dobj(do-9, same-11)
+nsubj(raised-15, you-12)
+aux(raised-15, would-13)
+aux(raised-15, have-14)
+rcmod(same-11, raised-15)
+acomp(raised-15, $-16)
+
+
+(ROOT
+  (NP (CD 100) (NN ,)))
+
+
+num(,-2, 100-1)
+
+
+(ROOT
+  (FRAG
+    (PP (RB just) (IN with)
+      (NP
+        (NP (DT a) (JJ few) (NNS taps))
+        (PP (IN on)
+          (NP (PRP$ your) (NN keyboard)))))
+    (. !)))
+
+
+advmod(with-2, just-1)
+root(ROOT-0, with-2)
+det(taps-5, a-3)
+amod(taps-5, few-4)
+pobj(with-2, taps-5)
+prep(taps-5, on-6)
+poss(keyboard-8, your-7)
+pobj(on-6, keyboard-8)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP hope)
+      (S
+        (VP (TO to)
+          (VP (VB get)
+            (NP
+              (NP (CD 3000) (NNS likes))
+              (SBAR
+                (WHNP (WDT which))
+                (S
+                  (VP (MD will)
+                    (VP (VB equate)
+                      (PP (TO to)
+                        (NP (NNP $))))))))))))))
+
+
+nsubj(hope-2, We-1)
+root(ROOT-0, hope-2)
+aux(get-4, to-3)
+xcomp(hope-2, get-4)
+num(likes-6, 3000-5)
+dobj(get-4, likes-6)
+nsubj(equate-9, which-7)
+aux(equate-9, will-8)
+rcmod(likes-6, equate-9)
+prep(equate-9, to-10)
+pobj(to-10, $-11)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 30,000))
+    (. .)))
+
+
+root(ROOT-0, 30,000-1)
+
+
+(ROOT
+  (S
+    (INTJ (VB Please))
+    (VP (VB do)
+      (NP
+        (NP (JJ spare) (DT a) (NN minute))
+        (PP (IN of)
+          (NP (PRP$ your) (NN time)
+            (S
+              (VP (TO to)
+                (VP (VB do)
+                  (NP (DT this)))))))))
+    (. !)))
+
+
+discourse(do-2, Please-1)
+root(ROOT-0, do-2)
+amod(minute-5, spare-3)
+det(minute-5, a-4)
+dobj(do-2, minute-5)
+prep(minute-5, of-6)
+poss(time-8, your-7)
+pobj(of-6, time-8)
+aux(do-10, to-9)
+infmod(time-8, do-10)
+dobj(do-10, this-11)
+
+
+(ROOT
+  (NP
+    (NP (JJ Many) (NNS thanks))
+    (PP (IN for)
+      (NP (PDT all) (PRP$ your) (NN support)))
+    (. !)))
+
+
+amod(thanks-2, Many-1)
+root(ROOT-0, thanks-2)
+prep(thanks-2, for-3)
+predet(support-6, all-4)
+poss(support-6, your-5)
+pobj(for-3, support-6)
+
+

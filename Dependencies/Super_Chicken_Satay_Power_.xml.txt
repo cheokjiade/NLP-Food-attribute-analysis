@@ -1,0 +1,503 @@
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJS best) (NN chicken) (NN satay))
+      (PP (IN in)
+        (NP (NN town))))
+    (ADVP (RB just))
+    (VP (VBD got)
+      (ADJP (JJR bigger)))
+    (. !)))
+
+
+det(satay-4, The-1)
+amod(satay-4, best-2)
+nn(satay-4, chicken-3)
+nsubj(bigger-9, satay-4)
+prep(satay-4, in-5)
+pobj(in-5, town-6)
+advmod(bigger-9, just-7)
+dep(bigger-9, got-8)
+root(ROOT-0, bigger-9)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT Those))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBP have)
+            (VP (VBN read)
+              (NP (PRP$ my) (JJ previous) (NN blog)))))))
+    (VP (VBP have) (RB all)
+      (VP (VBN agreed)
+        (SBAR (IN that)
+          (S
+            (NP (DT this))
+            (VP (VBZ is)
+              (NP
+                (NP (DT the)
+                  (ADJP (JJS best) (NN tasting))
+                  (NN satay))
+                (PP (IN in)
+                  (NP (NN town)))))))))
+    (. .)))
+
+
+nsubj(agreed-10, Those-1)
+nsubj(read-4, who-2)
+aux(read-4, have-3)
+rcmod(Those-1, read-4)
+poss(blog-7, my-5)
+amod(blog-7, previous-6)
+dobj(read-4, blog-7)
+aux(agreed-10, have-8)
+advmod(agreed-10, all-9)
+root(ROOT-0, agreed-10)
+mark(satay-17, that-11)
+nsubj(satay-17, this-12)
+cop(satay-17, is-13)
+det(satay-17, the-14)
+dep(tasting-16, best-15)
+amod(satay-17, tasting-16)
+ccomp(agreed-10, satay-17)
+prep(satay-17, in-18)
+pobj(in-18, town-19)
+
+
+(ROOT
+  (S (-LRB- -LRB-)
+    (NP (NNP Satay))
+    (VP (VBZ Power))
+    (. !)))
+
+
+nsubj(Power-3, Satay-2)
+root(ROOT-0, Power-3)
+
+
+(ROOT
+  (SBARQ
+    (ADVP (RB -RRB-) (RB So))
+    (WHNP (WP what))
+    (SQ
+      (VP (VBZ happens)
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (PRP you))
+            (VP
+              (VP (VB take)
+                (NP (DT the)
+                  (ADJP (JJS best) (NN tasting))
+                  (NN satay)))
+              (CC and)
+              (VP (VB double)
+                (NP (PRP$ its) (NN size))))))))
+    (. ?)))
+
+
+advmod(happens-4, So-2)
+nsubj(happens-4, what-3)
+root(ROOT-0, happens-4)
+advmod(take-7, when-5)
+nsubj(take-7, you-6)
+advcl(happens-4, take-7)
+det(satay-11, the-8)
+dep(tasting-10, best-9)
+amod(satay-11, tasting-10)
+dobj(take-7, satay-11)
+cc(take-7, and-12)
+conj(take-7, double-13)
+poss(size-15, its-14)
+dobj(double-13, size-15)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD 'll)
+      (VP (VB let)
+        (S
+          (NP (DT the) (NNS pictures))
+          (VP (VB do)
+            (NP (DT the) (NN talking))))))
+    (. .)))
+
+
+nsubj(let-3, I-1)
+aux(let-3, 'll-2)
+root(ROOT-0, let-3)
+det(pictures-5, the-4)
+nsubj(do-6, pictures-5)
+ccomp(let-3, do-6)
+det(talking-8, the-7)
+dobj(do-6, talking-8)
+
+
+(ROOT
+  (S
+    (NP (NNP Chicken) (NN skin))
+    (VP (VBZ makes)
+      (SBAR
+        (S
+          (S
+            (NP (PRP it))
+            (VP (VBP juicier)))
+          (CC and)
+          (S
+            (NP (JJR more) (NN shiok))
+            (VP (VBZ Takes)
+              (ADVP
+                (NP (DT a) (RB little))
+                (RBR longer))
+              (S
+                (VP (TO to)
+                  (VP (VB cook)
+                    (CC but)
+                    (VB believe)
+                    (NP (PRP me))))))))))
+    (, ,)))
+
+
+nn(skin-2, Chicken-1)
+nsubj(makes-3, skin-2)
+root(ROOT-0, makes-3)
+nsubj(juicier-5, it-4)
+dep(makes-3, juicier-5)
+cc(juicier-5, and-6)
+amod(shiok-8, more-7)
+nsubj(Takes-9, shiok-8)
+conj(juicier-5, Takes-9)
+det(little-11, a-10)
+npadvmod(longer-12, little-11)
+advmod(Takes-9, longer-12)
+aux(cook-14, to-13)
+xcomp(Takes-9, cook-14)
+cc(cook-14, but-15)
+conj(cook-14, believe-16)
+dobj(cook-14, me-17)
+
+
+(ROOT
+  (S
+    (NP (PRP$ its)
+      (ADJP (JJ worth)
+        (NP (PRP it)))
+      (NNP Super) (NNP Chicken) (NNP Satay) (NNP Power))
+    (VP (VBZ is)
+      (NP (CD 90) (NNS cents)))
+    (. .)))
+
+
+poss(Power-7, its-1)
+amod(Power-7, worth-2)
+dep(worth-2, it-3)
+nn(Power-7, Super-4)
+nn(Power-7, Chicken-5)
+nn(Power-7, Satay-6)
+nsubj(cents-10, Power-7)
+cop(cents-10, is-8)
+num(cents-10, 90-9)
+root(ROOT-0, cents-10)
+
+
+(ROOT
+  (S
+    (NP
+      (ADJP (JJ Compared)
+        (PP (TO to)
+          (NP (JJ normal) (NNS sized))))
+      (NN mutton))
+    (VP (VBP satay)
+      (PRN (-LRB- -LRB-)
+        (S
+          (NP (DT the) (JJ normal) (NN satay))
+          (VP (VBZ is)
+            (ADJP
+              (ADJP (RB already) (JJR bigger))
+              (PP (IN than)
+                (NP (NN average))))))
+        (-RRB- -RRB-)))
+    (, ,)))
+
+
+amod(mutton-5, Compared-1)
+prep(Compared-1, to-2)
+amod(sized-4, normal-3)
+pobj(to-2, sized-4)
+nsubj(satay-6, mutton-5)
+root(ROOT-0, satay-6)
+det(satay-10, the-8)
+amod(satay-10, normal-9)
+nsubj(bigger-13, satay-10)
+cop(bigger-13, is-11)
+advmod(bigger-13, already-12)
+parataxis(satay-6, bigger-13)
+prep(bigger-13, than-14)
+pobj(than-14, average-15)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (VBP get)
+      (ADVP
+        (ADVP
+          (NP (DT a) (RB bit))
+          (RBR more))
+        (RB then)
+        (NP (RB double) (DT the) (NN size)))
+      (PP (IN for)
+        (NP
+          (NP (JJR less))
+          (RB then) (RB double)
+          (NP (DT the) (NN money)))))
+    (. .)))
+
+
+nsubj(get-2, you-1)
+root(ROOT-0, get-2)
+det(bit-4, a-3)
+npadvmod(more-5, bit-4)
+advmod(get-2, more-5)
+advmod(more-5, then-6)
+advmod(size-9, double-7)
+det(size-9, the-8)
+pobj(more-5, size-9)
+prep(get-2, for-10)
+pobj(for-10, less-11)
+advmod(less-11, then-12)
+advmod(less-11, double-13)
+det(money-15, the-14)
+dep(less-11, money-15)
+
+
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB say)
+          (NP (RB double) (DT the) (NN satisfaction)))))
+    (VP (MD would)
+      (VP (VB be)
+        (ADJP
+          (NP (DT a) (RB bit))
+          (RB far) (JJ fetched))
+        (ADVP (RB lah))))
+    (. .)))
+
+
+aux(say-2, To-1)
+csubj(fetched-11, say-2)
+advmod(satisfaction-5, double-3)
+det(satisfaction-5, the-4)
+dobj(say-2, satisfaction-5)
+aux(fetched-11, would-6)
+cop(fetched-11, be-7)
+det(bit-9, a-8)
+dep(fetched-11, bit-9)
+advmod(fetched-11, far-10)
+root(ROOT-0, fetched-11)
+advmod(fetched-11, lah-12)
+
+
+(ROOT
+  (S (CC But)
+    (NP (PRP it))
+    (VP (VBZ is)
+      (ADVP (RBR more))
+      (ADVP (RB juicy))
+      (VP
+        (ADVP (RB then))
+        (NP (DT the) (JJ normal) (JJ sized) (NN chicken) (NN satay))
+        (SBAR (IN because)
+          (S
+            (NP (DT the) (NN meat))
+            (VP (VBZ is)
+              (ADJP (JJ chunkier)))))))
+    (. .)))
+
+
+cc(satay-11, But-1)
+nsubj(satay-11, it-2)
+aux(satay-11, is-3)
+advmod(satay-11, more-4)
+advmod(satay-11, juicy-5)
+advmod(satay-11, then-6)
+det(satay-11, the-7)
+amod(satay-11, normal-8)
+amod(satay-11, sized-9)
+nn(satay-11, chicken-10)
+root(ROOT-0, satay-11)
+mark(chunkier-16, because-12)
+det(meat-14, the-13)
+nsubj(chunkier-16, meat-14)
+cop(chunkier-16, is-15)
+advcl(satay-11, chunkier-16)
+
+
+(ROOT
+  (VP (VBN Conclusion)
+    (SBAR
+      (SBARQ
+        (WHNP (WP What))
+        (SQ (MD can)
+          (NP (PRP I))
+          (VP (VB say)))
+        (. ?)))))
+
+
+root(ROOT-0, Conclusion-1)
+dobj(say-5, What-2)
+aux(say-5, can-3)
+nsubj(say-5, I-4)
+dep(Conclusion-1, say-5)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Nowadays))
+    (, ,)))
+
+
+root(ROOT-0, Nowadays-1)
+
+
+(ROOT
+  (S
+    (NP (RB everywhere))
+    (ADVP (RB else))
+    (VP (VBZ 's)
+      (ADJP (RB satay) (JJ pale)
+        (PP (IN in)
+          (NP (NN comparison)))))
+    (. .)))
+
+
+nsubj(pale-5, everywhere-1)
+advmod(pale-5, else-2)
+cop(pale-5, 's-3)
+advmod(pale-5, satay-4)
+root(ROOT-0, pale-5)
+prep(pale-5, in-6)
+pobj(in-6, comparison-7)
+
+
+(ROOT
+  (S
+    (VP (VB Do) (RB n't)
+      (VP (VB think)
+        (SBAR
+          (S
+            (NP (PRP you))
+            (VP (VBP have)
+              (VP (VBN found)
+                (NP
+                  (NP (DT the) (NNP World) (POS 's))
+                  (JJ Second) (NN Best) (NN Satay))
+                (SBAR (IN until)
+                  (S
+                    (NP (PRP you))
+                    (VP (VBP have)
+                      (VP (VBN tried)
+                        (NP (DT this))))))))))))
+    (. .)))
+
+
+aux(think-3, Do-1)
+neg(think-3, n't-2)
+root(ROOT-0, think-3)
+nsubj(found-6, you-4)
+aux(found-6, have-5)
+ccomp(think-3, found-6)
+det(World-8, the-7)
+poss(Satay-12, World-8)
+possessive(World-8, 's-9)
+amod(Satay-12, Second-10)
+nn(Satay-12, Best-11)
+dobj(found-6, Satay-12)
+mark(tried-16, until-13)
+nsubj(tried-16, you-14)
+aux(tried-16, have-15)
+advcl(found-6, tried-16)
+dobj(tried-16, this-17)
+
+
+(ROOT
+  (SINV
+    (VP
+      (PRN (-LRB- -LRB-)
+        (S
+          (NP (NNP World))
+          (VP (VBZ 's)
+            (NP
+              (NP (JJS best))
+              (SBAR
+                (S
+                  (NP (PRP I))
+                  (ADVP (RB still))
+                  (VP (VBP have) (RB not)
+                    (VP (VBN found))))))))
+        (-RRB- -RRB-))
+      (VBD Zsa)
+      (NP
+        (NP
+          (NP (NNP Zsa) (POS 's))
+          (NNP Warung) (NNP Please) (NN read) (NN update))
+        (PP (IN at)
+          (NP (DT the) (JJ top)
+            (QP (CD !!) (CD 247))))))
+    (NP (NNP Jln) (NNP Kayu))
+    (NP (CD 64824783) (NN Link))
+    (PP (TO to)
+      (NP
+        (NP (JJ previous) (NN blog))
+        (ADVP (RB here)
+          (NP (CD Link))
+          (PP (TO to)
+            (NP (DT the) (NNP Satay) (NNP Power))))
+        (PP (IN at)
+          (NP (NNP Al) (NNP Azhar)))))))
+
+
+nsubj(best-4, World-2)
+cop(best-4, 's-3)
+parataxis(Zsa-11, best-4)
+nsubj(found-9, I-5)
+advmod(found-9, still-6)
+aux(found-9, have-7)
+neg(found-9, not-8)
+rcmod(best-4, found-9)
+root(ROOT-0, Zsa-11)
+poss(update-17, Zsa-12)
+possessive(Zsa-12, 's-13)
+nn(update-17, Warung-14)
+nn(update-17, Please-15)
+nn(update-17, read-16)
+dobj(Zsa-11, update-17)
+prep(update-17, at-18)
+det(247-22, the-19)
+amod(247-22, top-20)
+number(247-22, !!-21)
+pobj(at-18, 247-22)
+nn(Kayu-24, Jln-23)
+nsubj(Zsa-11, Kayu-24)
+num(Link-26, 64824783-25)
+dep(Zsa-11, Link-26)
+prep(Zsa-11, to-27)
+amod(blog-29, previous-28)
+pobj(to-27, blog-29)
+advmod(blog-29, here-30)
+pobj(here-30, Link-31)
+prep(here-30, to-32)
+det(Power-35, the-33)
+nn(Power-35, Satay-34)
+pobj(to-32, Power-35)
+prep(blog-29, at-36)
+nn(Azhar-38, Al-37)
+pobj(at-36, Azhar-38)
+
+

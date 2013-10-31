@@ -1,0 +1,332 @@
+(ROOT
+  (S
+    (NP
+      (NP (CD One))
+      (PP (IN of)
+        (NP
+          (NP (DT the) (NNS things))
+          (SBAR (IN that)
+            (S
+              (NP (PRP I))
+              (VP (VBP realize)
+                (SBAR
+                  (WHADVP (WRB when))
+                  (S
+                    (NP (PRP I))
+                    (VP (VBD was)
+                      (PP (IN in)
+                        (NP (NNP Penang))))))))))))
+    (VP (VBD was)
+      (SBAR
+        (WHADJP (WRB how) (JJ much))
+        (S
+          (NP (DT the) (NNP Singapore) (NN coffeeshop) (NN scene))
+          (VP (VBZ has)
+            (VP (VBN changed))))))
+    (. .)))
+
+
+nsubj(was-13, One-1)
+prep(One-1, of-2)
+det(things-4, the-3)
+pobj(of-2, things-4)
+mark(realize-7, that-5)
+nsubj(realize-7, I-6)
+dep(things-4, realize-7)
+advmod(was-10, when-8)
+nsubj(was-10, I-9)
+advcl(realize-7, was-10)
+prep(was-10, in-11)
+pobj(in-11, Penang-12)
+root(ROOT-0, was-13)
+advmod(much-15, how-14)
+dep(changed-21, much-15)
+det(scene-19, the-16)
+nn(scene-19, Singapore-17)
+nn(scene-19, coffeeshop-18)
+nsubj(changed-21, scene-19)
+aux(changed-21, has-20)
+ccomp(was-13, changed-21)
+
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NNP Penang)))
+    (NP (PRP you))
+    (VP (VBP get)
+      (S
+        (VP (TO to)
+          (VP (VB see)
+            (SBAR
+              (WHNP (WP what))
+              (S
+                (NP (PRP$ our) (NNS coffeeshops))
+                (VP (VBD were)
+                  (PP (IN like)
+                    (PP
+                      (ADVP (RB back))
+                      (IN in)
+                      (NP
+                        (NP (DT the) (CD 70) (POS 's))
+                        (CC and)
+                        (NP (CD 80) (POS 's))))))))))))
+    (. .)))
+
+
+prep(get-4, In-1)
+pobj(In-1, Penang-2)
+nsubj(get-4, you-3)
+root(ROOT-0, get-4)
+aux(see-6, to-5)
+xcomp(get-4, see-6)
+dobj(were-10, what-7)
+poss(coffeeshops-9, our-8)
+nsubj(were-10, coffeeshops-9)
+ccomp(see-6, were-10)
+prep(were-10, like-11)
+advmod(in-13, back-12)
+pcomp(like-11, in-13)
+det(70-15, the-14)
+pobj(in-13, 70-15)
+possessive(70-15, 's-16)
+cc(70-15, and-17)
+conj(70-15, 80-18)
+possessive(80-18, 's-19)
+
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (DT those) (NNS days)))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+det(days-3, those-2)
+pobj(In-1, days-3)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NN hawker) (NNS stalls))
+    (VP (VBD were)
+      (ADVP (RB still))
+      (VP (VBN placed)
+        (PP (IN at)
+          (NP
+            (NP (DT the) (NN front))
+            (PP (IN of)
+              (NP (DT the) (NNS coffeeshops)))))
+        (SBAR (RB so) (IN that)
+          (S
+            (NP (NNS customers))
+            (VP (MD can)
+              (ADVP (RB just))
+              (VP (VB walk)
+                (PRT (RP along))
+                (NP
+                  (NP (DT the) (NN outside))
+                  (PP (IN of)
+                    (NP (DT the) (NN coffeeshop))))
+                (S
+                  (VP (TO to)
+                    (VP (VB see)
+                      (SBAR
+                        (WHNP (WP what))
+                        (S
+                          (VP (VBZ is)
+                            (VP (VBG being)
+                              (VP (VBN offered)))))))))))))))
+    (. .)))
+
+
+det(stalls-3, the-1)
+nn(stalls-3, hawker-2)
+nsubjpass(placed-6, stalls-3)
+auxpass(placed-6, were-4)
+advmod(placed-6, still-5)
+root(ROOT-0, placed-6)
+prep(placed-6, at-7)
+det(front-9, the-8)
+pobj(at-7, front-9)
+prep(front-9, of-10)
+det(coffeeshops-12, the-11)
+pobj(of-10, coffeeshops-12)
+advmod(walk-18, so-13)
+mark(walk-18, that-14)
+nsubj(walk-18, customers-15)
+aux(walk-18, can-16)
+advmod(walk-18, just-17)
+advcl(placed-6, walk-18)
+prt(walk-18, along-19)
+det(outside-21, the-20)
+dobj(walk-18, outside-21)
+prep(outside-21, of-22)
+det(coffeeshop-24, the-23)
+pobj(of-22, coffeeshop-24)
+aux(see-26, to-25)
+xcomp(walk-18, see-26)
+nsubjpass(offered-30, what-27)
+aux(offered-30, is-28)
+auxpass(offered-30, being-29)
+ccomp(see-26, offered-30)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT Another) (NN thing))
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (VBD noticed)))))
+    (VP (VBZ is)
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (DT the) (JJ individual) (NNS stalls))
+            (PP (IN in)
+              (NP (NNP Penang))))
+          (VP (VBP do) (RB n't)
+            (VP (VB have)
+              (NP (PRP$ their) (JJ own) (NNS names)))))))
+    (. .)))
+
+
+det(thing-2, Another-1)
+nsubj(is-5, thing-2)
+nsubj(noticed-4, I-3)
+rcmod(thing-2, noticed-4)
+root(ROOT-0, is-5)
+mark(have-14, that-6)
+det(stalls-9, the-7)
+amod(stalls-9, individual-8)
+nsubj(have-14, stalls-9)
+prep(stalls-9, in-10)
+pobj(in-10, Penang-11)
+aux(have-14, do-12)
+neg(have-14, n't-13)
+ccomp(is-5, have-14)
+poss(names-17, their-15)
+amod(names-17, own-16)
+dobj(have-14, names-17)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (ADVP (RB simply))
+      (NP
+        (NP
+          (NP (`` ``) (NN beef) (JJ kway) (NN teow) ('' ''))
+          (CC or)
+          (NP (`` ``) (NN char) (JJ kway) (NN teow) ('' '')))
+        (CC and)
+        (NP (DT the) (NN way)
+          (S
+            (VP (TO to)
+              (VP (VB identify)
+                (SBAR
+                  (S
+                    (NP (PRP them))
+                    (VP (VBD was)
+                      (S
+                        (VP (TO to)
+                          (VP (VB mention)
+                            (NP
+                              (NP (DT the) (NN name))
+                              (PP (IN of)
+                                (NP (DT the) (NN coffeeshop))))))))))))))))
+    (. .)))
+
+
+nsubj(teow-7, It-1)
+cop(teow-7, was-2)
+advmod(teow-7, simply-3)
+nn(teow-7, beef-5)
+amod(teow-7, kway-6)
+root(ROOT-0, teow-7)
+cc(teow-7, or-9)
+nn(teow-13, char-11)
+amod(teow-13, kway-12)
+conj(teow-7, teow-13)
+cc(teow-7, and-15)
+det(way-17, the-16)
+conj(teow-7, way-17)
+aux(identify-19, to-18)
+infmod(way-17, identify-19)
+nsubj(was-21, them-20)
+ccomp(identify-19, was-21)
+aux(mention-23, to-22)
+xcomp(was-21, mention-23)
+det(name-25, the-24)
+dobj(mention-23, name-25)
+prep(name-25, of-26)
+det(coffeeshop-28, the-27)
+pobj(of-26, coffeeshop-28)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD ca) (RB n't)
+      (VP (VB remember)
+        (SBAR (IN if)
+          (S
+            (NP (DT that))
+            (VP (VBZ is)
+              (ADVP (RB also))
+              (NP
+                (NP (DT the) (NN case))
+                (PP (IN for)
+                  (NP (NNP Singapore)))))))))
+    (. .)))
+
+
+nsubj(remember-4, I-1)
+aux(remember-4, ca-2)
+neg(remember-4, n't-3)
+root(ROOT-0, remember-4)
+mark(case-10, if-5)
+nsubj(case-10, that-6)
+cop(case-10, is-7)
+advmod(case-10, also-8)
+det(case-10, the-9)
+advcl(remember-4, case-10)
+prep(case-10, for-11)
+pobj(for-11, Singapore-12)
+
+
+(ROOT
+  (SQ (NNP Does)
+    (NP (NN anyone))
+    (VP (VB remember))
+    (. ?)))
+
+
+dep(remember-3, Does-1)
+nsubj(remember-3, anyone-2)
+root(ROOT-0, remember-3)
+
+
+(ROOT
+  (NP
+    (NP (NNS Thanks))
+    (PP (TO to)
+      (NP (NNP Sen)))
+    (PP (IN for)
+      (NP (DT the) (JJ video) (NN link)))
+    (. !)))
+
+
+root(ROOT-0, Thanks-1)
+prep(Thanks-1, to-2)
+pobj(to-2, Sen-3)
+prep(Thanks-1, for-4)
+det(link-7, the-5)
+amod(link-7, video-6)
+pobj(for-4, link-7)
+
+

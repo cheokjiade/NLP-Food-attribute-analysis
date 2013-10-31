@@ -1,0 +1,197 @@
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBD was)
+      (NP
+        (NP (DT a) (NN time))
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (NNP Pizza) (NNP Hut))
+            (VP (VBD was)
+              (ADVP (RB really))
+              (VP (VBN Pizza)
+                (S (`` ``)
+                  (NP (NNP Hut))
+                  ('' ''))))))))
+    (. .)))
+
+
+expl(was-2, There-1)
+root(ROOT-0, was-2)
+det(time-4, a-3)
+nsubj(was-2, time-4)
+advmod(Pizza-10, when-5)
+nn(Hut-7, Pizza-6)
+nsubjpass(Pizza-10, Hut-7)
+auxpass(Pizza-10, was-8)
+advmod(Pizza-10, really-9)
+rcmod(time-4, Pizza-10)
+dep(Pizza-10, Hut-12)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP do) (RB n't)
+      (VP (VB know)
+        (SBAR
+          (WHADJP (WRB how) (JJ many)
+            (PP (IN of)))
+          (S
+            (NP (PRP you))
+            (VP (MD would)
+              (VP (VB remember)
+                (NP (DT this))))))))
+    (, ,)))
+
+
+nsubj(know-4, I-1)
+aux(know-4, do-2)
+neg(know-4, n't-3)
+root(ROOT-0, know-4)
+advmod(many-6, how-5)
+dep(remember-10, many-6)
+prep(many-6, of-7)
+nsubj(remember-10, you-8)
+aux(remember-10, would-9)
+ccomp(know-4, remember-10)
+dobj(remember-10, this-11)
+
+
+(ROOT
+  (FRAG (CC but)
+    (PP (IN in)
+      (NP (DT the)
+        (ADJP (JJ good) (JJ old))
+        (NNS days) (, ,)))))
+
+
+root(ROOT-0, but-1)
+prep(but-1, in-2)
+det(days-6, the-3)
+amod(old-5, good-4)
+amod(days-6, old-5)
+pobj(in-2, days-6)
+
+
+(ROOT
+  (S
+    (NP (EX there))
+    (VP (VBD was)
+      (NP
+        (NP (CD one) (JJ particular) (NNP Pizza) (NNP Hut) (NNS restaurant))
+        (PP (IN in)
+          (NP (NNP Jurong)))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBD was)
+              (PP (IN in)
+                (NP
+                  (NP (DT a) (JJ standalone) (NN building))
+                  (PP (IN with)
+                    (NP (PRP$ its) (JJ own) (NN parking) (NN lot) (NN outside))))))))))
+    (. .)))
+
+
+expl(was-2, there-1)
+root(ROOT-0, was-2)
+num(restaurant-7, one-3)
+amod(restaurant-7, particular-4)
+nn(restaurant-7, Pizza-5)
+nn(restaurant-7, Hut-6)
+nsubj(was-2, restaurant-7)
+prep(restaurant-7, in-8)
+pobj(in-8, Jurong-9)
+nsubj(was-11, that-10)
+rcmod(restaurant-7, was-11)
+prep(was-11, in-12)
+det(building-15, a-13)
+amod(building-15, standalone-14)
+pobj(in-12, building-15)
+prep(building-15, with-16)
+poss(outside-21, its-17)
+amod(outside-21, own-18)
+nn(outside-21, parking-19)
+nn(outside-21, lot-20)
+pobj(with-16, outside-21)
+
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (DT those) (NNS days)))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+det(days-3, those-2)
+pobj(In-1, days-3)
+
+
+(ROOT
+  (S
+    (S
+      (VP (VBG having)
+        (NP (NNP Pizza))))
+    (VP (VBD meant)
+      (S
+        (VP (VBG having)
+          (NP
+            (NP (NNP Pizza))
+            (PP (IN at)
+              (NP (NNP Pizza) (NNP Hut)))))))
+    (. .)))
+
+
+csubj(meant-3, having-1)
+dobj(having-1, Pizza-2)
+root(ROOT-0, meant-3)
+xcomp(meant-3, having-4)
+dobj(having-4, Pizza-5)
+prep(Pizza-5, at-6)
+nn(Hut-8, Pizza-7)
+pobj(at-6, Hut-8)
+
+
+(ROOT
+  (S
+    (S
+      (NP (EX There))
+      (VP (VBD were) (RB n't)
+        (VP
+          (PP (IN as)
+            (NP (JJ much) (NNS choices)))
+          (ADVP (RB then)))))
+    (CC and)
+    (RB not)
+    (S
+      (NP (JJ many) (NNS Aunties))
+      (VP (VBD knew)
+        (SBAR
+          (WHNP (WP what))
+          (S
+            (NP (DT a) (`` ``) (NNP Pissa) ('' ''))
+            (VP (VBD was))))))
+    (. .)))
+
+
+expl(were-2, There-1)
+root(ROOT-0, were-2)
+neg(were-2, n't-3)
+dep(were-2, as-4)
+amod(choices-6, much-5)
+pobj(as-4, choices-6)
+advmod(as-4, then-7)
+cc(were-2, and-8)
+conj(were-2, not-9)
+amod(Aunties-11, many-10)
+nsubj(knew-12, Aunties-11)
+ccomp(were-2, knew-12)
+dobj(was-18, what-13)
+det(Pissa-16, a-14)
+nsubj(was-18, Pissa-16)
+ccomp(knew-12, was-18)
+
+

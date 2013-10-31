@@ -1,0 +1,372 @@
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (VBP happen)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (PP (IN at)
+                (NP
+                  (NP (NNP Whampoa) (NNP Market))
+                  (PP (IN for)
+                    (NP (NNP China) (NNP Whampoa) (NNP Handmade) (NNPS Noodles))))
+                (, ,)))))))))
+
+
+mark(happen-3, If-1)
+nsubj(happen-3, you-2)
+root(ROOT-0, happen-3)
+aux(be-5, to-4)
+xcomp(happen-3, be-5)
+prep(be-5, at-6)
+nn(Market-8, Whampoa-7)
+pobj(at-6, Market-8)
+prep(Market-8, for-9)
+nn(Noodles-13, China-10)
+nn(Noodles-13, Whampoa-11)
+nn(Noodles-13, Handmade-12)
+pobj(for-9, Noodles-13)
+
+
+(ROOT
+  (S (RB then)
+    (VP (VB make)
+      (ADJP (JJ sure)
+        (SBAR
+          (S
+            (NP (PRP you))
+            (VP (VBP try)
+              (NP
+                (NP (DT the) (NNP Orange) (NNP Peel)
+                  (CC and)
+                  (NNP Sour) (NNP Plum) (NN Drink))
+                (PP (IN from)
+                  (NP
+                    (NP (DT the) (NN drink) (NN stall))
+                    (ADVP (JJ next)
+                      (PP (TO to)
+                        (NP (PRP it))))))))))))
+    (. .)))
+
+
+advmod(make-2, then-1)
+root(ROOT-0, make-2)
+acomp(make-2, sure-3)
+nsubj(try-5, you-4)
+ccomp(sure-3, try-5)
+det(Peel-8, the-6)
+nn(Peel-8, Orange-7)
+dobj(try-5, Peel-8)
+cc(Peel-8, and-9)
+nn(Drink-12, Sour-10)
+nn(Drink-12, Plum-11)
+conj(Peel-8, Drink-12)
+prep(Peel-8, from-13)
+det(stall-16, the-14)
+nn(stall-16, drink-15)
+pobj(from-13, stall-16)
+advmod(stall-16, next-17)
+prep(next-17, to-18)
+pobj(to-18, it-19)
+
+
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN owner))
+      (VP (VBZ is)
+        (NP (PDT quite) (DT a) (NN character))))
+    (CC and)
+    (S
+      (NP (PRP he))
+      (VP (VBD came)
+        (PRT (RP up))
+        (PP (IN with)
+          (NP
+            (NP (DT this)
+              (ADJP (RB very) (JJ nice))
+              (NN combination))
+            (VP (VBG using)
+              (NP
+                (NP (JJ Taiwanese) (JJ orange) (NN peel))
+                (CC and)
+                (NP (JJ sour) (NNS plums))))))))
+    (. .)))
+
+
+det(owner-2, The-1)
+nsubj(character-6, owner-2)
+cop(character-6, is-3)
+predet(character-6, quite-4)
+det(character-6, a-5)
+root(ROOT-0, character-6)
+cc(character-6, and-7)
+nsubj(came-9, he-8)
+conj(character-6, came-9)
+prt(came-9, up-10)
+prep(came-9, with-11)
+det(combination-15, this-12)
+advmod(nice-14, very-13)
+amod(combination-15, nice-14)
+pobj(with-11, combination-15)
+partmod(combination-15, using-16)
+amod(peel-19, Taiwanese-17)
+amod(peel-19, orange-18)
+dobj(using-16, peel-19)
+cc(peel-19, and-20)
+amod(plums-22, sour-21)
+conj(peel-19, plums-22)
+
+
+(ROOT
+  (PP (IN For)
+    (NP (NNP $))))
+
+
+root(ROOT-0, For-1)
+pobj(For-1, $-2)
+
+
+(ROOT
+  (FRAG
+    (PP (IN 1.50))
+    (, ,)))
+
+
+root(ROOT-0, 1.50-1)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (VBP get)
+      (NP
+        (NP (DT a) (NN glass))
+        (PP (JJ full) (IN of)
+          (NP
+            (NP (JJ orange) (NN peel))
+            (CC and)
+            (NP
+              (ADVP (RB also))
+              (NP (DT another) (NN cup))
+              (PP (IN of)
+                (NP (NN ice))))))))
+    (. .)))
+
+
+nsubj(get-2, you-1)
+root(ROOT-0, get-2)
+det(glass-4, a-3)
+dobj(get-2, glass-4)
+dep(of-6, full-5)
+prep(glass-4, of-6)
+amod(peel-8, orange-7)
+pobj(of-6, peel-8)
+cc(peel-8, and-9)
+advmod(cup-12, also-10)
+det(cup-12, another-11)
+conj(peel-8, cup-12)
+prep(cup-12, of-13)
+pobj(of-13, ice-14)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP are)
+      (VP (VBN supposed)
+        (S
+          (VP (TO to)
+            (VP (VB drink)
+              (PP (IN from)
+                (NP
+                  (NP (DT the) (NN middle))
+                  (PP (IN of)
+                    (NP (DT the) (NN cup)))))
+              (ADVP (RB first)))))))
+    (, ,)))
+
+
+nsubjpass(supposed-3, You-1)
+auxpass(supposed-3, are-2)
+root(ROOT-0, supposed-3)
+aux(drink-5, to-4)
+xcomp(supposed-3, drink-5)
+prep(drink-5, from-6)
+det(middle-8, the-7)
+pobj(from-6, middle-8)
+prep(middle-8, of-9)
+det(cup-11, the-10)
+pobj(of-9, cup-11)
+advmod(drink-5, first-12)
+
+
+(ROOT
+  (S
+    (NP (RB then))
+    (VP (VBP add)
+      (NP (DT some) (JJR more) (NN ice) (NN water)))
+    (, ,)))
+
+
+nsubj(add-2, then-1)
+root(ROOT-0, add-2)
+det(water-6, some-3)
+amod(water-6, more-4)
+nn(water-6, ice-5)
+dobj(add-2, water-6)
+
+
+(ROOT
+  (FRAG
+    (PP (IN stir)
+      (NP (DT the) (NN bottom)))
+    (, ,)))
+
+
+root(ROOT-0, stir-1)
+det(bottom-3, the-2)
+pobj(stir-1, bottom-3)
+
+
+(ROOT
+  (S
+    (VP
+      (VP (VB drink)
+        (NP (DT some) (JJR more)))
+      (CC and)
+      (VP
+        (ADVP (RB then))
+        (VB add)
+        (NP (DT some) (JJR more) (NN ice) (NN water))))
+    (. !)))
+
+
+root(ROOT-0, drink-1)
+det(more-3, some-2)
+dobj(drink-1, more-3)
+cc(drink-1, and-4)
+advmod(add-6, then-5)
+conj(drink-1, add-6)
+det(water-10, some-7)
+amod(water-10, more-8)
+nn(water-10, ice-9)
+dobj(add-6, water-10)
+
+
+(ROOT
+  (S (CC So)
+    (NP (PRP you))
+    (VP (VBP end)
+      (PRT (RP up))
+      (S
+        (VP (VBG getting)
+          (NP
+            (NP (CD 3) (NNS cups))
+            (PP (IN for)
+              (NP (NNP $)))))))))
+
+
+cc(end-3, So-1)
+nsubj(end-3, you-2)
+root(ROOT-0, end-3)
+prt(end-3, up-4)
+xcomp(end-3, getting-5)
+num(cups-7, 3-6)
+dobj(getting-5, cups-7)
+prep(cups-7, for-8)
+pobj(for-8, $-9)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 1.50))
+    (. .)))
+
+
+root(ROOT-0, 1.50-1)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ Great) (NN value))
+      (CC and)
+      (NP (DT the) (NN drink)))
+    (VP (VBZ is)
+      (ADJP (JJ excellent)
+        (PP (IN on)
+          (NP (DT a) (JJ hot) (NN day)))))
+    (. !)))
+
+
+amod(value-2, Great-1)
+nsubj(excellent-7, value-2)
+cc(value-2, and-3)
+det(drink-5, the-4)
+conj(value-2, drink-5)
+cop(excellent-7, is-6)
+root(ROOT-0, excellent-7)
+prep(excellent-7, on-8)
+det(day-11, a-9)
+amod(day-11, hot-10)
+pobj(on-8, day-11)
+
+
+(ROOT
+  (S
+    (NP (NNP Conclusion) (NNP Great))
+    (VP (VBP drink)
+      (S
+        (VP (TO to)
+          (VP (VB go)
+            (PP (IN with)
+              (NP (PRP$ your) (NNP Ban) (NNP Mian)))
+            (PP (IN from)
+              (NP (JJ next) (NN door)))))))
+    (. !)))
+
+
+nn(Great-2, Conclusion-1)
+nsubj(drink-3, Great-2)
+root(ROOT-0, drink-3)
+aux(go-5, to-4)
+xcomp(drink-3, go-5)
+prep(go-5, with-6)
+poss(Mian-9, your-7)
+nn(Mian-9, Ban-8)
+pobj(with-6, Mian-9)
+prep(go-5, from-10)
+amod(door-12, next-11)
+pobj(from-10, door-12)
+
+
+(ROOT
+  (NP
+    (NP (NNP Bee) (NNP Guan) (NNP Coffeeshop) (NNP Blk))
+    (NP
+      (NP (CD 91) (NNP Whampoa) (NNP Market)
+        (CC and)
+        (NNP Food) (NNP Centre) (NNP Stall) (CD 01-23) (NNS 7am))
+      (PP (TO to)
+        (NP (CD 2pm))))))
+
+
+nn(Blk-4, Bee-1)
+nn(Blk-4, Guan-2)
+nn(Blk-4, Coffeeshop-3)
+root(ROOT-0, Blk-4)
+num(Market-7, 91-5)
+nn(Market-7, Whampoa-6)
+dep(Blk-4, Market-7)
+cc(Market-7, and-8)
+nn(7am-13, Food-9)
+nn(7am-13, Centre-10)
+nn(7am-13, Stall-11)
+num(7am-13, 01-23-12)
+conj(Market-7, 7am-13)
+prep(Market-7, to-14)
+pobj(to-14, 2pm-15)
+
+

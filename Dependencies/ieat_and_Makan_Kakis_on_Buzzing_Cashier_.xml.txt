@@ -1,0 +1,101 @@
+(ROOT
+  (S
+    (VP (VB Do) (RB n't)
+      (VP (VB forget)
+        (S
+          (VP (TO to)
+            (VP (VB watch)
+              (NP
+                (NP (NNP Buzzing) (NNP Cashier))
+                (PP (IN on)
+                  (NP (NNP Monday))))))
+          (, ,))))))
+
+
+aux(forget-3, Do-1)
+neg(forget-3, n't-2)
+root(ROOT-0, forget-3)
+aux(watch-5, to-4)
+xcomp(forget-3, watch-5)
+nn(Cashier-7, Buzzing-6)
+dobj(watch-5, Cashier-7)
+prep(Cashier-7, on-8)
+pobj(on-8, Monday-9)
+
+
+(ROOT
+  (S
+    (NP (CD 10))
+    (VP (VBZ August))
+    (, ,)))
+
+
+nsubj(August-2, 10-1)
+root(ROOT-0, August-2)
+
+
+(ROOT
+  (NP
+    (NP (NNP Channel) (CD 8))
+    (PP (IN at)
+      (NP (CD 8pm)))
+    (. .)))
+
+
+root(ROOT-0, Channel-1)
+num(Channel-1, 8-2)
+prep(Channel-1, at-3)
+pobj(at-3, 8pm-4)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (MD will)
+        (VP (VB be)
+          (VP (VBG appearing)
+            (PP (IN as)
+              (NP
+                (NP (CD one))
+                (PP (IN of)
+                  (NP (DT the) (NNS judges)))))))))
+    (CC and)
+    (S
+      (NP
+        (NP (CD 30) (NN makan) (NNS kakis))
+        (PP (IN from)
+          (NP (DT the) (NN facebook) (NN group))))
+      (VP (MD will)
+        (ADVP (RB also))
+        (VP (VB be)
+          (VP (VBG making)
+            (NP (DT an) (NN appearance))))))
+    (. !)))
+
+
+nsubj(appearing-4, I-1)
+aux(appearing-4, will-2)
+aux(appearing-4, be-3)
+root(ROOT-0, appearing-4)
+prep(appearing-4, as-5)
+pobj(as-5, one-6)
+prep(one-6, of-7)
+det(judges-9, the-8)
+pobj(of-7, judges-9)
+cc(appearing-4, and-10)
+num(kakis-13, 30-11)
+nn(kakis-13, makan-12)
+nsubj(making-21, kakis-13)
+prep(kakis-13, from-14)
+det(group-17, the-15)
+nn(group-17, facebook-16)
+pobj(from-14, group-17)
+aux(making-21, will-18)
+advmod(making-21, also-19)
+aux(making-21, be-20)
+conj(appearing-4, making-21)
+det(appearance-23, an-22)
+dobj(making-21, appearance-23)
+
+

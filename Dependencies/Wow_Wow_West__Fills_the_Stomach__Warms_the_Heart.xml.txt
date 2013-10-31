@@ -1,0 +1,163 @@
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are)
+      (NP
+        (NP (CD two) (NNS things))
+        (SBAR (IN that)
+          (S
+            (NP (PRP I))
+            (VP (MD can)
+              (VP (VB say)
+                (PRT (RP about))
+                (NP
+                  (INTJ (UH Wow) (UH Wow))
+                  (NP (NNP West)))))))))
+    (. .)))
+
+
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+num(things-4, two-3)
+nsubj(are-2, things-4)
+mark(say-8, that-5)
+nsubj(say-8, I-6)
+aux(say-8, can-7)
+dep(things-4, say-8)
+prt(say-8, about-9)
+discourse(West-12, Wow-10)
+dep(Wow-10, Wow-11)
+dobj(say-8, West-12)
+
+
+(ROOT
+  (NP (NNP First) (NNP ,)))
+
+
+nn(,-2, First-1)
+
+
+(ROOT
+  (S
+    (NP (DT this))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (NN place))
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (S
+              (NP (DT the) (NN food))
+              (ADVP (RB really))
+              (VP (VBP value)
+                (PP (IN for)
+                  (NP (NN money)))))
+            (CC and)
+            (S
+              (NP (PRP it))
+              (VP (VBZ is)
+                (NP
+                  (NP (DT the) (JJS best) (NN place) (NN outside))
+                  (PP (IN of)
+                    (NP
+                      (NP (DT a) (NN buffet))
+                      (SBAR
+                        (WHADVP (WRB where))
+                        (S
+                          (NP (PRP you))
+                          (VP (MD can)
+                            (VP (VB guarantee)
+                              (SBAR (IN that)
+                                (S
+                                  (NP (PRP you))
+                                  (VP (MD will)
+                                    (VP (VB eat)
+                                      (SBAR (IN till)
+                                        (S
+                                          (NP (PRP you))
+                                          (VP (VBP are)
+                                            (ADJP (JJ full))))))))))))))))))))))
+    (. .)))
+
+
+nsubj(place-4, this-1)
+cop(place-4, is-2)
+det(place-4, a-3)
+root(ROOT-0, place-4)
+advmod(value-9, where-5)
+det(food-7, the-6)
+nsubj(value-9, food-7)
+advmod(value-9, really-8)
+rcmod(place-4, value-9)
+prep(value-9, for-10)
+pobj(for-10, money-11)
+cc(value-9, and-12)
+nsubj(outside-18, it-13)
+cop(outside-18, is-14)
+det(outside-18, the-15)
+amod(outside-18, best-16)
+nn(outside-18, place-17)
+conj(value-9, outside-18)
+prep(outside-18, of-19)
+det(buffet-21, a-20)
+pobj(of-19, buffet-21)
+advmod(guarantee-25, where-22)
+nsubj(guarantee-25, you-23)
+aux(guarantee-25, can-24)
+rcmod(buffet-21, guarantee-25)
+mark(eat-29, that-26)
+nsubj(eat-29, you-27)
+aux(eat-29, will-28)
+ccomp(guarantee-25, eat-29)
+mark(full-33, till-30)
+nsubj(full-33, you-31)
+cop(full-33, are-32)
+advcl(eat-29, full-33)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Second))
+    (, ,)))
+
+
+root(ROOT-0, Second-1)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT the) (NN generosity))
+      (CC and)
+      (NP
+        (NP (DT the) (NN goodness))
+        (PP (IN of)
+          (NP (NNP Eric)))))
+    (ADVP
+      (NP (DT the) (NN owner))
+      (RB never))
+    (VP (VBZ fails)
+      (S
+        (VP (TO to)
+          (VP (VB warm)
+            (NP (DT the) (NN heart))))))
+    (. .)))
+
+
+det(generosity-2, the-1)
+nsubj(fails-11, generosity-2)
+cc(generosity-2, and-3)
+det(goodness-5, the-4)
+conj(generosity-2, goodness-5)
+prep(goodness-5, of-6)
+pobj(of-6, Eric-7)
+det(owner-9, the-8)
+npadvmod(never-10, owner-9)
+neg(fails-11, never-10)
+root(ROOT-0, fails-11)
+aux(warm-13, to-12)
+xcomp(fails-11, warm-13)
+det(heart-15, the-14)
+dobj(warm-13, heart-15)
+
+

@@ -1,0 +1,289 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP love)
+      (NP (NNS Paus))
+      (ADVP (RB ever))
+      (SBAR (IN since)
+        (S
+          (NP (PRP I))
+          (VP (VBD was)
+            (NP (DT a) (NN kid))))))
+    (. .)))
+
+
+nsubj(love-2, I-1)
+root(ROOT-0, love-2)
+dobj(love-2, Paus-3)
+advmod(love-2, ever-4)
+mark(kid-9, since-5)
+nsubj(kid-9, I-6)
+cop(kid-9, was-7)
+det(kid-9, a-8)
+advcl(love-2, kid-9)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP remember)
+      (NP
+        (NP (CD one))
+        (PP (IN of)
+          (NP (DT the) (JJS best) (JJ Big) (NNS Paus)))))))
+
+
+nsubj(remember-2, I-1)
+root(ROOT-0, remember-2)
+dobj(remember-2, one-3)
+prep(one-3, of-4)
+det(Paus-8, the-5)
+amod(Paus-8, best-6)
+amod(Paus-8, Big-7)
+pobj(of-4, Paus-8)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB ever))
+    (VP (VBD ate)
+      (SBAR
+        (S
+          (VP (VBD was)
+            (SBAR
+              (WHADVP (WRB when))
+              (S
+                (NP (PRP I))
+                (VP (VBD was)
+                  (ADVP (RB still))
+                  (NP (DT a) (NN student)))))))))
+    (. .)))
+
+
+nsubj(ate-3, I-1)
+advmod(ate-3, ever-2)
+root(ROOT-0, ate-3)
+ccomp(ate-3, was-4)
+advmod(student-10, when-5)
+nsubj(student-10, I-6)
+cop(student-10, was-7)
+advmod(student-10, still-8)
+det(student-10, a-9)
+advcl(was-4, student-10)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NNP Pau))
+    (VP (VBD was)
+      (VP (VBN made)
+        (PP (IN in)
+          (NP
+            (NP (DT the) (NN corner) (NN coffee) (NN shop))
+            (PP (IN along)
+              (NP (NNP Serangoon) (NN road)))))
+        (SBAR (RB just) (IN before)
+          (S
+            (NP (PRP you))
+            (VP (VBP turn)
+              (VP (VBN left)
+                (S
+                  (VP (TO to)
+                    (VP (VB get)
+                      (PP (IN onto)
+                        (NP (DT the) (NNP PIE))))))))))))
+    (. .)))
+
+
+det(Pau-2, The-1)
+nsubjpass(made-4, Pau-2)
+auxpass(made-4, was-3)
+root(ROOT-0, made-4)
+prep(made-4, in-5)
+det(shop-9, the-6)
+nn(shop-9, corner-7)
+nn(shop-9, coffee-8)
+pobj(in-5, shop-9)
+prep(shop-9, along-10)
+nn(road-12, Serangoon-11)
+pobj(along-10, road-12)
+advmod(turn-16, just-13)
+mark(turn-16, before-14)
+nsubj(turn-16, you-15)
+advcl(made-4, turn-16)
+dep(turn-16, left-17)
+aux(get-19, to-18)
+xcomp(left-17, get-19)
+prep(get-19, onto-20)
+det(PIE-22, the-21)
+pobj(onto-20, PIE-22)
+
+
+(ROOT
+  (PRN (-LRB- -LRB-)
+    (S
+      (VP (VB Diagonally)
+        (PP (IN opposite)
+          (NP
+            (NP (NNP Jackson) (POS 's))
+            (NNP Food) (NNP Centre)))))
+    (-RRB- -RRB-)))
+
+
+root(ROOT-0, Diagonally-2)
+prep(Diagonally-2, opposite-3)
+poss(Centre-7, Jackson-4)
+possessive(Jackson-4, 's-5)
+nn(Centre-7, Food-6)
+pobj(opposite-3, Centre-7)
+
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBD used)
+      (S
+        (VP (TO to)
+          (VP (VB mix)
+            (NP (DT the) (NN pork))
+            (PP (IN with)
+              (NP
+                (NP (NNS chunks))
+                (PP (IN of)
+                  (NP (NN chicken)))))
+            (SBAR (IN with)
+              (S
+                (NP (DT the) (NNS bones))
+                (ADVP (RB still))
+                (VP (VBD intact) (-LRB- -LRB-)
+                  (SBAR (IN if)
+                    (S
+                      (NP (PRP you))
+                      (VP (VBP are)
+                        (ADJP (JJ lucky)
+                          (SBAR
+                            (S
+                              (NP (PRP you))
+                              (VP (MD might)
+                                (VP (VB get)
+                                  (NP (DT a) (NN wing)))))))))))))))))
+    (. !)))
+
+
+nsubj(used-2, They-1)
+root(ROOT-0, used-2)
+aux(mix-4, to-3)
+xcomp(used-2, mix-4)
+det(pork-6, the-5)
+dobj(mix-4, pork-6)
+prep(mix-4, with-7)
+pobj(with-7, chunks-8)
+prep(chunks-8, of-9)
+pobj(of-9, chicken-10)
+mark(intact-15, with-11)
+det(bones-13, the-12)
+nsubj(intact-15, bones-13)
+advmod(intact-15, still-14)
+advcl(mix-4, intact-15)
+mark(lucky-20, if-17)
+nsubj(lucky-20, you-18)
+cop(lucky-20, are-19)
+advcl(intact-15, lucky-20)
+nsubj(get-23, you-21)
+aux(get-23, might-22)
+ccomp(lucky-20, get-23)
+det(wing-25, a-24)
+dobj(get-23, wing-25)
+
+
+(ROOT
+  (NP (FW -RRB-) (. .)))
+
+
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (NP
+        (NP (CD one))
+        (PP (IN of)
+          (NP
+            (NP (DT those) (NNS things))
+            (SBAR
+              (S
+                (NP (PRP I))
+                (VP (MD would)
+                  (VP
+                    (VP (VB save)
+                      (NP (PRP$ my) (NN pocket) (NN money)))
+                    (CC and)
+                    (VP (VB look)
+                      (PRT (RP forward))
+                      (S
+                        (VP (TO to)
+                          (VP
+                            (ADVP (RB eating) (RB right))
+                            (VB have)
+                            (NP (NN school))))))))))))))
+    (. .)))
+
+
+nsubj(one-3, It-1)
+cop(one-3, was-2)
+root(ROOT-0, one-3)
+prep(one-3, of-4)
+det(things-6, those-5)
+pobj(of-4, things-6)
+nsubj(save-9, I-7)
+aux(save-9, would-8)
+rcmod(things-6, save-9)
+poss(money-12, my-10)
+nn(money-12, pocket-11)
+dobj(save-9, money-12)
+cc(save-9, and-13)
+conj(save-9, look-14)
+prt(look-14, forward-15)
+aux(have-19, to-16)
+advmod(right-18, eating-17)
+advmod(have-19, right-18)
+xcomp(look-14, have-19)
+dobj(have-19, school-20)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Sadly))
+    (, ,)))
+
+
+root(ROOT-0, Sadly-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (NP
+        (NP (DT no) (NN idea))
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (NP (PRP they))
+            (VP (VBD dissappeared)
+              (PP (TO to)))))))
+    (. .)))
+
+
+nsubj(have-2, I-1)
+root(ROOT-0, have-2)
+det(idea-4, no-3)
+dobj(have-2, idea-4)
+advmod(dissappeared-7, where-5)
+nsubj(dissappeared-7, they-6)
+rcmod(idea-4, dissappeared-7)
+prep(dissappeared-7, to-8)
+
+

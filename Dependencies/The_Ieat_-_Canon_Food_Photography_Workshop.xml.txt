@@ -1,0 +1,377 @@
+(ROOT
+  (SQ (VBZ Is) (RB n't)
+    (NP (PRP it))
+    (ADJP (JJ amazing))
+    (S
+      (VP (TO to)
+        (VP (VB see)
+          (NP
+            (NP (RB so) (JJ many) (NNPS DSLRs))
+            (VP (VBG snapping)
+              (PRT (RP away))
+              (PP (IN in)
+                (NP (DT a) (NN restaurant))))))))
+    (. ?)))
+
+
+cop(amazing-4, Is-1)
+neg(amazing-4, n't-2)
+nsubj(amazing-4, it-3)
+root(ROOT-0, amazing-4)
+aux(see-6, to-5)
+dep(amazing-4, see-6)
+advmod(DSLRs-9, so-7)
+amod(DSLRs-9, many-8)
+dobj(see-6, DSLRs-9)
+partmod(DSLRs-9, snapping-10)
+prt(snapping-10, away-11)
+prep(snapping-10, in-12)
+det(restaurant-14, a-13)
+pobj(in-12, restaurant-14)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP wonder)
+      (SBAR
+        (WHNP (WP what))
+        (S
+          (NP (DT the) (NN restaurant) (NN manager))
+          (VP (MD would)
+            (VP (VB have)
+              (VP (VBN done)
+                (SBAR (IN if)
+                  (S
+                    (NP (PRP$ our) (NN group))
+                    (VP (VBD had)
+                      (VP (VBN arrived)
+                        (S
+                          (ADJP (JJ unannounced)))))))))))))
+    (. ?)))
+
+
+nsubj(wonder-2, I-1)
+root(ROOT-0, wonder-2)
+dobj(done-9, what-3)
+det(manager-6, the-4)
+nn(manager-6, restaurant-5)
+nsubj(done-9, manager-6)
+aux(done-9, would-7)
+aux(done-9, have-8)
+ccomp(wonder-2, done-9)
+mark(arrived-14, if-10)
+poss(group-12, our-11)
+nsubj(arrived-14, group-12)
+aux(arrived-14, had-13)
+advcl(done-9, arrived-14)
+acomp(arrived-14, unannounced-15)
+
+
+(ROOT
+  (S
+    (NP (JJ Last))
+    (VP (VBZ Saturday))
+    (, ,)))
+
+
+nsubj(Saturday-2, Last-1)
+root(ROOT-0, Saturday-2)
+
+
+(ROOT
+  (NP
+    (NP (CD 30) (NNS kakis))
+    (VP (VBN gathered)
+      (PP (IN at)
+        (NP (NNP Shin) (NNP Kushiya) (NN restaurant)))
+      (PP (IN at)
+        (NP
+          (NP (NNP Vivo) (NNP City))
+          (PP (IN for)
+            (NP (DT the)
+              (ADJP (RB very) (JJ first))
+              (NN ieat))))))
+    (: -)))
+
+
+num(kakis-2, 30-1)
+root(ROOT-0, kakis-2)
+partmod(kakis-2, gathered-3)
+prep(gathered-3, at-4)
+nn(restaurant-7, Shin-5)
+nn(restaurant-7, Kushiya-6)
+pobj(at-4, restaurant-7)
+prep(gathered-3, at-8)
+nn(City-10, Vivo-9)
+pobj(at-8, City-10)
+prep(City-10, for-11)
+det(ieat-15, the-12)
+advmod(first-14, very-13)
+amod(ieat-15, first-14)
+pobj(for-11, ieat-15)
+
+
+(ROOT
+  (NP
+    (NP (NNP Canon) (NN food) (NN photography) (NN workshop))
+    (PP (TO to)
+      (NP (`` ``) (NN EAT) ('' '')
+        (CC and)
+        (`` ``) (NN SHOOT) ('' '')))
+    (. .)))
+
+
+nn(workshop-4, Canon-1)
+nn(workshop-4, food-2)
+nn(workshop-4, photography-3)
+root(ROOT-0, workshop-4)
+prep(workshop-4, to-5)
+pobj(to-5, EAT-7)
+cc(EAT-7, and-9)
+conj(EAT-7, SHOOT-11)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NN session))
+    (VP (VBD started)
+      (PP (IN with)
+        (NP (NN resident) (NN professional))))
+    (, ,)))
+
+
+det(session-2, The-1)
+nsubj(started-3, session-2)
+root(ROOT-0, started-3)
+prep(started-3, with-4)
+nn(professional-6, resident-5)
+pobj(with-4, professional-6)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Jino))
+      (VP (VBG giving)
+        (NP (DT a) (NN presentation))
+        (PP (IN on)
+          (NP
+            (NP (DT the) (JJ technical) (NNS aspects))
+            (PP (IN of)
+              (NP (NN photography)))))))
+    (VP (VBD followed)
+      (PP (IN by)
+        (NP (PRP$ my) (NN presentation)))
+      (PP (IN on)
+        (NP (NN food) (NN photography))))
+    (. .)))
+
+
+nsubj(followed-11, Jino-1)
+partmod(Jino-1, giving-2)
+det(presentation-4, a-3)
+dobj(giving-2, presentation-4)
+prep(giving-2, on-5)
+det(aspects-8, the-6)
+amod(aspects-8, technical-7)
+pobj(on-5, aspects-8)
+prep(aspects-8, of-9)
+pobj(of-9, photography-10)
+root(ROOT-0, followed-11)
+prep(followed-11, by-12)
+poss(presentation-14, my-13)
+pobj(by-12, presentation-14)
+prep(followed-11, on-15)
+nn(photography-17, food-16)
+pobj(on-15, photography-17)
+
+
+(ROOT
+  (PP (IN After)
+    (S
+      (VP (VBG getting)
+        (NP (DT some) (NNS tips))
+        (S
+          (VP (TO to)
+            (VP (VB work)
+              (PRT (RP on))))
+          (, ,))))))
+
+
+root(ROOT-0, After-1)
+pcomp(After-1, getting-2)
+det(tips-4, some-3)
+dobj(getting-2, tips-4)
+aux(work-6, to-5)
+xcomp(getting-2, work-6)
+prt(work-6, on-7)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (VP (VBD unleashed)
+      (NP (PRP$ our) (JJ hungry) (NNS photographers))
+      (PP (IN onto)
+        (NP (DT the) (JJ unassuming) (NN food))))
+    (. .)))
+
+
+nsubj(unleashed-2, we-1)
+root(ROOT-0, unleashed-2)
+poss(photographers-5, our-3)
+amod(photographers-5, hungry-4)
+dobj(unleashed-2, photographers-5)
+prep(unleashed-2, onto-6)
+det(food-9, the-7)
+amod(food-9, unassuming-8)
+pobj(onto-6, food-9)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (DT this))
+      (VP (VBD had)
+        (VP (VBN been)
+          (NP (DT a) (NN war) (NN movie))))
+      (, ,))))
+
+
+mark(movie-7, If-1)
+nsubj(movie-7, this-2)
+aux(movie-7, had-3)
+cop(movie-7, been-4)
+det(movie-7, a-5)
+nn(movie-7, war-6)
+root(ROOT-0, movie-7)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (MD would)
+      (VP (VB look)
+        (PP (IN like)
+          (NP (DT a) (NN scene)))
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (NP
+              (NP (NNS hundreds))
+              (PP (IN of)
+                (NP
+                  (NP (NNS canons))
+                  (PRN (-LRB- -LRB-)
+                    (NP
+                      (NP (NN pardon))
+                      (NP (DT the) (NN pun)))
+                    (-RRB- -RRB-)))))
+            (VP (VBP are)
+              (VP (VBG being)
+                (VP (VBN fired)
+                  (PP (IN upon)
+                    (NP
+                      (NP (DT a) (NN flock))
+                      (PP (IN of)
+                        (NP (NN sheep))))))))))))
+    (. !)))
+
+
+nsubj(look-3, it-1)
+aux(look-3, would-2)
+root(ROOT-0, look-3)
+prep(look-3, like-4)
+det(scene-6, a-5)
+pobj(like-4, scene-6)
+advmod(fired-18, where-7)
+nsubjpass(fired-18, hundreds-8)
+prep(hundreds-8, of-9)
+pobj(of-9, canons-10)
+dep(canons-10, pardon-12)
+det(pun-14, the-13)
+dep(pardon-12, pun-14)
+aux(fired-18, are-16)
+auxpass(fired-18, being-17)
+advcl(look-3, fired-18)
+prep(fired-18, upon-19)
+det(flock-21, a-20)
+pobj(upon-19, flock-21)
+prep(flock-21, of-22)
+pobj(of-22, sheep-23)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Anyway))
+    (, ,)))
+
+
+root(ROOT-0, Anyway-1)
+
+
+(ROOT
+  (S
+    (NP (PRP$ our) (NNS photographers))
+    (ADVP (DT all))
+    (VP (VBD exhibited)
+      (NP
+        (NP (DT the) (NNS marks))
+        (PP (IN of)
+          (NP (DT a) (JJ true) (NN food) (NN photographer)))))
+    (, ,)))
+
+
+poss(photographers-2, our-1)
+nsubj(exhibited-4, photographers-2)
+advmod(exhibited-4, all-3)
+root(ROOT-0, exhibited-4)
+det(marks-6, the-5)
+dobj(exhibited-4, marks-6)
+prep(marks-6, of-7)
+det(photographer-11, a-8)
+amod(photographer-11, true-9)
+nn(photographer-11, food-10)
+pobj(of-7, photographer-11)
+
+
+(ROOT
+  (S
+    (VP (VB patiently)
+      (S
+        (VP
+          (VP (VBG snapping)
+            (PRT (RP away))
+            (PP (IN at)
+              (NP (DT the) (NN food))))
+          (CONJP (RB rather) (IN than))
+          (VP (VBG succumbing)
+            (PP (TO to)
+              (NP (DT the) (NN temptation)))
+            (S
+              (VP (TO to)
+                (VP (VB eat)
+                  (NP (PRP it))
+                  (ADVP (RB first)))))))))
+    (. .)))
+
+
+root(ROOT-0, patiently-1)
+ccomp(patiently-1, snapping-2)
+prt(snapping-2, away-3)
+prep(snapping-2, at-4)
+det(food-6, the-5)
+pobj(at-4, food-6)
+cc(snapping-2, rather-7)
+mwe(rather-7, than-8)
+conj(snapping-2, succumbing-9)
+prep(succumbing-9, to-10)
+det(temptation-12, the-11)
+pobj(to-10, temptation-12)
+aux(eat-14, to-13)
+xcomp(succumbing-9, eat-14)
+dobj(eat-14, it-15)
+advmod(eat-14, first-16)
+
+

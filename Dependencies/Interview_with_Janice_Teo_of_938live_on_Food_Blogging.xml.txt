@@ -1,0 +1,58 @@
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (JJ audio) (NN clip))
+        (PP (IN of)
+          (NP
+            (NP (PRP$ my) (NN interview))
+            (PP (IN with)
+              (NP
+                (NP (NNP Janice) (NNP Teo))
+                (PP (IN on)
+                  (NP (CD 938live))))))))
+      (ADVP (RB recently)))
+    (. .)))
+
+
+nsubj(clip-5, This-1)
+cop(clip-5, is-2)
+det(clip-5, a-3)
+amod(clip-5, audio-4)
+root(ROOT-0, clip-5)
+prep(clip-5, of-6)
+poss(interview-8, my-7)
+pobj(of-6, interview-8)
+prep(interview-8, with-9)
+nn(Teo-11, Janice-10)
+pobj(with-9, Teo-11)
+prep(Teo-11, on-12)
+pobj(on-12, 938live-13)
+advmod(clip-5, recently-14)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBD talked)
+      (ADVP (RB briefly))
+      (PP (IN on)
+        (NP
+          (NP (DT the) (NN subject))
+          (PP (IN of)
+            (NP (NN food) (NN blogging))))))
+    (. .)))
+
+
+nsubj(talked-2, We-1)
+root(ROOT-0, talked-2)
+advmod(talked-2, briefly-3)
+prep(talked-2, on-4)
+det(subject-6, the-5)
+pobj(on-4, subject-6)
+prep(subject-6, of-7)
+nn(blogging-9, food-8)
+pobj(of-7, blogging-9)
+
+

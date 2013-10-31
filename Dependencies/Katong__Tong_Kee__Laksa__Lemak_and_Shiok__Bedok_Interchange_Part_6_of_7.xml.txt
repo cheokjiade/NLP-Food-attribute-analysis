@@ -1,0 +1,346 @@
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD used)
+      (S
+        (VP (TO to)
+          (VP (VB be)
+            (SBAR (IN that)
+              (S
+                (NP (NNP Katong) (NNP Laksa))
+                (VP (VBD meant)
+                  (NP (DT a) (JJ specific) (NN shop))
+                  (PP (IN in)
+                    (NP (NNP Katong)))
+                  (S
+                    (VP (VBG serving)
+                      (NP
+                        (NP (DT a) (JJ special) (NN laksa))
+                        (SBAR
+                          (WHNP (WDT which))
+                          (S
+                            (NP (PRP you))
+                            (VP (VBD ate)
+                              (PP (IN with)
+                                (NP (DT a) (NN spoon))))))))))))))))
+    (. .)))
+
+
+nsubj(used-2, It-1)
+root(ROOT-0, used-2)
+aux(be-4, to-3)
+xcomp(used-2, be-4)
+mark(meant-8, that-5)
+nn(Laksa-7, Katong-6)
+nsubj(meant-8, Laksa-7)
+ccomp(be-4, meant-8)
+det(shop-11, a-9)
+amod(shop-11, specific-10)
+dobj(meant-8, shop-11)
+prep(meant-8, in-12)
+pobj(in-12, Katong-13)
+xcomp(meant-8, serving-14)
+det(laksa-17, a-15)
+amod(laksa-17, special-16)
+dobj(serving-14, laksa-17)
+dobj(ate-20, which-18)
+nsubj(ate-20, you-19)
+rcmod(laksa-17, ate-20)
+prep(ate-20, with-21)
+det(spoon-23, a-22)
+pobj(with-21, spoon-23)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Nowadays))
+    (, ,)))
+
+
+root(ROOT-0, Nowadays-1)
+
+
+(ROOT
+  (S
+    (NP (EX there))
+    (VP (VBP are)
+      (ADJP (RB so) (JJ many)
+        (SBAR
+          (S
+            (NP (NNP Katong))
+            (VP (VBZ Laksas)
+              (PRT (RP around))
+              (SBAR (IN that)
+                (S
+                  (NP (PRP it))
+                  (VP (VBZ has)
+                    (VP (VBN come)
+                      (S
+                        (VP (TO to)
+                          (VP (VB mean)
+                            (NP
+                              (NP (DT a) (JJ certain) (NN style))
+                              (PP (IN of)
+                                (NP (NN laksa)))
+                              (SBAR
+                                (WHNP (WDT which))
+                                (S
+                                  (VP (VBZ is)
+                                    (VP (VBN meant)
+                                      (S
+                                        (VP (TO to)
+                                          (VP (VB be)
+                                            (VP (VBN eaten)
+                                              (PP (IN with)
+                                                (NP (RB just) (DT the) (NN spoon))))))))))))))))))))))))
+    (. .)))
+
+
+expl(are-2, there-1)
+root(ROOT-0, are-2)
+advmod(many-4, so-3)
+acomp(are-2, many-4)
+nsubj(Laksas-6, Katong-5)
+ccomp(many-4, Laksas-6)
+prt(Laksas-6, around-7)
+mark(come-11, that-8)
+nsubj(come-11, it-9)
+aux(come-11, has-10)
+ccomp(Laksas-6, come-11)
+aux(mean-13, to-12)
+xcomp(come-11, mean-13)
+det(style-16, a-14)
+amod(style-16, certain-15)
+dobj(mean-13, style-16)
+prep(style-16, of-17)
+pobj(of-17, laksa-18)
+nsubjpass(meant-21, which-19)
+auxpass(meant-21, is-20)
+rcmod(style-16, meant-21)
+aux(eaten-24, to-22)
+auxpass(eaten-24, be-23)
+xcomp(meant-21, eaten-24)
+prep(eaten-24, with-25)
+advmod(spoon-28, just-26)
+det(spoon-28, the-27)
+pobj(with-25, spoon-28)
+
+
+(ROOT
+  (S (CC And)
+    (NP (EX there))
+    (VP (VBP are)
+      (NP
+        (ADJP (RB so) (JJ many))
+        (NNS copies))
+      (SBAR (IN that)
+        (S
+          (NP (PRP you))
+          (ADVP (RB really))
+          (VP (VBP do) (RB n't)
+            (VP (VB know)
+              (SBAR
+                (WHNP (WDT which))
+                (S
+                  (NP (PRP one))
+                  (VP (VBZ is)
+                    (ADJP (JJ good))))))))))
+    (. .)))
+
+
+cc(are-3, And-1)
+expl(are-3, there-2)
+root(ROOT-0, are-3)
+advmod(many-5, so-4)
+amod(copies-6, many-5)
+nsubj(are-3, copies-6)
+mark(know-12, that-7)
+nsubj(know-12, you-8)
+advmod(know-12, really-9)
+aux(know-12, do-10)
+neg(know-12, n't-11)
+ccomp(are-3, know-12)
+dobj(good-16, which-13)
+nsubj(good-16, one-14)
+cop(good-16, is-15)
+ccomp(know-12, good-16)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Well))
+    (, ,)))
+
+
+root(ROOT-0, Well-1)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (ADVP (DT all))
+    (VP (VBP say)
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (DT this) (NN one))
+            (PP (IN in)
+              (NP (NNP Bedok) (NNP Interchange))))
+          (VP (VBZ is)
+            (ADJP (RB really) (JJ good))))))
+    (. .)))
+
+
+nsubj(say-3, we-1)
+advmod(say-3, all-2)
+root(ROOT-0, say-3)
+mark(good-12, that-4)
+det(one-6, this-5)
+nsubj(good-12, one-6)
+prep(one-6, in-7)
+nn(Interchange-9, Bedok-8)
+pobj(in-7, Interchange-9)
+cop(good-12, is-10)
+advmod(good-12, really-11)
+ccomp(say-3, good-12)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NN gravy))
+    (VP (VBZ is)
+      (ADJP (JJ full)
+        (SBAR
+          (WHPP (IN of)
+            (WHNP (WDT that)))
+          (S
+            (NP
+              (NP (NNP Hae) (NNP Bee))
+              (PRN (-LRB- -LRB-)
+                (NP (JJ dried) (NN shrimp))
+                (-RRB- -RRB-)))
+            (VP (VBP taste)
+              (SBAR
+                (WHNP (WDT which))
+                (S
+                  (S
+                    (NP (PRP I))
+                    (ADVP (RB really))
+                    (VP (VBD liked)))
+                  (CC and)
+                  (S
+                    (NP (PRP it))
+                    (VP (VBZ is)
+                      (ADJP
+                        (NP (DT a) (RB tad))
+                        (RBR less) (JJ rich))
+                      (PP (RB then)
+                        (NP
+                          (NP (DT the) (NNP 328) (NNP Laksa))
+                          (SBAR
+                            (WHNP (WDT which))
+                            (S
+                              (NP (PRP I))
+                              (ADJP (JJ frequent)
+                                (PP (IN in)
+                                  (NP (NNP Katong)))))))))))))))))
+    (, ,)))
+
+
+det(gravy-2, The-1)
+nsubj(full-4, gravy-2)
+cop(full-4, is-3)
+root(ROOT-0, full-4)
+prep(taste-13, of-5)
+pobj(of-5, that-6)
+nn(Bee-8, Hae-7)
+nsubj(taste-13, Bee-8)
+amod(shrimp-11, dried-10)
+appos(Bee-8, shrimp-11)
+ccomp(full-4, taste-13)
+dep(liked-17, which-14)
+nsubj(liked-17, I-15)
+advmod(liked-17, really-16)
+dep(taste-13, liked-17)
+cc(liked-17, and-18)
+nsubj(rich-24, it-19)
+cop(rich-24, is-20)
+det(tad-22, a-21)
+dep(rich-24, tad-22)
+advmod(rich-24, less-23)
+conj(liked-17, rich-24)
+prep(rich-24, then-25)
+det(Laksa-28, the-26)
+nn(Laksa-28, 328-27)
+pobj(then-25, Laksa-28)
+dep(frequent-31, which-29)
+dep(frequent-31, I-30)
+rcmod(Laksa-28, frequent-31)
+prep(frequent-31, in-32)
+pobj(in-32, Katong-33)
+
+
+(ROOT
+  (S
+    (NP (WDT which))
+    (VP (VBZ is)
+      (ADJP (JJ good))
+      (SBAR (IN as)
+        (S
+          (NP (PRP you))
+          (VP (MD can)
+            (VP (VB enjoy)
+              (NP (DT the) (NN food))
+              (PP (IN without)
+                (S
+                  (VP (VBG getting)
+                    (NP
+                      (NP (NN jerlak))
+                      (PRN (-LRB- -LRB-)
+                        (NP (NN indigestion))
+                        (-RRB- -RRB-)))))))))))
+    (. .)))
+
+
+nsubj(good-3, which-1)
+cop(good-3, is-2)
+root(ROOT-0, good-3)
+mark(enjoy-7, as-4)
+nsubj(enjoy-7, you-5)
+aux(enjoy-7, can-6)
+advcl(good-3, enjoy-7)
+det(food-9, the-8)
+dobj(enjoy-7, food-9)
+prep(enjoy-7, without-10)
+pcomp(without-10, getting-11)
+dobj(getting-11, jerlak-12)
+appos(jerlak-12, indigestion-14)
+
+
+(ROOT
+  (NP
+    (NP
+      (NP (NN Katong))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP Tong) (NNP Kee))
+        (-RRB- -RRB-))
+      (NP (NNP Laksa) (NNP Bedok) (NNP Interchange) (NNP Food) (NNP Centre)))
+    (NP
+      (NP (# #) (CD 01-64))
+      (NP (JJ 7am-11pm) (NNP Daily)))))
+
+
+root(ROOT-0, Katong-1)
+nn(Kee-4, Tong-3)
+appos(Katong-1, Kee-4)
+nn(Centre-10, Laksa-6)
+nn(Centre-10, Bedok-7)
+nn(Centre-10, Interchange-8)
+nn(Centre-10, Food-9)
+dep(Katong-1, Centre-10)
+dep(01-64-12, #-11)
+dep(Katong-1, 01-64-12)
+amod(Daily-14, 7am-11pm-13)
+dep(01-64-12, Daily-14)
+
+

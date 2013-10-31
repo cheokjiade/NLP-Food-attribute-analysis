@@ -1,0 +1,937 @@
+(ROOT
+  (FRAG
+    (PP (IN OK))
+    (, ,)))
+
+
+root(ROOT-0, OK-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP admit)
+      (NP (PRP it)))
+    (, ,)))
+
+
+nsubj(admit-2, I-1)
+root(ROOT-0, admit-2)
+dobj(admit-2, it-3)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB actually))
+    (VP
+      (ADVP (RB quite)
+        (PP (IN like)
+          (NP (NNP Foo) (NNP Chow))))
+      (VBZ fishballs))
+    (. .)))
+
+
+nsubj(fishballs-7, I-1)
+advmod(fishballs-7, actually-2)
+advmod(fishballs-7, quite-3)
+prep(quite-3, like-4)
+nn(Chow-6, Foo-5)
+pobj(like-4, Chow-6)
+root(ROOT-0, fishballs-7)
+
+
+(ROOT
+  (S
+    (NP (PRP$ My) (NNP Teochew) (NNS kakis))
+    (VP (MD would)
+      (ADVP (RB probably))
+      (VP (VB frown)
+        (PP (IN at)
+          (NP (PRP$ my) (JJ first) (NN statement)))
+        (SBAR (IN because)
+          (S
+            (PP (IN as)
+              (NP (DT a) (NNP Teochew)))
+            (NP (PRP I))
+            (VP (VBP am)
+              (VP (VBN supposed)
+                (S
+                  (VP (TO to)
+                    (VP (VB love)
+                      (NP (PRP$ our) (JJ very) (JJ own) (NNP Teochew) (NNS fishballs)))))))))))
+    (. .)))
+
+
+poss(kakis-3, My-1)
+nn(kakis-3, Teochew-2)
+nsubj(frown-6, kakis-3)
+aux(frown-6, would-4)
+advmod(frown-6, probably-5)
+root(ROOT-0, frown-6)
+prep(frown-6, at-7)
+poss(statement-10, my-8)
+amod(statement-10, first-9)
+pobj(at-7, statement-10)
+mark(supposed-17, because-11)
+prep(supposed-17, as-12)
+det(Teochew-14, a-13)
+pobj(as-12, Teochew-14)
+nsubjpass(supposed-17, I-15)
+auxpass(supposed-17, am-16)
+advcl(frown-6, supposed-17)
+aux(love-19, to-18)
+xcomp(supposed-17, love-19)
+poss(fishballs-24, our-20)
+amod(fishballs-24, very-21)
+amod(fishballs-24, own-22)
+nn(fishballs-24, Teochew-23)
+dobj(love-19, fishballs-24)
+
+
+(ROOT
+  (S
+    (NP (NNP But))
+    (VP (VBP hey))
+    (, ,)))
+
+
+nsubj(hey-2, But-1)
+root(ROOT-0, hey-2)
+
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB when))
+      (S
+        (NP (PRP you))
+        (VP (VB bite)
+          (PP (IN into)
+            (NP (DT the) (NN ball))))))
+    (ADVP (RB out))
+    (VP (VBZ comes)
+      (NP
+        (NP (DT this) (NN burst))
+        (PP (IN of)
+          (NP
+            (NP (JJ savoury) (NN pork) (NN flavor))
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (VP (VBZ is) (RB rather)
+                  (NP (NN shiok)))))))))
+    (. !)))
+
+
+advmod(bite-3, when-1)
+nsubj(bite-3, you-2)
+advcl(comes-8, bite-3)
+prep(bite-3, into-4)
+det(ball-6, the-5)
+pobj(into-4, ball-6)
+advmod(comes-8, out-7)
+root(ROOT-0, comes-8)
+det(burst-10, this-9)
+dobj(comes-8, burst-10)
+prep(burst-10, of-11)
+amod(flavor-14, savoury-12)
+nn(flavor-14, pork-13)
+pobj(of-11, flavor-14)
+nsubj(shiok-18, which-15)
+cop(shiok-18, is-16)
+advmod(shiok-18, rather-17)
+rcmod(flavor-14, shiok-18)
+
+
+(ROOT
+  (FRAG (RB So) (JJ ,)))
+
+
+root(ROOT-0, So-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD would)
+      (VP (VB hesitate)
+        (S
+          (VP (TO to)
+            (VP (VB say)
+              (SBAR (IN that)
+                (S
+                  (NP (PRP I))
+                  (ADVP (RB rather))
+                  (VP (VBP enjoy)
+                    (ADVP (DT this) (RBR more))
+                    (PP (IN than)
+                      (NP (NNP Teochew) (NNS fishballs)))))))))))
+    (. !)))
+
+
+nsubj(hesitate-3, I-1)
+aux(hesitate-3, would-2)
+root(ROOT-0, hesitate-3)
+aux(say-5, to-4)
+xcomp(hesitate-3, say-5)
+mark(enjoy-9, that-6)
+nsubj(enjoy-9, I-7)
+advmod(enjoy-9, rather-8)
+ccomp(say-5, enjoy-9)
+dep(more-11, this-10)
+advmod(enjoy-9, more-11)
+prep(enjoy-9, than-12)
+nn(fishballs-14, Teochew-13)
+pobj(than-12, fishballs-14)
+
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are) (RB n't)
+      (NP
+        (NP (JJ many) (NNS stalls))
+        (VP (VBG selling)
+          (NP (NNP Fuzhou) (NNS fishballs))
+          (PRT (RP around))
+          (SBAR (IN since)
+            (S
+              (NP
+                (NP (DT the) (NNP Fuzhou)
+                  (PRN (-LRB- -LRB-)
+                    (NP (NNP Hockchew))
+                    (-RRB- -RRB-))
+                  (NN community))
+                (PP (IN in)
+                  (NP (NNP Singapore))))
+              (VP (VBZ is)
+                (ADJP (RB pretty) (JJ small))))))))
+    (, ,)))
+
+
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+neg(are-2, n't-3)
+amod(stalls-5, many-4)
+nsubj(are-2, stalls-5)
+partmod(stalls-5, selling-6)
+nn(fishballs-8, Fuzhou-7)
+dobj(selling-6, fishballs-8)
+prt(selling-6, around-9)
+mark(small-21, since-10)
+det(community-16, the-11)
+nn(community-16, Fuzhou-12)
+appos(community-16, Hockchew-14)
+nsubj(small-21, community-16)
+prep(community-16, in-17)
+pobj(in-17, Singapore-18)
+cop(small-21, is-19)
+advmod(small-21, pretty-20)
+advcl(selling-6, small-21)
+
+
+(ROOT
+  (S (IN so)
+    (NP (PRP I))
+    (VP (VBP have) (RB n't)
+      (ADVP (RB actually))
+      (VP (VBN eaten)
+        (NP
+          (NP (DT a) (NNP Fuzhou) (NN fishball))
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (NP (PRP I))
+              (VP (MD could)
+                (ADVP (RB highly))
+                (VP (VB recommend)
+                  (PRT (RP up))
+                  (PP (IN till)
+                    (NP (RB now))))))))))
+    (. .)))
+
+
+dep(eaten-6, so-1)
+nsubj(eaten-6, I-2)
+aux(eaten-6, have-3)
+neg(eaten-6, n't-4)
+advmod(eaten-6, actually-5)
+root(ROOT-0, eaten-6)
+det(fishball-9, a-7)
+nn(fishball-9, Fuzhou-8)
+dobj(eaten-6, fishball-9)
+dobj(recommend-14, which-10)
+nsubj(recommend-14, I-11)
+aux(recommend-14, could-12)
+advmod(recommend-14, highly-13)
+rcmod(fishball-9, recommend-14)
+prt(recommend-14, up-15)
+prep(recommend-14, till-16)
+pobj(till-16, now-17)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Besides)
+      (NP
+        (NP (DT the) (NN fishball))
+        (PP (IN with)
+          (NP (JJ minced) (NN pork) (NN inside)))))
+    (, ,)))
+
+
+root(ROOT-0, Besides-1)
+det(fishball-3, the-2)
+pobj(Besides-1, fishball-3)
+prep(fishball-3, with-4)
+amod(inside-7, minced-5)
+nn(inside-7, pork-6)
+pobj(with-4, inside-7)
+
+
+(ROOT
+  (S
+    (NP (PRP they))
+    (ADVP (RB also))
+    (VP (VBP have)
+      (NP
+        (NP
+          (NP (NNS meatballs))
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (VBP are)
+                (ADJP (RB equally) (JJ addictive))))))
+        (CC and)
+        (NP
+          (NP (DT a)
+            (ADJP (RB very) (JJ interesting))
+            (NN dumpling))
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (VBZ is)
+                (VP (VBN wrapped)
+                  (PP (IN in) (`` ``)
+                    (NP (NNP Yan) (NNP Pi))
+                    ('' '')))))))))
+    (. .)))
+
+
+nsubj(have-3, they-1)
+advmod(have-3, also-2)
+root(ROOT-0, have-3)
+dobj(have-3, meatballs-4)
+nsubj(addictive-8, which-5)
+cop(addictive-8, are-6)
+advmod(addictive-8, equally-7)
+rcmod(meatballs-4, addictive-8)
+cc(meatballs-4, and-9)
+det(dumpling-13, a-10)
+advmod(interesting-12, very-11)
+amod(dumpling-13, interesting-12)
+conj(meatballs-4, dumpling-13)
+nsubjpass(wrapped-16, which-14)
+auxpass(wrapped-16, is-15)
+rcmod(dumpling-13, wrapped-16)
+prep(wrapped-16, in-17)
+nn(Pi-20, Yan-19)
+pobj(in-17, Pi-20)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN owner))
+      (PP (IN of)
+        (NP (DT the) (NN stall))))
+    (VP (VBD explained)
+      (PP (TO to)
+        (NP (PRP me)))
+      (SBAR (IN that)
+        (S (`` ``)
+          (NP (NNP Yan) (NNP Pi))
+          ('' '')
+          (VP (VBZ is)
+            (NP
+              (NP (DT a) (VBG dumpling) (NN skin))
+              (SBAR
+                (WHNP (WDT which))
+                (S
+                  (VP (VBZ is)
+                    (VP (VBN made)
+                      (PP (IN from)
+                        (S
+                          (VP (VBG hammering)
+                            (NP (NN pork))
+                            (SBAR (IN until)
+                              (S
+                                (NP (PRP it))
+                                (VP (VBZ becomes)
+                                  (NP (DT a) (NN resilient)))))
+                            (, ,)))))))))))))))
+
+
+det(owner-2, The-1)
+nsubj(explained-6, owner-2)
+prep(owner-2, of-3)
+det(stall-5, the-4)
+pobj(of-3, stall-5)
+root(ROOT-0, explained-6)
+prep(explained-6, to-7)
+pobj(to-7, me-8)
+mark(skin-17, that-9)
+nn(Pi-12, Yan-11)
+nsubj(skin-17, Pi-12)
+cop(skin-17, is-14)
+det(skin-17, a-15)
+amod(skin-17, dumpling-16)
+ccomp(explained-6, skin-17)
+nsubjpass(made-20, which-18)
+auxpass(made-20, is-19)
+rcmod(skin-17, made-20)
+prep(made-20, from-21)
+pcomp(from-21, hammering-22)
+dobj(hammering-22, pork-23)
+mark(resilient-28, until-24)
+nsubj(resilient-28, it-25)
+cop(resilient-28, becomes-26)
+det(resilient-28, a-27)
+advcl(hammering-22, resilient-28)
+
+
+(ROOT
+  (S
+    (NP (NN stretchable))
+    (VP
+      (VP (VBZ membrane))
+      (CC and)
+      (VP (VBZ is)
+        (NP
+          (NP (DT a) (NN ingredient))
+          (VP
+            (ADVP (RB typically))
+            (VBN used)
+            (PP (IN in)
+              (NP (NNP Fuzhou) (NN cuisine)))))))
+    (. .)))
+
+
+nsubj(membrane-2, stretchable-1)
+root(ROOT-0, membrane-2)
+cc(membrane-2, and-3)
+cop(ingredient-6, is-4)
+det(ingredient-6, a-5)
+conj(membrane-2, ingredient-6)
+advmod(used-8, typically-7)
+partmod(ingredient-6, used-8)
+prep(used-8, in-9)
+nn(cuisine-11, Fuzhou-10)
+pobj(in-9, cuisine-11)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN stall))
+      (SBAR
+        (S
+          (VP (VBZ has)
+            (VP (VBN been)
+              (ADVP (RB around))
+              (PP (IN for)
+                (NP
+                  (NP (CD two) (NNS generations))
+                  (CC and)
+                  (NP (PRP$ our) (JJR more) (JJ mature) (NNS readers)))))))))
+    (VP (MD might)
+      (ADVP (RB still))
+      (VP (VB remember)
+        (NP
+          (NP (DT the) (NNS days))
+          (SBAR
+            (S
+              (NP (PRP they))
+              (VP (VBD were)
+                (PP (IN at)
+                  (NP (NNP China) (NNP Street)))))))))
+    (. .)))
+
+
+det(stall-2, The-1)
+nsubj(remember-16, stall-2)
+aux(been-4, has-3)
+rcmod(stall-2, been-4)
+advmod(been-4, around-5)
+prep(been-4, for-6)
+num(generations-8, two-7)
+pobj(for-6, generations-8)
+cc(generations-8, and-9)
+poss(readers-13, our-10)
+amod(readers-13, more-11)
+amod(readers-13, mature-12)
+conj(generations-8, readers-13)
+aux(remember-16, might-14)
+advmod(remember-16, still-15)
+root(ROOT-0, remember-16)
+det(days-18, the-17)
+dobj(remember-16, days-18)
+nsubj(were-20, they-19)
+rcmod(days-18, were-20)
+prep(were-20, at-21)
+nn(Street-23, China-22)
+pobj(at-21, Street-23)
+
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP are)
+      (ADVP (RB still))
+      (VP
+        (VP
+          (ADVP (RB faithfully))
+          (VBG sticking)
+          (PP (TO to)
+            (NP (NN tradition))))
+        (CC and)
+        (VP (VBG making)
+          (NP (PRP$ their) (NN pork)
+            (CC and)
+            (NNS fishballs))
+          (PP (IN from)
+            (NP (NN scratch)))
+          (ADVP (RB daily)))))
+    (. .)))
+
+
+nsubj(sticking-5, They-1)
+aux(sticking-5, are-2)
+advmod(sticking-5, still-3)
+advmod(sticking-5, faithfully-4)
+root(ROOT-0, sticking-5)
+prep(sticking-5, to-6)
+pobj(to-6, tradition-7)
+cc(sticking-5, and-8)
+conj(sticking-5, making-9)
+poss(pork-11, their-10)
+dobj(making-9, pork-11)
+cc(pork-11, and-12)
+conj(pork-11, fishballs-13)
+prep(making-9, from-14)
+pobj(from-14, scratch-15)
+advmod(making-9, daily-16)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (VBP have) (RB not)
+        (ADVP (RB really))
+        (VP (VBN given)
+          (NP (NNP Fuzhou) (NNS fishballs))
+          (NP (DT a) (NN try))))
+      (, ,))))
+
+
+mark(given-6, If-1)
+nsubj(given-6, you-2)
+aux(given-6, have-3)
+neg(given-6, not-4)
+advmod(given-6, really-5)
+root(ROOT-0, given-6)
+nn(fishballs-8, Fuzhou-7)
+iobj(given-6, fishballs-8)
+det(try-10, a-9)
+dobj(given-6, try-10)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD would)
+      (ADVP (RB highly))
+      (VP (VB recommend)
+        (NP (DT this) (NN stall))
+        (PP (TO to)
+          (NP (PRP you)))))
+    (. .)))
+
+
+nsubj(recommend-4, I-1)
+aux(recommend-4, would-2)
+advmod(recommend-4, highly-3)
+root(ROOT-0, recommend-4)
+det(stall-6, this-5)
+dobj(recommend-4, stall-6)
+prep(recommend-4, to-7)
+pobj(to-7, you-8)
+
+
+(ROOT
+  (NP
+    (NP (CD 4.5) (NNP \/) (CD 5))
+    (PRN
+      (ADVP (RB Besides))
+      (NP (NNP Fuzhou) (NNP Fishballs))
+      (, ,))))
+
+
+num(\/-2, 4.5-1)
+root(ROOT-0, \/-2)
+num(\/-2, 5-3)
+dep(Fishballs-6, Besides-4)
+nn(Fishballs-6, Fuzhou-5)
+dep(\/-2, Fishballs-6)
+
+
+(ROOT
+  (S
+    (NP (DT this) (NN stall))
+    (VP (VBZ is)
+      (ADVP (RB also))
+      (VP (VBN known)
+        (PP (IN for)
+          (NP (PRP$ its) (NNP Lor) (NNP Mee)))))
+    (. .)))
+
+
+det(stall-2, this-1)
+nsubjpass(known-5, stall-2)
+auxpass(known-5, is-3)
+advmod(known-5, also-4)
+root(ROOT-0, known-5)
+prep(known-5, for-6)
+poss(Mee-9, its-7)
+nn(Mee-9, Lor-8)
+pobj(for-6, Mee-9)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD had)
+      (VP (VBN thought)
+        (SBAR (IN that)
+          (S
+            (NP (NNP Lor) (NNP Mee))
+            (VP (VBD was)
+              (NP (DT a) (NNP Hokkien) (NN dish)))))))
+    (, ,)))
+
+
+nsubj(thought-3, I-1)
+aux(thought-3, had-2)
+root(ROOT-0, thought-3)
+mark(dish-10, that-4)
+nn(Mee-6, Lor-5)
+nsubj(dish-10, Mee-6)
+cop(dish-10, was-7)
+det(dish-10, a-8)
+nn(dish-10, Hokkien-9)
+ccomp(thought-3, dish-10)
+
+
+(ROOT
+  (S (CC but)
+    (NP (PRP it))
+    (VP (VBZ turns)
+      (PRT (RP out))
+      (SBAR (IN that)
+        (S
+          (NP (DT the) (NNP Fuzhou) (NNS people))
+          (ADVP (RB also))
+          (VP (VBP have)
+            (NP
+              (NP (DT the) (NN dish))
+              (PP (IN in)
+                (NP (PRP$ their) (NN culture))))))))
+    (. .)))
+
+
+cc(turns-3, but-1)
+nsubj(turns-3, it-2)
+root(ROOT-0, turns-3)
+prt(turns-3, out-4)
+mark(have-10, that-5)
+det(people-8, the-6)
+nn(people-8, Fuzhou-7)
+nsubj(have-10, people-8)
+advmod(have-10, also-9)
+ccomp(turns-3, have-10)
+det(dish-12, the-11)
+dobj(have-10, dish-12)
+prep(dish-12, in-13)
+poss(culture-15, their-14)
+pobj(in-13, culture-15)
+
+
+(ROOT
+  (S
+    (NP (NNP Fuzhou))
+    (VP (VBZ is))
+    (, ,)))
+
+
+nsubj(is-2, Fuzhou-1)
+root(ROOT-0, is-2)
+
+
+(ROOT
+  (FRAG
+    (PP (IN after)
+      (NP (DT all)))
+    (, ,)))
+
+
+root(ROOT-0, after-1)
+pobj(after-1, all-2)
+
+
+(ROOT
+  (S
+    (NP (PRP one))
+    (VP (VBZ municipality)
+      (PP (IN within)
+        (NP (DT the) (NNP Fujian) (NN province))))
+    (, ,)))
+
+
+nsubj(municipality-2, one-1)
+root(ROOT-0, municipality-2)
+prep(municipality-2, within-3)
+det(province-6, the-4)
+nn(province-6, Fujian-5)
+pobj(within-3, province-6)
+
+
+(ROOT
+  (S (IN so)
+    (NP (PRP I))
+    (VP (VBP guess)
+      (SBAR
+        (S
+          (NP (PRP it))
+          (VP (VBZ is)
+            (ADVP (RB just))
+            (NP
+              (NP (DT a) (NN variation))
+              (PP (IN of)
+                (NP (DT that) (NN dish))))))))
+    (. .)))
+
+
+dep(guess-3, so-1)
+nsubj(guess-3, I-2)
+root(ROOT-0, guess-3)
+nsubj(variation-8, it-4)
+cop(variation-8, is-5)
+advmod(variation-8, just-6)
+det(variation-8, a-7)
+ccomp(guess-3, variation-8)
+prep(variation-8, of-9)
+det(dish-11, that-10)
+pobj(of-9, dish-11)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP (DT the) (NNP Lor) (NNP Mee))
+          (VP (VBZ is)
+            (ADJP (JJ competent)
+              (CC but)
+              (RB not) (JJ stellar))))))
+    (. .)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+det(Mee-5, the-3)
+nn(Mee-5, Lor-4)
+nsubj(stellar-10, Mee-5)
+cop(stellar-10, is-6)
+dep(stellar-10, competent-7)
+cc(stellar-10, but-8)
+conj(stellar-10, not-9)
+ccomp(think-2, stellar-10)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP
+      (VP (MD would)
+        (ADVP (RB definitely))
+        (VP (VB visit)
+          (NP
+            (NP (DT this) (NN stall))
+            (PP (IN for)
+              (NP (DT the) (NNP Fuzhou) (NNPS Fishballs))))))
+      (CC and)
+      (VP (MD might)
+        (VP (VB order)
+          (NP (DT the) (NNP Lor) (NNP Mee))
+          (SBAR (IN if)
+            (S
+              (NP (PRP I))
+              (VP (VBP have)
+                (NP (DT a) (NN craving))))))))
+    (. .)))
+
+
+nsubj(visit-4, I-1)
+aux(visit-4, would-2)
+advmod(visit-4, definitely-3)
+root(ROOT-0, visit-4)
+det(stall-6, this-5)
+dobj(visit-4, stall-6)
+prep(stall-6, for-7)
+det(Fishballs-10, the-8)
+nn(Fishballs-10, Fuzhou-9)
+pobj(for-7, Fishballs-10)
+cc(visit-4, and-11)
+aux(order-13, might-12)
+conj(visit-4, order-13)
+det(Mee-16, the-14)
+nn(Mee-16, Lor-15)
+dobj(order-13, Mee-16)
+mark(have-19, if-17)
+nsubj(have-19, I-18)
+advcl(order-13, have-19)
+det(craving-21, a-20)
+dobj(have-19, craving-21)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (CD 3.75) (NNP \/) (CD 5) (NNP Conclusion))
+      (SBAR
+        (S
+          (SBAR (IN If)
+            (S
+              (NP (NNP Fuzhou) (NNP Fishballs))
+              (VP (VBZ has) (RB not)
+                (VP (VBN been)
+                  (NP
+                    (NP (CD one))
+                    (PP (IN of)
+                      (NP (DT the) (NNS things))))))))
+          (NP (PRP you))
+          (VP (VBP look)
+            (ADVP (RB forward))
+            (PP (TO to)
+              (S
+                (VP (VBG eating)
+                  (ADVP (RB then))
+                  (NP (DT this) (NN stall)))))))))
+    (VP (MD might)
+      (ADVP (RB just))
+      (VP (VB change)
+        (NP (PRP$ your) (NN mind))))
+    (. .)))
+
+
+num(Conclusion-4, 3.75-1)
+nn(Conclusion-4, \/-2)
+num(Conclusion-4, 5-3)
+nsubj(change-25, Conclusion-4)
+mark(one-11, If-5)
+nn(Fishballs-7, Fuzhou-6)
+nsubj(one-11, Fishballs-7)
+aux(one-11, has-8)
+neg(one-11, not-9)
+cop(one-11, been-10)
+advcl(look-16, one-11)
+prep(one-11, of-12)
+det(things-14, the-13)
+pobj(of-12, things-14)
+nsubj(look-16, you-15)
+rcmod(Conclusion-4, look-16)
+advmod(look-16, forward-17)
+prep(look-16, to-18)
+pcomp(to-18, eating-19)
+advmod(eating-19, then-20)
+det(stall-22, this-21)
+dobj(eating-19, stall-22)
+aux(change-25, might-23)
+advmod(change-25, just-24)
+root(ROOT-0, change-25)
+poss(mind-27, your-26)
+dobj(change-25, mind-27)
+
+
+(ROOT
+  (NP
+    (NP (NNP Update) (CD 17))
+    (NP (NNP Feb) (CD 2011))))
+
+
+root(ROOT-0, Update-1)
+num(Update-1, 17-2)
+dep(Update-1, Feb-3)
+num(Feb-3, 2011-4)
+
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP have)
+      (VP (VBN moved)
+        (S
+          (VP (TO to)))))
+    (: :)))
+
+
+nsubj(moved-3, They-1)
+aux(moved-3, have-2)
+root(ROOT-0, moved-3)
+xcomp(moved-3, to-4)
+
+
+(ROOT
+  (S
+    (NP (NNP Blk))
+    (VP (VBZ 148))
+    (, ,)))
+
+
+nsubj(148-2, Blk-1)
+root(ROOT-0, 148-2)
+
+
+(ROOT
+  (S
+    (NP (NNP Silat) (NNP Avenue) (NNP Zhong) (NNP Xing) (NNP Foo) (NNP Chow) (NNP Fishballs) (CD 56) (NNP Zion) (NNP Road) (NNP Singapore) (NNP 247781) (NNS 7.30))
+    (VP (VBP am)
+      (PP (TO to)
+        (NP (JJ 5pm) (NNP Tuesday)))
+      (ADJP (VBN closed)))))
+
+
+nn(7.30-13, Silat-1)
+nn(7.30-13, Avenue-2)
+nn(7.30-13, Zhong-3)
+nn(7.30-13, Xing-4)
+nn(7.30-13, Foo-5)
+nn(7.30-13, Chow-6)
+nn(7.30-13, Fishballs-7)
+num(7.30-13, 56-8)
+nn(7.30-13, Zion-9)
+nn(7.30-13, Road-10)
+nn(7.30-13, Singapore-11)
+nn(7.30-13, 247781-12)
+nsubjpass(closed-18, 7.30-13)
+auxpass(closed-18, am-14)
+prep(closed-18, to-15)
+amod(Tuesday-17, 5pm-16)
+pobj(to-15, Tuesday-17)
+root(ROOT-0, closed-18)
+
+

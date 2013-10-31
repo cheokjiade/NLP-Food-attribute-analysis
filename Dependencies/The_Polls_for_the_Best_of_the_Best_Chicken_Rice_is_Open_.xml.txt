@@ -1,0 +1,287 @@
+(ROOT
+  (NP
+    (NP (NNS Thanks))
+    (PP (TO to)
+      (NP
+        (NP (DT all))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBD wrote)
+              (PRT (RP in))
+              (S
+                (VP (TO to)
+                  (VP (VB nominate)
+                    (NP (PRP$ their) (JJ favorite) (NNP Chicken) (NNP Rice))))))))))
+    (. !)))
+
+
+root(ROOT-0, Thanks-1)
+prep(Thanks-1, to-2)
+pobj(to-2, all-3)
+nsubj(wrote-5, who-4)
+rcmod(all-3, wrote-5)
+prt(wrote-5, in-6)
+aux(nominate-8, to-7)
+xcomp(wrote-5, nominate-8)
+poss(Rice-12, their-9)
+amod(Rice-12, favorite-10)
+nn(Rice-12, Chicken-11)
+dobj(nominate-8, Rice-12)
+
+
+(ROOT
+  (FRAG
+    (PP (IN After)
+      (NP
+        (NP (NN tabulating))
+        (NP (DT the) (NNS nominations))))
+    (, ,)))
+
+
+root(ROOT-0, After-1)
+pobj(After-1, tabulating-2)
+det(nominations-4, the-3)
+dep(tabulating-2, nominations-4)
+
+
+(ROOT
+  (S
+    (SBAR
+      (SINV (MD may)
+        (NP (PRP I))
+        (VP (VB present)
+          (PP (TO to)
+            (NP (PRP you))))))
+    (NP (DT the) (NN top))
+    (VP (VBZ ten))
+    (: :)))
+
+
+aux(present-3, may-1)
+nsubj(present-3, I-2)
+advcl(ten-8, present-3)
+prep(present-3, to-4)
+pobj(to-4, you-5)
+det(top-7, the-6)
+nsubj(ten-8, top-7)
+root(ROOT-0, ten-8)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 1))
+    (. .)))
+
+
+root(ROOT-0, 1-1)
+
+
+(ROOT
+  (NP
+    (NP (NNP Tian) (NNP Tian) (NNP Chicken) (NNP Rice))
+    (NP (CD 2))
+    (. .)))
+
+
+nn(Rice-4, Tian-1)
+nn(Rice-4, Tian-2)
+nn(Rice-4, Chicken-3)
+root(ROOT-0, Rice-4)
+dep(Rice-4, 2-5)
+
+
+(ROOT
+  (NP (NNP Boon) (NNP Tong) (NNP Kee) (NNP Chicken) (NNP Rice) (NNP 3) (. .)))
+
+
+nn(3-6, Boon-1)
+nn(3-6, Tong-2)
+nn(3-6, Kee-3)
+nn(3-6, Chicken-4)
+nn(3-6, Rice-5)
+root(ROOT-0, 3-6)
+
+
+(ROOT
+  (NP
+    (NP (NNP Wee) (NNP Nam) (NNP Kee) (NNP Chicken) (NNP Rice))
+    (NP (CD 4))
+    (. .)))
+
+
+nn(Rice-5, Wee-1)
+nn(Rice-5, Nam-2)
+nn(Rice-5, Kee-3)
+nn(Rice-5, Chicken-4)
+root(ROOT-0, Rice-5)
+dep(Rice-5, 4-6)
+
+
+(ROOT
+  (S
+    (NP (NNP Pow) (NNP Sing))
+    (VP (VBZ Restaurant)
+      (NP (CD 5)))
+    (. .)))
+
+
+nn(Sing-2, Pow-1)
+nsubj(Restaurant-3, Sing-2)
+root(ROOT-0, Restaurant-3)
+dobj(Restaurant-3, 5-4)
+
+
+(ROOT
+  (NP
+    (NP (NNP Heng) (NNP Ji) (NNP Chicken) (NNP Rice))
+    (NP (CD 6))
+    (. .)))
+
+
+nn(Rice-4, Heng-1)
+nn(Rice-4, Ji-2)
+nn(Rice-4, Chicken-3)
+root(ROOT-0, Rice-4)
+dep(Rice-4, 6-5)
+
+
+(ROOT
+  (NP
+    (NP (CD Five))
+    (NP
+      (NP (NNP Star) (NNP Chicken) (NNP Rice))
+      (NP (CD 7)))
+    (. .)))
+
+
+root(ROOT-0, Five-1)
+nn(Rice-4, Star-2)
+nn(Rice-4, Chicken-3)
+dep(Five-1, Rice-4)
+dep(Rice-4, 7-5)
+
+
+(ROOT
+  (NP
+    (NP (NNP Tong) (NNP Fong) (NNP Fatt) (NNP Chicken))
+    (QP (CD Rice) (CD 8))
+    (. .)))
+
+
+nn(Chicken-4, Tong-1)
+nn(Chicken-4, Fong-2)
+nn(Chicken-4, Fatt-3)
+root(ROOT-0, Chicken-4)
+number(8-6, Rice-5)
+num(Chicken-4, 8-6)
+
+
+(ROOT
+  (S
+    (NP (NNP Xin) (NNP Kee) (NNP Margaret))
+    (VP (VB Drive)
+      (NP (CD 9)))
+    (. .)))
+
+
+nn(Margaret-3, Xin-1)
+nn(Margaret-3, Kee-2)
+nsubj(Drive-4, Margaret-3)
+root(ROOT-0, Drive-4)
+dobj(Drive-4, 9-5)
+
+
+(ROOT
+  (NP
+    (NP (NNP Nan) (NNP Xiang) (NNP Chicken) (NNP Rice))
+    (NP (CD 10))
+    (. .)))
+
+
+nn(Rice-4, Nan-1)
+nn(Rice-4, Xiang-2)
+nn(Rice-4, Chicken-3)
+root(ROOT-0, Rice-4)
+dep(Rice-4, 10-5)
+
+
+(ROOT
+  (NP
+    (NP (NNP Hainanese) (NNP Delicacy))
+    (PRN (-LRB- -LRB-)
+      (NP (NNP Far) (NNP East) (NNP Centre))
+      (-RRB- -RRB-))))
+
+
+nn(Delicacy-2, Hainanese-1)
+root(ROOT-0, Delicacy-2)
+nn(Centre-6, Far-4)
+nn(Centre-6, East-5)
+appos(Delicacy-2, Centre-6)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NNS polls))
+    (VP (VBP are)
+      (VP (VBN opened)))
+    (. !)))
+
+
+det(polls-2, The-1)
+nsubjpass(opened-4, polls-2)
+auxpass(opened-4, are-3)
+root(ROOT-0, opened-4)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (MD shall)
+      (VP (VB find)
+        (PRT (RP out))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (NP (NN chicken) (NN rice))
+            (VP (VBZ is)
+              (NP
+                (NP (NN no.) (CD 1))
+                (PP (IN in)
+                  (NP (NNP Singapore)))))))))
+    (. !)))
+
+
+nsubj(find-3, We-1)
+aux(find-3, shall-2)
+root(ROOT-0, find-3)
+prt(find-3, out-4)
+dobj(no.-9, which-5)
+nn(rice-7, chicken-6)
+nsubj(no.-9, rice-7)
+cop(no.-9, is-8)
+ccomp(find-3, no.-9)
+num(no.-9, 1-10)
+prep(no.-9, in-11)
+pobj(in-11, Singapore-12)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB pick)
+        (NP (PRP$ your) (JJ top)
+          (NX (CD three)))))
+    (. !)))
+
+
+nsubj(pick-3, You-1)
+aux(pick-3, can-2)
+root(ROOT-0, pick-3)
+poss(three-6, your-4)
+amod(three-6, top-5)
+dobj(pick-3, three-6)
+
+

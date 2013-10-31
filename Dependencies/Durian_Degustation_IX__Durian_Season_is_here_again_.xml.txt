@@ -1,0 +1,516 @@
+(ROOT
+  (S
+    (NP (NNP Notice))
+    (VP (VBZ is)
+      (ADVP (RB hereby))
+      (VP (VBN given)
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP (NN registration))
+              (PP (IN for)
+                (NP (NNP Durian) (NNP Degustation) (NNP IX))))
+            (VP (VBZ is)
+              (ADVP (RB now))
+              (VP (VBN opened)))))))
+    (. !)))
+
+
+nsubjpass(given-4, Notice-1)
+auxpass(given-4, is-2)
+advmod(given-4, hereby-3)
+root(ROOT-0, given-4)
+mark(opened-13, that-5)
+nsubjpass(opened-13, registration-6)
+prep(registration-6, for-7)
+nn(IX-10, Durian-8)
+nn(IX-10, Degustation-9)
+pobj(for-7, IX-10)
+auxpass(opened-13, is-11)
+advmod(opened-13, now-12)
+ccomp(given-4, opened-13)
+
+
+(ROOT
+  (PP (VBG Depending)
+    (PP (IN on)
+      (NP
+        (NP (NN supply))
+        (PP (IN on)
+          (NP (DT that) (NN day)))
+        (, ,)))))
+
+
+root(ROOT-0, Depending-1)
+pcomp(Depending-1, on-2)
+pobj(on-2, supply-3)
+prep(supply-3, on-4)
+det(day-6, that-5)
+pobj(on-4, day-6)
+
+
+(ROOT
+  (S
+    (NP (EX there))
+    (VP (MD should)
+      (VP (VB be)
+        (NP (DT the) (JJ usual) (NNP Mao) (NNP Shan) (NNP Wang))))
+    (, ,)))
+
+
+expl(Wang-8, there-1)
+aux(Wang-8, should-2)
+cop(Wang-8, be-3)
+det(Wang-8, the-4)
+amod(Wang-8, usual-5)
+nn(Wang-8, Mao-6)
+nn(Wang-8, Shan-7)
+root(ROOT-0, Wang-8)
+
+
+(ROOT
+  (NP (NNP D24) (NNP ,)))
+
+
+nn(,-2, D24-1)
+
+
+(ROOT
+  (S
+    (NP (NNP Hong))
+    (VP (VBZ Xia))
+    (, ,)))
+
+
+nsubj(Xia-2, Hong-1)
+root(ROOT-0, Xia-2)
+
+
+(ROOT
+  (S
+    (NP (NNP Golden))
+    (VP (VBZ Phoenix))
+    (, ,)))
+
+
+nsubj(Phoenix-2, Golden-1)
+root(ROOT-0, Phoenix-2)
+
+
+(ROOT
+  (S
+    (VP
+      (NP
+        (NP (NNP XO))
+        (CC and)
+        (RB perhaps)
+        (NP (NNP Green) (NNP Bamboo))))
+    (. .)))
+
+
+root(ROOT-0, XO-1)
+cc(XO-1, and-2)
+advmod(XO-1, perhaps-3)
+nn(Bamboo-5, Green-4)
+dep(XO-1, Bamboo-5)
+
+
+(ROOT
+  (NP (NNP Date) (: :)))
+
+
+root(ROOT-0, Date-1)
+
+
+(ROOT
+  (NP (NNP 2nd) (NNP July) (NNP 2011) (NNP Venue) (: :)))
+
+
+nn(Venue-4, 2nd-1)
+nn(Venue-4, July-2)
+nn(Venue-4, 2011-3)
+root(ROOT-0, Venue-4)
+
+
+(ROOT
+  (NP
+    (NP
+      (NP (CD 229) (NNS East))
+      (NP (NNP Coast) (NNP Road)
+        (PRN (-LRB- -LRB-)
+          (NP (NNP Opp) (NNP Jago) (NNP Close))
+          (-RRB- -RRB-))
+        (NNP Time)))
+    (: :)))
+
+
+num(East-2, 229-1)
+root(ROOT-0, East-2)
+nn(Time-10, Coast-3)
+nn(Time-10, Road-4)
+nn(Close-8, Opp-6)
+nn(Close-8, Jago-7)
+appos(Time-10, Close-8)
+dep(East-2, Time-10)
+
+
+(ROOT
+  (NP (NNP 8.30) (NNP pm) (NNP Price) (: :)))
+
+
+nn(Price-3, 8.30-1)
+nn(Price-3, pm-2)
+root(ROOT-0, Price-3)
+
+
+(ROOT
+  (INTJ (UH $)))
+
+
+root(ROOT-0, $-1)
+
+
+(ROOT
+  (NP
+    (NP (CD 30) (NNS Kids))
+    (PP (IN below)
+      (NP (CD 6)))
+    (: :)))
+
+
+num(Kids-2, 30-1)
+root(ROOT-0, Kids-2)
+prep(Kids-2, below-3)
+pobj(below-3, 6-4)
+
+
+(ROOT
+  (INTJ (UH $)))
+
+
+root(ROOT-0, $-1)
+
+
+(ROOT
+  (NP
+    (ADJP (CD 15) (NN -LRB-))
+    (NNPS $)))
+
+
+number(-LRB--2, 15-1)
+
+
+(ROOT
+  (S
+    (NP (CD 10))
+    (VP (MD will)
+      (VP (VB be)
+        (VP (VBN donated)
+          (PP (TO to)
+            (NP (PRP$ our) (NNP Sandakan) (NNP School) (NNP Building) (NNP Fund)))
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (MD will)
+                (VP (VB be)
+                  (VP (VBN matched)
+                    (S
+                      (ADJP (JJ $)))))))))))))
+
+
+nsubjpass(donated-4, 10-1)
+aux(donated-4, will-2)
+auxpass(donated-4, be-3)
+root(ROOT-0, donated-4)
+prep(donated-4, to-5)
+poss(Fund-10, our-6)
+nn(Fund-10, Sandakan-7)
+nn(Fund-10, School-8)
+nn(Fund-10, Building-9)
+pobj(to-5, Fund-10)
+nsubjpass(matched-14, which-11)
+aux(matched-14, will-12)
+auxpass(matched-14, be-13)
+ccomp(donated-4, matched-14)
+acomp(matched-14, $-15)
+
+
+(ROOT
+  (PP (IN for)
+    (NP (NNP $))))
+
+
+root(ROOT-0, for-1)
+pobj(for-1, $-2)
+
+
+(ROOT
+  (FRAG
+    (PP (IN by)
+      (NP (NNP MHCAsia)))
+    (. .)))
+
+
+root(ROOT-0, by-1)
+pobj(by-1, MHCAsia-2)
+
+
+(ROOT
+  (S
+    (NP (TO To))
+    (VP (VBP register))
+    (: :)))
+
+
+nsubj(register-2, To-1)
+root(ROOT-0, register-2)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Write))
+      (PP (TO to)
+        (CC and)
+        (IN in)
+        (NP (DT the) (NN title))))
+    (VP (VBP write))
+    (: :)))
+
+
+nsubj(write-7, Write-1)
+prep(Write-1, to-2)
+cc(to-2, and-3)
+conj(to-2, in-4)
+det(title-6, the-5)
+pobj(to-2, title-6)
+root(ROOT-0, write-7)
+
+
+(ROOT
+  (INTJ (UH ,)))
+
+
+
+
+(ROOT
+  (FRAG
+    (PP (IN in)
+      (NP (DT the) (JJ email) (NN body)))
+    (NP (CD write))
+    (: :)))
+
+
+prep(write-5, in-1)
+det(body-4, the-2)
+amod(body-4, email-3)
+pobj(in-1, body-4)
+root(ROOT-0, write-5)
+
+
+(ROOT
+  (S
+    (VP (VBG Limit)
+      (PP (TO to)
+        (NP
+          (QP (CD 4) (CD pax))))
+      (NP (VB Note)))
+    (: :)))
+
+
+root(ROOT-0, Limit-1)
+prep(Limit-1, to-2)
+number(pax-4, 4-3)
+pobj(to-2, pax-4)
+dobj(Limit-1, Note-5)
+
+
+(ROOT
+  (S
+    (INTJ (VB Please))
+    (VP (VB keep)
+      (NP (NN everything))
+      (ADVP
+        (ADVP (RB as) (JJ short)
+          (PP (IN as)
+            (ADJP (JJ possible))))
+        (SBAR (IN so)
+          (S
+            (NP (PRP we))
+            (VP (VBP do) (RB n't)
+              (ADVP (RB even))
+              (VP (VB need)
+                (S
+                  (VP (TO to)
+                    (VP (VB open)
+                      (NP (DT the) (NN email)
+                        (S
+                          (VP (TO to)
+                            (VP (VB read)
+                              (NP (PRP it)))))))))))))))
+    (. .)))
+
+
+discourse(keep-2, Please-1)
+root(ROOT-0, keep-2)
+dobj(keep-2, everything-3)
+advmod(short-5, as-4)
+advmod(keep-2, short-5)
+prep(short-5, as-6)
+pobj(as-6, possible-7)
+mark(need-13, so-8)
+nsubj(need-13, we-9)
+aux(need-13, do-10)
+neg(need-13, n't-11)
+advmod(need-13, even-12)
+dep(short-5, need-13)
+aux(open-15, to-14)
+xcomp(need-13, open-15)
+det(email-17, the-16)
+dobj(open-15, email-17)
+aux(read-19, to-18)
+infmod(email-17, read-19)
+dobj(read-19, it-20)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB write)
+        (NP (PRP$ your) (NNS greetings))
+        (PP (IN after)
+          (NP (DT the) (JJ pertinent) (NNS details)))))
+    (. .)))
+
+
+nsubj(write-3, You-1)
+aux(write-3, can-2)
+root(ROOT-0, write-3)
+poss(greetings-5, your-4)
+dobj(write-3, greetings-5)
+prep(write-3, after-6)
+det(details-9, the-7)
+amod(details-9, pertinent-8)
+pobj(after-6, details-9)
+
+
+(ROOT
+  (INTJ (UH Thanks) (. !)))
+
+
+root(ROOT-0, Thanks-1)
+
+
+(ROOT
+  (S
+    (NP (DT This) (NN time))
+    (VP (VBP round)
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (VBP have)
+            (VP (VBN invited)
+              (S
+                (NP (NNP Dr) (NNP Tan) (NNP Cheng) (NNP Bock))
+                (VP (TO to)
+                  (VP (VB join)
+                    (NP (PRP us))
+                    (SBAR (IN since)
+                      (S
+                        (NP (PRP he))
+                        (VP (VBD told)
+                          (NP (PRP me))
+                          (SBAR
+                            (S
+                              (NP (PRP he))
+                              (VP (VBZ loves)
+                                (NP
+                                  (NP (NNS durians))
+                                  (SBAR
+                                    (WHADVP (WRB when))
+                                    (S
+                                      (NP (PRP we))
+                                      (VP (VBD met)
+                                        (PP (IN for)
+                                          (NP (NN lunch)))
+                                        (NP (JJ last) (NN week))))))))))))))))))))
+    (. .)))
+
+
+det(time-2, This-1)
+nsubj(round-3, time-2)
+root(ROOT-0, round-3)
+nsubj(invited-6, I-4)
+aux(invited-6, have-5)
+ccomp(round-3, invited-6)
+nn(Bock-10, Dr-7)
+nn(Bock-10, Tan-8)
+nn(Bock-10, Cheng-9)
+nsubj(join-12, Bock-10)
+aux(join-12, to-11)
+xcomp(invited-6, join-12)
+dobj(join-12, us-13)
+mark(told-16, since-14)
+nsubj(told-16, he-15)
+advcl(join-12, told-16)
+dobj(told-16, me-17)
+nsubj(loves-19, he-18)
+dep(told-16, loves-19)
+dobj(loves-19, durians-20)
+advmod(met-23, when-21)
+nsubj(met-23, we-22)
+rcmod(durians-20, met-23)
+prep(met-23, for-24)
+pobj(for-24, lunch-25)
+amod(week-27, last-26)
+tmod(met-23, week-27)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB read)
+        (PP (IN about)
+          (NP
+            (NP (NNP Dr) (NNP Tan) (NNP Cheng) (NNP Bock))
+            (PP (IN at)
+              (NP (PRP$ his) (NN website)))))))
+    (: :)))
+
+
+nsubj(read-3, You-1)
+aux(read-3, can-2)
+root(ROOT-0, read-3)
+prep(read-3, about-4)
+nn(Bock-8, Dr-5)
+nn(Bock-8, Tan-6)
+nn(Bock-8, Cheng-7)
+pobj(about-4, Bock-8)
+prep(Bock-8, at-9)
+poss(website-11, his-10)
+pobj(at-9, website-11)
+
+
+(ROOT
+  (NP
+    (NP (NN http://www.tanchengbock.org/)
+      (CC and)
+      (NN facebook) (NN page))
+    (: :)))
+
+
+nn(page-4, http://www.tanchengbock.org/-1)
+cc(http://www.tanchengbock.org/-1, and-2)
+conj(http://www.tanchengbock.org/-1, facebook-3)
+root(ROOT-0, page-4)
+
+
+(ROOT
+  (NP (NN http://www.facebook.com/tanchengbock)))
+
+
+root(ROOT-0, http://www.facebook.com/tanchengbock-1)
+
+

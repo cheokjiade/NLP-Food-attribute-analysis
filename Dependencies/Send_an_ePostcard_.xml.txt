@@ -1,0 +1,1037 @@
+(ROOT
+  (SBARQ
+    (WHADVP (WRB When))
+    (SQ (VBP do)
+      (NP (PRP you))
+      (ADVP (DT all))
+      (VP (VB send)
+        (NP (NNS postcards))))
+    (. ?)))
+
+
+advmod(send-5, When-1)
+aux(send-5, do-2)
+nsubj(send-5, you-3)
+advmod(send-5, all-4)
+root(ROOT-0, send-5)
+dobj(send-5, postcards-6)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB only))
+    (VP
+      (VP
+        (ADVP (RB ever))
+        (VB buy)
+        (NP (NNS postcards))
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (PRP I))
+            (VP (VBP am)
+              (ADVP (RB overseas))))))
+      (CC and)
+      (VP (VB send)
+        (NP (PRP them))
+        (ADVP (RB back)
+          (PP (TO to)
+            (NP (PRP$ my) (NNS friends)
+              (CC and)
+              (NNS relatives))))
+        (PP (IN in)
+          (NP (NNP Singapore)))))
+    (. .)))
+
+
+nsubj(buy-4, I-1)
+advmod(buy-4, only-2)
+advmod(buy-4, ever-3)
+root(ROOT-0, buy-4)
+dobj(buy-4, postcards-5)
+advmod(am-8, when-6)
+nsubj(am-8, I-7)
+advcl(buy-4, am-8)
+advmod(am-8, overseas-9)
+cc(buy-4, and-10)
+conj(buy-4, send-11)
+dobj(send-11, them-12)
+advmod(send-11, back-13)
+prep(back-13, to-14)
+poss(friends-16, my-15)
+pobj(to-14, friends-16)
+cc(friends-16, and-17)
+conj(friends-16, relatives-18)
+prep(send-11, in-19)
+pobj(in-19, Singapore-20)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (ADVP (RB never))
+      (VP (VBN thought)
+        (PP (IN of)
+          (S
+            (VP
+              (VP (VBG buying)
+                (NP (DT a) (NNP Singapore) (NN postcard)))
+              (CC and)
+              (VP (VBG sending)
+                (NP (PRP them))
+                (PP (TO to)
+                  (NP (PRP$ my) (JJ overseas) (NNS friends)))))))))
+    (. .)))
+
+
+nsubj(thought-4, I-1)
+aux(thought-4, have-2)
+neg(thought-4, never-3)
+root(ROOT-0, thought-4)
+prep(thought-4, of-5)
+pcomp(of-5, buying-6)
+det(postcard-9, a-7)
+nn(postcard-9, Singapore-8)
+dobj(buying-6, postcard-9)
+cc(buying-6, and-10)
+conj(buying-6, sending-11)
+dobj(sending-11, them-12)
+prep(sending-11, to-13)
+poss(friends-16, my-14)
+amod(friends-16, overseas-15)
+pobj(to-13, friends-16)
+
+
+(ROOT
+  (FRAG
+    (PP
+      (ADVP (RB So))
+      (IN for)
+      (NP (PRP me)))
+    (, ,)))
+
+
+advmod(for-2, So-1)
+root(ROOT-0, for-2)
+pobj(for-2, me-3)
+
+
+(ROOT
+  (S
+    (NP (NNS Postcards))
+    (VP (VBP are)
+      (NP
+        (NP (NN sort))
+        (PP (IN of)
+          (NP
+            (NP (DT a) (NN thing))
+            (SBAR
+              (S
+                (NP (PRP you))
+                (ADVP (RB only))
+                (ADVP (RB really))
+                (VP (VBP think)
+                  (PP (IN about)
+                    (SBAR
+                      (WHADVP (WRB when))
+                      (S
+                        (NP (PRP you))
+                        (VP (VBP are)
+                          (PP (IN on)
+                            (NP (NNS holidays))))))))))))))
+    (. .)))
+
+
+nsubj(sort-3, Postcards-1)
+cop(sort-3, are-2)
+root(ROOT-0, sort-3)
+prep(sort-3, of-4)
+det(thing-6, a-5)
+pobj(of-4, thing-6)
+nsubj(think-10, you-7)
+advmod(think-10, only-8)
+advmod(think-10, really-9)
+rcmod(thing-6, think-10)
+prep(think-10, about-11)
+advmod(are-14, when-12)
+nsubj(are-14, you-13)
+pcomp(about-11, are-14)
+prep(are-14, on-15)
+pobj(on-15, holidays-16)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Conversely))
+    (, ,)))
+
+
+root(ROOT-0, Conversely-1)
+
+
+(ROOT
+  (SBARQ
+    (WHNP
+      (WHADJP (WRB how) (JJ many))
+      (PP (IN of)
+        (NP (PRP us))))
+    (SQ
+      (VP
+        (ADVP (RB ever))
+        (VBP receive)
+        (NP
+          (NP (NNS postcards))
+          (PP (IN from)
+            (NP (JJ overseas) (NNS friends)))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (VBP have)
+                (NP
+                  (NP (NNS pictures))
+                  (PP (IN of)
+                    (NP
+                      (NP (DT the) (NN country))
+                      (SBAR
+                        (S
+                          (NP (PRP they))
+                          (VP (VBP live)
+                            (PRT (RP in))))))))))))))
+    (. ?)))
+
+
+advmod(many-2, how-1)
+nsubj(receive-6, many-2)
+prep(many-2, of-3)
+pobj(of-3, us-4)
+advmod(receive-6, ever-5)
+root(ROOT-0, receive-6)
+dobj(receive-6, postcards-7)
+prep(postcards-7, from-8)
+amod(friends-10, overseas-9)
+pobj(from-8, friends-10)
+nsubj(have-12, that-11)
+rcmod(postcards-7, have-12)
+dobj(have-12, pictures-13)
+prep(pictures-13, of-14)
+det(country-16, the-15)
+pobj(of-14, country-16)
+nsubj(live-18, they-17)
+rcmod(country-16, live-18)
+prt(live-18, in-19)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Yeah))
+    (, ,)))
+
+
+root(ROOT-0, Yeah-1)
+
+
+(ROOT
+  (S
+    (NP (PRP me))
+    (VP (VBZ neither))
+    (. .)))
+
+
+nsubj(neither-2, me-1)
+root(ROOT-0, neither-2)
+
+
+(ROOT
+  (S (IN So)
+    (NP (PRP I))
+    (VP (VBD thought)
+      (SBAR
+        (S
+          (NP (PRP it))
+          (VP (VBD was)
+            (ADJP (JJ brilliant))
+            (PP (IN for)
+              (NP
+                (NP (DT the) (NNP Singapore) (NNP Tourism) (NNP Board))
+                (PRN (-LRB- -LRB-)
+                  (NP (NNP STB))
+                  (-RRB- -RRB-))))
+            (S
+              (VP (TO to)
+                (VP (VB come)
+                  (PRT (RP up))
+                  (PP (IN with)
+                    (NP
+                      (NP (DT the) (NN idea))
+                      (PP (IN of)
+                        (NP (NNP Singapore) (NNS ePostcards))))))))
+            (SBAR (IN that)
+              (S
+                (NP (PRP you))
+                (VP (MD can)
+                  (VP (VB send)
+                    (PP (TO to)
+                      (NP (PRP$ your) (JJ overseas) (NNS friends)))))))))))
+    (. .)))
+
+
+dep(thought-3, So-1)
+nsubj(thought-3, I-2)
+root(ROOT-0, thought-3)
+nsubj(brilliant-6, it-4)
+cop(brilliant-6, was-5)
+ccomp(thought-3, brilliant-6)
+prep(brilliant-6, for-7)
+det(Board-11, the-8)
+nn(Board-11, Singapore-9)
+nn(Board-11, Tourism-10)
+pobj(for-7, Board-11)
+appos(Board-11, STB-13)
+aux(come-16, to-15)
+xcomp(brilliant-6, come-16)
+prt(come-16, up-17)
+prep(come-16, with-18)
+det(idea-20, the-19)
+pobj(with-18, idea-20)
+prep(idea-20, of-21)
+nn(ePostcards-23, Singapore-22)
+pobj(of-21, ePostcards-23)
+mark(send-27, that-24)
+nsubj(send-27, you-25)
+aux(send-27, can-26)
+ccomp(brilliant-6, send-27)
+prep(send-27, to-28)
+poss(friends-31, your-29)
+amod(friends-31, overseas-30)
+pobj(to-28, friends-31)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (VBP think)
+        (PP (IN about)
+          (NP (PRP it))))
+      (, ,))))
+
+
+mark(think-3, If-1)
+nsubj(think-3, you-2)
+root(ROOT-0, think-3)
+prep(think-3, about-4)
+pobj(about-4, it-5)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (VBZ does)
+      (VP (VB make)
+        (NP
+          (NP (DT a) (NN lot))
+          (PP (IN of)
+            (NP (NN sense))))))
+    (, ,)))
+
+
+nsubj(make-3, it-1)
+aux(make-3, does-2)
+root(ROOT-0, make-3)
+det(lot-5, a-4)
+dobj(make-3, lot-5)
+prep(lot-5, of-6)
+pobj(of-6, sense-7)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB especially))
+    (NP
+      (NP (NNS friends))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBP have)
+            (ADVP (RB never))
+            (VP (VBN been)
+              (PP (TO to)
+                (NP (NNP Singapore))))))))
+    (. .)))
+
+
+dep(friends-2, especially-1)
+root(ROOT-0, friends-2)
+nsubj(been-6, who-3)
+aux(been-6, have-4)
+neg(been-6, never-5)
+rcmod(friends-2, been-6)
+prep(been-6, to-7)
+pobj(to-7, Singapore-8)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ 's)
+      (NP
+        (NP (DT a) (NN way))
+        (PP (IN of)
+          (S
+            (VP (VBG keeping)
+              (PP
+                (PP (IN in)
+                  (NP (NN touch)))
+                (CC and)
+                (PP (IN at)
+                  (NP
+                    (NP (DT the) (JJ same) (NN time))
+                    (VP (VBG providing)
+                      (NP (PRP them))
+                      (NP (DT some) (NN impetus)
+                        (S
+                          (VP (TO to)
+                            (VP (VB come)
+                              (VP (VB visit)
+                                (NP (PRP you))))))))))))))))
+    (. .)))
+
+
+nsubj(way-4, It-1)
+cop(way-4, 's-2)
+det(way-4, a-3)
+root(ROOT-0, way-4)
+prep(way-4, of-5)
+pcomp(of-5, keeping-6)
+prep(keeping-6, in-7)
+pobj(in-7, touch-8)
+cc(in-7, and-9)
+conj(in-7, at-10)
+det(time-13, the-11)
+amod(time-13, same-12)
+pobj(at-10, time-13)
+partmod(time-13, providing-14)
+iobj(providing-14, them-15)
+det(impetus-17, some-16)
+dobj(providing-14, impetus-17)
+aux(come-19, to-18)
+infmod(impetus-17, come-19)
+xcomp(come-19, visit-20)
+dobj(visit-20, you-21)
+
+
+(ROOT
+  (S
+    (ADVP (RB Perhaps))
+    (NP (PRP you))
+    (ADVP (RB already))
+    (VP (VBP know)
+      (PP (IN about)
+        (NP (NNP Project) (NNP Postcard))))
+    (, ,)))
+
+
+advmod(know-4, Perhaps-1)
+nsubj(know-4, you-2)
+advmod(know-4, already-3)
+root(ROOT-0, know-4)
+prep(know-4, about-5)
+nn(Postcard-7, Project-6)
+pobj(about-5, Postcard-7)
+
+
+(ROOT
+  (S
+    (SBAR
+      (WHNP (WDT which))
+      (S
+        (NP (PRP I))
+        (VP (VBP guess))))
+    (VP (VBZ is)
+      (NP
+        (NP
+          (NP (DT the) (NNP STB) (POS 's))
+          (NN way))
+        (PP (IN of)
+          (S
+            (VP (VBG getting)
+              (SBAR
+                (S
+                  (NP (PRP us))
+                  (VP (VBZ Singaporeans)
+                    (S
+                      (VP (TO to)
+                        (VP (VB become)
+                          (NP (`` ``) (NNPS Salespersons) ('' ''))
+                          (PP (IN for)
+                            (NP (NNP Singapore))))))))))))))
+    (. .)))
+
+
+dobj(guess-3, which-1)
+nsubj(guess-3, I-2)
+csubj(way-8, guess-3)
+cop(way-8, is-4)
+det(STB-6, the-5)
+poss(way-8, STB-6)
+possessive(STB-6, 's-7)
+root(ROOT-0, way-8)
+prep(way-8, of-9)
+pcomp(of-9, getting-10)
+nsubj(Singaporeans-12, us-11)
+ccomp(getting-10, Singaporeans-12)
+aux(Salespersons-16, to-13)
+cop(Salespersons-16, become-14)
+xcomp(Singaporeans-12, Salespersons-16)
+prep(Salespersons-16, for-18)
+pobj(for-18, Singapore-19)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NN idea))
+    (VP (VBZ is)
+      (ADJP (RB quite) (JJ simple)))
+    (, ,)))
+
+
+det(idea-2, The-1)
+nsubj(simple-5, idea-2)
+cop(simple-5, is-3)
+advmod(simple-5, quite-4)
+root(ROOT-0, simple-5)
+
+
+(ROOT
+  (S
+    (NP (NN go))
+    (VP (VBZ online))
+    (, ,)))
+
+
+nsubj(online-2, go-1)
+root(ROOT-0, online-2)
+
+
+(ROOT
+  (S
+    (VP (VB personalize)
+      (S
+        (NP (PRP$ your))
+        (VP (VB own)
+          (NP (NNP Avatar)))
+        (, ,)))))
+
+
+root(ROOT-0, personalize-1)
+nsubj(own-3, your-2)
+ccomp(personalize-1, own-3)
+dobj(own-3, Avatar-4)
+
+
+(ROOT
+  (S
+    (VP
+      (VP (VB pick)
+        (NP (DT a) (JJ familiar) (NNP Singapore) (NN backdrop)))
+      (CC and)
+      (VP (VB send)
+        (NP (DT the) (NN ecard))
+        (PRT (RP off))
+        (PP (TO to)
+          (NP (PRP$ your) (JJ overseas) (NNS friends)))))
+    (. .)))
+
+
+root(ROOT-0, pick-1)
+det(backdrop-5, a-2)
+amod(backdrop-5, familiar-3)
+nn(backdrop-5, Singapore-4)
+dobj(pick-1, backdrop-5)
+cc(pick-1, and-6)
+conj(pick-1, send-7)
+det(ecard-9, the-8)
+dobj(send-7, ecard-9)
+prt(send-7, off-10)
+prep(send-7, to-11)
+poss(friends-14, your-12)
+amod(friends-14, overseas-13)
+pobj(to-11, friends-14)
+
+
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN website))
+      (VP (VBZ is)
+        (ADVP (RB quite) (RB well))
+        (VP (VBN designed))))
+    (CC and)
+    (S
+      (NP (PRP I))
+      (VP (VBD found)
+        (SBAR
+          (S
+            (NP (DT the) (NN user))
+            (VP (VBP interface)
+              (ADJP (RB quite) (JJ intuitive)))))))
+    (. .)))
+
+
+det(website-2, The-1)
+nsubjpass(designed-6, website-2)
+auxpass(designed-6, is-3)
+advmod(well-5, quite-4)
+advmod(designed-6, well-5)
+root(ROOT-0, designed-6)
+cc(designed-6, and-7)
+nsubj(found-9, I-8)
+conj(designed-6, found-9)
+det(user-11, the-10)
+nsubj(interface-12, user-11)
+ccomp(found-9, interface-12)
+advmod(intuitive-14, quite-13)
+acomp(interface-12, intuitive-14)
+
+
+(ROOT
+  (FRAG (RB So)
+    (PP (IN within)
+      (NP
+        (NP (CD 5) (NNS minutes))
+        (SBAR
+          (S
+            (NP (PRP I))
+            (VP (VBD managed)
+              (S
+                (VP (TO to)
+                  (VP (VB design)
+                    (NP (PRP$ my) (JJ first) (NN ePostcard)))))))))
+      (: :))))
+
+
+root(ROOT-0, So-1)
+prep(So-1, within-2)
+num(minutes-4, 5-3)
+pobj(within-2, minutes-4)
+nsubj(managed-6, I-5)
+rcmod(minutes-4, managed-6)
+aux(design-8, to-7)
+xcomp(managed-6, design-8)
+poss(ePostcard-11, my-9)
+amod(ePostcard-11, first-10)
+dobj(design-8, ePostcard-11)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ 's)
+      (ADJP (RB too) (JJ bad)
+        (SBAR
+          (S
+            (NP (PRP they))
+            (VP (VBP do) (RB n't)
+              (VP (VB provide)
+                (NP (DT a) (NN backdrop))
+                (PP (IN with)
+                  (NP
+                    (NP (NNP Hokkien) (NNP Mee))
+                    (CC or)
+                    (NP
+                      (NP (DT any))
+                      (PP (IN of)
+                        (NP (PRP$ our) (NNP Singaporean) (NNP Hawker) (NN food))))))))))))
+    (. .)))
+
+
+nsubj(bad-4, It-1)
+cop(bad-4, 's-2)
+advmod(bad-4, too-3)
+root(ROOT-0, bad-4)
+nsubj(provide-8, they-5)
+aux(provide-8, do-6)
+neg(provide-8, n't-7)
+ccomp(bad-4, provide-8)
+det(backdrop-10, a-9)
+dobj(provide-8, backdrop-10)
+prep(provide-8, with-11)
+nn(Mee-13, Hokkien-12)
+pobj(with-11, Mee-13)
+cc(Mee-13, or-14)
+conj(Mee-13, any-15)
+prep(any-15, of-16)
+poss(food-20, our-17)
+nn(food-20, Singaporean-18)
+nn(food-20, Hawker-19)
+pobj(of-16, food-20)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP
+            (NP (DT a) (NN picture))
+            (PP (IN of)
+              (NP (DT some) (NNS luscious) (NNP Hokkien) (NNP Mee)
+                (CC or)
+                (NNP voluptuous) (NNP Chicken) (NNP Rice))))
+          (VP (MD would)
+            (ADVP (RB certainly))
+            (VP (VB be)
+              (NP
+                (NP (DT a) (JJ real) (NN draw))
+                (PP (IN for)
+                  (NP (DT some) (NNS people)))))))))
+    (. !)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+det(picture-4, a-3)
+nsubj(draw-19, picture-4)
+prep(picture-4, of-5)
+det(Mee-9, some-6)
+nn(Mee-9, luscious-7)
+nn(Mee-9, Hokkien-8)
+pobj(of-5, Mee-9)
+cc(Mee-9, or-10)
+nn(Rice-13, voluptuous-11)
+nn(Rice-13, Chicken-12)
+conj(Mee-9, Rice-13)
+aux(draw-19, would-14)
+advmod(draw-19, certainly-15)
+cop(draw-19, be-16)
+det(draw-19, a-17)
+amod(draw-19, real-18)
+ccomp(think-2, draw-19)
+prep(draw-19, for-20)
+det(people-22, some-21)
+pobj(for-20, people-22)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Anyway))
+    (, ,)))
+
+
+root(ROOT-0, Anyway-1)
+
+
+(ROOT
+  (FRAG
+    (S
+      (VP (TO to)
+        (VP (VB make)
+          (S
+            (NP (PRP it))
+            (ADJP (RB even) (RBR more))
+            (S
+              (VP (VBG enticing)
+                (PP (IN for)
+                  (NP (PRP$ our) (NNS friends)
+                    (S
+                      (VP (TO to)
+                        (VP (VB come)
+                          (PP (TO to)
+                            (NP
+                              (NP (NNP Singapore))
+                              (, ,))))))))))))))))
+
+
+aux(make-2, to-1)
+root(ROOT-0, make-2)
+nsubj(enticing-6, it-3)
+advmod(more-5, even-4)
+dep(enticing-6, more-5)
+xcomp(make-2, enticing-6)
+prep(enticing-6, for-7)
+poss(friends-9, our-8)
+pobj(for-7, friends-9)
+aux(come-11, to-10)
+infmod(friends-9, come-11)
+prep(come-11, to-12)
+pobj(to-12, Singapore-13)
+
+
+(ROOT
+  (S
+    (NP (DT each))
+    (VP (VBD ePostcard)
+      (SBAR
+        (S
+          (NP (PRP you))
+          (VP (VBP send)
+            (SBAR
+              (S
+                (VP (VBZ gives)
+                  (NP (PRP them))
+                  (NP (DT the) (NN chance)
+                    (S
+                      (VP (TO to)
+                        (VP (VB win)
+                          (NP (NN return) (NN Air) (NNS tickets)))))))))))))
+    (, ,)))
+
+
+nsubj(ePostcard-2, each-1)
+root(ROOT-0, ePostcard-2)
+nsubj(send-4, you-3)
+ccomp(ePostcard-2, send-4)
+ccomp(send-4, gives-5)
+iobj(gives-5, them-6)
+det(chance-8, the-7)
+dobj(gives-5, chance-8)
+aux(win-10, to-9)
+infmod(chance-8, win-10)
+nn(tickets-13, return-11)
+nn(tickets-13, Air-12)
+dobj(win-10, tickets-13)
+
+
+(ROOT
+  (NP
+    (NP (NN hotel) (NN stay)
+      (CC and)
+      (NNS lots))
+    (PP (IN of)
+      (NP (JJ other) (NNS freebies)))
+    (. !)))
+
+
+nn(stay-2, hotel-1)
+root(ROOT-0, stay-2)
+cc(stay-2, and-3)
+conj(stay-2, lots-4)
+prep(stay-2, of-5)
+amod(freebies-7, other-6)
+pobj(of-5, freebies-7)
+
+
+(ROOT
+  (S (CC And)
+    (SBAR (RB just) (IN in) (NN case)
+      (S
+        (NP (PRP you))
+        (VP (VBP are)
+          (VP (VBG wondering)
+            (SBAR
+              (WHADVP (WRB why))
+              (S
+                (NP (PRP you))
+                (VP (MD should)
+                  (VP (VB do)
+                    (NP (DT all))))))))))
+    (NP (DT the) (NN work)
+      (CC and)
+      (NN someone))
+    (ADVP (RB else))
+    (VP (VBZ gets)
+      (NP
+        (NP (PDT all) (DT the) (NNS goodies))
+        (PRN (-LRB- -LRB-)
+          (S
+            (VP (VB yeah)
+              (SBAR
+                (S
+                  (NP (PRP I))
+                  (VP (VBD thought)
+                    (PP (IN of)
+                      (NP (DT that)))
+                    (ADVP (RB too)))))))
+          (-RRB- -RRB-))))
+    (, ,)))
+
+
+cc(gets-18, And-1)
+advmod(wondering-7, just-2)
+mark(wondering-7, in-3)
+dep(wondering-7, case-4)
+nsubj(wondering-7, you-5)
+aux(wondering-7, are-6)
+advcl(gets-18, wondering-7)
+advmod(do-11, why-8)
+nsubj(do-11, you-9)
+aux(do-11, should-10)
+advcl(wondering-7, do-11)
+dobj(do-11, all-12)
+det(work-14, the-13)
+nsubj(gets-18, work-14)
+cc(work-14, and-15)
+conj(work-14, someone-16)
+advmod(gets-18, else-17)
+root(ROOT-0, gets-18)
+predet(goodies-21, all-19)
+det(goodies-21, the-20)
+dobj(gets-18, goodies-21)
+dep(goodies-21, yeah-23)
+nsubj(thought-25, I-24)
+ccomp(yeah-23, thought-25)
+prep(thought-25, of-26)
+pobj(of-26, that-27)
+advmod(thought-25, too-28)
+
+
+(ROOT
+  (S
+    (VP (VB do)
+      (NP (RB n't))
+      (NP (NN worry))
+      (, ,))))
+
+
+root(ROOT-0, do-1)
+iobj(do-1, n't-2)
+dobj(do-1, worry-3)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (ADVP (RB also))
+    (VP (VBP stand)
+      (S
+        (NP (DT the) (NN chance))
+        (VP (TO to)
+          (VP (VB win)
+            (NP
+              (NP (JJ free) (NN hotel) (NN stay))
+              (CC and)
+              (NP (NNS freebies)))
+            (PP (IN like)
+              (NP (NN spa) (NNS treatments)
+                (CC and)
+                (NN shopping) (NNS vouchers)))))))
+    (. .)))
+
+
+nsubj(stand-3, you-1)
+advmod(stand-3, also-2)
+root(ROOT-0, stand-3)
+det(chance-5, the-4)
+nsubj(win-7, chance-5)
+aux(win-7, to-6)
+xcomp(stand-3, win-7)
+amod(stay-10, free-8)
+nn(stay-10, hotel-9)
+dobj(win-7, stay-10)
+cc(stay-10, and-11)
+conj(stay-10, freebies-12)
+prep(win-7, like-13)
+nn(treatments-15, spa-14)
+pobj(like-13, treatments-15)
+cc(treatments-15, and-16)
+nn(vouchers-18, shopping-17)
+conj(treatments-15, vouchers-18)
+
+
+(ROOT
+  (S (RB So)
+    (VP (VB send)
+      (NP (DT an) (JJ ePostcard) (NN today)))
+    (. !)))
+
+
+advmod(send-2, So-1)
+root(ROOT-0, send-2)
+det(today-5, an-3)
+amod(today-5, ePostcard-4)
+tmod(send-2, today-5)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ 's)
+      (NP (DT a) (JJ great) (NN way)
+        (S
+          (VP (TO to)
+            (VP (VB catch)
+              (PRT (RP up))
+              (PP (IN with)
+                (NP (PRP$ your) (NNS friends))))))))
+    (, ,)))
+
+
+nsubj(way-5, It-1)
+cop(way-5, 's-2)
+det(way-5, a-3)
+amod(way-5, great-4)
+root(ROOT-0, way-5)
+aux(catch-7, to-6)
+infmod(way-5, catch-7)
+prt(catch-7, up-8)
+prep(catch-7, with-9)
+poss(friends-11, your-10)
+pobj(with-9, friends-11)
+
+
+(ROOT
+  (X
+    (S
+      (VP (VB win)
+        (NP (DT some) (NNS prizes))))
+    (CC and)
+    (PP (IN at)
+      (NP (DT the) (JJ same) (NN time)
+        (S
+          (VP (TO to)
+            (VP (VB do)
+              (NP (PRP$ your) (NN part)
+                (S
+                  (VP (TO to)
+                    (VP (VB sell)
+                      (NP (NNP Singapore))
+                      (PP (TO to)
+                        (NP (DT the) (NN world)))))))))))
+      (. !))))
+
+
+root(ROOT-0, win-1)
+det(prizes-3, some-2)
+dobj(win-1, prizes-3)
+cc(win-1, and-4)
+dep(win-1, at-5)
+det(time-8, the-6)
+amod(time-8, same-7)
+pobj(at-5, time-8)
+aux(do-10, to-9)
+infmod(time-8, do-10)
+poss(part-12, your-11)
+dobj(do-10, part-12)
+aux(sell-14, to-13)
+infmod(part-12, sell-14)
+dobj(sell-14, Singapore-15)
+prep(sell-14, to-16)
+det(world-18, the-17)
+pobj(to-16, world-18)
+
+
+(ROOT
+  (S
+    (VP (VB Click)
+      (ADVP (RB HERE))
+      (S
+        (VP (TO to)
+          (VP (VB start)
+            (S
+              (VP (VBG sending)
+                (NP (PRP$ your) (NNS ePostcards))))))))
+    (. .)))
+
+
+root(ROOT-0, Click-1)
+advmod(Click-1, HERE-2)
+aux(start-4, to-3)
+xcomp(Click-1, start-4)
+xcomp(start-4, sending-5)
+poss(ePostcards-7, your-6)
+dobj(sending-5, ePostcards-7)
+
+

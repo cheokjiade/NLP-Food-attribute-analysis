@@ -1,0 +1,398 @@
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (VBP are)
+        (VP (VBG heading)
+          (PP (TO to)
+            (NP
+              (NP (NNP Telok) (NNP Blangah) (NNP Crescent))
+              (PP (IN for)
+                (NP (NNP Hai) (NNP Kee) (NNP Char) (NNP Kway) (NNP Teow)))
+              (, ,))))))))
+
+
+mark(heading-4, If-1)
+nsubj(heading-4, you-2)
+aux(heading-4, are-3)
+root(ROOT-0, heading-4)
+prep(heading-4, to-5)
+nn(Crescent-8, Telok-6)
+nn(Crescent-8, Blangah-7)
+pobj(to-5, Crescent-8)
+prep(Crescent-8, for-9)
+nn(Teow-14, Hai-10)
+nn(Teow-14, Kee-11)
+nn(Teow-14, Char-12)
+nn(Teow-14, Kway-13)
+pobj(for-9, Teow-14)
+
+
+(ROOT
+  (S
+    (VP (VB do)
+      (VP (VB check)
+        (PRT (RP out))
+        (NP (DT the) (NNP BONELESS) (NN chicken) (NNS wings))
+        (PP (IN from)
+          (NP
+            (NP (NNP Fei) (NNP Lou) (NNP Porridge))
+            (PP (IN along)
+              (NP (DT the) (JJ next) (NN aisle)))))))
+    (. .)))
+
+
+aux(check-2, do-1)
+root(ROOT-0, check-2)
+prt(check-2, out-3)
+det(wings-7, the-4)
+nn(wings-7, BONELESS-5)
+nn(wings-7, chicken-6)
+dobj(check-2, wings-7)
+prep(check-2, from-8)
+nn(Porridge-11, Fei-9)
+nn(Porridge-11, Lou-10)
+pobj(from-8, Porridge-11)
+prep(Porridge-11, along-12)
+det(aisle-15, the-13)
+amod(aisle-15, next-14)
+pobj(along-12, aisle-15)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Yes))
+    (, ,)))
+
+
+root(ROOT-0, Yes-1)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (VBD heard)
+      (S
+        (NP (PRP me))
+        (ADJP (RB right))))
+    (, ,)))
+
+
+nsubj(heard-2, you-1)
+root(ROOT-0, heard-2)
+nsubj(right-4, me-3)
+xcomp(heard-2, right-4)
+
+
+(ROOT
+  (S
+    (NP (DT these))
+    (VP (VBP are)
+      (NP
+        (NP
+          (NP (NN chicken) (NNS wings))
+          (SBAR
+            (WHADVP (WRB where))
+            (S
+              (NP (DT the) (NNS bones))
+              (VP (VBP have)
+                (VP (VBN been)
+                  (VP (VBN removed)))))))
+        (CC and)
+        (ADVP (IN at) (JJS $))))))
+
+
+nsubj(wings-4, these-1)
+cop(wings-4, are-2)
+nn(wings-4, chicken-3)
+root(ROOT-0, wings-4)
+advmod(removed-10, where-5)
+det(bones-7, the-6)
+nsubjpass(removed-10, bones-7)
+aux(removed-10, have-8)
+auxpass(removed-10, been-9)
+rcmod(wings-4, removed-10)
+cc(wings-4, and-11)
+advmod(wings-4, at-12)
+pobj(at-12, $-13)
+
+
+(ROOT
+  (FRAG
+    (PP (IN 1.20))
+    (, ,)))
+
+
+root(ROOT-0, 1.20-1)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (VBZ is)
+      (ADVP (RB quite))
+      (NP (DT an) (JJ affordable) (NN luxury)
+        (S
+          (VP (TO to)
+            (VP (VB eat)
+              (NP (NN chicken) (NNS wings))
+              (PP (IN without)
+                (S
+                  (VP (VBG having)
+                    (S
+                      (VP (TO to)
+                        (VP (VB gnaw)
+                          (NP (DT the) (NN meat))
+                          (PP (IN off)
+                            (NP (DT the) (NNS bones))))))))))))))
+    (. .)))
+
+
+nsubj(luxury-6, it-1)
+cop(luxury-6, is-2)
+advmod(luxury-6, quite-3)
+det(luxury-6, an-4)
+amod(luxury-6, affordable-5)
+root(ROOT-0, luxury-6)
+aux(eat-8, to-7)
+infmod(luxury-6, eat-8)
+nn(wings-10, chicken-9)
+dobj(eat-8, wings-10)
+prep(eat-8, without-11)
+pcomp(without-11, having-12)
+aux(gnaw-14, to-13)
+xcomp(having-12, gnaw-14)
+det(meat-16, the-15)
+dobj(gnaw-14, meat-16)
+prep(gnaw-14, off-17)
+det(bones-19, the-18)
+pobj(off-17, bones-19)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (ADJP (RB very) (JJ tasty)))
+    (, ,)))
+
+
+nsubj(tasty-4, It-1)
+cop(tasty-4, is-2)
+advmod(tasty-4, very-3)
+root(ROOT-0, tasty-4)
+
+
+(ROOT
+  (S (CC but)
+    (NP (PRP I))
+    (VP (VBP do)
+      (VP (VB find)
+        (NP (PRP it))
+        (PP
+          (NP (DT a) (RB bit))
+          (IN on)
+          (NP (DT the) (JJ oily) (NN side)))
+        (PP (IN because)
+          (SBAR
+            (WHADVP (WRB when))
+            (S
+              (NP (DT the) (NNS bones))
+              (VP (VBP are)
+                (VP (VBN removed))))))
+        (, ,)))))
+
+
+cc(find-4, but-1)
+nsubj(find-4, I-2)
+aux(find-4, do-3)
+root(ROOT-0, find-4)
+dobj(find-4, it-5)
+det(bit-7, a-6)
+npadvmod(on-8, bit-7)
+prep(find-4, on-8)
+det(side-11, the-9)
+amod(side-11, oily-10)
+pobj(on-8, side-11)
+prep(find-4, because-12)
+advmod(removed-17, when-13)
+det(bones-15, the-14)
+nsubjpass(removed-17, bones-15)
+auxpass(removed-17, are-16)
+pcomp(because-12, removed-17)
+
+
+(ROOT
+  (S
+    (NP (NN oil))
+    (VP (VBZ tends)
+      (S
+        (VP (TO to)
+          (VP (VB seep)
+            (PP (IN into)
+              (NP (DT the) (NN space)))
+            (SBAR
+              (WHADVP (WRB where))
+              (S
+                (NP (DT the) (NNS bones))
+                (VP (VBD were))))))))
+    (. .)))
+
+
+nsubj(tends-2, oil-1)
+root(ROOT-0, tends-2)
+aux(seep-4, to-3)
+xcomp(tends-2, seep-4)
+prep(seep-4, into-5)
+det(space-7, the-6)
+pobj(into-5, space-7)
+advmod(were-11, where-8)
+det(bones-10, the-9)
+nsubj(were-11, bones-10)
+advcl(seep-4, were-11)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Otherwise))
+    (, ,)))
+
+
+root(ROOT-0, Otherwise-1)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (VBD was)
+      (PP (IN like)
+        (S
+          (VP (VBG eating)
+            (NP
+              (NP (NNP Chicken) (NNPS Nuggets))
+              (PP (IN except)
+                (SBAR (IN that)
+                  (S
+                    (NP (PRP you))
+                    (VP (VBP know)
+                      (SBAR
+                        (S
+                          (NP (DT this))
+                          (VP (VBZ is)
+                            (ADVP (IN at) (JJS least))
+                            (NP
+                              (NP (JJ real) (NN chicken) (NN meat))
+                              (PP (RB instead) (IN of)
+                                (NP (NN chemical) (NNS fillers))))))))))))))))
+    (. !)))
+
+
+nsubj(was-2, it-1)
+root(ROOT-0, was-2)
+prep(was-2, like-3)
+pcomp(like-3, eating-4)
+nn(Nuggets-6, Chicken-5)
+dobj(eating-4, Nuggets-6)
+prep(Nuggets-6, except-7)
+mark(know-10, that-8)
+nsubj(know-10, you-9)
+pcomp(except-7, know-10)
+nsubj(meat-17, this-11)
+cop(meat-17, is-12)
+advmod(meat-17, at-13)
+pobj(at-13, least-14)
+amod(meat-17, real-15)
+nn(meat-17, chicken-16)
+ccomp(know-10, meat-17)
+advmod(of-19, instead-18)
+prep(meat-17, of-19)
+nn(fillers-21, chemical-20)
+pobj(of-19, fillers-21)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Conclusion) (NNP Definitely))
+      (ADJP (JJ worth) (DT a)))
+    (VP (VBP try)
+      (SBAR (IN if)
+        (S
+          (NP (PRP you))
+          (VP (VBP are)
+            (PP (IN at)
+              (NP (NNP Telok) (NNP Blangah) (NNP Crescent) (NNP Food) (NNP Centre)))
+            (SBAR (IN since)
+              (S
+                (NP (PRP you))
+                (ADVP (RB really))
+                (VP (MD ca) (RB n't)
+                  (VP (VB find)
+                    (NP (JJ fried) (JJ boneless) (NN chicken) (NNS wings))
+                    (ADVP (RB anywhere) (RB else))
+                    (PP (IN at)
+                      (NP (DT this) (NN price)))))))))))
+    (. !)))
+
+
+nn(Definitely-2, Conclusion-1)
+nsubj(try-5, Definitely-2)
+amod(Definitely-2, worth-3)
+dep(worth-3, a-4)
+root(ROOT-0, try-5)
+mark(are-8, if-6)
+nsubj(are-8, you-7)
+advcl(try-5, are-8)
+prep(are-8, at-9)
+nn(Centre-14, Telok-10)
+nn(Centre-14, Blangah-11)
+nn(Centre-14, Crescent-12)
+nn(Centre-14, Food-13)
+pobj(at-9, Centre-14)
+mark(find-20, since-15)
+nsubj(find-20, you-16)
+advmod(find-20, really-17)
+aux(find-20, ca-18)
+neg(find-20, n't-19)
+advcl(are-8, find-20)
+amod(wings-24, fried-21)
+amod(wings-24, boneless-22)
+nn(wings-24, chicken-23)
+dobj(find-20, wings-24)
+advmod(else-26, anywhere-25)
+advmod(find-20, else-26)
+prep(find-20, at-27)
+det(price-29, this-28)
+pobj(at-27, price-29)
+
+
+(ROOT
+  (NP
+    (NP (NNP Fei) (NNP Lou) (NNP Porridge) (NNP Telok) (NNP Blangah) (NNP Crescent) (NNP Food) (NNP Centre) (NNP Stall))
+    (NP
+      (NP
+        (QP (CD 116) (CD 5.30))
+        (NN pm))
+      (PP (TO to)
+        (NP (JJ 12mn) (NNP View) (NNP Larger) (NNP Map))))))
+
+
+nn(Stall-9, Fei-1)
+nn(Stall-9, Lou-2)
+nn(Stall-9, Porridge-3)
+nn(Stall-9, Telok-4)
+nn(Stall-9, Blangah-5)
+nn(Stall-9, Crescent-6)
+nn(Stall-9, Food-7)
+nn(Stall-9, Centre-8)
+root(ROOT-0, Stall-9)
+number(5.30-11, 116-10)
+num(pm-12, 5.30-11)
+dep(Stall-9, pm-12)
+prep(pm-12, to-13)
+amod(Map-17, 12mn-14)
+nn(Map-17, View-15)
+nn(Map-17, Larger-16)
+pobj(to-13, Map-17)
+
+

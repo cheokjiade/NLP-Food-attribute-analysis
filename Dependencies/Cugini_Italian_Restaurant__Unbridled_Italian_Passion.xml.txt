@@ -1,0 +1,286 @@
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBZ is)
+      (ADVP (RB only))
+      (VP
+        (ADVP (RB really))
+        (NP (CD one) (NN ingredient))
+        (SBAR (IN that)
+          (S
+            (NP (PRP you))
+            (VP (VBP need)
+              (PP (IN for)
+                (NP
+                  (ADJP (RB really) (JJ great))
+                  (NN food))))))))
+    (, ,)))
+
+
+expl(is-2, There-1)
+root(ROOT-0, is-2)
+advmod(is-2, only-3)
+advmod(ingredient-6, really-4)
+num(ingredient-6, one-5)
+dep(is-2, ingredient-6)
+mark(need-9, that-7)
+nsubj(need-9, you-8)
+ccomp(ingredient-6, need-9)
+prep(need-9, for-10)
+advmod(great-12, really-11)
+amod(food-13, great-12)
+pobj(for-10, food-13)
+
+
+(ROOT
+  (S (CC and)
+    (NP (DT that))
+    (VP (VBZ is)
+      (NP (NN passion)))
+    (. .)))
+
+
+cc(passion-4, and-1)
+nsubj(passion-4, that-2)
+cop(passion-4, is-3)
+root(ROOT-0, passion-4)
+
+
+(ROOT
+  (S (CC But)
+    (ADVP (RB not) (RB just))
+    (VP (VBZ passion))
+    (, ,)))
+
+
+cc(passion-4, But-1)
+dep(just-3, not-2)
+advmod(passion-4, just-3)
+root(ROOT-0, passion-4)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (ADVP (RB really))
+    (VP (VBP need)
+      (NP
+        (NP (JJ unbridled) (NN passion))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBZ defies)
+              (ADVP (RB practicality)))))))
+    (. .)))
+
+
+nsubj(need-3, you-1)
+advmod(need-3, really-2)
+root(ROOT-0, need-3)
+amod(passion-5, unbridled-4)
+dobj(need-3, passion-5)
+nsubj(defies-7, that-6)
+rcmod(passion-5, defies-7)
+advmod(defies-7, practicality-8)
+
+
+(ROOT
+  (S
+    (S
+      (ADVP (RB So)
+        (NP
+          (QP (JJ many) (NNS times))))
+      (NP (PRP I))
+      (VP (VBP have)
+        (VP (VBN met)
+          (PP (IN with)
+            (NP
+              (NP (NNP Chefs))
+              (SBAR
+                (WHNP (WP who))
+                (S
+                  (VP (VBP are)
+                    (ADJP (JJ passionate)
+                      (PP (IN about)
+                        (NP (PRP$ their) (NN cooking))))))))))))
+    (CC but)
+    (ADVP (RB somehow))
+    (S
+      (NP (PRP they))
+      (VP (VBP are)
+        (VP (VBN held)
+          (ADVP (RB back)))))
+    (. .)))
+
+
+advmod(met-6, So-1)
+quantmod(times-3, many-2)
+pobj(So-1, times-3)
+nsubj(met-6, I-4)
+aux(met-6, have-5)
+root(ROOT-0, met-6)
+prep(met-6, with-7)
+pobj(with-7, Chefs-8)
+nsubj(passionate-11, who-9)
+cop(passionate-11, are-10)
+rcmod(Chefs-8, passionate-11)
+prep(passionate-11, about-12)
+poss(cooking-14, their-13)
+pobj(about-12, cooking-14)
+cc(met-6, but-15)
+advmod(met-6, somehow-16)
+nsubjpass(held-19, they-17)
+auxpass(held-19, are-18)
+ccomp(met-6, held-19)
+advmod(held-19, back-20)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP they))
+      (VP (VBP are)
+        (VP (VBG working)
+          (PP (IN in)
+            (NP
+              (NP (NN someone) (RB else) (POS 's))
+              (NN kitchen)))))
+      (, ,))))
+
+
+mark(working-4, If-1)
+nsubj(working-4, they-2)
+aux(working-4, are-3)
+root(ROOT-0, working-4)
+prep(working-4, in-5)
+poss(kitchen-9, someone-6)
+advmod(someone-6, else-7)
+possessive(someone-6, 's-8)
+pobj(in-5, kitchen-9)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (VBZ is)
+      (ADVP (RB always))
+      (NP
+        (NP (DT the) (NN boss))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBZ clamps)
+              (PRT (RP down))
+              (PP (IN on)
+                (NP (NN food) (NNS costs))))))))
+    (. .)))
+
+
+nsubj(boss-5, it-1)
+cop(boss-5, is-2)
+advmod(boss-5, always-3)
+det(boss-5, the-4)
+root(ROOT-0, boss-5)
+nsubj(clamps-7, who-6)
+rcmod(boss-5, clamps-7)
+prt(clamps-7, down-8)
+prep(clamps-7, on-9)
+nn(costs-11, food-10)
+pobj(on-9, costs-11)
+
+
+(ROOT
+  (SBAR
+    (WHADVP (WRB When))
+    (S
+      (NP (PRP they))
+      (VP (VBP are)
+        (NP (DT the) (NN owner)))
+      (, ,))))
+
+
+advmod(owner-5, When-1)
+nsubj(owner-5, they-2)
+cop(owner-5, are-3)
+det(owner-5, the-4)
+root(ROOT-0, owner-5)
+
+
+(ROOT
+  (S
+    (NP (PRP they))
+    (VP (VBP have)
+      (S
+        (VP (TO to)
+          (VP
+            (VP (VB think)
+              (PP (IN about)
+                (S
+                  (VP (VBG keeping)
+                    (S
+                      (NP (DT the) (NN business))
+                      (ADJP (RB afloat)))))))
+            (CC and)
+            (VP (NN time)
+              (PP (IN with)
+                (NP (PRP$ their) (NNS families))))))))
+    (. .)))
+
+
+nsubj(have-2, they-1)
+root(ROOT-0, have-2)
+aux(think-4, to-3)
+xcomp(have-2, think-4)
+prep(think-4, about-5)
+pcomp(about-5, keeping-6)
+det(business-8, the-7)
+nsubj(afloat-9, business-8)
+xcomp(keeping-6, afloat-9)
+cc(think-4, and-10)
+conj(think-4, time-11)
+prep(time-11, with-12)
+poss(families-14, their-13)
+pobj(with-12, families-14)
+
+
+(ROOT
+  (S (IN So)
+    (NP (DT the) (JJ initial) (NN fiery) (NN passion))
+    (VP (VBZ gets)
+      (VP (VBN toned)
+        (PRT (RP down))
+        (PP (TO to)
+          (NP (DT a) (JJ slow) (NN simmer)))))
+    (. .)))
+
+
+dep(toned-7, So-1)
+det(passion-5, the-2)
+amod(passion-5, initial-3)
+nn(passion-5, fiery-4)
+nsubjpass(toned-7, passion-5)
+auxpass(toned-7, gets-6)
+root(ROOT-0, toned-7)
+prt(toned-7, down-8)
+prep(toned-7, to-9)
+det(simmer-12, a-10)
+amod(simmer-12, slow-11)
+pobj(to-9, simmer-12)
+
+
+(ROOT
+  (NP
+    (NP (CD 87) (NNP Club) (NNP Street))
+    (NP (# #) (CD 01-01))
+    (NP (NNP Singapore) (CD 069455))))
+
+
+num(Street-3, 87-1)
+nn(Street-3, Club-2)
+root(ROOT-0, Street-3)
+dep(01-01-5, #-4)
+dep(Street-3, 01-01-5)
+dep(Street-3, Singapore-6)
+num(Singapore-6, 069455-7)
+
+

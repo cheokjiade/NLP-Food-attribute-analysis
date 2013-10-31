@@ -1,0 +1,243 @@
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN nomination) (NN round))
+      (PP (IN for)
+        (NP
+          (NP (DT the) (JJS Best))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (NNP Best) (NNP Chicken) (NNP Rice))
+              (PP (IN in)
+                (NP (NNP Singapore))))))))
+    (VP (VBZ is)
+      (VP (VBN opened)))
+    (. !)))
+
+
+det(round-3, The-1)
+nn(round-3, nomination-2)
+nsubjpass(opened-15, round-3)
+prep(round-3, for-4)
+det(Best-6, the-5)
+pobj(for-4, Best-6)
+prep(Best-6, of-7)
+det(Rice-11, the-8)
+nn(Rice-11, Best-9)
+nn(Rice-11, Chicken-10)
+pobj(of-7, Rice-11)
+prep(Rice-11, in-12)
+pobj(in-12, Singapore-13)
+auxpass(opened-15, is-14)
+root(ROOT-0, opened-15)
+
+
+(ROOT
+  (S
+    (NP (DT This) (NN one))
+    (VP (VBZ is)
+      (VP (VBG going)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (NP
+                (NP (DT a) (JJ tough) (NN one))
+                (SBAR
+                  (S
+                    (NP (PRP I))
+                    (VP (VBP think))))))))))
+    (, ,)))
+
+
+det(one-2, This-1)
+nsubj(going-4, one-2)
+aux(going-4, is-3)
+root(ROOT-0, going-4)
+aux(one-9, to-5)
+cop(one-9, be-6)
+det(one-9, a-7)
+amod(one-9, tough-8)
+xcomp(going-4, one-9)
+nsubj(think-11, I-10)
+rcmod(one-9, think-11)
+
+
+(ROOT
+  (S (CC but)
+    (NP (PRP we))
+    (VP (MD will)
+      (VP (VB try)
+        (S
+          (VP (TO to)
+            (VP (VB see)
+              (SBAR (IN if)
+                (S
+                  (NP (EX there))
+                  (VP (VBZ is)
+                    (NP
+                      (NP (CD one) (NNP Chicken) (NNP Rice))
+                      (PP (IN in)
+                        (NP (NNP Singapore)))
+                      (SBAR
+                        (WHNP (WDT which))
+                        (S
+                          (VP (VBZ has)
+                            (VP (VBN taken)
+                              (PP (IN over)
+                                (NP
+                                  (NP (DT the) (NN throne))
+                                  (PP (IN from)
+                                    (NP (DT the) (JJ legendary) (NNP Swee) (NNP Kee) (NNP Chicken) (NNP Rice))))))))))))))))))
+    (. .)))
+
+
+cc(try-4, but-1)
+nsubj(try-4, we-2)
+aux(try-4, will-3)
+root(ROOT-0, try-4)
+aux(see-6, to-5)
+xcomp(try-4, see-6)
+mark(is-9, if-7)
+expl(is-9, there-8)
+advcl(see-6, is-9)
+num(Rice-12, one-10)
+nn(Rice-12, Chicken-11)
+nsubj(is-9, Rice-12)
+prep(Rice-12, in-13)
+pobj(in-13, Singapore-14)
+nsubj(taken-17, which-15)
+aux(taken-17, has-16)
+rcmod(Rice-12, taken-17)
+prep(taken-17, over-18)
+det(throne-20, the-19)
+pobj(over-18, throne-20)
+prep(throne-20, from-21)
+det(Rice-27, the-22)
+amod(Rice-27, legendary-23)
+nn(Rice-27, Swee-24)
+nn(Rice-27, Kee-25)
+nn(Rice-27, Chicken-26)
+pobj(from-21, Rice-27)
+
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are)
+      (ADJP (JJ many)
+        (SBAR
+          (S
+            (NP (NNP Chicken) (NNP Rice))
+            (VP (VBZ stalls)
+              (PP (IN in)
+                (NP (NNP Singapore))))))))
+    (, ,)))
+
+
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+acomp(are-2, many-3)
+nn(Rice-5, Chicken-4)
+nsubj(stalls-6, Rice-5)
+ccomp(many-3, stalls-6)
+prep(stalls-6, in-7)
+pobj(in-7, Singapore-8)
+
+
+(ROOT
+  (S (IN so)
+    (NP (PRP I))
+    (VP (VBP expect)
+      (SBAR (IN that)
+        (S
+          (NP (PRP we))
+          (VP (MD would)
+            (ADVP (RB probably))
+            (VP (VB end)
+              (PRT (RP up))
+              (PP (IN with)
+                (NP
+                  (QP (IN at) (JJS least) (CD 5))))
+              (PP (TO to)
+                (NP (CD 10) (NNS nominees))))))))
+    (. .)))
+
+
+dep(expect-3, so-1)
+nsubj(expect-3, I-2)
+root(ROOT-0, expect-3)
+mark(end-8, that-4)
+nsubj(end-8, we-5)
+aux(end-8, would-6)
+advmod(end-8, probably-7)
+ccomp(expect-3, end-8)
+prt(end-8, up-9)
+prep(end-8, with-10)
+quantmod(5-13, at-11)
+mwe(at-11, least-12)
+pobj(with-10, 5-13)
+prep(end-8, to-14)
+num(nominees-16, 10-15)
+pobj(to-14, nominees-16)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB So))
+    (SBAR (IN if)
+      (S
+        (NP (PRP you))
+        (VP (VBP have)
+          (NP (DT a) (JJ favorite) (NNP Chicken) (NNP Rice) (NN place)))
+        (, ,)))))
+
+
+root(ROOT-0, So-1)
+mark(have-4, if-2)
+nsubj(have-4, you-3)
+dep(So-1, have-4)
+det(place-9, a-5)
+amod(place-9, favorite-6)
+nn(place-9, Chicken-7)
+nn(place-9, Rice-8)
+dobj(have-4, place-9)
+
+
+(ROOT
+  (SINV
+    (VP (VBP do)
+      (VP
+        (VP (VB write)
+          (PRT (RP in)))
+        (CC and)
+        (VP (VB nominate)
+          (NP (PRP them))
+          (PP (IN as)
+            (NP
+              (NP (DT the) (JJS Best))
+              (PP (IN of)
+                (NP (DT the) (JJS Best))))))))
+    (NP (NNP Chicken) (NNP Rice))
+    (PP (IN in)
+      (NP (NNP Singapore))
+      (. !))))
+
+
+aux(write-2, do-1)
+root(ROOT-0, write-2)
+prt(write-2, in-3)
+cc(write-2, and-4)
+conj(write-2, nominate-5)
+dobj(nominate-5, them-6)
+prep(nominate-5, as-7)
+det(Best-9, the-8)
+pobj(as-7, Best-9)
+prep(Best-9, of-10)
+det(Best-12, the-11)
+pobj(of-10, Best-12)
+nn(Rice-14, Chicken-13)
+nsubj(write-2, Rice-14)
+prep(write-2, in-15)
+pobj(in-15, Singapore-16)
+
+

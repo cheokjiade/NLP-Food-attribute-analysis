@@ -1,0 +1,303 @@
+(ROOT
+  (S
+    (NP
+      (NP (DT Those) (NNS readers))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBP have)
+            (VP (VBN been)
+              (VP (VBG following)
+                (NP (PRP me))
+                (PP (IN on)
+                  (NP
+                    (NP (DT the) (NN facebook))
+                    (CC and)
+                    (NP (DT the) (NN forum))))))))))
+    (VP (MD would)
+      (VP (VB know)
+        (SBAR (IN that)
+          (S
+            (NP (PRP I))
+            (VP (VBD spent)
+              (NP
+                (NP (RB quite) (DT a) (NN lot))
+                (PP (IN of)
+                  (NP (NN time))))
+              (PP (IN over)
+                (NP
+                  (NP (DT the) (JJ last) (NN month))
+                  (VP (VBG doing)
+                    (NP (NN research))
+                    (PP (IN on)
+                      (SBAR
+                        (WHADVP (WRB how))
+                        (S
+                          (VP (TO to)
+                            (VP (VB make)
+                              (NP (NNP Roti) (NNP Prata)))))))))))))))
+    (. .)))
+
+
+det(readers-2, Those-1)
+nsubj(know-15, readers-2)
+nsubj(following-6, who-3)
+aux(following-6, have-4)
+aux(following-6, been-5)
+rcmod(readers-2, following-6)
+dobj(following-6, me-7)
+prep(following-6, on-8)
+det(facebook-10, the-9)
+pobj(on-8, facebook-10)
+cc(facebook-10, and-11)
+det(forum-13, the-12)
+conj(facebook-10, forum-13)
+aux(know-15, would-14)
+root(ROOT-0, know-15)
+mark(spent-18, that-16)
+nsubj(spent-18, I-17)
+ccomp(know-15, spent-18)
+advmod(lot-21, quite-19)
+det(lot-21, a-20)
+dobj(spent-18, lot-21)
+prep(lot-21, of-22)
+pobj(of-22, time-23)
+prep(spent-18, over-24)
+det(month-27, the-25)
+amod(month-27, last-26)
+pobj(over-24, month-27)
+partmod(month-27, doing-28)
+dobj(doing-28, research-29)
+prep(doing-28, on-30)
+advmod(make-33, how-31)
+aux(make-33, to-32)
+pcomp(on-30, make-33)
+nn(Prata-35, Roti-34)
+dobj(make-33, Prata-35)
+
+
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN recipe))
+      (VP (VBZ has)
+        (VP (VBN been)
+          (VP (VBN finalized)))))
+    (CC and)
+    (S
+      (NP (PRP I))
+      (VP (VBP have)
+        (VP (VBN finished)
+          (S
+            (VP (VBG shooting)
+              (NP
+                (NP (DT the) (NN slideshow))
+                (CC and)
+                (NP (DT the) (NN video))))))))
+    (. .)))
+
+
+det(recipe-2, The-1)
+nsubjpass(finalized-5, recipe-2)
+aux(finalized-5, has-3)
+auxpass(finalized-5, been-4)
+root(ROOT-0, finalized-5)
+cc(finalized-5, and-6)
+nsubj(finished-9, I-7)
+aux(finished-9, have-8)
+conj(finalized-5, finished-9)
+xcomp(finished-9, shooting-10)
+det(slideshow-12, the-11)
+dobj(shooting-10, slideshow-12)
+cc(slideshow-12, and-13)
+det(video-15, the-14)
+conj(slideshow-12, video-15)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (MD will)
+        (VP (VB be)
+          (VP (VBG publishing)
+            (NP (PRP$ my) (NN treatise))
+            (PP (IN on)
+              (NP (NNP Roti) (NNP Prata)))
+            (NP (JJ next) (NN week))))))
+    (CC and)
+    (S
+      (NP (DT the) (NN post))
+      (VP (MD will)
+        (VP (VB give)
+          (NP (PRP you))
+          (NP
+            (NP (PDT all) (DT the) (NNS details))
+            (PP (IN on)
+              (SBAR
+                (WHADVP (WRB how))
+                (S
+                  (VP (TO to)
+                    (VP (VB make)
+                      (NP (PRP$ your) (NNP Roti) (NNP Prata))
+                      (PP (IN at)
+                        (NP
+                          (NP (NN home))
+                          (PP (VBG including)
+                            (NP
+                              (NP (NN step))
+                              (PP (IN by)
+                                (NP
+                                  (NP (NN step) (NNS instructions))
+                                  (PP (IN on)
+                                    (SBAR
+                                      (WHADVP (WRB how))
+                                      (S
+                                        (VP (TO to)
+                                          (VP (VB flap)
+                                            (NP (DT the) (NNP Prata))))))))))))))))))))))
+    (. .)))
+
+
+nsubj(publishing-4, I-1)
+aux(publishing-4, will-2)
+aux(publishing-4, be-3)
+root(ROOT-0, publishing-4)
+poss(treatise-6, my-5)
+dobj(publishing-4, treatise-6)
+prep(publishing-4, on-7)
+nn(Prata-9, Roti-8)
+pobj(on-7, Prata-9)
+amod(week-11, next-10)
+tmod(publishing-4, week-11)
+cc(publishing-4, and-12)
+det(post-14, the-13)
+nsubj(give-16, post-14)
+aux(give-16, will-15)
+conj(publishing-4, give-16)
+iobj(give-16, you-17)
+predet(details-20, all-18)
+det(details-20, the-19)
+dobj(give-16, details-20)
+prep(details-20, on-21)
+advmod(make-24, how-22)
+aux(make-24, to-23)
+pcomp(on-21, make-24)
+poss(Prata-27, your-25)
+nn(Prata-27, Roti-26)
+dobj(make-24, Prata-27)
+prep(make-24, at-28)
+pobj(at-28, home-29)
+prep(home-29, including-30)
+pobj(including-30, step-31)
+prep(step-31, by-32)
+nn(instructions-34, step-33)
+pobj(by-32, instructions-34)
+prep(instructions-34, on-35)
+advmod(flap-38, how-36)
+aux(flap-38, to-37)
+pcomp(on-35, flap-38)
+det(Prata-40, the-39)
+dobj(flap-38, Prata-40)
+
+
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (JJ third))
+        (PP (IN in)
+          (NP
+            (NP (PRP$ my) (NN series))
+            (PP (IN on)
+              (NP (JJ local) (NNS recipes)))))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBP include)
+              (NP (PRP$ my) (NNP Pandan) (NNP Cake) (NNP Recipe)
+                (CC and)
+                (NNP Tau) (NNP Huay) (NNS recipes)))))))
+    (. !)))
+
+
+nsubj(third-4, This-1)
+cop(third-4, is-2)
+det(third-4, the-3)
+root(ROOT-0, third-4)
+prep(third-4, in-5)
+poss(series-7, my-6)
+pobj(in-5, series-7)
+prep(series-7, on-8)
+amod(recipes-10, local-9)
+pobj(on-8, recipes-10)
+nsubj(include-12, which-11)
+rcmod(third-4, include-12)
+poss(Recipe-16, my-13)
+nn(Recipe-16, Pandan-14)
+nn(Recipe-16, Cake-15)
+dobj(include-12, Recipe-16)
+cc(Recipe-16, and-17)
+nn(recipes-20, Tau-18)
+nn(recipes-20, Huay-19)
+conj(Recipe-16, recipes-20)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NN post))
+    (VP (MD will)
+      (VP (VB contain)
+        (NP
+          (NP (PDT all) (DT the) (NN information))
+          (SBAR
+            (S
+              (NP (PRP you))
+              (VP (VBP need)
+                (S
+                  (VP (TO to)
+                    (VP
+                      (ADVP (RB successfully))
+                      (VB make)
+                      (NP
+                        (NP (NNP Roti) (NNP Prata))
+                        (PP (IN at)
+                          (NP (NN home)))))))))))))
+    (, ,)))
+
+
+det(post-2, The-1)
+nsubj(contain-4, post-2)
+aux(contain-4, will-3)
+root(ROOT-0, contain-4)
+predet(information-7, all-5)
+det(information-7, the-6)
+dobj(contain-4, information-7)
+nsubj(need-9, you-8)
+rcmod(information-7, need-9)
+aux(make-12, to-10)
+advmod(make-12, successfully-11)
+xcomp(need-9, make-12)
+nn(Prata-14, Roti-13)
+dobj(make-12, Prata-14)
+prep(Prata-14, at-15)
+pobj(at-15, home-16)
+
+
+(ROOT
+  (S (RB so)
+    (VP (VB look)
+      (PRT (RP out))
+      (PP (IN for)
+        (NP (PRP it))))
+    (. !)))
+
+
+advmod(look-2, so-1)
+root(ROOT-0, look-2)
+prt(look-2, out-3)
+prep(look-2, for-4)
+pobj(for-4, it-5)
+
+

@@ -1,0 +1,286 @@
+(ROOT
+  (S
+    (NP (NNP Geoduck))
+    (VP (VBZ is)
+      (NP
+        (NP (CD one))
+        (PP (IN of)
+          (NP
+            (NP (DT the)
+              (ADJP (RBS most) (RB commonly) (JJ mispronounced))
+              (NN seafood))
+            (PP (IN in)
+              (NP (NNP Singapore)))))))
+    (. .)))
+
+
+nsubj(one-3, Geoduck-1)
+cop(one-3, is-2)
+root(ROOT-0, one-3)
+prep(one-3, of-4)
+det(seafood-9, the-5)
+advmod(mispronounced-8, most-6)
+advmod(mispronounced-8, commonly-7)
+amod(seafood-9, mispronounced-8)
+pobj(of-4, seafood-9)
+prep(seafood-9, in-10)
+pobj(in-10, Singapore-11)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT This) (JJ giant) (NN clam))
+      (SBAR
+        (WHNP (WDT which))
+        (S
+          (VP (VBZ is)
+            (VP (VBN found)
+              (PP (IN in)
+                (NP
+                  (NP (DT the) (NNS waters))
+                  (PP (IN of)
+                    (NP (NNP Canada))))))))))
+    (VP
+      (VP (VBZ is)
+        (ADVP (RB actually))
+        (VP (VBN pronounced)
+          (S (`` ``)
+            (NP (NNP Gweeduck))
+            ('' ''))))
+      (CC and)
+      (VP (VBZ has)
+        (NP (NN nothing)
+          (S
+            (VP (TO to)
+              (VP (VB do)
+                (PP (IN with)
+                  (NP (DT a) (NN duck)))))))))
+    (. .)))
+
+
+det(clam-3, This-1)
+amod(clam-3, giant-2)
+nsubjpass(pronounced-14, clam-3)
+nsubjpass(found-6, which-4)
+auxpass(found-6, is-5)
+rcmod(clam-3, found-6)
+prep(found-6, in-7)
+det(waters-9, the-8)
+pobj(in-7, waters-9)
+prep(waters-9, of-10)
+pobj(of-10, Canada-11)
+auxpass(pronounced-14, is-12)
+advmod(pronounced-14, actually-13)
+root(ROOT-0, pronounced-14)
+dep(pronounced-14, Gweeduck-16)
+cc(pronounced-14, and-18)
+conj(pronounced-14, has-19)
+dobj(has-19, nothing-20)
+aux(do-22, to-21)
+infmod(nothing-20, do-22)
+prep(do-22, with-23)
+det(duck-25, a-24)
+pobj(with-23, duck-25)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NNPS Chinese))
+    (VP (VBP call)
+      (S
+        (NP (PRP it))
+        (NP (DT a) (NN ???))))
+    (, ,)))
+
+
+det(Chinese-2, The-1)
+nsubj(call-3, Chinese-2)
+root(ROOT-0, call-3)
+nsubj(???-6, it-4)
+det(???-6, a-5)
+xcomp(call-3, ???-6)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NN elephant) (NN trunk) (NN clam))
+      (SBAR
+        (WHNP (WDT which))
+        (S
+          (NP (PRP I))
+          (VP (VBP think)))))
+    (VP (VBZ is)
+      (NP (DT a)
+        (ADJP (RBR more) (JJ reasonable))
+        (NN name)))
+    (. .)))
+
+
+nn(clam-3, elephant-1)
+nn(clam-3, trunk-2)
+nsubj(name-11, clam-3)
+dobj(think-6, which-4)
+nsubj(think-6, I-5)
+rcmod(clam-3, think-6)
+cop(name-11, is-7)
+det(name-11, a-8)
+advmod(reasonable-10, more-9)
+amod(name-11, reasonable-10)
+root(ROOT-0, name-11)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Predictably))
+    (, ,)))
+
+
+root(ROOT-0, Predictably-1)
+
+
+(ROOT
+  (FRAG
+    (PP (IN with)
+      (NP (PRP$ its) (JJ phallic) (NN shape)))
+    (, ,)))
+
+
+root(ROOT-0, with-1)
+poss(shape-4, its-2)
+amod(shape-4, phallic-3)
+pobj(with-1, shape-4)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ many) (NNS cultures))
+      (PP (IN around)
+        (NP (DT the) (NN world))))
+    (VP (VBP consider)
+      (NP (DT the) (NN Geoduck))
+      (NP (DT an) (NN aphrodisiac)))
+    (. .)))
+
+
+amod(cultures-2, many-1)
+nsubj(consider-6, cultures-2)
+prep(cultures-2, around-3)
+det(world-5, the-4)
+pobj(around-3, world-5)
+root(ROOT-0, consider-6)
+det(Geoduck-8, the-7)
+iobj(consider-6, Geoduck-8)
+det(aphrodisiac-10, an-9)
+dobj(consider-6, aphrodisiac-10)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT Another) (JJ interesting) (NN bit))
+      (PP (IN of)
+        (NP (NNS trivia))))
+    (VP (VBZ is)
+      (SBAR (IN that)
+        (S
+          (NP (DT the) (NNP Geoduck))
+          (VP
+            (VP (VBZ is)
+              (NP
+                (NP (CD one))
+                (PP (IN of)
+                  (NP
+                    (NP (DT the) (JJS longest) (VBG living) (NNS organisms))
+                    (PP (IN in)
+                      (NP (DT the) (NN world)))))))
+            (CC and)
+            (VP (MD can)
+              (VP
+                (VP (VB live)
+                  (NP
+                    (NP
+                      (QP (IN up) (TO to) (CD 160))
+                      (NNS years))
+                    (PP (IN of)
+                      (NP (NN age)))))
+                (CC and)
+                (VP (VB grow)
+                  (PP (TO to)
+                    (NP
+                      (NP (CD 2) (NNS metres))
+                      (PP (IN in)
+                        (NP (NN length))))))))))))
+    (. .)))
+
+
+det(bit-3, Another-1)
+amod(bit-3, interesting-2)
+nsubj(is-6, bit-3)
+prep(bit-3, of-4)
+pobj(of-4, trivia-5)
+root(ROOT-0, is-6)
+mark(one-11, that-7)
+det(Geoduck-9, the-8)
+nsubj(one-11, Geoduck-9)
+cop(one-11, is-10)
+ccomp(is-6, one-11)
+prep(one-11, of-12)
+det(organisms-16, the-13)
+amod(organisms-16, longest-14)
+amod(organisms-16, living-15)
+pobj(of-12, organisms-16)
+prep(organisms-16, in-17)
+det(world-19, the-18)
+pobj(in-17, world-19)
+cc(one-11, and-20)
+aux(live-22, can-21)
+conj(one-11, live-22)
+quantmod(160-25, up-23)
+dep(160-25, to-24)
+num(years-26, 160-25)
+dobj(live-22, years-26)
+prep(years-26, of-27)
+pobj(of-27, age-28)
+cc(live-22, and-29)
+conj(live-22, grow-30)
+prep(grow-30, to-31)
+num(metres-33, 2-32)
+pobj(to-31, metres-33)
+prep(metres-33, in-34)
+pobj(in-34, length-35)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP guess)
+      (NP
+        (NP (DT the) (NN one))
+        (SBAR
+          (S
+            (NP (PRP we))
+            (VP (VBD had)
+              (VP (MD must)
+                (VP (VB have)
+                  (VP (VBN been)
+                    (NP (DT a) (JJ juvenile) (NN Geoduck))))))))))
+    (. .)))
+
+
+nsubj(guess-2, I-1)
+root(ROOT-0, guess-2)
+det(one-4, the-3)
+dobj(guess-2, one-4)
+nsubj(Geoduck-12, we-5)
+aux(Geoduck-12, had-6)
+aux(Geoduck-12, must-7)
+aux(Geoduck-12, have-8)
+cop(Geoduck-12, been-9)
+det(Geoduck-12, a-10)
+amod(Geoduck-12, juvenile-11)
+rcmod(one-4, Geoduck-12)
+
+

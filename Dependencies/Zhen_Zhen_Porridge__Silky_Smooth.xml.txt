@@ -1,0 +1,171 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB finally))
+    (VP (VBD managed)
+      (S
+        (VP (TO to)
+          (VP (VB eat)
+            (NP (DT the) (JJ famous) (NNP Zhen) (NNP Zhen) (NN porridge))))))
+    (. !)))
+
+
+nsubj(managed-3, I-1)
+advmod(managed-3, finally-2)
+root(ROOT-0, managed-3)
+aux(eat-5, to-4)
+xcomp(managed-3, eat-5)
+det(porridge-10, the-6)
+amod(porridge-10, famous-7)
+nn(porridge-10, Zhen-8)
+nn(porridge-10, Zhen-9)
+dobj(eat-5, porridge-10)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ distinctive) (NN feature))
+      (PP (IN about)
+        (NP (DT this) (NN porridge))))
+    (VP (VBZ is)
+      (SBAR (IN that)
+        (S
+          (NP (PRP they))
+          (VP (VB cook)
+            (NP (DT the) (NNS grains))
+            (SBAR (IN until)
+              (S
+                (NP (PRP it))
+                (VP (VBZ has)
+                  (ADVP (DT all)
+                    (CC but))
+                  (VP (VBN dissolved)))))))))
+    (. .)))
+
+
+det(feature-3, The-1)
+amod(feature-3, distinctive-2)
+nsubj(is-7, feature-3)
+prep(feature-3, about-4)
+det(porridge-6, this-5)
+pobj(about-4, porridge-6)
+root(ROOT-0, is-7)
+mark(cook-10, that-8)
+nsubj(cook-10, they-9)
+ccomp(is-7, cook-10)
+det(grains-12, the-11)
+dobj(cook-10, grains-12)
+mark(dissolved-18, until-13)
+nsubj(dissolved-18, it-14)
+aux(dissolved-18, has-15)
+dep(but-17, all-16)
+advmod(dissolved-18, but-17)
+advcl(cook-10, dissolved-18)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS Lots))
+      (PP (IN of)
+        (NP (NNS people))))
+    (ADVP (RB actually))
+    (VP (VB rave)
+      (UCP
+        (PP (IN about)
+          (NP (DT this) (NN porridge)))
+        (CC and)
+        (SBAR (RB even)
+          (S
+            (NP (PRP they))
+            (ADVP (RB even))
+            (VP (VBD got)
+              (NP (CD 6) (NNS chopsticks))
+              (PP (IN from)
+                (NP
+                  (NP (NNP Makansutra))
+                  (SBAR
+                    (WHNP (WDT which))
+                    (S
+                      (VP (VBZ is)
+                        (NP (JJ full) (NNS marks))))))))))))
+    (. .)))
+
+
+nsubj(rave-5, Lots-1)
+prep(Lots-1, of-2)
+pobj(of-2, people-3)
+advmod(rave-5, actually-4)
+root(ROOT-0, rave-5)
+dep(rave-5, about-6)
+det(porridge-8, this-7)
+pobj(about-6, porridge-8)
+cc(about-6, and-9)
+advmod(got-13, even-10)
+nsubj(got-13, they-11)
+advmod(got-13, even-12)
+conj(about-6, got-13)
+num(chopsticks-15, 6-14)
+dobj(got-13, chopsticks-15)
+prep(got-13, from-16)
+pobj(from-16, Makansutra-17)
+nsubj(marks-21, which-18)
+cop(marks-21, is-19)
+amod(marks-21, full-20)
+rcmod(Makansutra-17, marks-21)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD was)
+      (ADVP (RB however))
+      (ADJP
+        (NP (DT a) (RB little))
+        (JJ ambivalent)
+        (PP (IN about)
+          (NP (PRP it))))
+      (SBAR (IN as)
+        (S
+          (NP (PRP I))
+          (VP (VBD felt)
+            (SBAR
+              (S
+                (NP (PRP it))
+                (VP (VBD was)
+                  (ADJP (RB almost)
+                    (PP (IN like)
+                      (S
+                        (VP (VBG eating)
+                          (NP
+                            (NP (DT a) (NN bowl))
+                            (PP (IN of)
+                              (NP (JJ thickened) (NN cream) (NN soup)))))))))))))))
+    (. .)))
+
+
+nsubj(ambivalent-6, I-1)
+cop(ambivalent-6, was-2)
+advmod(ambivalent-6, however-3)
+det(little-5, a-4)
+npadvmod(ambivalent-6, little-5)
+root(ROOT-0, ambivalent-6)
+prep(ambivalent-6, about-7)
+pobj(about-7, it-8)
+mark(felt-11, as-9)
+nsubj(felt-11, I-10)
+advcl(ambivalent-6, felt-11)
+nsubj(almost-14, it-12)
+cop(almost-14, was-13)
+ccomp(felt-11, almost-14)
+prep(almost-14, like-15)
+pcomp(like-15, eating-16)
+det(bowl-18, a-17)
+dobj(eating-16, bowl-18)
+prep(bowl-18, of-19)
+amod(soup-22, thickened-20)
+nn(soup-22, cream-21)
+pobj(of-19, soup-22)
+
+

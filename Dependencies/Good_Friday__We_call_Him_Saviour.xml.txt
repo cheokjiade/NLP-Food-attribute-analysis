@@ -1,0 +1,350 @@
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ 's)
+      (ADJP (JJ interesting)))
+    (. .)))
+
+
+nsubj(interesting-3, It-1)
+cop(interesting-3, 's-2)
+root(ROOT-0, interesting-3)
+
+
+(ROOT
+  (SBAR
+    (WHADVP (WRB When))
+    (S
+      (NP (PRP you))
+      (VP (VBP google)
+        (NP (DT the) (NN word) (NN Saviour)))
+      (, ,))))
+
+
+advmod(google-3, When-1)
+nsubj(google-3, you-2)
+root(ROOT-0, google-3)
+det(Saviour-6, the-4)
+nn(Saviour-6, word-5)
+dobj(google-3, Saviour-6)
+
+
+(ROOT
+  (S
+    (NP (RB almost) (PDT all) (DT the) (NNS hits))
+    (VP (VBP refer)
+      (PP (TO to)
+        (NP (NNP Jesus) (NNP Christ))))
+    (. .)))
+
+
+advmod(hits-4, almost-1)
+predet(hits-4, all-2)
+det(hits-4, the-3)
+nsubj(refer-5, hits-4)
+root(ROOT-0, refer-5)
+prep(refer-5, to-6)
+nn(Christ-8, Jesus-7)
+pobj(to-6, Christ-8)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP guess)
+      (SBAR
+        (S
+          (NP (PRP it))
+          (ADVP (RB just))
+          (VP (VBZ sums)
+            (PRT (RP up))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (NP (PRP He))
+                (VP (VBZ is))))))))
+    (. .)))
+
+
+nsubj(guess-2, I-1)
+root(ROOT-0, guess-2)
+nsubj(sums-5, it-3)
+advmod(sums-5, just-4)
+ccomp(guess-2, sums-5)
+prt(sums-5, up-6)
+dobj(is-9, who-7)
+nsubj(is-9, He-8)
+ccomp(sums-5, is-9)
+
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBZ is)
+      (NP (DT the) (NN Saviour)))
+    (. .)))
+
+
+nsubj(Saviour-4, He-1)
+cop(Saviour-4, is-2)
+det(Saviour-4, the-3)
+root(ROOT-0, Saviour-4)
+
+
+(ROOT
+  (SQ (CC But)
+    (FRAG
+      (ADVP (RB just))
+      (SBAR
+        (WHNP (WP what))
+        (S
+          (VP (VBD did)
+            (S
+              (NP (PRP he))
+              (VP (VB save)
+                (NP (PRP us))
+                (PP (IN from))))))))
+    (. ?)))
+
+
+root(ROOT-0, But-1)
+dep(But-1, just-2)
+nsubj(did-4, what-3)
+dep(just-2, did-4)
+nsubj(save-6, he-5)
+ccomp(did-4, save-6)
+dobj(save-6, us-7)
+prep(save-6, from-8)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Well))
+    (, ,)))
+
+
+root(ROOT-0, Well-1)
+
+
+(ROOT
+  (S
+    (NP (JJS most) (NNS Christians))
+    (VP (MD will)
+      (VP (VB tell)
+        (NP (PRP you))
+        (SBAR (IN that)
+          (S
+            (NP (PRP He))
+            (VP (VBD was)
+              (VP (VBN sent)
+                (S
+                  (VP (TO to)
+                    (VP (VB save)
+                      (NP (PRP us))
+                      (PP (IN from)
+                        (NP (PRP$ our) (NNS sins))))))))))))
+    (. .)))
+
+
+amod(Christians-2, most-1)
+nsubj(tell-4, Christians-2)
+aux(tell-4, will-3)
+root(ROOT-0, tell-4)
+dobj(tell-4, you-5)
+mark(sent-9, that-6)
+nsubjpass(sent-9, He-7)
+auxpass(sent-9, was-8)
+ccomp(tell-4, sent-9)
+aux(save-11, to-10)
+xcomp(sent-9, save-11)
+dobj(save-11, us-12)
+prep(save-11, from-13)
+poss(sins-15, our-14)
+pobj(from-13, sins-15)
+
+
+(ROOT
+  (S
+    (NP (DT That))
+    (VP
+      (VP (VBZ is)
+        (ADVP (RB indeed))
+        (ADJP (JJ true)))
+      (CC and)
+      (VP
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (PRP he))
+            (VP (VBD died)
+              (PP (IN on)
+                (NP (DT the) (NNP Cross)))
+              (PP (IN on)
+                (NP (NNP Good) (NNP Friday))))))))
+    (, ,)))
+
+
+nsubj(true-4, That-1)
+cop(true-4, is-2)
+advmod(true-4, indeed-3)
+root(ROOT-0, true-4)
+cc(true-4, and-5)
+advmod(died-8, when-6)
+nsubj(died-8, he-7)
+conj(true-4, died-8)
+prep(died-8, on-9)
+det(Cross-11, the-10)
+pobj(on-9, Cross-11)
+prep(died-8, on-12)
+nn(Friday-14, Good-13)
+pobj(on-12, Friday-14)
+
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD paid)
+      (NP
+        (NP (DT the) (NN penalty))
+        (PP (IN of)
+          (NP (PRP$ our) (NNS sins))))
+      (SBAR (RB so) (IN that)
+        (S
+          (NP (PRP we))
+          (VP (MD can)
+            (VP (VB be)
+              (VP (VBN pardoned)
+                (PP (IN for)
+                  (NP (PDT all) (DT the) (NNS wrongdoings)
+                    (SBAR (IN that)
+                      (S
+                        (NP (PRP we))
+                        (VP (VBP have)
+                          (ADVP (RB ever))
+                          (VP (VBN done)
+                            (PP (IN in)
+                              (NP (PRP$ our) (NNS lives)))))))))))))))
+    (. .)))
+
+
+nsubj(paid-2, He-1)
+root(ROOT-0, paid-2)
+det(penalty-4, the-3)
+dobj(paid-2, penalty-4)
+prep(penalty-4, of-5)
+poss(sins-7, our-6)
+pobj(of-5, sins-7)
+advmod(pardoned-13, so-8)
+mark(pardoned-13, that-9)
+nsubjpass(pardoned-13, we-10)
+aux(pardoned-13, can-11)
+auxpass(pardoned-13, be-12)
+advcl(paid-2, pardoned-13)
+prep(pardoned-13, for-14)
+predet(wrongdoings-17, all-15)
+det(wrongdoings-17, the-16)
+pobj(for-14, wrongdoings-17)
+mark(done-22, that-18)
+nsubj(done-22, we-19)
+aux(done-22, have-20)
+advmod(done-22, ever-21)
+ccomp(wrongdoings-17, done-22)
+prep(done-22, in-23)
+poss(lives-25, our-24)
+pobj(in-23, lives-25)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP call)
+      (S
+        (NP (PRP Him))
+        (`` ``)
+        (NP (NNP Saviour))
+        ('' ''))
+      (SBAR (IN because)
+        (S
+          (NP (PRP we))
+          (VP (VBP know)
+            (SBAR (IN that)
+              (S
+                (NP (RB not) (JJ only))
+                (VP (VBD did)
+                  (SBAR
+                    (S
+                      (NP (PRP he))
+                      (VP (VBP die)
+                        (PP (IN on)
+                          (NP (NNP Good) (NNP Friday)))))))))))))
+    (, ,)))
+
+
+nsubj(call-2, We-1)
+root(ROOT-0, call-2)
+dep(Saviour-5, Him-3)
+dep(call-2, Saviour-5)
+mark(know-9, because-7)
+nsubj(know-9, we-8)
+advcl(call-2, know-9)
+mark(did-13, that-10)
+neg(only-12, not-11)
+nsubj(did-13, only-12)
+ccomp(know-9, did-13)
+nsubj(die-15, he-14)
+ccomp(did-13, die-15)
+prep(die-15, on-16)
+nn(Friday-18, Good-17)
+pobj(on-16, Friday-18)
+
+
+(ROOT
+  (S (CC but)
+    (NP (PRP he))
+    (VP
+      (VP (VBD came)
+        (PRT (RP back))
+        (PP (TO to)
+          (NP (NN life)))
+        (ADVP (RB again)
+          (PP (IN on)
+            (NP (NNP Sunday)))))
+      (CC and)
+      (VP
+        (ADVP (RB thus))
+        (VBD paved)
+        (NP (DT the) (NN way))
+        (PP (IN for)
+          (NP (PRP us)))
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (ADJP (JJ right)
+                (PP (IN with)
+                  (NP (NNP God)))))))))
+    (. .)))
+
+
+cc(came-3, but-1)
+nsubj(came-3, he-2)
+root(ROOT-0, came-3)
+prt(came-3, back-4)
+prep(came-3, to-5)
+pobj(to-5, life-6)
+advmod(came-3, again-7)
+prep(again-7, on-8)
+pobj(on-8, Sunday-9)
+cc(came-3, and-10)
+advmod(paved-12, thus-11)
+conj(came-3, paved-12)
+det(way-14, the-13)
+dobj(paved-12, way-14)
+prep(paved-12, for-15)
+pobj(for-15, us-16)
+aux(right-19, to-17)
+cop(right-19, be-18)
+xcomp(paved-12, right-19)
+prep(right-19, with-20)
+pobj(with-20, God-21)
+
+

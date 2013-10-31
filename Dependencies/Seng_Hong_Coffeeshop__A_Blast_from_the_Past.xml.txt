@@ -1,0 +1,210 @@
+(ROOT
+  (S
+    (NP (NNP Nostalgia))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (JJ precious) (NN commodity))
+        (PP (IN in)
+          (NP (NNP Singapore)))))
+    (. .)))
+
+
+nsubj(commodity-5, Nostalgia-1)
+cop(commodity-5, is-2)
+det(commodity-5, a-3)
+amod(commodity-5, precious-4)
+root(ROOT-0, commodity-5)
+prep(commodity-5, in-6)
+pobj(in-6, Singapore-7)
+
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP
+        (NP (PRP$ our) (JJ fast) (JJ paced) (NN society))
+        (SBAR
+          (WHADVP (WRB where))
+          (S (`` ``)
+            (NP (NNP Land))
+            (VP (VBZ is)
+              (ADJP (JJ Scarce)))
+            ('' '')))))
+    (NP (JJS most) (NNS places))
+    (ADVP (RB only))
+    (VP (VBP have)
+      (NP (DT a) (JJ limited) (NN lifespan)))
+    (. .)))
+
+
+prep(have-15, In-1)
+poss(society-5, our-2)
+amod(society-5, fast-3)
+amod(society-5, paced-4)
+pobj(In-1, society-5)
+advmod(Scarce-10, where-6)
+nsubj(Scarce-10, Land-8)
+cop(Scarce-10, is-9)
+rcmod(society-5, Scarce-10)
+amod(places-13, most-12)
+nsubj(have-15, places-13)
+advmod(have-15, only-14)
+root(ROOT-0, have-15)
+det(lifespan-18, a-16)
+amod(lifespan-18, limited-17)
+dobj(have-15, lifespan-18)
+
+
+(ROOT
+  (S (IN So)
+    (NP (PRP you))
+    (VP (VBP are) (RB not)
+      (ADJP (JJ likely)
+        (S
+          (VP (TO to)
+            (VP (VB find)
+              (NP (DT the) (JJ old) (NN oak) (NN tree))
+              (SBAR
+                (WHADVP (WRB where))
+                (S
+                  (NP (NN grandpa))
+                  (VP (VBD was)
+                    (VP (VBN supposed)
+                      (S
+                        (VP (TO to)
+                          (VP
+                            (VP (VB meet)
+                              (NP (NN grandma)))
+                            (CC and)
+                            (VP (VB run)
+                              (PRT (RP away))
+                              (ADVP (RB together)))))))))))))))
+    (. .)))
+
+
+dep(likely-5, So-1)
+nsubj(likely-5, you-2)
+cop(likely-5, are-3)
+neg(likely-5, not-4)
+root(ROOT-0, likely-5)
+aux(find-7, to-6)
+xcomp(likely-5, find-7)
+det(tree-11, the-8)
+amod(tree-11, old-9)
+nn(tree-11, oak-10)
+dobj(find-7, tree-11)
+advmod(supposed-15, where-12)
+nsubjpass(supposed-15, grandpa-13)
+auxpass(supposed-15, was-14)
+advcl(find-7, supposed-15)
+aux(meet-17, to-16)
+xcomp(supposed-15, meet-17)
+dobj(meet-17, grandma-18)
+cc(meet-17, and-19)
+conj(meet-17, run-20)
+prt(run-20, away-21)
+advmod(run-20, together-22)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN lot))
+      (PP (IN of)
+        (NP
+          (NP (DT the) (JJ significant) (NNS spots))
+          (SBAR (IN that)
+            (S
+              (NP (NNP Amagada)
+                (CC and)
+                (PRP I))
+              (ADVP (RB fondly))
+              (VP (VBP remember)
+                (PP (IN from)
+                  (NP (PRP$ our) (JJ dating) (NNS days)))))))))
+    (VP (VBP have)
+      (ADVP (RB either))
+      (VP (VBN been)
+        (VP (VBN renovated)
+          (CC or)
+          (VBN demolished)
+          (ADVP (RB altogether)))))
+    (. .)))
+
+
+det(lot-2, A-1)
+nsubjpass(renovated-20, lot-2)
+prep(lot-2, of-3)
+det(spots-6, the-4)
+amod(spots-6, significant-5)
+pobj(of-3, spots-6)
+mark(remember-12, that-7)
+nsubj(remember-12, Amagada-8)
+cc(Amagada-8, and-9)
+conj(Amagada-8, I-10)
+advmod(remember-12, fondly-11)
+dep(spots-6, remember-12)
+prep(remember-12, from-13)
+poss(days-16, our-14)
+amod(days-16, dating-15)
+pobj(from-13, days-16)
+aux(renovated-20, have-17)
+advmod(renovated-20, either-18)
+auxpass(renovated-20, been-19)
+root(ROOT-0, renovated-20)
+cc(renovated-20, or-21)
+conj(renovated-20, demolished-22)
+advmod(renovated-20, altogether-23)
+
+
+(ROOT
+  (INTJ (UH Heck) (UH ,)))
+
+
+root(ROOT-0, Heck-1)
+
+
+(ROOT
+  (S
+    (NP (RB even) (NNP SM) (NNP Goh))
+    (VP (VBZ 's)
+      (ADJP (JJ old))
+      (S
+        (VP (VBG dating)
+          (NP (NN hotspot)))))
+    (, ,)))
+
+
+advmod(Goh-3, even-1)
+nn(Goh-3, SM-2)
+nsubj(old-5, Goh-3)
+cop(old-5, 's-4)
+root(ROOT-0, old-5)
+xcomp(old-5, dating-6)
+dobj(dating-6, hotspot-7)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NNP National))
+    (VP (VBZ Library))
+    (, ,)))
+
+
+det(National-2, the-1)
+nsubj(Library-3, National-2)
+root(ROOT-0, Library-3)
+
+
+(ROOT
+  (S
+    (VP (VBZ is)
+      (ADJP (RB no) (JJR more)))
+    (. .)))
+
+
+cop(more-3, is-1)
+advmod(more-3, no-2)
+root(ROOT-0, more-3)
+
+

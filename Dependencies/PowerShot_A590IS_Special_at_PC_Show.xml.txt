@@ -1,0 +1,182 @@
+(ROOT
+  (S
+    (NP (DT A) (JJ few) (NNS readers))
+    (VP (VBP have)
+      (VP (VBN expressed)
+        (NP (NN interest))
+        (PP (IN at)
+          (S
+            (VP (VBG getting)
+              (NP (DT the) (NNP PowerShot) (NNP A590IS)))))))
+    (. .)))
+
+
+det(readers-3, A-1)
+amod(readers-3, few-2)
+nsubj(expressed-5, readers-3)
+aux(expressed-5, have-4)
+root(ROOT-0, expressed-5)
+dobj(expressed-5, interest-6)
+prep(expressed-5, at-7)
+pcomp(at-7, getting-8)
+det(A590IS-11, the-9)
+nn(A590IS-11, PowerShot-10)
+dobj(getting-8, A590IS-11)
+
+
+(ROOT
+  (S
+    (NP (DT The) (JJ good) (NN news))
+    (VP (VBZ is)
+      (SBAR (IN that)
+        (S
+          (NP (PRP they))
+          (VP (VBP are)
+            (VP (VBG having)
+              (NP
+                (NP (DT a) (JJ special) (NN promo))
+                (PP (IN at)
+                  (NP (DT the) (NN PC) (NN show)))
+                (SBAR
+                  (WHADVP (WRB where))
+                  (S
+                    (NP (PRP they))
+                    (VP (MD will)
+                      (VP (VB be)
+                        (PP (VBG including)
+                          (NP (DT a) (JJ free) (CD 4GB) (NNP SD) (NN card)))))))))))))
+    (, ,)))
+
+
+det(news-3, The-1)
+amod(news-3, good-2)
+nsubj(is-4, news-3)
+root(ROOT-0, is-4)
+mark(having-8, that-5)
+nsubj(having-8, they-6)
+aux(having-8, are-7)
+ccomp(is-4, having-8)
+det(promo-11, a-9)
+amod(promo-11, special-10)
+dobj(having-8, promo-11)
+prep(promo-11, at-12)
+det(show-15, the-13)
+nn(show-15, PC-14)
+pobj(at-12, show-15)
+advmod(be-19, where-16)
+nsubj(be-19, they-17)
+aux(be-19, will-18)
+rcmod(promo-11, be-19)
+prep(be-19, including-20)
+det(card-25, a-21)
+amod(card-25, free-22)
+num(card-25, 4GB-23)
+nn(card-25, SD-24)
+pobj(including-20, card-25)
+
+
+(ROOT
+  (S
+    (NP (CD 2GB))
+    (VP (VBP SD)
+      (NP (NN card)))
+    (, ,)))
+
+
+nsubj(SD-2, 2GB-1)
+root(ROOT-0, SD-2)
+dobj(SD-2, card-3)
+
+
+(ROOT
+  (S
+    (NP (CD 4) (NNS x))
+    (VP (VBP rechargable)
+      (NP (NNS batteries)))
+    (, ,)))
+
+
+num(x-2, 4-1)
+nsubj(rechargable-3, x-2)
+root(ROOT-0, rechargable-3)
+dobj(rechargable-3, batteries-4)
+
+
+(ROOT
+  (NP
+    (NP (NN camera))
+    (NP
+      (NP (NN case))
+      (CC and)
+      (NP (NNP SD) (NN card) (NN reader)))
+    (. .)))
+
+
+root(ROOT-0, camera-1)
+dep(camera-1, case-2)
+cc(case-2, and-3)
+nn(reader-6, SD-4)
+nn(reader-6, card-5)
+conj(case-2, reader-6)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (JJ Full) (NNS details))
+      (PP (IN of)
+        (NP (DT the) (NNP PC) (NNP Show) (NN promo))))
+    (VP (MD can)
+      (VP (VB be)
+        (VP (VBN found)
+          (PP (IN at)
+            (PP (IN by)
+              (S
+                (VP (VBG clicking)
+                  (NP (DT this) (NN link)))))))))))
+
+
+amod(details-2, Full-1)
+nsubjpass(found-10, details-2)
+prep(details-2, of-3)
+det(promo-7, the-4)
+nn(promo-7, PC-5)
+nn(promo-7, Show-6)
+pobj(of-3, promo-7)
+aux(found-10, can-8)
+auxpass(found-10, be-9)
+root(ROOT-0, found-10)
+prep(found-10, at-11)
+pcomp(at-11, by-12)
+pcomp(by-12, clicking-13)
+det(link-15, this-14)
+dobj(clicking-13, link-15)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NN PC) (NN show))
+    (VP
+      (VP (VBZ is)
+        (PP (IN at)
+          (NP (NNP Suntec))))
+      (CC and)
+      (VP (VBZ runs)
+        (PP (IN from)
+          (NP (NNP 12-15) (NNP June)))))
+    (. .)))
+
+
+det(show-3, The-1)
+nn(show-3, PC-2)
+nsubj(is-4, show-3)
+root(ROOT-0, is-4)
+prep(is-4, at-5)
+pobj(at-5, Suntec-6)
+cc(is-4, and-7)
+conj(is-4, runs-8)
+prep(runs-8, from-9)
+nn(June-11, 12-15-10)
+pobj(from-9, June-11)
+
+

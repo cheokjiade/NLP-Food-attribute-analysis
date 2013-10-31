@@ -1,0 +1,245 @@
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD will)
+      (VP (VB notice)
+        (NP
+          (NP (DT that))
+          (PP (IN in)
+            (NP (NN episode) (CD three))))))
+    (, ,)))
+
+
+nsubj(notice-3, You-1)
+aux(notice-3, will-2)
+root(ROOT-0, notice-3)
+dobj(notice-3, that-4)
+prep(that-4, in-5)
+pobj(in-5, episode-6)
+num(episode-6, three-7)
+
+
+(ROOT
+  (S
+    (NP (NNP Belinda))
+    (VP (VBD was) (RB not)
+      (PP (IN at)
+        (NP (DT the) (NN crab) (NN farm))))
+    (. .)))
+
+
+nsubj(was-2, Belinda-1)
+root(ROOT-0, was-2)
+neg(was-2, not-3)
+prep(was-2, at-4)
+det(farm-7, the-5)
+nn(farm-7, crab-6)
+pobj(at-4, farm-7)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Well))
+    (, ,)))
+
+
+root(ROOT-0, Well-1)
+
+
+(ROOT
+  (S
+    (SBAR
+      (WHNP (WP what))
+      (S
+        (VP (VBD happened))))
+    (VP (VBD was)
+      (SBAR (IN that)
+        (S
+          (S
+            (NP (PRP she))
+            (VP (VBD came)
+              (PRT (RP back))
+              (PP (IN from)
+                (NP (DT a) (NN mission) (NN trip)))
+              (PP (TO to)
+                (NP (NNP Indonesia)))))
+          (CC and)
+          (S
+            (NP (PRP she))
+            (VP (VBD was)
+              (ADVP (RB down))
+              (PP (IN with)
+                (NP (NN food) (NN poisoning))))))))
+    (. !)))
+
+
+nsubj(happened-2, what-1)
+csubj(was-3, happened-2)
+root(ROOT-0, was-3)
+mark(came-6, that-4)
+nsubj(came-6, she-5)
+ccomp(was-3, came-6)
+prt(came-6, back-7)
+prep(came-6, from-8)
+det(trip-11, a-9)
+nn(trip-11, mission-10)
+pobj(from-8, trip-11)
+prep(came-6, to-12)
+pobj(to-12, Indonesia-13)
+cc(came-6, and-14)
+nsubj(was-16, she-15)
+conj(came-6, was-16)
+advmod(was-16, down-17)
+prep(was-16, with-18)
+nn(poisoning-20, food-19)
+pobj(with-18, poisoning-20)
+
+
+(ROOT
+  (FRAG (RB So) (JJ ,)))
+
+
+root(ROOT-0, So-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD had)
+      (S
+        (VP (TO to)
+          (VP (VB do)
+            (NP (DT this) (NN one))
+            (PP (IN by)
+              (NP (PRP myself)))))))
+    (. .)))
+
+
+nsubj(had-2, I-1)
+root(ROOT-0, had-2)
+aux(do-4, to-3)
+xcomp(had-2, do-4)
+det(one-6, this-5)
+dobj(do-4, one-6)
+prep(do-4, by-7)
+pobj(by-7, myself-8)
+
+
+(ROOT
+  (S
+    (NP (NNP The))
+    (VP (VBZ opening))
+    (, ,)))
+
+
+nsubj(opening-2, The-1)
+root(ROOT-0, opening-2)
+
+
+(ROOT
+  (NP (NN closing) (CD ,)))
+
+
+root(ROOT-0, closing-1)
+
+
+(ROOT
+  (S
+    (NP (NNS sequences))
+    (VP (VBD were) (RB all)
+      (VP (VBN done)
+        (PP (IN at)
+          (NP (NNP Sunset) (NNP Way)))
+        (PP
+          (ADVP (RB together))
+          (IN with)
+          (NP
+            (NP (DT the) (NN segment))
+            (PP (IN on)
+              (NP (NNP Chin) (NNP Huat)))))))
+    (. .)))
+
+
+nsubjpass(done-4, sequences-1)
+auxpass(done-4, were-2)
+advmod(done-4, all-3)
+root(ROOT-0, done-4)
+prep(done-4, at-5)
+nn(Way-7, Sunset-6)
+pobj(at-5, Way-7)
+advmod(with-9, together-8)
+prep(done-4, with-9)
+det(segment-11, the-10)
+pobj(with-9, segment-11)
+prep(segment-11, on-12)
+nn(Huat-14, Chin-13)
+pobj(on-12, Huat-14)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBD had)
+      (S
+        (VP (TO to)
+          (VP (VB shoot)
+            (NP
+              (NP (NN half))
+              (PP (IN of)
+                (NP (DT this) (NN episode))))))))
+    (, ,)))
+
+
+nsubj(had-2, We-1)
+root(ROOT-0, had-2)
+aux(shoot-4, to-3)
+xcomp(had-2, shoot-4)
+dobj(shoot-4, half-5)
+prep(half-5, of-6)
+det(episode-8, this-7)
+pobj(of-6, episode-8)
+
+
+(ROOT
+  (S (RB then)
+    (VP
+      (VP (VB skip)
+        (PP (TO to)
+          (NP (NN episode) (CD five))))
+      (CC and)
+      (VP (VB back)
+        (PP (TO to)
+          (NP (NN episode) (CD 3)))
+        (ADVP (RB again))))
+    (. !)))
+
+
+advmod(skip-2, then-1)
+root(ROOT-0, skip-2)
+prep(skip-2, to-3)
+pobj(to-3, episode-4)
+num(episode-4, five-5)
+cc(skip-2, and-6)
+conj(skip-2, back-7)
+prep(back-7, to-8)
+pobj(to-8, episode-9)
+num(episode-9, 3-10)
+advmod(back-7, again-11)
+
+
+(ROOT
+  (SQ (MD Hope)
+    (NP (PRP you))
+    (VP (VB enjoy)
+      (NP (DT the) (NNP Crabby) (NNP Affair)))
+    (. !)))
+
+
+aux(enjoy-3, Hope-1)
+nsubj(enjoy-3, you-2)
+root(ROOT-0, enjoy-3)
+det(Affair-6, the-4)
+nn(Affair-6, Crabby-5)
+dobj(enjoy-3, Affair-6)
+
+

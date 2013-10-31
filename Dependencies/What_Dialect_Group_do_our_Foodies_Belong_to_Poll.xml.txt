@@ -1,0 +1,521 @@
+(ROOT
+  (NP
+    (NP (NNS Thanks))
+    (PP (TO to)
+      (NP
+        (NP (DT all))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBP have)
+              (VP (VBN written)
+                (PRT (RP in))
+                (S
+                  (VP (TO to)
+                    (VP (VB nominate)
+                      (NP (PRP$ their) (NN dialect) (NN group)))))))))))
+    (. .)))
+
+
+root(ROOT-0, Thanks-1)
+prep(Thanks-1, to-2)
+pobj(to-2, all-3)
+nsubj(written-6, who-4)
+aux(written-6, have-5)
+rcmod(all-3, written-6)
+prt(written-6, in-7)
+aux(nominate-9, to-8)
+xcomp(written-6, nominate-9)
+poss(group-12, their-10)
+nn(group-12, dialect-11)
+dobj(nominate-9, group-12)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NNS polls))
+    (VP (VBP are)
+      (ADVP
+        (ADVP (RB now) (RB up))
+        (SBAR (IN for)
+          (S
+            (NP (PRP you))
+            (VP (TO to)
+              (VP (VB vote)))))))
+    (. .)))
+
+
+det(polls-2, The-1)
+nsubj(are-3, polls-2)
+root(ROOT-0, are-3)
+advmod(up-5, now-4)
+advmod(are-3, up-5)
+mark(vote-9, for-6)
+nsubj(vote-9, you-7)
+aux(vote-9, to-8)
+dep(up-5, vote-9)
+
+
+(ROOT
+  (FRAG
+    (PP (TO To)
+      (NP (JJ simplify) (NNS things)))
+    (, ,)))
+
+
+root(ROOT-0, To-1)
+amod(things-3, simplify-2)
+pobj(To-1, things-3)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (ADVP (RB only))
+      (VP (VBN allowed)
+        (NP (CD one) (NN vote))))
+    (. .)))
+
+
+nsubj(allowed-4, I-1)
+aux(allowed-4, have-2)
+advmod(allowed-4, only-3)
+root(ROOT-0, allowed-4)
+num(vote-6, one-5)
+dobj(allowed-4, vote-6)
+
+
+(ROOT
+  (S
+    (NP (DT That))
+    (VP (VBZ is)
+      (SBAR (IN because) (IN if)
+        (S
+          (NP (PRP I))
+          (VP (VBD gave)
+            (NP (NN everyone))
+            (NP (CD two) (NNS votes))
+            (S
+              (VP (TO to)
+                (VP (VB denote)
+                  (NP
+                    (ADJP (JJ paternal)
+                      (CC and)
+                      (JJ maternal))
+                    (NN dialect) (NNS groups)))))))))
+    (, ,)))
+
+
+nsubj(is-2, That-1)
+root(ROOT-0, is-2)
+mark(gave-6, because-3)
+mark(gave-6, if-4)
+nsubj(gave-6, I-5)
+advcl(is-2, gave-6)
+iobj(gave-6, everyone-7)
+num(votes-9, two-8)
+dobj(gave-6, votes-9)
+aux(denote-11, to-10)
+xcomp(gave-6, denote-11)
+amod(groups-16, paternal-12)
+cc(paternal-12, and-13)
+conj(paternal-12, maternal-14)
+nn(groups-16, dialect-15)
+dobj(denote-11, groups-16)
+
+
+(ROOT
+  (S (RB then)
+    (NP
+      (NP (DT those))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBP have)
+            (NP (NNS parents))
+            (PP (IN from)
+              (NP (DT the) (JJ same) (NN dialect) (NN group)))))))
+    (VP (MD would)
+      (ADVP (RB only))
+      (VP (VB get)
+        (NP
+          (NP (CD one) (NN vote))
+          (CC and)
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (MD would)
+                (VP (VB skew)
+                  (NP (DT the) (NNS stats)))))))))
+    (. .)))
+
+
+advmod(get-13, then-1)
+nsubj(get-13, those-2)
+nsubj(have-4, who-3)
+rcmod(those-2, have-4)
+dobj(have-4, parents-5)
+prep(have-4, from-6)
+det(group-10, the-7)
+amod(group-10, same-8)
+nn(group-10, dialect-9)
+pobj(from-6, group-10)
+aux(get-13, would-11)
+advmod(get-13, only-12)
+root(ROOT-0, get-13)
+num(vote-15, one-14)
+dobj(get-13, vote-15)
+cc(vote-15, and-16)
+nsubj(skew-19, that-17)
+aux(skew-19, would-18)
+conj(vote-15, skew-19)
+det(stats-21, the-20)
+dobj(skew-19, stats-21)
+
+
+(ROOT
+  (S
+    (ADVP (IN So) (RB just))
+    (VP (VB pick)
+      (NP (DT the) (NN dialect) (NN group))
+      (SBAR (IN that)
+        (S
+          (NP (PRP you))
+          (VP (VBP feel)
+            (SBAR
+              (S
+                (NP (PRP you))
+                (VP
+                  (ADVP (RBS most))
+                  (VBP belong)
+                  (PP (TO to)))))))))
+    (. .)))
+
+
+advmod(pick-3, So-1)
+advmod(So-1, just-2)
+root(ROOT-0, pick-3)
+det(group-6, the-4)
+nn(group-6, dialect-5)
+dobj(pick-3, group-6)
+mark(feel-9, that-7)
+nsubj(feel-9, you-8)
+ccomp(pick-3, feel-9)
+nsubj(belong-12, you-10)
+advmod(belong-12, most-11)
+ccomp(feel-9, belong-12)
+prep(belong-12, to-13)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Since)
+      (NP
+        (NP (PRP we))
+        (NP
+          (NP (DT the) (NNS citizens))
+          (PP (IN of)
+            (NP (NNP Singapore))))))
+    (, ,)))
+
+
+root(ROOT-0, Since-1)
+pobj(Since-1, we-2)
+det(citizens-4, the-3)
+dep(we-2, citizens-4)
+prep(citizens-4, of-5)
+pobj(of-5, Singapore-6)
+
+
+(ROOT
+  (S
+    (NP (NN pledge))
+    (VP (VBZ ourselves)
+      (PP (IN as)
+        (NP (CD one) (VBN united) (NNS people))))
+    (, ,)))
+
+
+nsubj(ourselves-2, pledge-1)
+root(ROOT-0, ourselves-2)
+prep(ourselves-2, as-3)
+num(people-6, one-4)
+amod(people-6, united-5)
+pobj(as-3, people-6)
+
+
+(ROOT
+  (FRAG
+    (PP
+      (ADVP (RB regardless))
+      (IN of)
+      (NP (NN race)))
+    (, ,)))
+
+
+advmod(of-2, regardless-1)
+root(ROOT-0, of-2)
+pobj(of-2, race-3)
+
+
+(ROOT
+  (NP
+    (NP (NN language)
+      (CC or)
+      (NN religion))
+    (: ...)))
+
+
+root(ROOT-0, language-1)
+cc(language-1, or-2)
+conj(language-1, religion-3)
+
+
+(ROOT
+  (INTJ (UH .)))
+
+
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (ADVP (RB also))
+      (VP (VBN included)
+        (NP (DT the) (NNP Malays))))
+    (, ,)))
+
+
+nsubj(included-4, I-1)
+aux(included-4, have-2)
+advmod(included-4, also-3)
+root(ROOT-0, included-4)
+det(Malays-6, the-5)
+dobj(included-4, Malays-6)
+
+
+(ROOT
+  (S
+    (NP (NNP Indian)
+      (CC and)
+      (NNS Others))
+    (ADVP
+      (ADVP (RB so) (IN that) (DT no))
+      (NP (CD one)))
+    (VP (VBZ is)
+      (VP (VBN left)
+        (PRT (RP out))))
+    (. .)))
+
+
+nsubjpass(left-9, Indian-1)
+cc(Indian-1, and-2)
+conj(Indian-1, Others-3)
+advmod(that-5, so-4)
+advmod(left-9, that-5)
+dep(that-5, no-6)
+dep(that-5, one-7)
+auxpass(left-9, is-8)
+root(ROOT-0, left-9)
+prt(left-9, out-10)
+
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (S
+          (NP (PRP you))
+          (VP (VBP are)
+            (ADJP (JJ Chinese))))
+        (CC and)
+        (S
+          (NP (PRP$ your) (NN dialect) (NN group))
+          (VP (VBZ is) (RB not)
+            (VP (VBN represented)
+              (ADVP (RB then)))))))
+    (VP
+      (ADVP (RB just))
+      (VB pick)
+      (NP (`` ``) (NNS others) ('' ''))
+      (CC and)
+      (VB write)
+      (NP (DT a) (NN comment))
+      (S
+        (VP (TO to)
+          (VP (VB let)
+            (S
+              (NP (PRP us))
+              (VP (VB know)
+                (S
+                  (NP (PRP you))
+                  (VP (VB represent)
+                    (NP (PRP$ your) (NN dialect) (NN group))))))))))
+    (. .)))
+
+
+mark(Chinese-4, If-1)
+nsubj(Chinese-4, you-2)
+cop(Chinese-4, are-3)
+csubj(pick-14, Chinese-4)
+cc(Chinese-4, and-5)
+poss(group-8, your-6)
+nn(group-8, dialect-7)
+nsubjpass(represented-11, group-8)
+auxpass(represented-11, is-9)
+neg(represented-11, not-10)
+conj(Chinese-4, represented-11)
+advmod(represented-11, then-12)
+advmod(pick-14, just-13)
+root(ROOT-0, pick-14)
+dobj(pick-14, others-16)
+cc(pick-14, and-18)
+conj(pick-14, write-19)
+det(comment-21, a-20)
+dobj(pick-14, comment-21)
+aux(let-23, to-22)
+xcomp(pick-14, let-23)
+nsubj(know-25, us-24)
+ccomp(let-23, know-25)
+nsubj(represent-27, you-26)
+ccomp(know-25, represent-27)
+poss(group-30, your-28)
+nn(group-30, dialect-29)
+dobj(represent-27, group-30)
+
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN case)))
+    (NP (PRP you))
+    (VP (VBP are)
+      (VP (VBG thinking)
+        (NP (DT that))
+        (PP
+          (ADVP (RB aside))
+          (IN from)
+          (NP (DT the) (NN language))
+          (, ,))))))
+
+
+prep(thinking-5, In-1)
+pobj(In-1, case-2)
+nsubj(thinking-5, you-3)
+aux(thinking-5, are-4)
+root(ROOT-0, thinking-5)
+dobj(thinking-5, that-6)
+advmod(from-8, aside-7)
+prep(thinking-5, from-8)
+det(language-10, the-9)
+pobj(from-8, language-10)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (MD would)
+      (VP (VB be)
+        (ADJP (JJ difficult)
+          (S
+            (VP (TO to)
+              (VP (VB distinguish)
+                (PP (IN between)
+                  (NP (DT the) (NN dialect) (NNS groups)))
+                (PP
+                  (ADVP (RB just))
+                  (IN by)
+                  (NP (NNS looks)))))))))
+    (, ,)))
+
+
+nsubj(difficult-4, it-1)
+aux(difficult-4, would-2)
+cop(difficult-4, be-3)
+root(ROOT-0, difficult-4)
+aux(distinguish-6, to-5)
+xcomp(difficult-4, distinguish-6)
+prep(distinguish-6, between-7)
+det(groups-10, the-8)
+nn(groups-10, dialect-9)
+pobj(between-7, groups-10)
+advmod(by-12, just-11)
+prep(distinguish-6, by-12)
+pobj(by-12, looks-13)
+
+
+(ROOT
+  (S
+    (ADVP (RB then))
+    (NP (PRP I))
+    (VP (MD would)
+      (VP (VB like)
+        (VP (VB ask)
+          (SBAR (IN if)
+            (S
+              (NP (PRP you))
+              (VP (MD can)
+                (VP (VB guess)
+                  (SBAR
+                    (WHNP (WP what) (JJ dialect) (NN group))
+                    (S
+                      (NP
+                        (NP (DT the) (JJ old) (NN man))
+                        (PP (IN in)
+                          (NP (DT the) (NN picture))))
+                      (VP (VBZ belongs)
+                        (PP (TO to))))))))))))
+    (. ?)))
+
+
+advmod(like-4, then-1)
+nsubj(like-4, I-2)
+aux(like-4, would-3)
+root(ROOT-0, like-4)
+dep(like-4, ask-5)
+mark(guess-9, if-6)
+nsubj(guess-9, you-7)
+aux(guess-9, can-8)
+advcl(ask-5, guess-9)
+det(group-12, what-10)
+amod(group-12, dialect-11)
+pobj(to-20, group-12)
+det(man-15, the-13)
+amod(man-15, old-14)
+nsubj(belongs-19, man-15)
+prep(man-15, in-16)
+det(picture-18, the-17)
+pobj(in-16, picture-18)
+ccomp(guess-9, belongs-19)
+prep(belongs-19, to-20)
+
+
+(ROOT
+  (S
+    (VP
+      (VP (VB Have)
+        (NP (NN fun)))
+      (CC and)
+      (VP (VBP do) (RB n't)
+        (VP (VB forget)
+          (S
+            (VP (TO to)
+              (VP (VB cast)
+                (NP (PRP$ your) (NN vote))))))))
+    (. !)))
+
+
+root(ROOT-0, Have-1)
+dobj(Have-1, fun-2)
+cc(Have-1, and-3)
+aux(forget-6, do-4)
+neg(forget-6, n't-5)
+conj(Have-1, forget-6)
+aux(cast-8, to-7)
+xcomp(forget-6, cast-8)
+poss(vote-10, your-9)
+dobj(cast-8, vote-10)
+
+

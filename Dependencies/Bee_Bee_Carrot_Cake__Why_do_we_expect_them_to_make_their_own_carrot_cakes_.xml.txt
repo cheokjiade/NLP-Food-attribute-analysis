@@ -1,0 +1,247 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (ADVP (RB always))
+      (VP (VBN thought)
+        (SBAR (IN that)
+          (S
+            (NP (DT the) (JJS best) (NN carrot) (NN cake))
+            (VP (VBP are)
+              (NP
+                (NP (DT those))
+                (SBAR
+                  (WHADVP (WRB where))
+                  (S
+                    (NP (PRP they))
+                    (ADVP (RB actually))
+                    (VP (VBZ steam)
+                      (NP (PRP$ their) (JJ own) (NN carrot) (NN cake))
+                      (PP (IN before)
+                        (S
+                          (VP (VBG frying)))))))))))))
+    (. .)))
+
+
+nsubj(thought-4, I-1)
+aux(thought-4, have-2)
+advmod(thought-4, always-3)
+root(ROOT-0, thought-4)
+mark(those-11, that-5)
+det(cake-9, the-6)
+amod(cake-9, best-7)
+nn(cake-9, carrot-8)
+nsubj(those-11, cake-9)
+cop(those-11, are-10)
+ccomp(thought-4, those-11)
+advmod(steam-15, where-12)
+nsubj(steam-15, they-13)
+advmod(steam-15, actually-14)
+rcmod(those-11, steam-15)
+poss(cake-19, their-16)
+amod(cake-19, own-17)
+nn(cake-19, carrot-18)
+dobj(steam-15, cake-19)
+prep(steam-15, before-20)
+pcomp(before-20, frying-21)
+
+
+(ROOT
+  (S (CC But)
+    (NP (PRP I))
+    (VP (VBD had)
+      (NP
+        (NP (DT a) (JJ different) (NN thought))
+        (NP (DT the) (JJ other) (NN day))))
+    (. .)))
+
+
+cc(had-3, But-1)
+nsubj(had-3, I-2)
+root(ROOT-0, had-3)
+det(thought-6, a-4)
+amod(thought-6, different-5)
+dobj(had-3, thought-6)
+det(day-9, the-7)
+amod(day-9, other-8)
+dep(thought-6, day-9)
+
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB How))
+    (SQ
+      (VP (VBD come)
+        (SBAR
+          (S
+            (NP (PRP we))
+            (VP (VBP do) (RB n't)
+              (VP (VB expect)
+                (S
+                  (NP (NNP Char) (NNP Kway) (NNP Teow) (NNS sellers))
+                  (VP (TO to)
+                    (VP (VB make)
+                      (NP (PRP$ their) (JJ own) (NNP Kway) (NNP Teow)))))))))
+        (, ,)))))
+
+
+advmod(come-2, How-1)
+root(ROOT-0, come-2)
+nsubj(expect-6, we-3)
+aux(expect-6, do-4)
+neg(expect-6, n't-5)
+ccomp(come-2, expect-6)
+nn(sellers-10, Char-7)
+nn(sellers-10, Kway-8)
+nn(sellers-10, Teow-9)
+nsubj(make-12, sellers-10)
+aux(make-12, to-11)
+xcomp(expect-6, make-12)
+poss(Teow-16, their-13)
+amod(Teow-16, own-14)
+nn(Teow-16, Kway-15)
+dobj(make-12, Teow-16)
+
+
+(ROOT
+  (S (CC but)
+    (NP (PRP we))
+    (VP (VBP demand)
+      (NP
+        (NP (DT that))
+        (PP (IN from)
+          (NP (NNP Carrot) (NNP Cake) (NNS sellers)))))
+    (. ?)))
+
+
+cc(demand-3, but-1)
+nsubj(demand-3, we-2)
+root(ROOT-0, demand-3)
+dobj(demand-3, that-4)
+prep(that-4, from-5)
+nn(sellers-8, Carrot-6)
+nn(sellers-8, Cake-7)
+pobj(from-5, sellers-8)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (ADJP (JJ true))
+      (SBAR (IN that)
+        (S
+          (ADVP (RB traditionally))
+          (NP (PRP they))
+          (VP (VBD did)
+            (S
+              (VP (VBG steam)
+                (S
+                  (NP (PRP it))
+                  (NP (PRP themselves)))))))))
+    (, ,)))
+
+
+nsubj(true-3, It-1)
+cop(true-3, is-2)
+root(ROOT-0, true-3)
+mark(did-7, that-4)
+advmod(did-7, traditionally-5)
+nsubj(did-7, they-6)
+ccomp(true-3, did-7)
+xcomp(did-7, steam-8)
+nsubj(themselves-10, it-9)
+xcomp(steam-8, themselves-10)
+
+
+(ROOT
+  (S (CC but)
+    (NP (PRP it))
+    (VP (VBZ is)
+      (NP
+        (NP (CD one))
+        (PP (IN of)
+          (NP
+            (NP (DT those) (NNS things))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP (MD can)
+                  (ADVP (RB actually))
+                  (VP (VB be)
+                    (VP (VBN outsourced))))))))))
+    (. .)))
+
+
+cc(one-4, but-1)
+nsubj(one-4, it-2)
+cop(one-4, is-3)
+root(ROOT-0, one-4)
+prep(one-4, of-5)
+det(things-7, those-6)
+pobj(of-5, things-7)
+nsubjpass(outsourced-12, that-8)
+aux(outsourced-12, can-9)
+advmod(outsourced-12, actually-10)
+auxpass(outsourced-12, be-11)
+rcmod(things-7, outsourced-12)
+
+
+(ROOT
+  (S (CC So)
+    (ADVP (RB nowadays))
+    (NP
+      (NP (DT a) (NN lot))
+      (PP (IN of)
+        (NP (NNS people))))
+    (VP
+      (ADVP (RB actually))
+      (VBP take)
+      (NP (JJ short) (NNS cuts))
+      (SBAR
+        (SBAR (IN because)
+          (S
+            (NP (PRP it))
+            (VP (VBZ makes)
+              (NP
+                (NP (NN sense))
+                (PP (IN for)
+                  (NP (PRP$ their) (NN business)))))))
+        (CC and)
+        (SBAR (IN so)
+          (S
+            (NP (PRP we))
+            (VP (MD ca) (RB n't)
+              (ADVP (RB really))
+              (VP (VB fault)
+                (NP (PRP them))))))))
+    (. .)))
+
+
+cc(take-8, So-1)
+advmod(take-8, nowadays-2)
+det(lot-4, a-3)
+nsubj(take-8, lot-4)
+prep(lot-4, of-5)
+pobj(of-5, people-6)
+advmod(take-8, actually-7)
+root(ROOT-0, take-8)
+amod(cuts-10, short-9)
+dobj(take-8, cuts-10)
+mark(makes-13, because-11)
+nsubj(makes-13, it-12)
+dep(take-8, makes-13)
+dobj(makes-13, sense-14)
+prep(sense-14, for-15)
+poss(business-17, their-16)
+pobj(for-15, business-17)
+cc(makes-13, and-18)
+mark(fault-24, so-19)
+nsubj(fault-24, we-20)
+aux(fault-24, ca-21)
+neg(fault-24, n't-22)
+advmod(fault-24, really-23)
+conj(makes-13, fault-24)
+dobj(fault-24, them-25)
+
+

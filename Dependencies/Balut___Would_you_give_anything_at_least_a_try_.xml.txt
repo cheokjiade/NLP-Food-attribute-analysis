@@ -1,0 +1,80 @@
+(ROOT
+  (S
+    (S
+      (NP (DT This))
+      (VP (VBD was)
+        (NP (PRP$ my)
+          (ADJP (RB very) (JJ first))
+          (NN visit))
+        (PP (TO to)
+          (NP (DT the) (NNPS Philippines)))))
+    (CC and)
+    (S
+      (NP (PRP I))
+      (VP (VBD went)
+        (ADVP (RB there))
+        (PP (IN with)
+          (NP (NNS plans)))
+        (S
+          (VP (TO to)
+            (VP (VB eat)
+              (NP (CD two) (NNS things)))))))
+    (. .)))
+
+
+nsubj(visit-6, This-1)
+cop(visit-6, was-2)
+poss(visit-6, my-3)
+advmod(first-5, very-4)
+amod(visit-6, first-5)
+root(ROOT-0, visit-6)
+prep(visit-6, to-7)
+det(Philippines-9, the-8)
+pobj(to-7, Philippines-9)
+cc(visit-6, and-10)
+nsubj(went-12, I-11)
+conj(visit-6, went-12)
+advmod(went-12, there-13)
+prep(went-12, with-14)
+pobj(with-14, plans-15)
+aux(eat-17, to-16)
+xcomp(went-12, eat-17)
+num(things-19, two-18)
+dobj(eat-17, things-19)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP One))
+      (VP (VBD was)
+        (NP
+          (NP (DT the) (NN steak))
+          (PP (IN at)
+            (NP (NNP Mamou))))))
+    (CC and)
+    (S
+      (NP (DT the) (JJ other))
+      (VP (VBD was)
+        (S
+          (VP (TO to)
+            (VP (VB eat)
+              (NP (NNP Balut)))))))
+    (. .)))
+
+
+nsubj(steak-4, One-1)
+cop(steak-4, was-2)
+det(steak-4, the-3)
+root(ROOT-0, steak-4)
+prep(steak-4, at-5)
+pobj(at-5, Mamou-6)
+cc(steak-4, and-7)
+det(other-9, the-8)
+nsubj(was-10, other-9)
+conj(steak-4, was-10)
+aux(eat-12, to-11)
+xcomp(was-10, eat-12)
+dobj(eat-12, Balut-13)
+
+

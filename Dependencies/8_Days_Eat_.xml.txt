@@ -1,0 +1,158 @@
+(ROOT
+  (FRAG
+    (ADJP
+      (NP (CD 8) (NNS Days))
+      (JJ Eat))
+    (. !)))
+
+
+num(Days-2, 8-1)
+tmod(Eat-3, Days-2)
+root(ROOT-0, Eat-3)
+
+
+(ROOT
+  (NP
+    (NP (NNS Starts))
+    (VP (VBG airing)
+      (PP (IN on)
+        (NP
+          (NP (NNP Tuesday) (NNP 20) (NNP August))
+          (PP (IN on)
+            (NP (NNP Channel) (CD 5)))))
+      (PP (IN at)
+        (NP (CD 8.30) (NN pm))))
+    (. !)))
+
+
+root(ROOT-0, Starts-1)
+partmod(Starts-1, airing-2)
+prep(airing-2, on-3)
+nn(August-6, Tuesday-4)
+nn(August-6, 20-5)
+pobj(on-3, August-6)
+prep(August-6, on-7)
+pobj(on-7, Channel-8)
+num(Channel-8, 5-9)
+prep(airing-2, at-10)
+num(pm-12, 8.30-11)
+pobj(at-10, pm-12)
+
+
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (NP
+        (NP (DT an) (CD 8) (NN part) (NN series))
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (NP
+              (NP (NNP Belinda) (NNP Lee))
+              (CC and)
+              (NP (PRP I)))
+            (VP (VBP go)
+              (PP (IN around)
+                (NP (NNP Singapore)))
+              (PP (TO to)
+                (NP (NNP Makan))))))))
+    (. !)))
+
+
+nsubj(series-6, This-1)
+cop(series-6, is-2)
+det(series-6, an-3)
+num(series-6, 8-4)
+nn(series-6, part-5)
+root(ROOT-0, series-6)
+advmod(go-12, where-7)
+nn(Lee-9, Belinda-8)
+nsubj(go-12, Lee-9)
+cc(Lee-9, and-10)
+conj(Lee-9, I-11)
+rcmod(series-6, go-12)
+prep(go-12, around-13)
+pobj(around-13, Singapore-14)
+prep(go-12, to-15)
+pobj(to-15, Makan-16)
+
+
+(ROOT
+  (S
+    (NP (DT The) (JJ first) (NN episode))
+    (VP (VBZ is)
+      (VP (VBN called)
+        (S (`` ``)
+          (NP (JJ Last) (NNP Man) (NNP Standing)))))
+    (. !)))
+
+
+det(episode-3, The-1)
+amod(episode-3, first-2)
+nsubjpass(called-5, episode-3)
+auxpass(called-5, is-4)
+root(ROOT-0, called-5)
+amod(Standing-9, Last-7)
+nn(Standing-9, Man-8)
+dep(called-5, Standing-9)
+
+
+(ROOT
+  (NP (FW '') (. .)))
+
+
+
+
+(ROOT
+  (S
+    (S
+      (NP (NNP Episode) (CD 2))
+      (VP (VBZ is)
+        (NP
+          (NP (DT all))
+          (PP (IN about)
+            (NP (NNP Durians))))))
+    (CC and)
+    (S
+      (NP (NNP Episode) (CD 3))
+      (VP (VBZ is)
+        (NP
+          (NP (DT all))
+          (PP (IN about)
+            (NP (NNP Crabs))))))
+    (. !)))
+
+
+nsubj(all-4, Episode-1)
+num(Episode-1, 2-2)
+cop(all-4, is-3)
+root(ROOT-0, all-4)
+prep(all-4, about-5)
+pobj(about-5, Durians-6)
+cc(all-4, and-7)
+nsubj(all-11, Episode-8)
+num(Episode-8, 3-9)
+cop(all-11, is-10)
+conj(all-4, all-11)
+prep(all-11, about-12)
+pobj(about-12, Crabs-13)
+
+
+(ROOT
+  (S
+    (NP (NNP Do))
+    (VP (VBP remember)
+      (PP (TO to)
+        (NP (NN tune)))
+      (PP (IN in)))
+    (. !)))
+
+
+nsubj(remember-2, Do-1)
+root(ROOT-0, remember-2)
+prep(remember-2, to-3)
+pobj(to-3, tune-4)
+prep(remember-2, in-5)
+
+

@@ -1,0 +1,296 @@
+(ROOT
+  (FRAG
+    (PP (IN Ok))
+    (, ,)))
+
+
+root(ROOT-0, Ok-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP admit)
+      (NP (PRP it)))
+    (, ,)))
+
+
+nsubj(admit-2, I-1)
+root(ROOT-0, admit-2)
+dobj(admit-2, it-3)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD was)
+      (NP
+        (NP (CD one))
+        (PP (IN of)
+          (NP
+            (NP (NNS thousands))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP (VBP have)
+                  (VP (VBN been)
+                    (VP (VBN mesmerized)
+                      (PP (IN by)
+                        (NP (DT the) (NNP Little) (NNP Nonya))))))))))))
+    (. .)))
+
+
+nsubj(one-3, I-1)
+cop(one-3, was-2)
+root(ROOT-0, one-3)
+prep(one-3, of-4)
+pobj(of-4, thousands-5)
+nsubjpass(mesmerized-9, that-6)
+aux(mesmerized-9, have-7)
+auxpass(mesmerized-9, been-8)
+rcmod(thousands-5, mesmerized-9)
+prep(mesmerized-9, by-10)
+det(Nonya-13, the-11)
+nn(Nonya-13, Little-12)
+pobj(by-10, Nonya-13)
+
+
+(ROOT
+  (VP (VBN Granted)
+    (SBAR (IN that)
+      (S
+        (NP (NNP Yue) (NNP Niang))
+        (VP (VBZ is)
+          (NP
+            (NP (DT an) (JJ attractive) (NN lady))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBZ is)
+                  (ADJP (RB very) (JJ easy)
+                    (PP (IN on)
+                      (NP (DT the) (NNS eyes))))))
+              (, ,))))))))
+
+
+root(ROOT-0, Granted-1)
+mark(lady-8, that-2)
+nn(Niang-4, Yue-3)
+nsubj(lady-8, Niang-4)
+cop(lady-8, is-5)
+det(lady-8, an-6)
+amod(lady-8, attractive-7)
+ccomp(Granted-1, lady-8)
+nsubj(easy-12, who-9)
+cop(easy-12, is-10)
+advmod(easy-12, very-11)
+rcmod(lady-8, easy-12)
+prep(easy-12, on-13)
+det(eyes-15, the-14)
+pobj(on-13, eyes-15)
+
+
+(ROOT
+  (S (CC but)
+    (NP
+      (NP (DT the) (NN scene))
+      (SBAR (IN that)
+        (S
+          (NP (PRP I))
+          (VP (VBP remember)
+            (ADVP (RBS most) (RB vividly))))))
+    (VP (VBD was)
+      (NP
+        (NP (DT the) (NN one))
+        (PP (IN of)
+          (NP
+            (NP (NNP Matriach) (NNP Chen) (NNP Lao) (NNP Tai))
+            (PP (IN in)
+              (NP (NN ecstasy))))))
+      (PP (IN after)
+        (S
+          (VP (VBG taking)
+            (NP
+              (NP (DT a) (NN bite))
+              (PP (IN of)
+                (NP (DT the) (NNP Rempah) (NNP Udang))))))))
+    (. .)))
+
+
+cc(one-11, but-1)
+det(scene-3, the-2)
+nsubj(one-11, scene-3)
+mark(remember-6, that-4)
+nsubj(remember-6, I-5)
+dep(scene-3, remember-6)
+advmod(vividly-8, most-7)
+advmod(remember-6, vividly-8)
+cop(one-11, was-9)
+det(one-11, the-10)
+root(ROOT-0, one-11)
+prep(one-11, of-12)
+nn(Tai-16, Matriach-13)
+nn(Tai-16, Chen-14)
+nn(Tai-16, Lao-15)
+pobj(of-12, Tai-16)
+prep(Tai-16, in-17)
+pobj(in-17, ecstasy-18)
+prep(one-11, after-19)
+pcomp(after-19, taking-20)
+det(bite-22, a-21)
+dobj(taking-20, bite-22)
+prep(bite-22, of-23)
+det(Udang-26, the-24)
+nn(Udang-26, Rempah-25)
+pobj(of-23, Udang-26)
+
+
+(ROOT
+  (SBARQ (-LRB- -LRB-)
+    (WHADVP (RB Here))
+    (SQ
+      (SQ (VBZ 's)
+        (NP
+          (NP (DT the) (NN clip))
+          (SBAR (IN if)
+            (S
+              (NP (PRP you))
+              (VP (VBP do) (RB n't)
+                (VP (VB know)
+                  (SBAR
+                    (WHNP (WP what))
+                    (S
+                      (NP (PRP I))
+                      (VP (VBP am)
+                        (VP (VBG talking)))))
+                  (PP (IN about))
+                  (-RRB- -RRB-)))))))
+      (SQ (VBZ Does) (RB n't)
+        (NP (PRP it))
+        (VP
+          (ADVP (RB just))
+          (VB make)
+          (SBAR
+            (S
+              (NP (PRP you))
+              (VP (VBP want)
+                (S
+                  (VP (TO to)
+                    (VP (VB go)
+                      (CC and)
+                      (VB eat)
+                      (NP (DT some))))))))))
+      (FRAG
+        (NP (NNP Rempah) (NNP Udang))))
+    (. ?)))
+
+
+advmod('s-3, Here-2)
+root(ROOT-0, 's-3)
+det(clip-5, the-4)
+nsubj('s-3, clip-5)
+mark(know-10, if-6)
+nsubj(know-10, you-7)
+aux(know-10, do-8)
+neg(know-10, n't-9)
+dep(clip-5, know-10)
+dobj(talking-14, what-11)
+nsubj(talking-14, I-12)
+aux(talking-14, am-13)
+ccomp(know-10, talking-14)
+prep(know-10, about-15)
+aux(make-21, Does-17)
+neg(make-21, n't-18)
+nsubj(make-21, it-19)
+advmod(make-21, just-20)
+dep('s-3, make-21)
+nsubj(want-23, you-22)
+ccomp(make-21, want-23)
+aux(go-25, to-24)
+xcomp(want-23, go-25)
+cc(go-25, and-26)
+conj(go-25, eat-27)
+dobj(go-25, some-28)
+nn(Udang-30, Rempah-29)
+dep('s-3, Udang-30)
+
+
+(ROOT
+  (S
+    (VP (VBG Speaking)
+      (PRN
+        (PP (IN of)
+          (WHNP (WDT which)))
+        (, ,)))))
+
+
+root(ROOT-0, Speaking-1)
+dep(Speaking-1, of-2)
+pobj(of-2, which-3)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (PP (IN on)
+        (NP (DT a) (NN quest)
+          (S
+            (VP (TO to)
+              (VP (VB find)
+                (NP
+                  (NP (DT the) (JJS best) (JJ Rempah) (NN Udang))
+                  (PP (IN in)
+                    (NP (NNP Singapore))))))))))
+    (, ,)))
+
+
+nsubj(am-2, I-1)
+root(ROOT-0, am-2)
+prep(am-2, on-3)
+det(quest-5, a-4)
+pobj(on-3, quest-5)
+aux(find-7, to-6)
+infmod(quest-5, find-7)
+det(Udang-11, the-8)
+amod(Udang-11, best-9)
+amod(Udang-11, Rempah-10)
+dobj(find-7, Udang-11)
+prep(Udang-11, in-12)
+pobj(in-12, Singapore-13)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB so))
+    (SBAR (IN if)
+      (S
+        (NP (PRP you))
+        (VP (VBP have)
+          (NP (DT any) (NNS leads)))
+        (, ,)))))
+
+
+root(ROOT-0, so-1)
+mark(have-4, if-2)
+nsubj(have-4, you-3)
+dep(so-1, have-4)
+det(leads-6, any-5)
+dobj(have-4, leads-6)
+
+
+(ROOT
+  (S
+    (VP (VB let)
+      (SBAR
+        (S
+          (NP (PRP me))
+          (VP (VBP know)))))
+    (. .)))
+
+
+root(ROOT-0, let-1)
+nsubj(know-3, me-2)
+ccomp(let-1, know-3)
+
+

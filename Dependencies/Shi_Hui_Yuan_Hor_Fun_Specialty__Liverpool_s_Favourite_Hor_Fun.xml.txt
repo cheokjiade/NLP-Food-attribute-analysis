@@ -1,0 +1,111 @@
+(ROOT
+  (S
+    (NP
+      (NP (NNP Mention) (NNP Mei) (NNP Ling) (NNP Food) (NNP Centre))
+      (CC and)
+      (NP
+        (NP (DT the) (CD one) (NN stall))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP (VBZ comes)
+              (S
+                (VP (TO to)
+                  (VP (VB mind)))))))))
+    (VP (VBZ is)
+      (NP (DT the) (NNP Hor) (NNP Fun)))
+    (. .)))
+
+
+nn(Centre-5, Mention-1)
+nn(Centre-5, Mei-2)
+nn(Centre-5, Ling-3)
+nn(Centre-5, Food-4)
+nsubj(Fun-17, Centre-5)
+cc(Centre-5, and-6)
+det(stall-9, the-7)
+num(stall-9, one-8)
+conj(Centre-5, stall-9)
+nsubj(comes-11, that-10)
+rcmod(stall-9, comes-11)
+aux(mind-13, to-12)
+xcomp(comes-11, mind-13)
+cop(Fun-17, is-14)
+det(Fun-17, the-15)
+nn(Fun-17, Hor-16)
+root(ROOT-0, Fun-17)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (ADVP (RB probably))
+    (VP (MD would) (RB not)
+      (VP (VB know)
+        (NP
+          (NP (DT the) (NN name))
+          (PP (IN of)
+            (NP (DT the) (NNP Hor) (NNP Fun) (NN stall))))
+        (SBAR (IN as)
+          (S
+            (NP (JJS most) (NNS people))
+            (VP (MD would)
+              (ADVP (RB simply))
+              (VP (VB refer)
+                (PP (TO to)
+                  (NP (PRP them)))
+                (PP (IN as) (`` ``)
+                  (ADJP (JJ Nor)))))))))
+    (, ,)))
+
+
+nsubj(know-5, You-1)
+advmod(know-5, probably-2)
+aux(know-5, would-3)
+neg(know-5, not-4)
+root(ROOT-0, know-5)
+det(name-7, the-6)
+dobj(know-5, name-7)
+prep(name-7, of-8)
+det(stall-12, the-9)
+nn(stall-12, Hor-10)
+nn(stall-12, Fun-11)
+pobj(of-8, stall-12)
+mark(refer-18, as-13)
+amod(people-15, most-14)
+nsubj(refer-18, people-15)
+aux(refer-18, would-16)
+advmod(refer-18, simply-17)
+advcl(know-5, refer-18)
+prep(refer-18, to-19)
+pobj(to-19, them-20)
+prep(refer-18, as-21)
+pobj(as-21, Nor-23)
+
+
+(ROOT
+  (NP
+    (NP (DT that) (NNP Hor) (NNP Fun))
+    (PP (IN from)
+      (NP (NNP Mei) (NNP Ling) (NNP St) (NNP Food) (NNP Centre) (NN lor)))
+    (. !)))
+
+
+det(Fun-3, that-1)
+nn(Fun-3, Hor-2)
+root(ROOT-0, Fun-3)
+prep(Fun-3, from-4)
+nn(lor-10, Mei-5)
+nn(lor-10, Ling-6)
+nn(lor-10, St-7)
+nn(lor-10, Food-8)
+nn(lor-10, Centre-9)
+pobj(from-4, lor-10)
+
+
+(ROOT
+  (INTJ (UH '')))
+
+
+
+

@@ -1,0 +1,334 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (VP (VBN known)
+        (PP (IN for)
+          (NP (DT a) (JJ long) (NN while)))
+        (SBAR
+          (ADVP (RB now))
+          (IN that)
+          (S
+            (NP
+              (NP (DT a) (NN lot))
+              (PP (IN of)
+                (NP
+                  (NP (DT the) (NNS kakis))
+                  (SBAR
+                    (S
+                      (NP (PRP you))
+                      (VP (VBP see)
+                        (PP (IN on)
+                          (NP (DT this) (NN blog)))))))))
+            (VP (VBP are)
+              (NP (NNP Teochew)))))))
+    (. .)))
+
+
+nsubj(known-3, I-1)
+aux(known-3, have-2)
+root(ROOT-0, known-3)
+prep(known-3, for-4)
+det(while-7, a-5)
+amod(while-7, long-6)
+pobj(for-4, while-7)
+advmod(Teochew-21, now-8)
+mark(Teochew-21, that-9)
+det(lot-11, a-10)
+nsubj(Teochew-21, lot-11)
+prep(lot-11, of-12)
+det(kakis-14, the-13)
+pobj(of-12, kakis-14)
+nsubj(see-16, you-15)
+rcmod(kakis-14, see-16)
+prep(see-16, on-17)
+det(blog-19, this-18)
+pobj(on-17, blog-19)
+cop(Teochew-21, are-20)
+advcl(known-3, Teochew-21)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Smart))
+    (, ,)))
+
+
+root(ROOT-0, Smart-1)
+
+
+(ROOT
+  (NP (NNP Cactuskit) (NNP ,)))
+
+
+nn(,-2, Cactuskit-1)
+
+
+(ROOT
+  (NP (NNP Fashionfoodie) (NNP ,)))
+
+
+nn(,-2, Fashionfoodie-1)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Wahcow))
+    (, ,)))
+
+
+root(ROOT-0, Wahcow-1)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Damien))
+    (, ,)))
+
+
+root(ROOT-0, Damien-1)
+
+
+(ROOT
+  (NP
+    (NP (NNS Jencooks))
+    (NP (NNP and) (NNP Amagada) (, ,))))
+
+
+root(ROOT-0, Jencooks-1)
+nn(Amagada-3, and-2)
+dep(Jencooks-1, Amagada-3)
+
+
+(ROOT
+  (S
+    (VP
+      (ADVP (RB just))
+      (S
+        (VP (TO to)
+          (VP (VB name)
+            (NP (DT a) (JJ few))
+            (PP (IN from)
+              (NP
+                (NP (DT the) (NN top))
+                (PP (IN of)
+                  (NP (PRP$ my) (NN head)))))))))
+    (. .)))
+
+
+root(ROOT-0, just-1)
+aux(name-3, to-2)
+xcomp(just-1, name-3)
+det(few-5, a-4)
+dobj(name-3, few-5)
+prep(name-3, from-6)
+det(top-8, the-7)
+pobj(from-6, top-8)
+prep(top-8, of-9)
+poss(head-11, my-10)
+pobj(of-9, head-11)
+
+
+(ROOT
+  (FRAG
+    (NP
+      (NP (PRP I))
+      (SBAR
+        (S
+          (NP (PRP myself))
+          (VP (VBP am)
+            (NP
+              (NP (JJ true) (NN blue))
+              (ADJP (CD 100) (NN %)))))))))
+
+
+root(ROOT-0, I-1)
+nsubj(blue-5, myself-2)
+cop(blue-5, am-3)
+amod(blue-5, true-4)
+rcmod(I-1, blue-5)
+number(%-7, 100-6)
+amod(blue-5, %-7)
+
+
+(ROOT
+  (S
+    (VP (VB Teochew)
+      (ADVP (RB as) (RB well)))
+    (. .)))
+
+
+root(ROOT-0, Teochew-1)
+advmod(well-3, as-2)
+advmod(Teochew-1, well-3)
+
+
+(ROOT
+  (S (IN So)
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADVP (RB just))
+      (VP (VBG wondering)
+        (SBAR (IN if)
+          (S
+            (NP (PRP it))
+            (VP (VBZ is)
+              (ADVP (RB just))
+              (NP
+                (NP (DT a) (NN matter))
+                (PP (IN of)
+                  (NP (NN coincidence))))
+              (SBAR (IN that)
+                (S
+                  (NP (PRP$ our) (NN group))
+                  (VP
+                    (VP (VBP happen)
+                      (S
+                        (VP (TO to)
+                          (VP (VB have)
+                            (NP
+                              (NP (DT a) (NN lot))
+                              (PP (IN of)
+                                (NP (NNP Teochews))))))))
+                    (CC or)
+                    (VP (VBZ is)
+                      (NP (PRP it)))
+                    (NP
+                      (NP (DT a) (NN representation))
+                      (PP (IN of)
+                        (NP
+                          (NP (DT the) (JJR wider) (NN audience))
+                          (VP (VBG reading)
+                            (NP (DT the) (NN blog))))))))))))))
+    (. ?)))
+
+
+dep(wondering-5, So-1)
+nsubj(wondering-5, I-2)
+aux(wondering-5, am-3)
+advmod(wondering-5, just-4)
+root(ROOT-0, wondering-5)
+mark(matter-11, if-6)
+nsubj(matter-11, it-7)
+cop(matter-11, is-8)
+advmod(matter-11, just-9)
+det(matter-11, a-10)
+advcl(wondering-5, matter-11)
+prep(matter-11, of-12)
+pobj(of-12, coincidence-13)
+mark(happen-17, that-14)
+poss(group-16, our-15)
+nsubj(happen-17, group-16)
+ccomp(matter-11, happen-17)
+aux(have-19, to-18)
+xcomp(happen-17, have-19)
+det(lot-21, a-20)
+dobj(have-19, lot-21)
+prep(lot-21, of-22)
+pobj(of-22, Teochews-23)
+cc(happen-17, or-24)
+cop(it-26, is-25)
+conj(happen-17, it-26)
+det(representation-28, a-27)
+dobj(happen-17, representation-28)
+prep(representation-28, of-29)
+det(audience-32, the-30)
+amod(audience-32, wider-31)
+pobj(of-29, audience-32)
+partmod(audience-32, reading-33)
+det(blog-35, the-34)
+dobj(reading-33, blog-35)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (MD would)
+      (VP (VB be)
+        (ADJP (JJ fun)
+          (S
+            (VP (TO to)
+              (VP (VB find)
+                (PRT (RP out))
+                (PP (IN with)
+                  (NP (DT a) (NN poll)))
+                (NP (JJ next) (NN week))))))))
+    (, ,)))
+
+
+nsubj(fun-4, It-1)
+aux(fun-4, would-2)
+cop(fun-4, be-3)
+root(ROOT-0, fun-4)
+aux(find-6, to-5)
+xcomp(fun-4, find-6)
+prt(find-6, out-7)
+prep(find-6, with-8)
+det(poll-10, a-9)
+pobj(with-8, poll-10)
+amod(week-12, next-11)
+tmod(find-6, week-12)
+
+
+(ROOT
+  (S (CC but)
+    (NP (PRP I))
+    (VP (MD would)
+      (VP (VB need)
+        (S
+          (VP (TO to)
+            (VP (VB shortlist)
+              (NP (DT the) (JJ top) (CD 5) (NN dialect) (NNS groups))
+              (SBAR (IN before)
+                (S
+                  (NP (PRP we))
+                  (VP (MD can)
+                    (VP (VB start))))))))))
+    (. .)))
+
+
+cc(need-4, but-1)
+nsubj(need-4, I-2)
+aux(need-4, would-3)
+root(ROOT-0, need-4)
+aux(shortlist-6, to-5)
+xcomp(need-4, shortlist-6)
+det(groups-11, the-7)
+amod(groups-11, top-8)
+num(groups-11, 5-9)
+nn(groups-11, dialect-10)
+dobj(shortlist-6, groups-11)
+mark(start-15, before-12)
+nsubj(start-15, we-13)
+aux(start-15, can-14)
+advcl(shortlist-6, start-15)
+
+
+(ROOT
+  (S (RB So)
+    (VP (VB let)
+      (SBAR
+        (S
+          (NP (PRP us))
+          (VP (VBP know)
+            (SBAR
+              (WHNP (WDT which) (JJ dialect) (NN group))
+              (S
+                (NP (PRP you))
+                (VP (VBP belong)
+                  (PP (TO to)))))))))
+    (. !)))
+
+
+advmod(let-2, So-1)
+root(ROOT-0, let-2)
+nsubj(know-4, us-3)
+ccomp(let-2, know-4)
+det(group-7, which-5)
+amod(group-7, dialect-6)
+pobj(to-10, group-7)
+nsubj(belong-9, you-8)
+ccomp(know-4, belong-9)
+prep(belong-9, to-10)
+
+

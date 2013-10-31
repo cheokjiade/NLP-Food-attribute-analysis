@@ -1,0 +1,281 @@
+(ROOT
+  (NP
+    (NP (DT A)
+      (ADJP (RB very) (JJ warm)))
+    (ADJP (JJ welcome)
+      (PP (TO to)
+        (NP (NNP Channel) (NNP News) (NNP Asia) (NNS viewers)
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP (VBP are)
+                (VP (VBG visiting)
+                  (NP (PRP$ our) (NN blog))
+                  (PP (IN after)
+                    (S
+                      (VP (VBG seeing)
+                        (NP
+                          (NP (DT the) (NN feature))
+                          (PP (IN on)
+                            (NP (NNP PrimeTime))))
+                        (NP (DT this) (NN morning))))))))))))
+    (. .)))
+
+
+det(warm-3, A-1)
+advmod(warm-3, very-2)
+root(ROOT-0, warm-3)
+amod(warm-3, welcome-4)
+prep(welcome-4, to-5)
+nn(viewers-9, Channel-6)
+nn(viewers-9, News-7)
+nn(viewers-9, Asia-8)
+pobj(to-5, viewers-9)
+nsubj(visiting-12, who-10)
+aux(visiting-12, are-11)
+ccomp(viewers-9, visiting-12)
+poss(blog-14, our-13)
+dobj(visiting-12, blog-14)
+prep(visiting-12, after-15)
+pcomp(after-15, seeing-16)
+det(feature-18, the-17)
+dobj(seeing-16, feature-18)
+prep(feature-18, on-19)
+pobj(on-19, PrimeTime-20)
+det(morning-22, this-21)
+tmod(seeing-16, morning-22)
+
+
+(ROOT
+  (FRAG
+    (PP (IN For)
+      (NP
+        (NP (DT a) (JJ quick) (NN introduction))
+        (PP (TO to)
+          (NP
+            (NP (DT the) (NNS hightlights))
+            (PP (IN of)
+              (NP (DT the) (NN blog)))))))
+    (, ,)))
+
+
+root(ROOT-0, For-1)
+det(introduction-4, a-2)
+amod(introduction-4, quick-3)
+pobj(For-1, introduction-4)
+prep(introduction-4, to-5)
+det(hightlights-7, the-6)
+pobj(to-5, hightlights-7)
+prep(hightlights-7, of-8)
+det(blog-10, the-9)
+pobj(of-8, blog-10)
+
+
+(ROOT
+  (S
+    (INTJ (VB please))
+    (VP (VB click)
+      (ADVP (RB here)))
+    (. .)))
+
+
+discourse(click-2, please-1)
+root(ROOT-0, click-2)
+advmod(click-2, here-3)
+
+
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB read)
+          (NP
+            (NP (DT the) (NN cover) (NN story))
+            (PP (IN of)
+              (NP (NN ieatishootipost))))
+          (PP (IN on)
+            (NP
+              (NP (NNP Lian) (PRP He) (NNP Zao) (NNP Bao))
+              (PRN (-LRB- -LRB-)
+                (PP (IN with)
+                  (NP (JJ English) (NN translation)))
+                (-RRB- -RRB-)))))))
+    (VP (VBZ click)
+      (ADVP (RB here)))
+    (. .)))
+
+
+aux(read-2, To-1)
+csubj(click-18, read-2)
+det(story-5, the-3)
+nn(story-5, cover-4)
+dobj(read-2, story-5)
+prep(story-5, of-6)
+pobj(of-6, ieatishootipost-7)
+prep(read-2, on-8)
+nn(Bao-12, Lian-9)
+dep(Bao-12, He-10)
+nn(Bao-12, Zao-11)
+pobj(on-8, Bao-12)
+prep(Bao-12, with-14)
+amod(translation-16, English-15)
+pobj(with-14, translation-16)
+root(ROOT-0, click-18)
+advmod(click-18, here-19)
+
+
+(ROOT
+  (PP (IN For)
+    (NP
+      (NP (JJR more) (NNS suggestions))
+      (PP (IN on)
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (VP (TO to)
+              (VP (VB eat))))))
+      (, ,))))
+
+
+root(ROOT-0, For-1)
+amod(suggestions-3, more-2)
+pobj(For-1, suggestions-3)
+prep(suggestions-3, on-4)
+advmod(eat-7, where-5)
+aux(eat-7, to-6)
+pcomp(on-4, eat-7)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (MD might)
+      (ADVP (RB also))
+      (VP (VB want)
+        (S
+          (VP (TO to)
+            (VP (VB join)
+              (NP
+                (NP (PRP$ our) (VBG growing) (NN community))
+                (PP (IN of)
+                  (NP
+                    (NP (NNS foodies))
+                    (PP (IN in)
+                      (NP (DT the) (NN forum)))))))))))
+    (. .)))
+
+
+nsubj(want-4, you-1)
+aux(want-4, might-2)
+advmod(want-4, also-3)
+root(ROOT-0, want-4)
+aux(join-6, to-5)
+xcomp(want-4, join-6)
+poss(community-9, our-7)
+amod(community-9, growing-8)
+dobj(join-6, community-9)
+prep(community-9, of-10)
+pobj(of-10, foodies-11)
+prep(foodies-11, in-12)
+det(forum-14, the-13)
+pobj(in-12, forum-14)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB So))
+    (SBAR (IN if)
+      (S
+        (NP (PRP you))
+        (VP (VBP are)
+          (ADVP (RB here))
+          (PP (IN for)
+            (NP (DT the) (JJ first) (NN time))))
+        (, ,)))))
+
+
+root(ROOT-0, So-1)
+mark(are-4, if-2)
+nsubj(are-4, you-3)
+dep(So-1, are-4)
+advmod(are-4, here-5)
+prep(are-4, for-6)
+det(time-9, the-7)
+amod(time-9, first-8)
+pobj(for-6, time-9)
+
+
+(ROOT
+  (SQ (MD may)
+    (NP (PRP I))
+    (ADVP (RB warmly))
+    (VP
+      (VP (VB welcome)
+        (NP (PRP you)))
+      (CC and)
+      (VP (VB hope)
+        (S
+          (NP (PRP you))
+          (VP (VB find)
+            (S
+              (NP (NN something))
+              (ADJP (JJ good)
+                (S
+                  (VP (TO to)
+                    (VP (VB eat))))))))))
+    (. !)))
+
+
+aux(welcome-4, may-1)
+nsubj(welcome-4, I-2)
+advmod(welcome-4, warmly-3)
+root(ROOT-0, welcome-4)
+dobj(welcome-4, you-5)
+cc(welcome-4, and-6)
+conj(welcome-4, hope-7)
+nsubj(find-9, you-8)
+ccomp(hope-7, find-9)
+nsubj(good-11, something-10)
+xcomp(find-9, good-11)
+aux(eat-13, to-12)
+xcomp(good-11, eat-13)
+
+
+(ROOT
+  (S
+    (NP (NNP Finally))
+    (VP (VBD managed)
+      (S
+        (VP (TO to)
+          (VP (VB get)
+            (NP
+              (NP (DT a) (NN clip))
+              (PP (IN of)
+                (NP (PRP it))))))))
+    (. !)))
+
+
+nsubj(managed-2, Finally-1)
+root(ROOT-0, managed-2)
+aux(get-4, to-3)
+xcomp(managed-2, get-4)
+det(clip-6, a-5)
+dobj(get-4, clip-6)
+prep(clip-6, of-7)
+pobj(of-7, it-8)
+
+
+(ROOT
+  (SINV
+    (ADVP (RB Here))
+    (VP (VBZ 's))
+    (NP (DT the) (NN transcript))
+    (: :)))
+
+
+advmod('s-2, Here-1)
+root(ROOT-0, 's-2)
+det(transcript-4, the-3)
+nsubj('s-2, transcript-4)
+
+

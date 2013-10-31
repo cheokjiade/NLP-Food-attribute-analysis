@@ -1,0 +1,168 @@
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBD was)
+      (ADJP (JJ such)
+        (SBAR
+          (S
+            (NP (DT an) (JJ unexpected))
+            (VP (VBP find))))))
+    (. .)))
+
+
+nsubj(such-3, This-1)
+cop(such-3, was-2)
+root(ROOT-0, such-3)
+det(unexpected-5, an-4)
+nsubj(find-6, unexpected-5)
+ccomp(such-3, find-6)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD could)
+      (VP (VB tell)
+        (NP (PRP you))
+        (PP (IN about)
+          (SBAR
+            (WHADVP (WRB how))
+            (S
+              (NP (DT the) (NN stall))
+              (VP (VBZ is)
+                (ADJP
+                  (NP (CD three) (NNS generations))
+                  (JJ old))))))))
+    (, ,)))
+
+
+nsubj(tell-3, I-1)
+aux(tell-3, could-2)
+root(ROOT-0, tell-3)
+dobj(tell-3, you-4)
+prep(tell-3, about-5)
+advmod(old-12, how-6)
+det(stall-8, the-7)
+nsubj(old-12, stall-8)
+cop(old-12, is-9)
+num(generations-11, three-10)
+npadvmod(old-12, generations-11)
+pcomp(about-5, old-12)
+
+
+(ROOT
+  (S
+    (VP (VBN founded)
+      (PP (IN by)
+        (NP
+          (NP (DT the) (NN grandpa))
+          (PP (IN in)
+            (NP (CD 1966))))))
+    (. .)))
+
+
+root(ROOT-0, founded-1)
+prep(founded-1, by-2)
+det(grandpa-4, the-3)
+pobj(by-2, grandpa-4)
+prep(grandpa-4, in-5)
+pobj(in-5, 1966-6)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD could)
+      (VP (VB tell)
+        (NP (PRP you))
+        (PP (IN about)
+          (SBAR
+            (WHADVP (WRB how))
+            (S
+              (NP (PRP they))
+              (VP (VB remove)
+                (NP
+                  (NP (DT the) (NN skin))
+                  (PP (IN from)
+                    (NP (DT the) (NN soy) (NNS beans))))
+                (S
+                  (VP (TO to)
+                    (VP (VB make)
+                      (ADJP (JJ sure)
+                        (SBAR
+                          (S
+                            (NP (PRP you))
+                            (VP (VBP do) (RB n't)
+                              (VP (VB get)
+                                (NP (DT that) (JJ waxy) (NN taste))
+                                (PP (IN in)
+                                  (NP (PRP$ your) (NN mouth)))))))))))))))))
+    (. .)))
+
+
+nsubj(tell-3, I-1)
+aux(tell-3, could-2)
+root(ROOT-0, tell-3)
+dobj(tell-3, you-4)
+prep(tell-3, about-5)
+advmod(remove-8, how-6)
+nsubj(remove-8, they-7)
+pcomp(about-5, remove-8)
+det(skin-10, the-9)
+dobj(remove-8, skin-10)
+prep(skin-10, from-11)
+det(beans-14, the-12)
+nn(beans-14, soy-13)
+pobj(from-11, beans-14)
+aux(make-16, to-15)
+xcomp(remove-8, make-16)
+acomp(make-16, sure-17)
+nsubj(get-21, you-18)
+aux(get-21, do-19)
+neg(get-21, n't-20)
+ccomp(sure-17, get-21)
+det(taste-24, that-22)
+amod(taste-24, waxy-23)
+dobj(get-21, taste-24)
+prep(get-21, in-25)
+poss(mouth-27, your-26)
+pobj(in-25, mouth-27)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD could)
+      (VP (VB tell)
+        (NP (PRP you))
+        (PP (IN about)
+          (SBAR
+            (WHADVP (WRB how))
+            (S
+              (NP (PRP they))
+              (VP (VBP use)
+                (NP (CD four) (NNS ingredients))
+                (S
+                  (VP (TO to)
+                    (VP (VB make)
+                      (NP (DT the) (NN sugar) (NN syrup)))))))))))
+    (. .)))
+
+
+nsubj(tell-3, I-1)
+aux(tell-3, could-2)
+root(ROOT-0, tell-3)
+dobj(tell-3, you-4)
+prep(tell-3, about-5)
+advmod(use-8, how-6)
+nsubj(use-8, they-7)
+pcomp(about-5, use-8)
+num(ingredients-10, four-9)
+dobj(use-8, ingredients-10)
+aux(make-12, to-11)
+xcomp(use-8, make-12)
+det(syrup-15, the-13)
+nn(syrup-15, sugar-14)
+dobj(make-12, syrup-15)
+
+

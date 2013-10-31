@@ -1,0 +1,1579 @@
+(ROOT
+  (S
+    (NP
+      (NP (NNP Report))
+      (CC and)
+      (NP
+        (NP (NNS photos))
+        (PP (IN by)
+          (NP (NNP Joao) (NNP I)))))
+    (VP (MD 'll)
+      (VP (VB make)
+        (NP
+          (NP (DT no) (NN secret))
+          (PP (IN of)
+            (NP (DT the) (NN fact))))
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP (PRP$ my) (JJ first) (NN visit))
+              (PP (TO to)
+                (NP (NNP Sole) (NNP Pomodoro))))
+            (VP (VBD changed)
+              (NP
+                (NP (DT the) (NN way))
+                (SBAR
+                  (S
+                    (NP (PRP I))
+                    (VP (VBD perceived)
+                      (NP (NN pizza) (NNS crusts)))))))))))
+    (. .)))
+
+
+nsubj(make-8, Report-1)
+cc(Report-1, and-2)
+conj(Report-1, photos-3)
+prep(photos-3, by-4)
+nn(I-6, Joao-5)
+pobj(by-4, I-6)
+aux(make-8, 'll-7)
+root(ROOT-0, make-8)
+det(secret-10, no-9)
+dobj(make-8, secret-10)
+prep(secret-10, of-11)
+det(fact-13, the-12)
+pobj(of-11, fact-13)
+mark(changed-21, that-14)
+poss(visit-17, my-15)
+amod(visit-17, first-16)
+nsubj(changed-21, visit-17)
+prep(visit-17, to-18)
+nn(Pomodoro-20, Sole-19)
+pobj(to-18, Pomodoro-20)
+ccomp(make-8, changed-21)
+det(way-23, the-22)
+dobj(changed-21, way-23)
+nsubj(perceived-25, I-24)
+rcmod(way-23, perceived-25)
+nn(crusts-27, pizza-26)
+dobj(perceived-25, crusts-27)
+
+
+(ROOT
+  (PP (IN Up)
+    (PP (TO to)
+      (SBAR
+        (WHNP (WDT that) (NN point))
+        (S
+          (NP (PRP I))
+          (VP (VBD had)
+            (ADVP (RB only))
+            (VP
+              (ADVP (RB ever))
+              (VBN eaten)
+              (NP (JJ just-palatable) (NN pizza) (NNS crusts))))
+          (, ,))))))
+
+
+root(ROOT-0, Up-1)
+pcomp(Up-1, to-2)
+det(point-4, that-3)
+dobj(eaten-9, point-4)
+nsubj(eaten-9, I-5)
+aux(eaten-9, had-6)
+advmod(eaten-9, only-7)
+advmod(eaten-9, ever-8)
+pcomp(to-2, eaten-9)
+amod(crusts-12, just-palatable-10)
+nn(crusts-12, pizza-11)
+dobj(eaten-9, crusts-12)
+
+
+(ROOT
+  (S
+    (NP (NNP and))
+    (VP (VBD was)
+      (PP (IN of)
+        (NP (DT the) (JJ misguided) (NN opinion)))
+      (SBAR (IN that)
+        (S
+          (NP (NN crust))
+          (VP (VBD was)
+            (ADVP (RB merely))
+            (NP
+              (NP (DT a) (NN delivery) (NN vehicle))
+              (PP (IN for)
+                (S
+                  (VP (VBG topping) (: --)
+                    (S
+                      (NP
+                        (NP (DT a) (NN waste))
+                        (PP (IN of)
+                          (NP (NNS carbs))))
+                      (VP (TO to)
+                        (VP (VB be)
+                          (VP (VBN avoided)
+                            (SBAR (IN if)
+                              (FRAG
+                                (ADJP (JJ possible))))))))))))))))
+    (. .)))
+
+
+nsubj(was-2, and-1)
+root(ROOT-0, was-2)
+prep(was-2, of-3)
+det(opinion-6, the-4)
+amod(opinion-6, misguided-5)
+pobj(of-3, opinion-6)
+mark(vehicle-13, that-7)
+nsubj(vehicle-13, crust-8)
+cop(vehicle-13, was-9)
+advmod(vehicle-13, merely-10)
+det(vehicle-13, a-11)
+nn(vehicle-13, delivery-12)
+ccomp(was-2, vehicle-13)
+prep(vehicle-13, for-14)
+pcomp(for-14, topping-15)
+det(waste-18, a-17)
+nsubjpass(avoided-23, waste-18)
+prep(waste-18, of-19)
+pobj(of-19, carbs-20)
+aux(avoided-23, to-21)
+auxpass(avoided-23, be-22)
+parataxis(topping-15, avoided-23)
+mark(possible-25, if-24)
+advcl(avoided-23, possible-25)
+
+
+(ROOT
+  (FRAG
+    (WHADVP (WRB How))
+    (ADJP (JJ naïve))))
+
+
+dep(naïve-2, How-1)
+root(ROOT-0, naïve-2)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD was))
+    (. !)))
+
+
+nsubj(was-2, I-1)
+root(ROOT-0, was-2)
+
+
+(ROOT
+  (S
+    (NP (NNP Sole) (NNP Pomodoro))
+    (VP (VBD was)
+      (NP (PRP$ my) (NN introduction))
+      (PP (TO to)
+        (NP
+          (NP (NN pizza) (NN crust))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (VBD had)
+                (VP (VBN progressed)
+                  (PP (IN from)
+                    (NP (JJ mere) (JJ supporting) (NN cast)))
+                  (PP (TO to)
+                    (NP (JJ co-starring) (NN role))))))))))
+    (. .)))
+
+
+nn(Pomodoro-2, Sole-1)
+nsubj(introduction-5, Pomodoro-2)
+cop(introduction-5, was-3)
+poss(introduction-5, my-4)
+root(ROOT-0, introduction-5)
+prep(introduction-5, to-6)
+nn(crust-8, pizza-7)
+pobj(to-6, crust-8)
+nsubj(progressed-11, that-9)
+aux(progressed-11, had-10)
+rcmod(crust-8, progressed-11)
+prep(progressed-11, from-12)
+amod(cast-15, mere-13)
+amod(cast-15, supporting-14)
+pobj(from-12, cast-15)
+prep(progressed-11, to-16)
+amod(role-18, co-starring-17)
+pobj(to-16, role-18)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP mean))
+    (, ,)))
+
+
+nsubj(mean-2, I-1)
+root(ROOT-0, mean-2)
+
+
+(ROOT
+  (FRAG
+    (NP (DT every) (NN time)
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (VBP dine)
+            (PP (IN at)
+              (NP (NNP Sole) (NNP Pomodoro)))))))))
+
+
+det(time-2, every-1)
+root(ROOT-0, time-2)
+nsubj(dine-4, I-3)
+ccomp(time-2, dine-4)
+prep(dine-4, at-5)
+nn(Pomodoro-7, Sole-6)
+pobj(at-5, Pomodoro-7)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP find)
+      (S
+        (NP (PRP myself))
+        (VP (VBG finishing)
+          (S
+            (NP
+              (NP (DT every) (NN bit))
+              (PP (IN of)
+                (NP (NN pizza))))
+            (VP (NN crust)
+              (SBAR (RB even) (IN if)
+                (S
+                  (NP (PRP I))
+                  (VP (VBP 'm)
+                    (ADVP (RB already))
+                    (ADJP (JJ full))))))))))
+    (. .)))
+
+
+nsubj(find-2, I-1)
+root(ROOT-0, find-2)
+nsubj(finishing-4, myself-3)
+dep(find-2, finishing-4)
+det(bit-6, every-5)
+nsubj(crust-9, bit-6)
+prep(bit-6, of-7)
+pobj(of-7, pizza-8)
+ccomp(finishing-4, crust-9)
+advmod(full-15, even-10)
+mark(full-15, if-11)
+nsubj(full-15, I-12)
+cop(full-15, 'm-13)
+advmod(full-15, already-14)
+advcl(crust-9, full-15)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP do) (RB n't)
+      (VP (VB know)
+        (SBAR
+          (WHNP (WP what))
+          (S
+            (NP (PRP they))
+            (VP (VBD put)
+              (PP (IN in)
+                (NP (PRP$ their) (NN pizza) (NN dough))))))))
+    (, ,)))
+
+
+nsubj(know-4, I-1)
+aux(know-4, do-2)
+neg(know-4, n't-3)
+root(ROOT-0, know-4)
+dobj(put-7, what-5)
+nsubj(put-7, they-6)
+ccomp(know-4, put-7)
+prep(put-7, in-8)
+poss(dough-11, their-9)
+nn(dough-11, pizza-10)
+pobj(in-8, dough-11)
+
+
+(ROOT
+  (S (CC but)
+    (NP (DT this) (NN stuff))
+    (VP (VBZ is)
+      (ADJP (JJ addictive)))
+    (. !)))
+
+
+cc(addictive-5, but-1)
+det(stuff-3, this-2)
+nsubj(addictive-5, stuff-3)
+cop(addictive-5, is-4)
+root(ROOT-0, addictive-5)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ 's)
+      (ADVP (RB just))
+      (NP (NN bread) (NN right)))
+    (. ?)))
+
+
+nsubj(right-5, It-1)
+cop(right-5, 's-2)
+advmod(right-5, just-3)
+nn(right-5, bread-4)
+root(ROOT-0, right-5)
+
+
+(ROOT
+  (SBARQ
+    (WHADVP
+      (ADVP (RB Then))
+      (WRB why))
+    (SQ (MD ca) (RB n't)
+      (NP (PRP I))
+      (VP (VB stop)
+        (S
+          (VP (VBG eating)
+            (S
+              (NP (PRP it))
+              (ADJP (JJ ?!))
+              (PP (IN Over)
+                (NP
+                  (NP (DT the) (NN weekend))
+                  (NP
+                    (NP (DT a) (JJ few) (NNS readers))
+                    (PP (IN of)
+                      (NP (DT the) (NN blog)))))
+                (, ,)))))))))
+
+
+advmod(why-2, Then-1)
+advmod(stop-6, why-2)
+aux(stop-6, ca-3)
+neg(stop-6, n't-4)
+nsubj(stop-6, I-5)
+root(ROOT-0, stop-6)
+xcomp(stop-6, eating-7)
+nsubj(?!-9, it-8)
+xcomp(eating-7, ?!-9)
+dep(?!-9, Over-10)
+det(weekend-12, the-11)
+pobj(Over-10, weekend-12)
+det(readers-15, a-13)
+amod(readers-15, few-14)
+dep(weekend-12, readers-15)
+prep(readers-15, of-16)
+det(blog-18, the-17)
+pobj(of-16, blog-18)
+
+
+(ROOT
+  (S
+    (NP (PRP myself))
+    (VP (VBD included))
+    (, ,)))
+
+
+nsubj(included-2, myself-1)
+root(ROOT-0, included-2)
+
+
+(ROOT
+  (S
+    (VP (VBD attended)
+      (SBAR
+        (S
+          (NP (DT a) (JJ special) (NN pizza) (NN tasting) (NN session))
+          (VP (VBD held)
+            (PP (IN at)
+              (NP (NNP Sole) (NNP Pomodoro)))
+            (SBAR
+              (WHADVP (WRB where))
+              (S
+                (NP (PRP we))
+                (VP (VBD gained)
+                  (NP (DT some) (NN insight))
+                  (PP (IN into)
+                    (NP (DT this) (NN mystery))))))))))
+    (. .)))
+
+
+root(ROOT-0, attended-1)
+det(session-6, a-2)
+amod(session-6, special-3)
+nn(session-6, pizza-4)
+nn(session-6, tasting-5)
+nsubj(held-7, session-6)
+ccomp(attended-1, held-7)
+prep(held-7, at-8)
+nn(Pomodoro-10, Sole-9)
+pobj(at-8, Pomodoro-10)
+advmod(gained-13, where-11)
+nsubj(gained-13, we-12)
+advcl(held-7, gained-13)
+det(insight-15, some-14)
+dobj(gained-13, insight-15)
+prep(gained-13, into-16)
+det(mystery-18, this-17)
+pobj(into-16, mystery-18)
+
+
+(ROOT
+  (PP (IN On)
+    (NP
+      (NP (DT the) (NN menu))
+      (: --)
+      (NP
+        (NP (CD two) (JJ different) (NNS kinds))
+        (PP (IN of)
+          (NP (NN pizza) (NN crust))))
+      (: ;))))
+
+
+root(ROOT-0, On-1)
+det(menu-3, the-2)
+pobj(On-1, menu-3)
+num(kinds-7, two-5)
+amod(kinds-7, different-6)
+dep(menu-3, kinds-7)
+prep(kinds-7, of-8)
+nn(crust-10, pizza-9)
+pobj(of-8, crust-10)
+
+
+(ROOT
+  (S
+    (NP (PRP one))
+    (VP (VBN based)
+      (PP (IN on)
+        (NP (JJ traditional) (NNP Neapolitan) (NN pizza)))
+      (, ,))))
+
+
+nsubj(based-2, one-1)
+root(ROOT-0, based-2)
+prep(based-2, on-3)
+amod(pizza-6, traditional-4)
+nn(pizza-6, Neapolitan-5)
+pobj(on-3, pizza-6)
+
+
+(ROOT
+  (FRAG (CC and)
+    (NP
+      (NP (DT the))
+      (ADJP
+        (ADJP (JJ other)
+          (PP (IN with)
+            (NP (JJR more) (JJ pan-Italian) (NN influence))))
+        (PRN (-LRB- -LRB-)
+          (ADVP (RB hereafter))
+          (ADJP (JJ known)
+            (PP (IN as)
+              (NP (DT the) (NNP Sole) (NNP Pomodoro) (NN crust))))
+          (, ,))))))
+
+
+cc(the-2, and-1)
+root(ROOT-0, the-2)
+amod(the-2, other-3)
+prep(other-3, with-4)
+amod(influence-7, more-5)
+amod(influence-7, pan-Italian-6)
+pobj(with-4, influence-7)
+dep(known-10, hereafter-9)
+dep(other-3, known-10)
+prep(known-10, as-11)
+det(crust-15, the-12)
+nn(crust-15, Sole-13)
+nn(crust-15, Pomodoro-14)
+pobj(as-11, crust-15)
+
+
+(ROOT
+  (S
+    (SBAR (IN since)
+      (S
+        (NP (PRP it))
+        (VP (VBZ 's)
+          (NP
+            (NP (DT the) (NN style))
+            (PP (IN of)
+              (NP (NN crust)))))))
+    (NP (PRP they))
+    (ADVP (RB usually))
+    (VP (VBP serve))
+    (-RRB- -RRB-) (. .)))
+
+
+mark(style-5, since-1)
+nsubj(style-5, it-2)
+cop(style-5, 's-3)
+det(style-5, the-4)
+advcl(serve-10, style-5)
+prep(style-5, of-6)
+pobj(of-6, crust-7)
+nsubj(serve-10, they-8)
+advmod(serve-10, usually-9)
+root(ROOT-0, serve-10)
+
+
+(ROOT
+  (SBARQ (RB So)
+    (WHADVP (WRB how))
+    (SQ
+      (VP (VBP do)
+        (SBAR
+          (S
+            (NP (DT the) (CD two))
+            (VP (VBP compare))))))
+    (. ?)))
+
+
+advmod(do-3, So-1)
+advmod(do-3, how-2)
+root(ROOT-0, do-3)
+det(two-5, the-4)
+nsubj(compare-6, two-5)
+ccomp(do-3, compare-6)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NNP Neapolitan) (NN crust))
+    (VP (VBZ is)
+      (ADJP
+        (ADJP (RBR more) (JJ dense))
+        (: --)
+        (ADJP (JJ chewier)))
+      (SBAR (IN if)
+        (S
+          (NP (PRP you))
+          (VP (MD will)))))
+    (, ,)))
+
+
+det(crust-3, The-1)
+nn(crust-3, Neapolitan-2)
+nsubj(dense-6, crust-3)
+cop(dense-6, is-4)
+advmod(dense-6, more-5)
+root(ROOT-0, dense-6)
+dep(dense-6, chewier-8)
+mark(will-11, if-9)
+nsubj(will-11, you-10)
+advcl(dense-6, will-11)
+
+
+(ROOT
+  (S
+    (NP (NNP and))
+    (VP (VBZ has)
+      (NP
+        (NP (DT a) (JJR larger) (NN rise))
+        (PP (IN than)
+          (NP (DT the) (NNP Sole) (NNP Pomodoro) (NN one)))))
+    (. .)))
+
+
+nsubj(has-2, and-1)
+root(ROOT-0, has-2)
+det(rise-5, a-3)
+amod(rise-5, larger-4)
+dobj(has-2, rise-5)
+prep(rise-5, than-6)
+det(one-10, the-7)
+nn(one-10, Sole-8)
+nn(one-10, Pomodoro-9)
+pobj(than-6, one-10)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Conversely))
+    (, ,)))
+
+
+root(ROOT-0, Conversely-1)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NNP Sole) (NNP Pomodoro) (NN crust))
+    (VP (VBZ is)
+      (ADJP (JJ crispier)))
+    (, ,)))
+
+
+det(crust-4, the-1)
+nn(crust-4, Sole-2)
+nn(crust-4, Pomodoro-3)
+nsubj(crispier-6, crust-4)
+cop(crispier-6, is-5)
+root(ROOT-0, crispier-6)
+
+
+(ROOT
+  (FRAG
+    (PP (IN thinner))
+    (, ,)))
+
+
+root(ROOT-0, thinner-1)
+
+
+(ROOT
+  (S
+    (VP (VB and)
+      (ADJP
+        (ADJP (RB not) (RB as) (JJ chewy))
+        (PRN (-LRB- -LRB-)
+          (S
+            (NP (PRP it))
+            (VP (VBD required)
+              (NP
+                (QP (RB about) (PDT half)))
+              (PP (IN as)
+                (NP (JJ much) (NNS chewing)))))
+          (-RRB- -RRB-))
+        (SBAR (IN as)
+          (S
+            (NP (PRP it))
+            (VP (VBZ 's)
+              (NP (`` ``) (JJ authentic) ('' '') (NN counterpart)))))))
+    (. .)))
+
+
+root(ROOT-0, and-1)
+neg(chewy-4, not-2)
+advmod(chewy-4, as-3)
+acomp(and-1, chewy-4)
+nsubj(required-7, it-6)
+dep(chewy-4, required-7)
+quantmod(half-9, about-8)
+dobj(required-7, half-9)
+prep(required-7, as-10)
+amod(chewing-12, much-11)
+pobj(as-10, chewing-12)
+mark(counterpart-20, as-14)
+nsubj(counterpart-20, it-15)
+cop(counterpart-20, 's-16)
+amod(counterpart-20, authentic-18)
+dep(chewy-4, counterpart-20)
+
+
+(ROOT
+  (PP (IN In)
+    (PP (IN between)
+      (NP (NNS pizzas)))))
+
+
+root(ROOT-0, In-1)
+pcomp(In-1, between-2)
+pobj(between-2, pizzas-3)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD managed)
+      (S
+        (NP
+          (PRN (-LRB- -LRB-)
+            (NP
+              (QP (RB just) (RB barely)))
+            (-RRB- -RRB-)))
+        (VP (TO to)
+          (VP (VB pull)
+            (NP (PRP myself))
+            (PRT (RP away))
+            (PP (IN from)
+              (NP
+                (NP (DT the) (NN food))
+                (PP (IN for)
+                  (NP
+                    (NP (DT a) (NN chat))
+                    (PP (IN with)
+                      (NP (DT the) (NNP Cugini) (NNS brothers)))))))
+            (PP (IN about)
+              (NP (PRP$ their) (NN decision)
+                (S
+                  (VP (TO to)
+                    (VP (VB serve)
+                      (NP
+                        (NP (DT the) (NNP Sole) (NNP Pomodoro) (NN crust))
+                        (PP (IN in)
+                          (NP
+                            (NP (NN lieu))
+                            (PP (IN of)
+                              (NP (DT a) (NNP VPN) (NNP styled) (NN one)))))))))))))))
+    (. .)))
+
+
+nsubj(managed-2, I-1)
+root(ROOT-0, managed-2)
+quantmod(barely-5, just-4)
+nsubj(pull-8, barely-5)
+aux(pull-8, to-7)
+xcomp(managed-2, pull-8)
+dobj(pull-8, myself-9)
+prt(pull-8, away-10)
+prep(pull-8, from-11)
+det(food-13, the-12)
+pobj(from-11, food-13)
+prep(food-13, for-14)
+det(chat-16, a-15)
+pobj(for-14, chat-16)
+prep(chat-16, with-17)
+det(brothers-20, the-18)
+nn(brothers-20, Cugini-19)
+pobj(with-17, brothers-20)
+prep(pull-8, about-21)
+poss(decision-23, their-22)
+pobj(about-21, decision-23)
+aux(serve-25, to-24)
+infmod(decision-23, serve-25)
+det(crust-29, the-26)
+nn(crust-29, Sole-27)
+nn(crust-29, Pomodoro-28)
+dobj(serve-25, crust-29)
+prep(crust-29, in-30)
+pobj(in-30, lieu-31)
+prep(lieu-31, of-32)
+det(one-36, a-33)
+nn(one-36, VPN-34)
+nn(one-36, styled-35)
+pobj(of-32, one-36)
+
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP
+        (ADJP (RB heavily) (JJ accented))
+        (NNP English)))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+advmod(accented-3, heavily-2)
+amod(English-4, accented-3)
+pobj(In-1, English-4)
+
+
+(ROOT
+  (S
+    (NP (NNP Mauro))
+    (VP (VBD explained)
+      (SBAR (IN that)
+        (S
+          (NP (PRP he))
+          (VP (VBD was)
+            (PP (IN from)
+              (NP (NNP Sicily)
+                (CC and)
+                (NNP Gerri)))
+            (VP (VBD was)
+              (PP (IN from)
+                (NP (NNP Sardinia)))
+              (PRN (: --)
+                (NP
+                  (NP (DT neither))
+                  (PP (IN of)
+                    (NP (PRP them)))
+                  (VP (VBN hailed))))
+              (PP (IN from)
+                (NP (NNP Naples))))))))
+    (, ,)))
+
+
+nsubj(explained-2, Mauro-1)
+root(ROOT-0, explained-2)
+mark(was-10, that-3)
+nsubjpass(was-10, he-4)
+auxpass(was-10, was-5)
+prep(was-10, from-6)
+pobj(from-6, Sicily-7)
+cc(Sicily-7, and-8)
+conj(Sicily-7, Gerri-9)
+ccomp(explained-2, was-10)
+prep(was-10, from-11)
+pobj(from-11, Sardinia-12)
+dep(was-10, neither-14)
+prep(neither-14, of-15)
+pobj(of-15, them-16)
+partmod(neither-14, hailed-17)
+prep(was-10, from-18)
+pobj(from-18, Naples-19)
+
+
+(ROOT
+  (NP
+    (NP (DT the) (NN birthplace))
+    (PP (IN of)
+      (NP (JJ modern) (NN pizza)))
+    (. .)))
+
+
+det(birthplace-2, the-1)
+root(ROOT-0, birthplace-2)
+prep(birthplace-2, of-3)
+amod(pizza-5, modern-4)
+pobj(of-3, pizza-5)
+
+
+(ROOT
+  (SBAR (IN While)
+    (S
+      (NP
+        (NP (DT the) (NNP Neapolitan) (NN style))
+        (PP (IN of)
+          (NP (NN crust))))
+      (VP (VBZ is)
+        (ADJP
+          (ADJP (RB undoubtedly) (RB probably) (JJR closer))
+          (PP (TO to)
+            (S
+              (VP (VBG being)
+                (VP (VBD descended)
+                  (PP (IN from)
+                    (NP (DT the) (JJ original))))))))
+        (, ,)))))
+
+
+mark(closer-10, While-1)
+det(style-4, the-2)
+nn(style-4, Neapolitan-3)
+nsubj(closer-10, style-4)
+prep(style-4, of-5)
+pobj(of-5, crust-6)
+cop(closer-10, is-7)
+advmod(closer-10, undoubtedly-8)
+advmod(closer-10, probably-9)
+root(ROOT-0, closer-10)
+prep(closer-10, to-11)
+auxpass(descended-13, being-12)
+pcomp(to-11, descended-13)
+prep(descended-13, from-14)
+det(original-16, the-15)
+pobj(from-14, original-16)
+
+
+(ROOT
+  (S
+    (NP (NNP Mauro))
+    (VP (VBD defended)
+      (NP
+        (NP (DT the) (NN authenticity))
+        (PP (IN of)
+          (NP (DT the) (NNP Sole) (NNP Pomodoro) (NN style) (NN crust)))))
+    (. .)))
+
+
+nsubj(defended-2, Mauro-1)
+root(ROOT-0, defended-2)
+det(authenticity-4, the-3)
+dobj(defended-2, authenticity-4)
+prep(authenticity-4, of-5)
+det(crust-10, the-6)
+nn(crust-10, Sole-7)
+nn(crust-10, Pomodoro-8)
+nn(crust-10, style-9)
+pobj(of-5, crust-10)
+
+
+(ROOT
+  (S
+    (NP (NNP Neapolitan) (PRP it))
+    (VP (MD may) (RB not)
+      (VP (VB be)))
+    (, ,)))
+
+
+nsubj(be-5, Neapolitan-1)
+dep(Neapolitan-1, it-2)
+aux(be-5, may-3)
+neg(be-5, not-4)
+root(ROOT-0, be-5)
+
+
+(ROOT
+  (S (CC but)
+    (NP (PRP it))
+    (VP (VBZ 's)
+      (ADVP (RB just))
+      (PP (IN as)
+        (NP (NNP Italian))
+        (, ,)))))
+
+
+cc('s-3, but-1)
+nsubj('s-3, it-2)
+root(ROOT-0, 's-3)
+advmod('s-3, just-4)
+prep('s-3, as-5)
+pobj(as-5, Italian-6)
+
+
+(ROOT
+  (FRAG
+    (ADVP (IN albeit)
+      (PP (IN with)
+        (NP (JJ non-Neapolitan) (NNS influences))))
+    (: ;)))
+
+
+root(ROOT-0, albeit-1)
+prep(albeit-1, with-2)
+amod(influences-4, non-Neapolitan-3)
+pobj(with-2, influences-4)
+
+
+(ROOT
+  (S
+    (PP (IN as)
+      (NP (JJ such)))
+    (NP (PRP you))
+    (VP (VBP 're)
+      (ADJP (JJ likely)
+        (S
+          (VP (TO to)
+            (VP (VB find)
+              (NP (JJ similar-styled) (NNS crusts))
+              (PP (IN in)
+                (NP
+                  (NP (NNS parts))
+                  (PP (IN of)
+                    (NP
+                      (NP (NNP Italy) (NN outside))
+                      (PP (IN of)
+                        (NP (NNP Naples))))))))))))
+    (. .)))
+
+
+prep(likely-5, as-1)
+pobj(as-1, such-2)
+nsubj(likely-5, you-3)
+cop(likely-5, 're-4)
+root(ROOT-0, likely-5)
+aux(find-7, to-6)
+xcomp(likely-5, find-7)
+amod(crusts-9, similar-styled-8)
+dobj(find-7, crusts-9)
+prep(find-7, in-10)
+pobj(in-10, parts-11)
+prep(parts-11, of-12)
+nn(outside-14, Italy-13)
+pobj(of-12, outside-14)
+prep(outside-14, of-15)
+pobj(of-15, Naples-16)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NNP Sole) (NNP Pomodoro) (NN pizza) (NN dough))
+    (VP (VBZ is)
+      (ADVP (RB also)))
+    (, ,)))
+
+
+det(dough-5, The-1)
+nn(dough-5, Sole-2)
+nn(dough-5, Pomodoro-3)
+nn(dough-5, pizza-4)
+nsubj(is-6, dough-5)
+root(ROOT-0, is-6)
+advmod(is-6, also-7)
+
+
+(ROOT
+  (FRAG
+    (PP (IN ironically))
+    (, ,)))
+
+
+root(ROOT-0, ironically-1)
+
+
+(ROOT
+  (FRAG
+    (ADJP (RBR more) (JJ complicated))
+    (S
+      (VP (TO to)
+        (VP (VB prepare)
+          (CC and)
+          (VB cook)
+          (PP (IN than)
+            (NP (DT the) (NNP VPN) (CD one))
+            (, ,)))))))
+
+
+advmod(complicated-2, more-1)
+root(ROOT-0, complicated-2)
+aux(prepare-4, to-3)
+dep(complicated-2, prepare-4)
+cc(prepare-4, and-5)
+conj(prepare-4, cook-6)
+prep(prepare-4, than-7)
+det(VPN-9, the-8)
+pobj(than-7, VPN-9)
+num(VPN-9, one-10)
+
+
+(ROOT
+  (S
+    (NP (WDT which))
+    (VP (VBZ is)
+      (ADJP (JJ counterintuitive))
+      (S
+        (VP (VBG considering)
+          (NP (DT the) (JJ stringent) (NNS requirements)
+            (CC and)
+            (JJ many) (NNS hoops))))
+      (SBAR (IN that)
+        (S
+          (NP (PRP one))
+          (VP (VBZ has)
+            (S
+              (VP (TO to)
+                (VP (VB jump)
+                  (PRT (RP through))
+                  (S
+                    (VP (TO to)
+                      (VP (VB get)
+                        (NP (NNP VPN) (NN certification))))))))))))
+    (. .)))
+
+
+nsubj(counterintuitive-3, which-1)
+cop(counterintuitive-3, is-2)
+root(ROOT-0, counterintuitive-3)
+xcomp(counterintuitive-3, considering-4)
+det(requirements-7, the-5)
+amod(requirements-7, stringent-6)
+dobj(considering-4, requirements-7)
+cc(requirements-7, and-8)
+amod(hoops-10, many-9)
+conj(requirements-7, hoops-10)
+mark(has-13, that-11)
+nsubj(has-13, one-12)
+ccomp(counterintuitive-3, has-13)
+aux(jump-15, to-14)
+xcomp(has-13, jump-15)
+prt(jump-15, through-16)
+aux(get-18, to-17)
+xcomp(jump-15, get-18)
+nn(certification-20, VPN-19)
+dobj(get-18, certification-20)
+
+
+(ROOT
+  (S (CC But)
+    (ADVP (RB here))
+    (VP (VBZ 's)
+      (NP (DT the) (NN kicker)))
+    (: --)
+    (S
+      (NP
+        (NP (DT the)
+          (ADJP (RBS most) (JJ important))
+          (NN reason))
+        (SBAR (IN that)
+          (S
+            (NP (DT the) (NNP Cugini) (NNS cousins))
+            (VP (VBD decided)
+              (S
+                (VP (TO to)
+                  (VP (VB go)
+                    (PP (IN with)
+                      (NP (PRP$ their) (JJ own) (JJ pan-Italian) (NN styled) (NN crust))))))))))
+      (VP (VBZ is)
+        (SBAR (IN that)
+          (S
+            (NP (PRP they))
+            (ADVP (RB actually))
+            (VP (VBP prefer)
+              (NP
+                (NP (DT the) (NN taste))
+                (PP (IN of)
+                  (NP (PRP$ their) (JJ own) (NN crust))))
+              (PP (TO to)
+                (NP (NNP VPN))))))))
+    (. .)))
+
+
+cc(kicker-5, But-1)
+advmod(kicker-5, here-2)
+cop(kicker-5, 's-3)
+det(kicker-5, the-4)
+root(ROOT-0, kicker-5)
+det(reason-10, the-7)
+advmod(important-9, most-8)
+amod(reason-10, important-9)
+nsubj(is-24, reason-10)
+mark(decided-15, that-11)
+det(cousins-14, the-12)
+nn(cousins-14, Cugini-13)
+nsubj(decided-15, cousins-14)
+dep(reason-10, decided-15)
+aux(go-17, to-16)
+xcomp(decided-15, go-17)
+prep(go-17, with-18)
+poss(crust-23, their-19)
+amod(crust-23, own-20)
+amod(crust-23, pan-Italian-21)
+nn(crust-23, styled-22)
+pobj(with-18, crust-23)
+parataxis(kicker-5, is-24)
+mark(prefer-28, that-25)
+nsubj(prefer-28, they-26)
+advmod(prefer-28, actually-27)
+ccomp(is-24, prefer-28)
+det(taste-30, the-29)
+dobj(prefer-28, taste-30)
+prep(taste-30, of-31)
+poss(crust-34, their-32)
+amod(crust-34, own-33)
+pobj(of-31, crust-34)
+prep(prefer-28, to-35)
+pobj(to-35, VPN-36)
+
+
+(ROOT
+  (S
+    (NP (NNP Gerri))
+    (ADVP (RB even))
+    (VP (VBD boasted)
+      (SBAR (IN that)
+        (S
+          (NP (PRP he))
+          (VP (MD could)
+            (VP
+              (VP (VB eat)
+                (NP (PRP$ his) (JJ own) (NN pizza))
+                (NP (NN everyday)))
+              (CC and)
+              (RB not)
+              (VP (VB grow)
+                (ADJP (JJ tired))
+                (PP (IN of)
+                  (NP (PRP it)))))))))
+    (. !)))
+
+
+nsubj(boasted-3, Gerri-1)
+advmod(boasted-3, even-2)
+root(ROOT-0, boasted-3)
+mark(eat-7, that-4)
+nsubj(eat-7, he-5)
+aux(eat-7, could-6)
+ccomp(boasted-3, eat-7)
+poss(pizza-10, his-8)
+amod(pizza-10, own-9)
+dep(eat-7, pizza-10)
+dobj(eat-7, everyday-11)
+cc(eat-7, and-12)
+conj(eat-7, not-13)
+dep(eat-7, grow-14)
+acomp(grow-14, tired-15)
+prep(grow-14, of-16)
+pobj(of-16, it-17)
+
+
+(ROOT
+  (S
+    (S
+      (PP (IN At)
+        (NP
+          (NP (DT the) (NN end))
+          (PP (IN of)
+            (NP (DT the) (NN session)))))
+      (NP (DT the) (CD eight) (NNS diners))
+      (VP (VBD were)
+        (VP (VBN polled)
+          (S
+            (VP (TO to)
+              (VP (VB see)
+                (SBAR
+                  (WHNP (WDT which))
+                  (S
+                    (VP (NN crust)
+                      (SBAR
+                        (S
+                          (NP (PRP they))
+                          (VP (VBD preferred)))))))))))))
+    (: --)
+    (S
+      (NP (DT the) (NN result))
+      (VP (VBD was)
+        (NP
+          (NP
+            (QP (CD six) (TO to) (CD two)))
+          (PP (IN in)
+            (NP
+              (NP (NN favor))
+              (PP (IN of)
+                (NP (DT the) (NNP Sole) (NNP Pomodoro) (NN crust))))))))
+    (. .)))
+
+
+prep(polled-11, At-1)
+det(end-3, the-2)
+pobj(At-1, end-3)
+prep(end-3, of-4)
+det(session-6, the-5)
+pobj(of-4, session-6)
+det(diners-9, the-7)
+num(diners-9, eight-8)
+nsubjpass(polled-11, diners-9)
+auxpass(polled-11, were-10)
+root(ROOT-0, polled-11)
+aux(see-13, to-12)
+xcomp(polled-11, see-13)
+nsubj(crust-15, which-14)
+ccomp(see-13, crust-15)
+nsubj(preferred-17, they-16)
+ccomp(crust-15, preferred-17)
+det(result-20, the-19)
+nsubj(two-24, result-20)
+cop(two-24, was-21)
+number(two-24, six-22)
+dep(two-24, to-23)
+parataxis(polled-11, two-24)
+prep(two-24, in-25)
+pobj(in-25, favor-26)
+prep(favor-26, of-27)
+det(crust-31, the-28)
+nn(crust-31, Sole-29)
+nn(crust-31, Pomodoro-30)
+pobj(of-27, crust-31)
+
+
+(ROOT
+  (NP (NNP Granted) (NNP ,)))
+
+
+nn(,-2, Granted-1)
+
+
+(ROOT
+  (S
+    (NP (CD eight) (NNS Singaporeans))
+    (VP (VBP do)
+      (SBAR
+        (S
+          (NP (RB not) (DT a) (JJ good) (NN sample) (NN size))
+          (VP (VBP make)))))
+    (, ,)))
+
+
+num(Singaporeans-2, eight-1)
+nsubj(do-3, Singaporeans-2)
+root(ROOT-0, do-3)
+neg(size-8, not-4)
+det(size-8, a-5)
+amod(size-8, good-6)
+nn(size-8, sample-7)
+nsubj(make-9, size-8)
+ccomp(do-3, make-9)
+
+
+(ROOT
+  (S (CC but)
+    (NP (PRP I))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP (DT the) (NNS results))
+          (VP (VBD did)
+            (VP (VB help)
+              (S
+                (VP (TO to)
+                  (VP (VB confirm)
+                    (NP
+                      (NP (NNP Gerri)
+                        (CC and)
+                        (NNP Mauro) (POS 's))
+                      (NNS suspicions))
+                    (SBAR (IN that)
+                      (S
+                        (NP (DT the) (JJ traditional) (NNP Vera) (NNP Pizza) (NNP Napoletana) (NN style) (NN crust))
+                        (ADVP (RB probably))
+                        (VP (MD wo) (RB n't)
+                          (VP (VB sell)
+                            (ADVP
+                              (ADVP (RB as) (RB well))
+                              (PP (IN in)
+                                (NP
+                                  (NP (NNP Singapore))
+                                  (PP (IN as)
+                                    (NP (NN will))))))
+                            (NP
+                              (NP (PRP$ their) (JJ own) (NN style))
+                              (PP (IN of)
+                                (NP (NN crust))))))))))))))))
+    (. .)))
+
+
+cc(think-3, but-1)
+nsubj(think-3, I-2)
+root(ROOT-0, think-3)
+det(results-5, the-4)
+nsubj(help-7, results-5)
+aux(help-7, did-6)
+ccomp(think-3, help-7)
+aux(confirm-9, to-8)
+xcomp(help-7, confirm-9)
+poss(suspicions-14, Gerri-10)
+cc(Gerri-10, and-11)
+conj(Gerri-10, Mauro-12)
+possessive(Gerri-10, 's-13)
+dobj(confirm-9, suspicions-14)
+mark(sell-26, that-15)
+det(crust-22, the-16)
+amod(crust-22, traditional-17)
+nn(crust-22, Vera-18)
+nn(crust-22, Pizza-19)
+nn(crust-22, Napoletana-20)
+nn(crust-22, style-21)
+nsubj(sell-26, crust-22)
+advmod(sell-26, probably-23)
+aux(sell-26, wo-24)
+neg(sell-26, n't-25)
+ccomp(confirm-9, sell-26)
+advmod(well-28, as-27)
+advmod(sell-26, well-28)
+prep(well-28, in-29)
+pobj(in-29, Singapore-30)
+prep(Singapore-30, as-31)
+pobj(as-31, will-32)
+poss(style-35, their-33)
+amod(style-35, own-34)
+dobj(sell-26, style-35)
+prep(style-35, of-36)
+pobj(of-36, crust-37)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (PRP I))
+      (PP (IN for)
+        (NP (CD one))))
+    (VP (VBP am)
+      (ADJP (JJ inclined)
+        (S
+          (VP (TO to)
+            (VP (VB agree))))))
+    (. .)))
+
+
+nsubj(inclined-5, I-1)
+prep(I-1, for-2)
+pobj(for-2, one-3)
+cop(inclined-5, am-4)
+root(ROOT-0, inclined-5)
+aux(agree-7, to-6)
+xcomp(inclined-5, agree-7)
+
+
+(ROOT
+  (S
+    (NP (DT Both) (NNS crusts))
+    (VP (VBD were)
+      (ADJP (JJ delicious)))
+    (: --)))
+
+
+det(crusts-2, Both-1)
+nsubj(delicious-4, crusts-2)
+cop(delicious-4, were-3)
+root(ROOT-0, delicious-4)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBD finished)
+        (NP
+          (NP (DT every) (NN bit))
+          (PP (IN of)
+            (NP (NN crust))))
+        (SBAR (IN that)
+          (S
+            (NP (PRP I))
+            (VP (VBD was)
+              (VP (VBN served)))))))
+    (: --)
+    (S (CC but)
+      (NP (PRP I))
+      (VP (VBP think)
+        (S
+          (NP (DT the) (NNP Sole) (NNP Pomodoro))
+          (VP (NN crust)
+            (PP (IN edged)
+              (NP
+                (NP (NN out))
+                (-LRB- -LRB-)
+                (NP (NN haha))
+                (, ,)))))))))
+
+
+nsubj(finished-2, I-1)
+root(ROOT-0, finished-2)
+det(bit-4, every-3)
+dobj(finished-2, bit-4)
+prep(bit-4, of-5)
+pobj(of-5, crust-6)
+mark(served-10, that-7)
+nsubjpass(served-10, I-8)
+auxpass(served-10, was-9)
+ccomp(finished-2, served-10)
+cc(think-14, but-12)
+nsubj(think-14, I-13)
+parataxis(finished-2, think-14)
+det(Pomodoro-17, the-15)
+nn(Pomodoro-17, Sole-16)
+nsubj(crust-18, Pomodoro-17)
+ccomp(think-14, crust-18)
+prep(crust-18, edged-19)
+pobj(edged-19, out-20)
+dep(out-20, haha-22)
+
+
+(ROOT
+  (SQ
+    (VP (VB geddit))
+    (. ?)))
+
+
+root(ROOT-0, geddit-1)
+
+
+(ROOT
+  (S
+    (S
+      (VP (VBG -RRB-)
+        (NP (DT the) (NNP Neapolitan) (CD one))
+        (PP (IN in)
+          (NP
+            (NP (NNS terms))
+            (PP (IN of)
+              (NP (JJ overall) (NN enjoyment)))))))
+    (VP (VBN derived)
+      (PP (IN from)
+        (S
+          (VP (VBG eating)
+            (NP (PRP it))))))
+    (. .)))
+
+
+det(Neapolitan-3, the-2)
+dobj(-RRB--1, Neapolitan-3)
+num(Neapolitan-3, one-4)
+prep(-RRB--1, in-5)
+pobj(in-5, terms-6)
+prep(terms-6, of-7)
+amod(enjoyment-9, overall-8)
+pobj(of-7, enjoyment-9)
+prep(derived-10, from-11)
+pcomp(from-11, eating-12)
+dobj(eating-12, it-13)
+
+
+(ROOT
+  (NP (RB Still) (VB ,)))
+
+
+root(ROOT-0, Still-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD would) (RB n't)
+      (VP (VB mind)
+        (S
+          (VP (VBG being)
+            (VP (VBN served)
+              (NP
+                (NP
+                  (NP (DT either) (NN pizza))
+                  (NP (DT any) (NN day)))
+                (: --)
+                (NP (JJ everyday)))
+              (ADVP (RB even)))))))
+    (. .)))
+
+
+nsubj(mind-4, I-1)
+aux(mind-4, would-2)
+neg(mind-4, n't-3)
+root(ROOT-0, mind-4)
+auxpass(served-6, being-5)
+xcomp(mind-4, served-6)
+det(pizza-8, either-7)
+dobj(served-6, pizza-8)
+det(day-10, any-9)
+dep(pizza-8, day-10)
+dep(pizza-8, everyday-12)
+advmod(served-6, even-13)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Sole) (NNP Pomodoro) (NNP Pizzeria))
+      (NP (CD 12\/21) (NNP Mackenzie) (NNP Road))
+      (NP
+        (NP (# #) (CD 01-01))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP Opp) (NNP Rex) (NNP Cinema))
+          (-RRB- -RRB-))
+        (NP (NNP Singapore) (CD 228678))))
+    (ADJP
+      (NP (CD 68843671) (NNS Opens))
+      (JJ 12pm))
+    (PP (IN till)
+      (NP (NNP 11pm)
+        (PRN (-LRB- -LRB-)
+          (NP (NNP Closed) (NNP Mondays))
+          (-RRB- -RRB-))
+        (NN www.solepomodoro.com)))))
+
+
+nn(Pizzeria-3, Sole-1)
+nn(Pizzeria-3, Pomodoro-2)
+dep(12pm-18, Pizzeria-3)
+num(Road-6, 12\/21-4)
+nn(Road-6, Mackenzie-5)
+dep(Pizzeria-3, Road-6)
+dep(01-01-8, #-7)
+dep(Pizzeria-3, 01-01-8)
+nn(Cinema-12, Opp-10)
+nn(Cinema-12, Rex-11)
+appos(01-01-8, Cinema-12)
+dep(01-01-8, Singapore-14)
+num(Singapore-14, 228678-15)
+num(Opens-17, 68843671-16)
+npadvmod(12pm-18, Opens-17)
+root(ROOT-0, 12pm-18)
+dep(12pm-18, till-19)
+nn(www.solepomodoro.com-25, 11pm-20)
+nn(Mondays-23, Closed-22)
+appos(www.solepomodoro.com-25, Mondays-23)
+pobj(till-19, www.solepomodoro.com-25)
+
+

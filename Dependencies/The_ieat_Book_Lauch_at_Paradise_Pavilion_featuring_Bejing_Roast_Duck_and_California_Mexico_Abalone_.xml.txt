@@ -1,0 +1,941 @@
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBD celebrated))
+    (PRN
+      (NP (NNP the))
+      (VP (VBD launch)
+        (PP (IN of))))
+    (`` ``)))
+
+
+nsubj(celebrated-2, We-1)
+root(ROOT-0, celebrated-2)
+nsubj(launch-4, the-3)
+parataxis(celebrated-2, launch-4)
+prep(launch-4, of-5)
+
+
+(ROOT
+  (NP
+    (NP (DT The) (NN End))
+    (PP (IN of)
+      (NP
+        (NP (NNP Char) (NNP Kway) (NNP Teow) ('' ''))
+        (NP (JJ last) (NNP Saturday))
+        (PP (IN with)
+          (NP (DT a) (NN feast)))))
+    (PP (IN of)
+      (NP
+        (NP (NNP Beijing) (NNP Roast) (NNP Duck))
+        (CC and)
+        (NP (DT a) (CD four) (NN course) (NN Abalone) (NN lunch))))
+    (. .)))
+
+
+det(End-2, The-1)
+root(ROOT-0, End-2)
+prep(End-2, of-3)
+nn(Teow-6, Char-4)
+nn(Teow-6, Kway-5)
+pobj(of-3, Teow-6)
+amod(Saturday-9, last-8)
+dep(Teow-6, Saturday-9)
+prep(Teow-6, with-10)
+det(feast-12, a-11)
+pobj(with-10, feast-12)
+prep(End-2, of-13)
+nn(Duck-16, Beijing-14)
+nn(Duck-16, Roast-15)
+pobj(of-13, Duck-16)
+cc(Duck-16, and-17)
+det(lunch-22, a-18)
+num(lunch-22, four-19)
+nn(lunch-22, course-20)
+nn(lunch-22, Abalone-21)
+conj(Duck-16, lunch-22)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ big) (NN surprise))
+      (PP (IN of)
+        (NP (DT the) (NN day))))
+    (VP (VBD was)
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP
+            (NP (PRP$ my) (CD 8) (NN year))
+            (ADJP (JJ old)))
+          (VP (VBZ daughter)))))
+    (, ,)))
+
+
+det(surprise-3, The-1)
+amod(surprise-3, big-2)
+nsubj(was-7, surprise-3)
+prep(surprise-3, of-4)
+det(day-6, the-5)
+pobj(of-4, day-6)
+root(ROOT-0, was-7)
+advmod(daughter-13, when-8)
+poss(year-11, my-9)
+num(year-11, 8-10)
+nsubj(daughter-13, year-11)
+amod(year-11, old-12)
+advcl(was-7, daughter-13)
+
+
+(ROOT
+  (S
+    (NP (NNP Megan))
+    (VP
+      (VP (VBD came)
+        (PRT (RP up))
+        (S
+          (VP (TO to)
+            (VP (VB deliver)
+              (NP (DT the) (JJ first) (NN speech))))))
+      (CC and)
+      (VP (VBD gave)
+        (NP (PRP me))
+        (NP
+          (NP (DT a) (NN copy))
+          (PP (IN of)
+            (NP (DT the) (NN book))))))
+    (. !)))
+
+
+nsubj(came-2, Megan-1)
+root(ROOT-0, came-2)
+prt(came-2, up-3)
+aux(deliver-5, to-4)
+xcomp(came-2, deliver-5)
+det(speech-8, the-6)
+amod(speech-8, first-7)
+dobj(deliver-5, speech-8)
+cc(came-2, and-9)
+conj(came-2, gave-10)
+iobj(gave-10, me-11)
+det(copy-13, a-12)
+dobj(gave-10, copy-13)
+prep(copy-13, of-14)
+det(book-16, the-15)
+pobj(of-14, book-16)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP (NN everyone))
+          (VP (VBD was)
+            (ADVP (RB quite))
+            (VP (VBN amazed)
+              (SBAR (IN that)
+                (S
+                  (NP (PRP she))
+                  (VP (VBD managed)
+                    (S
+                      (VP (TO to)
+                        (VP (VB pull)
+                          (PRT (RP off))
+                          (NP
+                            (NP (DT the) (NN speech))
+                            (PP (IN in)
+                              (NP
+                                (NP (NN front))
+                                (PP (IN of)
+                                  (NP (PDT such) (DT a) (JJ large) (NN crowd))))))
+                          (PP (IN without)
+                            (S
+                              (VP (VBG having)
+                                (S
+                                  (VP (TO to)
+                                    (VP (VB read)
+                                      (NP (DT any) (NNS notes)))))))))))))))))))
+    (. !)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+nsubjpass(amazed-6, everyone-3)
+auxpass(amazed-6, was-4)
+advmod(amazed-6, quite-5)
+ccomp(think-2, amazed-6)
+mark(managed-9, that-7)
+nsubj(managed-9, she-8)
+ccomp(amazed-6, managed-9)
+aux(pull-11, to-10)
+xcomp(managed-9, pull-11)
+prt(pull-11, off-12)
+det(speech-14, the-13)
+dobj(pull-11, speech-14)
+prep(speech-14, in-15)
+pobj(in-15, front-16)
+prep(front-16, of-17)
+predet(crowd-21, such-18)
+det(crowd-21, a-19)
+amod(crowd-21, large-20)
+pobj(of-17, crowd-21)
+prep(pull-11, without-22)
+pcomp(without-22, having-23)
+aux(read-25, to-24)
+xcomp(having-23, read-25)
+det(notes-27, any-26)
+dobj(read-25, notes-27)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB then))
+    (VP (VBD spoke)
+      (NP (DT a) (JJ little))
+      (PP (IN about)
+        (NP
+          (NP (NNS trials)
+            (CC and)
+            (NNS tribulation))
+          (PP (IN of)
+            (S
+              (VP (VBG writing)
+                (NP (DT a) (NN book))
+                (PP (IN before)
+                  (S
+                    (VP (VBG inviting)
+                      (NP (NNP Edmund)))))))))))
+    (, ,)))
+
+
+nsubj(spoke-3, I-1)
+advmod(spoke-3, then-2)
+root(ROOT-0, spoke-3)
+det(little-5, a-4)
+dobj(spoke-3, little-5)
+prep(spoke-3, about-6)
+pobj(about-6, trials-7)
+cc(trials-7, and-8)
+conj(trials-7, tribulation-9)
+prep(trials-7, of-10)
+pcomp(of-10, writing-11)
+det(book-13, a-12)
+dobj(writing-11, book-13)
+prep(writing-11, before-14)
+pcomp(before-14, inviting-15)
+dobj(inviting-15, Edmund-16)
+
+
+(ROOT
+  (S
+    (NP (PRP$ my) (NN publisher))
+    (VP (TO to)
+      (VP (VB present)
+        (NP (DT the) (JJ first) (NN book))
+        (PP (TO to)
+          (NP
+            (NP (NNP Peter) (NNP Knipp))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBD wrote)
+                  (NP (DT the) (NN foreward))
+                  (PP (TO to)
+                    (NP (DT the) (NN book))))))))))
+    (. .)))
+
+
+poss(publisher-2, my-1)
+nsubj(present-4, publisher-2)
+aux(present-4, to-3)
+root(ROOT-0, present-4)
+det(book-7, the-5)
+amod(book-7, first-6)
+dobj(present-4, book-7)
+prep(present-4, to-8)
+nn(Knipp-10, Peter-9)
+pobj(to-8, Knipp-10)
+nsubj(wrote-12, who-11)
+rcmod(Knipp-10, wrote-12)
+det(foreward-14, the-13)
+dobj(wrote-12, foreward-14)
+prep(wrote-12, to-15)
+det(book-17, the-16)
+pobj(to-15, book-17)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (ADVP (IN then) (DT all))
+    (VP (VBD settled)
+      (PRT (RP down))
+      (PP (IN for)
+        (NP
+          (NP (DT a) (JJ wonderful) (NN meal))
+          (PP (IN of)
+            (NP
+              (NP (NNP Beijing) (NNP Roast) (NNP Duck))
+              (VP (VBN followed)
+                (PP (IN by)
+                  (NP (DT a) (JJ lavish) (CD four) (NN course) (NN Abalone) (NN menu)))))))))
+    (. .)))
+
+
+nsubj(settled-4, We-1)
+advmod(settled-4, then-2)
+dep(then-2, all-3)
+root(ROOT-0, settled-4)
+prt(settled-4, down-5)
+prep(settled-4, for-6)
+det(meal-9, a-7)
+amod(meal-9, wonderful-8)
+pobj(for-6, meal-9)
+prep(meal-9, of-10)
+nn(Duck-13, Beijing-11)
+nn(Duck-13, Roast-12)
+pobj(of-10, Duck-13)
+partmod(Duck-13, followed-14)
+prep(followed-14, by-15)
+det(menu-21, a-16)
+amod(menu-21, lavish-17)
+num(menu-21, four-18)
+nn(menu-21, course-19)
+nn(menu-21, Abalone-20)
+pobj(by-15, menu-21)
+
+
+(ROOT
+  (FRAG
+    (PP (IN At)
+      (NP (DT the) (JJ same) (NN time)))
+    (, ,)))
+
+
+root(ROOT-0, At-1)
+det(time-4, the-2)
+amod(time-4, same-3)
+pobj(At-1, time-4)
+
+
+(ROOT
+  (S
+    (NP (NNP Abalone))
+    (VP (VBZ expert))
+    (, ,)))
+
+
+nsubj(expert-2, Abalone-1)
+root(ROOT-0, expert-2)
+
+
+(ROOT
+  (S
+    (NP (NNP Urs) (NNP Heggily))
+    (VP (VBD was)
+      (PP (IN on)
+        (NP (NN hand)))
+      (S
+        (VP (TO to)
+          (VP (VB tell)
+            (NP (PRP us))
+            (PP (IN about)
+              (SBAR
+                (WHADVP (WRB how))
+                (S
+                  (NP (NNP Abalone))
+                  (VP (VBZ is)
+                    (VP (VBN harvested)
+                      (CC and)
+                      (VBN processed))))))))))
+    (. .)))
+
+
+nn(Heggily-2, Urs-1)
+nsubj(was-3, Heggily-2)
+root(ROOT-0, was-3)
+prep(was-3, on-4)
+pobj(on-4, hand-5)
+aux(tell-7, to-6)
+xcomp(was-3, tell-7)
+dobj(tell-7, us-8)
+prep(tell-7, about-9)
+advmod(harvested-13, how-10)
+nsubjpass(harvested-13, Abalone-11)
+auxpass(harvested-13, is-12)
+pcomp(about-9, harvested-13)
+cc(harvested-13, and-14)
+conj(harvested-13, processed-15)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (NP (DT the) (NN thing))
+      (SBAR (IN that)
+        (S
+          (NP (JJS most) (NNS people))
+          (VP (VBP remember)
+            (SBAR (IN that)
+              (S
+                (NP
+                  (NP (NN day))
+                  (PP (IN about)
+                    (NP (NNP Abalone))))
+                (VP (VBD was)
+                  (SBAR (IN that)
+                    (S
+                      (NP
+                        (NP (DT the) (JJ sexual) (NN organ))
+                        (PP (IN of)
+                          (NP (DT the) (JJ male) (NN abalone))))
+                      (VP (VBD was)
+                        (NP
+                          (NP
+                            (NP (NN blue))
+                            (PRN (-LRB- -LRB-)
+                              (INTJ (UH boy))
+                              (-RRB- -RRB-)))
+                          (PP (IN in)
+                            (NP (NN color))))
+                        (SBAR (IN while)
+                          (S
+                            (NP (DT the) (NN female))
+                            (VP (VBD was)
+                              (ADJP (JJ green))
+                              (PRN (-LRB- -LRB-)
+                                (NP (NN girl))
+                                (-RRB- -RRB-)))))))))))))))
+    (. .)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+det(thing-4, the-3)
+dobj(think-2, thing-4)
+mark(remember-8, that-5)
+amod(people-7, most-6)
+nsubj(remember-8, people-7)
+ccomp(think-2, remember-8)
+mark(was-13, that-9)
+nsubj(was-13, day-10)
+prep(day-10, about-11)
+pobj(about-11, Abalone-12)
+ccomp(remember-8, was-13)
+mark(blue-23, that-14)
+det(organ-17, the-15)
+amod(organ-17, sexual-16)
+nsubj(blue-23, organ-17)
+prep(organ-17, of-18)
+det(abalone-21, the-19)
+amod(abalone-21, male-20)
+pobj(of-18, abalone-21)
+cop(blue-23, was-22)
+ccomp(was-13, blue-23)
+discourse(blue-23, boy-25)
+prep(blue-23, in-27)
+pobj(in-27, color-28)
+mark(green-33, while-29)
+det(female-31, the-30)
+nsubj(green-33, female-31)
+cop(green-33, was-32)
+advcl(blue-23, green-33)
+dep(green-33, girl-35)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (ADVP (RB so)
+        (NP (JJ many) (NNS people)))
+      (S
+        (VP (TO to)
+          (VP (VB thank)
+            (PP (IN for)
+              (S
+                (VP (VBG making)
+                  (S
+                    (NP (DT the) (JJ whole) (NN book) (NN launch) (NN event))
+                    (ADJP (JJ possible))))))))))
+    (. .)))
+
+
+nsubj(have-2, I-1)
+root(ROOT-0, have-2)
+advmod(have-2, so-3)
+amod(people-5, many-4)
+pobj(so-3, people-5)
+aux(thank-7, to-6)
+xcomp(have-2, thank-7)
+prep(thank-7, for-8)
+pcomp(for-8, making-9)
+det(event-14, the-10)
+amod(event-14, whole-11)
+nn(event-14, book-12)
+nn(event-14, launch-13)
+nsubj(possible-15, event-14)
+xcomp(making-9, possible-15)
+
+
+(ROOT
+  (FRAG
+    (PP
+      (ADVP (RB First))
+      (IN of)
+      (NP (DT all)))
+    (, ,)))
+
+
+advmod(of-2, First-1)
+root(ROOT-0, of-2)
+pobj(of-2, all-3)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD would)
+      (VP (VB like)
+        (S
+          (VP (TO to)
+            (VP (VB thank)
+              (NP (NNP Wayne))
+              (PP (IN from)
+                (NP (NNP Goh) (NNP Joo) (NNP Hin))))))))
+    (, ,)))
+
+
+nsubj(like-3, I-1)
+aux(like-3, would-2)
+root(ROOT-0, like-3)
+aux(thank-5, to-4)
+xcomp(like-3, thank-5)
+dobj(thank-5, Wayne-6)
+prep(thank-5, from-7)
+nn(Hin-10, Goh-8)
+nn(Hin-10, Joo-9)
+pobj(from-7, Hin-10)
+
+
+(ROOT
+  (NP
+    (NP (DT the) (NN distributor))
+    (PP (IN of)
+      (NP
+        (NP (NNP California) (NNP Mexico) (NN brand) (NNP Abalone))
+        (CC and)
+        (NP (PRP$ his) (NN team))
+        (, ,)))))
+
+
+det(distributor-2, the-1)
+root(ROOT-0, distributor-2)
+prep(distributor-2, of-3)
+nn(Abalone-7, California-4)
+nn(Abalone-7, Mexico-5)
+nn(Abalone-7, brand-6)
+pobj(of-3, Abalone-7)
+cc(Abalone-7, and-8)
+poss(team-10, his-9)
+conj(Abalone-7, team-10)
+
+
+(ROOT
+  (S
+    (S
+      (VP
+        (CONJP (RB as) (RB well) (IN as))
+        (VP (VBG Edlan)
+          (PP (IN from)
+            (NP (NNP Paradise) (NNP Pavilion)))
+          (PP (IN for)
+            (S (RB so)
+              (VP
+                (ADVP (RB generously))
+                (VBG hosting)
+                (NP (DT the) (NN event))))))
+        (CC and)
+        (VP (VBG donating)
+          (NP (PDT all) (DT the) (NNS proceeds))
+          (S
+            (VP (TO to)
+              (VP (VB help)))))))
+    (VP (VBP build)
+      (NP
+        (NP (NNS schools))
+        (PP (IN for)
+          (NP
+            (NP (DT the) (NNS kids))
+            (PP (IN in)
+              (NP (NNP Sandakan)))))))
+    (. .)))
+
+
+advmod(well-2, as-1)
+cc(Edlan-4, well-2)
+mwe(well-2, as-3)
+csubj(build-21, Edlan-4)
+prep(Edlan-4, from-5)
+nn(Pavilion-7, Paradise-6)
+pobj(from-5, Pavilion-7)
+prep(Edlan-4, for-8)
+advmod(hosting-11, so-9)
+advmod(hosting-11, generously-10)
+pcomp(for-8, hosting-11)
+det(event-13, the-12)
+dobj(hosting-11, event-13)
+cc(Edlan-4, and-14)
+conj(Edlan-4, donating-15)
+predet(proceeds-18, all-16)
+det(proceeds-18, the-17)
+dobj(donating-15, proceeds-18)
+aux(help-20, to-19)
+xcomp(donating-15, help-20)
+root(ROOT-0, build-21)
+dobj(build-21, schools-22)
+prep(schools-22, for-23)
+det(kids-25, the-24)
+pobj(for-23, kids-25)
+prep(kids-25, in-26)
+pobj(in-26, Sandakan-27)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB also))
+    (VP (VBP have)
+      (S
+        (VP (TO to)
+          (VP (VB thank)
+            (NP (NNP Soundman))
+            (PP (IN for)
+              (S
+                (VP (VBG helping)
+                  (S
+                    (VP (TO to)
+                      (VP (VB cooridinate)
+                        (NP (NNS things))
+                        (PP (IN on)
+                          (NP (PRP$ our) (NN end) (IN plus))))))))))))
+      (S
+        (VP (VBG providing)
+          (NP (DT the) (JJ sound) (NN system))
+          (PP (IN for)
+            (NP (DT the) (NN day))))))
+    (. .)))
+
+
+nsubj(have-3, I-1)
+advmod(have-3, also-2)
+root(ROOT-0, have-3)
+aux(thank-5, to-4)
+xcomp(have-3, thank-5)
+dobj(thank-5, Soundman-6)
+prep(thank-5, for-7)
+pcomp(for-7, helping-8)
+aux(cooridinate-10, to-9)
+xcomp(helping-8, cooridinate-10)
+dobj(cooridinate-10, things-11)
+prep(cooridinate-10, on-12)
+poss(end-14, our-13)
+pobj(on-12, end-14)
+amod(end-14, plus-15)
+xcomp(have-3, providing-16)
+det(system-19, the-17)
+amod(system-19, sound-18)
+dobj(providing-16, system-19)
+prep(providing-16, for-20)
+det(day-22, the-21)
+pobj(for-20, day-22)
+
+
+(ROOT
+  (S
+    (VP (VB Thanks)
+      (ADVP (RB also))
+      (PP (TO to)
+        (NP
+          (NP (NNP Greg))
+          (PP (IN for)
+            (S
+              (VP (VBG being)
+                (NP (PRP$ our) (NN MC)))))
+          (, ,))))))
+
+
+root(ROOT-0, Thanks-1)
+advmod(Thanks-1, also-2)
+prep(Thanks-1, to-3)
+pobj(to-3, Greg-4)
+prep(Greg-4, for-5)
+cop(MC-8, being-6)
+poss(MC-8, our-7)
+pcomp(for-5, MC-8)
+
+
+(ROOT
+  (NP
+    (NP (NN Cactuskit)
+      (CC and)
+      (NN ijeff))
+    (PP (IN for)
+      (S
+        (VP (VBG taking)
+          (NP
+            (NP
+              (NP (NNS photos))
+              (CC and)
+              (NP (NNP Champagne)))
+            (CC and)
+            (NP
+              (NP (PRP$ her) (NN team))
+              (PP (IN for)
+                (S
+                  (VP (VBG looking)
+                    (PP (IN after)
+                      (NP (DT the) (NN registration) (NN table)))))))))))
+    (. .)))
+
+
+root(ROOT-0, Cactuskit-1)
+cc(Cactuskit-1, and-2)
+conj(Cactuskit-1, ijeff-3)
+prep(Cactuskit-1, for-4)
+pcomp(for-4, taking-5)
+dobj(taking-5, photos-6)
+cc(photos-6, and-7)
+conj(photos-6, Champagne-8)
+cc(photos-6, and-9)
+poss(team-11, her-10)
+conj(photos-6, team-11)
+prep(team-11, for-12)
+pcomp(for-12, looking-13)
+prep(looking-13, after-14)
+det(table-17, the-15)
+nn(table-17, registration-16)
+pobj(after-14, table-17)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB really))
+    (VP (VBP praise)
+      (NP
+        (NP (NNP God))
+        (PP (IN for)
+          (S
+            (VP (VBG providing)
+              (NP
+                (NP
+                  (ADJP (RB so) (JJ many))
+                  (NNS friends))
+                (SBAR
+                  (WHNP (WP who))
+                  (S
+                    (VP (VBP have)
+                      (VP (VBN come)
+                        (PP (IN alongside)
+                          (NP (PRP me)))
+                        (S
+                          (VP (TO to)
+                            (VP (VB make)
+                              (S
+                                (NP (DT the) (NN book))
+                                (VP (VB launch)
+                                  (NP (PDT such) (DT a) (JJ big) (NN success)))))))))))))))))
+    (. !)))
+
+
+nsubj(praise-3, I-1)
+advmod(praise-3, really-2)
+root(ROOT-0, praise-3)
+dobj(praise-3, God-4)
+prep(God-4, for-5)
+pcomp(for-5, providing-6)
+advmod(many-8, so-7)
+amod(friends-9, many-8)
+dobj(providing-6, friends-9)
+nsubj(come-12, who-10)
+aux(come-12, have-11)
+rcmod(friends-9, come-12)
+prep(come-12, alongside-13)
+pobj(alongside-13, me-14)
+aux(make-16, to-15)
+xcomp(come-12, make-16)
+det(book-18, the-17)
+nsubj(launch-19, book-18)
+ccomp(make-16, launch-19)
+predet(success-23, such-20)
+det(success-23, a-21)
+amod(success-23, big-22)
+dobj(launch-19, success-23)
+
+
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NNS books))
+      (VP (MD will)
+        (VP (VB be)
+          (VP (VBN delivered)
+            (PP (TO to)
+              (NP
+                (NP (NNS bookshops))
+                (PP (IN across)
+                  (NP
+                    (NP (DT the) (NN island))
+                    (PP (IN on)
+                      (NP (NNP Monday)))))))))))
+    (CC and)
+    (S
+      (NP (PRP you))
+      (VP (MD should)
+        (VP (VB see)
+          (NP (PRP it))
+          (PP (IN on)
+            (NP (DT the) (NNS shelves)))
+          (PP (IN by)
+            (NP
+              (NP (DT the) (NN end))
+              (PP (IN of)
+                (NP (DT the) (NN week))))))))
+    (. !)))
+
+
+det(books-2, The-1)
+nsubjpass(delivered-5, books-2)
+aux(delivered-5, will-3)
+auxpass(delivered-5, be-4)
+root(ROOT-0, delivered-5)
+prep(delivered-5, to-6)
+pobj(to-6, bookshops-7)
+prep(bookshops-7, across-8)
+det(island-10, the-9)
+pobj(across-8, island-10)
+prep(island-10, on-11)
+pobj(on-11, Monday-12)
+cc(delivered-5, and-13)
+nsubj(see-16, you-14)
+aux(see-16, should-15)
+conj(delivered-5, see-16)
+dobj(see-16, it-17)
+prep(see-16, on-18)
+det(shelves-20, the-19)
+pobj(on-18, shelves-20)
+prep(see-16, by-21)
+det(end-23, the-22)
+pobj(by-21, end-23)
+prep(end-23, of-24)
+det(week-26, the-25)
+pobj(of-24, week-26)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP hope)
+      (SBAR
+        (S
+          (NP (PRP you))
+          (VP (MD will)
+            (VP (VB enjoy)
+              (NP (DT the) (NN book)))))))
+    (. !)))
+
+
+nsubj(hope-2, I-1)
+root(ROOT-0, hope-2)
+nsubj(enjoy-5, you-3)
+aux(enjoy-5, will-4)
+ccomp(hope-2, enjoy-5)
+det(book-7, the-6)
+dobj(enjoy-5, book-7)
+
+
+(ROOT
+  (FRAG
+    (S
+      (VP (TO To)
+        (VP (VB read)
+          (NP
+            (NP (PRP$ my) (NN post))
+            (PP (IN on)
+              (NP
+                (NP (DT the) (JJ authentic) (NN wood))
+                (VP (VBN fired)
+                  (NP
+                    (NP (NNP Beijing) (NNP Roast) (NNP Duck))
+                    (PP (IN at)
+                      (NP (NNP Paradise) (NNP Pavilion))))))))
+          (, ,))))))
+
+
+aux(read-2, To-1)
+root(ROOT-0, read-2)
+poss(post-4, my-3)
+dobj(read-2, post-4)
+prep(post-4, on-5)
+det(wood-8, the-6)
+amod(wood-8, authentic-7)
+pobj(on-5, wood-8)
+partmod(wood-8, fired-9)
+nn(Duck-12, Beijing-10)
+nn(Duck-12, Roast-11)
+dobj(fired-9, Duck-12)
+prep(Duck-12, at-13)
+nn(Pavilion-15, Paradise-14)
+pobj(at-13, Pavilion-15)
+
+
+(ROOT
+  (S
+    (INTJ (VB please))
+    (VP (VB click)
+      (ADVP (RB here)))
+    (. .)))
+
+
+discourse(click-2, please-1)
+root(ROOT-0, click-2)
+advmod(click-2, here-3)
+
+
+(ROOT
+  (S
+    (NP (NNP Paradise) (NNP Pavilion) (NNP Marina) (NNP Bay) (NNP Link))
+    (VP (VBZ Mall))
+    (, ,)))
+
+
+nn(Link-5, Paradise-1)
+nn(Link-5, Pavilion-2)
+nn(Link-5, Marina-3)
+nn(Link-5, Bay-4)
+nsubj(Mall-6, Link-5)
+root(ROOT-0, Mall-6)
+
+
+(ROOT
+  (NP
+    (NP (# #) (CD 02-01/02))
+    (NP
+      (NP (NNP Singapore))
+      (NP
+        (QP (CD 018984) (CD 65099308))))))
+
+
+dep(02-01/02-2, #-1)
+root(ROOT-0, 02-01/02-2)
+dep(02-01/02-2, Singapore-3)
+number(65099308-5, 018984-4)
+dep(Singapore-3, 65099308-5)
+
+

@@ -1,0 +1,213 @@
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (NP (NN time)
+        (S
+          (VP (TO to)
+            (VP (VB settle)
+              (NP
+                (NP (DT the) (NN issue))
+                (PP (IN of)
+                  (NP (DT the) (NNP Chicken) (NNP Rice))))
+              (PP (IN at)
+                (NP
+                  (NP (NNP Margaret) (NNP Drive) (NNP Hawker) (NNP Centre))
+                  (SBAR
+                    (WHNP (WDT which))
+                    (S
+                      (VP (VBZ has)
+                        (VP (VBN been)
+                          (NP
+                            (NP (DT a) (NN subject))
+                            (PP (IN of)
+                              (NP (JJ much) (NN confusion)))))))))))))))
+    (. .)))
+
+
+nsubj(time-3, It-1)
+cop(time-3, is-2)
+root(ROOT-0, time-3)
+aux(settle-5, to-4)
+infmod(time-3, settle-5)
+det(issue-7, the-6)
+dobj(settle-5, issue-7)
+prep(issue-7, of-8)
+det(Rice-11, the-9)
+nn(Rice-11, Chicken-10)
+pobj(of-8, Rice-11)
+prep(settle-5, at-12)
+nn(Centre-16, Margaret-13)
+nn(Centre-16, Drive-14)
+nn(Centre-16, Hawker-15)
+pobj(at-12, Centre-16)
+nsubj(subject-21, which-17)
+aux(subject-21, has-18)
+cop(subject-21, been-19)
+det(subject-21, a-20)
+rcmod(Centre-16, subject-21)
+prep(subject-21, of-22)
+amod(confusion-24, much-23)
+pobj(of-22, confusion-24)
+
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB When))
+    (S
+      (NP (PRP I))
+      (VP (VBN blogged)
+        (PP (IN about)
+          (NP
+            (NP (NNP Xin) (NNP Ji) (NNP Chicken))
+            (ADVP
+              (NP (CD Rice) (NNS years))
+              (RB ago))))
+        (, ,)))))
+
+
+advmod(blogged-3, When-1)
+nsubj(blogged-3, I-2)
+root(ROOT-0, blogged-3)
+prep(blogged-3, about-4)
+nn(Chicken-7, Xin-5)
+nn(Chicken-7, Ji-6)
+pobj(about-4, Chicken-7)
+num(years-9, Rice-8)
+npadvmod(ago-10, years-9)
+advmod(Chicken-7, ago-10)
+
+
+(ROOT
+  (S
+    (NP (JJ many) (NNS readers))
+    (VP (VBP have)
+      (VP (VBN written)
+        (PRT (RP in))
+        (S
+          (VP (TO to)
+            (VP (VB tell)
+              (NP (PRP me))
+              (ADVP (RB there))
+              (SBAR
+                (SBAR
+                  (S
+                    (NP (DT the) (NN chicken) (NN rice) (NN stall))
+                    (ADVP (RB there))
+                    (VP (VBD was) (RB not)
+                      (NP (DT the) (JJ original) (NN one)))))
+                (CC and)
+                (SBAR (IN that)
+                  (S
+                    (NP (PRP they))
+                    (VP (VBD had)
+                      (VP (VBN moved)
+                        (PP (TO to)
+                          (NP (DT another) (NN location)))))))))))))
+    (. .)))
+
+
+amod(readers-2, many-1)
+nsubj(written-4, readers-2)
+aux(written-4, have-3)
+root(ROOT-0, written-4)
+prt(written-4, in-5)
+aux(tell-7, to-6)
+xcomp(written-4, tell-7)
+dobj(tell-7, me-8)
+advmod(tell-7, there-9)
+det(stall-13, the-10)
+nn(stall-13, chicken-11)
+nn(stall-13, rice-12)
+nsubj(one-19, stall-13)
+advmod(one-19, there-14)
+cop(one-19, was-15)
+neg(one-19, not-16)
+det(one-19, the-17)
+amod(one-19, original-18)
+ccomp(tell-7, one-19)
+cc(one-19, and-20)
+mark(moved-24, that-21)
+nsubj(moved-24, they-22)
+aux(moved-24, had-23)
+conj(one-19, moved-24)
+prep(moved-24, to-25)
+det(location-27, another-26)
+pobj(to-25, location-27)
+
+
+(ROOT
+  (FRAG
+    (PP (IN As)
+      (PP (IN with)
+        (NP
+          (NP (NNS lots))
+          (PP (IN of)
+            (NP (DT these) (NNS stories))))))
+    (, ,)))
+
+
+root(ROOT-0, As-1)
+pcomp(As-1, with-2)
+pobj(with-2, lots-3)
+prep(lots-3, of-4)
+det(stories-6, these-5)
+pobj(of-4, stories-6)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBP have)
+        (NP
+          (NP (NN difficulty))
+          (VP (VBG trying)
+            (S
+              (VP (TO to)
+                (VP (VB substantiate)
+                  (NP (PRP it)))))))))
+    (CC and)
+    (RB so)
+    (S
+      (NP (PRP I))
+      (ADVP (RB basically))
+      (VP (VBD left)
+        (S
+          (NP (PRP it))
+          (VP (VBG hanging)))))
+    (. .)))
+
+
+nsubj(have-2, I-1)
+root(ROOT-0, have-2)
+dobj(have-2, difficulty-3)
+partmod(difficulty-3, trying-4)
+aux(substantiate-6, to-5)
+xcomp(trying-4, substantiate-6)
+dobj(substantiate-6, it-7)
+cc(have-2, and-8)
+advmod(have-2, so-9)
+nsubj(left-12, I-10)
+advmod(left-12, basically-11)
+ccomp(have-2, left-12)
+nsubj(hanging-14, it-13)
+dep(left-12, hanging-14)
+
+
+(ROOT
+  (PRN (-LRB- -LRB-)
+    (ADVP (RB Very))
+    (ADJP (JJ much)
+      (PP (IN like)
+        (NP (DT the) (NN chicken))))
+    (-RRB- -RRB-)))
+
+
+dep(much-3, Very-2)
+root(ROOT-0, much-3)
+prep(much-3, like-4)
+det(chicken-6, the-5)
+pobj(like-4, chicken-6)
+
+

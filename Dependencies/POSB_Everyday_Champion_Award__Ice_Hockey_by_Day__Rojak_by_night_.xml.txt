@@ -1,0 +1,216 @@
+(ROOT
+  (INTJ (UH ,)))
+
+
+
+
+(ROOT
+  (SBARQ (RB So)
+    (WHNP (WP what))
+    (SQ (VBZ does)
+      (NP
+        (NP (DT a) (NN photo))
+        (PP (IN of)
+          (NP (DT an) (NN ice) (NN hockey) (NN player))))
+      (VP (VB have)
+        (NP (NN anything))
+        (S
+          (VP (TO to)
+            (VP (VB do)
+              (PP (IN with)
+                (NP (NN food))))))))
+    (. ?)))
+
+
+advmod(have-11, So-1)
+dep(have-11, what-2)
+aux(have-11, does-3)
+det(photo-5, a-4)
+nsubj(have-11, photo-5)
+prep(photo-5, of-6)
+det(player-10, an-7)
+nn(player-10, ice-8)
+nn(player-10, hockey-9)
+pobj(of-6, player-10)
+root(ROOT-0, have-11)
+dobj(have-11, anything-12)
+aux(do-14, to-13)
+xcomp(have-11, do-14)
+prep(do-14, with-15)
+pobj(with-15, food-16)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Well))
+    (, ,)))
+
+
+root(ROOT-0, Well-1)
+
+
+(ROOT
+  (FRAG
+    (PP (IN like)
+      (NP (NNP Clarke) (NNP Kent)))
+    (, ,)))
+
+
+root(ROOT-0, like-1)
+nn(Kent-3, Clarke-2)
+pobj(like-1, Kent-3)
+
+
+(ROOT
+  (SBAR
+    (WHADVP (WRB when))
+    (S
+      (NP (DT this) (NNP National) (NNP Ice) (NN Hockey) (NN player))
+      (VP (VBZ is) (RB n't)
+        (PP (IN in)
+          (NP (PRP$ his) (`` ``) (NNP Superman) ('' '') (NN suit))))
+      (, ,))))
+
+
+advmod(is-7, when-1)
+det(player-6, this-2)
+nn(player-6, National-3)
+nn(player-6, Ice-4)
+nn(player-6, Hockey-5)
+nsubj(is-7, player-6)
+root(ROOT-0, is-7)
+neg(is-7, n't-8)
+prep(is-7, in-9)
+poss(suit-14, his-10)
+nn(suit-14, Superman-12)
+pobj(in-9, suit-14)
+
+
+(ROOT
+  (S
+    (NP (PRP he))
+    (VP (VBZ lives)
+      (NP (PRP$ his) (NN life) (NN incognito))
+      (PP (IN as)
+        (NP (PRP$ your) (JJ friendly) (NN neighborhood) (NN Rojak) (NN man))))
+    (. .)))
+
+
+nsubj(lives-2, he-1)
+root(ROOT-0, lives-2)
+poss(incognito-5, his-3)
+nn(incognito-5, life-4)
+dobj(lives-2, incognito-5)
+prep(lives-2, as-6)
+poss(man-11, your-7)
+amod(man-11, friendly-8)
+nn(man-11, neighborhood-9)
+nn(man-11, Rojak-10)
+pobj(as-6, man-11)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP guess)
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP you))
+          (VP (VBP are)
+            (VP (VBG buying)
+              (NP (PRP$ his) (NN rojak)))))))
+    (, ,)))
+
+
+nsubj(guess-2, I-1)
+root(ROOT-0, guess-2)
+advmod(buying-6, when-3)
+nsubj(buying-6, you-4)
+aux(buying-6, are-5)
+advcl(guess-2, buying-6)
+poss(rojak-8, his-7)
+dobj(buying-6, rojak-8)
+
+
+(ROOT
+  (FRAG
+    (ADJP (JJ little))
+    (S (MD would)
+      (NP (PRP you))
+      (VP (VB imagine)
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP (DT the) (JJ wooden) (NN spoon))
+              (SBAR (IN that)
+                (S
+                  (NP (PRP he))
+                  (VP (VBZ is)
+                    (VP (VBG holding)
+                      (PP (IN in)
+                        (NP (PRP$ his) (NN hand))))))))
+            (VP (MD can)
+              (ADVP (RB suddenly))
+              (VP (VB become)
+                (NP
+                  (NP (DT a) (JJ lethal) (NN weapon))
+                  (SBAR
+                    (WHNP (WDT that))
+                    (S
+                      (VP (MD can)
+                        (VP (VB hurl)
+                          (NP
+                            (NP (DT a) (NN piece))
+                            (PP (IN of)
+                              (NP (PRP You))))
+                          (S
+                            (NP
+                              (NP (NNP Char) (NNP Kway))
+                              (PP (IN across)
+                                (NP (DT the) (NN air)))))
+                          (PP (IN onto)
+                            (NP (DT an) (JJ unsuspecting) (JJ patrons) (NN plate))))))))))))))
+    (. .)))
+
+
+root(ROOT-0, little-1)
+dep(imagine-4, would-2)
+nsubj(imagine-4, you-3)
+dep(little-1, imagine-4)
+mark(weapon-21, that-5)
+det(spoon-8, the-6)
+amod(spoon-8, wooden-7)
+nsubj(weapon-21, spoon-8)
+mark(holding-12, that-9)
+nsubj(holding-12, he-10)
+aux(holding-12, is-11)
+dep(spoon-8, holding-12)
+prep(holding-12, in-13)
+poss(hand-15, his-14)
+pobj(in-13, hand-15)
+aux(weapon-21, can-16)
+advmod(weapon-21, suddenly-17)
+cop(weapon-21, become-18)
+det(weapon-21, a-19)
+amod(weapon-21, lethal-20)
+ccomp(imagine-4, weapon-21)
+nsubj(hurl-24, that-22)
+aux(hurl-24, can-23)
+rcmod(weapon-21, hurl-24)
+det(piece-26, a-25)
+dobj(hurl-24, piece-26)
+prep(piece-26, of-27)
+pobj(of-27, You-28)
+nn(Kway-30, Char-29)
+xcomp(hurl-24, Kway-30)
+prep(Kway-30, across-31)
+det(air-33, the-32)
+pobj(across-31, air-33)
+prep(hurl-24, onto-34)
+det(plate-38, an-35)
+amod(plate-38, unsuspecting-36)
+amod(plate-38, patrons-37)
+pobj(onto-34, plate-38)
+
+

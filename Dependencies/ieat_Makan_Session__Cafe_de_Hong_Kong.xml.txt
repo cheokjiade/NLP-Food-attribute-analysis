@@ -1,0 +1,198 @@
+(ROOT
+  (NP
+    (NP (JJ Many) (NNS thanks))
+    (PP (TO to)
+      (NP
+        (NP (NN everyone))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBD came)
+              (S
+                (VP (TO to)
+                  (VP (VB support)
+                    (NP (PRP$ our) (NN makan) (NN session))))))))))
+    (. !)))
+
+
+amod(thanks-2, Many-1)
+root(ROOT-0, thanks-2)
+prep(thanks-2, to-3)
+pobj(to-3, everyone-4)
+nsubj(came-6, who-5)
+rcmod(everyone-4, came-6)
+aux(support-8, to-7)
+xcomp(came-6, support-8)
+poss(session-11, our-9)
+nn(session-11, makan-10)
+dobj(support-8, session-11)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBP think)
+        (SBAR
+          (S
+            (NP (PRP I))
+            (VP (VBP speak)
+              (PP (IN for)
+                (NP
+                  (NP (NN everyone))
+                  (SBAR
+                    (WHNP (WP who))
+                    (S
+                      (VP (VBD attended)
+                        (SBAR
+                          (WHADVP (WRB when))
+                          (S
+                            (NP (PRP I))
+                            (VP (VBP say)
+                              (SBAR (IN that)
+                                (S
+                                  (NP (NNP Francis))
+                                  (VP (VBD did)
+                                    (NP (DT a) (JJ wonderful) (NN job))
+                                    (PP (IN with)
+                                      (NP (DT the) (NN food)))
+                                    (NP (DT that) (NN night))))))))))))))))))
+    (CC and)
+    (S
+      (NP (PRP I))
+      (VP (VBP am)
+        (ADJP (JJ sure)
+          (SBAR
+            (S
+              (NP (NNP Cafe) (IN de) (NNP Hong) (NNP Kong))
+              (VP (VBZ has)
+                (VP (VBN won)
+                  (NP
+                    (NP (DT a) (JJ whole) (NN lot))
+                    (PP (IN of)
+                      (NP (JJ new) (NNS fans)))))))))))
+    (. !)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+nsubj(speak-4, I-3)
+ccomp(think-2, speak-4)
+prep(speak-4, for-5)
+pobj(for-5, everyone-6)
+nsubj(attended-8, who-7)
+rcmod(everyone-6, attended-8)
+advmod(say-11, when-9)
+nsubj(say-11, I-10)
+advcl(attended-8, say-11)
+mark(did-14, that-12)
+nsubj(did-14, Francis-13)
+ccomp(say-11, did-14)
+det(job-17, a-15)
+amod(job-17, wonderful-16)
+dobj(did-14, job-17)
+prep(did-14, with-18)
+det(food-20, the-19)
+pobj(with-18, food-20)
+det(night-22, that-21)
+tmod(did-14, night-22)
+cc(think-2, and-23)
+nsubj(sure-26, I-24)
+cop(sure-26, am-25)
+conj(think-2, sure-26)
+nn(Kong-30, Cafe-27)
+amod(Kong-30, de-28)
+nn(Kong-30, Hong-29)
+nsubj(won-32, Kong-30)
+aux(won-32, has-31)
+ccomp(sure-26, won-32)
+det(lot-35, a-33)
+amod(lot-35, whole-34)
+dobj(won-32, lot-35)
+prep(lot-35, of-36)
+amod(fans-38, new-37)
+pobj(of-36, fans-38)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB So))
+    (SBAR (IN if)
+      (S
+        (NP (PRP you))
+        (VP (VBD did)
+          (VP (VB attend)
+            (CC and)
+            (VB think)
+            (SBAR (IN that)
+              (S
+                (NP (DT the) (NN food))
+                (VP (VBZ is)
+                  (ADJP (JJ good)))))
+            (, ,)))))))
+
+
+root(ROOT-0, So-1)
+mark(attend-5, if-2)
+nsubj(attend-5, you-3)
+aux(attend-5, did-4)
+dep(So-1, attend-5)
+cc(attend-5, and-6)
+conj(attend-5, think-7)
+mark(good-12, that-8)
+det(food-10, the-9)
+nsubj(good-12, food-10)
+cop(good-12, is-11)
+ccomp(attend-5, good-12)
+
+
+(ROOT
+  (S
+    (VP (VB do)
+      (VP
+        (VP (VB show)
+          (NP (PRP$ your) (NN support))
+          (PP (IN for)
+            (NP (NNP Francis)))
+          (PP (IN by)
+            (S
+              (VP (VBG giving)
+                (NP (PRP him))
+                (NP
+                  (NP (DT a) (JJ good) (NN comment))
+                  (PP (IN on)
+                    (NP (DT the) (NN blog))))))))
+        (CC and)
+        (VP (VB bring)
+          (NP (PRP$ your) (NNS friends))
+          (ADVP (RB there))
+          (S
+            (VP (TO to)
+              (VP (VB eat)))))))
+    (. !)))
+
+
+aux(show-2, do-1)
+root(ROOT-0, show-2)
+poss(support-4, your-3)
+dobj(show-2, support-4)
+prep(show-2, for-5)
+pobj(for-5, Francis-6)
+prep(show-2, by-7)
+pcomp(by-7, giving-8)
+iobj(giving-8, him-9)
+det(comment-12, a-10)
+amod(comment-12, good-11)
+dobj(giving-8, comment-12)
+prep(comment-12, on-13)
+det(blog-15, the-14)
+pobj(on-13, blog-15)
+cc(show-2, and-16)
+conj(show-2, bring-17)
+poss(friends-19, your-18)
+dobj(bring-17, friends-19)
+advmod(bring-17, there-20)
+aux(eat-22, to-21)
+xcomp(bring-17, eat-22)
+
+

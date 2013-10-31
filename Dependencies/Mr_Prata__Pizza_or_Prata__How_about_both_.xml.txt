@@ -1,0 +1,91 @@
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (VP (VBN bound)
+        (S
+          (VP (TO to)
+            (VP (VB happen)
+              (ADVP (RB sooner)
+                (CC or)
+                (RB later)))))))
+    (. .)))
+
+
+nsubjpass(bound-3, It-1)
+auxpass(bound-3, was-2)
+root(ROOT-0, bound-3)
+aux(happen-5, to-4)
+xcomp(bound-3, happen-5)
+advmod(happen-5, sooner-6)
+cc(sooner-6, or-7)
+conj(sooner-6, later-8)
+
+
+(ROOT
+  (S
+    (NP (PRP We))
+    (ADVP (RB already))
+    (VP (VBP have)
+      (NP (NN cheese) (NN prata)))
+    (, ,)))
+
+
+nsubj(have-3, We-1)
+advmod(have-3, already-2)
+root(ROOT-0, have-3)
+nn(prata-5, cheese-4)
+dobj(have-3, prata-5)
+
+
+(ROOT
+  (S (IN so)
+    (NP (PRP it))
+    (VP (VBZ does) (RB n't)
+      (ADVP (RB really))
+      (VP (VB take)
+        (NP
+          (ADJP (RB much) (JJR more))
+          (NN effort))
+        (S
+          (VP (TO to)
+            (VP (VB add)
+              (S
+                (NP
+                  (NP (NN tomato) (NN paste))
+                  (CC and)
+                  (NP (DT a) (JJ few) (NNS capsicums)))
+                (VP (TO to)
+                  (VP (VB turn)
+                    (NP (DT that))
+                    (PP (IN into)
+                      (NP (DT a) (NNP Pizza) (NNP Prata)))))))))))
+    (. .)))
+
+
+dep(take-6, so-1)
+nsubj(take-6, it-2)
+aux(take-6, does-3)
+neg(take-6, n't-4)
+advmod(take-6, really-5)
+root(ROOT-0, take-6)
+advmod(more-8, much-7)
+amod(effort-9, more-8)
+dobj(take-6, effort-9)
+aux(add-11, to-10)
+xcomp(take-6, add-11)
+nn(paste-13, tomato-12)
+nsubj(turn-19, paste-13)
+cc(paste-13, and-14)
+det(capsicums-17, a-15)
+amod(capsicums-17, few-16)
+conj(paste-13, capsicums-17)
+aux(turn-19, to-18)
+xcomp(add-11, turn-19)
+dobj(turn-19, that-20)
+prep(turn-19, into-21)
+det(Prata-24, a-22)
+nn(Prata-24, Pizza-23)
+pobj(into-21, Prata-24)
+
+

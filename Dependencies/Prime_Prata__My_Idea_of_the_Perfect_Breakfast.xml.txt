@@ -1,0 +1,250 @@
+(ROOT
+  (S
+    (S
+      (NP (EX There))
+      (VP (VBP are)
+        (NP
+          (NP (DT a) (JJ few) (NNS things))
+          (SBAR
+            (S
+              (NP (PRP I))
+              (VP (VBP love)
+                (S
+                  (VP (TO to)
+                    (VP (VB eat)
+                      (PP (IN for)
+                        (NP (NN breakfast))))))))))))
+    (CC and)
+    (S
+      (NP (DT this))
+      (VP (VBZ is)
+        (ADVP (RB definitely))
+        (NP
+          (NP (CD one))
+          (PP (IN of)
+            (NP (PRP them))))))
+    (. .)))
+
+
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+det(things-5, a-3)
+amod(things-5, few-4)
+nsubj(are-2, things-5)
+nsubj(love-7, I-6)
+rcmod(things-5, love-7)
+aux(eat-9, to-8)
+xcomp(love-7, eat-9)
+prep(eat-9, for-10)
+pobj(for-10, breakfast-11)
+cc(are-2, and-12)
+nsubj(one-16, this-13)
+cop(one-16, is-14)
+advmod(one-16, definitely-15)
+conj(are-2, one-16)
+prep(one-16, of-17)
+pobj(of-17, them-18)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NNS Readers))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VBP have)
+            (VP (VBN been)
+              (VP (VBG following)
+                (NP (PRP me))
+                (PP (IN on)
+                  (NP (NNP Twitter)))))))))
+    (VP (MD would)
+      (VP (VB know)
+        (NP
+          (NP (DT that))
+          (PP (IN for)
+            (NP (DT the) (JJ last) (JJ few) (NN Sundays))))))))
+
+
+nsubj(know-10, Readers-1)
+nsubj(following-5, who-2)
+aux(following-5, have-3)
+aux(following-5, been-4)
+rcmod(Readers-1, following-5)
+dobj(following-5, me-6)
+prep(following-5, on-7)
+pobj(on-7, Twitter-8)
+aux(know-10, would-9)
+root(ROOT-0, know-10)
+dobj(know-10, that-11)
+prep(that-11, for-12)
+det(Sundays-16, the-13)
+amod(Sundays-16, last-14)
+amod(Sundays-16, few-15)
+pobj(for-12, Sundays-16)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP have)
+      (VP (VBN been)
+        (VP (VBG twittering)
+          (PP (IN about)
+            (NP
+              (NP (DT this) (JJ particular) (NNP Prata) (NN place))
+              (SBAR
+                (WHNP (WDT which))
+                (S
+                  (NP (PRP I))
+                  (ADVP (RB just))
+                  (VP (VBD discovered)
+                    (SBAR (IN that)
+                      (S
+                        (VP (VBZ is)
+                          (NP
+                            (NP (DT a) (JJ mere) (CD five) (NN minute) (NN walk))
+                            (PP (IN from)
+                              (NP (PRP$ my) (NN place)))))))))))))))
+    (. .)))
+
+
+nsubj(twittering-4, I-1)
+aux(twittering-4, have-2)
+aux(twittering-4, been-3)
+root(ROOT-0, twittering-4)
+prep(twittering-4, about-5)
+det(place-9, this-6)
+amod(place-9, particular-7)
+nn(place-9, Prata-8)
+pobj(about-5, place-9)
+dobj(discovered-13, which-10)
+nsubj(discovered-13, I-11)
+advmod(discovered-13, just-12)
+rcmod(place-9, discovered-13)
+mark(walk-20, that-14)
+cop(walk-20, is-15)
+det(walk-20, a-16)
+amod(walk-20, mere-17)
+num(walk-20, five-18)
+nn(walk-20, minute-19)
+ccomp(discovered-13, walk-20)
+prep(walk-20, from-21)
+poss(place-23, my-22)
+pobj(from-21, place-23)
+
+
+(ROOT
+  (S
+    (NP (NNS Happiness))
+    (VP (VBZ is)
+      (S
+        (VP (TO to)
+          (VP (VB be)
+            (ADJP (JJ able)
+              (S
+                (VP (TO to)
+                  (VP (VB take)
+                    (NP (DT a) (NN stroll))
+                    (PRT (RP down))
+                    (PP (TO to)
+                      (NP (DT the) (NN prata) (NN stall)))))))))))
+    (, ,)))
+
+
+nsubj(is-2, Happiness-1)
+root(ROOT-0, is-2)
+aux(able-5, to-3)
+cop(able-5, be-4)
+xcomp(is-2, able-5)
+aux(take-7, to-6)
+xcomp(able-5, take-7)
+det(stroll-9, a-8)
+dobj(take-7, stroll-9)
+prt(take-7, down-10)
+prep(take-7, to-11)
+det(stall-14, the-12)
+nn(stall-14, prata-13)
+pobj(to-11, stall-14)
+
+
+(ROOT
+  (S
+    (VP
+      (VP (VB order)
+        (NP (PRP$ your) (NN prata) (NN kosong)
+          (CC and)
+          (NN teh) (NN tarik)))
+      (CC and)
+      (VP (VB sit)
+        (PRT (RP down))
+        (PP (IN with)
+          (NP (DT the) (NNP Sunday) (NNS papers)))
+        (PP (IN with)
+          (NP
+            (NP (DT the) (NNS kids))
+            (VP (VBG fighting)
+              (PP (IN over)
+                (NP (DT the) (NNS comics) (NN page))))))))
+    (. .)))
+
+
+root(ROOT-0, order-1)
+poss(kosong-4, your-2)
+nn(kosong-4, prata-3)
+dobj(order-1, kosong-4)
+cc(kosong-4, and-5)
+nn(tarik-7, teh-6)
+conj(kosong-4, tarik-7)
+cc(order-1, and-8)
+conj(order-1, sit-9)
+prt(sit-9, down-10)
+prep(sit-9, with-11)
+det(papers-14, the-12)
+nn(papers-14, Sunday-13)
+pobj(with-11, papers-14)
+prep(sit-9, with-15)
+det(kids-17, the-16)
+pobj(with-15, kids-17)
+partmod(kids-17, fighting-18)
+prep(fighting-18, over-19)
+det(page-22, the-20)
+nn(page-22, comics-21)
+pobj(over-19, page-22)
+
+
+(ROOT
+  (S
+    (NP (NNP Mr) (NNP Prime) (NNP Prata) (NNP Blk))
+    (VP (VBZ 132))
+    (, ,)))
+
+
+nn(Blk-4, Mr-1)
+nn(Blk-4, Prime-2)
+nn(Blk-4, Prata-3)
+nsubj(132-5, Blk-4)
+root(ROOT-0, 132-5)
+
+
+(ROOT
+  (S
+    (VP (VBG Lorong)
+      (NP
+        (INTJ (UH Ah))
+        (NP (NNP Soo) (NNP Open) (NNPS 7am)))
+      (PP (TO to)
+        (NP (JJ 10pm) (NN daily))))))
+
+
+root(ROOT-0, Lorong-1)
+discourse(7am-5, Ah-2)
+nn(7am-5, Soo-3)
+nn(7am-5, Open-4)
+dobj(Lorong-1, 7am-5)
+prep(Lorong-1, to-6)
+amod(daily-8, 10pm-7)
+pobj(to-6, daily-8)
+
+

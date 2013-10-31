@@ -1,0 +1,446 @@
+(ROOT
+  (S
+    (ADVP
+      (NP (DT A) (JJ few) (NNS months))
+      (RB ago))
+    (NP (PRP I))
+    (VP (VBD noticed)
+      (NP (DT this) (JJ simple)
+        (ADJP (JJ black)
+          (CC and)
+          (JJ white))
+        (NN banner))
+      (PP (IN along)
+        (NP
+          (NP (DT the) (NN side))
+          (PP (IN of)
+            (NP (DT the) (NN road)))))
+      (PP (IN in)
+        (NP (PRP$ my) (NN neighborhood)))
+      (PP (IN while)
+        (S
+          (VP (VBG driving)
+            (S
+              (VP (TO to)
+                (VP (VB work))))))))
+    (. .)))
+
+
+det(months-3, A-1)
+amod(months-3, few-2)
+npadvmod(ago-4, months-3)
+advmod(noticed-6, ago-4)
+nsubj(noticed-6, I-5)
+root(ROOT-0, noticed-6)
+det(banner-12, this-7)
+amod(banner-12, simple-8)
+amod(banner-12, black-9)
+cc(black-9, and-10)
+conj(black-9, white-11)
+dobj(noticed-6, banner-12)
+prep(noticed-6, along-13)
+det(side-15, the-14)
+pobj(along-13, side-15)
+prep(side-15, of-16)
+det(road-18, the-17)
+pobj(of-16, road-18)
+prep(noticed-6, in-19)
+poss(neighborhood-21, my-20)
+pobj(in-19, neighborhood-21)
+prep(noticed-6, while-22)
+pcomp(while-22, driving-23)
+aux(work-25, to-24)
+xcomp(driving-23, work-25)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (VBD had)
+        (NP
+          (NP (DT the) (NNS words))
+          (`` ``)
+          (NP (NNP Cacio) (NNP e) (NNP Pepe))
+          ('' ''))
+        (PP (IN on)
+          (NP (PRP it)))))
+    (CC and)
+    (S
+      (NP (PRP it))
+      (VP (VBD was)
+        (ADVP (RB obviously))
+        (NP
+          (NP (DT a) (JJ new) (JJ Italian) (NN restaurant))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (VBZ has)
+                (ADVP (RB just))
+                (VP (VBN opened)
+                  (PRT (RP up)))))))))
+    (. .)))
+
+
+nsubj(had-2, It-1)
+root(ROOT-0, had-2)
+det(words-4, the-3)
+dobj(had-2, words-4)
+nn(Pepe-8, Cacio-6)
+nn(Pepe-8, e-7)
+dep(words-4, Pepe-8)
+prep(had-2, on-10)
+pobj(on-10, it-11)
+cc(had-2, and-12)
+nsubj(restaurant-19, it-13)
+cop(restaurant-19, was-14)
+advmod(restaurant-19, obviously-15)
+det(restaurant-19, a-16)
+amod(restaurant-19, new-17)
+amod(restaurant-19, Italian-18)
+conj(had-2, restaurant-19)
+nsubj(opened-23, that-20)
+aux(opened-23, has-21)
+advmod(opened-23, just-22)
+rcmod(restaurant-19, opened-23)
+prt(opened-23, up-24)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD did) (RB n't)
+      (ADVP (RB really))
+      (VP (VB pay)
+        (NP (JJ much) (NN notice))
+        (PP (TO to)
+          (NP (PRP it)))
+        (SBAR (IN since)
+          (S
+            (NP (PRP I))
+            (VP (VBD lived)
+              (PP (IN in)
+                (NP (DT an) (NN area)))
+              (SBAR
+                (WHADVP (WRB where))
+                (S
+                  (NP (EX there))
+                  (VP (VBD were)
+                    (NP (DT no) (NNS cafes))))))))))
+    (, ,)))
+
+
+nsubj(pay-5, I-1)
+aux(pay-5, did-2)
+neg(pay-5, n't-3)
+advmod(pay-5, really-4)
+root(ROOT-0, pay-5)
+amod(notice-7, much-6)
+dobj(pay-5, notice-7)
+prep(pay-5, to-8)
+pobj(to-8, it-9)
+mark(lived-12, since-10)
+nsubj(lived-12, I-11)
+advcl(pay-5, lived-12)
+prep(lived-12, in-13)
+det(area-15, an-14)
+pobj(in-13, area-15)
+advmod(were-18, where-16)
+expl(were-18, there-17)
+advcl(lived-12, were-18)
+det(cafes-20, no-19)
+nsubj(were-18, cafes-20)
+
+
+(ROOT
+  (NP
+    (NP
+      (NP (DT no) (NN nightlife))
+      (CC and)
+      (ADVP (RB certainly))
+      (NP
+        (QP (DT no) (PDT half))
+        (JJ decent) (NNS restaurants)))
+    (. .)))
+
+
+det(nightlife-2, no-1)
+root(ROOT-0, nightlife-2)
+cc(nightlife-2, and-3)
+advmod(nightlife-2, certainly-4)
+quantmod(half-6, no-5)
+num(restaurants-8, half-6)
+amod(restaurants-8, decent-7)
+conj(nightlife-2, restaurants-8)
+
+
+(ROOT
+  (S
+    (NP (DT No) (NN one))
+    (VP (MD would)
+      (ADVP (RB ever))
+      (VP (VB expect)
+        (NP (DT a) (JJ respectable) (NN restaurant))
+        (S
+          (VP (TO to)
+            (VP (VB open)
+              (PRT (RP up))
+              (ADVP (RB here)))))))
+    (. .)))
+
+
+det(one-2, No-1)
+nsubj(expect-5, one-2)
+aux(expect-5, would-3)
+advmod(expect-5, ever-4)
+root(ROOT-0, expect-5)
+det(restaurant-8, a-6)
+amod(restaurant-8, respectable-7)
+dobj(expect-5, restaurant-8)
+aux(open-10, to-9)
+xcomp(expect-5, open-10)
+prt(open-10, up-11)
+advmod(open-10, here-12)
+
+
+(ROOT
+  (INTJ (UH Heck) (UH ,)))
+
+
+root(ROOT-0, Heck-1)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (VP (VBP do) (RB n't)
+      (ADVP (RB even))
+      (VP (VB have)
+        (NP
+          (NP (DT a) (NN quarter) (JJ decent) (NN coffeeshop))
+          (SBAR
+            (WHADVP (WRB where))
+            (S
+              (NP (DT the) (NNS people) (NN number))
+              (ADJP (JJR more)))))
+        (PP (IN than)
+          (NP
+            (NP (DT the) (JJ empty) (NNS bottles))
+            (PP (IN of)
+              (NP (NNP Tiger)))))
+        (PP (IN on)
+          (NP (DT the) (NNS tables)))))
+    (. .)))
+
+
+nsubj(have-5, we-1)
+aux(have-5, do-2)
+neg(have-5, n't-3)
+advmod(have-5, even-4)
+root(ROOT-0, have-5)
+det(coffeeshop-9, a-6)
+nn(coffeeshop-9, quarter-7)
+amod(coffeeshop-9, decent-8)
+dobj(have-5, coffeeshop-9)
+advmod(more-14, where-10)
+det(number-13, the-11)
+nn(number-13, people-12)
+dep(more-14, number-13)
+rcmod(coffeeshop-9, more-14)
+prep(have-5, than-15)
+det(bottles-18, the-16)
+amod(bottles-18, empty-17)
+pobj(than-15, bottles-18)
+prep(bottles-18, of-19)
+pobj(of-19, Tiger-20)
+prep(have-5, on-21)
+det(tables-23, the-22)
+pobj(on-21, tables-23)
+
+
+(ROOT
+  (S (IN So)
+    (NP (PRP I))
+    (VP (VBD imagined)
+      (S
+        (NP (NNP Cacio) (NNP e) (NNP Pepe))
+        (VP (TO to)
+          (VP (VB be)
+            (NP
+              (NP (CD one))
+              (PP (IN of)
+                (NP (DT these) (NN food) (NN court) (JJ Italian) (NNS places))))
+            (SBAR
+              (WHADVP (WRB where))
+              (S
+                (NP (DT a) (NN pasta))
+                (ADVP (RB simply))
+                (VP (VBD meant)
+                  (NP
+                    (NP (CD two) (NNS vats))
+                    (PP (IN of)
+                      (NP (NN tomato)
+                        (CC and)
+                        (NN cream) (NN sauce))))
+                  (PP (IN with)
+                    (NP
+                      (NP (DT a) (NN selection))
+                      (PP (IN of)
+                        (NP (JJ different) (VBN processed) (NNS proteins)))))))))))
+      (SBAR (IN that)
+        (S
+          (NP (PRP you))
+          (VP (MD can)
+            (VP
+              (VP (VB mix))
+              (CC and)
+              (VP (VB match)
+                (S
+                  (VP (TO to)
+                    (VP (VB get)
+                      (NP (DT a) (JJ full) (NN pasta) (NN menu)))))))))))
+    (. .)))
+
+
+dep(imagined-3, So-1)
+nsubj(imagined-3, I-2)
+root(ROOT-0, imagined-3)
+nn(Pepe-6, Cacio-4)
+nn(Pepe-6, e-5)
+nsubj(one-9, Pepe-6)
+aux(one-9, to-7)
+cop(one-9, be-8)
+xcomp(imagined-3, one-9)
+prep(one-9, of-10)
+det(places-15, these-11)
+nn(places-15, food-12)
+nn(places-15, court-13)
+amod(places-15, Italian-14)
+pobj(of-10, places-15)
+advmod(meant-20, where-16)
+det(pasta-18, a-17)
+nsubj(meant-20, pasta-18)
+advmod(meant-20, simply-19)
+advcl(one-9, meant-20)
+num(vats-22, two-21)
+dobj(meant-20, vats-22)
+prep(vats-22, of-23)
+nn(sauce-27, tomato-24)
+cc(tomato-24, and-25)
+conj(tomato-24, cream-26)
+pobj(of-23, sauce-27)
+prep(meant-20, with-28)
+det(selection-30, a-29)
+pobj(with-28, selection-30)
+prep(selection-30, of-31)
+amod(proteins-34, different-32)
+amod(proteins-34, processed-33)
+pobj(of-31, proteins-34)
+mark(mix-38, that-35)
+nsubj(mix-38, you-36)
+aux(mix-38, can-37)
+ccomp(imagined-3, mix-38)
+cc(mix-38, and-39)
+conj(mix-38, match-40)
+aux(get-42, to-41)
+xcomp(match-40, get-42)
+det(menu-46, a-43)
+amod(menu-46, full-44)
+nn(menu-46, pasta-45)
+dobj(get-42, menu-46)
+
+
+(ROOT
+  (S (RB Not)
+    (VP (VB wasting)
+      (NP (PRP$ my) (NNS calories))
+      (PP (IN on)
+        (NP (DT that))))
+    (. !)))
+
+
+neg(wasting-2, Not-1)
+root(ROOT-0, wasting-2)
+poss(calories-4, my-3)
+dobj(wasting-2, calories-4)
+prep(wasting-2, on-5)
+pobj(on-5, that-6)
+
+
+(ROOT
+  (S
+    (LST (LS 3))
+    (VP (VB Chu)
+      (NP (NNP Lin) (NNP Road) (NNP Singapore) (NNP 669890)))
+    (. .)))
+
+
+dep(Chu-2, 3-1)
+root(ROOT-0, Chu-2)
+nn(669890-6, Lin-3)
+nn(669890-6, Road-4)
+nn(669890-6, Singapore-5)
+dobj(Chu-2, 669890-6)
+
+
+(ROOT
+  (NP (NNP Lunch) (: :)))
+
+
+root(ROOT-0, Lunch-1)
+
+
+(ROOT
+  (S
+    (NP (CD 11.30))
+    (VP (VBP am)
+      (PP (TO to)
+        (NP (CD 2.30) (NN pm))))
+    (, ,)))
+
+
+nsubj(am-2, 11.30-1)
+root(ROOT-0, am-2)
+prep(am-2, to-3)
+num(pm-5, 2.30-4)
+pobj(to-3, pm-5)
+
+
+(ROOT
+  (S
+    (NP (NNP Dinner) (NNP 6.00))
+    (VP (VBP pm)
+      (PP (TO to)
+        (NP
+          (QP (CD 10.30) (CD pm)))))
+    (. .)))
+
+
+nn(6.00-2, Dinner-1)
+nsubj(pm-3, 6.00-2)
+root(ROOT-0, pm-3)
+prep(pm-3, to-4)
+number(pm-6, 10.30-5)
+pobj(to-4, pm-6)
+
+
+(ROOT
+  (S
+    (VP (VB Close)
+      (PP (IN on)
+        (NP (NNP Mondays))))
+    (. .)))
+
+
+root(ROOT-0, Close-1)
+prep(Close-1, on-2)
+pobj(on-2, Mondays-3)
+
+
+(ROOT
+  (NP (NNP 6760-3534)))
+
+
+root(ROOT-0, 6760-3534-1)
+
+

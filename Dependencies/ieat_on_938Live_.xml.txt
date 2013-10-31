@@ -1,0 +1,33 @@
+(ROOT
+  (S
+    (NP
+      (NP (NNP Today) (POS 's))
+      (NN lunch) (NN pick))
+    (VP (VBZ is)
+      (NP
+        (NP (NNP Hooked))
+        (PP (IN on)
+          (NP (NNP Heads)))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBZ is)
+              (NP (DT the) (JJ current) (NN post)))))))
+    (. !)))
+
+
+poss(pick-4, Today-1)
+possessive(Today-1, 's-2)
+nn(pick-4, lunch-3)
+nsubj(Hooked-6, pick-4)
+cop(Hooked-6, is-5)
+root(ROOT-0, Hooked-6)
+prep(Hooked-6, on-7)
+pobj(on-7, Heads-8)
+nsubj(post-13, which-9)
+cop(post-13, is-10)
+det(post-13, the-11)
+amod(post-13, current-12)
+rcmod(Hooked-6, post-13)
+
+

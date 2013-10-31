@@ -1,0 +1,165 @@
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN lot))
+      (PP (IN of)
+        (NP (NNP Singaporeans))))
+    (VP (VBP are)
+      (ADJP (JJ worried)
+        (PP (IN about)
+          (NP
+            (NP (NN food))
+            (VP (VBG coming)
+              (PP (IN from)
+                (NP (NNP Japan))))))
+        (, ,)))))
+
+
+det(lot-2, A-1)
+nsubj(worried-6, lot-2)
+prep(lot-2, of-3)
+pobj(of-3, Singaporeans-4)
+cop(worried-6, are-5)
+root(ROOT-0, worried-6)
+prep(worried-6, about-7)
+pobj(about-7, food-8)
+partmod(food-8, coming-9)
+prep(coming-9, from-10)
+pobj(from-10, Japan-11)
+
+
+(ROOT
+  (S (CC but)
+    (NP
+      (NP (DT some) (NNS restaurants))
+      (PP (IN like)
+        (NP (NNP Tatsuya))))
+    (VP (VBZ continues)
+      (S
+        (VP (TO to)
+          (VP (VB source)
+            (NP (PRP$ their) (NN produce))
+            (PP (IN from)
+              (NP (NNP Japan)))
+            (SBAR (IN because)
+              (S
+                (S
+                  (VP (VBG using)
+                    (NP (NNS ingredients))
+                    (PP (IN from)
+                      (NP (RB elsewhere)))))
+                (VP (MD would)
+                  (ADVP (RB seriously))
+                  (VP (VB compromise)
+                    (NP
+                      (NP (DT the) (NN taste))
+                      (PP (IN of)
+                        (NP (DT the) (NN dish))))))))))))
+    (. .)))
+
+
+cc(continues-6, but-1)
+det(restaurants-3, some-2)
+nsubj(continues-6, restaurants-3)
+prep(restaurants-3, like-4)
+pobj(like-4, Tatsuya-5)
+root(ROOT-0, continues-6)
+aux(source-8, to-7)
+xcomp(continues-6, source-8)
+poss(produce-10, their-9)
+dobj(source-8, produce-10)
+prep(source-8, from-11)
+pobj(from-11, Japan-12)
+mark(compromise-20, because-13)
+csubj(compromise-20, using-14)
+dobj(using-14, ingredients-15)
+prep(using-14, from-16)
+pobj(from-16, elsewhere-17)
+aux(compromise-20, would-18)
+advmod(compromise-20, seriously-19)
+advcl(source-8, compromise-20)
+det(taste-22, the-21)
+dobj(compromise-20, taste-22)
+prep(taste-22, of-23)
+det(dish-25, the-24)
+pobj(of-23, dish-25)
+
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (DT the) (NN clip)))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+det(clip-3, the-2)
+pobj(In-1, clip-3)
+
+
+(ROOT
+  (S
+    (NP (DT an) (NN oncologist))
+    (ADVP (RB also))
+    (VP (VBZ explains)
+      (SBAR
+        (WHADVP (WRB why))
+        (S
+          (NP (PRP she))
+          (VP (VBZ is)
+            (ADJP (JJ confident))
+            (SBAR (IN that)
+              (S
+                (NP (JJ eating) (JJ Japanese) (NN food))
+                (VP (VBZ is)
+                  (ADJP (JJ safe)))))))))
+    (. .)))
+
+
+det(oncologist-2, an-1)
+nsubj(explains-4, oncologist-2)
+advmod(explains-4, also-3)
+root(ROOT-0, explains-4)
+advmod(confident-8, why-5)
+nsubj(confident-8, she-6)
+cop(confident-8, is-7)
+advcl(explains-4, confident-8)
+mark(safe-14, that-9)
+amod(food-12, eating-10)
+amod(food-12, Japanese-11)
+nsubj(safe-14, food-12)
+cop(safe-14, is-13)
+ccomp(confident-8, safe-14)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NN clip))
+    (VP
+      (ADVP (RB first))
+      (VBD aired)
+      (PP (IN at)
+        (NP
+          (NP (NNS 10pm))
+          (PP (IN on)
+            (NP (CD 22)))
+          (NP (NNP April))))
+      (PP (IN on)
+        (NP (NNP Channel) (NNP News) (NNP Asia))))))
+
+
+det(clip-2, The-1)
+nsubj(aired-4, clip-2)
+advmod(aired-4, first-3)
+root(ROOT-0, aired-4)
+prep(aired-4, at-5)
+pobj(at-5, 10pm-6)
+prep(10pm-6, on-7)
+pobj(on-7, 22-8)
+dep(10pm-6, April-9)
+prep(aired-4, on-10)
+nn(Asia-13, Channel-11)
+nn(Asia-13, News-12)
+pobj(on-10, Asia-13)
+
+

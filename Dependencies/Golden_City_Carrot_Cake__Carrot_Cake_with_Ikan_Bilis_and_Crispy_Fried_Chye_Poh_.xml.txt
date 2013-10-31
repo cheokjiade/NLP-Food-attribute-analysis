@@ -1,0 +1,103 @@
+(ROOT
+  (S
+    (INTJ (VB Please))
+    (VP
+      (VP (VB read)
+        (NP (NNS comments)))
+      (CC and)
+      (VP (VB postscript)
+        (SBAR
+          (S
+            (NP (PRP I))
+            (VP (VBD found)
+              (NP (PRP it)))))))
+    (. !)))
+
+
+discourse(read-2, Please-1)
+root(ROOT-0, read-2)
+dobj(read-2, comments-3)
+cc(read-2, and-4)
+conj(read-2, postscript-5)
+nsubj(found-7, I-6)
+ccomp(postscript-5, found-7)
+dobj(found-7, it-8)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD found)
+      (NP (PRP it)))
+    (. !)))
+
+
+nsubj(found-2, I-1)
+root(ROOT-0, found-2)
+dobj(found-2, it-3)
+
+
+(ROOT
+  (NP
+    (NP (DT The) (JJS best) (NN carrot))
+    (NP (NN cake))))
+
+
+det(carrot-3, The-1)
+amod(carrot-3, best-2)
+root(ROOT-0, carrot-3)
+dep(carrot-3, cake-4)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBP have)
+        (VP (VBN tasted)
+          (SBAR
+            (S
+              (VP (VBZ is)
+                (ADVP (RB just))
+                (NP
+                  (NP (DT a) (NN stone) (POS 's))
+                  (NN throw))
+                (ADVP (RB away))
+                (PP (IN from)
+                  (NP (NN home)))))))))
+    (CC and)
+    (S
+      (NP (PRP it))
+      (VP (VBD took)
+        (NP (PRP me))
+        (ADVP (RB so) (RB long)
+          (S
+            (VP (TO to)
+              (VP (VB find)
+                (NP (PRP it))))))))
+    (. !)))
+
+
+nsubj(tasted-3, I-1)
+aux(tasted-3, have-2)
+root(ROOT-0, tasted-3)
+cop(throw-9, is-4)
+advmod(throw-9, just-5)
+det(stone-7, a-6)
+poss(throw-9, stone-7)
+possessive(stone-7, 's-8)
+ccomp(tasted-3, throw-9)
+advmod(throw-9, away-10)
+prep(throw-9, from-11)
+pobj(from-11, home-12)
+cc(tasted-3, and-13)
+nsubj(took-15, it-14)
+conj(tasted-3, took-15)
+dobj(took-15, me-16)
+advmod(long-18, so-17)
+advmod(took-15, long-18)
+aux(find-20, to-19)
+dep(long-18, find-20)
+dobj(find-20, it-21)
+
+

@@ -1,0 +1,84 @@
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBD were)
+      (NP
+        (NP (CD 1035) (NNS people))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBN polled))))))
+    (: :)))
+
+
+expl(were-2, There-1)
+root(ROOT-0, were-2)
+num(people-4, 1035-3)
+nsubj(were-2, people-4)
+nsubj(polled-6, who-5)
+rcmod(people-4, polled-6)
+
+
+(ROOT
+  (FRAG
+    (NP (CD 31.9) (NN %))))
+
+
+num(%-2, 31.9-1)
+root(ROOT-0, %-2)
+
+
+(ROOT
+  (SINV (VBD were)
+    (NP
+      (NP (NNP Rice))
+      (SBAR
+        (S
+          (VP (VBZ munchers)
+            (NP (CD 50.1) (NN %))))))))
+
+
+dep(Rice-2, were-1)
+root(ROOT-0, Rice-2)
+rcmod(Rice-2, munchers-3)
+num(%-5, 50.1-4)
+dobj(munchers-3, %-5)
+
+
+(ROOT
+  (SINV (VBD were)
+    (NP
+      (NP (JJ Noodle) (NNS lovers))
+      (ADJP (CD 15.2) (NN %)))))
+
+
+dep(lovers-3, were-1)
+amod(lovers-3, Noodle-2)
+root(ROOT-0, lovers-3)
+number(%-5, 15.2-4)
+amod(lovers-3, %-5)
+
+
+(ROOT
+  (SQ (VBD were)
+    (NP (NNP Bread) (NNP eaters) (NNP Looks))
+    (SBAR (IN like)
+      (S
+        (NP (JJR more) (NN pasta) (NNS blogs))
+        (VP (VBP are)
+          (VP (VBN required)))))
+    (. !)))
+
+
+root(ROOT-0, were-1)
+nn(Looks-4, Bread-2)
+nn(Looks-4, eaters-3)
+nsubj(were-1, Looks-4)
+mark(required-10, like-5)
+amod(blogs-8, more-6)
+nn(blogs-8, pasta-7)
+nsubjpass(required-10, blogs-8)
+auxpass(required-10, are-9)
+dep(were-1, required-10)
+
+

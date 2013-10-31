@@ -1,0 +1,195 @@
+(ROOT
+  (S
+    (NP (DT This) (NN restaurant))
+    (VP (VBZ is)
+      (ADJP (JJ closed)
+        (SBAR
+          (S
+            (NP (EX There))
+            (VP (VBP are)
+              (NP
+                (NP (CD two) (NNS kinds))
+                (PP (IN of)
+                  (NP
+                    (NP (NNS people))
+                    (SBAR
+                      (WHADVP (WRB when))
+                      (S
+                        (NP (PRP it))
+                        (VP (VBZ comes)
+                          (PP (TO to)
+                            (NP (NNP Wanton) (NNP Mee))))))))))))))
+    (. .)))
+
+
+det(restaurant-2, This-1)
+nsubj(closed-4, restaurant-2)
+cop(closed-4, is-3)
+root(ROOT-0, closed-4)
+expl(are-6, There-5)
+ccomp(closed-4, are-6)
+num(kinds-8, two-7)
+nsubj(are-6, kinds-8)
+prep(kinds-8, of-9)
+pobj(of-9, people-10)
+advmod(comes-13, when-11)
+nsubj(comes-13, it-12)
+rcmod(people-10, comes-13)
+prep(comes-13, to-14)
+nn(Mee-16, Wanton-15)
+pobj(to-14, Mee-16)
+
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are)
+      (NP
+        (NP (DT those))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBP consider)
+              (NP (DT the) (JJ whole) (NN dish))
+              (PP (IN as)
+                (NP (DT a) (NN package))))))))
+    (, ,)))
+
+
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+nsubj(are-2, those-3)
+nsubj(consider-5, who-4)
+rcmod(those-3, consider-5)
+det(dish-8, the-6)
+amod(dish-8, whole-7)
+dobj(consider-5, dish-8)
+prep(consider-5, as-9)
+det(package-11, a-10)
+pobj(as-9, package-11)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (RB so) (DT a) (JJ good) (NN plate))
+      (PP (IN of)
+        (NP (NNP Wanton) (NNP Mee))))
+    (VP (VBZ means)
+      (NP (DT the) (NN sauce)))
+    (, ,)))
+
+
+advmod(plate-4, so-1)
+det(plate-4, a-2)
+amod(plate-4, good-3)
+nsubj(means-8, plate-4)
+prep(plate-4, of-5)
+nn(Mee-7, Wanton-6)
+pobj(of-5, Mee-7)
+root(ROOT-0, means-8)
+det(sauce-10, the-9)
+dobj(means-8, sauce-10)
+
+
+(ROOT
+  (S
+    (NP (DT the))
+    (VP (VBD charsiew))
+    (, ,)))
+
+
+nsubj(charsiew-2, the-1)
+root(ROOT-0, charsiew-2)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT the) (NN wanton))
+      (CC and)
+      (NP (DT the) (NNS noodles)))
+    (RB all)
+    (VP (VBP have)
+      (S
+        (VP (TO to)
+          (VP (VB be)
+            (ADJP (JJ good))))))
+    (. .)))
+
+
+det(wanton-2, the-1)
+nsubj(have-7, wanton-2)
+cc(wanton-2, and-3)
+det(noodles-5, the-4)
+conj(wanton-2, noodles-5)
+advmod(have-7, all-6)
+root(ROOT-0, have-7)
+aux(good-10, to-8)
+cop(good-10, be-9)
+xcomp(have-7, good-10)
+
+
+(ROOT
+  (S (RB Then)
+    (NP (EX there))
+    (VP (VBP are)
+      (NP
+        (NP (DT those))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBP focus)
+              (ADVP (RB just))
+              (PP (RB solely) (IN on)
+                (NP (DT the) (NNS noodles))))))))
+    (. .)))
+
+
+advmod(are-3, Then-1)
+expl(are-3, there-2)
+root(ROOT-0, are-3)
+nsubj(are-3, those-4)
+nsubj(focus-6, who-5)
+rcmod(those-4, focus-6)
+advmod(focus-6, just-7)
+advmod(on-9, solely-8)
+prep(focus-6, on-9)
+det(noodles-11, the-10)
+pobj(on-9, noodles-11)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD used)
+      (S
+        (VP (TO to)
+          (VP (VB be)
+            (NP (DT the) (JJ former))))))
+    (. .)))
+
+
+nsubj(used-2, I-1)
+root(ROOT-0, used-2)
+aux(former-6, to-3)
+cop(former-6, be-4)
+det(former-6, the-5)
+xcomp(used-2, former-6)
+
+
+(ROOT
+  (S
+    (ADVP (RB Now))
+    (NP (PRP I))
+    (VP (VBP am)
+      (NP (DT both)))
+    (. .)))
+
+
+advmod(both-4, Now-1)
+nsubj(both-4, I-2)
+cop(both-4, am-3)
+root(ROOT-0, both-4)
+
+

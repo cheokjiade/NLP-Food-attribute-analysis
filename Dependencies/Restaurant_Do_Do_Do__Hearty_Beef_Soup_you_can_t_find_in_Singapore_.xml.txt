@@ -1,0 +1,299 @@
+(ROOT
+  (S
+    (NP (NNP Malaysian) (NNP Food))
+    (ADVP (RB really))
+    (VP (VBP Boleh))
+    (. .)))
+
+
+nn(Food-2, Malaysian-1)
+nsubj(Boleh-4, Food-2)
+advmod(Boleh-4, really-3)
+root(ROOT-0, Boleh-4)
+
+
+(ROOT
+  (SBAR
+    (WHADVP (WRB When))
+    (S
+      (NP (PRP it))
+      (VP (VBZ comes)
+        (S
+          (VP (TO to)
+            (VP (VB beef)))))
+      (, ,))))
+
+
+advmod(comes-3, When-1)
+nsubj(comes-3, it-2)
+root(ROOT-0, comes-3)
+aux(beef-5, to-4)
+xcomp(comes-3, beef-5)
+
+
+(ROOT
+  (S
+    (NP (EX there))
+    (VP (VBP are)
+      (ADVP (RB just))
+      (NP (DT some) (NNS dishes))
+      (SBAR (IN that)
+        (S
+          (NP (NNP Singapore))
+          (VP (MD can)
+            (ADVP (RB never))
+            (VP (VB match)
+              (PRT (RP up))
+              (PP (TO to)
+                (NP (NNP Malaysia))))))))
+    (. .)))
+
+
+expl(are-2, there-1)
+root(ROOT-0, are-2)
+advmod(are-2, just-3)
+det(dishes-5, some-4)
+nsubj(are-2, dishes-5)
+mark(match-10, that-6)
+nsubj(match-10, Singapore-7)
+aux(match-10, can-8)
+neg(match-10, never-9)
+ccomp(are-2, match-10)
+prt(match-10, up-11)
+prep(match-10, to-12)
+pobj(to-12, Malaysia-13)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP One))
+      (VP (VBZ is)
+        (NP (DT the) (JJ Chinese) (NNP Style) (NN beef) (NN stew))))
+    (CC and)
+    (S
+      (NP (DT the) (JJ other))
+      (VP (VBZ is)
+        (NP (DT the) (NNP Ramly) (NNP Burger))))
+    (. .)))
+
+
+nsubj(stew-7, One-1)
+cop(stew-7, is-2)
+det(stew-7, the-3)
+amod(stew-7, Chinese-4)
+nn(stew-7, Style-5)
+nn(stew-7, beef-6)
+root(ROOT-0, stew-7)
+cc(stew-7, and-8)
+det(other-10, the-9)
+nsubj(Burger-14, other-10)
+cop(Burger-14, is-11)
+det(Burger-14, the-12)
+nn(Burger-14, Ramly-13)
+conj(stew-7, Burger-14)
+
+
+(ROOT
+  (S
+    (NP (DT These) (NNS dishes))
+    (ADVP (RB really))
+    (VP (VBP rely)
+      (PP (IN on)
+        (NP
+          (NP (DT the) (JJ Malaysian) (NN Cow))
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP (VBP are)
+                (NP
+                  (NP (DT the) (NNS ones))
+                  (SBAR
+                    (S
+                      (NP (PRP you))
+                      (VP (VBP see)
+                        (S
+                          (VP (VBG eating)
+                            (NP (NN grass))
+                            (PP (IN along)
+                              (NP
+                                (NP (DT the) (NN side))
+                                (PP (IN of)
+                                  (NP (DT the) (NN road)))))
+                            (SBAR
+                              (WHADVP (WRB when))
+                              (S
+                                (NP (PRP you))
+                                (VP (VBP are)
+                                  (VP (VBG driving)
+                                    (PP (IN along)
+                                      (NP (DT the) (NN country) (NNS roads)))))))))))))))))))
+    (. .)))
+
+
+det(dishes-2, These-1)
+nsubj(rely-4, dishes-2)
+advmod(rely-4, really-3)
+root(ROOT-0, rely-4)
+prep(rely-4, on-5)
+det(Cow-8, the-6)
+amod(Cow-8, Malaysian-7)
+pobj(on-5, Cow-8)
+nsubj(ones-12, which-9)
+cop(ones-12, are-10)
+det(ones-12, the-11)
+rcmod(Cow-8, ones-12)
+nsubj(see-14, you-13)
+rcmod(ones-12, see-14)
+xcomp(see-14, eating-15)
+dobj(eating-15, grass-16)
+prep(eating-15, along-17)
+det(side-19, the-18)
+pobj(along-17, side-19)
+prep(side-19, of-20)
+det(road-22, the-21)
+pobj(of-20, road-22)
+advmod(driving-26, when-23)
+nsubj(driving-26, you-24)
+aux(driving-26, are-25)
+advcl(eating-15, driving-26)
+prep(driving-26, along-27)
+det(roads-30, the-28)
+nn(roads-30, country-29)
+pobj(along-27, roads-30)
+
+
+(ROOT
+  (S
+    (NP (DT These) (NNS cattle))
+    (VP (VBP have)
+      (NP
+        (NP (DT a) (JJ different) (NN taste))
+        (PP (IN from)
+          (NP (DT the) (JJ Australian)
+            (CC and)
+            (JJ American) (NN beef))))
+      (SBAR (IN that)
+        (S
+          (NP (PRP we))
+          (VP (VBP get)
+            (PP (IN in)
+              (NP (NNP Singapore)))))))
+    (. .)))
+
+
+det(cattle-2, These-1)
+nsubj(have-3, cattle-2)
+root(ROOT-0, have-3)
+det(taste-6, a-4)
+amod(taste-6, different-5)
+dobj(have-3, taste-6)
+prep(taste-6, from-7)
+det(beef-12, the-8)
+amod(beef-12, Australian-9)
+cc(Australian-9, and-10)
+conj(Australian-9, American-11)
+pobj(from-7, beef-12)
+mark(get-15, that-13)
+nsubj(get-15, we-14)
+ccomp(have-3, get-15)
+prep(get-15, in-16)
+pobj(in-16, Singapore-17)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Sure))
+    (, ,)))
+
+
+root(ROOT-0, Sure-1)
+
+
+(ROOT
+  (S
+    (NP (DT these) (`` ``) (NNP Ang) (NNP Moh) ('' '') (NN beef))
+    (VP (MD might)
+      (VP (VB be)
+        (ADJP (JJ good)
+          (PP (IN for)
+            (NP (NNS steaks))))))
+    (, ,)))
+
+
+det(beef-6, these-1)
+nn(beef-6, Ang-3)
+nn(beef-6, Moh-4)
+nsubj(good-9, beef-6)
+aux(good-9, might-7)
+cop(good-9, be-8)
+root(ROOT-0, good-9)
+prep(good-9, for-10)
+pobj(for-10, steaks-11)
+
+
+(ROOT
+  (PRN (CC but)
+    (SBAR
+      (WHADVP (WRB when))
+      (S
+        (NP (PRP you))
+        (VP (VBP want)
+          (NP (NN something))
+          (PP (IN with)
+            (NP (DT that) (JJ rustic) (NN taste))))
+        (, ,)))))
+
+
+cc(want-4, but-1)
+advmod(want-4, when-2)
+nsubj(want-4, you-3)
+root(ROOT-0, want-4)
+dobj(want-4, something-5)
+prep(want-4, with-6)
+det(taste-9, that-7)
+amod(taste-9, rustic-8)
+pobj(with-6, taste-9)
+
+
+(ROOT
+  (S
+    (NP (PRP$ your) (NN cow))
+    (ADVP (RB just))
+    (VP (VBZ has)
+      (S
+        (VP (TO to)
+          (VP (VB be)
+            (NP
+              (NP (DT the) (NN one))
+              (SBAR
+                (WHNP (WDT that))
+                (S
+                  (VP (VBZ has)
+                    (VP (VBN been)
+                      (VP (VBG chewing)
+                        (NP (NN grass))
+                        (PP (IN under)
+                          (NP (DT the) (JJ tropical) (NN sun)))))))))))))
+    (. !)))
+
+
+poss(cow-2, your-1)
+nsubj(has-4, cow-2)
+advmod(has-4, just-3)
+root(ROOT-0, has-4)
+aux(one-8, to-5)
+cop(one-8, be-6)
+det(one-8, the-7)
+xcomp(has-4, one-8)
+nsubj(chewing-12, that-9)
+aux(chewing-12, has-10)
+aux(chewing-12, been-11)
+rcmod(one-8, chewing-12)
+dobj(chewing-12, grass-13)
+prep(chewing-12, under-14)
+det(sun-17, the-15)
+amod(sun-17, tropical-16)
+pobj(under-14, sun-17)
+
+

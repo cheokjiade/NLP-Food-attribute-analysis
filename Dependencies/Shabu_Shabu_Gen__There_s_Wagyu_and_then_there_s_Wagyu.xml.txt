@@ -1,0 +1,264 @@
+(ROOT
+  (S
+    (NP (NNP Wagyu))
+    (VP (VBD was)
+      (ADVP (RB once)
+        (NP (DT a) (NN luxury)))
+      (ADJP (RB only) (JJ available)
+        (PP (TO to)
+          (NP (DT the)
+            (ADJP (RB very) (RB well) (JJ heeled))))))
+    (. .)))
+
+
+nsubj(available-7, Wagyu-1)
+cop(available-7, was-2)
+advmod(available-7, once-3)
+det(luxury-5, a-4)
+pobj(once-3, luxury-5)
+advmod(available-7, only-6)
+root(ROOT-0, available-7)
+prep(available-7, to-8)
+det(heeled-12, the-9)
+advmod(heeled-12, very-10)
+advmod(heeled-12, well-11)
+pobj(to-8, heeled-12)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB Now))
+    (ADVP (RB ,))))
+
+
+root(ROOT-0, Now-1)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (VBZ has)
+      (VP (VBN become)
+        (NP
+          (NP (NN something))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (ADVP (RB even))
+              (VP (VBZ aunties)
+                (NP
+                  (NP (NN talk) (RB about))
+                  (PP (IN in)
+                    (NP (NNP Teochew))))))))))
+    (. .)))
+
+
+nsubj(something-4, it-1)
+aux(something-4, has-2)
+cop(something-4, become-3)
+root(ROOT-0, something-4)
+nsubj(aunties-7, that-5)
+advmod(aunties-7, even-6)
+rcmod(something-4, aunties-7)
+dobj(aunties-7, talk-8)
+advmod(talk-8, about-9)
+prep(talk-8, in-10)
+pobj(in-10, Teochew-11)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD was)
+      (VP (VBN amazed)
+        (S
+          (VP (TO to)
+            (VP (VB find)
+              (S
+                (NP (PRP it))
+                (VP (VBG being)
+                  (VP (VBN sold)
+                    (PP (IN at)
+                      (NP (NN heartland) (NNS supermarkets)))
+                    (PP (IN like)
+                      (NP
+                        (NP (DT the) (NN NTUC))
+                        (PP (IN at)
+                          (NP (NNP Bishan)))))
+                    (SBAR
+                      (WHADVP (WRB where))
+                      (S
+                        (NP (PRP I))
+                        (ADVP (RB sometimes))
+                        (VP (VB buy)
+                          (NP (PRP$ my) (NN beef)))))))))))))
+    (. .)))
+
+
+nsubjpass(amazed-3, I-1)
+auxpass(amazed-3, was-2)
+root(ROOT-0, amazed-3)
+aux(find-5, to-4)
+xcomp(amazed-3, find-5)
+nsubjpass(sold-8, it-6)
+auxpass(sold-8, being-7)
+dep(find-5, sold-8)
+prep(sold-8, at-9)
+nn(supermarkets-11, heartland-10)
+pobj(at-9, supermarkets-11)
+prep(sold-8, like-12)
+det(NTUC-14, the-13)
+pobj(like-12, NTUC-14)
+prep(NTUC-14, at-15)
+pobj(at-15, Bishan-16)
+advmod(buy-20, where-17)
+nsubj(buy-20, I-18)
+advmod(buy-20, sometimes-19)
+advcl(sold-8, buy-20)
+poss(beef-22, my-21)
+dobj(buy-20, beef-22)
+
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (NN fact)))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+pobj(In-1, fact-2)
+
+
+(ROOT
+  (S
+    (NP (DT the) (JJ Japanese) (NN style) (NNP Shabu) (NNP Shabu) (NN beef))
+    (VP (VBZ has)
+      (ADVP (RB almost) (RB completely))
+      (VP (VBN re-defined)
+        (NP
+          (NP (DT the) (NN way))
+          (SBAR
+            (S
+              (NP (PRP we))
+              (VP (VBP eat)
+                (NP (PRP$ our) (NNS steamboats))
+                (ADVP (RB nowadays))))))))
+    (. .)))
+
+
+det(beef-6, the-1)
+amod(beef-6, Japanese-2)
+nn(beef-6, style-3)
+nn(beef-6, Shabu-4)
+nn(beef-6, Shabu-5)
+nsubj(re-defined-10, beef-6)
+aux(re-defined-10, has-7)
+advmod(completely-9, almost-8)
+advmod(re-defined-10, completely-9)
+root(ROOT-0, re-defined-10)
+det(way-12, the-11)
+dobj(re-defined-10, way-12)
+nsubj(eat-14, we-13)
+rcmod(way-12, eat-14)
+poss(steamboats-16, our-15)
+dobj(eat-14, steamboats-16)
+advmod(eat-14, nowadays-17)
+
+
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT the) (NN past)))
+    (NP (PRP we))
+    (VP (VBD used)
+      (S
+        (VP (TO to)
+          (VP (VB have)
+            (NP
+              (NP (NNS strips))
+              (PP (IN of)
+                (NP (NN beef)))
+              (SBAR
+                (WHNP (WDT which))
+                (S
+                  (NP (PRP we))
+                  (VP (VBP place)
+                    (PP (IN in)
+                      (NP (DT the) (NN net)
+                        (S
+                          (VP (TO to)
+                            (VP (VB cook)
+                              (PP (IN in)
+                                (NP (DT the) (NN steamboat))))))))))))))))
+    (. .)))
+
+
+prep(used-5, In-1)
+det(past-3, the-2)
+pobj(In-1, past-3)
+nsubj(used-5, we-4)
+root(ROOT-0, used-5)
+aux(have-7, to-6)
+xcomp(used-5, have-7)
+dobj(have-7, strips-8)
+prep(strips-8, of-9)
+pobj(of-9, beef-10)
+dobj(place-13, which-11)
+nsubj(place-13, we-12)
+rcmod(strips-8, place-13)
+prep(place-13, in-14)
+det(net-16, the-15)
+pobj(in-14, net-16)
+aux(cook-18, to-17)
+infmod(net-16, cook-18)
+prep(cook-18, in-19)
+det(steamboat-21, the-20)
+pobj(in-19, steamboat-21)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Nowadays))
+    (, ,)))
+
+
+root(ROOT-0, Nowadays-1)
+
+
+(ROOT
+  (S
+    (NP (NN everyone))
+    (VP (VBZ is)
+      (VP (VBG dipping)
+        (NP
+          (ADJP (RB thinly) (JJ sliced))
+          (NN beef))
+        (PP (IN into)
+          (NP (DT the) (NN hotpot)))))
+    (, ,)))
+
+
+nsubj(dipping-3, everyone-1)
+aux(dipping-3, is-2)
+root(ROOT-0, dipping-3)
+advmod(sliced-5, thinly-4)
+amod(beef-6, sliced-5)
+dobj(dipping-3, beef-6)
+prep(dipping-3, into-7)
+det(hotpot-9, the-8)
+pobj(into-7, hotpot-9)
+
+
+(ROOT
+  (NP
+    (NP (NNP Shabu) (NNP Shabu))
+    (NP (NN style))
+    (. .)))
+
+
+nn(Shabu-2, Shabu-1)
+root(ROOT-0, Shabu-2)
+dep(Shabu-2, style-3)
+
+

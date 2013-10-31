@@ -1,0 +1,559 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP love)
+      (NP (NNP Avocado)))
+    (. !)))
+
+
+nsubj(love-2, I-1)
+root(ROOT-0, love-2)
+dobj(love-2, Avocado-3)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP love)
+      (S
+        (NP (PRP it))
+        (VP
+          (ADVP (RB simply))
+          (JJ halved)
+          (PP (IN with)
+            (NP
+              (NP (JJ cold) (NN lobster) (NN meat))
+              (CC and)
+              (NP (CD thousand) (NN island) (NNS dressing)))))))
+    (. .)))
+
+
+nsubj(love-2, I-1)
+root(ROOT-0, love-2)
+nsubj(halved-5, it-3)
+advmod(halved-5, simply-4)
+ccomp(love-2, halved-5)
+prep(halved-5, with-6)
+amod(meat-9, cold-7)
+nn(meat-9, lobster-8)
+pobj(with-6, meat-9)
+cc(meat-9, and-10)
+num(dressing-13, thousand-11)
+nn(dressing-13, island-12)
+conj(meat-9, dressing-13)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB first))
+    (VP (VBD learned)
+      (S
+        (VP (TO to)
+          (VP (VB eat)
+            (NP
+              (NP (NNP Avocado))
+              (SBAR
+                (WHADVP (WRB when))
+                (S
+                  (NP (PRP I))
+                  (VP (VBD was)
+                    (VP (VBG studying)
+                      (PP (IN in)
+                        (NP (NNP Sydney))))))))))))
+    (. .)))
+
+
+nsubj(learned-3, I-1)
+advmod(learned-3, first-2)
+root(ROOT-0, learned-3)
+aux(eat-5, to-4)
+xcomp(learned-3, eat-5)
+dobj(eat-5, Avocado-6)
+advmod(studying-10, when-7)
+nsubj(studying-10, I-8)
+aux(studying-10, was-9)
+rcmod(Avocado-6, studying-10)
+prep(studying-10, in-11)
+pobj(in-11, Sydney-12)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (NN lot))
+      (PP (IN of)
+        (NP (NNS people))))
+    (VP (VBP have)
+      (NP
+        (NP (DT the) (NN misconception))
+        (SBAR (IN that)
+          (S
+            (NP (NNP Avocado))
+            (VP (VBZ is)
+              (ADJP (JJ high)
+                (PP (IN in)
+                  (NP (NN cholesterol)))))))))
+    (. .)))
+
+
+det(lot-2, A-1)
+nsubj(have-5, lot-2)
+prep(lot-2, of-3)
+pobj(of-3, people-4)
+root(ROOT-0, have-5)
+det(misconception-7, the-6)
+dobj(have-5, misconception-7)
+mark(high-11, that-8)
+nsubj(high-11, Avocado-9)
+cop(high-11, is-10)
+dep(misconception-7, high-11)
+prep(high-11, in-12)
+pobj(in-12, cholesterol-13)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is) (RB not))
+    (. .)))
+
+
+nsubj(is-2, It-1)
+root(ROOT-0, is-2)
+neg(is-2, not-3)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (MD may)
+        (VP (VB be)
+          (ADJP (JJ high)
+            (PP (IN in)
+              (ADJP (JJ fat)))))))
+    (PRN (-LRB- -LRB-)
+      (S
+        (ADVP (RB mostly))
+        (VP (VBN monounsaturated)))
+      (-RRB- -RRB-))
+    (CC but)
+    (S
+      (NP (PRP it))
+      (VP (VBZ is) (RB not)
+        (ADJP (JJ high)
+          (PP (IN in)
+            (NP (NN cholesterol))))))
+    (. .)))
+
+
+nsubj(high-4, It-1)
+aux(high-4, may-2)
+cop(high-4, be-3)
+root(ROOT-0, high-4)
+prep(high-4, in-5)
+pobj(in-5, fat-6)
+advmod(monounsaturated-9, mostly-8)
+dep(high-4, monounsaturated-9)
+cc(high-4, but-11)
+nsubj(high-15, it-12)
+cop(high-15, is-13)
+neg(high-15, not-14)
+conj(high-4, high-15)
+prep(high-15, in-16)
+pobj(in-16, cholesterol-17)
+
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (NN fact)))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+pobj(In-1, fact-2)
+
+
+(ROOT
+  (S
+    (NP (EX there))
+    (VP (VBZ is)
+      (NP (NN none))
+      (ADVP (IN at) (DT all))
+      (SBAR (IN since)
+        (S
+          (NP (NN cholesterol))
+          (VP (VBZ is)
+            (VP (VBN found)
+              (ADVP (RB only))
+              (PP (IN in)
+                (NP (NN animal) (NNS fats))))))))
+    (. .)))
+
+
+expl(is-2, there-1)
+root(ROOT-0, is-2)
+nsubj(is-2, none-3)
+advmod(is-2, at-4)
+pobj(at-4, all-5)
+mark(found-9, since-6)
+nsubjpass(found-9, cholesterol-7)
+auxpass(found-9, is-8)
+advcl(is-2, found-9)
+advmod(found-9, only-10)
+prep(found-9, in-11)
+nn(fats-13, animal-12)
+pobj(in-11, fats-13)
+
+
+(ROOT
+  (S
+    (NP (DT No) (NN vegetable) (NNS fats))
+    (VP (VBP contain)
+      (NP (NN cholesterol)))
+    (. .)))
+
+
+det(fats-3, No-1)
+nn(fats-3, vegetable-2)
+nsubj(contain-4, fats-3)
+root(ROOT-0, contain-4)
+dobj(contain-4, cholesterol-5)
+
+
+(ROOT
+  (S
+    (S
+      (VP (VBG Being)
+        (ADJP (JJ high)
+          (PP (IN in)
+            (NP (JJ monounsaturated) (NNS fats))))))
+    (VP (VBZ explains)
+      (SBAR
+        (WHADVP (WRB why))
+        (S
+          (NP (PRP it))
+          (VP (VBZ is)
+            (ADJP (RB so) (JJ creamy)
+              (CC and)
+              (JJ yummy))))))
+    (. !)))
+
+
+cop(high-2, Being-1)
+csubj(explains-6, high-2)
+prep(high-2, in-3)
+amod(fats-5, monounsaturated-4)
+pobj(in-3, fats-5)
+root(ROOT-0, explains-6)
+advmod(creamy-11, why-7)
+nsubj(creamy-11, it-8)
+cop(creamy-11, is-9)
+advmod(creamy-11, so-10)
+advcl(explains-6, creamy-11)
+cc(creamy-11, and-12)
+conj(creamy-11, yummy-13)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP (PRP you))
+      (VP (VBP have)
+        (ADVP (RB never))
+        (VP (VBN tasted)
+          (S
+            (NP (NNP Avocado) (NNP Shake))
+            (ADVP (RB before)))))
+      (, ,))))
+
+
+mark(tasted-5, If-1)
+nsubj(tasted-5, you-2)
+aux(tasted-5, have-3)
+neg(tasted-5, never-4)
+root(ROOT-0, tasted-5)
+nn(Shake-7, Avocado-6)
+dep(tasted-5, Shake-7)
+advmod(Shake-7, before-8)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (VBP do) (RB n't)
+      (VP (VB know)
+        (SBAR
+          (WHNP (WP what))
+          (S
+            (NP (PRP you))
+            (VP (VBP are)
+              (ADJP (VBG missing)))))))
+    (. .)))
+
+
+nsubj(know-4, you-1)
+aux(know-4, do-2)
+neg(know-4, n't-3)
+root(ROOT-0, know-4)
+dobj(missing-8, what-5)
+nsubj(missing-8, you-6)
+cop(missing-8, are-7)
+ccomp(know-4, missing-8)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD did) (RB not)
+      (VP (VB know)
+        (SBAR
+          (WHNP (WP what))
+          (S
+            (NP (PRP I))
+            (VP (VBD was)
+              (VP (VBG missing)
+                (PP (IN till)
+                  (NP (JJ last) (NN week)))))))))
+    (. .)))
+
+
+nsubj(know-4, I-1)
+aux(know-4, did-2)
+neg(know-4, not-3)
+root(ROOT-0, know-4)
+dobj(missing-8, what-5)
+nsubj(missing-8, I-6)
+aux(missing-8, was-7)
+ccomp(know-4, missing-8)
+prep(missing-8, till-9)
+amod(week-11, last-10)
+pobj(till-9, week-11)
+
+
+(ROOT
+  (S
+    (NP (DT The) (JJ first) (NN sip))
+    (VP (VBD put)
+      (SBAR (IN that)
+        (S (`` ``)
+          (NP (NNP Phwaa) (NNP Say))
+          ('' '')
+          (VP (VBP look)
+            (PP (IN on)
+              (NP
+                (NP (PRP$ my) (NN face))
+                (SBAR
+                  (WHNP (WDT that))
+                  (S
+                    (VP (VBD got)
+                      (S
+                        (NP (PDT all) (PRP$ my) (NNS makankakis))
+                        (ADJP (JJ excited))))))))))))
+    (. .)))
+
+
+det(sip-3, The-1)
+amod(sip-3, first-2)
+nsubj(put-4, sip-3)
+root(ROOT-0, put-4)
+mark(look-10, that-5)
+nn(Say-8, Phwaa-7)
+nsubj(look-10, Say-8)
+ccomp(put-4, look-10)
+prep(look-10, on-11)
+poss(face-13, my-12)
+pobj(on-11, face-13)
+nsubj(got-15, that-14)
+rcmod(face-13, got-15)
+predet(makankakis-18, all-16)
+poss(makankakis-18, my-17)
+nsubj(excited-19, makankakis-18)
+xcomp(got-15, excited-19)
+
+
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (ADVP (RB seriously))
+      (NP (JJ good) (NN stuff)))
+    (. !)))
+
+
+nsubj(stuff-5, This-1)
+cop(stuff-5, is-2)
+advmod(stuff-5, seriously-3)
+amod(stuff-5, good-4)
+root(ROOT-0, stuff-5)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NNP Avocado) (NN shake))
+    (VP (VBD tasted)
+      (NP (NN nothing))
+      (PP (IN like)
+        (NP (NNP Avocado))))
+    (. .)))
+
+
+det(shake-3, The-1)
+nn(shake-3, Avocado-2)
+nsubj(tasted-4, shake-3)
+root(ROOT-0, tasted-4)
+dobj(tasted-4, nothing-5)
+prep(tasted-4, like-6)
+pobj(like-6, Avocado-7)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD tasted)
+      (PP (IN like)
+        (NP
+          (NP (JJ liquid) (JJ white) (NN chocolate))
+          (VP (VBN mixed)
+            (PP (IN with)
+              (NP (NN chendol)))))))
+    (. !)))
+
+
+nsubj(tasted-2, It-1)
+root(ROOT-0, tasted-2)
+prep(tasted-2, like-3)
+amod(chocolate-6, liquid-4)
+amod(chocolate-6, white-5)
+pobj(like-3, chocolate-6)
+partmod(chocolate-6, mixed-7)
+prep(mixed-7, with-8)
+pobj(with-8, chendol-9)
+
+
+(ROOT
+  (FRAG
+    (ADJP
+      (ADJP (RB Shiokfully) (JJ surprised))
+      (CC and)
+      (ADJP (RB delightfully) (JJ delicious)))
+    (. !)))
+
+
+advmod(surprised-2, Shiokfully-1)
+root(ROOT-0, surprised-2)
+cc(surprised-2, and-3)
+advmod(delicious-5, delightfully-4)
+conj(surprised-2, delicious-5)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NN Anyone))
+      (PP (IN with)
+        (NP (DT a) (JJ sweet) (NN tooth))))
+    (VP (MD will)
+      (VP (VB love)
+        (NP (DT this))))
+    (. !)))
+
+
+nsubj(love-7, Anyone-1)
+prep(Anyone-1, with-2)
+det(tooth-5, a-3)
+amod(tooth-5, sweet-4)
+pobj(with-2, tooth-5)
+aux(love-7, will-6)
+root(ROOT-0, love-7)
+dobj(love-7, this-8)
+
+
+(ROOT
+  (S
+    (NP (NNP Abosolutely))
+    (VP (VBZ delightful))
+    (. .)))
+
+
+nsubj(delightful-2, Abosolutely-1)
+root(ROOT-0, delightful-2)
+
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP (VBP like)
+          (NP (NN chendol)
+            (CC and)
+            (NNS chocolates)))))
+    (NP (PRP you))
+    (VP (MD will)
+      (VP (VB love)
+        (NP (DT this) (NN stuff))))
+    (. !)))
+
+
+mark(like-3, If-1)
+nsubj(like-3, you-2)
+advcl(love-9, like-3)
+dobj(like-3, chendol-4)
+cc(chendol-4, and-5)
+conj(chendol-4, chocolates-6)
+nsubj(love-9, you-7)
+aux(love-9, will-8)
+root(ROOT-0, love-9)
+det(stuff-11, this-10)
+dobj(love-9, stuff-11)
+
+
+(ROOT
+  (NP
+    (NP (NNP Exotic) (NNP Juice) (NNP Cathay) (NNP Blk))
+    (NP (CD 120))
+    (NP (NNP Bukit) (NNP Merah) (NNP Lane))))
+
+
+nn(Blk-4, Exotic-1)
+nn(Blk-4, Juice-2)
+nn(Blk-4, Cathay-3)
+root(ROOT-0, Blk-4)
+dep(Blk-4, 120-5)
+nn(Lane-8, Bukit-6)
+nn(Lane-8, Merah-7)
+dep(Blk-4, Lane-8)
+
+
+(ROOT
+  (S
+    (NP (CD 1) (NNP Alexandra) (NNP Village) (NNP Hawker) (NNP Centre) (NNP Stall) (CD 01-19) (NN 9.30))
+    (VP (VBP am)
+      (PP (TO to)
+        (NP
+          (QP (CD 9.30) (CD pm))))
+      (ADJP (VBN Closed)
+        (PP (IN on)
+          (NP (NNP Saturdays)))))))
+
+
+num(9.30-8, 1-1)
+nn(9.30-8, Alexandra-2)
+nn(9.30-8, Village-3)
+nn(9.30-8, Hawker-4)
+nn(9.30-8, Centre-5)
+nn(9.30-8, Stall-6)
+num(9.30-8, 01-19-7)
+nsubjpass(Closed-13, 9.30-8)
+auxpass(Closed-13, am-9)
+prep(Closed-13, to-10)
+number(pm-12, 9.30-11)
+pobj(to-10, pm-12)
+root(ROOT-0, Closed-13)
+prep(Closed-13, on-14)
+pobj(on-14, Saturdays-15)
+
+

@@ -1,0 +1,566 @@
+(ROOT
+  (S
+    (NP (NNP Advertorial))
+    (VP (VBP Get)
+      (ADJP (JJ ready))
+      (PP (IN for)
+        (NP
+          (NP (DT the) (JJ 25-hour) (NN family) (NN event))
+          (PP (IN of)
+            (NP (DT the) (NN year))))))
+    (. !)))
+
+
+nsubj(ready-3, Advertorial-1)
+dep(ready-3, Get-2)
+root(ROOT-0, ready-3)
+prep(ready-3, for-4)
+det(event-8, the-5)
+amod(event-8, 25-hour-6)
+nn(event-8, family-7)
+pobj(for-4, event-8)
+prep(event-8, of-9)
+det(year-11, the-10)
+pobj(of-9, year-11)
+
+
+(ROOT
+  (S
+    (NP (NNP IKEA))
+    (VP (VBZ is)
+      (VP (VBG putting)
+        (NP
+          (NP (DT the) (NN spotlight))
+          (PP (IN on)
+            (NP (PRP$ its) (NNS kitchens)))
+          (PRN (: --)
+            (VP (VBN built)
+              (S
+                (VP (TO to)
+                  (VP (VB withstand)
+                    (NP
+                      (NP (DT the) (NNS rigors))
+                      (PP (IN of)
+                        (NP (JJ everyday) (NN living))))
+                    (PP (IN with)
+                      (NP (DT a) (JJ 25-year) (NN guarantee)))))))
+            (: --)))
+        (PP (IN by)
+          (S
+            (VP (VBG opening)
+              (NP (PRP$ their) (NNS doors))
+              (PP (IN for)
+                (NP (CD 25) (NNS hours)))
+              (PP (IN from)
+                (NP (CD 14)))
+              (NP (NNP June)))))))
+    (, ,)))
+
+
+nsubj(putting-3, IKEA-1)
+aux(putting-3, is-2)
+root(ROOT-0, putting-3)
+det(spotlight-5, the-4)
+dobj(putting-3, spotlight-5)
+prep(spotlight-5, on-6)
+poss(kitchens-8, its-7)
+pobj(on-6, kitchens-8)
+dep(spotlight-5, built-10)
+aux(withstand-12, to-11)
+xcomp(built-10, withstand-12)
+det(rigors-14, the-13)
+dobj(withstand-12, rigors-14)
+prep(rigors-14, of-15)
+amod(living-17, everyday-16)
+pobj(of-15, living-17)
+prep(withstand-12, with-18)
+det(guarantee-21, a-19)
+amod(guarantee-21, 25-year-20)
+pobj(with-18, guarantee-21)
+prep(putting-3, by-23)
+pcomp(by-23, opening-24)
+poss(doors-26, their-25)
+dobj(opening-24, doors-26)
+prep(opening-24, for-27)
+num(hours-29, 25-28)
+pobj(for-27, hours-29)
+prep(opening-24, from-30)
+pobj(from-30, 14-31)
+tmod(opening-24, June-32)
+
+
+(ROOT
+  (S
+    (VP (VBN 10am)
+      (PP (TO to)
+        (NP (CD 15))
+        (NP (NNP June)))
+      (, ,))))
+
+
+root(ROOT-0, 10am-1)
+prep(10am-1, to-2)
+pobj(to-2, 15-3)
+tmod(to-2, June-4)
+
+
+(ROOT
+  (NP (JJ 11am) (NNS ,)))
+
+
+amod(,-2, 11am-1)
+
+
+(ROOT
+  (FRAG
+    (PP (IN with)
+      (NP
+        (NP (JJ non-stop) (NNS deals))
+        (CC and)
+        (NP
+          (NP (NN fun))
+          (PP (IN for)
+            (NP (DT the) (JJ whole) (NN family))))))
+    (. !)))
+
+
+root(ROOT-0, with-1)
+amod(deals-3, non-stop-2)
+pobj(with-1, deals-3)
+cc(deals-3, and-4)
+conj(deals-3, fun-5)
+prep(fun-5, for-6)
+det(family-9, the-7)
+amod(family-9, whole-8)
+pobj(for-6, family-9)
+
+
+(ROOT
+  (PP (IN Among)
+    (NP
+      (NP (DT the) (NNS things) (NN happening))
+      (PP (VBZ is)
+        (NP (DT the) (JJ 25-hour) (NN Cook-off)))
+      (, ,))))
+
+
+root(ROOT-0, Among-1)
+det(happening-4, the-2)
+nn(happening-4, things-3)
+pobj(Among-1, happening-4)
+prep(happening-4, is-5)
+det(Cook-off-8, the-6)
+amod(Cook-off-8, 25-hour-7)
+dep(is-5, Cook-off-8)
+
+
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB where))
+      (S
+        (NP (CD 12) (NNS couples))
+        (VP (MD will)
+          (VP (VB go)
+            (ADJP (JJ head-to-head))
+            (PP (IN with)
+              (NP (CD one)))))))
+    (NP
+      (NP (DT another))
+      (PP (IN over)
+        (NP
+          (NP (JJ various) (NNS challenges))
+          (PP (IN in)
+            (NP (DT the) (NNP IKEA))))))
+    (VP (VBZ kitchens)
+      (PP (IN at)
+        (NP (DT both) (NNP Alexandra)
+          (CC and)
+          (NNP Tampines))))
+    (. .)))
+
+
+advmod(go-5, where-1)
+num(couples-3, 12-2)
+nsubj(go-5, couples-3)
+aux(go-5, will-4)
+advcl(kitchens-16, go-5)
+acomp(go-5, head-to-head-6)
+prep(go-5, with-7)
+pobj(with-7, one-8)
+nsubj(kitchens-16, another-9)
+prep(another-9, over-10)
+amod(challenges-12, various-11)
+pobj(over-10, challenges-12)
+prep(challenges-12, in-13)
+det(IKEA-15, the-14)
+pobj(in-13, IKEA-15)
+root(ROOT-0, kitchens-16)
+prep(kitchens-16, at-17)
+preconj(Alexandra-19, both-18)
+pobj(at-17, Alexandra-19)
+cc(Alexandra-19, and-20)
+conj(Alexandra-19, Tampines-21)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBP have)
+        (VP (VBN been)
+          (VP (VBN invited)
+            (S
+              (VP (TO to)
+                (VP (VB be)
+                  (NP
+                    (NP (CD one))
+                    (PP (IN of)
+                      (NP
+                        (NP (DT the) (NNS judges))
+                        (PP (IN for)
+                          (NP
+                            (NP (DT the) (NN event))
+                            (PRN (-LRB- -LRB-)
+                              (NP (NNP IKEA) (NNP Tampines))
+                              (-RRB- -RRB-))))))))))))))
+    (CC and)
+    (S
+      (NP (PRP I))
+      (VP (VBP look)
+        (PRT (RP forward))
+        (PP (TO to)
+          (S
+            (VP (VBG tekaning)
+              (S (-LRB- -LRB-)
+                (NP (NNP punishing))
+                (-RRB- -RRB-)
+                (NP (DT the) (NNS contestants))))))
+        (NP (DT this) (NN weekend))))
+    (. .)))
+
+
+nsubjpass(invited-4, I-1)
+aux(invited-4, have-2)
+auxpass(invited-4, been-3)
+root(ROOT-0, invited-4)
+aux(one-7, to-5)
+cop(one-7, be-6)
+xcomp(invited-4, one-7)
+prep(one-7, of-8)
+det(judges-10, the-9)
+pobj(of-8, judges-10)
+prep(judges-10, for-11)
+det(event-13, the-12)
+pobj(for-11, event-13)
+nn(Tampines-16, IKEA-15)
+appos(event-13, Tampines-16)
+cc(invited-4, and-18)
+nsubj(look-20, I-19)
+conj(invited-4, look-20)
+prt(look-20, forward-21)
+prep(look-20, to-22)
+pcomp(to-22, tekaning-23)
+dep(contestants-28, punishing-25)
+det(contestants-28, the-27)
+dep(tekaning-23, contestants-28)
+det(weekend-30, this-29)
+dobj(look-20, weekend-30)
+
+
+(ROOT
+  (INTJ (UH :)))
+
+
+
+
+(ROOT
+  (INTJ (UH -RRB-)))
+
+
+
+
+(ROOT
+  (S
+    (S (CC But)
+      (NP (DT that))
+      (VP (VBZ is) (RB not)
+        (NP (DT all))))
+    (: --)
+    (S
+      (S
+        (NP (EX there))
+        (VP (MD will)
+          (VP (VB be)
+            (ADJP (JJ great)))))
+      (PRN
+        (S
+          (NP (NNS deals))
+          (VP (VBZ round-the-clock)))
+        (, ,)))))
+
+
+cc(all-5, But-1)
+nsubj(all-5, that-2)
+cop(all-5, is-3)
+neg(all-5, not-4)
+root(ROOT-0, all-5)
+expl(great-10, there-7)
+aux(great-10, will-8)
+cop(great-10, be-9)
+parataxis(all-5, great-10)
+nsubj(round-the-clock-12, deals-11)
+dep(great-10, round-the-clock-12)
+
+
+(ROOT
+  (S
+    (NP (JJ free))
+    (VP (VBZ popcorn)
+      (CC and)
+      (VBZ candyfloss)
+      (PP (IN for)
+        (NP (DT the) (NNS kids))))
+    (, ,)))
+
+
+nsubj(popcorn-2, free-1)
+root(ROOT-0, popcorn-2)
+cc(popcorn-2, and-3)
+conj(popcorn-2, candyfloss-4)
+prep(popcorn-2, for-5)
+det(kids-7, the-6)
+pobj(for-5, kids-7)
+
+
+(ROOT
+  (S
+    (NP (NN face))
+    (VP (VBZ painting))
+    (, ,)))
+
+
+nsubj(painting-2, face-1)
+root(ROOT-0, painting-2)
+
+
+(ROOT
+  (S
+    (NP (NN balloon))
+    (VP (VBD sculpturing))
+    (, ,)))
+
+
+nsubj(sculpturing-2, balloon-1)
+root(ROOT-0, sculpturing-2)
+
+
+(ROOT
+  (PRN
+    (S
+      (NP (NN cupcake))
+      (VP (VBG making)))
+    (, ,)))
+
+
+nsubj(making-2, cupcake-1)
+root(ROOT-0, making-2)
+
+
+(ROOT
+  (S
+    (NP (NN cooking))
+    (VP
+      (VP (VBZ demos))
+      (CC and)
+      (VP
+        (PP (IN of)
+          (NP (NN course)))))
+    (, ,)))
+
+
+nsubj(demos-2, cooking-1)
+root(ROOT-0, demos-2)
+cc(demos-2, and-3)
+conj(demos-2, of-4)
+pobj(of-4, course-5)
+
+
+(ROOT
+  (NP (NN food) (. !)))
+
+
+root(ROOT-0, food-1)
+
+
+(ROOT
+  (S
+    (NP (DT Some) (JJ lucky) (NNS customers))
+    (VP (MD might)
+      (ADVP (RB even))
+      (VP (VB win)
+        (NP (DT a) (NN holiday))
+        (PP (TO to)
+          (NP (NNP Sweden)))))
+    (. !)))
+
+
+det(customers-3, Some-1)
+amod(customers-3, lucky-2)
+nsubj(win-6, customers-3)
+aux(win-6, might-4)
+advmod(win-6, even-5)
+root(ROOT-0, win-6)
+det(holiday-8, a-7)
+dobj(win-6, holiday-8)
+prep(win-6, to-9)
+pobj(to-9, Sweden-10)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (RB Even) (NN taxi) (NNS drivers))
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (VP (VB drop)
+            (NP (NNS customers))
+            (ADVP (RB there))
+            (PP (IN in)
+              (NP
+                (NP (DT the) (NN wee) (NNS hours))
+                (PP (IN of)
+                  (NP (DT the) (NN morning)))))))))
+    (VP (MD will)
+      (VP (VB get)
+        (NP (DT a) (JJ free) (NN snack) (NN pack))))
+    (. .)))
+
+
+advmod(drivers-3, Even-1)
+nn(drivers-3, taxi-2)
+nsubj(get-16, drivers-3)
+nsubj(drop-5, who-4)
+rcmod(drivers-3, drop-5)
+dobj(drop-5, customers-6)
+advmod(drop-5, there-7)
+prep(drop-5, in-8)
+det(hours-11, the-9)
+nn(hours-11, wee-10)
+pobj(in-8, hours-11)
+prep(hours-11, of-12)
+det(morning-14, the-13)
+pobj(of-12, morning-14)
+aux(get-16, will-15)
+root(ROOT-0, get-16)
+det(pack-20, a-17)
+amod(pack-20, free-18)
+nn(pack-20, snack-19)
+dobj(get-16, pack-20)
+
+
+(ROOT
+  (SINV
+    (ADVP (RB Here))
+    (VP (VBZ is))
+    (NP
+      (NP (DT a) (NN list))
+      (PP (IN of)
+        (NP (DT the) (NNS activities) (NN happening))))
+    (: :)))
+
+
+advmod(is-2, Here-1)
+root(ROOT-0, is-2)
+det(list-4, a-3)
+nsubj(is-2, list-4)
+prep(list-4, of-5)
+det(happening-8, the-6)
+nn(happening-8, activities-7)
+pobj(of-5, happening-8)
+
+
+(ROOT
+  (S
+    (VP (VB Click)
+      (ADVP (RB here))
+      (PP (IN for)
+        (NP (JJR more) (NNS details))))
+    (. !)))
+
+
+root(ROOT-0, Click-1)
+advmod(Click-1, here-2)
+prep(Click-1, for-3)
+amod(details-5, more-4)
+pobj(for-3, details-5)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ 's)
+      (ADJP (JJ gonna))
+      (S
+        (VP (VB be)
+          (NP
+            (NP (NNS lots))
+            (PP (IN of)
+              (NP (NN fun))))
+          (PP (IN for)
+            (NP (DT the) (JJ whole) (NN family))))))
+    (. !)))
+
+
+nsubj(gonna-3, It-1)
+cop(gonna-3, 's-2)
+root(ROOT-0, gonna-3)
+cop(lots-5, be-4)
+ccomp(gonna-3, lots-5)
+prep(lots-5, of-6)
+pobj(of-6, fun-7)
+prep(lots-5, for-8)
+det(family-11, the-9)
+amod(family-11, whole-10)
+pobj(for-8, family-11)
+
+
+(ROOT
+  (S
+    (NP (RB So))
+    (VP (VBP make)
+      (NP (DT a) (NN date)))
+    (, ,)))
+
+
+nsubj(make-2, So-1)
+root(ROOT-0, make-2)
+det(date-4, a-3)
+dobj(make-2, date-4)
+
+
+(ROOT
+  (S (CC and)
+    (NP (PRP I))
+    (VP (VBP look)
+      (ADVP (RB forward))
+      (PP (TO to)
+        (S
+          (VP (VBG seeing)
+            (S
+              (NP (PRP you))
+              (NP (EX there)))))))
+    (. !)))
+
+
+cc(look-3, and-1)
+nsubj(look-3, I-2)
+root(ROOT-0, look-3)
+advmod(look-3, forward-4)
+prep(look-3, to-5)
+pcomp(to-5, seeing-6)
+nsubj(there-8, you-7)
+xcomp(seeing-6, there-8)
+
+

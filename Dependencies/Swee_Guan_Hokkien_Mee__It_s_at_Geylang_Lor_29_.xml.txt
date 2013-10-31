@@ -1,0 +1,140 @@
+(ROOT
+  (FRAG
+    (ADVP (RB Now))
+    (SBAR (IN if)
+      (S
+        (NP (PRP you))
+        (VP (VBP are)
+          (PP (IN at)
+            (S
+              (VP (VBG Geylang)
+                (NP (NNP Lor) (CD 29))
+                (S
+                  (VP (TO to)
+                    (VP (VB try)
+                      (NP (DT the) (NNP Pork) (NNP Belly) (NNP Satay))))))
+              (, ,))))))))
+
+
+root(ROOT-0, Now-1)
+mark(are-4, if-2)
+nsubj(are-4, you-3)
+dep(Now-1, are-4)
+prep(are-4, at-5)
+pcomp(at-5, Geylang-6)
+dobj(Geylang-6, Lor-7)
+num(Lor-7, 29-8)
+aux(try-10, to-9)
+xcomp(Geylang-6, try-10)
+det(Satay-14, the-11)
+nn(Satay-14, Pork-12)
+nn(Satay-14, Belly-13)
+dobj(try-10, Satay-14)
+
+
+(ROOT
+  (S
+    (VP (VB do) (RB n't)
+      (VP (VB forget)
+        (S
+          (VP (TO to)
+            (VP (VB order)
+              (NP
+                (NP (DT a) (NN plate))
+                (PP (IN of)
+                  (NP (NNP Hokkien) (NNP Mee))))
+              (S
+                (VP (TO to)
+                  (VP (VB go)
+                    (PRT (RP along))
+                    (PP (IN with)
+                      (NP (PRP it)))))))))))
+    (. .)))
+
+
+aux(forget-3, do-1)
+neg(forget-3, n't-2)
+root(ROOT-0, forget-3)
+aux(order-5, to-4)
+xcomp(forget-3, order-5)
+det(plate-7, a-6)
+dobj(order-5, plate-7)
+prep(plate-7, of-8)
+nn(Mee-10, Hokkien-9)
+pobj(of-8, Mee-10)
+aux(go-12, to-11)
+xcomp(order-5, go-12)
+prt(go-12, along-13)
+prep(go-12, with-14)
+pobj(with-14, it-15)
+
+
+(ROOT
+  (S
+    (NP (NNP Hokkien) (NNP Mee)
+      (CC and)
+      (NNP Satay))
+    (VP (VBZ is)
+      (NP (PRP$ my) (NN number) (NN one)))
+    (, ,)))
+
+
+nn(Mee-2, Hokkien-1)
+nsubj(one-8, Mee-2)
+cc(Mee-2, and-3)
+conj(Mee-2, Satay-4)
+cop(one-8, is-5)
+poss(one-8, my-6)
+nn(one-8, number-7)
+root(ROOT-0, one-8)
+
+
+(ROOT
+  (S
+    (NP (DT all) (NN time) (NN favorite) (NNP Singapore))
+    (VP (VBP hawker)
+      (NP (NN combo)))
+    (. .)))
+
+
+det(Singapore-4, all-1)
+nn(Singapore-4, time-2)
+nn(Singapore-4, favorite-3)
+nsubj(hawker-5, Singapore-4)
+root(ROOT-0, hawker-5)
+dobj(hawker-5, combo-6)
+
+
+(ROOT
+  (S (IN So)
+    (NP (PRP it))
+    (VP (VBZ is)
+      (NP (DT a) (NN bonus)
+        (S
+          (VP (TO to)
+            (VP (VB find)
+              (NP
+                (NP (CD two)
+                  (ADJP (RB really) (JJ good))
+                  (JJ stalls) (NN side))
+                (PP (IN by)
+                  (NP (NN side)))))))))
+    (. .)))
+
+
+dep(bonus-5, So-1)
+nsubj(bonus-5, it-2)
+cop(bonus-5, is-3)
+det(bonus-5, a-4)
+root(ROOT-0, bonus-5)
+aux(find-7, to-6)
+infmod(bonus-5, find-7)
+num(side-12, two-8)
+advmod(good-10, really-9)
+amod(side-12, good-10)
+amod(side-12, stalls-11)
+dobj(find-7, side-12)
+prep(side-12, by-13)
+pobj(by-13, side-14)
+
+

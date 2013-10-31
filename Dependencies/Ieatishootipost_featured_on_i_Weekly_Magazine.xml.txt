@@ -1,0 +1,204 @@
+(ROOT
+  (S
+    (NP
+      (NP (CD One))
+      (PP (IN of)
+        (NP (PRP$ my) (NNS friends))))
+    (VP (VBD alerted))))
+
+
+nsubj(alerted-5, One-1)
+prep(One-1, of-2)
+poss(friends-4, my-3)
+pobj(of-2, friends-4)
+root(ROOT-0, alerted-5)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (PRP me))
+      (PP (TO to)
+        (NP
+          (NP (DT the) (NN fact))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (VBP ieatishootipost)))))))
+    (VP (VBZ has)
+      (VP (VBN been)
+        (VP (VBN featured)
+          (PP (IN in)
+            (NP
+              (NP (DT the) (JJ current) (NN issue))
+              (PP (IN of)
+                (NP (JJ i) (JJ weekly) (NN magazine))))))))
+    (. .)))
+
+
+nsubjpass(featured-9, me-1)
+prep(me-1, to-2)
+det(fact-4, the-3)
+pobj(to-2, fact-4)
+nsubj(ieatishootipost-6, that-5)
+rcmod(fact-4, ieatishootipost-6)
+aux(featured-9, has-7)
+auxpass(featured-9, been-8)
+root(ROOT-0, featured-9)
+prep(featured-9, in-10)
+det(issue-13, the-11)
+amod(issue-13, current-12)
+pobj(in-10, issue-13)
+prep(issue-13, of-14)
+amod(magazine-17, i-15)
+amod(magazine-17, weekly-16)
+pobj(of-14, magazine-17)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Unfortunately))
+    (, ,)))
+
+
+root(ROOT-0, Unfortunately-1)
+
+
+(ROOT
+  (S
+    (NP (PRP$ my) (NN mandarin))
+    (VP (VBZ is) (RB not)
+      (ADJP (JJ good) (RB enough)
+        (S
+          (VP (TO to)
+            (VP (VB do)
+              (NP
+                (NP (DT an) (NN interpretation))
+                (PP (IN of)
+                  (NP (DT the) (NN text)))))))))
+    (. .)))
+
+
+poss(mandarin-2, my-1)
+nsubj(good-5, mandarin-2)
+cop(good-5, is-3)
+neg(good-5, not-4)
+root(ROOT-0, good-5)
+advmod(good-5, enough-6)
+aux(do-8, to-7)
+xcomp(good-5, do-8)
+det(interpretation-10, an-9)
+dobj(do-8, interpretation-10)
+prep(interpretation-10, of-11)
+det(text-13, the-12)
+pobj(of-11, text-13)
+
+
+(ROOT
+  (S (IN So)
+    (ADVP (RB perhaps))
+    (NP (NN someone))
+    (VP (MD can)
+      (VP (VB help)
+        (VP (VB do)
+          (NP
+            (NP (DT the) (NN translation))
+            (PP (IN for)
+              (NP (PRP me)))))))
+    (. ?)))
+
+
+dep(help-5, So-1)
+advmod(help-5, perhaps-2)
+nsubj(help-5, someone-3)
+aux(help-5, can-4)
+root(ROOT-0, help-5)
+xcomp(help-5, do-6)
+det(translation-8, the-7)
+dobj(do-6, translation-8)
+prep(translation-8, for-9)
+pobj(for-9, me-10)
+
+
+(ROOT
+  (S
+    (VP (VB Thanks)
+      (ADVP (RB again))
+      (PP (TO to)
+        (NP
+          (NP (DT all) (NNS readers))
+          (PP (IN for)
+            (NP (PRP$ your) (NN support))))))
+    (. !)))
+
+
+root(ROOT-0, Thanks-1)
+advmod(Thanks-1, again-2)
+prep(Thanks-1, to-3)
+det(readers-5, all-4)
+pobj(to-3, readers-5)
+prep(readers-5, for-6)
+poss(support-8, your-7)
+pobj(for-6, support-8)
+
+
+(ROOT
+  (S
+    (NP (NNP OK))
+    (ADVP (RB here))
+    (VP (VBZ 's)
+      (NP
+        (NP (DT the) (NN translation) (NN courtesy))
+        (PP (IN of)
+          (NP (NNP Vale) (NNP Ng)))))
+    (. .)))
+
+
+nsubj(courtesy-6, OK-1)
+advmod(courtesy-6, here-2)
+cop(courtesy-6, 's-3)
+det(courtesy-6, the-4)
+nn(courtesy-6, translation-5)
+root(ROOT-0, courtesy-6)
+prep(courtesy-6, of-7)
+nn(Ng-9, Vale-8)
+pobj(of-7, Ng-9)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB Also))
+    (NP
+      (NP (NNS thanks))
+      (PP (TO to)
+        (NP
+          (NP (NNP Khim))
+          (PP (IN for)
+            (S
+              (VP (VBG providing)
+                (NP
+                  (NP (DT another) (NN version))
+                  (PP (IN of)
+                    (NP
+                      (NP (DT the) (NN translation))
+                      (PP (IN in)
+                        (NP (DT the) (NNS comments))))))))))))
+    (. !)))
+
+
+dep(thanks-2, Also-1)
+root(ROOT-0, thanks-2)
+prep(thanks-2, to-3)
+pobj(to-3, Khim-4)
+prep(Khim-4, for-5)
+pcomp(for-5, providing-6)
+det(version-8, another-7)
+dobj(providing-6, version-8)
+prep(version-8, of-9)
+det(translation-11, the-10)
+pobj(of-9, translation-11)
+prep(translation-11, in-12)
+det(comments-14, the-13)
+pobj(in-12, comments-14)
+
+

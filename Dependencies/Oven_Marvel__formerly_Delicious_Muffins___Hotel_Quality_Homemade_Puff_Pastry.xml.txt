@@ -1,0 +1,193 @@
+(ROOT
+  (FRAG
+    (NP (RB Everytime))))
+
+
+root(ROOT-0, Everytime-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (PP (IN about)
+        (NP (NNP Chicken) (NNPS Pies))))
+    (, ,)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+prep(think-2, about-3)
+nn(Pies-5, Chicken-4)
+pobj(about-3, Pies-5)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (VP (VBN reminded)
+        (PP (IN of)
+          (NP
+            (NP (DT the) (NNS ones))
+            (SBAR
+              (S
+                (NP (PRP they))
+                (VP (VBD used)
+                  (S
+                    (VP (TO to)
+                      (VP (VB sell)
+                        (PP (IN in)
+                          (NP
+                            (NP (DT the) (NN neighborhood) (NNS bakeries))
+                            (PP (IN in)
+                              (NP (DT the) (NNS seventies)
+                                (CC and)
+                                (NNS eighties)))))))))))))))
+    (. .)))
+
+
+nsubjpass(reminded-3, I-1)
+auxpass(reminded-3, am-2)
+root(ROOT-0, reminded-3)
+prep(reminded-3, of-4)
+det(ones-6, the-5)
+pobj(of-4, ones-6)
+nsubj(used-8, they-7)
+rcmod(ones-6, used-8)
+aux(sell-10, to-9)
+xcomp(used-8, sell-10)
+prep(sell-10, in-11)
+det(bakeries-14, the-12)
+nn(bakeries-14, neighborhood-13)
+pobj(in-11, bakeries-14)
+prep(bakeries-14, in-15)
+det(seventies-17, the-16)
+pobj(in-15, seventies-17)
+cc(seventies-17, and-18)
+conj(seventies-17, eighties-19)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP know))
+    (, ,)))
+
+
+nsubj(know-2, You-1)
+root(ROOT-0, know-2)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT the) (NNS ones))
+      (SBAR
+        (WHNP (WDT that))
+        (S
+          (VP (VBD were)
+            (VP (VBN shaped)
+              (PP (IN like)
+                (NP (JJ big) (NNS muffins)))
+              (PP (IN with)
+                (NP (DT a) (NN dome))))))))
+    (VP
+      (VP (VBN shaped)
+        (NP (NN top)))
+      (CC and)
+      (VP (VBN made)
+        (PP (IN with)
+          (NP (NN puff) (NN pastry)))))
+    (. .)))
+
+
+det(ones-2, the-1)
+nsubj(shaped-12, ones-2)
+nsubjpass(shaped-5, that-3)
+auxpass(shaped-5, were-4)
+rcmod(ones-2, shaped-5)
+prep(shaped-5, like-6)
+amod(muffins-8, big-7)
+pobj(like-6, muffins-8)
+prep(shaped-5, with-9)
+det(dome-11, a-10)
+pobj(with-9, dome-11)
+root(ROOT-0, shaped-12)
+dobj(shaped-12, top-13)
+cc(shaped-12, and-14)
+conj(shaped-12, made-15)
+prep(made-15, with-16)
+nn(pastry-18, puff-17)
+pobj(with-16, pastry-18)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Man))
+    (, ,)))
+
+
+root(ROOT-0, Man-1)
+
+
+(ROOT
+  (S
+    (NP (PRP they))
+    (VP (VBD were)
+      (ADJP (JJ good)))
+    (. .)))
+
+
+nsubj(good-3, they-1)
+cop(good-3, were-2)
+root(ROOT-0, good-3)
+
+
+(ROOT
+  (FRAG (CC But)
+    (RB then)
+    (SBAR
+      (ADVP (RB again))
+      (IN as)
+      (S
+        (NP (PRP I))
+        (VP (VBP have)
+          (VP (VBN said)
+            (PP (IN before))
+            (, ,)))))))
+
+
+cc(then-2, But-1)
+root(ROOT-0, then-2)
+advmod(said-7, again-3)
+mark(said-7, as-4)
+nsubj(said-7, I-5)
+aux(said-7, have-6)
+dep(then-2, said-7)
+prep(said-7, before-8)
+
+
+(ROOT
+  (S
+    (NP (NN nostalgia))
+    (VP (VBZ is)
+      (ADVP (RB perhaps))
+      (NP
+        (NP (CD one))
+        (PP (IN of)
+          (NP (DT the) (JJS best) (NN taste) (NNS enhancers)))))
+    (. .)))
+
+
+nsubj(one-4, nostalgia-1)
+cop(one-4, is-2)
+advmod(one-4, perhaps-3)
+root(ROOT-0, one-4)
+prep(one-4, of-5)
+det(enhancers-9, the-6)
+amod(enhancers-9, best-7)
+nn(enhancers-9, taste-8)
+pobj(of-5, enhancers-9)
+
+

@@ -1,0 +1,1290 @@
+(ROOT
+  (SQ
+    (VP (VB Want)
+      (S
+        (VP (TO to)
+          (VP (VB drink)
+            (NP (DT the) (NNP Presidential) (NNP Teh) (NNP Tarik))))))
+    (. ?)))
+
+
+root(ROOT-0, Want-1)
+aux(drink-3, to-2)
+xcomp(Want-1, drink-3)
+det(Tarik-7, the-4)
+nn(Tarik-7, Presidential-5)
+nn(Tarik-7, Teh-6)
+dobj(drink-3, Tarik-7)
+
+
+(ROOT
+  (S
+    (S
+      (VP
+        (VP (VB Hop)
+          (PRT (RP down))
+          (PP (TO to)
+            (NP (NNP Marine) (NNP Parade) (NNP Food) (NNP Centre))))
+        (CC and)
+        (VP (VB look)
+          (PP (IN for)
+            (NP (DT this) (NNP Sarabat) (NN store))))))
+    (CC and)
+    (S
+      (NP (PRP you))
+      (ADVP (RB too))
+      (VP (MD can)
+        (VP (VB feel)
+          (PP (IN like)
+            (NP (DT the) (NNP President))))))
+    (. ...)))
+
+
+root(ROOT-0, Hop-1)
+prt(Hop-1, down-2)
+prep(Hop-1, to-3)
+nn(Centre-7, Marine-4)
+nn(Centre-7, Parade-5)
+nn(Centre-7, Food-6)
+pobj(to-3, Centre-7)
+cc(Hop-1, and-8)
+conj(Hop-1, look-9)
+prep(look-9, for-10)
+det(store-13, this-11)
+nn(store-13, Sarabat-12)
+pobj(for-10, store-13)
+cc(Hop-1, and-14)
+nsubj(feel-18, you-15)
+advmod(feel-18, too-16)
+aux(feel-18, can-17)
+conj(Hop-1, feel-18)
+prep(feel-18, like-19)
+det(President-21, the-20)
+pobj(like-19, President-21)
+
+
+(ROOT
+  (FRAG
+    (PP
+      (ADVP (IN at) (JJS least))
+      (IN for)
+      (NP (CD 10) (NNS minutes)))
+    (. .)))
+
+
+advmod(for-3, at-1)
+pobj(at-1, least-2)
+root(ROOT-0, for-3)
+num(minutes-5, 10-4)
+pobj(for-3, minutes-5)
+
+
+(ROOT
+  (S
+    (PP (IN Of)
+      (NP (NN course)))
+    (NP (DT the) (NNP President))
+    (VP (VBZ does) (RB not)
+      (VP (VB come)
+        (PRT (RP down))
+        (PP (TO to)
+          (NP
+            (NP (DT the) (NN stall))
+            (SBAR
+              (S
+                (NP (PRP himself))
+                (VP (TO to)
+                  (VP (VB drink)
+                    (NP (DT the) (NNP Teh) (NNP Tarik))))))))))
+    (. .)))
+
+
+prep(come-7, Of-1)
+pobj(Of-1, course-2)
+det(President-4, the-3)
+nsubj(come-7, President-4)
+aux(come-7, does-5)
+neg(come-7, not-6)
+root(ROOT-0, come-7)
+prt(come-7, down-8)
+prep(come-7, to-9)
+det(stall-11, the-10)
+pobj(to-9, stall-11)
+nsubj(drink-14, himself-12)
+aux(drink-14, to-13)
+infmod(stall-11, drink-14)
+det(Tarik-17, the-15)
+nn(Tarik-17, Teh-16)
+dobj(drink-14, Tarik-17)
+
+
+(ROOT
+  (S
+    (NP (DT That))
+    (VP (MD would)
+      (VP (VB mean)
+        (NP
+          (NP (DT a) (NN lot))
+          (PP (IN of)
+            (NP
+              (NP (NN work))
+              (PP (IN for)
+                (NP (DT the) (NNP Security) (NNPS Guards)))))
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP (MD will)
+                (VP (VB need)
+                  (S
+                    (VP (TO to)
+                      (VP
+                        (VP (VB get)
+                          (NP (DT the) (NNP Presidential) (NNP Body) (NNPS Guards)))
+                        (CC and)
+                        (ADVP (RB also))
+                        (VP (VB arrange)
+                          (PP (IN for)
+                            (NP (DT the) (NN neighborhood) (NN police)))
+                          (S
+                            (VP (TO to)
+                              (VP (VB partition)
+                                (PRT (RP off))
+                                (NP
+                                  (NP (DT a) (NN section))
+                                  (PP (IN of)
+                                    (NP
+                                      (NP (DT the) (NN carpark))
+                                      (PP (IN for)
+                                        (NP (DT the) (JJ presidential) (NN entourage))))))))))))))))))))
+    (. .)))
+
+
+nsubj(mean-3, That-1)
+aux(mean-3, would-2)
+root(ROOT-0, mean-3)
+det(lot-5, a-4)
+dobj(mean-3, lot-5)
+prep(lot-5, of-6)
+pobj(of-6, work-7)
+prep(work-7, for-8)
+det(Guards-11, the-9)
+nn(Guards-11, Security-10)
+pobj(for-8, Guards-11)
+nsubj(need-14, who-12)
+aux(need-14, will-13)
+rcmod(lot-5, need-14)
+aux(get-16, to-15)
+xcomp(need-14, get-16)
+det(Guards-20, the-17)
+nn(Guards-20, Presidential-18)
+nn(Guards-20, Body-19)
+dobj(get-16, Guards-20)
+cc(get-16, and-21)
+advmod(get-16, also-22)
+conj(get-16, arrange-23)
+prep(arrange-23, for-24)
+det(police-27, the-25)
+nn(police-27, neighborhood-26)
+pobj(for-24, police-27)
+aux(partition-29, to-28)
+xcomp(arrange-23, partition-29)
+prt(partition-29, off-30)
+det(section-32, a-31)
+dobj(partition-29, section-32)
+prep(section-32, of-33)
+det(carpark-35, the-34)
+pobj(of-33, carpark-35)
+prep(carpark-35, for-36)
+det(entourage-39, the-37)
+amod(entourage-39, presidential-38)
+pobj(for-36, entourage-39)
+
+
+(ROOT
+  (S (IN So)
+    (NP (JJ much) (NN red))
+    (VP (VBP tape)
+      (PP (IN for)
+        (NP
+          (NP (DT a) (NN cup))
+          (PP (IN of)
+            (NP (NNP Teh) (NNP Tarik))))))
+    (. .)))
+
+
+dep(tape-4, So-1)
+amod(red-3, much-2)
+nsubj(tape-4, red-3)
+root(ROOT-0, tape-4)
+prep(tape-4, for-5)
+det(cup-7, a-6)
+pobj(for-5, cup-7)
+prep(cup-7, of-8)
+nn(Tarik-10, Teh-9)
+pobj(of-8, Tarik-10)
+
+
+(ROOT
+  (S
+    (ADVP (RB Instead))
+    (NP
+      (NP (DT the) (NNP President) (POS 's))
+      (NN driver))
+    (VP (VBZ comes)
+      (PP (IN by)
+        (PP (TO to)
+          (NP (NNP Ta) (NNP Pau))))
+      (NP
+        (NP (DT the) (NNP Teh) (NNP Tarik) (NN back))
+        (PP (TO to)
+          (NP (DT the) (NNP Presidential) (NNP Mansion)))))
+    (. .)))
+
+
+advmod(comes-6, Instead-1)
+det(President-3, the-2)
+poss(driver-5, President-3)
+possessive(President-3, 's-4)
+nsubj(comes-6, driver-5)
+root(ROOT-0, comes-6)
+prep(comes-6, by-7)
+pcomp(by-7, to-8)
+nn(Pau-10, Ta-9)
+pobj(to-8, Pau-10)
+det(back-14, the-11)
+nn(back-14, Teh-12)
+nn(back-14, Tarik-13)
+dobj(comes-6, back-14)
+prep(back-14, to-15)
+det(Mansion-18, the-16)
+nn(Mansion-18, Presidential-17)
+pobj(to-15, Mansion-18)
+
+
+(ROOT
+  (SBAR (IN Although)
+    (S
+      (NP (DT this) (NN stall))
+      (VP (VBZ is)
+        (VP (VBN opened)
+          (PP (IN throughout)
+            (NP (DT the) (NN day)))
+          (, ,))))))
+
+
+mark(opened-5, Although-1)
+det(stall-3, this-2)
+nsubjpass(opened-5, stall-3)
+auxpass(opened-5, is-4)
+root(ROOT-0, opened-5)
+prep(opened-5, throughout-6)
+det(day-8, the-7)
+pobj(throughout-6, day-8)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT the) (NNP President) (POS 's))
+      (NN Teh))
+    (VP (VBZ is)
+      (ADJP (RB only) (JJ available)
+        (PP (IN during)
+          (NP (DT the) (NNS mornings))))
+      (ADVP (RB up))
+      (PP (IN till)
+        (NP (CD 12.30) (NN pm))))
+    (. .)))
+
+
+det(President-2, the-1)
+poss(Teh-4, President-2)
+possessive(President-2, 's-3)
+nsubj(available-7, Teh-4)
+cop(available-7, is-5)
+advmod(available-7, only-6)
+root(ROOT-0, available-7)
+prep(available-7, during-8)
+det(mornings-10, the-9)
+pobj(during-8, mornings-10)
+advmod(available-7, up-11)
+prep(available-7, till-12)
+num(pm-14, 12.30-13)
+pobj(till-12, pm-14)
+
+
+(ROOT
+  (S
+    (NP (DT That))
+    (VP (VBZ is)
+      (SBAR (IN because)
+        (S
+          (NP (PRP it))
+          (VP (VBZ has)
+            (S
+              (VP (TO to)
+                (VP (VB be)
+                  (VP (VBN made)
+                    (PP (IN by)
+                      (NP
+                        (NP (DT a) (JJ particular) (NN man))
+                        (SBAR
+                          (WHNP (WP who))
+                          (S
+                            (VP (VBZ is)
+                              (NP
+                                (NP (NN code))
+                                (VP (VBN named)
+                                  (S (`` ``)
+                                    (NP (NNP Michael) (NNP Bolton))
+                                    ('' '')))))))))))))
+            (S
+              (VP (TO to)
+                (VP (VB protect)
+                  (NP (PRP$ his) (JJ real) (NN identity)))))))))
+    (. .)))
+
+
+nsubj(is-2, That-1)
+root(ROOT-0, is-2)
+mark(has-5, because-3)
+nsubj(has-5, it-4)
+advcl(is-2, has-5)
+aux(made-8, to-6)
+auxpass(made-8, be-7)
+xcomp(has-5, made-8)
+prep(made-8, by-9)
+det(man-12, a-10)
+amod(man-12, particular-11)
+pobj(by-9, man-12)
+nsubj(code-15, who-13)
+cop(code-15, is-14)
+rcmod(man-12, code-15)
+partmod(code-15, named-16)
+nn(Bolton-19, Michael-18)
+dep(named-16, Bolton-19)
+aux(protect-22, to-21)
+xcomp(has-5, protect-22)
+poss(identity-25, his-23)
+amod(identity-25, real-24)
+dobj(protect-22, identity-25)
+
+
+(ROOT
+  (S (-LRB- -LRB-)
+    (NP (NNP Actually) (NNP I))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP (PRP it))
+          (VP (VBZ is)
+            (PP (RB because) (IN of)
+              (NP (PRP$ his) (NN hairstyle)))))))
+    (-RRB- -RRB-) (. .)))
+
+
+nn(I-3, Actually-2)
+nsubj(think-4, I-3)
+root(ROOT-0, think-4)
+nsubj(is-6, it-5)
+ccomp(think-4, is-6)
+advmod(of-8, because-7)
+prep(is-6, of-8)
+poss(hairstyle-10, his-9)
+pobj(of-8, hairstyle-10)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Anyway))
+    (, ,)))
+
+
+root(ROOT-0, Anyway-1)
+
+
+(ROOT
+  (S
+    (NP (DT the) (`` ``) (NNP Michael) (NNP Bolton) ('' ''))
+    (ADVP (RB only))
+    (VP (VBZ works)
+      (NP (DT the) (NN morning) (NN shift)))
+    (, ,)))
+
+
+det(Bolton-4, the-1)
+nn(Bolton-4, Michael-3)
+nsubj(works-7, Bolton-4)
+advmod(works-7, only-6)
+root(ROOT-0, works-7)
+det(shift-10, the-8)
+nn(shift-10, morning-9)
+dobj(works-7, shift-10)
+
+
+(ROOT
+  (S (IN so)
+    (NP (DT the) (NNP Presidential) (NNP Teh) (NNP Tarik))
+    (VP (VBD was) (RB not)
+      (ADJP (JJ available))
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP I))
+          (VP (VBD got)
+            (ADVP (RB there))
+            (PP (IN at)
+              (NP
+                (NP (CD 2.30) (NN pm))
+                (PP (IN in)
+                  (NP (DT the) (NN afternoon)))))))))
+    (. .)))
+
+
+dep(available-8, so-1)
+det(Tarik-5, the-2)
+nn(Tarik-5, Presidential-3)
+nn(Tarik-5, Teh-4)
+nsubj(available-8, Tarik-5)
+cop(available-8, was-6)
+neg(available-8, not-7)
+root(ROOT-0, available-8)
+advmod(got-11, when-9)
+nsubj(got-11, I-10)
+advcl(available-8, got-11)
+advmod(got-11, there-12)
+prep(got-11, at-13)
+num(pm-15, 2.30-14)
+pobj(at-13, pm-15)
+prep(pm-15, in-16)
+det(afternoon-18, the-17)
+pobj(in-16, afternoon-18)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Ah))
+    (, ,)))
+
+
+root(ROOT-0, Ah-1)
+
+
+(ROOT
+  (S (CC but)
+    (NP (PRP you))
+    (ADVP (RB astutely))
+    (VP (VBP observe)
+      (SBAR (IN that)
+        (S
+          (NP (PRP I))
+          (VP
+            (VP (VBD managed)
+              (S
+                (VP (TO to)
+                  (VP (VB take)
+                    (NP
+                      (NP (NNS pictures))
+                      (PP (IN of)
+                        (NP (PRP him))))))))
+            (CC and)
+            (VP (VBP are)
+              (VP (VBG wondering)
+                (SBAR
+                  (WHADVP (WRB why))
+                  (S
+                    (NP (PRP he))
+                    (VP (MD can) (RB not)
+                      (VP (VB make)
+                        (NP
+                          (NP (DT a) (NNP Teh) (NNP Tarik))
+                          (PP (IN for)
+                            (NP (PRP me))))
+                        (SBAR (IN since)
+                          (S
+                            (NP (PRP he))
+                            (VP (VBZ is)
+                              (ADVP (RB still))
+                              (ADVP (RB around)))))))))))))))
+    (. .)))
+
+
+cc(observe-4, but-1)
+nsubj(observe-4, you-2)
+advmod(observe-4, astutely-3)
+root(ROOT-0, observe-4)
+mark(managed-7, that-5)
+nsubj(managed-7, I-6)
+ccomp(observe-4, managed-7)
+aux(take-9, to-8)
+xcomp(managed-7, take-9)
+dobj(take-9, pictures-10)
+prep(pictures-10, of-11)
+pobj(of-11, him-12)
+cc(managed-7, and-13)
+aux(wondering-15, are-14)
+conj(managed-7, wondering-15)
+advmod(make-20, why-16)
+nsubj(make-20, he-17)
+aux(make-20, can-18)
+neg(make-20, not-19)
+advcl(wondering-15, make-20)
+det(Tarik-23, a-21)
+nn(Tarik-23, Teh-22)
+dobj(make-20, Tarik-23)
+prep(Tarik-23, for-24)
+pobj(for-24, me-25)
+mark(is-28, since-26)
+nsubj(is-28, he-27)
+advcl(make-20, is-28)
+advmod(is-28, still-29)
+advmod(is-28, around-30)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD wondered)
+      (ADVP (RB too)))
+    (. .)))
+
+
+nsubj(wondered-2, I-1)
+root(ROOT-0, wondered-2)
+advmod(wondered-2, too-3)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD pleaded)
+      (PP (IN with)
+        (NP (DT the) (`` ``) (NNP Michael) (NNP Bolton) ('' '')))
+      (PP (IN for)
+        (NP
+          (QP (IN at) (JJS least) (CD 15))
+          (NNS minutes)))
+      (PP (TO to)
+        (NP (DT no) (NN avail))))
+    (. .)))
+
+
+nsubj(pleaded-2, I-1)
+root(ROOT-0, pleaded-2)
+prep(pleaded-2, with-3)
+det(Bolton-7, the-4)
+nn(Bolton-7, Michael-6)
+pobj(with-3, Bolton-7)
+prep(pleaded-2, for-9)
+quantmod(15-12, at-10)
+mwe(at-10, least-11)
+num(minutes-13, 15-12)
+pobj(for-9, minutes-13)
+prep(pleaded-2, to-14)
+det(avail-16, no-15)
+pobj(to-14, avail-16)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NN man))
+    (ADVP (RB just))
+    (VP (MD would) (RB not)
+      (VP (VB make)
+        (S
+          (NP (PRP me))
+          (NP
+            (NP (DT a) (NN cup))
+            (PP (IN of)
+              (NP (NNP Teh) (NNP Tarik)))))))
+    (. .)))
+
+
+det(man-2, The-1)
+nsubj(make-6, man-2)
+advmod(make-6, just-3)
+aux(make-6, would-4)
+neg(make-6, not-5)
+root(ROOT-0, make-6)
+nsubj(cup-9, me-7)
+det(cup-9, a-8)
+xcomp(make-6, cup-9)
+prep(cup-9, of-10)
+nn(Tarik-12, Teh-11)
+pobj(of-10, Tarik-12)
+
+
+(ROOT
+  (NP (NNP Frustrated) (NNP ,)))
+
+
+nn(,-2, Frustrated-1)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD unleashed)
+      (NP (PRP$ my) (JJ secret) (NN weapon)))
+    (: ...)))
+
+
+nsubj(unleashed-2, I-1)
+root(ROOT-0, unleashed-2)
+poss(weapon-5, my-3)
+amod(weapon-5, secret-4)
+dobj(unleashed-2, weapon-5)
+
+
+(ROOT
+  (INTJ (UH .)))
+
+
+
+
+(ROOT
+  (INTJ (UH .)))
+
+
+
+
+(ROOT
+  (S
+    (VP (VB iwatch_ueat))
+    (. .)))
+
+
+root(ROOT-0, iwatch_ueat-1)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB Now))
+    (ADVP (RB ,))))
+
+
+root(ROOT-0, Now-1)
+
+
+(ROOT
+  (SBAR (IN if)
+    (S
+      (NP (NN iwatch_ueat))
+      (VP (MD ca) (RB n't)
+        (VP (VB get)
+          (S
+            (NP (PRP him))
+            (VP (TO to)
+              (VP (VB make)
+                (NP
+                  (NP (DT a) (NN cup))
+                  (PP (IN of)
+                    (NP (NNP Teh) (NNP Tarik)))))))))
+      (, ,))))
+
+
+mark(get-5, if-1)
+nsubj(get-5, iwatch_ueat-2)
+aux(get-5, ca-3)
+neg(get-5, n't-4)
+root(ROOT-0, get-5)
+nsubj(make-8, him-6)
+aux(make-8, to-7)
+xcomp(get-5, make-8)
+det(cup-10, a-9)
+dobj(make-8, cup-10)
+prep(cup-10, of-11)
+nn(Tarik-13, Teh-12)
+pobj(of-11, Tarik-13)
+
+
+(ROOT
+  (S
+    (NP (DT no) (NN one))
+    (VP (MD can))
+    (. .)))
+
+
+det(one-2, no-1)
+nsubj(can-3, one-2)
+root(ROOT-0, can-3)
+
+
+(ROOT
+  (S
+    (NP (NNP Trust))
+    (VP (VBZ me))
+    (, ,)))
+
+
+nsubj(me-2, Trust-1)
+root(ROOT-0, me-2)
+
+
+(ROOT
+  (S
+    (NP (DT this) (NN lady))
+    (VP (MD can)
+      (ADVP (RB even))
+      (VP (VB get)
+        (NP (DT a) (NN loan) (NN shark))
+        (S
+          (VP (TO to)
+            (VP (VB give)
+              (NP (PRP$ her) (NN money))
+              (SBAR
+                (WHADVP (WRB when))
+                (S
+                  (NP (PRP she))
+                  (VP (VBZ needs)
+                    (PP (TO to))))))))))
+    (. .)))
+
+
+det(lady-2, this-1)
+nsubj(get-5, lady-2)
+aux(get-5, can-3)
+advmod(get-5, even-4)
+root(ROOT-0, get-5)
+det(shark-8, a-6)
+nn(shark-8, loan-7)
+dobj(get-5, shark-8)
+aux(give-10, to-9)
+xcomp(get-5, give-10)
+poss(money-12, her-11)
+dobj(give-10, money-12)
+advmod(needs-15, when-13)
+nsubj(needs-15, she-14)
+advcl(give-10, needs-15)
+prep(needs-15, to-16)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Anyway))
+    (, ,)))
+
+
+root(ROOT-0, Anyway-1)
+
+
+(ROOT
+  (FRAG
+    (PP (IN after)
+      (NP
+        (NP (CD 15) (NNS minutes))
+        (PP (IN of)
+          (NP (NNS negotiations)))))
+    (, ,)))
+
+
+root(ROOT-0, after-1)
+num(minutes-3, 15-2)
+pobj(after-1, minutes-3)
+prep(minutes-3, of-4)
+pobj(of-4, negotiations-5)
+
+
+(ROOT
+  (S
+    (NP (PRP she))
+    (VP (VBD came)
+      (PRT (RP back))
+      (S
+        (ADJP (JJ empty) (NN handed))))
+    (. .)))
+
+
+nsubj(came-2, she-1)
+root(ROOT-0, came-2)
+prt(came-2, back-3)
+dep(handed-5, empty-4)
+dep(came-2, handed-5)
+
+
+(ROOT
+  (FRAG
+    (PP
+      (ADVP (RB Well))
+      (RB not)
+      (NP (RB really)))
+    (, ,)))
+
+
+root(ROOT-0, Well-1)
+neg(Well-1, not-2)
+pobj(Well-1, really-3)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD did) (RB not)
+      (VP (VB get)
+        (NP (PRP$ my) (NNP Presidential) (NNP Teh) (NNP Tarik))))
+    (, ,)))
+
+
+nsubj(get-4, I-1)
+aux(get-4, did-2)
+neg(get-4, not-3)
+root(ROOT-0, get-4)
+poss(Tarik-8, my-5)
+nn(Tarik-8, Presidential-6)
+nn(Tarik-8, Teh-7)
+dobj(get-4, Tarik-8)
+
+
+(ROOT
+  (S (CC but)
+    (NP (PRP I))
+    (VP (VBD got)
+      (NP
+        (NP (DT a) (JJ good) (NN explaination))
+        (FRAG
+          (WHADVP (WRB why) (RB not)))))
+    (. .)))
+
+
+cc(got-3, but-1)
+nsubj(got-3, I-2)
+root(ROOT-0, got-3)
+det(explaination-6, a-4)
+amod(explaination-6, good-5)
+dobj(got-3, explaination-6)
+advmod(not-8, why-7)
+dep(explaination-6, not-8)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP see))
+    (, ,)))
+
+
+nsubj(see-2, You-1)
+root(ROOT-0, see-2)
+
+
+(ROOT
+  (S
+    (NP (PRP they))
+    (VP
+      (VP (VBP prepare)
+        (NP (DT the) (NN tea))
+        (ADVP (RB beforehand)))
+      (CC and)
+      (VP
+        (SBAR (IN because)
+          (S
+            (NP (PRP$ his) (NN shift))
+            (VP (VBD was)
+              (PP (IN in)
+                (NP (DT the) (NN morning))))))))
+    (, ,)))
+
+
+nsubj(prepare-2, they-1)
+root(ROOT-0, prepare-2)
+det(tea-4, the-3)
+dobj(prepare-2, tea-4)
+advmod(prepare-2, beforehand-5)
+cc(prepare-2, and-6)
+mark(was-10, because-7)
+poss(shift-9, his-8)
+nsubj(was-10, shift-9)
+conj(prepare-2, was-10)
+prep(was-10, in-11)
+det(morning-13, the-12)
+pobj(in-11, morning-13)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT the) (NN batch))
+      (PP (IN of)
+        (NP
+          (NP (NN tea))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (VBZ is)
+                (ADJP (RB already) (JJ prepared))))))))
+    (VP (VBD was) (RB not)
+      (VP (VBN done)
+        (PP (IN by)
+          (NP (PRP him)))))
+    (. .)))
+
+
+det(batch-2, the-1)
+nsubjpass(done-11, batch-2)
+prep(batch-2, of-3)
+pobj(of-3, tea-4)
+nsubj(prepared-8, that-5)
+cop(prepared-8, is-6)
+advmod(prepared-8, already-7)
+rcmod(tea-4, prepared-8)
+auxpass(done-11, was-9)
+neg(done-11, not-10)
+root(ROOT-0, done-11)
+prep(done-11, by-12)
+pobj(by-12, him-13)
+
+
+(ROOT
+  (S (IN So)
+    (NP (PRP it))
+    (VP (MD would)
+      (VP (VB taste)
+        (ADJP (JJ different))
+        (SBAR (RB even) (IN if)
+          (S
+            (NP (PRP he))
+            (VP (VBD were)
+              (NP
+                (NP (DT the) (NN one))
+                (VP
+                  (VP (VBG adding)
+                    (NP (DT the) (NN milk)))
+                  (CC and)
+                  (VP (VBG tariking)
+                    (NP (PRP it))))))))))
+    (. .)))
+
+
+dep(taste-4, So-1)
+nsubj(taste-4, it-2)
+aux(taste-4, would-3)
+root(ROOT-0, taste-4)
+acomp(taste-4, different-5)
+advmod(one-11, even-6)
+mark(one-11, if-7)
+nsubj(one-11, he-8)
+cop(one-11, were-9)
+det(one-11, the-10)
+advcl(taste-4, one-11)
+dep(one-11, adding-12)
+det(milk-14, the-13)
+dobj(adding-12, milk-14)
+cc(adding-12, and-15)
+conj(adding-12, tariking-16)
+dobj(tariking-16, it-17)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (ADVP (RB so))
+    (VP (VBZ simple))
+    (, ,)))
+
+
+nsubj(simple-3, It-1)
+advmod(simple-3, so-2)
+root(ROOT-0, simple-3)
+
+
+(ROOT
+  (SBARQ
+    (WHADVP (WRB why))
+    (SQ (VBD did) (RB n't)
+      (NP (PRP he))
+      (VP (VB tell)
+        (NP (PRP me))
+        (ADVP (RBR earlier))))
+    (. ?)))
+
+
+advmod(tell-5, why-1)
+aux(tell-5, did-2)
+neg(tell-5, n't-3)
+nsubj(tell-5, he-4)
+root(ROOT-0, tell-5)
+dobj(tell-5, me-6)
+advmod(tell-5, earlier-7)
+
+
+(ROOT
+  (S
+    (S
+      (ADVP (RB Anyway))
+      (NP (PRP I))
+      (VP (VBD had)
+        (NP
+          (NP (DT the) (NNP Teh) (NNP Halia) (NNP Tarik))
+          (VP (VBN made)
+            (PP (IN by)
+              (NP (DT the) (NN partner)))))))
+    (CC and)
+    (S
+      (NP (PRP it))
+      (VP (VBD was)
+        (ADJP (RB very) (RB very) (JJ good))))
+    (. !)))
+
+
+advmod(had-3, Anyway-1)
+nsubj(had-3, I-2)
+root(ROOT-0, had-3)
+det(Tarik-7, the-4)
+nn(Tarik-7, Teh-5)
+nn(Tarik-7, Halia-6)
+dobj(had-3, Tarik-7)
+partmod(Tarik-7, made-8)
+prep(made-8, by-9)
+det(partner-11, the-10)
+pobj(by-9, partner-11)
+cc(had-3, and-12)
+nsubj(good-17, it-13)
+cop(good-17, was-14)
+advmod(good-17, very-15)
+advmod(good-17, very-16)
+conj(had-3, good-17)
+
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBD was)
+      (ADJP (RB enough) (JJ punch))
+      (PP (IN from)
+        (NP (DT the) (NNP Ginger))))
+    (, ,)))
+
+
+expl(was-2, There-1)
+root(ROOT-0, was-2)
+advmod(punch-4, enough-3)
+acomp(was-2, punch-4)
+prep(was-2, from-5)
+det(Ginger-7, the-6)
+pobj(from-5, Ginger-7)
+
+
+(ROOT
+  (S
+    (S
+      (NP (DT the) (NNP Tea))
+      (VP (VBD was)
+        (ADJP (JJ strong))))
+    (CC and)
+    (S
+      (NP (PRP it))
+      (VP (VBD was)
+        (ADJP (JJ creamy)
+          (CC and)
+          (JJ smooth))))
+    (. .)))
+
+
+det(Tea-2, the-1)
+nsubj(strong-4, Tea-2)
+cop(strong-4, was-3)
+root(ROOT-0, strong-4)
+cc(strong-4, and-5)
+nsubj(creamy-8, it-6)
+cop(creamy-8, was-7)
+conj(strong-4, creamy-8)
+cc(creamy-8, and-9)
+conj(creamy-8, smooth-10)
+
+
+(ROOT
+  (INTJ (UH Sip) (UH ,)))
+
+
+root(ROOT-0, Sip-1)
+
+
+(ROOT
+  (NP (NN gulp) (: ...)))
+
+
+root(ROOT-0, gulp-1)
+
+
+(ROOT
+  (S
+    (VP (VB Aaaahhhhh))
+    (. !)))
+
+
+root(ROOT-0, Aaaahhhhh-1)
+
+
+(ROOT
+  (SBAR (IN If)
+    (S
+      (NP
+        (NP (DT the) (NN one))
+        (VP (VBN made)
+          (PP (IN by)
+            (NP (DT the) (NN partner)))))
+      (VP (VBD was)
+        (ADVP (RB already))
+        (ADVP (RB so) (RB good))
+        (, ,)))))
+
+
+mark(was-8, If-1)
+det(one-3, the-2)
+nsubj(was-8, one-3)
+partmod(one-3, made-4)
+prep(made-4, by-5)
+det(partner-7, the-6)
+pobj(by-5, partner-7)
+root(ROOT-0, was-8)
+advmod(was-8, already-9)
+advmod(good-11, so-10)
+advmod(was-8, good-11)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP wonder)
+      (SBAR
+        (WHNP (WP what))
+        (S
+          (NP
+            (NP (DT the) (NN one))
+            (VP (VBN made)
+              (PP (IN by)
+                (NP (DT the) (`` ``) (NNP Michael) (NNP Bolton) ('' '')))))
+          (VP (MD would)
+            (VP (VB taste)
+              (PP (IN like)))))))
+    (. ?)))
+
+
+nsubj(wonder-2, I-1)
+root(ROOT-0, wonder-2)
+pobj(like-15, what-3)
+det(one-5, the-4)
+nsubj(taste-14, one-5)
+partmod(one-5, made-6)
+prep(made-6, by-7)
+det(Bolton-11, the-8)
+nn(Bolton-11, Michael-10)
+pobj(by-7, Bolton-11)
+aux(taste-14, would-13)
+ccomp(wonder-2, taste-14)
+prep(taste-14, like-15)
+
+
+(ROOT
+  (S
+    (NP (NNS Looks))
+    (VP (VBP like)
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (VBP have)
+            (S
+              (VP (TO to)
+                (VP (VB visit)
+                  (NP (DT this) (NN place))
+                  (PP (IN on)
+                    (NP (DT a) (NNP Sunday) (NN morning)))
+                  (SBAR (IN in) (NN order)
+                    (S
+                      (VP (TO to)
+                        (VP (VB get)
+                          (NP
+                            (NP (DT a) (NN taste))
+                            (PP (IN of)
+                              (NP (DT the) (JJ authentic) (NNP Presidential) (NNP Teh) (NNP Tarik)))))))))))))))
+    (. !)))
+
+
+nsubj(like-2, Looks-1)
+root(ROOT-0, like-2)
+nsubj(have-4, I-3)
+ccomp(like-2, have-4)
+aux(visit-6, to-5)
+xcomp(have-4, visit-6)
+det(place-8, this-7)
+dobj(visit-6, place-8)
+prep(visit-6, on-9)
+det(morning-12, a-10)
+nn(morning-12, Sunday-11)
+pobj(on-9, morning-12)
+mark(get-16, in-13)
+dep(get-16, order-14)
+aux(get-16, to-15)
+advcl(visit-6, get-16)
+det(taste-18, a-17)
+dobj(get-16, taste-18)
+prep(taste-18, of-19)
+det(Tarik-24, the-20)
+amod(Tarik-24, authentic-21)
+nn(Tarik-24, Presidential-22)
+nn(Tarik-24, Teh-23)
+pobj(of-19, Tarik-24)
+
+
+(ROOT
+  (S
+    (NP (NNP Michael) (NNP Bolten))
+    (VP (VBZ has)
+      (NP
+        (NP (`` ``) (NNP Balik) (NNP Kampung) ('' ''))
+        (PRN (-LRB- -LRB-)
+          (VP (VBN gone)
+            (ADVP (RB home))
+            (PP (TO to)
+              (NP (NNP Malacca))))
+          (-RRB- -RRB-))
+        (SBAR
+          (S
+            (NP
+              (NP (NNP Hilmi) (NNP Sarabat) (NNP Stall) (NNP Marine) (NNP Parade) (NNP Food))
+              (VP (VBG Centre)
+                (NP
+                  (QP (# #) (CD 01-146) (CD 5.30)))))
+            (VP (VBP am)
+              (PP (TO to)
+                (NP
+                  (NP (NNP 11pm) (NNP Presidential) (NNP Teh) (NNP Tarik))
+                  (ADJP (RB only) (JJ available))))
+              (ADVP (RB up)
+                (PP (IN till)
+                  (NP (CD 12.30) (NN pm)))))))))))
+
+
+nn(Bolten-2, Michael-1)
+nsubj(has-3, Bolten-2)
+root(ROOT-0, has-3)
+nn(Kampung-6, Balik-5)
+dobj(has-3, Kampung-6)
+dep(Kampung-6, gone-9)
+advmod(gone-9, home-10)
+prep(gone-9, to-11)
+pobj(to-11, Malacca-12)
+nn(Food-19, Hilmi-14)
+nn(Food-19, Sarabat-15)
+nn(Food-19, Stall-16)
+nn(Food-19, Marine-17)
+nn(Food-19, Parade-18)
+nsubj(am-24, Food-19)
+partmod(Food-19, Centre-20)
+number(5.30-23, #-21)
+number(5.30-23, 01-146-22)
+dobj(Centre-20, 5.30-23)
+rcmod(Kampung-6, am-24)
+prep(am-24, to-25)
+nn(Tarik-29, 11pm-26)
+nn(Tarik-29, Presidential-27)
+nn(Tarik-29, Teh-28)
+pobj(to-25, Tarik-29)
+advmod(available-31, only-30)
+amod(Tarik-29, available-31)
+advmod(am-24, up-32)
+prep(up-32, till-33)
+num(pm-35, 12.30-34)
+pobj(till-33, pm-35)
+
+

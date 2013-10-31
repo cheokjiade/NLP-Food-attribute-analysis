@@ -1,0 +1,343 @@
+(ROOT
+  (S
+    (NP (NNP Ieatishootipost))
+    (VP (VBZ has)
+      (VP (VBN won)
+        (NP (`` ``)
+          (NP (NNP Best) (NNP Asian) (NNP Weblog))
+          ('' '')
+          (PP (IN at)
+            (NP (DT the) (CD 1oth) (JJ Annual) (NNP Bloggies) (NNS Awards))))))
+    (. !)))
+
+
+nsubj(won-3, Ieatishootipost-1)
+aux(won-3, has-2)
+root(ROOT-0, won-3)
+nn(Weblog-7, Best-5)
+nn(Weblog-7, Asian-6)
+dobj(won-3, Weblog-7)
+prep(Weblog-7, at-9)
+det(Awards-14, the-10)
+num(Awards-14, 1oth-11)
+amod(Awards-14, Annual-12)
+nn(Awards-14, Bloggies-13)
+pobj(at-9, Awards-14)
+
+
+(ROOT
+  (NP
+    (NP (JJ Many) (NNS thanks))
+    (PP (TO to)
+      (NP
+        (NP (NN everyone))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBD logged)
+              (PRT (RP in))
+              (S
+                (VP (TO to)
+                  (VP (VB support)
+                    (NP (DT the) (NN blog))))))))))
+    (. !)))
+
+
+amod(thanks-2, Many-1)
+root(ROOT-0, thanks-2)
+prep(thanks-2, to-3)
+pobj(to-3, everyone-4)
+nsubj(logged-6, who-5)
+rcmod(everyone-4, logged-6)
+prt(logged-6, in-7)
+aux(support-9, to-8)
+xcomp(logged-6, support-9)
+det(blog-11, the-10)
+dobj(support-9, blog-11)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (ADVP (RB indeed))
+      (VP (VBG gratifying)
+        (S
+          (VP (TO to)
+            (VP (VB know)
+              (SBAR
+                (SBAR (IN that)
+                  (S
+                    (NP (PRP$ my) (NN work))
+                    (VP (VBZ has)
+                      (VP (VBN been)
+                        (VP (VBN recognized)
+                          (PP (IN by)
+                            (NP (JJ foreign) (NNS readers))))))))
+                (CC and)
+                (SBAR (IN that)
+                  (S
+                    (NP (PRP we))
+                    (VP (VBD managed)
+                      (S
+                        (VP (TO to)
+                          (VP (VB win)
+                            (NP (CD one))
+                            (PP (IN for)
+                              (NP (NNP Singapore)))))))))))))))
+    (. !)))
+
+
+nsubj(gratifying-4, It-1)
+aux(gratifying-4, is-2)
+advmod(gratifying-4, indeed-3)
+root(ROOT-0, gratifying-4)
+aux(know-6, to-5)
+xcomp(gratifying-4, know-6)
+mark(recognized-12, that-7)
+poss(work-9, my-8)
+nsubjpass(recognized-12, work-9)
+aux(recognized-12, has-10)
+auxpass(recognized-12, been-11)
+ccomp(know-6, recognized-12)
+prep(recognized-12, by-13)
+amod(readers-15, foreign-14)
+pobj(by-13, readers-15)
+cc(recognized-12, and-16)
+mark(managed-19, that-17)
+nsubj(managed-19, we-18)
+conj(recognized-12, managed-19)
+aux(win-21, to-20)
+xcomp(managed-19, win-21)
+dobj(win-21, one-22)
+prep(win-21, for-23)
+pobj(for-23, Singapore-24)
+
+
+(ROOT
+  (S
+    (ADVP (RB Anyway))
+    (NP (CD one) (NN blogger))
+    (VP (VBD commented)
+      (SBAR (IN that)
+        (S
+          (NP (NN food) (NNS blogs))
+          (VP (VBP are)
+            (ADVP (RB insidiously))
+            (VP (VBG taking)
+              (PP (IN over)
+                (NP
+                  (NP (DT the) (NN blogosphere))
+                  (PP (IN as)
+                    (NP
+                      (NP (DT the)
+                        (ADJP (RBS most) (JJ popular))
+                        (NN subject))
+                      (PP (IN of)
+                        (NP (NNS blogs))))))))))))
+    (. .)))
+
+
+advmod(commented-4, Anyway-1)
+num(blogger-3, one-2)
+nsubj(commented-4, blogger-3)
+root(ROOT-0, commented-4)
+mark(taking-10, that-5)
+nn(blogs-7, food-6)
+nsubj(taking-10, blogs-7)
+aux(taking-10, are-8)
+advmod(taking-10, insidiously-9)
+ccomp(commented-4, taking-10)
+prep(taking-10, over-11)
+det(blogosphere-13, the-12)
+pobj(over-11, blogosphere-13)
+prep(blogosphere-13, as-14)
+det(subject-18, the-15)
+advmod(popular-17, most-16)
+amod(subject-18, popular-17)
+pobj(as-14, subject-18)
+prep(subject-18, of-19)
+pobj(of-19, blogs-20)
+
+
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (VBZ is) (RB not)
+        (NP (NN official))))
+    (CC but)
+    (S
+      (NP (PRP I))
+      (ADVP (RB always))
+      (VP (VBP maintain)
+        (SBAR (IN that)
+          (S
+            (NP (NNP Singapore))
+            (ADVP (RB probably))
+            (VP (VBZ has)
+              (NP
+                (NP (DT the) (JJS most) (NN number))
+                (PP (IN of)
+                  (NP
+                    (NP (NN food) (NNS blogs))
+                    (ADJP (IN per) (NN capita))
+                    (PP (IN in)
+                      (NP (DT the) (NN world)))))))))))
+    (. .)))
+
+
+nsubj(official-4, It-1)
+cop(official-4, is-2)
+neg(official-4, not-3)
+root(ROOT-0, official-4)
+cc(official-4, but-5)
+nsubj(maintain-8, I-6)
+advmod(maintain-8, always-7)
+conj(official-4, maintain-8)
+mark(has-12, that-9)
+nsubj(has-12, Singapore-10)
+advmod(has-12, probably-11)
+ccomp(maintain-8, has-12)
+det(number-15, the-13)
+amod(number-15, most-14)
+dobj(has-12, number-15)
+prep(number-15, of-16)
+nn(blogs-18, food-17)
+pobj(of-16, blogs-18)
+dep(capita-20, per-19)
+amod(blogs-18, capita-20)
+prep(blogs-18, in-21)
+det(world-23, the-22)
+pobj(in-21, world-23)
+
+
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBP are)
+      (NP
+        (ADJP (RB so) (JJ many))
+        (NN food) (NNS blogs))
+      (NP (RB now))
+      (SBAR (IN that)
+        (S
+          (NP (PRP we))
+          (VP (VBP have)
+            (VP (VBN lost)
+              (NP (NN count)))))))
+    (, ,)))
+
+
+expl(are-2, There-1)
+root(ROOT-0, are-2)
+advmod(many-4, so-3)
+amod(blogs-6, many-4)
+nn(blogs-6, food-5)
+iobj(are-2, blogs-6)
+nsubj(are-2, now-7)
+mark(lost-11, that-8)
+nsubj(lost-11, we-9)
+aux(lost-11, have-10)
+ccomp(are-2, lost-11)
+dobj(lost-11, count-12)
+
+
+(ROOT
+  (S
+    (S
+      (VP (VB do) (RB n't)))
+    (NP (PRP you))
+    (VP (VBP think))
+    (. ?)))
+
+
+dep(think-4, do-1)
+neg(do-1, n't-2)
+nsubj(think-4, you-3)
+root(ROOT-0, think-4)
+
+
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP (VBP are)
+          (VP (VBG considering)
+            (S
+              (VP (VBG writing)
+                (NP (DT a) (NN food) (NN blog))))))))
+    (VP (VBP do)
+      (VP (VB remember)
+        (S
+          (VP (TO to)
+            (VP (VB sign)
+              (PRT (RP up))
+              (PP (IN for)
+                (NP
+                  (NP (PRP$ my) (NN workshop))
+                  (PP (IN at)
+                    (NP
+                      (NP (DT the) (NNP Blogger) (POS 's))
+                      (NNP Symposium))))))))))
+    (. .)))
+
+
+mark(considering-4, If-1)
+nsubj(considering-4, you-2)
+aux(considering-4, are-3)
+csubj(remember-10, considering-4)
+xcomp(considering-4, writing-5)
+det(blog-8, a-6)
+nn(blog-8, food-7)
+dobj(writing-5, blog-8)
+aux(remember-10, do-9)
+root(ROOT-0, remember-10)
+aux(sign-12, to-11)
+xcomp(remember-10, sign-12)
+prt(sign-12, up-13)
+prep(sign-12, for-14)
+poss(workshop-16, my-15)
+pobj(for-14, workshop-16)
+prep(workshop-16, at-17)
+det(Blogger-19, the-18)
+poss(Symposium-21, Blogger-19)
+possessive(Blogger-19, 's-20)
+pobj(at-17, Symposium-21)
+
+
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD might)
+      (ADVP (RB even))
+      (VP (VB win)
+        (S
+          (NP (DT a) (NNP Canon) (NNP Powershot) (NNP S90) (NN camera))
+          (VP (TO to)
+            (VP (VB help)
+              (S
+                (NP (PRP you))
+                (VP (VB take)
+                  (NP (PRP$ your) (NNS photos)))))))))
+    (. !)))
+
+
+nsubj(win-4, You-1)
+aux(win-4, might-2)
+advmod(win-4, even-3)
+root(ROOT-0, win-4)
+det(camera-9, a-5)
+nn(camera-9, Canon-6)
+nn(camera-9, Powershot-7)
+nn(camera-9, S90-8)
+nsubj(help-11, camera-9)
+aux(help-11, to-10)
+xcomp(win-4, help-11)
+nsubj(take-13, you-12)
+ccomp(help-11, take-13)
+poss(photos-15, your-14)
+dobj(take-13, photos-15)
+
+

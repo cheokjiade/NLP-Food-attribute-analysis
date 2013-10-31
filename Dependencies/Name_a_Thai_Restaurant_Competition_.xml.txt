@@ -1,0 +1,289 @@
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ Our) (NNS friends))
+      (PP (IN at)
+        (NP
+          (NP (NNP Joe) (POS 's))
+          (NN Kitchen))))
+    (VP (VBP have)
+      (S
+        (VP
+          (VP (VB listen)
+            (PP (TO to)
+              (NP
+                (NP (PRP$ your) (NNS comments))
+                (PP (VBG regarding)
+                  (NP
+                    (NP (DT the) (NN name))
+                    (PP (IN of)
+                      (NP (PRP$ their) (NN restaurant))))))))
+          (CC and)
+          (VP (VB have)
+            (VP (VBN decided)
+              (S
+                (VP (TO to)
+                  (VP (VB change)
+                    (NP (PRP it))))))))))
+    (. !)))
+
+
+poss(friends-2, Our-1)
+nsubj(have-7, friends-2)
+prep(friends-2, at-3)
+poss(Kitchen-6, Joe-4)
+possessive(Joe-4, 's-5)
+pobj(at-3, Kitchen-6)
+root(ROOT-0, have-7)
+ccomp(have-7, listen-8)
+prep(listen-8, to-9)
+poss(comments-11, your-10)
+pobj(to-9, comments-11)
+prep(comments-11, regarding-12)
+det(name-14, the-13)
+pobj(regarding-12, name-14)
+prep(name-14, of-15)
+poss(restaurant-17, their-16)
+pobj(of-15, restaurant-17)
+cc(listen-8, and-18)
+aux(decided-20, have-19)
+conj(listen-8, decided-20)
+aux(change-22, to-21)
+xcomp(decided-20, change-22)
+dobj(change-22, it-23)
+
+
+(ROOT
+  (S (CC But)
+    (NP (PRP they))
+    (VP (VBP are)
+      (VP (VBG having)
+        (NP
+          (NP (DT a) (JJ difficult) (NN time))
+          (VP (VBG trying)
+            (S
+              (VP (TO to)
+                (VP (VB come)
+                  (PRT (RP up))
+                  (PP (IN with)
+                    (NP (DT a) (JJ new) (NN name))
+                    (, ,)))))))))))
+
+
+cc(having-4, But-1)
+nsubj(having-4, they-2)
+aux(having-4, are-3)
+root(ROOT-0, having-4)
+det(time-7, a-5)
+amod(time-7, difficult-6)
+dobj(having-4, time-7)
+partmod(time-7, trying-8)
+aux(come-10, to-9)
+xcomp(trying-8, come-10)
+prt(come-10, up-11)
+prep(come-10, with-12)
+det(name-15, a-13)
+amod(name-15, new-14)
+pobj(with-12, name-15)
+
+
+(ROOT
+  (S (IN so)
+    (NP (PRP they))
+    (VP (VBP have)
+      (VP (VBN requested)
+        (PP (IN for)
+          (NP (NN help)))
+        (PP (IN from)
+          (NP (PRP$ our) (NNS readers)))))
+    (. .)))
+
+
+dep(requested-4, so-1)
+nsubj(requested-4, they-2)
+aux(requested-4, have-3)
+root(ROOT-0, requested-4)
+prep(requested-4, for-5)
+pobj(for-5, help-6)
+prep(requested-4, from-7)
+poss(readers-9, our-8)
+pobj(from-7, readers-9)
+
+
+(ROOT
+  (FRAG (CC And)
+    (S
+      (VP (TO to)
+        (VP (VB make)
+          (NP (PRP it))
+          (PP (IN worth)
+            (NP (PRP$ your) (NN while))
+            (, ,)))))))
+
+
+cc(make-3, And-1)
+aux(make-3, to-2)
+root(ROOT-0, make-3)
+dobj(make-3, it-4)
+prep(make-3, worth-5)
+poss(while-7, your-6)
+pobj(worth-5, while-7)
+
+
+(ROOT
+  (S
+    (NP (PRP they))
+    (VP (MD will)
+      (VP (VB be)
+        (VP (VBG awarding)
+          (NP
+            (NP (DT a) (NN Dinner))
+            (PP (IN for)
+              (NP (CD six))))
+          (PP (IN at)
+            (NP (PRP$ their) (NN restaurant)))
+          (PP (TO to)
+            (NP (DT the) (NN winner))))))
+    (. !)))
+
+
+nsubj(awarding-4, they-1)
+aux(awarding-4, will-2)
+aux(awarding-4, be-3)
+root(ROOT-0, awarding-4)
+det(Dinner-6, a-5)
+dobj(awarding-4, Dinner-6)
+prep(Dinner-6, for-7)
+pobj(for-7, six-8)
+prep(awarding-4, at-9)
+poss(restaurant-11, their-10)
+pobj(at-9, restaurant-11)
+prep(awarding-4, to-12)
+det(winner-14, the-13)
+pobj(to-12, winner-14)
+
+
+(ROOT
+  (S (RB So)
+    (VP
+      (VP (VB get)
+        (S
+          (VP (VBG cracking))))
+      (CC and)
+      (VP (VB do)
+        (VP (VB remember)
+          (S
+            (VP (TO to)
+              (VP (VB write)
+                (PRT (RP in))
+                (PP (IN with)
+                  (NP (DT a) (JJ registered) (NN pen) (NN name)))
+                (SBAR (RB so) (IN that)
+                  (S
+                    (NP (PRP we))
+                    (VP (MD can)
+                      (VP (VB notify)
+                        (NP (PRP you))
+                        (SBAR (MD should)
+                          (S
+                            (NP (PRP you))
+                            (VP (VBP win))))))))))))))
+    (. .)))
+
+
+advmod(get-2, So-1)
+root(ROOT-0, get-2)
+xcomp(get-2, cracking-3)
+cc(get-2, and-4)
+aux(remember-6, do-5)
+conj(get-2, remember-6)
+aux(write-8, to-7)
+xcomp(remember-6, write-8)
+prt(write-8, in-9)
+prep(write-8, with-10)
+det(name-14, a-11)
+amod(name-14, registered-12)
+nn(name-14, pen-13)
+pobj(with-10, name-14)
+advmod(notify-19, so-15)
+mark(notify-19, that-16)
+nsubj(notify-19, we-17)
+aux(notify-19, can-18)
+advcl(write-8, notify-19)
+dobj(notify-19, you-20)
+dep(win-23, should-21)
+nsubj(win-23, you-22)
+dep(notify-19, win-23)
+
+
+(ROOT
+  (S
+    (NP (NN Competition))
+    (VP (VBZ ends)
+      (NP (JJ next) (NNP Saturday)))
+    (. .)))
+
+
+nsubj(ends-2, Competition-1)
+root(ROOT-0, ends-2)
+amod(Saturday-4, next-3)
+tmod(ends-2, Saturday-4)
+
+
+(ROOT
+  (S
+    (NP (DT The) (NNS judges) (NN decision))
+    (VP (VBZ is)
+      (NP (JJ final)
+        (CC and)
+        (NN blah) (NN blah) (NN blah)))
+    (: ...)))
+
+
+det(decision-3, The-1)
+nn(decision-3, judges-2)
+nsubj(blah-9, decision-3)
+cop(blah-9, is-4)
+amod(blah-9, final-5)
+cc(final-5, and-6)
+conj(final-5, blah-7)
+nn(blah-9, blah-8)
+root(ROOT-0, blah-9)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (VBP know)
+      (NP (PDT all) (DT the) (NN rest)))
+    (. .)))
+
+
+nsubj(know-2, you-1)
+root(ROOT-0, know-2)
+predet(rest-5, all-3)
+det(rest-5, the-4)
+dobj(know-2, rest-5)
+
+
+(ROOT
+  (S
+    (NP (RB Here))
+    (VP (VBZ 's)
+      (NP
+        (NP (DT the) (JJ previous) (NN post))
+        (PP (IN of)
+          (NP (DT the) (NN restaurant)))))
+    (. .)))
+
+
+nsubj(post-5, Here-1)
+cop(post-5, 's-2)
+det(post-5, the-3)
+amod(post-5, previous-4)
+root(ROOT-0, post-5)
+prep(post-5, of-6)
+det(restaurant-8, the-7)
+pobj(of-6, restaurant-8)
+
+

@@ -1,0 +1,54 @@
+(ROOT
+  (SINV
+    (ADVP (RB Just))
+    (VP (VBD uploaded))
+    (NP
+      (NP (DT the) (JJ new) (NNP HD) (NN version))
+      (PP (IN of)
+        (NP
+          (NP (PRP$ my))
+          (`` ``)
+          (SBAR
+            (WHADVP (WRB How))
+            (S
+              (VP (TO to)
+                (VP (VB Flip)
+                  (NP (DT a) (NNP Prata) ('' '') (NN video)))))))))
+    (. .)))
+
+
+advmod(uploaded-2, Just-1)
+root(ROOT-0, uploaded-2)
+det(version-6, the-3)
+amod(version-6, new-4)
+nn(version-6, HD-5)
+nsubj(uploaded-2, version-6)
+prep(version-6, of-7)
+pobj(of-7, my-8)
+advmod(Flip-12, How-10)
+aux(Flip-12, to-11)
+infmod(my-8, Flip-12)
+det(video-16, a-13)
+nn(video-16, Prata-14)
+dobj(Flip-12, video-16)
+
+
+(ROOT
+  (S
+    (NP (DT The) (JJ full) (NN recipe))
+    (VP (MD can)
+      (VP (VB be)
+        (VP (VBN found)
+          (ADVP (RB here)))))
+    (. .)))
+
+
+det(recipe-3, The-1)
+amod(recipe-3, full-2)
+nsubjpass(found-6, recipe-3)
+aux(found-6, can-4)
+auxpass(found-6, be-5)
+root(ROOT-0, found-6)
+advmod(found-6, here-7)
+
+

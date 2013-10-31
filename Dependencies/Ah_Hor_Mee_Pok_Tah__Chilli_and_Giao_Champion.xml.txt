@@ -1,0 +1,238 @@
+(ROOT
+  (S
+    (NP (RB Here))
+    (VP (VBZ 's)
+      (NP
+        (NP (DT another) (NN one))
+        (PP (IN of)
+          (NP (DT those) (NNS stalls))))
+      (SBAR (IN that)
+        (S
+          (NP (PRP you))
+          (ADVP (RB better))
+          (VP (VB be)
+            (ADJP (JJ quick)
+              (S
+                (VP (TO to)
+                  (VP (VB taste)
+                    (SBAR
+                      (SBAR (IN because)
+                        (S
+                          (NP (DT the) (JJ original) (NN hawker))
+                          (VP (VBZ is)
+                            (ADVP (RB already))
+                            (PP (IN past)
+                              (NP (CD 72))))))
+                      (CC and)
+                      (SBAR (RB even) (IN though)
+                        (S
+                          (NP (PRP he))
+                          (ADVP (RB still))
+                          (VP (VBZ looks)
+                            (PP (IN like)
+                              (NP (DT a) (`` ``) (NNP Lao) (NNP Yankee) ('' '')))))))))))))))
+    (, ,)))
+
+
+nsubj(one-4, Here-1)
+cop(one-4, 's-2)
+det(one-4, another-3)
+root(ROOT-0, one-4)
+prep(one-4, of-5)
+det(stalls-7, those-6)
+pobj(of-5, stalls-7)
+mark(quick-12, that-8)
+nsubj(quick-12, you-9)
+advmod(quick-12, better-10)
+cop(quick-12, be-11)
+ccomp(one-4, quick-12)
+aux(taste-14, to-13)
+xcomp(quick-12, taste-14)
+mark(is-19, because-15)
+det(hawker-18, the-16)
+amod(hawker-18, original-17)
+nsubj(is-19, hawker-18)
+dep(taste-14, is-19)
+advmod(is-19, already-20)
+prep(is-19, past-21)
+pobj(past-21, 72-22)
+cc(is-19, and-23)
+advmod(looks-28, even-24)
+mark(looks-28, though-25)
+nsubj(looks-28, he-26)
+advmod(looks-28, still-27)
+conj(is-19, looks-28)
+prep(looks-28, like-29)
+det(Yankee-33, a-30)
+nn(Yankee-33, Lao-32)
+pobj(like-29, Yankee-33)
+
+
+(ROOT
+  (S
+    (NP (NNP and))
+    (VP (VBZ behaves)
+      (PP (IN like)
+        (NP (CD one))))
+    (, ,)))
+
+
+nsubj(behaves-2, and-1)
+root(ROOT-0, behaves-2)
+prep(behaves-2, like-3)
+pobj(like-3, one-4)
+
+
+(ROOT
+  (S
+    (NP (PRP he))
+    (NP (PRP himself))
+    (VP (VBZ admits)
+      (SBAR (IN that)
+        (S
+          (ADVP (IN at) (RBS most))
+          (NP (PRP he))
+          (VP (VBZ has)
+            (NP
+              (NP (CD 10) (NNS years))
+              (PP (IN of)
+                (NP
+                  (NP (NNP Mee) (NNP Pok) (NNP Tak))
+                  (VP (VBN left)
+                    (PP (IN in)
+                      (NP (PRP him)))))))))))
+    (. .)))
+
+
+nsubj(admits-3, he-1)
+nsubj(admits-3, himself-2)
+root(ROOT-0, admits-3)
+mark(has-8, that-4)
+advmod(has-8, at-5)
+advmod(at-5, most-6)
+nsubj(has-8, he-7)
+ccomp(admits-3, has-8)
+num(years-10, 10-9)
+dobj(has-8, years-10)
+prep(years-10, of-11)
+nn(Tak-14, Mee-12)
+nn(Tak-14, Pok-13)
+pobj(of-11, Tak-14)
+partmod(Tak-14, left-15)
+prep(left-15, in-16)
+pobj(in-16, him-17)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Actually))
+    (, ,)))
+
+
+root(ROOT-0, Actually-1)
+
+
+(ROOT
+  (S
+    (NP (PRP he))
+    (ADVP (RB still))
+    (VP (VBZ looks)
+      (S
+        (NP
+          (NP (RB quite) (JJ good))
+          (PP (IN for)
+            (NP (DT a) (CD 72) (NN year))))
+        (ADJP (JJ old))))
+    (. .)))
+
+
+nsubj(looks-3, he-1)
+advmod(looks-3, still-2)
+root(ROOT-0, looks-3)
+advmod(good-5, quite-4)
+nsubj(old-10, good-5)
+prep(good-5, for-6)
+det(year-9, a-7)
+num(year-9, 72-8)
+pobj(for-6, year-9)
+xcomp(looks-3, old-10)
+
+
+(ROOT
+  (SBAR
+    (WHADVP (WRB When))
+    (S
+      (NP (PRP I))
+      (VP (VBD asked)
+        (NP (PRP him))
+        (SBAR
+          (WHADVP (WRB why))
+          (S
+            (NP (PRP he))
+            (VP (VBZ wears)
+              (NP (DT a) (JJ long) (JJ sleeved) (NN shirt))
+              (SBAR (IN while)
+                (S
+                  (NP (PRP he))
+                  (VP (VBZ cooks)
+                    (NP (PRP$ his) (NNP Mee) (NNP Pok)))
+                  (, ,))))))))))
+
+
+advmod(asked-3, When-1)
+nsubj(asked-3, I-2)
+root(ROOT-0, asked-3)
+dobj(asked-3, him-4)
+advmod(wears-7, why-5)
+nsubj(wears-7, he-6)
+advcl(asked-3, wears-7)
+det(shirt-11, a-8)
+amod(shirt-11, long-9)
+amod(shirt-11, sleeved-10)
+dobj(wears-7, shirt-11)
+mark(cooks-14, while-12)
+nsubj(cooks-14, he-13)
+advcl(wears-7, cooks-14)
+poss(Pok-17, his-15)
+nn(Pok-17, Mee-16)
+dobj(cooks-14, Pok-17)
+
+
+(ROOT
+  (S
+    (NP (PRP he))
+    (ADVP (RB simply))
+    (VP (VBD replied))
+    (, ,)))
+
+
+nsubj(replied-3, he-1)
+advmod(replied-3, simply-2)
+root(ROOT-0, replied-3)
+
+
+(ROOT
+  (S (`` ``)
+    (NP (NNP Cos) (NNP I))
+    (VP (VBP want)
+      (S
+        (VP (TO to)
+          (VP (VB look)
+            (ADJP (JJ good))))))
+    (. !)))
+
+
+nn(I-3, Cos-2)
+nsubj(want-4, I-3)
+root(ROOT-0, want-4)
+aux(look-6, to-5)
+xcomp(want-4, look-6)
+acomp(look-6, good-7)
+
+
+(ROOT
+  (INTJ (UH '')))
+
+
+
+

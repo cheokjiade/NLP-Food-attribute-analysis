@@ -1,0 +1,303 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP do) (RB n't)
+      (VP (VB think)
+        (NP
+          (NP (NN anyone))
+          (VP (VBN disputed)
+            (SBAR (IN that)
+              (S
+                (NP (NNP Chilli) (NNP Crabs))
+                (VP (VBZ is)
+                  (PP (IN as)
+                    (NP
+                      (NP (NNP Singaporean))
+                      (PP (IN as)
+                        (NP (DT the) (NNP Merlion)))))
+                  (ADVP
+                    (ADVP (RB up)
+                      (PP (IN till)
+                        (ADVP
+                          (NP (RB about) (DT a) (JJ few) (NNS weeks))
+                          (RB ago))))
+                    (SBAR
+                      (WHADVP (WRB when))
+                      (S
+                        (NP (DT the) (JJ Malaysian) (NNP Tourism) (NNP Minister))
+                        (VP (VBD claimed)
+                          (NP
+                            (NP (NNP Chilli) (NNP Crabs))
+                            (PP (IN as)
+                              (NP
+                                (NP (DT a) (JJ Malaysian) (NN dish))
+                                (SBAR
+                                  (WHNP (WDT that))
+                                  (S
+                                    (VP (VBZ has)
+                                      (VP (VBN been)
+                                        (VP (VBN highjacked)
+                                          (PP (IN by)
+                                            (NP (NNP Singapore))))))))))))))))))))))
+    (. .)))
+
+
+nsubj(think-4, I-1)
+aux(think-4, do-2)
+neg(think-4, n't-3)
+root(ROOT-0, think-4)
+dobj(think-4, anyone-5)
+partmod(anyone-5, disputed-6)
+mark(is-10, that-7)
+nn(Crabs-9, Chilli-8)
+nsubj(is-10, Crabs-9)
+ccomp(disputed-6, is-10)
+prep(is-10, as-11)
+pobj(as-11, Singaporean-12)
+prep(Singaporean-12, as-13)
+det(Merlion-15, the-14)
+pobj(as-13, Merlion-15)
+advmod(is-10, up-16)
+prep(up-16, till-17)
+advmod(weeks-21, about-18)
+det(weeks-21, a-19)
+amod(weeks-21, few-20)
+npadvmod(ago-22, weeks-21)
+pcomp(till-17, ago-22)
+advmod(claimed-28, when-23)
+det(Minister-27, the-24)
+amod(Minister-27, Malaysian-25)
+nn(Minister-27, Tourism-26)
+nsubj(claimed-28, Minister-27)
+dep(up-16, claimed-28)
+nn(Crabs-30, Chilli-29)
+dobj(claimed-28, Crabs-30)
+prep(Crabs-30, as-31)
+det(dish-34, a-32)
+amod(dish-34, Malaysian-33)
+pobj(as-31, dish-34)
+nsubjpass(highjacked-38, that-35)
+aux(highjacked-38, has-36)
+auxpass(highjacked-38, been-37)
+rcmod(dish-34, highjacked-38)
+prep(highjacked-38, by-39)
+pobj(by-39, Singapore-40)
+
+
+(ROOT
+  (FRAG
+    (PP (RB Rather) (IN than)
+      (NP (NN achieving) (PRP$ her) (NN goal)))
+    (, ,)))
+
+
+advmod(than-2, Rather-1)
+root(ROOT-0, than-2)
+nn(goal-5, achieving-3)
+poss(goal-5, her-4)
+pobj(than-2, goal-5)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP (DT the) (NNP Tourism) (NNP Minister))
+          (VP (VBD had)
+            (ADVP (RB inadvertently))
+            (VP (VBN helped)
+              (S
+                (VP (TO to)
+                  (VP (VB cement)
+                    (NP
+                      (NP
+                        (NP (NNP Chilli) (NNP Crabs))
+                        (PP (IN as)
+                          (NP (DT a) (NNP Uniquely) (NNP Singaporean) (NN dish))))
+                      (CONJP (RB rather) (IN than))
+                      (NP
+                        (NP (NN something))
+                        (SBAR
+                          (WHNP (WDT that))
+                          (S
+                            (VP (VBZ is)
+                              (ADJP
+                                (NP (JJ Malaysian) (NNP Truly))
+                                (JJ Asian)))))))))))))))
+    (. .)))
+
+
+nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+det(Minister-5, the-3)
+nn(Minister-5, Tourism-4)
+nsubj(helped-8, Minister-5)
+aux(helped-8, had-6)
+advmod(helped-8, inadvertently-7)
+ccomp(think-2, helped-8)
+aux(cement-10, to-9)
+xcomp(helped-8, cement-10)
+nn(Crabs-12, Chilli-11)
+dobj(cement-10, Crabs-12)
+prep(Crabs-12, as-13)
+det(dish-17, a-14)
+nn(dish-17, Uniquely-15)
+nn(dish-17, Singaporean-16)
+pobj(as-13, dish-17)
+cc(Crabs-12, rather-18)
+mwe(rather-18, than-19)
+conj(Crabs-12, something-20)
+nsubj(Asian-25, that-21)
+cop(Asian-25, is-22)
+amod(Truly-24, Malaysian-23)
+dep(Asian-25, Truly-24)
+rcmod(something-20, Asian-25)
+
+
+(ROOT
+  (S
+    (NP (PRP$ Her) (JJ glib) (NN comment))
+    (VP (VBD invited)
+      (NP
+        (NP (DT a) (NN slew))
+        (PP (IN of)
+          (NP (NNS media) (NNS articles)))
+        (S (RB all)
+          (VP (VBG affirming)
+            (NP
+              (NP (NNP Chilli) (NNP Crabs))
+              (PP (IN as)
+                (NP (NNP Singaporean)))))))
+      (PP (IN in)
+        (NP (NN origin))))
+    (. .)))
+
+
+poss(comment-3, Her-1)
+amod(comment-3, glib-2)
+nsubj(invited-4, comment-3)
+root(ROOT-0, invited-4)
+det(slew-6, a-5)
+dobj(invited-4, slew-6)
+prep(slew-6, of-7)
+nn(articles-9, media-8)
+pobj(of-7, articles-9)
+advmod(affirming-11, all-10)
+dep(slew-6, affirming-11)
+nn(Crabs-13, Chilli-12)
+dobj(affirming-11, Crabs-13)
+prep(Crabs-13, as-14)
+pobj(as-14, Singaporean-15)
+prep(invited-4, in-16)
+pobj(in-16, origin-17)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Before)
+      (NP (DT this)))
+    (, ,)))
+
+
+root(ROOT-0, Before-1)
+pobj(Before-1, this-2)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP (MD might) (RB not)
+      (VP (VB have)
+        (VP (VBN heard)
+          (PP
+            (PP (IN of)
+              (NP (NNP Mdm) (NNP Cher)))
+            (CC or)
+            (PP (IN of)
+              (NP (NNP Roland) (NNP Restaurant)))))))
+    (. .)))
+
+
+nsubj(heard-5, you-1)
+aux(heard-5, might-2)
+neg(heard-5, not-3)
+aux(heard-5, have-4)
+root(ROOT-0, heard-5)
+prep(heard-5, of-6)
+nn(Cher-8, Mdm-7)
+pobj(of-6, Cher-8)
+cc(of-6, or-9)
+conj(of-6, of-10)
+nn(Restaurant-12, Roland-11)
+pobj(of-10, Restaurant-12)
+
+
+(ROOT
+  (FRAG (CC But)
+    (ADVP (RB now))
+    (NP (NNP ,))))
+
+
+cc(,-3, But-1)
+dep(,-3, now-2)
+
+
+(ROOT
+  (S
+    (NP (NNP Chilli) (NNP Crabs))
+    (VP (VBZ has)
+      (ADVP (RB suddenly))
+      (VP (VBN been)
+        (VP (VBN given)
+          (NP
+            (NP (DT a) (JJ new) (NN lease))
+            (PP (IN of)
+              (NP (NN life))))
+          (PP (IN after)
+            (S
+              (VP (VBG losing)
+                (NP
+                  (NP (DT some))
+                  (PP (IN of)
+                    (NP (PRP$ its) (NN limelight))))
+                (PP (TO to)
+                  (NP
+                    (NP (NNP Black) (NNP Pepper) (NNP Crabs))
+                    (PP (IN for)
+                      (NP
+                        (NP (DT a) (NN number))
+                        (PP (IN of)
+                          (NP (NNS years)))))))))))))
+    (. .)))
+
+
+nn(Crabs-2, Chilli-1)
+nsubjpass(given-6, Crabs-2)
+aux(given-6, has-3)
+advmod(given-6, suddenly-4)
+auxpass(given-6, been-5)
+root(ROOT-0, given-6)
+det(lease-9, a-7)
+amod(lease-9, new-8)
+dobj(given-6, lease-9)
+prep(lease-9, of-10)
+pobj(of-10, life-11)
+prep(given-6, after-12)
+pcomp(after-12, losing-13)
+dobj(losing-13, some-14)
+prep(some-14, of-15)
+poss(limelight-17, its-16)
+pobj(of-15, limelight-17)
+prep(losing-13, to-18)
+nn(Crabs-21, Black-19)
+nn(Crabs-21, Pepper-20)
+pobj(to-18, Crabs-21)
+prep(Crabs-21, for-22)
+det(number-24, a-23)
+pobj(for-22, number-24)
+prep(number-24, of-25)
+pobj(of-25, years-26)
+
+

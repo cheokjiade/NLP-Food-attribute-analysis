@@ -1,0 +1,198 @@
+(ROOT
+  (S
+    (NP (PRP$ Our) (JJ Makan) (NNS Kakis))
+    (VP (VBP are)
+      (NP (DT a) (JJ passionate) (NN lot)))
+    (. .)))
+
+
+poss(Kakis-3, Our-1)
+amod(Kakis-3, Makan-2)
+nsubj(lot-7, Kakis-3)
+cop(lot-7, are-4)
+det(lot-7, a-5)
+amod(lot-7, passionate-6)
+root(ROOT-0, lot-7)
+
+
+(ROOT
+  (SBAR
+    (WHADVP (WRB When))
+    (S
+      (NP (PRP they))
+      (VP (VBP find)
+        (S
+          (NP (NN something))
+          (ADJP (JJ good)
+            (S
+              (VP (TO to)
+                (VP (VB eat)))))))
+      (, ,))))
+
+
+advmod(find-3, When-1)
+nsubj(find-3, they-2)
+root(ROOT-0, find-3)
+nsubj(good-5, something-4)
+xcomp(find-3, good-5)
+aux(eat-7, to-6)
+xcomp(good-5, eat-7)
+
+
+(ROOT
+  (S
+    (NP (PRP they))
+    (VP
+      (VP (VBP go)
+        (ADJP (JJ crazy)))
+      (CC and)
+      (VP (VBP start)
+        (NP (VBG organizing) (NNS dinners))
+        (PP (IN for)
+          (NP
+            (NP (PDT all) (DT the) (JJ other) (NNS kakis))
+            (PP (TO to)
+              (NP
+                (NP (NN share))
+                (PP (IN in)
+                  (NP (PRP$ their) (JJS latest))))))))
+      (VP (VB find)))
+    (. .)))
+
+
+nsubj(go-2, they-1)
+root(ROOT-0, go-2)
+acomp(go-2, crazy-3)
+cc(go-2, and-4)
+conj(go-2, start-5)
+amod(dinners-7, organizing-6)
+dobj(start-5, dinners-7)
+prep(start-5, for-8)
+predet(kakis-12, all-9)
+det(kakis-12, the-10)
+amod(kakis-12, other-11)
+pobj(for-8, kakis-12)
+prep(kakis-12, to-13)
+pobj(to-13, share-14)
+prep(share-14, in-15)
+poss(latest-17, their-16)
+pobj(in-15, latest-17)
+dep(go-2, find-18)
+
+
+(ROOT
+  (SBAR
+    (WHADVP (WRB When))
+    (S
+      (NP (PRP I))
+      (VP (VBP say)
+        (ADJP (JJ crazy)))
+      (, ,))))
+
+
+advmod(say-3, When-1)
+nsubj(say-3, I-2)
+root(ROOT-0, say-3)
+acomp(say-3, crazy-4)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP mean)
+      (S
+        (VP (VBG visiting)
+          (NP (DT the) (JJ same) (NN restaurant))
+          (PP
+            (NP (CD 4) (NNS times))
+            (IN in)
+            (NP (NN week))))))
+    (, ,)))
+
+
+nsubj(mean-2, I-1)
+root(ROOT-0, mean-2)
+xcomp(mean-2, visiting-3)
+det(restaurant-6, the-4)
+amod(restaurant-6, same-5)
+dobj(visiting-3, restaurant-6)
+num(times-8, 4-7)
+npadvmod(in-9, times-8)
+prep(visiting-3, in-9)
+pobj(in-9, week-10)
+
+
+(ROOT
+  (FRAG
+    (ADJP (JJ crazy))
+    (. .)))
+
+
+root(ROOT-0, crazy-1)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT This) (NN kind))
+      (PP (IN of)
+        (NP (NN thing))))
+    (VP (VBZ does) (RB not)
+      (VP (VB happen)
+        (NP (PDT all) (DT that))
+        (ADVP (RB often) (RB but))
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (PRP it))
+            (VP (VBZ does))))
+        (, ,)))))
+
+
+det(kind-2, This-1)
+nsubj(happen-7, kind-2)
+prep(kind-2, of-3)
+pobj(of-3, thing-4)
+aux(happen-7, does-5)
+neg(happen-7, not-6)
+root(ROOT-0, happen-7)
+predet(that-9, all-8)
+dobj(happen-7, that-9)
+advmod(but-11, often-10)
+advmod(happen-7, but-11)
+advmod(does-14, when-12)
+nsubj(does-14, it-13)
+advcl(happen-7, does-14)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (ADVP (RB usually))
+    (VP (VBZ means)
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (DT a) (NN visit))
+            (PP (TO to)
+              (NP (DT the) (NN restaurant))))
+          (VP (VBZ is)
+            (PP (IN in)
+              (NP (NN order)))))))
+    (. .)))
+
+
+nsubj(means-3, it-1)
+advmod(means-3, usually-2)
+root(ROOT-0, means-3)
+mark(is-10, that-4)
+det(visit-6, a-5)
+nsubj(is-10, visit-6)
+prep(visit-6, to-7)
+det(restaurant-9, the-8)
+pobj(to-7, restaurant-9)
+ccomp(means-3, is-10)
+prep(is-10, in-11)
+pobj(in-11, order-12)
+
+

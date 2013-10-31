@@ -1,0 +1,219 @@
+(ROOT
+  (S
+    (VP (VB Do)
+      (S
+        (NP (PRP you))
+        (RB all)
+        (VP (VB remember)
+          (ADJP (JJ ``)))))))
+
+
+root(ROOT-0, Do-1)
+nsubj(remember-4, you-2)
+advmod(remember-4, all-3)
+ccomp(Do-1, remember-4)
+
+
+(ROOT
+  (NP (DT The) (NN Count) (. ?)))
+
+
+det(Count-2, The-1)
+root(ROOT-0, Count-2)
+
+
+(ROOT
+  (SQ
+    (VP (VB '')
+      (PP (IN from)
+        (NP (NNP Sesame) (NNP Street))))
+    (. ?)))
+
+
+prep(''-1, from-2)
+nn(Street-4, Sesame-3)
+pobj(from-2, Street-4)
+
+
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP call)
+      (S
+        (NP (PRP him))
+        (ADJP (JJ ``))))))
+
+
+nsubj(call-2, They-1)
+root(ROOT-0, call-2)
+nsubj(``-4, him-3)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NNP Count) ('' ''))
+      (PP (IN because)
+        (NP (PRP he))))
+    (VP (VBZ loves)
+      (S
+        (VP (TO to)
+          (VP (VB count)
+            (NP (NNS things))))))
+    (. .)))
+
+
+det(Count-2, The-1)
+nsubj(loves-6, Count-2)
+prep(Count-2, because-4)
+pobj(because-4, he-5)
+root(ROOT-0, loves-6)
+aux(count-8, to-7)
+xcomp(loves-6, count-8)
+dobj(count-8, things-9)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB Now))
+    (ADVP (RB ,))))
+
+
+root(ROOT-0, Now-1)
+
+
+(ROOT
+  (SQ
+    (VP (VB guess)
+      (SBAR
+        (WHADVP (WRB why))
+        (S
+          (NP (NNP Taukwa))
+          (VP (VBZ is)
+            (VP (VBN called)
+              (NP (NNP Taukwa)))))))
+    (. ?)))
+
+
+root(ROOT-0, guess-1)
+advmod(called-5, why-2)
+nsubjpass(called-5, Taukwa-3)
+auxpass(called-5, is-4)
+advcl(guess-1, called-5)
+dobj(called-5, Taukwa-6)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Well))
+    (, ,)))
+
+
+root(ROOT-0, Well-1)
+
+
+(ROOT
+  (S
+    (NP (PRP it))
+    (VP (VBZ is) (RB not)
+      (NP (DT a) (NN trick) (NN question)))
+    (. .)))
+
+
+nsubj(question-6, it-1)
+cop(question-6, is-2)
+neg(question-6, not-3)
+det(question-6, a-4)
+nn(question-6, trick-5)
+root(ROOT-0, question-6)
+
+
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBZ is)
+      (VP (VBN called)
+        (NP (NNP Taukwa))
+        (SBAR (IN because)
+          (S
+            (NP (PRP he))
+            (VP (VBZ loves)
+              (S
+                (VP (TO to)
+                  (VP (VB eat)
+                    (NP (NNP Taukwa))))))))))
+    (. .)))
+
+
+nsubjpass(called-3, He-1)
+auxpass(called-3, is-2)
+root(ROOT-0, called-3)
+dobj(called-3, Taukwa-4)
+mark(loves-7, because-5)
+nsubj(loves-7, he-6)
+advcl(called-3, loves-7)
+aux(eat-9, to-8)
+xcomp(loves-7, eat-9)
+dobj(eat-9, Taukwa-10)
+
+
+(ROOT
+  (S (CC And)
+    (NP
+      (NP
+        (NP (RB so) (DT this) (NN stall))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBZ sells)
+              (NP (JJ fried) (NNP Taukwa))))))
+      (PRN (-LRB- -LRB-)
+        (NP
+          (NP (DT the) (JJ only) (NN one))
+          (PP (IN of)
+            (NP
+              (NP (PRP$ its) (NN kind))
+              (ADVP
+                (ADVP (RB as) (RB far))
+                (SBAR (IN as)
+                  (S
+                    (NP (PRP we))
+                    (VP (VBP know))))))))
+        (-RRB- -RRB-)))
+    (ADVP (RB literally))
+    (VP (VBZ has)
+      (VP (VBN got)
+        (NP (PRP$ his) (NN name))
+        (PP (IN on)
+          (NP (PRP it)))))
+    (. .)))
+
+
+cc(got-24, And-1)
+advmod(stall-4, so-2)
+det(stall-4, this-3)
+nsubj(got-24, stall-4)
+nsubj(sells-6, which-5)
+rcmod(stall-4, sells-6)
+amod(Taukwa-8, fried-7)
+dobj(sells-6, Taukwa-8)
+det(one-12, the-10)
+amod(one-12, only-11)
+dep(stall-4, one-12)
+prep(one-12, of-13)
+poss(kind-15, its-14)
+pobj(of-13, kind-15)
+advmod(far-17, as-16)
+advmod(kind-15, far-17)
+mark(know-20, as-18)
+nsubj(know-20, we-19)
+ccomp(far-17, know-20)
+advmod(got-24, literally-22)
+aux(got-24, has-23)
+root(ROOT-0, got-24)
+poss(name-26, his-25)
+dobj(got-24, name-26)
+prep(got-24, on-27)
+pobj(on-27, it-28)
+
+

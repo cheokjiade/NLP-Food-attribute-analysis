@@ -1,0 +1,82 @@
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (NP (DT a) (JJ nice) (NN surprise)
+        (S
+          (VP (TO to)
+            (VP (VB find)
+              (SBAR (IN that)
+                (S
+                  (NP
+                    (NP (DT The) (NN End))
+                    (PP (IN of)
+                      (NP (NNP Char) (NNP Kway) (NNP Teow))))
+                  (VP (VBZ is)
+                    (ADVP (RB currently))
+                    (ADJP (JJ 2nd)
+                      (PP (IN on)
+                        (NP
+                          (NP (NNP Kinokuniya) (POS 's))
+                          (JJ weekly) (NNS Bestsellers) (NN List))))))))))))
+    (. !)))
+
+
+nsubj(surprise-5, It-1)
+cop(surprise-5, was-2)
+det(surprise-5, a-3)
+amod(surprise-5, nice-4)
+root(ROOT-0, surprise-5)
+aux(find-7, to-6)
+infmod(surprise-5, find-7)
+mark(2nd-17, that-8)
+det(End-10, The-9)
+nsubj(2nd-17, End-10)
+prep(End-10, of-11)
+nn(Teow-14, Char-12)
+nn(Teow-14, Kway-13)
+pobj(of-11, Teow-14)
+cop(2nd-17, is-15)
+advmod(2nd-17, currently-16)
+ccomp(find-7, 2nd-17)
+prep(2nd-17, on-18)
+poss(List-23, Kinokuniya-19)
+possessive(Kinokuniya-19, 's-20)
+amod(List-23, weekly-21)
+nn(List-23, Bestsellers-22)
+pobj(on-18, List-23)
+
+
+(ROOT
+  (NP
+    (NP (NNS Thanks))
+    (PP (TO to)
+      (NP (NN everyone)))
+    (PP (IN for)
+      (NP (PRP$ your) (NN support)))
+    (. !)))
+
+
+root(ROOT-0, Thanks-1)
+prep(Thanks-1, to-2)
+pobj(to-2, everyone-3)
+prep(Thanks-1, for-4)
+poss(support-6, your-5)
+pobj(for-4, support-6)
+
+
+(ROOT
+  (NP
+    (NP (NNP Kinokuniya) (NNP Website))
+    (NP
+      (NP (CD 11))
+      (NP (NNP Jan) (CD 2011)))))
+
+
+nn(Website-2, Kinokuniya-1)
+root(ROOT-0, Website-2)
+dep(Website-2, 11-3)
+dep(11-3, Jan-4)
+num(Jan-4, 2011-5)
+
+

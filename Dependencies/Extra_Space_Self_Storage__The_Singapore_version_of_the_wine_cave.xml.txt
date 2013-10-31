@@ -1,0 +1,140 @@
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT The) (NN collecting))
+        (PP (IN of)
+          (NP (NNS wines))))
+      (VP (VBZ has)
+        (ADVP (RB really))
+        (VP (VBN taken)
+          (PRT (RP off))
+          (PP (IN in)
+            (NP (NNP Singapore)))
+          (PP (IN over)
+            (NP (DT the) (JJ last) (NN decade)
+              (CC or)
+              (RB so))))))
+    (CC and)
+    (S
+      (NP (PRP I))
+      (VP (VBP am)
+        (ADJP (JJ sure)
+          (SBAR
+            (S
+              (NP
+                (NP (JJ many))
+                (PP (IN of)
+                  (NP (PRP us))))
+              (VP (MD will)
+                (VP (VB have)
+                  (NP
+                    (NP (DT a) (JJ few) (NNS bottles))
+                    (VP (VBG lying)
+                      (PRT (RP around))
+                      (ADVP
+                        (NP (DT the) (NN house))
+                        (RB somewhere)))))))))))
+    (. .)))
+
+
+det(collecting-2, The-1)
+nsubj(taken-7, collecting-2)
+prep(collecting-2, of-3)
+pobj(of-3, wines-4)
+aux(taken-7, has-5)
+advmod(taken-7, really-6)
+root(ROOT-0, taken-7)
+prt(taken-7, off-8)
+prep(taken-7, in-9)
+pobj(in-9, Singapore-10)
+prep(taken-7, over-11)
+det(decade-14, the-12)
+amod(decade-14, last-13)
+pobj(over-11, decade-14)
+cc(decade-14, or-15)
+advmod(decade-14, so-16)
+cc(taken-7, and-17)
+nsubj(sure-20, I-18)
+cop(sure-20, am-19)
+conj(taken-7, sure-20)
+nsubj(have-25, many-21)
+prep(many-21, of-22)
+pobj(of-22, us-23)
+aux(have-25, will-24)
+ccomp(sure-20, have-25)
+det(bottles-28, a-26)
+amod(bottles-28, few-27)
+dobj(have-25, bottles-28)
+partmod(bottles-28, lying-29)
+prt(lying-29, around-30)
+det(house-32, the-31)
+npadvmod(somewhere-33, house-32)
+advmod(lying-29, somewhere-33)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB However))
+    (ADVP (RB ,))))
+
+
+root(ROOT-0, However-1)
+
+
+(ROOT
+  (S
+    (NP (EX there))
+    (VP (VBP are)
+      (NP
+        (NP (CD two) (JJ main) (NNS problems))
+        (PP (IN with)
+          (NP
+            (NP (VBG collecting) (NNS wines))
+            (PP (IN in)
+              (NP (NNP Singapore)))))))
+    (. .)))
+
+
+expl(are-2, there-1)
+root(ROOT-0, are-2)
+num(problems-5, two-3)
+amod(problems-5, main-4)
+nsubj(are-2, problems-5)
+prep(problems-5, with-6)
+amod(wines-8, collecting-7)
+pobj(with-6, wines-8)
+prep(wines-8, in-9)
+pobj(in-9, Singapore-10)
+
+
+(ROOT
+  (NP
+    (NP (DT The) (NN lack))
+    (PP (IN of)
+      (NP
+        (NP (NN space))
+        (, ,)))))
+
+
+det(lack-2, The-1)
+root(ROOT-0, lack-2)
+prep(lack-2, of-3)
+pobj(of-3, space-4)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB as) (RB well))
+    (NP (RB as) (DT the) (JJ hot) (NN weather))
+    (. .)))
+
+
+advmod(well-2, as-1)
+dep(weather-6, well-2)
+advmod(weather-6, as-3)
+det(weather-6, the-4)
+amod(weather-6, hot-5)
+root(ROOT-0, weather-6)
+
+

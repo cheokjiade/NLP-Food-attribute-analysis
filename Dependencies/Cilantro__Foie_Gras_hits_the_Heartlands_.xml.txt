@@ -1,0 +1,219 @@
+(ROOT
+  (S
+    (NP (DT This) (NN stall))
+    (VP (VBZ is)
+      (ADJP (JJ closed))
+      (SBAR
+        (WHADVP (WRB When))
+        (S
+          (NP (PRP I))
+          (ADVP (RB first))
+          (VP (VBD started)
+            (NP (DT the) (NN blog))))))
+    (, ,)))
+
+
+det(stall-2, This-1)
+nsubj(closed-4, stall-2)
+cop(closed-4, is-3)
+root(ROOT-0, closed-4)
+advmod(started-8, When-5)
+nsubj(started-8, I-6)
+advmod(started-8, first-7)
+advcl(closed-4, started-8)
+det(blog-10, the-9)
+dobj(started-8, blog-10)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD wrote)
+      (SBAR
+        (SBAR (IN about)
+          (S
+            (VP
+              (VP (VBZ Astons))
+              (CC and)
+              (VP (VBD eBlackboard)))))
+        (CC and)
+        (SBAR
+          (WHADVP (WRB how))
+          (S
+            (NP (DT these) (NNS eateries))
+            (VP (VBP are)
+              (VP (VBG bringing)
+                (NP (JJ affordable) (JJ western) (NNS cuisines))
+                (PP (TO to)
+                  (NP (DT the) (NNS heartlands)))))))))
+    (. .)))
+
+
+nsubj(wrote-2, I-1)
+root(ROOT-0, wrote-2)
+mark(Astons-4, about-3)
+dep(wrote-2, Astons-4)
+cc(Astons-4, and-5)
+conj(Astons-4, eBlackboard-6)
+cc(Astons-4, and-7)
+advmod(bringing-12, how-8)
+det(eateries-10, these-9)
+nsubj(bringing-12, eateries-10)
+aux(bringing-12, are-11)
+conj(Astons-4, bringing-12)
+amod(cuisines-15, affordable-13)
+amod(cuisines-15, western-14)
+dobj(bringing-12, cuisines-15)
+prep(bringing-12, to-16)
+det(heartlands-18, the-17)
+pobj(to-16, heartlands-18)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBD hinted)
+      (ADVP (RB then)))
+    (, ,)))
+
+
+nsubj(hinted-2, I-1)
+root(ROOT-0, hinted-2)
+advmod(hinted-2, then-3)
+
+
+(ROOT
+  (S
+    (SBAR (IN that)
+      (S
+        (NP (PRP we))
+        (VP (MD will)
+          (VP (VB see)
+            (ADVP (RBR more)
+              (CC and)
+              (RBR more))))))
+    (NP (NNP Restaurant) (NNP Style) (NNP Western) (NNP Food))
+    (VP (VBZ stalls)
+      (PP (IN in)
+        (NP (PRP$ our) (NNS heartlands))))
+    (. .)))
+
+
+mark(see-4, that-1)
+nsubj(see-4, we-2)
+aux(see-4, will-3)
+advcl(stalls-12, see-4)
+advmod(see-4, more-5)
+cc(more-5, and-6)
+conj(more-5, more-7)
+nn(Food-11, Restaurant-8)
+nn(Food-11, Style-9)
+nn(Food-11, Western-10)
+nsubj(stalls-12, Food-11)
+root(ROOT-0, stalls-12)
+prep(stalls-12, in-13)
+poss(heartlands-15, our-14)
+pobj(in-13, heartlands-15)
+
+
+(ROOT
+  (S (CC And)
+    (NP (PRP it))
+    (VP (VBD came)
+      (S
+        (VP (TO to)
+          (VP (VB pass)
+            (SBAR (IN that)
+              (S
+                (NP (NNP Singaporeans))
+                (VP (VBP are)
+                  (ADVP (RB now))
+                  (VP (VBG enjoying)
+                    (NP
+                      (NP (DT the) (NN likes))
+                      (PP (IN of)
+                        (NP (NNP Botak) (NNP Jones))))))))))
+        (, ,)))))
+
+
+cc(came-3, And-1)
+nsubj(came-3, it-2)
+root(ROOT-0, came-3)
+aux(pass-5, to-4)
+xcomp(came-3, pass-5)
+mark(enjoying-10, that-6)
+nsubj(enjoying-10, Singaporeans-7)
+aux(enjoying-10, are-8)
+advmod(enjoying-10, now-9)
+ccomp(pass-5, enjoying-10)
+det(likes-12, the-11)
+dobj(enjoying-10, likes-12)
+prep(likes-12, of-13)
+nn(Jones-15, Botak-14)
+pobj(of-13, Jones-15)
+
+
+(ROOT
+  (NP
+    (NP (NNP Crazy) (NNP Ang) (NNP Moh)
+      (CC and)
+      (NNP Astons))
+    (PP (IN in)
+      (NP (DT a) (NN coffeeshop) (NN environment)))
+    (. .)))
+
+
+nn(Moh-3, Crazy-1)
+nn(Moh-3, Ang-2)
+root(ROOT-0, Moh-3)
+cc(Moh-3, and-4)
+conj(Moh-3, Astons-5)
+prep(Moh-3, in-6)
+det(environment-9, a-7)
+nn(environment-9, coffeeshop-8)
+pobj(in-6, environment-9)
+
+
+(ROOT
+  (S
+    (ADVP (RB Now))
+    (NP (PRP we))
+    (VP (VBP move)
+      (PP (IN on)
+        (PP (TO to)
+          (NP (DT the) (JJ next) (NN level)))))
+    (. .)))
+
+
+advmod(move-3, Now-1)
+nsubj(move-3, we-2)
+root(ROOT-0, move-3)
+prep(move-3, on-4)
+pcomp(on-4, to-5)
+det(level-8, the-6)
+amod(level-8, next-7)
+pobj(to-5, level-8)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (NNP Foie) (NNP Gras)
+        (CC and)
+        (NNP Escargot))
+      (PP (IN in)
+        (NP (PRP$ our) (NN heartland))))
+    (VP (VBZ coffeeshops))
+    (. .)))
+
+
+nn(Gras-2, Foie-1)
+nsubj(coffeeshops-8, Gras-2)
+cc(Gras-2, and-3)
+conj(Gras-2, Escargot-4)
+prep(Gras-2, in-5)
+poss(heartland-7, our-6)
+pobj(in-5, heartland-7)
+root(ROOT-0, coffeeshops-8)
+
+

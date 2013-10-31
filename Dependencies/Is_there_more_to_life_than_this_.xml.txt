@@ -1,0 +1,116 @@
+(ROOT
+  (S
+    (NP (NNP Final))
+    (VP (VBP call)
+      (PP (IN for)
+        (NP
+          (NP (DT those))
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP (VBP are)
+                (ADVP (RB still))
+                (VP (VBG thinking)
+                  (PP (IN of)
+                    (S
+                      (VP (VBG joining)
+                        (NP (DT the) (NNP Alpha) (NN course))))))))))))
+    (. .)))
+
+
+nsubj(call-2, Final-1)
+root(ROOT-0, call-2)
+prep(call-2, for-3)
+pobj(for-3, those-4)
+nsubj(thinking-8, who-5)
+aux(thinking-8, are-6)
+advmod(thinking-8, still-7)
+rcmod(those-4, thinking-8)
+prep(thinking-8, of-9)
+pcomp(of-9, joining-10)
+det(course-13, the-11)
+nn(course-13, Alpha-12)
+dobj(joining-10, course-13)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (ADVP (RB still))
+      (RB not)
+      (ADJP (RB too) (JJ late)
+        (S
+          (VP (TO to)
+            (VP (VB sign)
+              (PRT (RP up))
+              (SBAR (IN as)
+                (S
+                  (NP (PRP we))
+                  (ADVP (RB only))
+                  (VP (VBD had)
+                    (NP
+                      (NP (PRP$ our) (JJ first) (NN session))
+                      (NP (JJ last) (NN week)))))))))))
+    (. !)))
+
+
+nsubj(late-6, It-1)
+cop(late-6, is-2)
+advmod(late-6, still-3)
+neg(late-6, not-4)
+advmod(late-6, too-5)
+root(ROOT-0, late-6)
+aux(sign-8, to-7)
+xcomp(late-6, sign-8)
+prt(sign-8, up-9)
+mark(had-13, as-10)
+nsubj(had-13, we-11)
+advmod(had-13, only-12)
+advcl(sign-8, had-13)
+poss(session-16, our-14)
+amod(session-16, first-15)
+dobj(had-13, session-16)
+amod(week-18, last-17)
+dep(session-16, week-18)
+
+
+(ROOT
+  (S
+    (VP (VB Click)
+      (ADVP (RB here))
+      (S
+        (VP (TO to)
+          (VP (VB learn)
+            (NP (JJR more))
+            (PP (IN about)
+              (NP (NNP Alpha)))))))
+    (. .)))
+
+
+root(ROOT-0, Click-1)
+advmod(Click-1, here-2)
+aux(learn-4, to-3)
+xcomp(Click-1, learn-4)
+dobj(learn-4, more-5)
+prep(learn-4, about-6)
+pobj(about-6, Alpha-7)
+
+
+(ROOT
+  (ADJP (JJ Hope)
+    (S
+      (VP (TO to)
+        (VP (VB see)
+          (NP (PRP you))
+          (ADVP (RB soon)))))
+    (. !)))
+
+
+root(ROOT-0, Hope-1)
+aux(see-3, to-2)
+xcomp(Hope-1, see-3)
+dobj(see-3, you-4)
+advmod(see-3, soon-5)
+
+

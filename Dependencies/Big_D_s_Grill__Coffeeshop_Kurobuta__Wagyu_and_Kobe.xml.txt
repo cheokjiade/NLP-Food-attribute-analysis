@@ -1,0 +1,208 @@
+(ROOT
+  (FRAG
+    (PP (IN Oh)
+      (NP (RB yes)))
+    (, ,)))
+
+
+root(ROOT-0, Oh-1)
+pobj(Oh-1, yes-2)
+
+
+(ROOT
+  (S
+    (NP (PRP we))
+    (VP (VBP are)
+      (VP (VBG seeing)
+        (NP
+          (NP (JJR more))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (JJ good) (NN stuff))
+              (VP (VBG hitting)
+                (NP (DT the) (NNS coffeeshops))))))))
+    (. !)))
+
+
+nsubj(seeing-3, we-1)
+aux(seeing-3, are-2)
+root(ROOT-0, seeing-3)
+dobj(seeing-3, more-4)
+prep(more-4, of-5)
+det(stuff-8, the-6)
+amod(stuff-8, good-7)
+pobj(of-5, stuff-8)
+partmod(stuff-8, hitting-9)
+det(coffeeshops-11, the-10)
+dobj(hitting-9, coffeeshops-11)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ My) (JJS latest))
+      (SBAR
+        (S
+          (VP (VBP find)))))
+    (VP (VBZ is)
+      (NP
+        (NP (DT this) (NN coffeeshop) (NN stall))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBZ has)
+              (VP (VBN started)
+                (S
+                  (VP (VBG selling)
+                    (NP (NNP US) (NNP Kobe) (NNP Beef) (NNP Ribs)))))))
+          (, ,))))))
+
+
+poss(latest-2, My-1)
+nsubj(stall-7, latest-2)
+rcmod(latest-2, find-3)
+cop(stall-7, is-4)
+det(stall-7, this-5)
+nn(stall-7, coffeeshop-6)
+root(ROOT-0, stall-7)
+nsubj(started-10, which-8)
+aux(started-10, has-9)
+rcmod(stall-7, started-10)
+xcomp(started-10, selling-11)
+nn(Ribs-15, US-12)
+nn(Ribs-15, Kobe-13)
+nn(Ribs-15, Beef-14)
+dobj(selling-11, Ribs-15)
+
+
+(ROOT
+  (S
+    (NP (NNP US) (NNP Kurobuta) (NNP Pork) (NNPS Chops)
+      (CC and)
+      (NNP Wagyu) (NNP beef))
+    (VP (VBN done)
+      (NP (NN mediterranean) (NN style)))
+    (. .)))
+
+
+nn(Chops-4, US-1)
+nn(Chops-4, Kurobuta-2)
+nn(Chops-4, Pork-3)
+nsubj(done-8, Chops-4)
+cc(Chops-4, and-5)
+nn(beef-7, Wagyu-6)
+conj(Chops-4, beef-7)
+root(ROOT-0, done-8)
+nn(style-10, mediterranean-9)
+dobj(done-8, style-10)
+
+
+(ROOT
+  (FRAG
+    (ADVP (RB Now))
+    (ADVP (RB ,))))
+
+
+root(ROOT-0, Now-1)
+
+
+(ROOT
+  (S
+    (NP (EX there))
+    (VP (VBP are)
+      (NP
+        (NP (JJ many) (JJ Western) (NN food) (NNS stalls))
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBP are)
+              (VP (VBG opening)
+                (PRT (RP up))
+                (PP (IN in)
+                  (NP (NNS coffeeshops)))
+                (SBAR (IN so)
+                  (S
+                    (NP (PRP I))
+                    (ADVP (RB usually))
+                    (VP (VBP have)
+                      (S
+                        (VP (TO to)
+                          (VP (VB look)
+                            (PRT (RP out))
+                            (PP (IN for)
+                              (NP (NNS signs)))
+                            (SBAR (IN that)
+                              (S
+                                (NP (DT a) (JJ particular) (NN stall))
+                                (VP (VBZ is)
+                                  (VP (VBG offering)
+                                    (NP
+                                      (NP
+                                        (QP (JJR more) (IN than) (RB just))
+                                        (PRP$ your) (JJ run-of-the-mill) (NNP Dory) (NN fish))
+                                      (CC and)
+                                      (NP (NNS chips)))))))))))))))))))
+    (, ,)))
+
+
+expl(are-2, there-1)
+root(ROOT-0, are-2)
+amod(stalls-6, many-3)
+amod(stalls-6, Western-4)
+nn(stalls-6, food-5)
+nsubj(are-2, stalls-6)
+nsubj(opening-9, which-7)
+aux(opening-9, are-8)
+rcmod(stalls-6, opening-9)
+prt(opening-9, up-10)
+prep(opening-9, in-11)
+pobj(in-11, coffeeshops-12)
+mark(have-16, so-13)
+nsubj(have-16, I-14)
+advmod(have-16, usually-15)
+advcl(opening-9, have-16)
+aux(look-18, to-17)
+xcomp(have-16, look-18)
+prt(look-18, out-19)
+prep(look-18, for-20)
+pobj(for-20, signs-21)
+mark(offering-27, that-22)
+det(stall-25, a-23)
+amod(stall-25, particular-24)
+nsubj(offering-27, stall-25)
+aux(offering-27, is-26)
+ccomp(look-18, offering-27)
+quantmod(than-29, more-28)
+num(fish-34, than-29)
+quantmod(than-29, just-30)
+poss(fish-34, your-31)
+amod(fish-34, run-of-the-mill-32)
+nn(fish-34, Dory-33)
+dobj(offering-27, fish-34)
+cc(fish-34, and-35)
+conj(fish-34, chips-36)
+
+
+(ROOT
+  (S
+    (NP (NNP NZ))
+    (VP (VBZ steaks))
+    (, ,)))
+
+
+nsubj(steaks-2, NZ-1)
+root(ROOT-0, steaks-2)
+
+
+(ROOT
+  (NP
+    (NP (NN chicken))
+    (VP (VBN chops))
+    (X (NN etc.))))
+
+
+root(ROOT-0, chicken-1)
+partmod(chicken-1, chops-2)
+dep(chicken-1, etc.-3)
+
+

@@ -1,0 +1,463 @@
+(ROOT
+  (S
+    (NP (DT This) (NNP Stall))
+    (VP (VBZ is)
+      (VP (VBN closed)
+        (NP (NN Ok))))
+    (, ,)))
+
+
+det(Stall-2, This-1)
+nsubjpass(closed-4, Stall-2)
+auxpass(closed-4, is-3)
+root(ROOT-0, closed-4)
+dobj(closed-4, Ok-5)
+
+
+(ROOT
+  (FRAG
+    (NP (NN time))
+    (PP (IN for)
+      (NP (DT a) (NN post)
+        (S
+          (VP (TO to)
+            (VP (VB highlight)
+              (NP
+                (NP (DT some) (JJ healthier) (NN stuff))
+                (PP (IN for)
+                  (NP
+                    (NP (PRP$ our) (NN gym))
+                    (VP (VBG going)))))
+              (, ,))))))))
+
+
+root(ROOT-0, time-1)
+prep(time-1, for-2)
+det(post-4, a-3)
+pobj(for-2, post-4)
+aux(highlight-6, to-5)
+infmod(post-4, highlight-6)
+det(stuff-9, some-7)
+amod(stuff-9, healthier-8)
+dobj(highlight-6, stuff-9)
+prep(stuff-9, for-10)
+poss(gym-12, our-11)
+pobj(for-10, gym-12)
+partmod(gym-12, going-13)
+
+
+(ROOT
+  (S
+    (NP (JJ organic))
+    (VP (VBZ insisting))
+    (, ,)))
+
+
+nsubj(insisting-2, organic-1)
+root(ROOT-0, insisting-2)
+
+
+(ROOT
+  (S
+    (VP (VB calorie)
+      (S
+        (VP
+          (VP (VBG counting)
+            (NP
+              (NP (NNS friends))
+              (SBAR
+                (WHNP (WP who))
+                (S
+                  (VP (VBP want)
+                    (S
+                      (VP (TO to)
+                        (VP (VB make)
+                          (ADJP (JJ sure))
+                          (SBAR (IN that)
+                            (S
+                              (NP (PRP$ their) (JJ tight) (NNP T) (NNS shirts))
+                              (VP (VBP remain)
+                                (ADJP (RB comfortably) (JJ tight)))))))))))))
+          (CONJP (CC but)
+            (RB not))
+          (VP (VBG bursting)
+            (PP (IN at)
+              (NP (DT the) (NNS seams)))))))
+    (. .)))
+
+
+root(ROOT-0, calorie-1)
+ccomp(calorie-1, counting-2)
+dobj(counting-2, friends-3)
+nsubj(want-5, who-4)
+rcmod(friends-3, want-5)
+aux(make-7, to-6)
+xcomp(want-5, make-7)
+acomp(make-7, sure-8)
+mark(tight-16, that-9)
+poss(shirts-13, their-10)
+amod(shirts-13, tight-11)
+nn(shirts-13, T-12)
+nsubj(tight-16, shirts-13)
+cop(tight-16, remain-14)
+advmod(tight-16, comfortably-15)
+ccomp(make-7, tight-16)
+cc(not-18, but-17)
+cc(counting-2, not-18)
+conj(counting-2, bursting-19)
+prep(bursting-19, at-20)
+det(seams-22, the-21)
+pobj(at-20, seams-22)
+
+
+(ROOT
+  (FRAG
+    (PP (IN Yes))
+    (, ,)))
+
+
+root(ROOT-0, Yes-1)
+
+
+(ROOT
+  (S
+    (NP (EX there))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (NN market))
+        (PP (IN for)
+          (NP
+            (NP (NNS people))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBP want)
+                  (S
+                    (VP (TO to)
+                      (VP (VB eat)
+                        (NP (NN chicken) (NN breast))
+                        (PP (IN without)
+                          (NP
+                            (NP (DT the) (NN skin))
+                            (CC and)
+                            (NP
+                              (NP (DT all) (JJ natural) (NN mayonnaise))
+                              (SBAR
+                                (WHNP (WDT that))
+                                (S
+                                  (VP (VBZ is)
+                                    (VP (VBN whipped)
+                                      (PP (IN by)
+                                        (NP (NN hand)))
+                                      (PP (RB instead) (IN of)
+                                        (S
+                                          (VP (VBG being)
+                                            (VP (VBN churned)
+                                              (PP (IN in)
+                                                (NP (DT a) (JJ industrial) (NN vat))))))))))))))))))))))))
+    (. .)))
+
+
+expl(is-2, there-1)
+root(ROOT-0, is-2)
+det(market-4, a-3)
+nsubj(is-2, market-4)
+prep(market-4, for-5)
+pobj(for-5, people-6)
+nsubj(want-8, who-7)
+rcmod(people-6, want-8)
+aux(eat-10, to-9)
+xcomp(want-8, eat-10)
+nn(breast-12, chicken-11)
+dobj(eat-10, breast-12)
+prep(eat-10, without-13)
+det(skin-15, the-14)
+pobj(without-13, skin-15)
+cc(skin-15, and-16)
+det(mayonnaise-19, all-17)
+amod(mayonnaise-19, natural-18)
+conj(skin-15, mayonnaise-19)
+nsubjpass(whipped-22, that-20)
+auxpass(whipped-22, is-21)
+rcmod(mayonnaise-19, whipped-22)
+prep(whipped-22, by-23)
+pobj(by-23, hand-24)
+advmod(of-26, instead-25)
+prep(whipped-22, of-26)
+auxpass(churned-28, being-27)
+pcomp(of-26, churned-28)
+prep(churned-28, in-29)
+det(vat-32, a-30)
+amod(vat-32, industrial-31)
+pobj(in-29, vat-32)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (JJ same) (NNS people))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (MD would)
+              (PP (IN for)
+                (NP (JJ brown) (NN rice))))))))
+    (, ,)))
+
+
+nsubj(people-5, It-1)
+cop(people-5, is-2)
+det(people-5, the-3)
+amod(people-5, same-4)
+root(ROOT-0, people-5)
+nsubj(would-7, who-6)
+rcmod(people-5, would-7)
+prep(would-7, for-8)
+amod(rice-10, brown-9)
+pobj(for-8, rice-10)
+
+
+(ROOT
+  (FRAG
+    (PP (JJ whole)
+      (NP (NN wheat)))
+    (, ,)))
+
+
+root(ROOT-0, whole-1)
+dep(whole-1, wheat-2)
+
+
+(ROOT
+  (FRAG
+    (PP (JJ whole)
+      (NP (NN grain)))
+    (, ,)))
+
+
+root(ROOT-0, whole-1)
+dep(whole-1, grain-2)
+
+
+(ROOT
+  (NP
+    (NP (DT no) (NN artificial))
+    (NP
+      (NP (DT this))
+      (CC and)
+      (NP (DT that) (NN stuff)))
+    (. .)))
+
+
+det(artificial-2, no-1)
+root(ROOT-0, artificial-2)
+dep(artificial-2, this-3)
+cc(this-3, and-4)
+det(stuff-6, that-5)
+conj(this-3, stuff-6)
+
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (NN order) (NNS words)))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+nn(words-3, order-2)
+pobj(In-1, words-3)
+
+
+(ROOT
+  (S
+    (NP (DT the) (NN good))
+    (VP (VBP stuff)
+      (SBAR (IN that)
+        (S
+          (NP (PRP they))
+          (VP (VBD used)
+            (S
+              (VP (TO to)
+                (VP (VB grow)
+                  (PP (IN in)
+                    (NP (DT the) (NN farm)))
+                  (PP (IN before)
+                    (NP
+                      (NP (DT the) (NN advent))
+                      (PP (IN of)
+                        (NP (JJ genetic) (NN modification))))))))))))
+    (, ,)))
+
+
+det(good-2, the-1)
+nsubj(stuff-3, good-2)
+root(ROOT-0, stuff-3)
+mark(used-6, that-4)
+nsubj(used-6, they-5)
+ccomp(stuff-3, used-6)
+aux(grow-8, to-7)
+xcomp(used-6, grow-8)
+prep(grow-8, in-9)
+det(farm-11, the-10)
+pobj(in-9, farm-11)
+prep(grow-8, before-12)
+det(advent-14, the-13)
+pobj(before-12, advent-14)
+prep(advent-14, of-15)
+amod(modification-17, genetic-16)
+pobj(of-15, modification-17)
+
+
+(ROOT
+  (S
+    (NP (NNS pesticides)
+      (CC and)
+      (NN hormone) (NNS injections))
+    (VP (TO to)
+      (VP (VB increase)
+        (NP
+          (NP (DT the) (NN yield))
+          (PP (IN of)
+            (NP (DT the) (NN harvest))))))
+    (. .)))
+
+
+nsubj(increase-6, pesticides-1)
+cc(pesticides-1, and-2)
+nn(injections-4, hormone-3)
+conj(pesticides-1, injections-4)
+aux(increase-6, to-5)
+root(ROOT-0, increase-6)
+det(yield-8, the-7)
+dobj(increase-6, yield-8)
+prep(yield-8, of-9)
+det(harvest-11, the-10)
+pobj(of-9, harvest-11)
+
+
+(ROOT
+  (S
+    (NP (DT All) (JJ good) (NNS intentions))
+    (VP (VBZ aside))
+    (, ,)))
+
+
+det(intentions-3, All-1)
+amod(intentions-3, good-2)
+nsubj(aside-4, intentions-3)
+root(ROOT-0, aside-4)
+
+
+(ROOT
+  (S
+    (NP (DT these))
+    (VP (VBP are)
+      (NP
+        (NP (DT the) (JJ very) (NNS people))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBP are)
+              (VP (VBG contributing)
+                (PP (TO to)
+                  (NP (DT the) (JJ global) (NN food) (NN crisis)))
+                (PP (IN by)
+                  (S
+                    (VP (VBG insisting)
+                      (SBAR (IN that)
+                        (S
+                          (NP (PRP we))
+                          (VP (VBP grow)
+                            (NP (PRP$ our) (NN food))
+                            (ADVP (RB slowly))))))))))))))
+    (. .)))
+
+
+nsubj(people-5, these-1)
+cop(people-5, are-2)
+det(people-5, the-3)
+amod(people-5, very-4)
+root(ROOT-0, people-5)
+nsubj(contributing-8, who-6)
+aux(contributing-8, are-7)
+rcmod(people-5, contributing-8)
+prep(contributing-8, to-9)
+det(crisis-13, the-10)
+amod(crisis-13, global-11)
+nn(crisis-13, food-12)
+pobj(to-9, crisis-13)
+prep(contributing-8, by-14)
+pcomp(by-14, insisting-15)
+mark(grow-18, that-16)
+nsubj(grow-18, we-17)
+ccomp(insisting-15, grow-18)
+poss(food-20, our-19)
+dobj(grow-18, food-20)
+advmod(grow-18, slowly-21)
+
+
+(ROOT
+  (FRAG
+    (PP (IN OK)
+      (NP (NN Ok)))
+    (, ,)))
+
+
+root(ROOT-0, OK-1)
+pobj(OK-1, Ok-2)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP am)
+      (ADVP (RB just))
+      (VP (VBG joking)))
+    (, ,)))
+
+
+nsubj(joking-4, I-1)
+aux(joking-4, am-2)
+advmod(joking-4, just-3)
+root(ROOT-0, joking-4)
+
+
+(ROOT
+  (S
+    (NP (PRP$ its) (NN good))
+    (VP (TO to)
+      (VP (VB be)
+        (ADJP (JJ natural))))
+    (: -)))
+
+
+poss(good-2, its-1)
+nsubj(natural-5, good-2)
+aux(natural-5, to-3)
+cop(natural-5, be-4)
+root(ROOT-0, natural-5)
+
+
+(ROOT
+  (S
+    (ADVP (RB just))
+    (NP (JJ like) (NN armpit) (NN hair))
+    (VP (VBZ is)
+      (ADVP (RB also))
+      (ADJP (RB very) (JJ natural)))
+    (. .)))
+
+
+advmod(natural-8, just-1)
+amod(hair-4, like-2)
+nn(hair-4, armpit-3)
+nsubj(natural-8, hair-4)
+cop(natural-8, is-5)
+advmod(natural-8, also-6)
+advmod(natural-8, very-7)
+root(ROOT-0, natural-8)
+
+

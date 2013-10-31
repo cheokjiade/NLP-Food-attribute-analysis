@@ -1,0 +1,75 @@
+(ROOT
+  (S
+    (NP (RB Here))
+    (VP (VBZ 's)
+      (NP
+        (NP (DT the) (NN interview))
+        (SBAR
+          (S
+            (NP (PRP I))
+            (VP (VBD did)
+              (PP (IN with)
+                (NP
+                  (NP (NNP Dr) (NNP Hsu) (NNP Li) (NNP Yang))
+                  (SBAR
+                    (WHNP (WDT which))
+                    (S
+                      (VP (VBD was)
+                        (VP (VBN published)
+                          (PP (IN in)
+                            (NP
+                              (NP (DT the) (NNP Feb) (NN issue))
+                              (PP (IN of)
+                                (NP (DT the) (NNP Singapore) (NNP Medical) (NNP Association) (NNP News))))))))))))))))
+    (. .)))
+
+
+nsubj(interview-4, Here-1)
+cop(interview-4, 's-2)
+det(interview-4, the-3)
+root(ROOT-0, interview-4)
+nsubj(did-6, I-5)
+rcmod(interview-4, did-6)
+prep(did-6, with-7)
+nn(Yang-11, Dr-8)
+nn(Yang-11, Hsu-9)
+nn(Yang-11, Li-10)
+pobj(with-7, Yang-11)
+nsubjpass(published-14, which-12)
+auxpass(published-14, was-13)
+rcmod(Yang-11, published-14)
+prep(published-14, in-15)
+det(issue-18, the-16)
+nn(issue-18, Feb-17)
+pobj(in-15, issue-18)
+prep(issue-18, of-19)
+det(News-24, the-20)
+nn(News-24, Singapore-21)
+nn(News-24, Medical-22)
+nn(News-24, Association-23)
+pobj(of-19, News-24)
+
+
+(ROOT
+  (S
+    (S
+      (VP (VBN Included)
+        (PP (IN in)
+          (NP (DT the) (JJ last) (NN page)))))
+    (VP (VBZ is)
+      (NP (PRP$ my) (VBN updated) (NN rating) (NN guide)))
+    (. .)))
+
+
+csubj(guide-10, Included-1)
+prep(Included-1, in-2)
+det(page-5, the-3)
+amod(page-5, last-4)
+pobj(in-2, page-5)
+dep(guide-10, is-6)
+poss(guide-10, my-7)
+amod(guide-10, updated-8)
+nn(guide-10, rating-9)
+root(ROOT-0, guide-10)
+
+

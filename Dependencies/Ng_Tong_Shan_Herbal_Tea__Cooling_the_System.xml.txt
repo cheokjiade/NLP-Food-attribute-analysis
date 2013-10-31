@@ -1,0 +1,120 @@
+(ROOT
+  (S
+    (NP
+      (NP (CD One))
+      (PP (IN of)
+        (NP
+          (NP (DT the) (NNS things))
+          (SBAR (IN that)
+            (S
+              (NP (PRP I))
+              (ADVP (RB often))
+              (VP (VB get)
+                (VP (VBN asked)
+                  (PP (IN during)
+                    (NP (NNS consultations))))))))))
+    (VP (VBZ is)
+      (SBAR (IN whether)
+        (S
+          (NP
+            (NP (DT the) (NN condition))
+            (SBAR
+              (S
+                (NP (PRP they))
+                (VP (VBP are)
+                  (VP (VBG suffering)
+                    (PP (IN from)))))))
+          (VP (VBZ is)
+            (NP
+              (NP (DT a) (NN result))
+              (PP (IN of)
+                (NP (`` ``)
+                  (NP (NNS heatiness))
+                  ('' '')
+                  (PRN (-LRB- -LRB-)
+                    (NP (NNP Juah))
+                    (-RRB- -RRB-)))))))))
+    (. .)))
+
+
+nsubj(is-12, One-1)
+prep(One-1, of-2)
+det(things-4, the-3)
+pobj(of-2, things-4)
+mark(asked-9, that-5)
+nsubjpass(asked-9, I-6)
+advmod(asked-9, often-7)
+auxpass(asked-9, get-8)
+dep(things-4, asked-9)
+prep(asked-9, during-10)
+pobj(during-10, consultations-11)
+root(ROOT-0, is-12)
+mark(result-22, whether-13)
+det(condition-15, the-14)
+nsubj(result-22, condition-15)
+nsubj(suffering-18, they-16)
+aux(suffering-18, are-17)
+rcmod(condition-15, suffering-18)
+prep(suffering-18, from-19)
+cop(result-22, is-20)
+det(result-22, a-21)
+ccomp(is-12, result-22)
+prep(result-22, of-23)
+pobj(of-23, heatiness-25)
+appos(heatiness-25, Juah-28)
+
+
+(ROOT
+  (S (CC And)
+    (NP (PRP it))
+    (VP (VBZ is) (RB not)
+      (NP
+        (NP (RB just) (DT the) (JJ elderly))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBP ask)
+              (S
+                (NP (PRP me))
+                (NP (DT this) (NN question)))))
+          (, ,))))))
+
+
+cc(elderly-7, And-1)
+nsubj(elderly-7, it-2)
+cop(elderly-7, is-3)
+neg(elderly-7, not-4)
+advmod(elderly-7, just-5)
+det(elderly-7, the-6)
+root(ROOT-0, elderly-7)
+nsubj(ask-9, who-8)
+rcmod(elderly-7, ask-9)
+nsubj(question-12, me-10)
+det(question-12, this-11)
+xcomp(ask-9, question-12)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB also))
+    (VP (VBP get)
+      (VP (VBN asked)
+        (PP (IN by)
+          (NP
+            (NP (NNS teenagers))
+            (PP (IN at)
+              (NP (NNS times)))))))
+    (. .)))
+
+
+nsubjpass(asked-4, I-1)
+advmod(asked-4, also-2)
+auxpass(asked-4, get-3)
+root(ROOT-0, asked-4)
+prep(asked-4, by-5)
+pobj(by-5, teenagers-6)
+prep(teenagers-6, at-7)
+pobj(at-7, times-8)
+
+

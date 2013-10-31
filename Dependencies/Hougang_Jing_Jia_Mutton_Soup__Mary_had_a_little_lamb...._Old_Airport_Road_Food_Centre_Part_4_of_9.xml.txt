@@ -1,0 +1,388 @@
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP do) (RB n't)
+      (ADVP (RB often))
+      (VP (VB eat)
+        (NP (NN mutton) (NN soup))))
+    (. .)))
+
+
+nsubj(eat-5, I-1)
+aux(eat-5, do-2)
+neg(eat-5, n't-3)
+advmod(eat-5, often-4)
+root(ROOT-0, eat-5)
+nn(soup-7, mutton-6)
+dobj(eat-5, soup-7)
+
+
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (MD must)
+      (VP (VB be)
+        (NP
+          (NP (DT the) (JJ first) (NN time))
+          (SBAR
+            (S
+              (NP (PRP I))
+              (VP (VBP am)
+                (VP (VBG having)
+                  (NP
+                    (NP (DT this))
+                    (PP (IN for)
+                      (NP (DT a) (NN decade)))))))))))
+    (. .)))
+
+
+nsubj(time-6, This-1)
+aux(time-6, must-2)
+cop(time-6, be-3)
+det(time-6, the-4)
+amod(time-6, first-5)
+root(ROOT-0, time-6)
+nsubj(having-9, I-7)
+aux(having-9, am-8)
+rcmod(time-6, having-9)
+dobj(having-9, this-10)
+prep(this-10, for-11)
+det(decade-13, a-12)
+pobj(for-11, decade-13)
+
+
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (NN reason))
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (VBP am)
+            (VP (VBG blogging)
+              (NP (DT this) (NN dish)))))))
+    (VP (VBZ is)
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (DT some))
+            (PP (IN of)
+              (NP (PRP$ my) (NNS makankakis))))
+          (VP (VBD felt)
+            (SBAR
+              (S
+                (NP (DT the) (NN mutton) (NN soup))
+                (VP (VBZ is)
+                  (ADJP (JJ good) (RB enough)
+                    (S
+                      (VP (TO to)
+                        (VP (VB be)
+                          (VP (VBN included)
+                            (PP (IN in)
+                              (NP (DT the) (NN blog)))))))))))))))
+    (. .)))
+
+
+det(reason-2, The-1)
+nsubj(is-8, reason-2)
+nsubj(blogging-5, I-3)
+aux(blogging-5, am-4)
+rcmod(reason-2, blogging-5)
+det(dish-7, this-6)
+dobj(blogging-5, dish-7)
+root(ROOT-0, is-8)
+mark(felt-14, that-9)
+nsubj(felt-14, some-10)
+prep(some-10, of-11)
+poss(makankakis-13, my-12)
+pobj(of-11, makankakis-13)
+ccomp(is-8, felt-14)
+det(soup-17, the-15)
+nn(soup-17, mutton-16)
+nsubj(good-19, soup-17)
+cop(good-19, is-18)
+ccomp(felt-14, good-19)
+advmod(good-19, enough-20)
+aux(included-23, to-21)
+auxpass(included-23, be-22)
+xcomp(good-19, included-23)
+prep(included-23, in-24)
+det(blog-26, the-25)
+pobj(in-24, blog-26)
+
+
+(ROOT
+  (S
+    (NP (NNS People))
+    (VP (VBP say)
+      (SBAR
+        (S
+          (VP (MD must)
+            (VP (VB try))))))
+    (, ,)))
+
+
+nsubj(say-2, People-1)
+root(ROOT-0, say-2)
+aux(try-4, must-3)
+ccomp(say-2, try-4)
+
+
+(ROOT
+  (S
+    (VP (VB try)
+      (NP (NN lah)))
+    (. !)))
+
+
+root(ROOT-0, try-1)
+dobj(try-1, lah-2)
+
+
+(ROOT
+  (FRAG
+    (PP (IN In)
+      (NP (NN case)))
+    (, ,)))
+
+
+root(ROOT-0, In-1)
+pobj(In-1, case-2)
+
+
+(ROOT
+  (S
+    (NP (PRP you))
+    (VP
+      (VP (VBP 're)
+        (PP (IN like)
+          (NP (PRP me))))
+      (CC and)
+      (VP
+        (ADVP (RB seldom))
+        (VBP eat)
+        (NP (NN mutton) (NN soup))))
+    (, ,)))
+
+
+nsubj('re-2, you-1)
+root(ROOT-0, 're-2)
+prep('re-2, like-3)
+pobj(like-3, me-4)
+cc('re-2, and-5)
+advmod(eat-7, seldom-6)
+conj('re-2, eat-7)
+nn(soup-9, mutton-8)
+dobj(eat-7, soup-9)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD will)
+      (ADVP (RB just))
+      (VP (VB say)
+        (SBAR (IN that)
+          (S
+            (NP (PRP it))
+            (VP (VBZ tastes)
+              (PP (IN like)
+                (NP
+                  (NP (DT a)
+                    (ADJP (RBR less) (JJ spicy))
+                    (NN version))
+                  (PP (IN of)
+                    (NP
+                      (NP (NN soup) (NN kambing))
+                      (PRN (-LRB- -LRB-)
+                        (NP (NNP Malay) (NNP Mutton) (NNP Soup))
+                        (-RRB- -RRB-)))))))))))
+    (. .)))
+
+
+nsubj(say-4, I-1)
+aux(say-4, will-2)
+advmod(say-4, just-3)
+root(ROOT-0, say-4)
+mark(tastes-7, that-5)
+nsubj(tastes-7, it-6)
+ccomp(say-4, tastes-7)
+prep(tastes-7, like-8)
+det(version-12, a-9)
+advmod(spicy-11, less-10)
+amod(version-12, spicy-11)
+pobj(like-8, version-12)
+prep(version-12, of-13)
+nn(kambing-15, soup-14)
+pobj(of-13, kambing-15)
+nn(Soup-19, Malay-17)
+nn(Soup-19, Mutton-18)
+appos(kambing-15, Soup-19)
+
+
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ 's)
+      (ADJP (RBR more) (JJ herbal)))
+    (, ,)))
+
+
+nsubj(herbal-4, It-1)
+cop(herbal-4, 's-2)
+advmod(herbal-4, more-3)
+root(ROOT-0, herbal-4)
+
+
+(ROOT
+  (S (CC but)
+    (NP
+      (NP (DT the) (NN taste)
+        (CC and)
+        (NN smell))
+      (PP (IN of)
+        (NP (DT the) (NN lamb))))
+    (VP (VBZ does)
+      (VP (VB come)
+        (PRT (RP through))))
+    (. .)))
+
+
+cc(come-10, but-1)
+det(taste-3, the-2)
+nsubj(come-10, taste-3)
+cc(taste-3, and-4)
+conj(taste-3, smell-5)
+prep(taste-3, of-6)
+det(lamb-8, the-7)
+pobj(of-6, lamb-8)
+aux(come-10, does-9)
+root(ROOT-0, come-10)
+prt(come-10, through-11)
+
+
+(ROOT
+  (S
+    (NP (PRP I))
+    (ADVP (RB actually))
+    (VP (VBD found)
+      (S
+        (NP (PRP it))
+        (ADJP
+          (ADJP (RB quite) (JJ pleasant))
+          (CC and)
+          (ADJP (RB not) (RB overly) (JJ herbal)))))
+    (. .)))
+
+
+nsubj(found-3, I-1)
+advmod(found-3, actually-2)
+root(ROOT-0, found-3)
+nsubj(pleasant-6, it-4)
+advmod(pleasant-6, quite-5)
+xcomp(found-3, pleasant-6)
+cc(pleasant-6, and-7)
+neg(herbal-10, not-8)
+advmod(herbal-10, overly-9)
+conj(pleasant-6, herbal-10)
+
+
+(ROOT
+  (S
+    (NP (DT Some) (NNS people))
+    (VP (MD might)
+      (VP (VB prefer)
+        (NP (DT the) (JJ strong) (JJ herbal) (NN taste))))
+    (. .)))
+
+
+det(people-2, Some-1)
+nsubj(prefer-4, people-2)
+aux(prefer-4, might-3)
+root(ROOT-0, prefer-4)
+det(taste-8, the-5)
+amod(taste-8, strong-6)
+amod(taste-8, herbal-7)
+dobj(prefer-4, taste-8)
+
+
+(ROOT
+  (FRAG
+    (NP
+      (NP (RB Not) (NN something))
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (VBP like)
+            (S
+              (VP (TO to)
+                (VP (VB take)
+                  (PP
+                    (PP (IN on)
+                      (NP (DT a) (JJ regular) (NN basis)))
+                    (CC but)
+                    (PP (IN if)
+                      (NP
+                        (NP (PRP you))
+                        (PP (IN like)
+                          (NP (NN mutton) (NN soup)))))
+                    (, ,)))))))))))
+
+
+neg(something-2, Not-1)
+root(ROOT-0, something-2)
+nsubj(like-4, I-3)
+rcmod(something-2, like-4)
+aux(take-6, to-5)
+xcomp(like-4, take-6)
+prep(take-6, on-7)
+det(basis-10, a-8)
+amod(basis-10, regular-9)
+pobj(on-7, basis-10)
+cc(on-7, but-11)
+conj(on-7, if-12)
+pobj(if-12, you-13)
+prep(you-13, like-14)
+nn(soup-16, mutton-15)
+pobj(like-14, soup-16)
+
+
+(ROOT
+  (S
+    (ADVP (RB then))
+    (NP (PRP you))
+    (VP (MD should)
+      (VP (VB know)
+        (SBAR (IN that)
+          (S
+            (NP (DT this))
+            (VP (VBZ is)
+              (NP
+                (NP (CD one))
+                (PP (IN of)
+                  (NP
+                    (NP (DT the) (NNS stores))
+                    (VP (VBN recommended)
+                      (PP (IN by)
+                        (NP (DT the) (JJ other) (NNS forummers))))))))))))
+    (. .)))
+
+
+advmod(know-4, then-1)
+nsubj(know-4, you-2)
+aux(know-4, should-3)
+root(ROOT-0, know-4)
+mark(one-8, that-5)
+nsubj(one-8, this-6)
+cop(one-8, is-7)
+ccomp(know-4, one-8)
+prep(one-8, of-9)
+det(stores-11, the-10)
+pobj(of-9, stores-11)
+partmod(stores-11, recommended-12)
+prep(recommended-12, by-13)
+det(forummers-16, the-14)
+amod(forummers-16, other-15)
+pobj(by-13, forummers-16)
+
+
