@@ -64,10 +64,10 @@ public class NLP {
 	public static void main(String[] args) {
 		printStatistics();
 		//tagAllXMLFiles();
-//		if (args.length != 1) {
-//			System.err.println("usage: java TypedDependenciesDemo filename");
-//			return;
-//		}
+		//		if (args.length != 1) {
+		//			System.err.println("usage: java TypedDependenciesDemo filename");
+		//			return;
+		//		}
 		//Properties prop = new Properties();
 		//prop.load(new FileInputStream("POS 5\\WL_2.tagger.props"));
 		//MaxentTagger mt = new MaxentTagger("POS 5\\WL_2.tagger",prop,true);
@@ -97,7 +97,7 @@ public class NLP {
 		}
 
 	}
-	
+
 	public static void defaultTagging(){
 		FileInputStream inputStream;
 		try {
@@ -110,24 +110,24 @@ public class NLP {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-        
+
 	}
-	
+
 	public static void trainOnCorrectedFiles(){
 		MaxentTagger mt = new MaxentTagger();
 		//mt.r
 	}
-	
+
 	public static void printStatistics(){
 		List<String> results = new ArrayList<String>();
 		File[] files = new File(TAGGED_XML_FILES_FOLDER).listFiles();
 		System.out.println("File Count: " + files.length);
-		
+
 		Properties prop = new Properties();
 		try {
 			prop.load(new FileInputStream(FINAL_TRAINED_TAGGER+".tagger.props"));
-			
-			
+
+
 		} catch (FileNotFoundException e1) {
 			e1.printStackTrace();
 		} catch (IOException e1) {
@@ -137,219 +137,246 @@ public class NLP {
 			MaxentTagger mt = new MaxentTagger(FINAL_TRAINED_TAGGER+".tagger",prop,true);
 			//return;
 		}catch(Exception e){
-			
+
 		}
-		
+
 		DocumentPreprocessor dp = new DocumentPreprocessor(new StringReader(""));
-		
+
 		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-        DocumentBuilder dBuilder;
-        
-        Corpus corpus;
-        //List<Word> wordList = db.Db4oHelper.getInstance().db().query(Word.class);
-        List<Corpus> corpusList = db.Db4oHelper.getInstance().db().query(Corpus.class);
-        
-        if(corpusList.size()==0){
-        	corpus = new Corpus();
-        }else{
-        	corpus = corpusList.get(0);
-        }
-        //db.Db4oHelper.getInstance().db().close();
-        
-        for(File f:files){
+		DocumentBuilder dBuilder;
+
+		Corpus corpus;
+		//List<Word> wordList = db.Db4oHelper.getInstance().db().query(Word.class);
+		List<Corpus> corpusList = db.Db4oHelper.getInstance().db().query(Corpus.class);
+
+		if(corpusList.size()==0){
+			corpus = new Corpus();
+			db.Db4oHelper.getInstance().db().store(corpus);
+		}else{
+			corpus = corpusList.get(0);
+		}
+		//db.Db4oHelper.getInstance().db().close();
+
+		for(File f:files){
 			if(f.getName().endsWith(".xml")){
 				try {
+					db.Db4oHelper.getInstance().db();
 					System.out.println(f.getName());
 					dBuilder = dbFactory.newDocumentBuilder();
 					org.w3c.dom.Document doc = dBuilder.parse(f);
-		            doc.getDocumentElement().normalize();
-		            Node textNode = doc.getElementsByTagName("text").item(0).getFirstChild();
-		            //List<Node> tagNodes = 
-		            String posTagged = textNode.getNodeValue();
-		            String[] tags = posTagged.split(" ");
-		            ArrayList<entities.Word> multiWordBuffer = new ArrayList<entities.Word>();
-		            for (String tag : tags){
-		            	String[] parts=tag.split("/");
-		            	
-		            	if(corpus.words.containsKey(parts[0].toLowerCase())){
-		            		entities.Word w = corpus.words.get(parts[0].toLowerCase());
-		            		//WordInformation wi = corpus.wordMap.get(parts[0].toLowerCase());
-		            		w.wordCount++;
-		            		w.addTag(parts[1]);
-		            		w.addDomain(f.getName());
-		            		db.Db4oHelper.getInstance().db().store(w);
-		            		//Add NN to multiword
-		            		if(parts[1].startsWith("NN")){
-		            			//While the multiword has not ended, add it to list
-		            			multiWordBuffer.add(w);
-		            		}else{
-		            			//else assemble the multi word and put it into corpus
-		            			if(multiWordBuffer.size()>1){
-		            				String combinedWord = "";
-		            				//Join the combined words buffer
-		            				for(entities.Word tmpWord:multiWordBuffer)
-		            					combinedWord+=tmpWord.word+ " ";
-		            				//Remove Trailing whitespace
-		            				combinedWord = combinedWord.substring(0, combinedWord.length()-1);
-		            				//if the corpus does not contain the word
-		            				if(!corpus.words.containsKey(combinedWord)){
-		            					//Create a combined word entity and fill it up
-		            					CombinedWord cw = new CombinedWord(combinedWord);
-		            					cw.addTag("NN");
-		            					cw.addDomain(f.getName());
-		            					for(entities.Word tmpWord:multiWordBuffer)
-			            					cw.wordParts.add(tmpWord);
-		            					corpus.words.put(combinedWord, cw);
-		            					db.Db4oHelper.getInstance().db().store(cw);
-		            				}else{
-		            					//update the exisiting combinedword entity if it already exists
-		            					CombinedWord cw = (CombinedWord) corpus.words.get(combinedWord);
-		            					cw.wordCount++;
-		            					cw.addTag("NN");
-		            					cw.addDomain(f.getName());
-		            					db.Db4oHelper.getInstance().db().store(cw);
-		            				}
-		            			}
-		            			//clear buffer in prep for next multi word
-		            			multiWordBuffer.clear();
-		            		}
-		            		
-		            	}else{
-		            		entities.Word w = new entities.Word(parts[0].toLowerCase());
-		            		w.tagsCount.put(parts[1], 1);
-		            		w.addTag(parts[1]);
-		            		w.addDomain(f.getName());
-		            		db.Db4oHelper.getInstance().db().store(w);
-		            		corpus.words.put(parts[0].toLowerCase(), w);
-		            		if(parts[1].startsWith("NN")){
-		            			//While the multiword has not ended, add it to list
-		            			multiWordBuffer.add(w);
-		            		}else{
-		            			//else assemble the multi word and put it into corpus
-		            			if(multiWordBuffer.size()>1){
-		            				String combinedWord = "";
-		            				//Join the combined words buffer
-		            				for(entities.Word tmpWord:multiWordBuffer)
-		            					combinedWord+=tmpWord.word+ " ";
-		            				//Remove Trailing whitespace
-		            				combinedWord = combinedWord.substring(0, combinedWord.length());
-		            				//if the corpus does not contain the word
-		            				if(!corpus.words.containsKey(combinedWord)){
-		            					//Create a combined word entity and fill it up
-		            					CombinedWord cw = new CombinedWord(combinedWord);
-		            					cw.addTag("NN");
-		            					cw.addDomain(f.getName());
-		            					for(entities.Word tmpWord:multiWordBuffer)
-			            					cw.wordParts.add(tmpWord);
-		            					corpus.words.put(combinedWord, cw);
-		            					db.Db4oHelper.getInstance().db().store(cw);
-		            				}else{
-		            					//update the exisiting combinedword entity if it already exists
-		            					CombinedWord cw = (CombinedWord) corpus.words.get(combinedWord);
-		            					
-		            					cw.wordCount++;
-		            					cw.addTag("NN");
-		            					cw.addDomain(f.getName());
-		            					db.Db4oHelper.getInstance().db().store(cw);
-		            				}
-		            			}
-		            			//clear buffer in prep for next multi word
-		            			multiWordBuffer.clear();
-		            		}
-		            	}
-		            }
+					doc.getDocumentElement().normalize();
+					Node textNode = doc.getElementsByTagName("text").item(0).getFirstChild();
+					//List<Node> tagNodes = 
+					String posTagged = textNode.getNodeValue();
+					String[] tags = posTagged.split(" ");
+					ArrayList<entities.Word> multiWordBuffer = new ArrayList<entities.Word>();
+
+					//if domain already exist in corpus, do nothing, else add domain to corpus
+					if(corpus.getDomains().containsKey(f.getName()));
+					else {
+						//creating new domain objects
+						entities.Domain d = new entities.Domain(f.getName());
+						
+						//extracting out tags
+						NodeList nl = doc.getElementsByTagName("tag");
+						for(int i=0;i<nl.getLength();i++){
+							for(String tag:nl.item(i).getFirstChild().getNodeValue().split(" "))
+								d.getTags().add(tag);
+						}
+
+						//add domain objects to corpus. Key == name of corpus, d == object that has been created
+						corpus.getDomains().put(f.getName(), d);
+						db.Db4oHelper.getInstance().db().store(d);
+						for (String tag : tags){
+							String[] parts=tag.split("/");
+
+							if(corpus.getWords().containsKey(parts[0].toLowerCase())){
+								entities.Word w = corpus.getWords().get(parts[0].toLowerCase());
+								//WordInformation wi = corpus.wordMap.get(parts[0].toLowerCase());
+								w.setWordCount(w.getWordCount()+1);
+								w.addTag(parts[1]);
+								w.addDomain(f.getName());
+								db.Db4oHelper.getInstance().db().store(w);
+								//Add NN to multiword
+								if(parts[1].startsWith("NN")){
+									//While the multiword has not ended, add it to list
+									multiWordBuffer.add(w);
+								}else{
+									//else assemble the multi word and put it into corpus
+									if(multiWordBuffer.size()>1){
+										String combinedWord = "";
+										//Join the combined words buffer
+										for(entities.Word tmpWord:multiWordBuffer)
+											combinedWord+=tmpWord.getWord()+ " ";
+										//Remove Trailing whitespace
+										combinedWord = combinedWord.substring(0, combinedWord.length()-1);
+										//if the corpus does not contain the word
+										if(!corpus.getWords().containsKey(combinedWord)){
+											//Create a combined word entity and fill it up
+											CombinedWord cw = new CombinedWord(combinedWord);
+											cw.addTag("NN");
+											cw.addDomain(f.getName());
+											for(entities.Word tmpWord:multiWordBuffer)
+												cw.getWordParts().add(tmpWord);
+											corpus.getWords().put(combinedWord, cw);
+											db.Db4oHelper.getInstance().db().store(cw);
+										}else{
+											//update the exisiting combinedword entity if it already exists
+											CombinedWord cw = (CombinedWord) corpus.getWords().get(combinedWord);
+											cw.setWordCount(cw.getWordCount()+1);
+											cw.addTag("NN");
+											cw.addDomain(f.getName());
+											db.Db4oHelper.getInstance().db().store(cw);
+										}
+									}
+									//clear buffer in prep for next multi word
+									multiWordBuffer.clear();
+									//put words into domain object
+									d.getWords().put(parts[0].toLowerCase(), w);
+									db.Db4oHelper.getInstance().db().commit();
+								}
+
+							}else{
+								entities.Word w = new entities.Word(parts[0].toLowerCase());
+								w.getTagsCount().put(parts[1], 1);
+								w.addTag(parts[1]);
+								w.addDomain(f.getName());
+								
+								corpus.getWords().put(parts[0].toLowerCase(), w);
+								db.Db4oHelper.getInstance().db().store(w);
+								//put words into domain object
+								d.getWords().put(parts[0].toLowerCase(), w);
+								if(parts[1].startsWith("NN")){
+									//While the multiword has not ended, add it to list
+									multiWordBuffer.add(w);
+								}else{
+									//else assemble the multi word and put it into corpus
+									if(multiWordBuffer.size()>1){
+										String combinedWord = "";
+										//Join the combined words buffer
+										for(entities.Word tmpWord:multiWordBuffer)
+											combinedWord+=tmpWord.getWord()+ " ";
+										//Remove Trailing whitespace
+										combinedWord = combinedWord.substring(0, combinedWord.length());
+										//if the corpus does not contain the word
+										if(!corpus.getWords().containsKey(combinedWord)){
+											//Create a combined word entity and fill it up
+											CombinedWord cw = new CombinedWord(combinedWord);
+											cw.addTag("NN");
+											cw.addDomain(f.getName());
+											for(entities.Word tmpWord:multiWordBuffer)
+												cw.getWordParts().add(tmpWord);
+											corpus.getWords().put(combinedWord, cw);
+											db.Db4oHelper.getInstance().db().store(cw);
+										}else{
+											//update the exisiting combinedword entity if it already exists
+											CombinedWord cw = (CombinedWord) corpus.getWords().get(combinedWord);
+
+											cw.setWordCount(cw.getWordCount()+1);
+											cw.addTag("NN");
+											cw.addDomain(f.getName());
+											db.Db4oHelper.getInstance().db().store(cw);
+										}
+									}
+									//clear buffer in prep for next multi word
+									multiWordBuffer.clear();
+								}
+							}
+						}
+					}
+					db.Db4oHelper.getInstance().db().close();
 				}catch (Exception e){
 					e.printStackTrace();
 				}
 			}
-        }
-        db.Db4oHelper.getInstance().db().store(corpus);
-        db.Db4oHelper.getInstance().db().commit();
-        
-        db.Db4oHelper.getInstance().db().close();
-        SyntacticTagging.createSyntacticTreesFromXML(corpus);
-        
+		}
+		//db.Db4oHelper.getInstance().db().store(corpus);
+
+		db.Db4oHelper.getInstance().db().close();
+		SyntacticTagging.createSyntacticTreesFromXML(corpus);
+
 		//dp.
 	}
-	
+
 	public static void printCompleteStatistics(Corpus corpus){
-		System.out.println("Total Number of Unique Words = " + corpus.words.size());
-        ArrayList<entities.Word > alwi = new ArrayList<>(corpus.words.values());
-        Comparator<entities.Word> c = new Comparator<entities.Word>() {
-			
+		System.out.println("Total Number of Domains: " + corpus.getDomains().size());
+		System.out.println("Total Number of Unique Words = " + corpus.getWords().size());
+		ArrayList<entities.Word > alwi = new ArrayList<>(corpus.getWords().values());
+		Comparator<entities.Word> c = new Comparator<entities.Word>() {
+
 			@Override
 			public int compare(entities.Word o1, entities.Word o2) {
-				if((o2.tagsCount.containsKey("NN")||(o2.tagsCount.containsKey("NNP"))&&(o1.tagsCount.containsKey("NN")||(o1.tagsCount.containsKey("NNP"))))){
-					int o2int = (o2.tagsCount.containsKey("NN")?o2.tagsCount.get("NN"):0) + (o2.tagsCount.containsKey("NNP")?o2.tagsCount.get("NNP"):0);
-					int o1int = (o1.tagsCount.containsKey("NN")?o1.tagsCount.get("NN"):0) + (o1.tagsCount.containsKey("NNP")?o1.tagsCount.get("NNP"):0);
+				if((o2.getTagsCount().containsKey("NN")||(o2.getTagsCount().containsKey("NNP"))&&(o1.getTagsCount().containsKey("NN")||(o1.getTagsCount().containsKey("NNP"))))){
+					int o2int = (o2.getTagsCount().containsKey("NN")?o2.getTagsCount().get("NN"):0) + (o2.getTagsCount().containsKey("NNP")?o2.getTagsCount().get("NNP"):0);
+					int o1int = (o1.getTagsCount().containsKey("NN")?o1.getTagsCount().get("NN"):0) + (o1.getTagsCount().containsKey("NNP")?o1.getTagsCount().get("NNP"):0);
 					return o2int - o1int;
 					//return o2.tagFrequency - o1.corpusFreqency ;
-				}else if(o2.tagsCount.containsKey("NN")||(o2.tagsCount.containsKey("NNP"))){
+				}else if(o2.getTagsCount().containsKey("NN")||(o2.getTagsCount().containsKey("NNP"))){
 					return 1;
-				}else if(o1.tagsCount.containsKey("NN")||(o1.tagsCount.containsKey("NNP"))){
+				}else if(o1.getTagsCount().containsKey("NN")||(o1.getTagsCount().containsKey("NNP"))){
 					return -1;
 				}return 0;
-				
+
 			}
 		};
 		Collections.sort(alwi,c);
-        for(entities.Word wi : alwi){
-        	System.out.println(wi.word + " appeared " + wi.tagsCount + "\nIn"+ wi.domainCount.size() + " unique domains " + wi.domainCount);
-        	System.out.println("Number of links to: " + wi.linksTo.size() + " " + wi.linksTo);
-        	System.out.println("Number of links from: " + wi.linkedFrom.size() + " " + wi.linkedFrom);
-//        	Iterator it = wi.tagsCount.entrySet().iterator();
-//        	while(it.hasNext()){
-//        		Map.Entry pairs = (Map.Entry)it.next();
-//        		System.out.println((String)pairs.getKey() + " : " + (Integer)pairs.getValue());
-//        		it.remove();
-//        	}
-        	System.out.println();
-        }
-        System.out.println();
-        System.out.println();
+		for(entities.Word wi : alwi){
+			System.out.println(wi.getWord() + " appeared " + wi.getTagsCount() + "\nIn"+ wi.getDomainCount().size() + " unique domains " + wi.getDomainCount());
+			System.out.println("Number of links to: " + wi.getLinksTo().size() + " " + wi.getLinksTo());
+			System.out.println("Number of links from: " + wi.getLinkedFrom().size() + " " + wi.getLinkedFrom());
+			//        	Iterator it = wi.getTagsCount().entrySet().iterator();
+			//        	while(it.hasNext()){
+			//        		Map.Entry pairs = (Map.Entry)it.next();
+			//        		System.out.println((String)pairs.getKey() + " : " + (Integer)pairs.getValue());
+			//        		it.remove();
+			//        	}
+			System.out.println();
+		}
+		System.out.println();
+		System.out.println();
 	}
-	
+
 	public static void tagAllXMLFiles(){
 		List<String> results = new ArrayList<String>();
 		File[] files = new File(UNTAGGED_XML_FILES_FOLDER).listFiles();
 		System.out.println("File Count: " + files.length);
-		
+
 		Properties prop = new Properties();
 		try {
 			prop.load(new FileInputStream(FINAL_TRAINED_TAGGER+".tagger.props"));
-			
+
 		} catch (FileNotFoundException e1) {
 			e1.printStackTrace();
 		} catch (IOException e1) {
 			e1.printStackTrace();
 		}
 		MaxentTagger mt = new MaxentTagger(FINAL_TRAINED_TAGGER+".tagger",prop,true);
-		
-		
+
+
 		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-        DocumentBuilder dBuilder;
-        
+		DocumentBuilder dBuilder;
+
 		FileInputStream inputStream;
-		
+
 		for(File f:files){
 			if(f.getName().endsWith(".xml")){
 				try {
 					dBuilder = dbFactory.newDocumentBuilder();
 					org.w3c.dom.Document doc = dBuilder.parse(f);
-		            doc.getDocumentElement().normalize();
-		            Node textNode = doc.getElementsByTagName("text").item(0).getFirstChild();
-		            String posUntagged = textNode.getNodeValue();
-		            
-		            textNode.setNodeValue(mt.tagString(posUntagged));
+					doc.getDocumentElement().normalize();
+					Node textNode = doc.getElementsByTagName("text").item(0).getFirstChild();
+					String posUntagged = textNode.getNodeValue();
+
+					textNode.setNodeValue(mt.tagString(posUntagged));
 
 
-		            doc.getDocumentElement().normalize();
-		            TransformerFactory transformerFactory = TransformerFactory.newInstance();
-		            Transformer transformer = transformerFactory.newTransformer();
-		            DOMSource source = new DOMSource(doc);
-		            StreamResult result = new StreamResult(new File(TAGGED_XML_FILES_FOLDER+"\\"+f.getName()));
-		            transformer.setOutputProperty(OutputKeys.INDENT, "yes");
-		            transformer.transform(source, result);
+					doc.getDocumentElement().normalize();
+					TransformerFactory transformerFactory = TransformerFactory.newInstance();
+					Transformer transformer = transformerFactory.newTransformer();
+					DOMSource source = new DOMSource(doc);
+					StreamResult result = new StreamResult(new File(TAGGED_XML_FILES_FOLDER+"\\"+f.getName()));
+					transformer.setOutputProperty(OutputKeys.INDENT, "yes");
+					transformer.transform(source, result);
 				} catch (FileNotFoundException e) {
 					e.printStackTrace();
 				} catch (IOException e) {
@@ -364,10 +391,10 @@ public class NLP {
 					e.printStackTrace();
 				}
 			}
-			
+
 		}
 
 	}
-	
-	
+
+
 }

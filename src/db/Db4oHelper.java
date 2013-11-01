@@ -7,6 +7,7 @@ import com.db4o.Db4oEmbedded;
 import com.db4o.ObjectContainer;
 import com.db4o.config.CommonConfiguration;
 import com.db4o.config.EmbeddedConfiguration;
+import com.db4o.ta.DeactivatingRollbackStrategy;
 import com.db4o.ta.TransparentActivationSupport;
 import com.db4o.ta.TransparentPersistenceSupport;
 
@@ -53,20 +54,23 @@ public class Db4oHelper {
 
 	    private static EmbeddedConfiguration dbConfig() throws IOException {
 	           EmbeddedConfiguration configuration = Db4oEmbedded.newConfiguration();
-	           
-	           configuration.common().objectClass(Corpus.class).cascadeOnUpdate(true);
-	           configuration.common().objectClass(Corpus.class).updateDepth(25);
-	           configuration.common().objectClass(Domain.class).cascadeOnUpdate(true);
-	           configuration.common().objectClass(CombinedWord.class).cascadeOnUpdate(true);
-	           configuration.common().objectClass(CombinedWord.class).updateDepth(25);
-	           configuration.common().objectClass(Word.class).cascadeOnUpdate(true);
-	           configuration.common().objectClass(Word.class).updateDepth(25);
-	           configuration.common().objectClass(Links.class).cascadeOnUpdate(true);
-	           configuration.common().objectClass(Links.class).updateDepth(25);
-	           configuration.common().objectClass(HashMap.class).cascadeOnUpdate(true);
-	           
-	           configuration.common().objectClass(Corpus.class).cascadeOnDelete(true);
 	           configuration.common().add(new TransparentActivationSupport());
+	           configuration.common().add(new TransparentPersistenceSupport());
+	           configuration.common().objectClass(Corpus.class).cascadeOnUpdate(true);
+	           configuration.common().objectClass(Corpus.class).updateDepth(45);
+//	           configuration.common().objectClass(Domain.class).cascadeOnUpdate(true);
+//	           configuration.common().objectClass(Domain.class).updateDepth(25);
+//	           configuration.common().objectClass(CombinedWord.class).cascadeOnUpdate(true);
+//	           configuration.common().objectClass(CombinedWord.class).updateDepth(25);
+//	           configuration.common().objectClass(Word.class).cascadeOnUpdate(true);
+//	           configuration.common().objectClass(Word.class).updateDepth(25);
+//	           configuration.common().objectClass(Links.class).cascadeOnUpdate(true);
+//	           configuration.common().objectClass(Links.class).updateDepth(25);
+//	           configuration.common().objectClass(HashMap.class).cascadeOnUpdate(true);
+//	           configuration.common().objectClass(HashMap.class).updateDepth(25);
+	           
+//	           configuration.common().objectClass(Corpus.class).cascadeOnDelete(true);
+	           
 	           return configuration;
 	    }
 }
