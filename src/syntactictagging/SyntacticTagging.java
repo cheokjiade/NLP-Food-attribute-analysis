@@ -138,7 +138,7 @@ public class SyntacticTagging {
 		for(File f:files){
 			if(f.getName().endsWith(".xml")){
 				try {
-					db.Db4oHelper.getInstance().db();
+					//db.Db4oHelper.getInstance().db();
 					System.out.println(f.getName());
 					dBuilder = dbFactory.newDocumentBuilder();
 					org.w3c.dom.Document doc = dBuilder.parse(f);
@@ -175,23 +175,14 @@ public class SyntacticTagging {
 								if(td.reln().toString().equals("advmod")||td.reln().toString().equals("acomp")||td.reln().toString().equals("amod")||td.reln().toString().equals("conj")||td.reln().toString().equals("nsubj")){
 									System.out.println(td.toString());
 									//System.out.println(td.reln());
-									//There is an existing link from dep to gov
-									//			    	        	  if(corpus.words.get(td.dep().nodeString()).linksTo.containsKey(td.gov().nodeString())){
-									//			    	        		  corpus.words.get(td.dep().nodeString()).linksTo.get(td.gov().nodeString()).linkCount++;
-									//			    	        		  corpus.words.get(td.dep().nodeString()).linksTo.get(td.gov().nodeString()).addDomain(f.getName());
-									//			    	        	  }else{
-									//			    	        		  
-									//			    	        	  }
-									//			    	        	  if(corpus.words.get(td.gov().nodeString()).linksTo.containsKey(td.dep().nodeString())){
-									//			    	        		  corpus.words.get(td.gov().nodeString()).linksTo.get(td.dep().nodeString()).linkCount++;
-									//			    	        		  corpus.words.get(td.gov().nodeString()).linksTo.get(td.dep().nodeString()).addDomain(f.getName());
-									//			    	        	  }
 									String[] posSplitSentence = posTaggedSentence.split(" ");
 									db.Db4oHelper.getInstance().db();
-									entities.Word govWord = corpus.getWords().get(td.gov().nodeString().toLowerCase());
-									entities.Word depWord = corpus.getWords().get(td.dep().nodeString().toLowerCase());
+									String gov = td.gov().nodeString().toLowerCase();
+									String dep = td.dep().nodeString().toLowerCase();
+									entities.Word govWord = corpus.getWords().get(gov);
+									entities.Word depWord = corpus.getWords().get(dep);
 
-									entities.Links linkedFrom = govWord.getLinkedFrom().get(td.gov().nodeString().toLowerCase());
+									entities.Links linkedFrom = govWord.getLinkedFrom().get(gov);
 									if(linkedFrom==null){
 										entities.Links newLink = new Links(govWord,posSplitSentence[td.gov().index()-1].split("/")[1], depWord,posSplitSentence[td.dep().index()-1].split("/")[1]);
 										newLink.addDomain(f.getName());
@@ -232,7 +223,7 @@ public class SyntacticTagging {
 
 
 				}catch(Exception e){
-
+					e.printStackTrace();
 				}
 			}
 

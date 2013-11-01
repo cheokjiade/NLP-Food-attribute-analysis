@@ -3,7 +3,11 @@ package viewer;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.Date;
+import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 import java.util.Scanner;
 
 import postagging.NLP;
@@ -55,13 +59,35 @@ public class Viewer {
         while(true){
         	System.out.println("Which Word do you want to view? ");
         	String wordString = console.nextLine();
-        	Word w = corpus.getWords().get(wordString);
-        	System.out.print(w.getWord() + " links to : ");
-        	for(Links l: w.getLinksTo().values())System.out.print(l.getSubject().getWord() + " , ");
-        	System.out.println();
-        	System.out.print(w.getWord() + " is linked from :");
-        	for(Links l: w.getLinkedFrom().values())System.out.print(l.getObject().getWord() + " , ");
-        	System.out.println();
+        	String[] inputs = wordString.split(" ");
+        	//Word w = corpus.getWords().get(wordString);
+        	HashSet<Word> wordList = new HashSet<Word>();
+        	Iterator it = corpus.getWords().entrySet().iterator();
+    	    while (it.hasNext()) {
+    	        Map.Entry pairs = (Map.Entry)it.next();
+    	        for(String input: inputs){
+	    	        if(((String)pairs.getKey()).contains(input)){
+	    	        	Word tmpWord = (Word)pairs.getValue();
+	    	        	if(tmpWord.getLinksTo().size()+tmpWord.getLinkedFrom().size()>0){
+	    	        		wordList.add(tmpWord);
+	    	        	}
+	    	        	
+	    	        }
+    	        }
+    	        it.remove(); // avoids a ConcurrentModificationException
+    	    }
+        	
+        	//if (w==null) continue;
+    	    if(wordList.size()==0)continue;
+	    	    for(Word w:wordList){
+	        	System.out.print(w.getWord() + " links to : ");
+	        	for(Links l: w.getLinksTo().values())System.out.print(l.getSubject().getWord() + "-" + l.getSubjectTag() +" , ");
+	        	System.out.println();
+	        	System.out.print(w.getWord() + " is linked from :");
+	        	for(Links l: w.getLinkedFrom().values())System.out.print(l.getObject().getWord() + "-" + l.getObjectTag() +" , ");
+	        	System.out.println();
+	        	System.out.println();
+    	    }
         }
         //NLP.printCompleteStatistics(corpus);
 	}
