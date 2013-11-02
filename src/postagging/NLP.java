@@ -2,10 +2,12 @@ package postagging;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
+import java.util.TreeSet;
 
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 import edu.stanford.nlp.process.DocumentPreprocessor;
@@ -41,6 +43,8 @@ import org.apache.commons.io.IOUtils;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
+
+
 
 
 
@@ -397,4 +401,39 @@ public class NLP {
 	}
 
 
+	public static void getAllAdj(){
+		TreeSet<String> adjSet = new TreeSet<String>();
+		File[] files = new File(TAGGED_XML_FILES_FOLDER).listFiles();
+		System.out.println("File Count: " + files.length);
+		DocumentPreprocessor dp = new DocumentPreprocessor(new StringReader(""));
+
+		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+		DocumentBuilder dBuilder;
+
+		
+		//db.Db4oHelper.getInstance().db().close();
+
+		for(File f:files){
+			if(f.getName().endsWith(".xml")){
+				try {
+					System.out.println(f.getName());
+					dBuilder = dbFactory.newDocumentBuilder();
+					org.w3c.dom.Document doc = dBuilder.parse(f);
+					doc.getDocumentElement().normalize();
+					Node textNode = doc.getElementsByTagName("text").item(0).getFirstChild();
+					//List<Node> tagNodes = 
+					String posTagged = textNode.getNodeValue();
+					String[] tags = posTagged.split(" ");
+					if(tags[1].startsWith("JJ")){
+						adjSet.add(tags[0]);
+					}
+				}catch(Exception e){
+					e.printStackTrace();
+				}
+			}
+		}
+		for(String s : adjSet){
+			System.out.println(s);
+		}
+	}
 }
