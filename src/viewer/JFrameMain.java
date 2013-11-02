@@ -31,9 +31,12 @@
 package viewer;
 import java.awt.*;
 import java.awt.event.*;
+import java.util.ArrayList;
+import java.util.HashSet;
 
 import javax.swing.*;
 
+import entities.Word;
 import viewer.Test.CheckBoxListener;
 /* FrameDemo.java requires no other files. */
 public class JFrameMain {
@@ -44,17 +47,12 @@ public class JFrameMain {
      */
 	
 	static StringBuffer choices;
-    JLabel jlbPicture;
     static CheckBoxListener myListener = null;
-	
-	static JCheckBox jcbChin;
-	static JCheckBox jcbGlasses;
-	static JCheckBox jcbHair;
-	static JCheckBox jcbTeeth;
+	static ArrayList<JCheckBox> jcbList = new ArrayList<JCheckBox>();
     
     private static void createAndShowGUI() {
         //Create and set up the window.
-        JFrame frame = new JFrame("NLP Food Analysis");
+        final JFrame frame = new JFrame("NLP Food Analysis");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         JLabel emptyLabel = new JLabel("");
         emptyLabel.setPreferredSize(new Dimension(450, 400));
@@ -80,27 +78,10 @@ public class JFrameMain {
         
         // Create the check boxes with default selection true for all check boxes
         
-        jcbChin = new JCheckBox("Chin");
-        jcbChin.setMnemonic(KeyEvent.VK_C);			//Alt+C Checks/Unchecks the check Box 
-        jcbChin.setSelected(true);
-        jcbChin.addItemListener(myListener);
-        
-        jcbGlasses = new JCheckBox("Glasses");
-        jcbGlasses.setMnemonic(KeyEvent.VK_G); 		//Alt+G Checks/Unchecks the check Box 
-        jcbGlasses.setSelected(true);
-        jcbGlasses.addItemListener(myListener);
-        
-        jcbHair = new JCheckBox("Hair");
-        jcbHair.setMnemonic(KeyEvent.VK_H); 		//Alt+H Checks/Unchecks the check Box 
-        jcbHair.setSelected(true);
-        jcbHair.addItemListener(myListener);
-
-        jcbTeeth = new JCheckBox("Teeth");
-        jcbTeeth.setMnemonic(KeyEvent.VK_T); 		//Alt+T Checks/Unchecks the check Box 
-        jcbTeeth.setSelected(true);
-        jcbTeeth.addItemListener(myListener);
-  
-       		
+        //jcbChin = new JCheckBox("Chin");
+        //jcbChin.setMnemonic(KeyEvent.VK_C);			//Alt+C Checks/Unchecks the check Box 
+        //jcbChin.setSelected(true);
+        //jcbChin.addItemListener(myListener);
 
         // Indicates what's on the geek.
         choices = new StringBuffer("cght");			//Default Image has all the parts.
@@ -110,12 +91,8 @@ public class JFrameMain {
         //jlbPicture.setToolTipText(choices.toString().trim());
 
         // Put the check boxes in a column in a panel
-        JPanel jplCheckBox = new JPanel();
+        final JPanel jplCheckBox = new JPanel();
         jplCheckBox.setLayout(new GridLayout(0, 1));		//0 rows, 1 Column
-        jplCheckBox.add(jcbChin);
-        jplCheckBox.add(jcbGlasses);
-        jplCheckBox.add(jcbHair);
-        jplCheckBox.add(jcbTeeth);
 
         //setLayout(new BorderLayout());
         frame.add(jplCheckBox, BorderLayout.WEST);
@@ -127,9 +104,23 @@ public class JFrameMain {
 			
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
+				int counter=0;
 				// TODO Auto-generated method stub
 				String submitText = field.getText();
-				Viewer.searchByKeyWords(submitText);
+				HashSet<Word> adjSet = Viewer.searchByKeyWords(submitText);
+				db.Db4oHelper.getInstance().db();
+				for(JCheckBox jcbTmp:jcbList)
+				jplCheckBox.remove(jcbTmp);
+				jcbList.clear();
+				if (adjSet!=null){
+					for(Word w : adjSet){
+						JCheckBox jcb = new JCheckBox(w.getWord());
+						jplCheckBox.add(jcb);
+						jcbList.add(jcb);
+					}
+				frame.pack();
+				}
+				db.Db4oHelper.getInstance().db().close();
 			}
 		});
 //        // add the listener to the jbutton to handle the "pressed" event

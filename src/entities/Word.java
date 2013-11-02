@@ -3,6 +3,7 @@ package entities;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
+import java.util.Map.Entry;
 
 import com.db4o.activation.ActivationPurpose;
 import com.db4o.activation.Activator;
@@ -29,15 +30,16 @@ public class Word implements Activatable{
 	
 	public String gethighestTagCount(){
 		activate(ActivationPurpose.READ);
-		Map.Entry highestPair=null;
-		Iterator it = getTagsCount().entrySet().iterator();
+		ActivatableHashMap.Entry<String,Integer> highestPair=null;
+		Iterator<Entry<String, Integer>> it = getTagsCount().entrySet().iterator();
 	    while (it.hasNext()) {
-	        Map.Entry pairs = (Map.Entry)it.next();
+	    	ActivatableHashMap.Entry<String,Integer> pairs = (Map.Entry)it.next();
 	        if(highestPair==null||((Integer)pairs.getValue())>((Integer)highestPair.getValue()))
 	        	highestPair=pairs;
 	        it.remove(); // avoids a ConcurrentModificationException
 	    }
-	    return (String)highestPair.getKey();
+	    if(highestPair==null) return null;
+	    return highestPair.getKey();
 	}
 	public void addTag(String tag){
 		activate(ActivationPurpose.WRITE);

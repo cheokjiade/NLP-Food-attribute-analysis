@@ -57,7 +57,7 @@ public class Viewer {
 		}
 	}
 
-	public static void searchByKeyWords(String inputString){
+	public static HashSet<Word> searchByKeyWords(String inputString){
 		String[] inputs = inputString.split(" ");
     	//Word w = corpus.getWords().get(wordString);
     	HashSet<Word> wordList = new HashSet<Word>();
@@ -87,7 +87,8 @@ public class Viewer {
 	    }
     	
     	//if (w==null) continue;
-	    if(wordList.size()==0)return;
+	    if(wordList.size()==0)return null;
+	    HashSet<Word> adjSet = new HashSet<>();
     	    for(Word w:wordList){
     	    	
         	System.out.print(w.getWord() + " links to : ");
@@ -96,11 +97,19 @@ public class Viewer {
         	System.out.println();
         	ArrayList<List<Word>> wordChainList = new ArrayList<List<Word>>();
         	findAdjChain( w,MAX_DEPTH,wordChainList);
+        	
+        	for(List<Word> tmpWordList : wordChainList){
+        		for(Word tmpWord :tmpWordList){
+        			String tmpTag = tmpWord.gethighestTagCount();
+        			if(tmpTag!=null && tmpTag.startsWith("JJ"))adjSet.add(tmpWord);
+        		}
+        	}
         	for(Links l: w.getLinkedFrom().values())System.out.print(l.getObject().getWord() + "-" + l.getObjectTag() +" , ");
         	System.out.println();
         	System.out.println();
 	    }
     	    db.Db4oHelper.getInstance().db().close();
+    	    return adjSet;
 	}
 	
 	public static void main(String[] args) {
