@@ -57,6 +57,52 @@ public class Viewer {
 		}
 	}
 
+	public static void searchByKeyWords(String inputString){
+		String[] inputs = inputString.split(" ");
+    	//Word w = corpus.getWords().get(wordString);
+    	HashSet<Word> wordList = new HashSet<Word>();
+    	Corpus corpus;
+    	List<Corpus> corpusList = db.Db4oHelper.getInstance().db().query(Corpus.class);
+        
+        if(corpusList.size()==0){
+        	corpus = new Corpus();
+        }else{
+        	corpus = corpusList.get(0);
+        }
+    	
+    	Iterator it = corpus.getWords().entrySet().iterator();
+	    while (it.hasNext()) {
+	        Map.Entry pairs = (Map.Entry)it.next();
+	        for(String input: inputs){
+    	        if(((String)pairs.getKey()).contains(input)){
+    	        	Word tmpWord = (Word)pairs.getValue();
+    	        	//wordList.add(tmpWord);
+    	        	if(tmpWord.getLinksTo().size()+tmpWord.getLinkedFrom().size()>0){
+    	        		wordList.add(tmpWord);
+    	        	}
+    	        	
+    	        }
+	        }
+	        it.remove(); // avoids a ConcurrentModificationException
+	    }
+    	
+    	//if (w==null) continue;
+	    if(wordList.size()==0)return;
+    	    for(Word w:wordList){
+    	    	
+        	System.out.print(w.getWord() + " links to : ");
+        	for(Links l: w.getLinksTo().values())System.out.print(l.getSubject().getWord() + "-" + l.getSubjectTag() +" , ");
+        	System.out.print(w.getWord() + " is linked from :");
+        	System.out.println();
+        	findAdjChain( w,3);
+        	System.out.println();
+        	for(Links l: w.getLinkedFrom().values())System.out.print(l.getObject().getWord() + "-" + l.getObjectTag() +" , ");
+        	System.out.println();
+        	System.out.println();
+	    }
+    	    db.Db4oHelper.getInstance().db().close();
+	}
+	
 	public static void main(String[] args) {
 		listAllWords();
 		Scanner console = new Scanner(System.in);
