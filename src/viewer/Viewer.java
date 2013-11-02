@@ -16,7 +16,7 @@ import entities.Links;
 import entities.Word;
 
 public class Viewer {
-	
+	public static final int MAX_DEPTH = 5;
 	public static void listAllWords(){
 		Corpus corpus;
         //List<Word> wordList = db.Db4oHelper.getInstance().db().query(Word.class);
@@ -94,8 +94,8 @@ public class Viewer {
         	for(Links l: w.getLinksTo().values())System.out.print(l.getSubject().getWord() + "-" + l.getSubjectTag() +" , ");
         	System.out.print(w.getWord() + " is linked from :");
         	System.out.println();
-        	findAdjChain( w,3);
-        	System.out.println();
+        	ArrayList<List<Word>> wordChainList = new ArrayList<List<Word>>();
+        	findAdjChain( w,3,wordChainList);
         	for(Links l: w.getLinkedFrom().values())System.out.print(l.getObject().getWord() + "-" + l.getObjectTag() +" , ");
         	System.out.println();
         	System.out.println();
@@ -144,10 +144,12 @@ public class Viewer {
 	    	    	
 	        	System.out.print(w.getWord() + " links to : ");
 	        	for(Links l: w.getLinksTo().values())System.out.print(l.getSubject().getWord() + "-" + l.getSubjectTag() +" , ");
+	        	System.out.println();
 	        	System.out.print(w.getWord() + " is linked from :");
 	        	System.out.println();
-	        	findAdjChain( w,3);
-	        	System.out.println();
+	        	ArrayList<List<Word>> wordChainList = new ArrayList<List<Word>>();
+	        	findAdjChain( w,3,wordChainList);
+	        	for(List<Word> wordChain: wordChainList)System.out.println(wordChain);
 	        	for(Links l: w.getLinkedFrom().values())System.out.print(l.getObject().getWord() + "-" + l.getObjectTag() +" , ");
 	        	System.out.println();
 	        	System.out.println();
@@ -157,12 +159,19 @@ public class Viewer {
         //NLP.printCompleteStatistics(corpus);
 	}
 	
-	public static void findAdjChain(Word w,int levelsLeft){
+	public static void findAdjChain(Word w,int levelsLeft, ArrayList<List<Word>> wordChainList){
 		if(levelsLeft==0)return;
+		if(levelsLeft==MAX_DEPTH){
+			List newWordChain = new ArrayList<Word>();
+			newWordChain.add(w);
+			wordChainList.add(newWordChain);
+		}else{
+			wordChainList.get(wordChainList.size()-1).add(w);
+		}
 		for(Links l: w.getLinkedFrom().values()){
     		if(l.getObjectTag().startsWith("JJ")||l.getObjectTag().startsWith("RB")){
-    			System.out.println(multiplyString(" ",(5-levelsLeft)) + l.getObject().getWord() + "-" +l.getObjectTag() + " ");
-    			findAdjChain(l.getObject(),levelsLeft-1);
+    			System.out.println(multiplyString(" ",(MAX_DEPTH-levelsLeft)) + l.getObject().getWord() + "-" +l.getObjectTag() + " ");
+    			findAdjChain(l.getObject(),levelsLeft-1,wordChainList);
     		}
     	}
 	}
