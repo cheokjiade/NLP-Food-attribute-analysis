@@ -33,6 +33,8 @@ import java.awt.*;
 import java.awt.event.*;
 
 import javax.swing.*;
+
+import viewer.Test.CheckBoxListener;
 /* FrameDemo.java requires no other files. */
 public class JFrameMain {
     /**
@@ -40,6 +42,16 @@ public class JFrameMain {
      * this method should be invoked from the
      * event-dispatching thread.
      */
+	
+	static StringBuffer choices;
+    JLabel jlbPicture;
+    static CheckBoxListener myListener = null;
+	
+	static JCheckBox jcbChin;
+	static JCheckBox jcbGlasses;
+	static JCheckBox jcbHair;
+	static JCheckBox jcbTeeth;
+    
     private static void createAndShowGUI() {
         //Create and set up the window.
         JFrame frame = new JFrame("NLP Food Analysis");
@@ -61,6 +73,55 @@ public class JFrameMain {
         btn1.setPreferredSize(new Dimension(40, 40));
         btn1.setText("Search for stalls");
         frame.add(btn1);
+        
+     // Add an item listener for each of the check boxes.
+    	// This is the listener class which contains business logic for the item events
+        //myListener = new CheckBoxListener();
+        
+        // Create the check boxes with default selection true for all check boxes
+        
+        jcbChin = new JCheckBox("Chin");
+        jcbChin.setMnemonic(KeyEvent.VK_C);			//Alt+C Checks/Unchecks the check Box 
+        jcbChin.setSelected(true);
+        jcbChin.addItemListener(myListener);
+        
+        jcbGlasses = new JCheckBox("Glasses");
+        jcbGlasses.setMnemonic(KeyEvent.VK_G); 		//Alt+G Checks/Unchecks the check Box 
+        jcbGlasses.setSelected(true);
+        jcbGlasses.addItemListener(myListener);
+        
+        jcbHair = new JCheckBox("Hair");
+        jcbHair.setMnemonic(KeyEvent.VK_H); 		//Alt+H Checks/Unchecks the check Box 
+        jcbHair.setSelected(true);
+        jcbHair.addItemListener(myListener);
+
+        jcbTeeth = new JCheckBox("Teeth");
+        jcbTeeth.setMnemonic(KeyEvent.VK_T); 		//Alt+T Checks/Unchecks the check Box 
+        jcbTeeth.setSelected(true);
+        jcbTeeth.addItemListener(myListener);
+  
+       		
+
+        // Indicates what's on the geek.
+        choices = new StringBuffer("cght");			//Default Image has all the parts.
+
+        // Set up the picture label
+        //jlbPicture = new JLabel(new ImageIcon("geek-" + choices.toString().trim() + ".gif"));
+        //jlbPicture.setToolTipText(choices.toString().trim());
+
+        // Put the check boxes in a column in a panel
+        JPanel jplCheckBox = new JPanel();
+        jplCheckBox.setLayout(new GridLayout(0, 1));		//0 rows, 1 Column
+        jplCheckBox.add(jcbChin);
+        jplCheckBox.add(jcbGlasses);
+        jplCheckBox.add(jcbHair);
+        jplCheckBox.add(jcbTeeth);
+
+        //setLayout(new BorderLayout());
+        frame.add(jplCheckBox, BorderLayout.WEST);
+        //add(jlbPicture, BorderLayout.CENTER);
+        //frame.setBorder(BorderFactory.createEmptyBorder(20,20,20,20));
+        
         
         btn1.addActionListener(new ActionListener() {
 			

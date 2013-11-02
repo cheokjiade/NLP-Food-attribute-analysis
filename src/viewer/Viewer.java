@@ -95,7 +95,7 @@ public class Viewer {
         	System.out.print(w.getWord() + " is linked from :");
         	System.out.println();
         	ArrayList<List<Word>> wordChainList = new ArrayList<List<Word>>();
-        	findAdjChain( w,3,wordChainList);
+        	findAdjChain( w,MAX_DEPTH,wordChainList);
         	for(Links l: w.getLinkedFrom().values())System.out.print(l.getObject().getWord() + "-" + l.getObjectTag() +" , ");
         	System.out.println();
         	System.out.println();
@@ -148,7 +148,7 @@ public class Viewer {
 	        	System.out.print(w.getWord() + " is linked from :");
 	        	System.out.println();
 	        	ArrayList<List<Word>> wordChainList = new ArrayList<List<Word>>();
-	        	findAdjChain( w,3,wordChainList);
+	        	findAdjChain( w,MAX_DEPTH,wordChainList);
 	        	for(List<Word> wordChain: wordChainList)System.out.println(wordChain);
 	        	for(Links l: w.getLinkedFrom().values())System.out.print(l.getObject().getWord() + "-" + l.getObjectTag() +" , ");
 	        	System.out.println();
@@ -166,7 +166,7 @@ public class Viewer {
 			newWordChain.add(w);
 			wordChainList.add(newWordChain);
 		}else{
-			wordChainList.get(wordChainList.size()-1).add(w);
+			wordChainList.get((wordChainList.size()-1)).add(w);
 		}
 		for(Links l: w.getLinkedFrom().values()){
     		if(l.getObjectTag().startsWith("JJ")||l.getObjectTag().startsWith("RB")){
