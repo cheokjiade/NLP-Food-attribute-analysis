@@ -1,6 +1,7 @@
 package entities;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 
 import com.db4o.activation.ActivationPurpose;
@@ -25,7 +26,21 @@ public class Word implements Activatable{
 		linksTo = new ActivatableHashMap<>();
 		linkedFrom = new ActivatableHashMap<>();
 	}
+	
+	public String gethighestTagCount(){
+		activate(ActivationPurpose.READ);
+		Map.Entry highestPair=null;
+		Iterator it = getTagsCount().entrySet().iterator();
+	    while (it.hasNext()) {
+	        Map.Entry pairs = (Map.Entry)it.next();
+	        if(highestPair==null||((Integer)pairs.getValue())>((Integer)highestPair.getValue()))
+	        	highestPair=pairs;
+	        it.remove(); // avoids a ConcurrentModificationException
+	    }
+	    return (String)highestPair.getKey();
+	}
 	public void addTag(String tag){
+		activate(ActivationPurpose.WRITE);
 		if(tagsCount.containsKey(tag)){
 			tagsCount.put(tag, tagsCount.get(tag).intValue()+1);
 		}else{
@@ -34,6 +49,7 @@ public class Word implements Activatable{
 	}
 	
 	public void addDomain(String domain){
+		activate(ActivationPurpose.WRITE);
 		if(domainCount.containsKey(domain)){
 			domainCount.put(domain, domainCount.get(domain).intValue()+1);
 		}else{

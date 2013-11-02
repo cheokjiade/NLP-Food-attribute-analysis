@@ -16,9 +16,8 @@ import entities.Links;
 import entities.Word;
 
 public class Viewer {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
+	public static void listAllWords(){
 		Corpus corpus;
         //List<Word> wordList = db.Db4oHelper.getInstance().db().query(Word.class);
 		 //List<Links> linksList = db.Db4oHelper.getInstance().db().query(Links.class);
@@ -30,7 +29,7 @@ public class Viewer {
         	corpus = corpusList.get(0);
         }
         System.out.println(corpus.getDomains().size());
-        Scanner console = new Scanner(System.in);
+        
         ArrayList<entities.Word > alwi = new ArrayList<>(corpus.getWords().values());
 		Comparator<entities.Word> c = new Comparator<entities.Word>() {
 
@@ -56,18 +55,33 @@ public class Viewer {
 			System.out.println("Number of links from: " + wi.getLinkedFrom().size() + " " + wi.getLinkedFrom());
 			System.out.println();
 		}
+	}
+
+	public static void main(String[] args) {
+		listAllWords();
+		Scanner console = new Scanner(System.in);
         while(true){
         	System.out.println("Which Word do you want to view? ");
         	String wordString = console.nextLine();
         	String[] inputs = wordString.split(" ");
         	//Word w = corpus.getWords().get(wordString);
         	HashSet<Word> wordList = new HashSet<Word>();
+        	Corpus corpus;
+        	List<Corpus> corpusList = db.Db4oHelper.getInstance().db().query(Corpus.class);
+            
+            if(corpusList.size()==0){
+            	corpus = new Corpus();
+            }else{
+            	corpus = corpusList.get(0);
+            }
+        	
         	Iterator it = corpus.getWords().entrySet().iterator();
     	    while (it.hasNext()) {
     	        Map.Entry pairs = (Map.Entry)it.next();
     	        for(String input: inputs){
 	    	        if(((String)pairs.getKey()).contains(input)){
 	    	        	Word tmpWord = (Word)pairs.getValue();
+	    	        	//wordList.add(tmpWord);
 	    	        	if(tmpWord.getLinksTo().size()+tmpWord.getLinkedFrom().size()>0){
 	    	        		wordList.add(tmpWord);
 	    	        	}
@@ -80,16 +94,37 @@ public class Viewer {
         	//if (w==null) continue;
     	    if(wordList.size()==0)continue;
 	    	    for(Word w:wordList){
+	    	    	
 	        	System.out.print(w.getWord() + " links to : ");
 	        	for(Links l: w.getLinksTo().values())System.out.print(l.getSubject().getWord() + "-" + l.getSubjectTag() +" , ");
-	        	System.out.println();
 	        	System.out.print(w.getWord() + " is linked from :");
+	        	System.out.println();
+	        	findAdjChain( w,3);
+	        	System.out.println();
 	        	for(Links l: w.getLinkedFrom().values())System.out.print(l.getObject().getWord() + "-" + l.getObjectTag() +" , ");
 	        	System.out.println();
 	        	System.out.println();
     	    }
+	    	    db.Db4oHelper.getInstance().db().close();
         }
         //NLP.printCompleteStatistics(corpus);
 	}
+	
+	public static void findAdjChain(Word w,int levelsLeft){
+		if(levelsLeft==0)return;
+		for(Links l: w.getLinkedFrom().values()){
+    		if(l.getObjectTag().startsWith("JJ")||l.getObjectTag().startsWith("RB")){
+    			System.out.println(multiplyString(" ",(5-levelsLeft)) + l.getObject().getWord() + "-" +l.getObjectTag() + " ");
+    			findAdjChain(l.getObject(),levelsLeft-1);
+    		}
+    	}
+	}
+	public static String multiplyString(String s,int i){
+		   String result="";
+		   for(;i>0;i--){
+		       result += s;   //for appending strings
+		   }
+		return result;
+		}
 
 }
