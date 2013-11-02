@@ -188,7 +188,7 @@ public class NLP {
 							for(String tag:nl.item(i).getFirstChild().getNodeValue().split(" "))
 								d.getTags().add(tag);
 						}
-
+						d.setDomain(doc.getElementsByTagName("source").item(0).getFirstChild().getNodeValue());
 						//add domain objects to corpus. Key == name of corpus, d == object that has been created
 						corpus.getDomains().put(f.getName(), d);
 						db.Db4oHelper.getInstance().db().store(d);

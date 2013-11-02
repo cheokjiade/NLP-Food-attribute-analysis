@@ -12,6 +12,7 @@ import com.db4o.ta.Activatable;
 
 public class Domain implements Activatable{
 	private transient Activator _activator;
+	private String source;
 	private String domain;
 	private ActivatableHashMap<String, Word> words;
 	private ActivatableHashSet<String> tags;
@@ -62,5 +63,19 @@ public class Domain implements Activatable{
 	public ActivatableHashSet<String> getTags() {
 		activate(ActivationPurpose.READ);
 		return tags;
+	}
+	/**
+	 * @return the source
+	 */
+	public String getSource() {
+		activate(ActivationPurpose.READ);
+		return source;
+	}
+	/**
+	 * @param source the source to set
+	 */
+	public void setSource(String source) {
+		activate(ActivationPurpose.WRITE);
+		this.source = source;
 	}
 }
