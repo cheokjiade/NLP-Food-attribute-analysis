@@ -113,7 +113,7 @@ public class SyntacticTagging {
 		}
 	}
 
-	public static void createSyntacticTreesFromXML(Corpus corpus){
+	public static void createSyntacticTreesFromXML(){
 		File[] files = new File(TAGGED_XML_FILES_FOLDER).listFiles();
 		System.out.println("File Count: " + files.length);
 
@@ -127,17 +127,13 @@ public class SyntacticTagging {
 
 		//List<Word> wordList = db.Db4oHelper.getInstance().db().query(Word.class);
 		//if(corpus==null){
-			List<Corpus> corpusList = db.Db4oHelper.getInstance().db().query(Corpus.class);
-
-			if(corpusList.size()==0){
-				corpus = new Corpus();
-			}else{
-				corpus = corpusList.get(0);
-			}
 		
+
 		for(File f:files){
 			if(f.getName().endsWith(".xml")){
 				try {
+					
+					
 					//db.Db4oHelper.getInstance().db();
 					System.out.println(f.getName());
 					dBuilder = dbFactory.newDocumentBuilder();
@@ -176,12 +172,17 @@ public class SyntacticTagging {
 									System.out.println(td.toString());
 									//System.out.println(td.reln());
 									String[] posSplitSentence = posTaggedSentence.split(" ");
-									db.Db4oHelper.getInstance().db();
 									String gov = td.gov().nodeString().toLowerCase();
 									String dep = td.dep().nodeString().toLowerCase();
+									List<Corpus> corpusList = db.Db4oHelper.getInstance().db().query(Corpus.class);
+									Corpus corpus;
+									if(corpusList.size()==0){
+										corpus = new Corpus();
+									}else{
+										corpus = corpusList.get(0);
+									}
 									entities.Word govWord = corpus.getWords().get(gov);
 									entities.Word depWord = corpus.getWords().get(dep);
-
 									entities.Links linkedFrom = govWord.getLinkedFrom().get(gov);
 									if(linkedFrom==null){
 										entities.Links newLink = new Links(govWord,posSplitSentence[td.gov().index()-1].split("/")[1], depWord,posSplitSentence[td.dep().index()-1].split("/")[1]);
@@ -195,17 +196,18 @@ public class SyntacticTagging {
 										linkedFrom.setLinkCount(linkedFrom.getLinkCount()+1);;
 										linkedFrom.addDomain(f.getName());
 										db.Db4oHelper.getInstance().db().commit();
-										
+
 									}
 
 									//System.out.println(td.gov().nodeString() + " " + td.gov().index() + posSplitSentence[td.gov().index()-1].split("/")[1]);
 									//System.out.println(td.dep().nodeString() + " " + td.dep().index() + posSplitSentence[td.dep().index()-1].split("/")[1]);
 
-				    	        	  
-				    	        	  //db.Db4oHelper.getInstance().db().store(govWord);
-				    	        	  //db.Db4oHelper.getInstance().db().store(depWord);
-				    	        	  //db.Db4oHelper.getInstance().db().store(corpus);
-				    	        	  //db.Db4oHelper.getInstance().db().store(govWord.linkedFrom);
+
+									//db.Db4oHelper.getInstance().db().store(govWord);
+									//db.Db4oHelper.getInstance().db().store(depWord);
+									//db.Db4oHelper.getInstance().db().store(corpus);
+									//db.Db4oHelper.getInstance().db().store(govWord.linkedFrom);
+									db.Db4oHelper.getInstance().db().close();
 								}
 							}
 
@@ -230,7 +232,7 @@ public class SyntacticTagging {
 		}
 		//db.Db4oHelper.getInstance().db().store(corpus);
 		db.Db4oHelper.getInstance().db().close();
-		NLP.printCompleteStatistics(corpus);
+		//NLP.printCompleteStatistics(corpus);
 	}
 
 	public static void createSyntacticTrees(String s){
