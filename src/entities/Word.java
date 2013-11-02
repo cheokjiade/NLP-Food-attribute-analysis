@@ -41,19 +41,19 @@ public class Word implements Activatable{
 	}
 	public void addTag(String tag){
 		activate(ActivationPurpose.WRITE);
-		if(tagsCount.containsKey(tag)){
-			tagsCount.put(tag, tagsCount.get(tag).intValue()+1);
+		if(getTagsCount().containsKey(tag)){
+			getTagsCount().put(tag, getTagsCount().get(tag).intValue()+1);
 		}else{
-			tagsCount.put(tag, 1);
+			getTagsCount().put(tag, 1);
 		}
 	}
 	
 	public void addDomain(String domain){
 		activate(ActivationPurpose.WRITE);
-		if(domainCount.containsKey(domain)){
-			domainCount.put(domain, domainCount.get(domain).intValue()+1);
+		if(getDomainCount().containsKey(domain)){
+			getDomainCount().put(domain, getDomainCount().get(domain).intValue()+1);
 		}else{
-			domainCount.put(domain, 1);
+			getDomainCount().put(domain, 1);
 		}
 	}
 	/* (non-Javadoc)

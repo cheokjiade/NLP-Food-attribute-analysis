@@ -145,22 +145,22 @@ public class NLP {
 		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 		DocumentBuilder dBuilder;
 
-		Corpus corpus;
-		//List<Word> wordList = db.Db4oHelper.getInstance().db().query(Word.class);
-		List<Corpus> corpusList = db.Db4oHelper.getInstance().db().query(Corpus.class);
-
-		if(corpusList.size()==0){
-			corpus = new Corpus();
-			db.Db4oHelper.getInstance().db().store(corpus);
-		}else{
-			corpus = corpusList.get(0);
-		}
+		
 		//db.Db4oHelper.getInstance().db().close();
 
 		for(File f:files){
 			if(f.getName().endsWith(".xml")){
 				try {
-					db.Db4oHelper.getInstance().db();
+					Corpus corpus;
+					//List<Word> wordList = db.Db4oHelper.getInstance().db().query(Word.class);
+					List<Corpus> corpusList = db.Db4oHelper.getInstance().db().query(Corpus.class);
+
+					if(corpusList.size()==0){
+						corpus = new Corpus();
+						db.Db4oHelper.getInstance().db().store(corpus);
+					}else{
+						corpus = corpusList.get(0);
+					}
 					System.out.println(f.getName());
 					dBuilder = dbFactory.newDocumentBuilder();
 					org.w3c.dom.Document doc = dBuilder.parse(f);
@@ -293,7 +293,7 @@ public class NLP {
 		//db.Db4oHelper.getInstance().db().store(corpus);
 
 		db.Db4oHelper.getInstance().db().close();
-		SyntacticTagging.createSyntacticTreesFromXML(corpus);
+		SyntacticTagging.createSyntacticTreesFromXML();
 
 		//dp.
 	}
