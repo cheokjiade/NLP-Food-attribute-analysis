@@ -61,6 +61,7 @@ public class Viewer {
 		listAllWords();
 		Scanner console = new Scanner(System.in);
         while(true){
+        	db.Db4oHelper.getInstance().db().close();
         	System.out.println("Which Word do you want to view? ");
         	String wordString = console.nextLine();
         	String[] inputs = wordString.split(" ");
