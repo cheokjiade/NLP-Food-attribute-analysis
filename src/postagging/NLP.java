@@ -67,6 +67,7 @@ public class NLP {
 	public static final String FINAL_TRAINED_TAGGER = "nlpTrain";
 	public static void main(String[] args) {
 		printStatistics();
+		//getAllAdj();
 		//tagAllXMLFiles();
 		//		if (args.length != 1) {
 		//			System.err.println("usage: java TypedDependenciesDemo filename");
@@ -424,8 +425,10 @@ public class NLP {
 					//List<Node> tagNodes = 
 					String posTagged = textNode.getNodeValue();
 					String[] tags = posTagged.split(" ");
-					if(tags[1].startsWith("JJ")){
-						adjSet.add(tags[0]);
+					for(String tag:tags){
+						if(tag.split("/")[1].startsWith("JJ")){
+							adjSet.add(tag.split("/")[0]);
+						}
 					}
 				}catch(Exception e){
 					e.printStackTrace();

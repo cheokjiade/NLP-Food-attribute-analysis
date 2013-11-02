@@ -67,7 +67,7 @@ public class JFrameMain {
         btn.setBounds(600, 400, 220, 30);
         frame.add(btn);
         
-        JButton btn1 = new JButton();
+        final JButton btn1 = new JButton();
         btn1.setPreferredSize(new Dimension(40, 40));
         btn1.setText("Search for stalls");
         frame.add(btn1);
@@ -104,7 +104,9 @@ public class JFrameMain {
 			
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				int counter=0;
+				if(field.getText().equals(""))return;
+				btn1.setEnabled(false);
+				
 				// TODO Auto-generated method stub
 				String submitText = field.getText();
 				HashSet<Word> adjSet = Viewer.searchByKeyWords(submitText);
@@ -121,6 +123,7 @@ public class JFrameMain {
 				frame.pack();
 				}
 				db.Db4oHelper.getInstance().db().close();
+				btn1.setEnabled(true);
 			}
 		});
 //        // add the listener to the jbutton to handle the "pressed" event
