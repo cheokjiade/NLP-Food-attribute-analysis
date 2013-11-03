@@ -1,6 +1,7 @@
 package viewer;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Date;
@@ -12,6 +13,7 @@ import java.util.Scanner;
 
 import postagging.NLP;
 import entities.Corpus;
+import entities.Domain;
 import entities.Links;
 import entities.Word;
 
@@ -57,6 +59,37 @@ public class Viewer {
 		}
 	}
 
+	public static HashSet<Domain> findCommonDomains(Collection<Word> wordList){
+		HashSet<Domain> domainSet = new HashSet<Domain>();
+		HashSet<String> domainNameSet =null;
+		Iterator<Word> wIter = wordList.iterator();
+		Corpus corpus;
+        List<Corpus> corpusList = db.Db4oHelper.getInstance().db().query(Corpus.class);
+        
+        if(corpusList.size()==0){
+        	corpus = new Corpus();
+        }else{
+        	corpus = corpusList.get(0);
+        }
+		
+		while(wIter.hasNext()){
+			if(domainNameSet==null){
+				Word w = wIter.next();
+				domainNameSet = new HashSet<String>(w.getDomainCount().keySet());
+			}
+			else{
+				domainNameSet.retainAll(wIter.next().getDomainCount().keySet());
+			}
+		}
+		if(domainNameSet!=null){
+			for(String domainNameString:domainNameSet){
+				domainSet.add(corpus.getDomains().get(domainNameString));
+			}
+		}
+		db.Db4oHelper.getInstance().db().close();	
+		return domainSet;
+	}
+	
 	public static HashSet<Word> searchByKeyWords(String inputString){
 		String[] inputs = inputString.split(" ");
     	//Word w = corpus.getWords().get(wordString);
@@ -191,5 +224,17 @@ public class Viewer {
 		   }
 		return result;
 		}
+	
+	public <T> List<T> intersection(List<T> list1, List<T> list2) {
+        List<T> list = new ArrayList<T>();
+
+        for (T t : list1) {
+            if(list2.contains(t)) {
+                list.add(t);
+            }
+        }
+
+        return list;
+    }
 
 }
