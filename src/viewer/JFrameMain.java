@@ -32,10 +32,12 @@ package viewer;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashSet;
 
 import javax.swing.*;
 
+import entities.Domain;
 import entities.Word;
 import viewer.Test.CheckBoxListener;
 /* FrameDemo.java requires no other files. */
@@ -47,23 +49,20 @@ public class JFrameMain {
 	public static boolean RIGHT_TO_LEFT = false;
 	final static JFrame frame = new JFrame("NLP Food Analysis");
 	
-	public static void addComponentsToPane(Container pane) {
+public static void addComponentsToPane(Container pane) {
 		
 		//Create and set up the window.
 //				final JFrame frame = new JFrame("NLP Food Analysis");
 //				frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
-
 		if (!(pane.getLayout() instanceof BorderLayout)) {
 			pane.add(new JLabel("Container doesn't use BorderLayout!"));
 			return;
 		}
-
 		if (RIGHT_TO_LEFT) {
 			pane.setComponentOrientation(
 					java.awt.ComponentOrientation.RIGHT_TO_LEFT);
 		}
-
 		JTabbedPane tabbedPane = new JTabbedPane();
 		final JButton btn = new JButton("Search for food");
 		final JPanel foodNamePanel= new JPanel();
@@ -71,6 +70,7 @@ public class JFrameMain {
 		final JTextField field = new JTextField(20);
 		final JPanel foodCornerPanel = new JPanel();
 		final JPanel jplCheckBox = new JPanel();
+		final JPanel sourcePanel = new JPanel();
 		
 		//Search textbox section
 		foodNamePanel.add(lblFood);
@@ -86,9 +86,17 @@ public class JFrameMain {
 		foodCornerPanel.add(jplCheckBox);
 		foodCornerPanel.setLayout(new BoxLayout(foodCornerPanel, BoxLayout.Y_AXIS));
 		final JLabel plsSelect = new JLabel("Please select: ");
-
+		
+		//to get source
+		final JButton jbtn = new JButton("Get source");
+		//final JTextArea source = new JTextArea("source here");
+		final JButton Viewbtn = new JButton("View in browser");
+		sourcePanel.add(jbtn);
+		Viewbtn.setVisible(false);
+		sourcePanel.add(Viewbtn);
+		//sourcePanel.add(source);
+		
 		btn.addActionListener(new ActionListener() {
-
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				
@@ -109,6 +117,8 @@ public class JFrameMain {
 						jplCheckBox.add(jcb);
 						jcbList.add(jcb);
 					}
+					
+					foodCornerPanel.add(sourcePanel);
 					frame.pack();
 				}
 				db.Db4oHelper.getInstance().db().close();
@@ -118,20 +128,96 @@ public class JFrameMain {
 				frame.setExtendedState(Frame.MAXIMIZED_BOTH); 
 			}
 		});
+		
+			jbtn.addActionListener(new ActionListener() {
+			
+			/*
+			1. keyvalue of word domain count 
+			2. search in corpus
+			3. domains will be return. get source here*/
+					
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				// TODO Auto-generated method stub
+				
+				//Collection<Word> wordList = null;
+				Collection<String> wordList = new ArrayList<String>();
+				
+				String w1 = new String(field.getText()); 
+				//Word w1 = new Word(field.getText()); 
+	            wordList.add(w1);
+				
+	            
+				for (JCheckBox checkbox : jcbList) {
 
-
-
+			        if (checkbox.isSelected()) {
+			            System.out.println(checkbox.getText());
+			            
+			            //String submitText = field.getText();
+			            
+			            
+			            //get value of selected checkbox
+			            //String selectedAdj = checkbox.getText();
+			            
+			            String nw = checkbox.getText();
+			            //Word nw = new Word(checkbox.getText());
+			            wordList.add(nw);
+			            
+			            //Collection<Word> wordAdjList;
+			           // wordAdjList.add(selectedAdj);
+			            
+			            //Word tmpWord = (Word)checkbox.getText();
+			           
+			            
+			        }
+			    }//end of for loop
+				System.out.println("Passing this list to Viewer: " + wordList);
+		           HashSet<Domain> xmlSource = Viewer.findCommonDomains(wordList);
+		           // HashSet<Domain> xmlSource = Viewer.searchByAdjs(submitText, selectedAdj);
+		            
+		            System.out.println("xml source: " + xmlSource);
+		            
+		            db.Db4oHelper.getInstance().db();
+		            
+		            if (xmlSource !=null) {
+		            	
+		            	JTextArea sourcelink = new JTextArea();
+		            	
+		            	for (Domain d : xmlSource){
+		            		//JTextArea sourceLink = new JTextArea(d.getSource());
+		            		
+		            		sourcelink.setText(d.getSource());
+		            		sourcePanel.add(sourcelink);
+		            	}
+		            }
+		            db.Db4oHelper.getInstance().db().close();
+		            sourcePanel.validate();
+					frame.pack();
+					frame.setExtendedState(Frame.MAXIMIZED_BOTH); 
+					Viewbtn.setVisible(true);
+		            //display the source
+		            //source.setText(selectedAdj);
+			}
+		});
+		
 		tabbedPane.add("Food Corners", foodCornerPanel);
 		JPanel listAttr = new JPanel();
-		JLabel lblAttr = new JLabel("Please select attributes:");
-		listAttr.add(lblAttr);
-		tabbedPane.add("Store Corners", listAttr);
+
+		JLabel lblAttr1 = new JLabel("<html>Developed by:<br /><br />Lead Developer Cheok Jia De<br />June Quak Ren Feng<br />Peh Weileng<br />Sri Hartati<br />Lim Guan</html>");
+		
+		
+		listAttr.add(lblAttr1);
+		
+		tabbedPane.add("About Us", listAttr);
 		tabbedPane.setSelectedIndex(0);
 		
 		pane.add(tabbedPane);
 		frame.pack();
 		
 	}
+	
+	
+	
 
 
 

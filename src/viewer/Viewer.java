@@ -59,34 +59,44 @@ public class Viewer {
 		}
 	}
 
-	public static HashSet<Domain> findCommonDomains(Collection<Word> wordList){
+	public static HashSet<Domain> findCommonDomains(Collection<String> wordList){
 		HashSet<Domain> domainSet = new HashSet<Domain>();
 		HashSet<String> domainNameSet =null;
-		Iterator<Word> wIter = wordList.iterator();
+		Iterator<String> wIter = wordList.iterator();
 		Corpus corpus;
-        List<Corpus> corpusList = db.Db4oHelper.getInstance().db().query(Corpus.class);
-        
-        if(corpusList.size()==0){
-        	corpus = new Corpus();
-        }else{
-        	corpus = corpusList.get(0);
-        }
-		
+		List<Corpus> corpusList = db.Db4oHelper.getInstance().db().query(Corpus.class);
+
+		if(corpusList.size()==0){
+			corpus = new Corpus();
+		}else{
+			corpus = corpusList.get(0);
+		}
+
 		while(wIter.hasNext()){
 			if(domainNameSet==null){
-				Word w = wIter.next();
-				domainNameSet = new HashSet<String>(w.getDomainCount().keySet());
+				String w = wIter.next();
+				domainNameSet = new HashSet<String>(corpus.getWords().get(w).getDomainCount().keySet());
 			}
 			else{
-				domainNameSet.retainAll(wIter.next().getDomainCount().keySet());
+				domainNameSet.retainAll(corpus.getWords().get(wIter.next()).getDomainCount().keySet());
 			}
 		}
+		System.out.println(domainNameSet);
 		if(domainNameSet!=null){
 			for(String domainNameString:domainNameSet){
-				domainSet.add(corpus.getDomains().get(domainNameString));
+				
+				
+				if (domainSet.contains(corpus.getDomains().get(domainNameString))){
+					
+				}
+				else{
+					domainSet.add(corpus.getDomains().get(domainNameString));
+					System.out.println("Returning to JFrame :" + domainSet);
+				}
+				
 			}
 		}
-		db.Db4oHelper.getInstance().db().close();	
+		//db.Db4oHelper.getInstance().db().close();        
 		return domainSet;
 	}
 	
