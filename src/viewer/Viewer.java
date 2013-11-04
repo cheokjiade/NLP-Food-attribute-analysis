@@ -59,51 +59,6 @@ public class Viewer {
 		}
 	}
 
-	public static HashSet<Domain> findCommonDomains(Collection<String> wordList){
-		HashSet<Domain> domainSet = new HashSet<Domain>();
-		HashSet<String> domainNameSet =null;
-		Iterator<String> wIter = wordList.iterator();
-		Corpus corpus;
-		List<Corpus> corpusList = db.Db4oHelper.getInstance().db().query(Corpus.class);
-
-		if(corpusList.size()==0){
-			corpus = new Corpus();
-		}else{
-			corpus = corpusList.get(0);
-		}
-
-		while(wIter.hasNext()){
-			if(domainNameSet==null){
-				String w = wIter.next();
-				domainNameSet = new HashSet<String>(corpus.getWords().get(w).getDomainCount().keySet());
-			}
-			else{
-				domainNameSet.retainAll(corpus.getWords().get(wIter.next()).getDomainCount().keySet());
-			}
-		}
-		System.out.println(domainNameSet);
-		if(domainNameSet!=null){
-			for(String domainNameString:domainNameSet){
-				
-				
-				if (domainSet.contains(corpus.getDomains().get(domainNameString))){
-					
-				}
-				else{
-					domainSet.add(corpus.getDomains().get(domainNameString));
-					System.out.println("Returning to JFrame :" + domainSet);
-				}
-				
-			}
-		}
-<<<<<<< .merge_file_a05820
-		//db.Db4oHelper.getInstance().db().close();        
-=======
-		//db.Db4oHelper.getInstance().db().close();	
->>>>>>> .merge_file_a05356
-		return domainSet;
-	}
-	
 	public static HashSet<Word> searchByKeyWords(String inputString){
 		String[] inputs = inputString.split(" ");
     	//Word w = corpus.getWords().get(wordString);
@@ -158,6 +113,126 @@ public class Viewer {
     	    db.Db4oHelper.getInstance().db().close();
     	    return adjSet;
 	}
+	
+	public static HashSet<Domain> searchByAdjs(String inputString, String selectedAdj){
+		String selectedCheckboxAdj = selectedAdj;
+		String[] inputs = inputString.split(" ");
+		
+		HashSet<Word> wordList = new HashSet<Word>();
+		HashSet<Domain> domainSet = new HashSet<Domain>();
+		HashSet<String> domainNameSet =null;
+		
+		Corpus corpus;
+    	List<Corpus> corpusList = db.Db4oHelper.getInstance().db().query(Corpus.class);
+    	
+    	if(corpusList.size()==0){
+        	corpus = new Corpus();
+        }else{
+        	corpus = corpusList.get(0);
+        }
+    	
+//    	Iterator it = corpus.getDomains().entrySet().iterator();
+//    	while (it.hasNext()) {
+//    		 Map.Entry pairs = (Map.Entry)it.next();
+//    		 if(((String)pairs.getKey()).contains(selectedAdj)){
+//    			 Word tmpWord = (Word)pairs.getValue();
+//    			 System.out.println("Source:  " + tmpWord);
+//    		 }
+//    	}
+    	
+    	Iterator it = corpus.getWords().entrySet().iterator();
+	    while (it.hasNext()) {
+	        Map.Entry pairs = (Map.Entry)it.next();
+	        for(String input: inputs){
+    	        if(((String)pairs.getKey()).contains(input)){
+    	        	Word tmpWord = (Word)pairs.getValue();
+    	        	//wordList.add(tmpWord);
+    	        	if(tmpWord.getLinksTo().size()+tmpWord.getLinkedFrom().size()>0){
+    	        		wordList.add(tmpWord);
+    	        		
+    	        		if(tmpWord.getLinksTo().values().contains(selectedCheckboxAdj)){
+    	        			domainNameSet = new HashSet<String>(tmpWord.getDomainCount().keySet());
+    	        			for(String domainNameString:domainNameSet){
+    	        				 domainSet.add(corpus.getDomains().get(domainNameString));
+    	        			}
+    	        		}
+    	        	}
+    	        	
+    	        }
+	        }
+	        it.remove(); // avoids a ConcurrentModificationException
+	    }
+    	
+    	//if (w==null) continue;
+	    //if(wordList.size()==0)return null;
+//	    HashSet<Word> adjSet = new HashSet<>();
+//    	    for(Word w:wordList){
+//    	    	
+//        	System.out.print(w.getWord() + " links to : ");
+//        	for(Links l: w.getLinksTo().values())System.out.print(l.getSubject().getWord() + "-" + l.getSubjectTag() +" , ");
+//        	System.out.print(w.getWord() + " is linked from :");
+//        	System.out.println();
+//        	ArrayList<List<Word>> wordChainList = new ArrayList<List<Word>>();
+//        	findAdjChain( w,MAX_DEPTH,wordChainList);
+//        	
+//        	for(List<Word> tmpWordList : wordChainList){
+//        		for(Word tmpWord :tmpWordList){
+//        			String tmpTag = tmpWord.gethighestTagCount();
+//        			if(tmpTag!=null && tmpTag.startsWith("JJ"))adjSet.add(tmpWord);
+//        		}
+//        	}
+//        	for(Links l: w.getLinkedFrom().values())System.out.print(l.getObject().getWord() + "-" + l.getObjectTag() +" , ");
+//        	System.out.println();
+//        	System.out.println();
+//	    }
+//    	    db.Db4oHelper.getInstance().db().close();
+	    db.Db4oHelper.getInstance().db().close();    
+		return domainSet;
+		
+	}
+	
+	public static HashSet<Domain> findCommonDomains(Collection<String> wordList){
+		HashSet<Domain> domainSet = new HashSet<Domain>();
+		HashSet<String> domainNameSet =null;
+		Iterator<String> wIter = wordList.iterator();
+		Corpus corpus;
+		List<Corpus> corpusList = db.Db4oHelper.getInstance().db().query(Corpus.class);
+
+		if(corpusList.size()==0){
+			corpus = new Corpus();
+		}else{
+			corpus = corpusList.get(0);
+		}
+
+		while(wIter.hasNext()){
+			if(domainNameSet==null){
+				String w = wIter.next();
+				domainNameSet = new HashSet<String>(corpus.getWords().get(w).getDomainCount().keySet());
+			}
+			else{
+				domainNameSet.retainAll(corpus.getWords().get(wIter.next()).getDomainCount().keySet());
+			}
+		}
+		System.out.println(domainNameSet);
+		if(domainNameSet!=null){
+			for(String domainNameString:domainNameSet){
+				
+				
+				if (domainSet.contains(corpus.getDomains().get(domainNameString))){
+					
+				}
+				else{
+					domainSet.add(corpus.getDomains().get(domainNameString));
+					System.out.println("Returning to JFrame :" + domainSet);
+				}
+				
+			}
+		}
+		//db.Db4oHelper.getInstance().db().close();        
+		return domainSet;
+	}
+		 
+	
 	
 	public static void main(String[] args) {
 		listAllWords();
@@ -238,17 +313,5 @@ public class Viewer {
 		   }
 		return result;
 		}
-	
-	public <T> List<T> intersection(List<T> list1, List<T> list2) {
-        List<T> list = new ArrayList<T>();
-
-        for (T t : list1) {
-            if(list2.contains(t)) {
-                list.add(t);
-            }
-        }
-
-        return list;
-    }
 
 }
