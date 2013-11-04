@@ -96,7 +96,11 @@ public class Viewer {
 				
 			}
 		}
+<<<<<<< .merge_file_a05820
 		//db.Db4oHelper.getInstance().db().close();        
+=======
+		//db.Db4oHelper.getInstance().db().close();	
+>>>>>>> .merge_file_a05356
 		return domainSet;
 	}
 	
